@@ -1,0 +1,14 @@
+{
+  "name": "areazine-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetcher.js",
+    "process": "node processor.js",
+    "publish": "node publisher.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}

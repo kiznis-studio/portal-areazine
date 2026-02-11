@@ -1,0 +1,28 @@
+services:
+  fetcher:
+    build: .
+    command: node fetcher.js
+    restart: unless-stopped
+    volumes:
+      - ${DATA_DIR:-/storage/areazine}:/data
+    env_file: .env
+    mem_limit: 512m
+
+  processor:
+    build: .
+    command: node processor.js
+    restart: unless-stopped
+    volumes:
+      - ${DATA_DIR:-/storage/areazine}:/data
+    env_file: .env
+    mem_limit: 1g
+
+  publisher:
+    build: .
+    command: node publisher.js
+    restart: unless-stopped
+    volumes:
+      - ${DATA_DIR:-/storage/areazine}:/data
+      - ${REPO_DIR:-/opt/areazine/repo}:/repo
+    env_file: .env
+    mem_limit: 256m
