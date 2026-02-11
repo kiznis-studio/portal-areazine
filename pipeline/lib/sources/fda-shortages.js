@@ -9,30 +9,19 @@
  * per drug (multiple manufacturers/presentations may be in shortage).
  */
 
-import { readFileSync } from 'fs';
-import { resolve, dirname } from 'path';
-import { fileURLToPath } from 'url';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
-function loadApiKey() {
-  try {
-    // Try portal-level key first, then env var
-    const keyPath = resolve(__dirname, '../../../keys/data-gov-api-key.txt');
-    return readFileSync(keyPath, 'utf-8').trim();
-  } catch {
-    return process.env.DATA_GOV_API_KEY || '';
-  }
-}
-
-function fmtDateFDA(d) {
-  return d.toISOString().split('T')[0].replace(/-/g, '');
-}
-
 function daysAgo(n) {
   const d = new Date();
   d.setDate(d.getDate() - n);
   return d;
+}
+
+/**
+ * Parse FDA's MM/DD/YYYY date format to a Date object.
+ */
+function parseFDADate(str) {
+  if (!str) return null;
+  const [m, d, y] = str.split('/');
+  return new Date(`${y}-${m}-${d}`);
 }
 
 /**
@@ -42,37 +31,59 @@ function daysAgo(n) {
  */
 export async function fetch(lastFetchDate) {
   try {
-    const apiKey = loadApiKey();
-    const startDate = lastFetchDate ? new Date(lastFetchDate) : daysAgo(14);
-    const startStr = fmtDateFDA(startDate);
-    const endStr = fmtDateFDA(new Date());
+    const cutoffDate = lastFetchDate ? new Date(lastFetchDate) : daysAgo(14);
 
-    console.log(`[fda-shortages] Fetching drug shortages updated since ${startDate.toISOString().split('T')[0]}...`);
+    console.log(`[fda-shortages] Fetching current drug shortages updated since ${cutoffDate.toISOString().split('T')[0]}...`);
 
-    const keyParam = apiKey ? `&api_key=${apiKey}` : '';
-    const url = `https://api.fda.gov/drug/shortages.json?search=update_date:[${startStr}+TO+${endStr}]+AND+status:"Current"&limit=100${keyParam}`;
+    // Fetch current shortages (no API key needed for public openFDA).
+    // The update_date field is MM/DD/YYYY text — not searchable as a date range.
+    // So we fetch all current shortages (paginated) and filter client-side.
+    const allResults = [];
+    let skip = 0;
+    const limit = 100;
 
-    const response = await globalThis.fetch(url, {
-      headers: {
-        'Accept': 'application/json',
-        'User-Agent': 'Areazine/1.0 (areazine.com; hello@areazine.com)',
-      },
+    while (true) {
+      const url = `https://api.fda.gov/drug/shortages.json?search=status:"Current"&limit=${limit}&skip=${skip}`;
+      const response = await globalThis.fetch(url, {
+        headers: {
+          'Accept': 'application/json',
+          'User-Agent': 'Areazine/1.0 (areazine.com; hello@areazine.com)',
+        },
+      });
+
+      if (!response.ok) {
+        console.warn(`[fda-shortages] API returned status ${response.status} at skip=${skip}`);
+        break;
+      }
+
+      const data = await response.json();
+      const results = data.results || [];
+      if (results.length === 0) break;
+
+      allResults.push(...results);
+      skip += limit;
+
+      // Stop after 2000 records or when we've fetched them all
+      if (results.length < limit || skip >= 2000) break;
+
+      // Polite delay
+      await new Promise(r => setTimeout(r, 300));
+    }
+
+    console.log(`[fda-shortages] Fetched ${allResults.length} total current shortage records`);
+
+    // Filter to recently updated
+    const results = allResults.filter(item => {
+      const updateDate = parseFDADate(item.update_date);
+      return updateDate && updateDate >= cutoffDate;
     });
 
-    if (!response.ok) {
-      console.warn(`[fda-shortages] API returned status ${response.status}`);
-      return [];
-    }
-
-    const data = await response.json();
-    const results = data.results || [];
-
     if (results.length === 0) {
-      console.log(`[fda-shortages] No updated shortages found`);
+      console.log(`[fda-shortages] No shortages updated since cutoff`);
       return [];
     }
 
-    console.log(`[fda-shortages] Found ${results.length} shortage records`);
+    console.log(`[fda-shortages] ${results.length} shortages updated since cutoff`);
 
     // Group by generic drug name to produce one record per drug
     const grouped = new Map();
