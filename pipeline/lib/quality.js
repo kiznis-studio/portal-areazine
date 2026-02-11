@@ -40,7 +40,11 @@ function extractKeyIdentifiers(rawData, sourceType) {
 
   // CPSC Recalls — actual API fields: Title, Products[], Manufacturers[], Hazards[]
   if (sourceType === 'cpsc' || sourceType === 'recalls-cpsc') {
-    if (rawData.Title) identifiers.push(rawData.Title);
+    // Extract brand name from title (text before "Recalls" or "Recall")
+    if (rawData.Title) {
+      const brandMatch = rawData.Title.match(/^(.+?)\s+Recalls?\b/i);
+      if (brandMatch) identifiers.push(brandMatch[1].trim());
+    }
     if (Array.isArray(rawData.Manufacturers)) {
       for (const m of rawData.Manufacturers) {
         if (m.Name) identifiers.push(m.Name);
@@ -51,21 +55,32 @@ function extractKeyIdentifiers(rawData, sourceType) {
         if (p.Name) identifiers.push(p.Name);
       }
     }
+    // Product type from title (text between "Recalls" and "Due to")
+    if (rawData.Title) {
+      const productMatch = rawData.Title.match(/Recalls?\s+(.+?)\s+Due\s+to/i);
+      if (productMatch) identifiers.push(productMatch[1].trim());
+    }
   }
 
   // FDA Recalls
   if (sourceType === 'fda' || sourceType === 'recalls-fda') {
-    // Recall number (e.g., "X-123456-1")
-    if (rawData.recall_number) identifiers.push(rawData.recall_number);
-
-    // Product classification
-    if (rawData.product_classification) {
-      identifiers.push(rawData.product_classification);
+    // Manufacturer/recalling firm name — most likely to appear in article
+    if (rawData.recalling_firm) {
+      identifiers.push(rawData.recalling_firm);
+    } else if (rawData.manufacturer_name) {
+      identifiers.push(rawData.manufacturer_name);
     }
 
-    // Manufacturer name
-    if (rawData.manufacturer_name) {
-      identifiers.push(rawData.manufacturer_name);
+    // Product description (first 80 chars — enough for matching)
+    if (rawData.product_description) {
+      const desc = rawData.product_description.slice(0, 80);
+      identifiers.push(desc);
+    }
+
+    // Reason for recall (core issue)
+    if (rawData.reason_for_recall) {
+      const reason = rawData.reason_for_recall.slice(0, 80);
+      identifiers.push(reason);
     }
   }
 
