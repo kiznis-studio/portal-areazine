@@ -509,10 +509,10 @@ const natl = {
 
         const segments = [
           { label: 'White', value: city.white, color: '#60a5fa' },
-          { label: 'Hispanic', value: city.hispanic, color: '#f59e0b' },
-          { label: 'Black', value: city.black, color: '#a78bfa' },
+          { label: 'Hispanic or Latino', value: city.hispanic, color: '#f59e0b' },
+          { label: 'African American', value: city.black, color: '#a78bfa' },
           { label: 'Asian', value: city.asian, color: '#34d399' },
-          { label: 'Other', value: Math.max(0, city.other), color: '#94a3b8' },
+          { label: 'Other / Multiethnic', value: Math.max(0, city.other), color: '#94a3b8' },
         ].filter(s => s.value > 0);
 
         // Stacked bar
