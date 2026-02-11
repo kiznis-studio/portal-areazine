@@ -1,6 +1,6 @@
 # Areazine
 
-Automated US safety alerts news portal transforming government public data (CPSC, FDA, NOAA, USGS) into SEO-optimized articles using Gemini Flash.
+Automated US safety alerts news portal transforming government public data (CPSC, FDA, NOAA, USGS, FEMA) into SEO-optimized articles using Gemini Flash.
 
 **Live URL:** https://areazine.com
 **Growth Roadmap:** [docs/growth-roadmap-1m.md](docs/growth-roadmap-1m.md)
@@ -26,6 +26,7 @@ Automated news aggregator covering US public safety alerts:
 - Product recalls (CPSC, FDA)
 - Weather alerts (NOAA)
 - Earthquake reports (USGS)
+- Disaster declarations (FEMA)
 - Vehicle recalls (NHTSA - paused, needs auth)
 
 **Target audience:** US consumers seeking safety information, parents, homeowners, emergency preparedness enthusiasts.
@@ -124,7 +125,10 @@ Old city-based URLs redirect to category pages:
 | **FDA** | api.fda.gov/food/enforcement.json | recalls-fda | 4 hours | Active | 30/24h |
 | **NOAA** | api.weather.gov/alerts/active | weather | 1 hour | Active | 20/24h |
 | **USGS** | earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_day.geojson | earthquakes | 30 minutes | Active | 15/24h |
+| **FEMA** | fema.gov/api/open/v2/DisasterDeclarationsSummaries | disasters | 6 hours | Active | 10/24h |
 | **NHTSA** | api.nhtsa.gov/recalls/recallsByVehicle | recalls-vehicles | N/A | **Paused** | N/A |
+
+**FEMA notes:** API blocks non-US IPs; works from Aurora (US Oracle Cloud). Groups by disaster number to avoid per-county duplicates. Declaration types: DR (Major Disaster), EM (Emergency), FM (Fire Management).
 
 **NHTSA status:** API now requires authentication. Need to apply for API key or find alternative endpoint.
 
@@ -157,6 +161,7 @@ Pipeline tracks publication counts per category in 24-hour rolling windows. When
 | `recalls-vehicles` | Vehicle Recalls | NHTSA | 0 (paused) |
 | `weather` | Weather Alerts | NOAA | TBD |
 | `earthquakes` | Earthquake Reports | USGS | TBD |
+| `disasters` | Disaster Declarations | FEMA | 5 (initial) |
 
 ### Article Slug Format
 
@@ -216,6 +221,18 @@ SENTRY_DSN=https://...       # Pipeline error tracking
 - Repo: `portal-areazine`
 - Permissions: Contents (Read/Write)
 
+### API Keys
+
+| Key | Location | Purpose |
+|-----|----------|---------|
+| **api.data.gov** | `keys/data-gov-api-key.txt` | EPA AirNow, USDA, and other federal agency APIs |
+| **Gemini** | Aurora `.env` | AI article generation |
+
+**api.data.gov rate limits:**
+- Default: 1,000 requests/hour per key
+- Burst: small bursts OK, sustained over 1K/hr will be throttled
+- Always include `api_key=` parameter
+
 ---
 
 ## Database Schema
@@ -230,7 +247,7 @@ Raw API responses before processing.
 | Column | Type | Description |
 |--------|------|-------------|
 | `id` | INTEGER PRIMARY KEY | Auto-increment |
-| `source` | TEXT | cpsc, fda, nhtsa, noaa, usgs |
+| `source` | TEXT | cpsc, fda, nhtsa, noaa, usgs, fema |
 | `identifier` | TEXT UNIQUE | Recall number, event ID, etc. |
 | `data` | TEXT | JSON blob |
 | `fetched_at` | TEXT | ISO timestamp |
