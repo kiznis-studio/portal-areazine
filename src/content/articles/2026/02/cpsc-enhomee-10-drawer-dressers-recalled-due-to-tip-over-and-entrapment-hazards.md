@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/EnHomee-10-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:31:04Z
 ---
 ### What Happened
 EnHomee has issued a recall for its 10-drawer dressers because they are unstable if not anchored to a wall. This instability poses tip-over and entrapment hazards that can result in serious injury or death to children. The products violate the mandatory safety standards required by the STURDY Act for clothing storage units.

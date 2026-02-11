@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Organic-Zing-Birch-Essential-Oil-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Linkers"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:33:15Z
 ---
 ### What Happened
 Linkers has issued a recall for Organic Zing Birch Oil bottles because the product contains methyl salicylate, a substance that requires child-resistant packaging under the Poison Prevention Packaging Act (PPPA). The current packaging is not child-resistant, which poses a significant risk of poisoning if a young child swallows the contents.

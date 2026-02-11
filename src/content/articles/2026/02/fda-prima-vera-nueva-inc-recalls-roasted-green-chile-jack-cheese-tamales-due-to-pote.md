@@ -7,7 +7,7 @@ location: "California, Nevada"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0432-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:36:05Z
 ---
 ### What Happened
 Prima Vera Nueva, Inc., based in Sonoma, California, has initiated a voluntary recall of its Roasted Green Chile & Jack Cheese Tamales. The recall was prompted by the potential presence of *Listeria monocytogenes*, a biological hazard that can cause serious illness.

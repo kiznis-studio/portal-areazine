@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Lola-Plus-The-Boys-Recalls-Youth-Clothing-with-Drawstrings-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-Hazard-Violates-Federal-Rule-for-Childrens-Upper-Outerwear"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:32:56Z
 ---
 ### What Happened
 Lola Plus The Boys is recalling five styles of youth hooded clothing because the drawstrings can become caught on objects, posing a risk of serious injury or death from strangulation. The products violate the federal safety rule for children's upper outerwear, which prohibits drawstrings in the neck and hood area of such garments.

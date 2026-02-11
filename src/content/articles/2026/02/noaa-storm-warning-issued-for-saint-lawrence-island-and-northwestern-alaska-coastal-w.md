@@ -7,7 +7,7 @@ location: "Saint Lawrence Island, Alaska"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2011f11488e7bd457400816eae52dac239d59223.011.1"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:43:57Z
 ---
 ### Alert Details
 The National Weather Service (NWS) in Fairbanks, AK, has issued a Storm Warning for the region. The alert was issued on February 10, 2026, at 3:49 PM AKST and is effective until February 11, 2026, at 5:00 PM AKST.

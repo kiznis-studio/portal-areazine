@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Fixwal-7-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:31:49Z
 ---
 ### What Happened
 

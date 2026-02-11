@@ -7,7 +7,7 @@ location: "Bering Sea Offshore"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b2480ddb42ae237a465745af5c361f7d162b114.004.1"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:48:55Z
 ---
 ### Alert Details
 

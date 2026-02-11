@@ -7,7 +7,7 @@ location: "Texas and California"
 severity: "medium"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0435-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:39:21Z
 ---
 ### What Happened
 Weaver's Brew LLC has initiated a voluntary recall of its Goldenroot Lemon Ginger Elderberry Ginger Beer. The recall was triggered because the ginger juice used in the beverage may not have undergone the required pasteurization process, which is a critical safety step in food production.

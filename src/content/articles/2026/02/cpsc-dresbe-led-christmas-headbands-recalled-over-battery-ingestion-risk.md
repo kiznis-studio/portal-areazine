@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Dresbe-LED-Christmas-Headbands-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:30:50Z
 ---
 ### What Happened
 Wenxi Xuefeng Technology Co., Ltd, doing business as Dresbe, has issued a recall for its LED Christmas Headbands. The products violate mandatory federal safety standards for consumer products containing button cell batteries. The batteries in these headbands can be easily accessed by children, posing a significant ingestion hazard. Additionally, the product and its packaging do not contain the safety warnings required under Reese’s Law.

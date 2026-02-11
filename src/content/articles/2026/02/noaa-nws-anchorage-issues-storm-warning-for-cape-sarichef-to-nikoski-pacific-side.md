@@ -7,7 +7,7 @@ location: "Southwest Alaska Peninsula Waters"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.306be6b852280dbfe92d7e5770ebbb4f970b85aa.015.1"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:45:42Z
 ---
 ### Alert Details
 The National Weather Service (NWS) in Anchorage, AK, has issued a Storm Warning for coastal waters. The alert is effective starting at 5:00 PM AKST on Tuesday, February 10, 2026, and remains in effect until 5:00 AM AKST on Wednesday, February 11, 2026.

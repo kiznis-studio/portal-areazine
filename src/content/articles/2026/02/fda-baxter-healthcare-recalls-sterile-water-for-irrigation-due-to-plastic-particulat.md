@@ -7,7 +7,7 @@ location: "United States"
 severity: "medium"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:D-0296-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:34:49Z
 ---
 ### What Happened
 Baxter Healthcare Corporation has voluntarily initiated a recall of Sterile Water for Irrigation. The recall was prompted by the discovery of particulate matter, specifically plastic particles from the bottle rim, which were observed floating within the sterile solution. This recall has been classified by the FDA as Class II.

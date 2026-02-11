@@ -7,7 +7,7 @@ location: "Maine, New York"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0422-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:40:27Z
 ---
 ### What Happened
 Mount Olive Pickle Company, Inc. has initiated a voluntary recall of Hannaford brand hamburger dill pickle chips. The recall was triggered after the firm received consumer complaints regarding the presence of glass fragments within the product jars. The FDA has classified this as a Class II recall.

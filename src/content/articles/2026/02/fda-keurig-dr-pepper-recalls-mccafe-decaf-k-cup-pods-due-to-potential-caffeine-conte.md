@@ -7,7 +7,7 @@ location: "California, Indiana, Nevada"
 severity: "medium"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0419-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:37:49Z
 ---
 ### What Happened
 Keurig Dr Pepper, Inc. has initiated a voluntary recall of specific McCafe Premium Roast Decaf Coffee K-Cup Pods. The recall was prompted by the discovery that the product, while labeled as decaffeinated, may actually contain caffeine.

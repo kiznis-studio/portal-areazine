@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Cobelae-Busy-Books-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violates-Small-Parts-Ban-Sold-on-Amazon-by-Flyindream"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:30:38Z
 ---
 ### What Happened
 The U.S. Consumer Product Safety Commission (CPSC) has announced a recall of Cobelae Busy Books due to a violation of the federal small parts ban. The beads attached to the "apple" illustration on page eight of the book can loosen and detach, posing a serious choking hazard to young children.

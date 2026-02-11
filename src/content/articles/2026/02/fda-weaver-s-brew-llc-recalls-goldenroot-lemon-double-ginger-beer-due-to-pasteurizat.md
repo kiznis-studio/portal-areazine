@@ -7,7 +7,7 @@ location: "Texas and California"
 severity: "medium"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0436-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:38:41Z
 ---
 ### What Happened
 Weaver's Brew LLC has initiated a voluntary recall of its Goldenroot Lemon Double Ginger Beer. The recall was issued because the ginger juice used in the production of the beverage may not have undergone the required pasteurization process, which is a standard safety procedure for food and beverage products.

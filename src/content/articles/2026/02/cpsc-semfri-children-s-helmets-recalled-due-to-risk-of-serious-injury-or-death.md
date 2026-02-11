@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Semfri-Childrens-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:33:26Z
 ---
 ### What Happened
 Semfri has issued a recall for its children's multi-purpose helmets because they violate the mandatory federal safety standard for bicycle helmets. According to the Consumer Product Safety Commission (CPSC), the helmets failed to comply with requirements for impact attenuation, positional stability, labeling, and certification. These failures mean the helmets may not adequately protect a user during a crash.

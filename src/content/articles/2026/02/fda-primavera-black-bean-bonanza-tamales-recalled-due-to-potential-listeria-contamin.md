@@ -7,7 +7,7 @@ location: "California, Nevada"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0431-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:37:18Z
 ---
 ### What Happened
 

@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Kitosun-Submersible-LED-Light-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:32:32Z
 ---
 ### What Happened
 Kitosun has issued a recall for its submersible LED lights because the products violate mandatory federal safety standards for button cell and coin batteries. The battery compartments can be accessed too easily by children, and the products lack the required safety warnings mandated by Reese’s Law. When swallowed, these batteries can cause internal chemical burns, serious injury, or death.

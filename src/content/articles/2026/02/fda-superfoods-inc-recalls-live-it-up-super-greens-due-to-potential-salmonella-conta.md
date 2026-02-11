@@ -7,7 +7,7 @@ location: "Nationwide"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0433-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:38:14Z
 ---
 ### What Happened
 Superfoods, Inc. of New York, NY, has initiated a voluntary recall of its Live it Up brand Super Greens dietary supplement powder. The recall was issued because the products may be contaminated with *Salmonella Typhimurium*. The FDA has classified this as a Class I recall, the most serious category, indicating a situation in which there is a reasonable probability that the use of or exposure to a violative product will cause serious adverse health consequences or death.

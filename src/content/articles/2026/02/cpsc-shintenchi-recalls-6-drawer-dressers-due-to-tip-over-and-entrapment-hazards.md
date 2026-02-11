@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Shintenchi-6-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:33:37Z
 ---
 ### What Happened
 Shintenchi has issued a recall for approximately 600 of its 6-drawer dressers because they are unstable if not anchored to a wall. The products pose tip-over and entrapment hazards that can result in serious injury or death to children. According to the Consumer Product Safety Commission (CPSC), these dressers violate the mandatory safety standards required by the STURDY Act for clothing storage units.

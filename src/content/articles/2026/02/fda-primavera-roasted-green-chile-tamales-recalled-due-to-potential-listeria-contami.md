@@ -7,7 +7,7 @@ location: "California, Nevada"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0429-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:37:58Z
 ---
 ### What Happened
 Prima Vera Nueva, Inc. (doing business as Primavera) has initiated a voluntary recall of its Roasted Green Chile Tamales (No Dairy) because the product may be contaminated with *Listeria monocytogenes*. The recall was initiated on December 12, 2025, and has been classified by the FDA as a Class II recall.

@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/YITA-Recalls-Multiple-Brands-of-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:33:51Z
 ---
 ### What Happened
 YITA has issued a recall for approximately 6,800 dressers across five different brand names due to instability and tip-over hazards. The dressers are unstable if they are not anchored to a wall, posing a risk of serious injury or death from entrapment, particularly to children. According to the Consumer Product Safety Commission (CPSC), these products violate the mandatory safety standards required by the STURDY Act.

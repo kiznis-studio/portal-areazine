@@ -7,7 +7,7 @@ location: "California, Nevada"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0428-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:37:34Z
 ---
 ### What Happened
 Prima Vera Nueva, Inc. has initiated a voluntary recall of its "Black Bean Bonanza Tamales with Black Beans NO DAIRY" due to potential contamination with *Listeria monocytogenes*. The recall was firm-initiated on December 12, 2025, and has been classified by the FDA as a Class II recall.

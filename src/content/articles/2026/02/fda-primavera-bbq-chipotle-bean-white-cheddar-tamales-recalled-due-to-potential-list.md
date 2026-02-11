@@ -7,7 +7,7 @@ location: "California, Nevada"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0427-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:39:46Z
 ---
 ### What Happened
 Prima Vera Nueva, Inc., based in Sonoma, California, has initiated a voluntary recall of its BBQ Chipotle Bean & White Cheddar Tamales. The recall was issued following the discovery of potential contamination with *Listeria monocytogenes*, a biological hazard that can cause serious foodborne illness.

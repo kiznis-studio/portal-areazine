@@ -7,7 +7,7 @@ location: "Kuskokwim Delta, Alaska"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82efd45deafcbe7ba4a5f80224ffd19a67452a35.034.2"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:50:00Z
 ---
 ### Alert Details
 

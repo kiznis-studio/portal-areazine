@@ -7,7 +7,7 @@ location: "California"
 severity: "medium"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0420-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:39:35Z
 ---
 ### What Happened
 New Way Import Inc. of La Puente, California, has initiated a voluntary recall of its "Preserved Mustard in Soybean Oil" because the product contains wheat, an allergen that is not declared on the product packaging. The omission was identified during a classification process, leading to the firm-initiated recall to protect consumers with wheat sensitivities.

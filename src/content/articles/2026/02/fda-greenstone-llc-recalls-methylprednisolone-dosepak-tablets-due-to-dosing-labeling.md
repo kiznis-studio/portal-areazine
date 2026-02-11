@@ -7,7 +7,7 @@ location: "United States"
 severity: "medium"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:D-0299-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:35:15Z
 ---
 ### What Happened
 Greenstone LLC has initiated a voluntary recall of one lot of Methylprednisolone tablets, USP Dosepak, 4 mg. The recall was prompted by a labeling error involving the incorrect orientation of the blister foil applied to the blister cavities. This manufacturing defect results in incorrect dosing information when a patient follows the directions printed on the foil.

@@ -7,7 +7,7 @@ location: "Papua New Guinea"
 severity: "medium"
 sourceUrl: "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7tj"
 sourceAgency: "USGS"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:51:28Z
 ---
 ### What Happened
 A magnitude 4.6 (mb) earthquake occurred on Wednesday, February 11, 2026, at 11:00:29 UTC. The seismic event was recorded at a depth of 128.4 km.

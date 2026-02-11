@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Zan-International-Trading-Recalls-Lotus-Joy-Sweet-Birch-Essential-Oil-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:34:02Z
 ---
 ### What Happened
 Zan International Trading has announced a recall of Lotus Joy Organic Sweet Birch Essential Oil bottles because the product contains methyl salicylate, which requires child-resistant packaging under the Poison Prevention Packaging Act (PPPA). The current bottles are not child-resistant, posing a risk of serious injury or death if the contents are swallowed by young children. No injuries have been reported to date.

@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Scepter-Fuel-Containers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Flash-Fire-Burn-and-Child-Poisoning-Violates-Mandatory-Standards-for-Portable-Fuel-Containers-Imported-by-Mameix-Retail"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:34:15Z
 ---
 ### What Happened
 Mameix Retail is recalling Scepter B62 gas and oil fuel containers because they violate mandatory federal safety standards. The containers lack required flame mitigation devices, posing a risk of flash fires. Additionally, the product's spout is not child-resistant, which creates a risk of burn and poisoning to children. These defects violate the Portable Fuel Container Safety Act and the Children's Gasoline Burn Prevention Act.

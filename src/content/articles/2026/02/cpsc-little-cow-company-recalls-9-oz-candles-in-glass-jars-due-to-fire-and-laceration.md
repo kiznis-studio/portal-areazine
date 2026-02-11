@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Little-Cow-Company-Recalls-9-oz-Candles-in-Glass-Jars-Due-to-Fire-Burn-and-Laceration-Hazards"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:32:43Z
 ---
 ### What Happened
 Little Cow Company has initiated a recall of its 9 oz candles because the glass jars holding the wax can crack or break while in use. This defect poses significant fire, burn, and laceration hazards. To date, the firm has received two reports of the glass jars breaking, though no injuries have been reported.

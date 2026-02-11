@@ -7,7 +7,7 @@ location: "Saint Matthew Island Waters, Alaska"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc395d56740d862aba3a4183cc4040e649dc019e.036.2"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:47:51Z
 ---
 ### Alert Details
 

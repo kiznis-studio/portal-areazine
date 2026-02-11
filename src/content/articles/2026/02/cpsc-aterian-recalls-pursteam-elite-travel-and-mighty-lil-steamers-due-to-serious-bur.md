@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Aterian-Recalls-PurSteam-Elite-Travel-Steamers-and-Mighty-Lil-Steamers-Due-to-Risk-of-Serious-Burn-Injury"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:31:34Z
 ---
 ### What Happened
 Aterian, Inc. has issued a recall for two models of PurSteam steamers because the devices can expel hot water from the steam nozzle during use. This defect poses a serious burn hazard to consumers. The company has received 80 reports of hot water expulsion from the Elite Travel Steamer (including 14 burn injuries) and 392 reports from the Mighty Lil Steamer (including 40 burn injuries, two of which were second-degree burns).

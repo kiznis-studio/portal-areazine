@@ -7,7 +7,7 @@ location: "California"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0417-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:35:38Z
 ---
 ### What Happened
 Bharat Bazar has initiated a voluntary recall of its Soma Kitchen Natural Asafoetida product. The recall was triggered after it was discovered that the product contains wheat, an allergen that is not listed on the packaging. The FDA has classified this as a Class II recall.

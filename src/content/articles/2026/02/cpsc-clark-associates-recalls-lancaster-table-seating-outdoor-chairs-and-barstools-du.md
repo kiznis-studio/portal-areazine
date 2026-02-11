@@ -7,7 +7,7 @@ location: "United States"
 severity: "medium"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Clark-Associates-Recalls-Lancaster-Table-Seating-Powder-Coated-Aluminum-Outdoor-Restaurant-Chairs-and-Barstools-Due-to-Fall-Hazard"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:30:19Z
 ---
 ### What Happened
 Clark Associates is recalling several models of outdoor seating because the legs of the chairs and barstools can bend or break while in use. This structural failure poses a significant fall hazard to consumers. To date, the firm has received 36 reports of broken or bent chair legs, which have resulted in four falls and three reported injuries.

@@ -7,7 +7,7 @@ location: "Bering Sea Offshore East of 171W"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb76ea7120351212783f3d0af086b9e2cdfc2e94.005.2"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:49:31Z
 ---
 ### Alert Details
 

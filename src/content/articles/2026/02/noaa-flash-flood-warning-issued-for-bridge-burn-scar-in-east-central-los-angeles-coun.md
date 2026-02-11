@@ -7,7 +7,7 @@ location: "Los Angeles County, California"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3257863ed1827f308c1e0f7995de522bcc5dd2ff.001.1"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:50:55Z
 ---
 ### Alert Details
 The National Weather Service in Los Angeles/Oxnard has issued a Flash Flood Warning for the Bridge burn scar area. The alert is classified as a severe threat with immediate urgency, as flash flooding and debris flows are ongoing or expected to begin shortly.

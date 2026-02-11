@@ -7,7 +7,7 @@ location: "United States"
 severity: "high"
 sourceUrl: "https://www.cpsc.gov/Recalls/2026/Andy-Evan-Recalls-Childrens-Pajama-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard-Violate-Mandatory-Standard-for-Childrens-Sleepwear"
 sourceAgency: "CPSC"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:31:21Z
 ---
 ### What Happened
 Andy & Evan Industries, Inc. has issued a recall for approximately 500 children's pajama sets. The garments violate the mandatory federal flammability standards for children's sleepwear, creating a risk of serious burn injuries or death. As of the recall date, no injuries have been reported.

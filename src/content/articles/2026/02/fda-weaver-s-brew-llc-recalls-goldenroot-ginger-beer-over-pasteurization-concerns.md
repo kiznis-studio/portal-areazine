@@ -7,7 +7,7 @@ location: "Texas and California"
 severity: "medium"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0439-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:38:30Z
 ---
 ### What Happened
 Weaver's Brew LLC has voluntarily initiated a recall of its Goldenroot Yuzu Ginger Lemongrass Ginger Beer. The recall was issued because the ginger juice used in the beverage did not undergo the required pasteurization process. This failure to pasteurize the juice means the product may not meet necessary food safety standards.

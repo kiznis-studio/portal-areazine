@@ -7,7 +7,7 @@ location: "California, Hawaii"
 severity: "medium"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:D-0298-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:35:26Z
 ---
 ### What Happened
 Sato Pharmaceutical Co., Ltd. has initiated a voluntary recall of INON ACE antacid tablets. The recall was issued after the product failed disintegration specifications, with the tablets taking longer to break down than the expected time requirements. This Class II recall was officially classified by the FDA on January 27, 2026.

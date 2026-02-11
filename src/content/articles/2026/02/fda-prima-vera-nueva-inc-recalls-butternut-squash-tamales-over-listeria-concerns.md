@@ -7,7 +7,7 @@ location: "California, Nevada"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0430-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:36:44Z
 ---
 ### What Happened
 Prima Vera Nueva, Inc., based in Sonoma, California, has initiated a voluntary recall of its Butternut Squash Tamales with Roasted Green Chiles (No Dairy) due to potential contamination with *Listeria monocytogenes*. The recall was firm-initiated on December 12, 2025, and has been classified by the FDA as a Class II recall.

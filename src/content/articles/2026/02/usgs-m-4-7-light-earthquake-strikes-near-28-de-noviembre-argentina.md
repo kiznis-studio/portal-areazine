@@ -7,7 +7,7 @@ location: "Argentina"
 severity: "medium"
 sourceUrl: "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7sd"
 sourceAgency: "USGS"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:53:21Z
 ---
 ### What Happened
 A light earthquake with a magnitude of 4.7 mb occurred on February 11, 2026, at 08:16 UTC. The seismic event was centered approximately 27 km northeast of 28 de Noviembre, Argentina. The earthquake has been reviewed by seismologists at the USGS.

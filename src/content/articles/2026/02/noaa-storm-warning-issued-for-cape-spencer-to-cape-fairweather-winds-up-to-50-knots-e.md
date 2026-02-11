@@ -7,7 +7,7 @@ location: "Southeast Alaska Coastal Waters"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5489c0ccbc0c1789b2bd1830d0039bf3285b29d0.005.3"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:50:42Z
 ---
 ### Alert Details
 The National Weather Service (NWS) Juneau AK has issued a Storm Warning (SRW) for the coastal waters of Southeast Alaska. This severe alert is part of a progression of marine hazards including Small Craft Advisories and Gale Warnings. The Storm Warning specifically covers the period of peak intensity early Thursday morning.

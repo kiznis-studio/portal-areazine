@@ -7,7 +7,7 @@ location: "United States"
 severity: "low"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:D-0297-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:34:27Z
 ---
 ### What Happened
 Haleon US Holdings LLC has initiated a voluntary Class III recall of parodontax Active Gum Health mouthwash. The recall was prompted by a labeling issue where the lot number and expiration date coding on the bottles may be missing or illegible.

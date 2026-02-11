@@ -7,7 +7,7 @@ location: "Nikolski to Seguam Bering Side"
 severity: "high"
 sourceUrl: "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.306be6b852280dbfe92d7e5770ebbb4f970b85aa.018.1"
 sourceAgency: "NOAA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T12:45:15Z
 ---
 ### Alert Details
 

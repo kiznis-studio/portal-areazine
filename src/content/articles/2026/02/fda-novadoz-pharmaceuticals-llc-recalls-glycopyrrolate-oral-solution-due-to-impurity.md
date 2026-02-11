@@ -7,7 +7,7 @@ location: "United States"
 severity: "low"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:D-0300-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:35:01Z
 ---
 ### What Happened
 Novadoz Pharmaceuticals LLC has initiated a voluntary recall of several lots of Glycopyrrolate Oral Solution. The recall was triggered after testing revealed that the affected lots failed to meet established specifications for impurities and degradation. This Class III recall was officially classified by the FDA on January 28, 2026.

@@ -7,7 +7,7 @@ location: "California, Nevada"
 severity: "high"
 sourceUrl: "https://api.fda.gov/drug/enforcement.json?search=recall_number:H-0424-2026"
 sourceAgency: "FDA"
-publishedAt: 2026-02-11
+publishedAt: 2026-02-11T11:35:50Z
 ---
 ### What Happened
 Prima Vera Nueva, Inc. of Sonoma, California, has initiated a voluntary recall of its Mushroom, Spinach & Salsa Tamales with 2 Cheeses. The recall was prompted by the potential contamination of the product with *Listeria monocytogenes*, a biological hazard. The recall is currently classified as a Class II event by the FDA.
