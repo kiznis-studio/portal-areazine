@@ -1,7 +1,7 @@
 /**
  * FDA (Food and Drug Administration) Recalls Data Source
  * API: https://open.fda.gov/apis/
- * Fetches both drug and food enforcement reports
+ * Fetches drug, food, and device enforcement reports
  */
 
 function daysAgo(n) {
@@ -83,6 +83,30 @@ export async function fetch(lastFetchDate) {
       }
     } catch (error) {
       console.warn(`[fda] Error fetching food recalls:`, error.message);
+    }
+
+    // Fetch device enforcement reports (medical devices)
+    try {
+      const deviceUrl = `https://api.fda.gov/device/enforcement.json?search=report_date:[${startStr}+TO+${endStr}]&limit=100`;
+      console.log(`[fda] Fetching device enforcement reports...`);
+
+      const deviceResponse = await globalThis.fetch(deviceUrl, {
+        headers: {
+          'Accept': 'application/json',
+          'User-Agent': 'Areazine/1.0 (areazine.com; hello@areazine.com)',
+        },
+      });
+
+      if (deviceResponse.ok) {
+        const deviceData = await deviceResponse.json();
+        const deviceRecalls = deviceData.results || [];
+        console.log(`[fda] Found ${deviceRecalls.length} device enforcement reports`);
+        results.push(...deviceRecalls);
+      } else {
+        console.warn(`[fda] Device API returned status ${deviceResponse.status}`);
+      }
+    } catch (error) {
+      console.warn(`[fda] Error fetching device recalls:`, error.message);
     }
 
     if (results.length === 0) {

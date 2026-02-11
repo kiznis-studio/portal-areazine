@@ -15,6 +15,8 @@ const sources = {
   noaa: (await import('./lib/sources/noaa.js')).fetch,
   usgs: (await import('./lib/sources/usgs.js')).fetch,
   fema: (await import('./lib/sources/fema.js')).fetch,
+  'fda-shortages': (await import('./lib/sources/fda-shortages.js')).fetch,
+  airnow: (await import('./lib/sources/airnow.js')).fetch,
 };
 
 // Intervals in minutes (from env or defaults)
@@ -25,6 +27,8 @@ const intervals = {
   noaa: parseInt(process.env.FETCH_INTERVAL_NOAA || '60'),
   usgs: parseInt(process.env.FETCH_INTERVAL_USGS || '30'),
   fema: parseInt(process.env.FETCH_INTERVAL_FEMA || '360'),
+  'fda-shortages': parseInt(process.env.FETCH_INTERVAL_FDA_SHORTAGES || '720'),
+  airnow: parseInt(process.env.FETCH_INTERVAL_AIRNOW || '120'),
 };
 
 function sleep(ms) {

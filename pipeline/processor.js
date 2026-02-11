@@ -16,6 +16,8 @@ const TEMPLATES = {
   weather: readFileSync(new URL('./templates/weather.md', import.meta.url), 'utf-8'),
   earthquake: readFileSync(new URL('./templates/earthquake.md', import.meta.url), 'utf-8'),
   disaster: readFileSync(new URL('./templates/disaster.md', import.meta.url), 'utf-8'),
+  'drug-shortage': readFileSync(new URL('./templates/drug-shortage.md', import.meta.url), 'utf-8'),
+  'air-quality': readFileSync(new URL('./templates/air-quality.md', import.meta.url), 'utf-8'),
 };
 
 // Map source to template type and metadata
@@ -26,6 +28,8 @@ const SOURCE_CONFIG = {
   noaa: { template: 'weather', agency: 'NOAA', type: 'Weather Alert', category: 'weather' },
   usgs: { template: 'earthquake', agency: 'USGS', type: 'Earthquake', category: 'earthquakes' },
   fema: { template: 'disaster', agency: 'FEMA', type: 'Disaster Declaration', category: 'disasters' },
+  'fda-shortages': { template: 'drug-shortage', agency: 'FDA', type: 'Drug Shortage', category: 'drug-shortages' },
+  airnow: { template: 'air-quality', agency: 'EPA', type: 'Air Quality Alert', category: 'air-quality' },
 };
 
 const BATCH_SIZE = 10;
@@ -40,6 +44,8 @@ const RATE_LIMITS = {
   'recalls-fda': { max: 30, hours: 24 },
   'recalls-vehicles': { max: 30, hours: 24 },
   'disasters': { max: 10, hours: 24 },
+  'drug-shortages': { max: 20, hours: 24 },
+  'air-quality': { max: 15, hours: 24 },
 };
 
 function sleep(ms) {
@@ -108,7 +114,9 @@ function extractSourceUrl(source, rawData) {
     case 'fda':
       return `https://api.fda.gov/drug/enforcement.json?search=recall_number:${rawData.recall_number || ''}`;
     case 'nhtsa':
-      return `https://www.nhtsa.gov/recalls?nhtsaId=${rawData.NHTSACampaignNumber || ''}`;
+      return rawData.NHTSACampaignNumber
+        ? `https://www.nhtsa.gov/vehicle/${rawData.ModelYear || ''}/${rawData.Make || ''}/${rawData.Model || ''}/recalls`
+        : 'https://www.nhtsa.gov/recalls';
     case 'noaa':
       return rawData['@id'] || rawData.properties?.['@id'] || 'https://alerts.weather.gov';
     case 'usgs':
@@ -117,6 +125,14 @@ function extractSourceUrl(source, rawData) {
       return rawData.femaDeclarationString
         ? `https://www.fema.gov/disaster/${rawData.disasterNumber || ''}`
         : 'https://www.fema.gov/disaster/declarations';
+    case 'fda-shortages':
+      return rawData.generic_name
+        ? `https://www.accessdata.fda.gov/scripts/drugshortages/default.cfm`
+        : 'https://www.fda.gov/drugs/drug-safety-and-availability/drug-shortages';
+    case 'airnow':
+      return rawData.reportingArea
+        ? `https://www.airnow.gov/?city=${encodeURIComponent(rawData.metroName || '')}&state=${encodeURIComponent(rawData.metroState || '')}`
+        : 'https://www.airnow.gov/';
     default:
       return '';
   }

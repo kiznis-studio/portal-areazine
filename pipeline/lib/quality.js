@@ -12,6 +12,8 @@ const VALID_CATEGORIES = [
   'weather',
   'earthquakes',
   'disasters',
+  'drug-shortages',
+  'air-quality',
   'economy',
   'finance',
   'technology',
@@ -86,19 +88,19 @@ function extractKeyIdentifiers(rawData, sourceType) {
     }
   }
 
-  // NHTSA Vehicle Recalls
-  if (sourceType === 'nhtsa' || sourceType === 'recalls-nhtsa') {
-    // Campaign number (e.g., "20V123")
-    if (rawData.CAMPNO) identifiers.push(rawData.CAMPNO);
-
-    // Manufacturer name
-    if (rawData.MFR_NAME) identifiers.push(rawData.MFR_NAME);
-
-    // Vehicle/component description
-    if (rawData.COMPONENT_DESC) {
-      const comp = rawData.COMPONENT_DESC.split(/[,;]/)[0].trim();
+  // NHTSA Vehicle Recalls (campaignNumber API format)
+  if (sourceType === 'nhtsa' || sourceType === 'recalls-nhtsa' || sourceType === 'recalls-vehicles') {
+    if (rawData.NHTSACampaignNumber) identifiers.push(rawData.NHTSACampaignNumber);
+    if (rawData.Manufacturer) identifiers.push(rawData.Manufacturer);
+    if (rawData.Make) identifiers.push(rawData.Make);
+    if (rawData.Model) identifiers.push(rawData.Model);
+    if (rawData.Component) {
+      const comp = rawData.Component.split(/[,;]/)[0].trim();
       if (comp.length > 3) identifiers.push(comp);
     }
+    // Legacy field names (recallsByDate API)
+    if (rawData.CAMPNO) identifiers.push(rawData.CAMPNO);
+    if (rawData.MFR_NAME) identifiers.push(rawData.MFR_NAME);
   }
 
   // NOAA Weather Alerts — handle both flat (new) and nested (legacy GeoJSON) formats
@@ -137,6 +139,27 @@ function extractKeyIdentifiers(rawData, sourceType) {
     if (rawData.declarationTitle) {
       identifiers.push(rawData.declarationTitle);
     }
+  }
+
+  // EPA AirNow Air Quality
+  if (sourceType === 'airnow' || sourceType === 'air-quality') {
+    if (rawData.reportingArea) identifiers.push(rawData.reportingArea);
+    if (rawData.stateCode) identifiers.push(rawData.stateCode);
+    if (rawData.worstParameter) identifiers.push(rawData.worstParameter);
+    if (rawData.worstAQI != null) identifiers.push(String(rawData.worstAQI));
+    if (rawData.worstCategory) identifiers.push(rawData.worstCategory);
+  }
+
+  // FDA Drug Shortages
+  if (sourceType === 'fda-shortages' || sourceType === 'drug-shortages') {
+    if (rawData.generic_name) identifiers.push(rawData.generic_name);
+    if (rawData.dosage_form) identifiers.push(rawData.dosage_form);
+    if (Array.isArray(rawData.brand_names)) {
+      for (const bn of rawData.brand_names.slice(0, 3)) {
+        identifiers.push(bn);
+      }
+    }
+    if (rawData.status) identifiers.push(rawData.status);
   }
 
   // USGS Earthquakes

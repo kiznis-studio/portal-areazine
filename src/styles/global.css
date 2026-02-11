@@ -25,6 +25,8 @@
   --cat-earthquakes: #ea580c;
   --cat-disasters: #7c2d12;
   --cat-technology: #0d9488;
+  --cat-shortages: #9333ea;
+  --cat-airquality: #0891b2;
 
   /* Severity */
   --severity-critical: #991b1b;
@@ -124,6 +126,8 @@ a { text-decoration: none; }
 .badge-economy { background-color: rgba(22, 163, 74, 0.1); color: var(--cat-economy); }
 .badge-finance { background-color: rgba(124, 58, 237, 0.1); color: var(--cat-finance); }
 .badge-disasters { background-color: rgba(124, 45, 18, 0.1); color: var(--cat-disasters); }
+.badge-shortages { background-color: rgba(147, 51, 234, 0.1); color: var(--cat-shortages); }
+.badge-airquality { background-color: rgba(8, 145, 178, 0.1); color: var(--cat-airquality); }
 .badge-technology { background-color: rgba(13, 148, 136, 0.1); color: var(--cat-technology); }
 
 /* Severity badges */

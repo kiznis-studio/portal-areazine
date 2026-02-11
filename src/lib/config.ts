@@ -9,6 +9,8 @@ export const CATEGORIES = {
   'weather': { label: 'Weather Alerts', slug: 'weather', color: 'weather', icon: 'cloud' },
   'earthquakes': { label: 'Earthquakes', slug: 'earthquakes', color: 'earthquakes', icon: 'activity' },
   'disasters': { label: 'Disasters', slug: 'disasters', color: 'disasters', icon: 'alert' },
+  'drug-shortages': { label: 'Drug Shortages', slug: 'drug-shortages', color: 'shortages', icon: 'pill' },
+  'air-quality': { label: 'Air Quality', slug: 'air-quality', color: 'airquality', icon: 'wind' },
   'economy': { label: 'Economy', slug: 'economy', color: 'economy', icon: 'chart' },
   'finance': { label: 'Finance', slug: 'finance', color: 'finance', icon: 'dollar' },
   'technology': { label: 'Technology', slug: 'technology', color: 'technology', icon: 'cpu' },

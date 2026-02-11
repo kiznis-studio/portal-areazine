@@ -167,6 +167,8 @@ async function submitIndexNow(articles) {
     'weather': 'weather',
     'earthquakes': 'earthquakes',
     'disasters': 'disasters',
+    'drug-shortages': 'drug-shortages',
+    'air-quality': 'air-quality',
   };
 
   const urls = articles.map(a => {
