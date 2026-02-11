@@ -2,7 +2,7 @@
   <defs>
     <style>
       .letter {
-        fill: #ef4444;
+        fill: #dc2626;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         font-size: 80px;
         font-weight: 700;

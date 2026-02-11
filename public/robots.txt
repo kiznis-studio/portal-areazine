@@ -4,8 +4,9 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemaps
 Sitemap: https://areazine.com/sitemap-index.xml
+Sitemap: https://areazine.com/news-sitemap.xml
 
 # Common bots
 User-agent: Googlebot

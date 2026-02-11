@@ -104,10 +104,25 @@ const related = allArticles
     "@type": "NewsArticle",
     "headline": article.data.title,
     "description": article.data.summary,
+    "image": "https://areazine.com/logo.png",
     "datePublished": new Date(article.data.publishedAt).toISOString(),
     "dateModified": article.data.updatedAt ? new Date(article.data.updatedAt).toISOString() : new Date(article.data.publishedAt).toISOString(),
-    "author": { "@type": "Organization", "name": SITE_NAME },
-    "publisher": { "@type": "Organization", "name": SITE_NAME, "url": "https://areazine.com" },
+    "author": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": "https://areazine.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": "https://areazine.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://areazine.com/logo.png",
+        "width": 512,
+        "height": 512
+      }
+    },
     "mainEntityOfPage": { "@type": "WebPage", "@id": `https://areazine.com/${catMeta.slug}/${article.id}` }
   })} />
 

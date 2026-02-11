@@ -14,6 +14,15 @@ All articles are based on official data from:
 - Food and Drug Administration (FDA)
 - National Highway Traffic Safety Administration (NHTSA)
 - National Oceanic and Atmospheric Administration (NOAA)
+- U.S. Geological Survey (USGS)
+
+## Update Frequency
+
+Articles are published as new alerts become available from government sources:
+- Product recalls: Published within 24 hours of official notice
+- Weather alerts: Published within 1 hour of NOAA updates
+- Earthquake reports: Published within 30 minutes of USGS detection
+- Site refresh: Daily automated data collection from official APIs
 
 ## Content Creation
 

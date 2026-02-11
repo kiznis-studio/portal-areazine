@@ -164,6 +164,33 @@ const earthquakeArticles = sortedArticles.filter(a => a.data.category === 'earth
     "@type": "WebSite",
     "name": SITE_NAME,
     "description": SITE_DESCRIPTION,
-    "url": "https://areazine.com"
+    "url": "https://areazine.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://areazine.com/articles?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": SITE_NAME,
+    "url": "https://areazine.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://areazine.com/logo.png",
+      "width": 512,
+      "height": 512
+    },
+    "description": SITE_DESCRIPTION,
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "hello@areazine.com"
+    }
   })} />
 </Base>
