@@ -1,0 +1,121 @@
+---
+import Base from '../../layouts/Base.astro';
+import { CITIES } from '../../data/cities';
+
+// Import all city profiles at build time via Vite glob
+const profileModules = import.meta.glob('../../data/city-profiles/*.json', { eager: true }) as Record<string, { default: any }>;
+
+const profileMap: Record<string, any> = {};
+for (const [path, mod] of Object.entries(profileModules)) {
+  const slug = path.split('/').pop()?.replace('.json', '') || '';
+  profileMap[slug] = mod.default ?? mod;
+}
+
+const cityProfiles = CITIES.map(city => {
+  const profile = profileMap[city.slug];
+  return { ...city, census: profile?.census || null, hospitals: profile?.hospitals || null };
+}).sort((a, b) => (b.census?.population || 0) - (a.census?.population || 0));
+
+function fmt(n: number | null | undefined): string {
+  if (n == null) return 'N/A';
+  return n.toLocaleString('en-US');
+}
+function fmtMoney(n: number | null | undefined): string {
+  if (n == null) return 'N/A';
+  return `$${n.toLocaleString('en-US')}`;
+}
+---
+
+<Base
+  title="US City Data Reports"
+  description="City data profiles for major US cities. Population, income, health metrics, hospital ratings, and safety alerts from official government sources."
+>
+  <div class="container py-8 md:py-12">
+    <nav class="flex items-center gap-2 text-sm text-[var(--color-muted)] mb-6">
+      <a href="/" class="hover:text-[var(--color-foreground)]">Home</a>
+      <span>/</span>
+      <span class="text-[var(--color-foreground)]">Cities</span>
+    </nav>
+
+    <header class="mb-10">
+      <h1 class="text-3xl md:text-4xl font-black tracking-tight mb-3">US City Data Reports</h1>
+      <p class="text-lg text-[var(--color-muted)] max-w-2xl">
+        Data-driven city profiles powered by Census Bureau, CDC, and CMS government data.
+        Population, economics, health metrics, and hospital quality at a glance.
+      </p>
+    </header>
+
+    {/* City Grid */}
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {cityProfiles.map(city => (
+        <a
+          href={`/cities/${city.slug}`}
+          class="block border border-[var(--color-border)] rounded-lg p-5 hover:border-[var(--color-muted)] transition-colors"
+        >
+          <div class="flex items-baseline justify-between mb-3">
+            <h2 class="text-lg font-bold">{city.name}</h2>
+            <span class="text-sm text-[var(--color-muted)]">{city.stateCode}</span>
+          </div>
+
+          {city.census && (
+            <div class="space-y-2">
+              <div class="flex justify-between text-sm">
+                <span class="text-[var(--color-muted)]">Population</span>
+                <span class="font-medium">{fmt(city.census.population)}</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-[var(--color-muted)]">Median Income</span>
+                <span class="font-medium">{fmtMoney(city.census.medianHouseholdIncome)}</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-[var(--color-muted)]">Median Home</span>
+                <span class="font-medium">{fmtMoney(city.census.medianHomeValue)}</span>
+              </div>
+              {city.hospitals && (
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--color-muted)]">Hospital Avg Rating</span>
+                  <span class="font-medium">
+                    {city.hospitals.averageRating ? `${city.hospitals.averageRating}/5` : 'N/A'}
+                    <span class="text-amber-500 ml-1">★</span>
+                  </span>
+                </div>
+              )}
+            </div>
+          )}
+
+          <div class="mt-3 text-xs text-[var(--color-muted)]">{city.countyName}</div>
+        </a>
+      ))}
+    </div>
+
+    {/* About */}
+    <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
+      <div class="max-w-2xl">
+        <h2 class="font-bold mb-2">About City Reports</h2>
+        <p class="text-sm text-[var(--color-muted)]">
+          Each city profile aggregates data from the U.S. Census Bureau (demographics, economics),
+          CDC PLACES (health metrics), and CMS Hospital Compare (hospital quality). All data comes
+          from official government sources and is updated annually or quarterly depending on the source.
+          Data is reported at county level — the smallest geography consistently available across all sources.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "US City Data Reports",
+    "description": "City data profiles for major US cities with government data on population, income, health, and hospitals.",
+    "url": "https://areazine.com/cities/",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": cityProfiles.map((city, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "url": `https://areazine.com/cities/${city.slug}`,
+        "name": `${city.name}, ${city.stateCode}`,
+      })),
+    },
+  })} />
+</Base>

@@ -1,41 +1,41 @@
 # Old areazine.com was a city/country news aggregator.
-# Redirect old high-traffic paths to relevant categories.
+# Redirect old city paths to new city data pages.
 
-# US cities → Weather (most common old content was local news/weather)
-/charlotte/* /weather 301
-/charlotte /weather 301
-/akron/* /weather 301
-/akron /weather 301
-/dallas/* /weather 301
-/dallas /weather 301
-/houston/* /weather 301
-/houston /weather 301
-/atlanta/* /weather 301
-/atlanta /weather 301
-/austin/* /weather 301
-/austin /weather 301
-/boston/* /weather 301
-/boston /weather 301
-/chicago/* /weather 301
-/chicago /weather 301
-/denver/* /weather 301
-/denver /weather 301
-/detroit/* /weather 301
-/detroit /weather 301
-/miami/* /weather 301
-/miami /weather 301
-/phoenix/* /weather 301
-/phoenix /weather 301
-/seattle/* /weather 301
-/seattle /weather 301
+# US cities → City data pages
+/charlotte/* /cities/charlotte 301
+/charlotte /cities/charlotte 301
+/akron/* /cities/akron 301
+/akron /cities/akron 301
+/dallas/* /cities/dallas 301
+/dallas /cities/dallas 301
+/houston/* /cities/houston 301
+/houston /cities/houston 301
+/atlanta/* /cities/atlanta 301
+/atlanta /cities/atlanta 301
+/austin/* /cities/austin 301
+/austin /cities/austin 301
+/boston/* /cities/boston 301
+/boston /cities/boston 301
+/chicago/* /cities/chicago 301
+/chicago /cities/chicago 301
+/denver/* /cities/denver 301
+/denver /cities/denver 301
+/detroit/* /cities/detroit 301
+/detroit /cities/detroit 301
+/miami/* /cities/miami 301
+/miami /cities/miami 301
+/phoenix/* /cities/phoenix 301
+/phoenix /cities/phoenix 301
+/seattle/* /cities/seattle 301
+/seattle /cities/seattle 301
+/los-angeles/* /cities/los-angeles 301
+/los-angeles /cities/los-angeles 301
+/san-francisco/* /cities/san-francisco 301
+/san-francisco /cities/san-francisco 301
 
-# Earthquake-prone regions → Earthquakes
+# Earthquake-prone international regions → Earthquakes
 /santiago/* /earthquakes 301
 /santiago /earthquakes 301
-/los-angeles/* /earthquakes 301
-/los-angeles /earthquakes 301
-/san-francisco/* /earthquakes 301
-/san-francisco /earthquakes 301
 /mexico/* /earthquakes 301
 /mexico /earthquakes 301
 /japan/* /earthquakes 301

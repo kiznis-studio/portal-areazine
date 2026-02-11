@@ -1,0 +1,174 @@
+{
+  "city": "Denver",
+  "slug": "denver",
+  "state": "Colorado",
+  "stateCode": "CO",
+  "county": "Denver County",
+  "lat": 39.7392,
+  "lng": -104.9903,
+  "fetchedAt": "2026-02-11T16:17:41.273Z",
+  "census": {
+    "population": 710800,
+    "medianAge": 34.9,
+    "medianHouseholdIncome": 85853,
+    "medianHomeValue": 540400,
+    "medianRent": 1665,
+    "povertyRate": 11.7,
+    "unemploymentRate": 4.6,
+    "bachelorDegreeOrHigher": 54.2,
+    "publicTransitPct": 4.9,
+    "workFromHomePct": 20.9,
+    "demographics": {
+      "white": 65.7,
+      "black": 8.9,
+      "asian": 3.6,
+      "hispanic": 29.2,
+      "other": -7.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 69.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 29.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 21.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 7.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 25.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 21.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 716577,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SAINT JOSEPH HOSPITAL",
+        "city": "DENVER",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "CENTURA HEALTH-PORTER ADVENTIST HOSPITAL",
+        "city": "DENVER",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "DENVER HEALTH & HOSPITAL AUTHORITY",
+        "city": "DENVER",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - State"
+      },
+      {
+        "name": "HCA HEALTHONE PRESBYTERIAN ST LUKES",
+        "city": "DENVER",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - State"
+      },
+      {
+        "name": "HCA HEALTHONE ROSE",
+        "city": "DENVER",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 7,
+    "ratedHospitals": 5,
+    "averageRating": 3.6,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}
