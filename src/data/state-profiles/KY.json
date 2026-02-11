@@ -215,5 +215,16 @@
     "valley-station",
     "winchester-ky"
   ],
-  "generatedAt": "2026-02-11T17:08:27.896Z"
+  "generatedAt": "2026-02-11T17:08:27.896Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 183.6,
+    "propertyCrimeRate": 1496.8,
+    "assaultRate": 136.9,
+    "homicideRate": 7.4,
+    "robberyRate": 39.3,
+    "burglaryRate": 251.1,
+    "larcenyRate": 1019.8,
+    "motorVehicleTheftRate": 225.9
+  }
 }

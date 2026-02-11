@@ -290,5 +290,16 @@
     "woodinville",
     "yakima"
   ],
-  "generatedAt": "2026-02-11T17:08:27.894Z"
+  "generatedAt": "2026-02-11T17:08:27.894Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 340.3,
+    "propertyCrimeRate": 3388,
+    "assaultRate": 247.6,
+    "homicideRate": 5.2,
+    "robberyRate": 87.5,
+    "burglaryRate": 566.5,
+    "larcenyRate": 2175.7,
+    "motorVehicleTheftRate": 645.8
+  }
 }

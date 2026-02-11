@@ -1,0 +1,74 @@
+---
+import TrendSparkline from './TrendSparkline.astro';
+import { fmtCompact, fmtMoney, fmtPct } from '../../lib/format';
+
+interface HistoryData {
+  years: number[];
+  population: (number | null)[];
+  medianIncome: (number | null)[];
+  povertyRate: (number | null)[];
+  medianHomeValue: (number | null)[];
+  unemploymentRate: (number | null)[];
+}
+
+interface Props {
+  history: HistoryData;
+}
+
+const { history } = Astro.props;
+
+// Helper to get first/last non-null values and % change
+function getTrend(values: (number | null)[]): { first: number; last: number; pctChange: number } | null {
+  let first: number | null = null;
+  let last: number | null = null;
+  for (const v of values) { if (v != null) { first = v; break; } }
+  for (let i = values.length - 1; i >= 0; i--) { if (values[i] != null) { last = values[i]; break; } }
+  if (first == null || last == null || first === 0) return null;
+  return { first, last, pctChange: ((last - first) / first) * 100 };
+}
+
+const metrics = [
+  { key: 'population', label: 'Population', values: history.population, format: fmtCompact, invert: false },
+  { key: 'medianIncome', label: 'Median Income', values: history.medianIncome, format: fmtMoney, invert: false },
+  { key: 'medianHomeValue', label: 'Median Home Value', values: history.medianHomeValue, format: fmtMoney, invert: false },
+  { key: 'povertyRate', label: 'Poverty Rate', values: history.povertyRate, format: fmtPct, invert: true },
+  { key: 'unemploymentRate', label: 'Unemployment', values: history.unemploymentRate, format: fmtPct, invert: true },
+].filter(m => m.values.some(v => v != null));
+
+const firstYear = history.years[0];
+const lastYear = history.years[history.years.length - 1];
+---
+
+{metrics.length > 0 && (
+  <div class="grid gap-3">
+    {/* Time range header */}
+    <div class="flex items-center justify-between text-xs text-[var(--color-muted)]">
+      <span class="tabular-nums">{firstYear}</span>
+      <span class="border-b border-dashed border-[var(--color-border)] flex-1 mx-3"></span>
+      <span class="tabular-nums">{lastYear}</span>
+    </div>
+
+    {metrics.map(m => {
+      const trend = getTrend(m.values);
+      if (!trend) return null;
+      const sign = trend.pctChange >= 0 ? '+' : '';
+      const pctStr = `${sign}${trend.pctChange.toFixed(0)}%`;
+      const isGood = m.invert ? trend.pctChange <= 0 : trend.pctChange >= 0;
+
+      return (
+        <div class="flex items-center gap-3 py-2 border-b border-[var(--color-border)] last:border-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-xs text-[var(--color-muted)]">{m.label}</div>
+            <div class="flex items-baseline gap-2 mt-0.5">
+              <span class="text-sm font-semibold tabular-nums">{m.format(trend.last)}</span>
+              <span class={`text-xs font-medium tabular-nums ${isGood ? 'text-[var(--color-above)]' : 'text-[var(--color-below)]'}`}>
+                {pctStr}
+              </span>
+            </div>
+          </div>
+          <TrendSparkline values={m.values} years={history.years} invert={m.invert} />
+        </div>
+      );
+    })}
+  </div>
+)}

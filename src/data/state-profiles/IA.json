@@ -205,5 +205,16 @@
     "waverly-ia",
     "west-des-moines"
   ],
-  "generatedAt": "2026-02-11T17:08:27.899Z"
+  "generatedAt": "2026-02-11T17:08:27.899Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 248.4,
+    "propertyCrimeRate": 1442.3,
+    "assaultRate": 222.2,
+    "homicideRate": 2,
+    "robberyRate": 24.2,
+    "burglaryRate": 237.3,
+    "larcenyRate": 1037.1,
+    "motorVehicleTheftRate": 167.9
+  }
 }

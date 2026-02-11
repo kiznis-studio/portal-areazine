@@ -321,5 +321,16 @@
     "yeadon",
     "york"
   ],
-  "generatedAt": "2026-02-11T17:08:27.893Z"
+  "generatedAt": "2026-02-11T17:08:27.893Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 282.5,
+    "propertyCrimeRate": 1599.5,
+    "assaultRate": 191.2,
+    "homicideRate": 9.3,
+    "robberyRate": 82,
+    "burglaryRate": 164.6,
+    "larcenyRate": 1239.9,
+    "motorVehicleTheftRate": 195
+  }
 }

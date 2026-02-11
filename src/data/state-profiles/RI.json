@@ -144,5 +144,16 @@
     "westerly",
     "woonsocket"
   ],
-  "generatedAt": "2026-02-11T17:08:27.899Z"
+  "generatedAt": "2026-02-11T17:08:27.899Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 134.9,
+    "propertyCrimeRate": 1295.4,
+    "assaultRate": 108.8,
+    "homicideRate": 1.6,
+    "robberyRate": 24.5,
+    "burglaryRate": 137.9,
+    "larcenyRate": 997.7,
+    "motorVehicleTheftRate": 159.8
+  }
 }

@@ -190,5 +190,16 @@
     "south-valley",
     "sunland-park"
   ],
-  "generatedAt": "2026-02-11T17:08:27.896Z"
+  "generatedAt": "2026-02-11T17:08:27.896Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 774.7,
+    "propertyCrimeRate": 3159.7,
+    "assaultRate": 641.6,
+    "homicideRate": 12.8,
+    "robberyRate": 120.3,
+    "burglaryRate": 625.1,
+    "larcenyRate": 1954.2,
+    "motorVehicleTheftRate": 580.4
+  }
 }

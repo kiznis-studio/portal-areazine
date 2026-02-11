@@ -231,5 +231,16 @@
     "union-city-tn",
     "white-house"
   ],
-  "generatedAt": "2026-02-11T17:08:27.895Z"
+  "generatedAt": "2026-02-11T17:08:27.895Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 596.8,
+    "propertyCrimeRate": 2337.3,
+    "assaultRate": 518.3,
+    "homicideRate": 9.3,
+    "robberyRate": 69.2,
+    "burglaryRate": 324.4,
+    "larcenyRate": 1645.1,
+    "motorVehicleTheftRate": 367.8
+  }
 }

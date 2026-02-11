@@ -436,5 +436,16 @@
     "yorkville",
     "zion"
   ],
-  "generatedAt": "2026-02-11T17:08:27.892Z"
+  "generatedAt": "2026-02-11T17:08:27.892Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 294.1,
+    "propertyCrimeRate": 1838.9,
+    "assaultRate": 166.1,
+    "homicideRate": 9.5,
+    "robberyRate": 118.5,
+    "burglaryRate": 220.2,
+    "larcenyRate": 1289.2,
+    "motorVehicleTheftRate": 329.5
+  }
 }

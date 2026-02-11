@@ -270,5 +270,16 @@
     "winder",
     "woodstock-ga"
   ],
-  "generatedAt": "2026-02-11T17:08:27.897Z"
+  "generatedAt": "2026-02-11T17:08:27.897Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 351.7,
+    "propertyCrimeRate": 1745.5,
+    "assaultRate": 296.7,
+    "homicideRate": 8.7,
+    "robberyRate": 46.3,
+    "burglaryRate": 221.3,
+    "larcenyRate": 1306.4,
+    "motorVehicleTheftRate": 217.8
+  }
 }

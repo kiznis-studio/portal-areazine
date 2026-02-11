@@ -156,5 +156,16 @@
     "waipahu",
     "waipio"
   ],
-  "generatedAt": "2026-02-11T17:08:27.898Z"
+  "generatedAt": "2026-02-11T17:08:27.898Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 225.6,
+    "propertyCrimeRate": 2563.2,
+    "assaultRate": 152.6,
+    "homicideRate": 2.8,
+    "robberyRate": 70.2,
+    "burglaryRate": 281.4,
+    "larcenyRate": 1840.3,
+    "motorVehicleTheftRate": 441.5
+  }
 }

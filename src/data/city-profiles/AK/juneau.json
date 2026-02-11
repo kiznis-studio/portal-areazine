@@ -123,5 +123,98 @@
     "totalPopulation": 31555,
     "source": "CDC PLACES (2023)"
   },
-  "hospitals": null
+  "hospitals": null,
+  "crime": {
+    "year": 2022,
+    "source": "state",
+    "sourceLabel": "FBI Crime Data Explorer (UCR Summary)",
+    "violentCrimeRate": 633.4,
+    "propertyCrimeRate": 1820.1,
+    "assaultRate": 547.4,
+    "homicideRate": 9.7,
+    "robberyRate": 76.3,
+    "burglaryRate": 274.8,
+    "larcenyRate": 1297,
+    "motorVehicleTheftRate": 248.3
+  },
+  "history": {
+    "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "population": [
+      31897,
+      32200,
+      32531,
+      32524,
+      32434,
+      32330,
+      32227,
+      32099,
+      32240,
+      32108,
+      31969
+    ],
+    "medianIncome": [
+      81490,
+      84750,
+      85746,
+      87436,
+      90749,
+      88213,
+      88390,
+      88077,
+      90126,
+      95711,
+      100513
+    ],
+    "povertyRate": [
+      6.2,
+      6.4,
+      6.6,
+      7.4,
+      7.4,
+      7.9,
+      7.7,
+      6.9,
+      7.2,
+      6.9,
+      8.2
+    ],
+    "medianHomeValue": [
+      309900,
+      318000,
+      323500,
+      329500,
+      343100,
+      344000,
+      345900,
+      355100,
+      358200,
+      404600,
+      432500
+    ],
+    "unemploymentRate": [
+      5.2,
+      5.6,
+      5.2,
+      4.9,
+      4.7,
+      5.7,
+      4.5,
+      4.3,
+      5,
+      4.4,
+      3.9
+    ]
+  }
 }

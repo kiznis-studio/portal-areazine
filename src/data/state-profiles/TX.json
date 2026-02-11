@@ -420,5 +420,16 @@
     "wichita-falls",
     "wylie"
   ],
-  "generatedAt": "2026-02-11T17:08:27.892Z"
+  "generatedAt": "2026-02-11T17:08:27.892Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 387.5,
+    "propertyCrimeRate": 2328.9,
+    "assaultRate": 308.8,
+    "homicideRate": 7.1,
+    "robberyRate": 71.6,
+    "burglaryRate": 339.9,
+    "larcenyRate": 1654.6,
+    "motorVehicleTheftRate": 334.4
+  }
 }

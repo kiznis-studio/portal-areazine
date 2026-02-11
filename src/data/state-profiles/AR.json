@@ -204,5 +204,16 @@
     "van-buren",
     "west-memphis"
   ],
-  "generatedAt": "2026-02-11T17:08:27.899Z"
+  "generatedAt": "2026-02-11T17:08:27.899Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 578.6,
+    "propertyCrimeRate": 2490.6,
+    "assaultRate": 527.8,
+    "homicideRate": 10.4,
+    "robberyRate": 40.4,
+    "burglaryRate": 470.1,
+    "larcenyRate": 1765.3,
+    "motorVehicleTheftRate": 255.2
+  }
 }

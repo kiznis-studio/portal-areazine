@@ -276,5 +276,16 @@
     "wyoming",
     "ypsilanti"
   ],
-  "generatedAt": "2026-02-11T17:08:27.896Z"
+  "generatedAt": "2026-02-11T17:08:27.896Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 403.5,
+    "propertyCrimeRate": 1576.1,
+    "assaultRate": 359.1,
+    "homicideRate": 7,
+    "robberyRate": 37.4,
+    "burglaryRate": 224.7,
+    "larcenyRate": 1077.7,
+    "motorVehicleTheftRate": 273.7
+  }
 }

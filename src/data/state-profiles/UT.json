@@ -230,5 +230,16 @@
     "west-valley-city",
     "woods-cross"
   ],
-  "generatedAt": "2026-02-11T17:08:27.898Z"
+  "generatedAt": "2026-02-11T17:08:27.898Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 182.4,
+    "propertyCrimeRate": 1923.2,
+    "assaultRate": 150.3,
+    "homicideRate": 2.4,
+    "robberyRate": 29.7,
+    "burglaryRate": 209.8,
+    "larcenyRate": 1500.2,
+    "motorVehicleTheftRate": 213.2
+  }
 }

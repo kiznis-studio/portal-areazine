@@ -106,5 +106,16 @@
     "smyrna-de",
     "wilmington-de"
   ],
-  "generatedAt": "2026-02-11T17:08:27.900Z"
+  "generatedAt": "2026-02-11T17:08:27.900Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 366,
+    "propertyCrimeRate": 1980.1,
+    "assaultRate": 303.9,
+    "homicideRate": 4.8,
+    "robberyRate": 57.3,
+    "burglaryRate": 204.6,
+    "larcenyRate": 1600.3,
+    "motorVehicleTheftRate": 175.2
+  }
 }

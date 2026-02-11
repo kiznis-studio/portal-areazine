@@ -176,5 +176,16 @@
     "watertown-sd",
     "yankton"
   ],
-  "generatedAt": "2026-02-11T17:08:27.899Z"
+  "generatedAt": "2026-02-11T17:08:27.899Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 344.3,
+    "propertyCrimeRate": 1863.9,
+    "assaultRate": 311,
+    "homicideRate": 4.9,
+    "robberyRate": 28.4,
+    "burglaryRate": 278.9,
+    "larcenyRate": 1320.9,
+    "motorVehicleTheftRate": 264.1
+  }
 }

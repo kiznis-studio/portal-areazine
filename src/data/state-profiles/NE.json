@@ -182,5 +182,16 @@
     "scottsbluff",
     "south-sioux-city"
   ],
-  "generatedAt": "2026-02-11T17:08:27.897Z"
+  "generatedAt": "2026-02-11T17:08:27.897Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 233.7,
+    "propertyCrimeRate": 1948.7,
+    "assaultRate": 200.3,
+    "homicideRate": 3.1,
+    "robberyRate": 30.3,
+    "burglaryRate": 187.4,
+    "larcenyRate": 1475.9,
+    "motorVehicleTheftRate": 285.4
+  }
 }

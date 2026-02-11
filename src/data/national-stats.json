@@ -4,5 +4,13 @@
   "avgMedianHomeValue": 195752,
   "avgMedianRent": 900,
   "avgPovertyRate": 14.4,
-  "generatedAt": "2026-02-11T17:08:27.901Z"
+  "generatedAt": "2026-02-11T17:08:27.901Z",
+  "avgViolentCrimeRate": 354.5,
+  "avgPropertyCrimeRate": 1985.2,
+  "avgAssaultRate": 277.9,
+  "avgHomicideRate": 6.9,
+  "avgRobberyRate": 69.7,
+  "avgBurglaryRate": 275.5,
+  "avgLarcenyRate": 1419.5,
+  "avgMotorVehicleTheftRate": 290.2
 }

@@ -232,5 +232,16 @@
     "tuscaloosa",
     "vestavia-hills"
   ],
-  "generatedAt": "2026-02-11T17:08:27.899Z"
+  "generatedAt": "2026-02-11T17:08:27.899Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 368.1,
+    "propertyCrimeRate": 1719,
+    "assaultRate": 324,
+    "homicideRate": 10.8,
+    "robberyRate": 33.3,
+    "burglaryRate": 286.8,
+    "larcenyRate": 1231.2,
+    "motorVehicleTheftRate": 201
+  }
 }

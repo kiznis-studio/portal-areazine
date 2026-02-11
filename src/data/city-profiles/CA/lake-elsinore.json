@@ -210,5 +210,98 @@
     "ratedHospitals": 14,
     "averageRating": 3.1,
     "source": "CMS Hospital Compare (2024)"
+  },
+  "crime": {
+    "year": 2022,
+    "source": "state",
+    "sourceLabel": "FBI Crime Data Explorer (UCR Summary)",
+    "violentCrimeRate": 463.9,
+    "propertyCrimeRate": 2362.1,
+    "assaultRate": 333.8,
+    "homicideRate": 5.8,
+    "robberyRate": 124.3,
+    "burglaryRate": 374.8,
+    "larcenyRate": 1510.6,
+    "motorVehicleTheftRate": 476.7
+  },
+  "history": {
+    "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "population": [
+      2228528,
+      2266899,
+      2298032,
+      2323892,
+      2355002,
+      2383286,
+      2411439,
+      2437864,
+      2409331,
+      2429487,
+      2449909
+    ],
+    "medianIncome": [
+      56529,
+      56592,
+      56603,
+      57972,
+      60807,
+      63948,
+      67005,
+      70732,
+      76066,
+      84505,
+      89672
+    ],
+    "povertyRate": [
+      16.2,
+      16.9,
+      16.8,
+      16.5,
+      15.6,
+      14.7,
+      13.7,
+      12.5,
+      12,
+      11.4,
+      11.1
+    ],
+    "medianHomeValue": [
+      231000,
+      236400,
+      253200,
+      276300,
+      304500,
+      330600,
+      350100,
+      368100,
+      390400,
+      462900,
+      510300
+    ],
+    "unemploymentRate": [
+      14.8,
+      14.3,
+      12.8,
+      11.3,
+      9.8,
+      8.6,
+      7.4,
+      7.2,
+      7.2,
+      6.7,
+      6.5
+    ]
   }
 }

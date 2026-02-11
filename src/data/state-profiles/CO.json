@@ -228,5 +228,16 @@
     "wheat-ridge",
     "windsor-co"
   ],
-  "generatedAt": "2026-02-11T17:08:27.895Z"
+  "generatedAt": "2026-02-11T17:08:27.895Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 444.2,
+    "propertyCrimeRate": 3209.6,
+    "assaultRate": 360.8,
+    "homicideRate": 6.8,
+    "robberyRate": 76.6,
+    "burglaryRate": 403,
+    "larcenyRate": 2007.8,
+    "motorVehicleTheftRate": 798.8
+  }
 }

@@ -485,5 +485,16 @@
     "wykagyl",
     "yonkers"
   ],
-  "generatedAt": "2026-02-11T17:08:27.893Z"
+  "generatedAt": "2026-02-11T17:08:27.893Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 403.9,
+    "propertyCrimeRate": 1731.3,
+    "assaultRate": 287,
+    "homicideRate": 4.1,
+    "robberyRate": 112.8,
+    "burglaryRate": 164.1,
+    "larcenyRate": 1429.9,
+    "motorVehicleTheftRate": 137.3
+  }
 }

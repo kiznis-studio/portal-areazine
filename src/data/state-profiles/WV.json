@@ -181,5 +181,16 @@
     "weirton-heights",
     "wheeling-wv"
   ],
-  "generatedAt": "2026-02-11T17:08:27.900Z"
+  "generatedAt": "2026-02-11T17:08:27.900Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 241.4,
+    "propertyCrimeRate": 1321.6,
+    "assaultRate": 223.1,
+    "homicideRate": 5.9,
+    "robberyRate": 12.4,
+    "burglaryRate": 214,
+    "larcenyRate": 1007,
+    "motorVehicleTheftRate": 100.6
+  }
 }

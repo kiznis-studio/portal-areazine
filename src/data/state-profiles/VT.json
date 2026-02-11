@@ -65,5 +65,16 @@
     "rutland",
     "south-burlington"
   ],
-  "generatedAt": "2026-02-11T17:08:27.900Z"
+  "generatedAt": "2026-02-11T17:08:27.900Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 181.7,
+    "propertyCrimeRate": 1707.4,
+    "assaultRate": 164.1,
+    "homicideRate": 3.4,
+    "robberyRate": 14.2,
+    "burglaryRate": 158.3,
+    "larcenyRate": 1450.8,
+    "motorVehicleTheftRate": 98.3
+  }
 }

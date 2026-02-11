@@ -97,5 +97,16 @@
     "juneau",
     "knik-fairview"
   ],
-  "generatedAt": "2026-02-11T17:08:27.898Z"
+  "generatedAt": "2026-02-11T17:08:27.898Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 633.4,
+    "propertyCrimeRate": 1820.1,
+    "assaultRate": 547.4,
+    "homicideRate": 9.7,
+    "robberyRate": 76.3,
+    "burglaryRate": 274.8,
+    "larcenyRate": 1297,
+    "motorVehicleTheftRate": 248.3
+  }
 }

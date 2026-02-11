@@ -224,5 +224,16 @@
     "wilsonville",
     "woodburn"
   ],
-  "generatedAt": "2026-02-11T17:08:27.895Z"
+  "generatedAt": "2026-02-11T17:08:27.895Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 309.5,
+    "propertyCrimeRate": 2971.5,
+    "assaultRate": 235,
+    "homicideRate": 4.8,
+    "robberyRate": 69.7,
+    "burglaryRate": 375.2,
+    "larcenyRate": 2043.5,
+    "motorVehicleTheftRate": 552.8
+  }
 }

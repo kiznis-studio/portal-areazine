@@ -189,5 +189,16 @@
     "rexburg",
     "twin-falls"
   ],
-  "generatedAt": "2026-02-11T17:08:27.898Z"
+  "generatedAt": "2026-02-11T17:08:27.898Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 196.8,
+    "propertyCrimeRate": 949.4,
+    "assaultRate": 185.7,
+    "homicideRate": 2.8,
+    "robberyRate": 8.3,
+    "burglaryRate": 166,
+    "larcenyRate": 690.6,
+    "motorVehicleTheftRate": 92.8
+  }
 }

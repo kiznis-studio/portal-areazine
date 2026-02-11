@@ -249,5 +249,16 @@
     "west-plains",
     "wildwood"
   ],
-  "generatedAt": "2026-02-11T17:08:27.897Z"
+  "generatedAt": "2026-02-11T17:08:27.897Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 447.4,
+    "propertyCrimeRate": 2401.1,
+    "assaultRate": 380.4,
+    "homicideRate": 10.5,
+    "robberyRate": 56.5,
+    "burglaryRate": 301.2,
+    "larcenyRate": 1590,
+    "motorVehicleTheftRate": 509.9
+  }
 }

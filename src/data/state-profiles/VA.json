@@ -272,5 +272,16 @@
     "wolf-trap",
     "woodlawn-va"
   ],
-  "generatedAt": "2026-02-11T17:08:27.897Z"
+  "generatedAt": "2026-02-11T17:08:27.897Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 206.7,
+    "propertyCrimeRate": 1718.8,
+    "assaultRate": 160.5,
+    "homicideRate": 7.4,
+    "robberyRate": 38.8,
+    "burglaryRate": 128.5,
+    "larcenyRate": 1428.9,
+    "motorVehicleTheftRate": 161.4
+  }
 }

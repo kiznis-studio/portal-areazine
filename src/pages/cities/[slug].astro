@@ -11,6 +11,8 @@ import HealthMetricRow from '../../components/data/HealthMetricRow.astro';
 import HospitalRatingDist from '../../components/data/HospitalRatingDist.astro';
 import HospitalCard from '../../components/data/HospitalCard.astro';
 import DataSourceFooter from '../../components/data/DataSourceFooter.astro';
+import CrimeSection from '../../components/data/CrimeSection.astro';
+import HistoricalTrends from '../../components/data/HistoricalTrends.astro';
 import { CITIES, getNearbyCities } from '../../data/cities';
 import { getCollection } from 'astro:content';
 import { getCategoryMeta, SITE_NAME } from '../../lib/config';
@@ -40,6 +42,8 @@ const profile = profiles[city.slug] || null;
 const census = profile?.census;
 const health = profile?.health;
 const hospitalData = profile?.hospitals;
+const crimeData = profile?.crime;
+const historyData = profile?.history;
 
 // Related articles
 const allArticles = await getCollection('articles');
@@ -161,6 +165,16 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
           />
         </section>
 
+        {/* 10-Year Trends (if history data available) */}
+        {historyData && historyData.years?.length >= 3 && (
+          <section class="mb-12">
+            <SectionHeader title="10-Year Trends" count={`${historyData.years[0]}–${historyData.years[historyData.years.length - 1]}`} />
+            <div class="border border-[var(--color-border)] rounded-xl p-5">
+              <HistoricalTrends history={historyData} />
+            </div>
+          </section>
+        )}
+
         {/* Economics & Demographics */}
         <div class="grid md:grid-cols-2 gap-8 mb-12">
 
@@ -256,6 +270,14 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
             )}
           </div>
         </div>
+      </section>
+    )}
+
+    {/* Public Safety */}
+    {crimeData && crimeData.violentCrimeRate > 0 && (
+      <section class="mb-12">
+        <SectionHeader title="Public Safety" count={`${crimeData.year} data`} />
+        <CrimeSection crime={crimeData} />
       </section>
     )}
 

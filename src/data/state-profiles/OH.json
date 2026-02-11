@@ -360,5 +360,16 @@
     "youngstown",
     "zanesville"
   ],
-  "generatedAt": "2026-02-11T17:08:27.894Z"
+  "generatedAt": "2026-02-11T17:08:27.894Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 263.6,
+    "propertyCrimeRate": 1856.3,
+    "assaultRate": 199,
+    "homicideRate": 6.9,
+    "robberyRate": 57.7,
+    "burglaryRate": 269.2,
+    "larcenyRate": 1337.2,
+    "motorVehicleTheftRate": 249.9
+  }
 }

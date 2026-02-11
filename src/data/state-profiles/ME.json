@@ -131,5 +131,16 @@
     "westbrook",
     "york-beach"
   ],
-  "generatedAt": "2026-02-11T17:08:27.900Z"
+  "generatedAt": "2026-02-11T17:08:27.900Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 72.8,
+    "propertyCrimeRate": 1222.2,
+    "assaultRate": 60.5,
+    "homicideRate": 2.1,
+    "robberyRate": 10.2,
+    "burglaryRate": 116.4,
+    "larcenyRate": 1033.8,
+    "motorVehicleTheftRate": 72
+  }
 }

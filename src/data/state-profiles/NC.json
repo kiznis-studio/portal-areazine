@@ -255,5 +255,16 @@
     "wilson",
     "winston-salem"
   ],
-  "generatedAt": "2026-02-11T17:08:27.894Z"
+  "generatedAt": "2026-02-11T17:08:27.894Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 377.2,
+    "propertyCrimeRate": 2084.2,
+    "assaultRate": 313.1,
+    "homicideRate": 8.3,
+    "robberyRate": 55.8,
+    "burglaryRate": 373.7,
+    "larcenyRate": 1509.8,
+    "motorVehicleTheftRate": 200.7
+  }
 }

@@ -201,5 +201,16 @@
     "wichita",
     "winfield"
   ],
-  "generatedAt": "2026-02-11T17:08:27.897Z"
+  "generatedAt": "2026-02-11T17:08:27.897Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 397,
+    "propertyCrimeRate": 2156.3,
+    "assaultRate": 360.4,
+    "homicideRate": 4.9,
+    "robberyRate": 31.7,
+    "burglaryRate": 317.8,
+    "larcenyRate": 1602.7,
+    "motorVehicleTheftRate": 235.8
+  }
 }

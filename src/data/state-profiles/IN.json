@@ -247,5 +247,16 @@
     "yorktown",
     "zionsville"
   ],
-  "generatedAt": "2026-02-11T17:08:27.894Z"
+  "generatedAt": "2026-02-11T17:08:27.894Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 316.4,
+    "propertyCrimeRate": 1668.1,
+    "assaultRate": 256.9,
+    "homicideRate": 8.3,
+    "robberyRate": 51.2,
+    "burglaryRate": 243,
+    "larcenyRate": 1208,
+    "motorVehicleTheftRate": 217.1
+  }
 }

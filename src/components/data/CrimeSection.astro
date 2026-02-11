@@ -1,0 +1,157 @@
+---
+import { fmt } from '../../lib/format';
+import nationalStats from '../../data/national-stats.json';
+
+interface CrimeData {
+  year: number;
+  source: string;
+  sourceLabel?: string;
+  violentCrimeRate: number;
+  propertyCrimeRate: number;
+  assaultRate: number | null;
+  homicideRate: number | null;
+  robberyRate: number | null;
+  burglaryRate: number | null;
+  larcenyRate: number | null;
+  motorVehicleTheftRate: number | null;
+}
+
+interface Props {
+  crime: CrimeData;
+}
+
+const { crime } = Astro.props;
+
+const natViolent = (nationalStats as any).avgViolentCrimeRate || 354.5;
+const natProperty = (nationalStats as any).avgPropertyCrimeRate || 1985.2;
+
+// Helper: comparison bar + label
+function getComparison(value: number, national: number): { pct: number; label: string; isAbove: boolean } {
+  const diff = ((value - national) / national) * 100;
+  const absDiff = Math.abs(Math.round(diff));
+  const sign = diff >= 0 ? '+' : '-';
+  return {
+    pct: absDiff,
+    label: absDiff < 3 ? 'Near average' : `${sign}${absDiff}% vs avg`,
+    isAbove: diff > 0,
+  };
+}
+
+// For crime: lower = better (green), higher = worse (red)
+function crimeColor(isAbove: boolean): string {
+  return isAbove ? 'var(--color-below)' : 'var(--color-above)';
+}
+
+const violentComp = getComparison(crime.violentCrimeRate, natViolent);
+const propertyComp = getComparison(crime.propertyCrimeRate, natProperty);
+
+// Individual offense rates with national averages
+const offenses = [
+  { label: 'Aggravated Assault', value: crime.assaultRate, avg: (nationalStats as any).avgAssaultRate },
+  { label: 'Homicide', value: crime.homicideRate, avg: (nationalStats as any).avgHomicideRate },
+  { label: 'Robbery', value: crime.robberyRate, avg: (nationalStats as any).avgRobberyRate },
+  { label: 'Burglary', value: crime.burglaryRate, avg: (nationalStats as any).avgBurglaryRate },
+  { label: 'Larceny-Theft', value: crime.larcenyRate, avg: (nationalStats as any).avgLarcenyRate },
+  { label: 'Motor Vehicle Theft', value: crime.motorVehicleTheftRate, avg: (nationalStats as any).avgMotorVehicleTheftRate },
+].filter(o => o.value != null);
+
+// Max value for bar scaling
+const maxRate = Math.max(...offenses.map(o => o.value as number), ...offenses.map(o => o.avg || 0));
+---
+
+<div class="grid md:grid-cols-2 gap-4 mb-4">
+  {/* Violent Crime Summary */}
+  <div class="border border-[var(--color-border)] rounded-xl p-5">
+    <div class="data-label mb-1">Violent Crime Rate</div>
+    <div class="flex items-baseline gap-3">
+      <span class="data-value" style={`color: ${crimeColor(violentComp.isAbove)}`}>
+        {crime.violentCrimeRate.toFixed(0)}
+      </span>
+      <span class="text-xs text-[var(--color-muted)]">per 100k</span>
+    </div>
+    <div class="mt-2">
+      <div class="progress-bar">
+        <div
+          class="progress-bar-fill"
+          style={`width: ${Math.min((crime.violentCrimeRate / (natViolent * 2)) * 100, 100)}%; background: ${crimeColor(violentComp.isAbove)};`}
+        />
+        <div
+          class="avg-marker"
+          style={`left: ${Math.min((natViolent / (natViolent * 2)) * 100, 100)}%`}
+          title="National avg"
+        />
+      </div>
+      <div class="flex justify-between mt-1">
+        <span class={`text-xs font-medium ${violentComp.isAbove ? 'text-[var(--color-below)]' : 'text-[var(--color-above)]'}`}>
+          {violentComp.label}
+        </span>
+        <span class="text-xs text-[var(--color-muted)]">Avg: {natViolent.toFixed(0)}</span>
+      </div>
+    </div>
+  </div>
+
+  {/* Property Crime Summary */}
+  <div class="border border-[var(--color-border)] rounded-xl p-5">
+    <div class="data-label mb-1">Property Crime Rate</div>
+    <div class="flex items-baseline gap-3">
+      <span class="data-value" style={`color: ${crimeColor(propertyComp.isAbove)}`}>
+        {crime.propertyCrimeRate.toFixed(0)}
+      </span>
+      <span class="text-xs text-[var(--color-muted)]">per 100k</span>
+    </div>
+    <div class="mt-2">
+      <div class="progress-bar">
+        <div
+          class="progress-bar-fill"
+          style={`width: ${Math.min((crime.propertyCrimeRate / (natProperty * 2)) * 100, 100)}%; background: ${crimeColor(propertyComp.isAbove)};`}
+        />
+        <div
+          class="avg-marker"
+          style={`left: ${Math.min((natProperty / (natProperty * 2)) * 100, 100)}%`}
+          title="National avg"
+        />
+      </div>
+      <div class="flex justify-between mt-1">
+        <span class={`text-xs font-medium ${propertyComp.isAbove ? 'text-[var(--color-below)]' : 'text-[var(--color-above)]'}`}>
+          {propertyComp.label}
+        </span>
+        <span class="text-xs text-[var(--color-muted)]">Avg: {fmt(Math.round(natProperty))}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* Individual Offenses Table */}
+<div class="data-table">
+  <div class="px-4 py-3 border-b border-[var(--color-border)] bg-[var(--color-card)]">
+    <h3 class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">Offenses by Type (per 100k residents)</h3>
+  </div>
+  {offenses.map(o => {
+    const val = o.value as number;
+    const barMax = maxRate * 1.1;
+    const barWidth = Math.min((val / barMax) * 100, 100);
+    const avgPos = o.avg ? Math.min((o.avg / barMax) * 100, 100) : null;
+    const isAbove = o.avg ? val > o.avg : false;
+    return (
+      <div class="data-row">
+        <span class="text-sm flex-1">{o.label}</span>
+        <div class="flex items-center gap-2 w-2/3">
+          <div class="progress-bar flex-1">
+            <div
+              class="progress-bar-fill"
+              style={`width: ${barWidth}%; background: ${crimeColor(isAbove)};`}
+            />
+            {avgPos != null && (
+              <div class="avg-marker" style={`left: ${avgPos}%`} title="National avg" />
+            )}
+          </div>
+          <span class="font-semibold text-sm tabular-nums w-14 text-right">{val.toFixed(1)}</span>
+        </div>
+      </div>
+    );
+  })}
+</div>
+
+<div class="mt-3 text-xs text-[var(--color-muted)]">
+  Source: FBI Crime Data Explorer, UCR Summary ({crime.year}). State-level rates applied to county.
+</div>

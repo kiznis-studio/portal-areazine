@@ -1,0 +1,107 @@
+---
+interface Props {
+  /** Array of numeric values (null values are skipped) */
+  values: (number | null)[];
+  /** Array of year labels matching values */
+  years?: number[];
+  /** Color for the sparkline stroke */
+  color?: string;
+  /** If true, upward trend = bad (for poverty, unemployment) */
+  invert?: boolean;
+  /** Width in pixels */
+  width?: number;
+  /** Height in pixels */
+  height?: number;
+}
+
+const {
+  values,
+  years,
+  color: colorProp,
+  invert = false,
+  width = 120,
+  height = 36,
+} = Astro.props;
+
+// Filter out nulls while keeping index mapping
+const dataPoints: { x: number; y: number; year?: number }[] = [];
+for (let i = 0; i < values.length; i++) {
+  if (values[i] != null) {
+    dataPoints.push({
+      x: i,
+      y: values[i] as number,
+      year: years?.[i],
+    });
+  }
+}
+
+const hasData = dataPoints.length >= 2;
+
+// Calculate SVG polyline points
+let points = '';
+let fillPoints = '';
+let strokeColor = '';
+let lastCx = '0';
+let lastCy = '0';
+
+if (hasData) {
+  const yValues = dataPoints.map(p => p.y);
+  const minY = Math.min(...yValues);
+  const maxY = Math.max(...yValues);
+  const range = maxY - minY || 1;
+  const padding = 2;
+
+  const pointsArr = dataPoints.map((p, i) => {
+    const x = padding + (i / (dataPoints.length - 1)) * (width - padding * 2);
+    const y = height - padding - ((p.y - minY) / range) * (height - padding * 2);
+    return [x.toFixed(1), y.toFixed(1)];
+  });
+
+  points = pointsArr.map(p => p.join(',')).join(' ');
+  fillPoints = `${points} ${width - padding},${height - padding} ${padding},${height - padding}`;
+
+  // Last point for end dot
+  const last = pointsArr[pointsArr.length - 1];
+  lastCx = last[0];
+  lastCy = last[1];
+
+  // Color: green = good, red = bad
+  const firstVal = dataPoints[0].y;
+  const lastVal = dataPoints[dataPoints.length - 1].y;
+  const isUp = lastVal > firstVal;
+  const autoColor = invert
+    ? (isUp ? 'var(--color-below)' : 'var(--color-above)')
+    : (isUp ? 'var(--color-above)' : 'var(--color-below)');
+  strokeColor = colorProp || autoColor;
+}
+
+// Deterministic gradient ID from first+last values
+const gradId = `sg${Math.abs(dataPoints[0]?.y ?? 0).toString(36).slice(0, 4)}${dataPoints.length}`;
+---
+
+{hasData && (
+  <svg
+    width={width}
+    height={height}
+    viewBox={`0 0 ${width} ${height}`}
+    class="sparkline flex-shrink-0"
+    aria-hidden="true"
+  >
+    <defs>
+      <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color={strokeColor} stop-opacity="0.15" />
+        <stop offset="100%" stop-color={strokeColor} stop-opacity="0" />
+      </linearGradient>
+    </defs>
+    <polygon points={fillPoints} fill={`url(#${gradId})`} />
+    <polyline
+      points={points}
+      fill="none"
+      stroke={strokeColor}
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx={lastCx} cy={lastCy} r="2" fill={strokeColor} />
+  </svg>
+)}

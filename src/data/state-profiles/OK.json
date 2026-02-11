@@ -208,5 +208,16 @@
     "woodward",
     "yukon"
   ],
-  "generatedAt": "2026-02-11T17:08:27.895Z"
+  "generatedAt": "2026-02-11T17:08:27.895Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 365.5,
+    "propertyCrimeRate": 2355,
+    "assaultRate": 317.4,
+    "homicideRate": 7,
+    "robberyRate": 41.1,
+    "burglaryRate": 490.2,
+    "larcenyRate": 1548.9,
+    "motorVehicleTheftRate": 315.9
+  }
 }

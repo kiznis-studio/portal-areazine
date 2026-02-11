@@ -165,5 +165,16 @@
     "rock-springs",
     "sheridan"
   ],
-  "generatedAt": "2026-02-11T17:08:27.900Z"
+  "generatedAt": "2026-02-11T17:08:27.900Z",
+  "crime": {
+    "year": 2022,
+    "violentCrimeRate": 159.6,
+    "propertyCrimeRate": 1513.2,
+    "assaultRate": 148.8,
+    "homicideRate": 3.5,
+    "robberyRate": 7.3,
+    "burglaryRate": 194.7,
+    "larcenyRate": 1173.6,
+    "motorVehicleTheftRate": 144.9
+  }
 }

@@ -13,6 +13,8 @@ const METRIC_MAP: Record<string, { key: keyof typeof nationalStats; invert?: boo
   medianHomeValue: { key: 'avgMedianHomeValue' },
   medianRent: { key: 'avgMedianRent' },
   povertyRate: { key: 'avgPovertyRate', invert: true },
+  violentCrimeRate: { key: 'avgViolentCrimeRate' as any, invert: true },
+  propertyCrimeRate: { key: 'avgPropertyCrimeRate' as any, invert: true },
 };
 
 /**
