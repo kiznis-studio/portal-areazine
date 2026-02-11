@@ -27,7 +27,7 @@ const PLACEHOLDER_PATTERNS = [
   /\[TODO[\s\S]*?\]/gi,     // [TODO ...] markers
   /\[EXAMPLE[\s\S]*?\]/gi,  // [EXAMPLE ...] markers
   /\bEXAMPLE\b/gi,          // EXAMPLE as standalone word
-  /(TBD|TK|N\/A)/g,         // Placeholder abbreviations
+  /\bTK\b/g,                 // "To come" journalism placeholder
 ];
 
 /**
