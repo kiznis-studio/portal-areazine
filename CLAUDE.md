@@ -1,6 +1,6 @@
 # Areazine
 
-Automated US safety alerts news portal transforming government public data (CPSC, FDA, NOAA, USGS, FEMA) into SEO-optimized articles using Gemini Flash.
+Automated US safety alerts news portal transforming government public data (CPSC, FDA, NHTSA, NOAA, USGS, FEMA, AirNow) into SEO-optimized articles using Gemini Flash.
 
 **Live URL:** https://areazine.com
 **Growth Roadmap:** [docs/growth-roadmap-1m.md](docs/growth-roadmap-1m.md)
@@ -11,10 +11,11 @@ Automated US safety alerts news portal transforming government public data (CPSC
 
 - **Status:** **LIVE** (launched 2026-02-11)
 - **Architecture:** Astro 5 static site + Node.js pipeline (Aurora server)
-- **Content:** Automated article generation from government APIs
+- **Content:** 135+ automated articles across 8 categories
+- **Data Sources:** 8 active (CPSC, FDA, NHTSA, NOAA, USGS, FEMA, FDA Drug Shortages, AirNow)
 - **Traffic:** Minimal (new site, awaiting index)
 - **Revenue:** $0/mo (AdSense not applied yet)
-- **Phase:** Bootstrap - establishing content foundation
+- **Phase:** Content scaling - all sources operational, pipeline stable
 
 ---
 
@@ -23,11 +24,12 @@ Automated US safety alerts news portal transforming government public data (CPSC
 ### Positioning
 
 Automated news aggregator covering US public safety alerts:
-- Product recalls (CPSC, FDA)
-- Weather alerts (NOAA)
-- Earthquake reports (USGS)
+- Product recalls (CPSC, FDA, NHTSA)
+- Weather alerts (NOAA — Extreme/Severe only)
+- Earthquake reports (USGS — M2.5+)
 - Disaster declarations (FEMA)
-- Vehicle recalls (NHTSA - paused, needs auth)
+- Drug shortages (FDA)
+- Air quality alerts (EPA AirNow — AQI > 100)
 
 **Target audience:** US consumers seeking safety information, parents, homeowners, emergency preparedness enthusiasts.
 
@@ -48,7 +50,7 @@ Automated news aggregator covering US public safety alerts:
 ### Backend Pipeline (Aurora Server)
 
 - **Location:** `/opt/areazine/repo/` (Aurora: root@158.101.199.103)
-- **Database:** SQLite at `/data/areazine.db`
+- **Database:** SQLite at `/storage/areazine/areazine.db`
 - **Services:** 3 systemd daemons (fetcher, processor, publisher)
 - **AI Model:** Gemini Flash 2.0 (`gemini-2.0-flash-001`)
 - **Cost estimate:** ~$5-10/month for 2-4K articles/day
@@ -59,7 +61,7 @@ Automated news aggregator covering US public safety alerts:
 ┌─────────────────────────────────────────────────────────────┐
 │                    FETCHER (areazine-fetcher)                │
 │  Polls government APIs → stores raw JSON in SQLite           │
-│  Intervals: CPSC/FDA 4h, NOAA 1h, USGS 30min                │
+│  Intervals: CPSC/FDA 4h, NOAA 1h, USGS 30min, AirNow 2h     │
 └────────────────────────────┬────────────────────────────────┘
                              │
                              ▼
@@ -92,7 +94,7 @@ Automated news aggregator covering US public safety alerts:
 ### Sentry Configuration
 
 - **Project:** `areazine`
-- **Production check:** `DATA_DIR === '/data'` (Aurora environment)
+- **Production check:** `DATA_DIR === '/storage/areazine'` (Aurora environment)
 - **Integration:** Astro integration in `astro.config.mjs`, pipeline integration in `pipeline/lib/sentry.js`
 - **Behavior:** Sentry only initializes in production environment (Aurora server)
 
@@ -123,30 +125,43 @@ Old city-based URLs redirect to category pages:
 |--------|--------------|----------|----------|--------|------------|
 | **CPSC** | cpsc.gov/Recalls/retrieve-by-date | recalls-cpsc | 4 hours | Active | 30/24h |
 | **FDA** | api.fda.gov/food/enforcement.json | recalls-fda | 4 hours | Active | 30/24h |
+| **NHTSA** | api.nhtsa.gov/recalls/campaignNumber | recalls-vehicles | 4 hours | **Active** | 30/24h |
 | **NOAA** | api.weather.gov/alerts/active | weather | 1 hour | Active | 20/24h |
-| **USGS** | earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_day.geojson | earthquakes | 30 minutes | Active | 15/24h |
+| **USGS** | earthquake.usgs.gov/fdsnws/event/1/query | earthquakes | 30 minutes | Active | 15/24h |
 | **FEMA** | fema.gov/api/open/v2/DisasterDeclarationsSummaries | disasters | 6 hours | Active | 10/24h |
-| **NHTSA** | api.nhtsa.gov/recalls/recallsByVehicle | recalls-vehicles | N/A | **Paused** | N/A |
+| **FDA Drug Shortages** | api.fda.gov/drug/shortages.json | drug-shortages | 12 hours | Active | 20/24h |
+| **AirNow** | airnowservices.org/aq/forecast/zipCode | air-quality | 2 hours | Active | 15/24h |
 
 **FEMA notes:** API blocks non-US IPs; works from Aurora (US Oracle Cloud). Groups by disaster number to avoid per-county duplicates. Declaration types: DR (Major Disaster), EM (Emergency), FM (Fire Management).
 
-**NHTSA status:** API now requires authentication. Need to apply for API key or find alternative endpoint.
+**NHTSA notes:** The `recallsByDate` endpoint returns 403 (requires auth), but the `campaignNumber` endpoint works without auth. Fetcher iterates all 2026 campaign types (V, E, T, C) and campaign numbers sequentially.
+
+**FDA Drug Shortages notes:** The api.data.gov key does NOT work with this endpoint — use public access (no key). `update_date` is MM/DD/YYYY text, not searchable as a date range. Fetcher paginates all current shortages client-side and filters by update date. Groups by generic drug name to produce one record per drug.
+
+**AirNow notes:** Requires separate API key (not api.data.gov). Queries 50 major US metro zip codes. Only generates articles when AQI > 100 (unhealthy for sensitive groups+). Key stored in `/opt/areazine/keys/airnow-api-key.txt`.
 
 ### Rate Limiting Logic
 
 Pipeline tracks publication counts per category in 24-hour rolling windows. When limit reached:
-- Record remains unprocessed (not marked as failed)
-- Will be retried in next processing cycle
-- Automatic cleanup after limit window expires
+- Record stays as unprocessed (not marked as failed)
+- **Per-cycle category tracking:** Processor tracks rate-limited categories in a Set per batch cycle. Once a category hits its limit, all remaining records from that category are skipped for the rest of that cycle.
+- **5x batch fetching:** Processor fetches `BATCH_SIZE * 5` records to find non-limited records across categories.
+- When ALL pending records are rate-limited, processor sleeps 5 minutes before retrying.
 
 ### Data Quality
 
 **Anti-hallucination validation** (in `pipeline/lib/quality.js`):
-- CPSC: Match recall number exactly
-- FDA: Match recall number exactly
-- NOAA: Match event ID exactly
-- USGS: Match magnitude (rounded to 1 decimal)
-- Failed validation → article discarded, record marked processed
+- CPSC: Brand name, manufacturer, product name from structured fields
+- FDA: Recalling firm, product description, reason for recall
+- NHTSA: Campaign number, manufacturer, make, model, component
+- NOAA: Event type, area description (handles both flat and nested GeoJSON)
+- USGS: Magnitude (rounded to 1 decimal), place name (stripped of distance prefix)
+- FEMA: Declaration string, state, incident type, declaration title
+- FDA Drug Shortages: Generic name, dosage form, brand names, status
+- AirNow: Reporting area, state code, AQI value, worst parameter
+- Failed validation → article discarded, record marked `processed=2`
+
+**Placeholder detection:** Only checks for `TK` (journalism placeholder). `TBD` and `N/A` are NOT flagged because they appear legitimately in FDA drug shortage data.
 
 **NOAA data flattening:** GeoJSON Feature objects stored as flat properties in SQLite for simpler querying.
 
@@ -156,12 +171,14 @@ Pipeline tracks publication counts per category in 24-hour rolling windows. When
 
 | Category Slug | Display Name | Source(s) | Article Count |
 |--------------|--------------|-----------|---------------|
-| `recalls-cpsc` | Product Recalls | CPSC | 14+ |
-| `recalls-fda` | FDA Recalls | FDA | TBD |
-| `recalls-vehicles` | Vehicle Recalls | NHTSA | 0 (paused) |
-| `weather` | Weather Alerts | NOAA | TBD |
-| `earthquakes` | Earthquake Reports | USGS | TBD |
-| `disasters` | Disaster Declarations | FEMA | 5 (initial) |
+| `recalls-cpsc` | Product Recalls | CPSC | 16 |
+| `recalls-fda` | FDA Recalls | FDA | 24 |
+| `recalls-vehicles` | Vehicle Recalls | NHTSA | 30+ (processing) |
+| `weather` | Weather Alerts | NOAA | 31 |
+| `earthquakes` | Earthquake Reports | USGS | 8 |
+| `disasters` | Disaster Declarations | FEMA | 5 |
+| `drug-shortages` | Drug Shortages | FDA | 20 (36 rate-limited) |
+| `air-quality` | Air Quality Alerts | AirNow | 1 |
 
 ### Article Slug Format
 
@@ -190,7 +207,7 @@ journalctl -fu areazine-publisher
 ssh root@158.101.199.103 "cd /opt/areazine/repo && git pull origin main && systemctl restart areazine-fetcher areazine-processor areazine-publisher"
 
 # Check pipeline stats
-ssh root@158.101.199.103 "sqlite3 /data/areazine.db \"SELECT source, COUNT(*) as cnt, SUM(CASE WHEN processed=0 THEN 1 ELSE 0 END) as pending FROM raw_data GROUP BY source\""
+ssh root@158.101.199.103 "sqlite3 /storage/areazine/areazine.db \"SELECT source, COUNT(*) as cnt, SUM(CASE WHEN processed=0 THEN 1 ELSE 0 END) as pending FROM raw_data GROUP BY source\""
 ```
 
 ### Systemd Services
@@ -210,11 +227,15 @@ ssh root@158.101.199.103 "sqlite3 /data/areazine.db \"SELECT source, COUNT(*) as
 ```bash
 GEMINI_API_KEY=...           # From den.kiznis.com
 GEMINI_MODEL=gemini-2.0-flash-001
-DATA_DIR=/data               # Production flag for Sentry
-DATABASE_PATH=/data/areazine.db
+DATA_DIR=/storage/areazine   # Production data directory
 GITHUB_TOKEN=...             # For publisher git push
 INDEXNOW_KEY=766538bdafcc4bf2b8f3a2d4d4d0b9fa
 SENTRY_DSN=https://...       # Pipeline error tracking
+AIRNOW_API_KEY=...           # EPA AirNow API key
+DATA_GOV_API_KEY=...         # api.data.gov key (NOT used for FDA shortages)
+FETCH_INTERVAL_AIRNOW=120    # Minutes between AirNow fetches
+FETCH_INTERVAL_FDA_SHORTAGES=720  # Minutes between FDA shortage fetches
+FETCH_INTERVAL_FEMA=360      # Minutes between FEMA fetches
 ```
 
 **GitHub Token:** Currently uses `gh` OAuth token. Should be replaced with fine-grained PAT:
@@ -225,13 +246,15 @@ SENTRY_DSN=https://...       # Pipeline error tracking
 
 | Key | Location | Purpose |
 |-----|----------|---------|
-| **api.data.gov** | `keys/data-gov-api-key.txt` | EPA AirNow, USDA, and other federal agency APIs |
 | **Gemini** | Aurora `.env` | AI article generation |
+| **AirNow** | `/opt/areazine/keys/airnow-api-key.txt` + `.env` | EPA air quality data |
+| **api.data.gov** | `keys/data-gov-api-key.txt` + `.env` | Federal agency APIs (USDA, etc.) |
+| **GitHub PAT** | Aurora `.env` | Publisher git push |
 
-**api.data.gov rate limits:**
-- Default: 1,000 requests/hour per key
-- Burst: small bursts OK, sustained over 1K/hr will be throttled
-- Always include `api_key=` parameter
+**Important API quirks:**
+- api.data.gov key does NOT work with openFDA drug/shortages.json (use public access, no key)
+- AirNow uses its own key system, separate from api.data.gov
+- NHTSA campaignNumber endpoint requires no auth
 
 ---
 
@@ -247,7 +270,7 @@ Raw API responses before processing.
 | Column | Type | Description |
 |--------|------|-------------|
 | `id` | INTEGER PRIMARY KEY | Auto-increment |
-| `source` | TEXT | cpsc, fda, nhtsa, noaa, usgs, fema |
+| `source` | TEXT | cpsc, fda, nhtsa, noaa, usgs, fema, fda-shortages, airnow |
 | `identifier` | TEXT UNIQUE | Recall number, event ID, etc. |
 | `data` | TEXT | JSON blob |
 | `fetched_at` | TEXT | ISO timestamp |
@@ -297,14 +320,22 @@ Tracks publication counts for rate limiting.
 
 | File | Purpose |
 |------|---------|
-| `pipeline/fetcher.js` | API polling service |
-| `pipeline/processor.js` | Gemini article generation |
+| `pipeline/fetcher.js` | API polling service (registers all sources) |
+| `pipeline/processor.js` | Gemini article generation + rate limiting |
 | `pipeline/publisher.js` | Git push + IndexNow |
 | `pipeline/lib/db.js` | SQLite schema + prepared statements |
-| `pipeline/lib/quality.js` | Anti-hallucination validator |
+| `pipeline/lib/quality.js` | Anti-hallucination validator (all 8 sources) |
 | `pipeline/lib/sentry.js` | Sentry initialization (production-only) |
 | `pipeline/lib/gemini.js` | Gemini API client |
-| `pipeline/prompts/` | Article generation prompts per category |
+| `pipeline/lib/sources/cpsc.js` | CPSC recall data fetcher |
+| `pipeline/lib/sources/fda.js` | FDA enforcement data fetcher |
+| `pipeline/lib/sources/nhtsa.js` | NHTSA vehicle recall fetcher (campaignNumber) |
+| `pipeline/lib/sources/noaa.js` | NOAA weather alert fetcher |
+| `pipeline/lib/sources/usgs.js` | USGS earthquake fetcher |
+| `pipeline/lib/sources/fema.js` | FEMA disaster declaration fetcher |
+| `pipeline/lib/sources/fda-shortages.js` | FDA drug shortage fetcher (paginated) |
+| `pipeline/lib/sources/airnow.js` | EPA AirNow air quality fetcher |
+| `pipeline/templates/` | Gemini prompt templates per category |
 
 ---
 
@@ -335,8 +366,8 @@ All article pages include:
 
 - [x] Homepage (featured article, category columns, latest articles)
 - [x] Articles index (/articles) with category filter
-- [x] Category pages (/recalls, /weather, /earthquakes)
-- [x] Category-specific pages (/recalls/cpsc, /recalls/fda, etc.)
+- [x] Category pages (/recalls, /weather, /earthquakes, /disasters, /drug-shortages, /air-quality)
+- [x] Category-specific pages (/recalls/cpsc, /recalls/fda, /recalls/vehicles)
 - [x] About page (methodology, data sources, editorial standards)
 - [x] Privacy Policy (GDPR/CCPA compliant, cookie-free analytics)
 - [x] Terms of Use (disclaimers, limitation of liability)
@@ -442,6 +473,13 @@ ssh root@158.101.199.103 "cd /opt/areazine/repo && git pull origin main && syste
 | 2026-02-11 | areazine.com domain | Clear, memorable, .com TLD for trust |
 | 2026-02-11 | City redirects to categories | Simplify IA, focus on content type not location |
 | 2026-02-11 | Leave records unprocessed on rate limit | Enable retry without manual intervention |
+| 2026-02-11 | NHTSA campaignNumber over recallsByDate | recallsByDate returns 403; campaignNumber works without auth |
+| 2026-02-11 | FDA shortages no API key | api.data.gov key rejected; public access with client-side filtering works |
+| 2026-02-11 | Remove TBD/N/A from placeholder check | Government data legitimately contains these strings |
+| 2026-02-11 | Per-cycle category rate-limit tracking | Prevents one high-volume source from starving all others |
+| 2026-02-11 | AirNow AQI > 100 threshold | Only newsworthy air quality (unhealthy for sensitive groups+) |
+| 2026-02-11 | DATA_DIR=/storage/areazine | Dedicated storage volume for production data |
+| 2026-02-11 | Dynamic homepage categories | Show all active categories instead of hardcoded 3 columns |
 
 ---
 
@@ -458,28 +496,35 @@ ssh root@158.101.199.103 "cd /opt/areazine/repo && git pull origin main && syste
 
 ### What Doesn't
 
-- **NHTSA open API** - Now requires authentication, can't poll freely
+- **NHTSA recallsByDate endpoint** - Returns 403, requires auth. Use `campaignNumber` endpoint instead (no auth needed)
+- **api.data.gov key on openFDA** - Returns `API_KEY_INVALID` on drug/shortages.json. Use public access (no key)
 - **gh OAuth tokens for publisher** - Expire unpredictably, use PAT instead
 - **Aggressive rate limiting** - Initial 10/day was too conservative, bumped to 15-30
+- **TBD/N/A as placeholders** - FDA drug shortage data legitimately contains these strings. Only `TK` is a safe placeholder marker.
 
 ### Patterns Discovered
 
 - **Magnitude rounding for USGS** - API returns float (4.567), Gemini generates rounded (4.6), validator must round for comparison
 - **NOAA GeoJSON complexity** - Store as flat properties, not nested Feature objects
 - **Rate limit as quality control** - Forces focus on high-value content (significant earthquakes, major recalls)
-- **Production-only Sentry** - Check `DATA_DIR === '/data'` to differentiate environments
+- **Production-only Sentry** - Check `DATA_DIR` env var to differentiate environments
 - **Article slug truncation** - Limit to 80 chars to avoid URL encoding issues
 - **Separated services benefit** - Fetcher keeps running even if processor crashes
+- **Per-cycle rate-limit tracking** - Without it, one high-volume rate-limited source (drug-shortages) blocks processing of all other sources
+- **Client-side date filtering** - Some FDA API date fields are text (MM/DD/YYYY), not queryable server-side
+- **NHTSA campaign number iteration** - Iterate types (V, E, T, C) and sequential numbers to discover all campaigns for a year
 
 ### Pipeline Failure Modes
 
 | Failure | Symptom | Recovery |
 |---------|---------|----------|
 | Gemini API timeout | Unprocessed records accumulate | Auto-retry next cycle (30s-4h) |
-| Quality validation fail | Article discarded, record marked processed | Manual review of raw_data if recurring |
+| Quality validation fail | Record marked `processed=2` | `UPDATE raw_data SET processed=0 WHERE processed=2` to retry |
 | Git push failure | Articles unpublished, queue grows | Check GitHub token, restart publisher |
 | API rate limit hit | No new records fetched | Wait for interval, automatic resume |
+| Category rate limit | Records skipped per cycle | Processor auto-retries next cycle, sleeps 5min if all limited |
 | Database lock | Service waits, may timeout | SQLite WAL mode enabled, rare issue |
+| Publisher git conflict | Push rejected | Publisher needs `git pull --rebase` logic |
 
 ---
 
@@ -505,7 +550,7 @@ curl -s https://areazine.com | grep -o '<title>[^<]*' | head -1
 ssh root@158.101.199.103 'systemctl is-active areazine-fetcher areazine-processor areazine-publisher'
 
 # Check database stats (Aurora)
-ssh root@158.101.199.103 'sqlite3 /data/areazine.db "SELECT source, COUNT(*) as total, SUM(CASE WHEN processed=0 THEN 1 ELSE 0 END) as pending FROM raw_data GROUP BY source"'
+ssh root@158.101.199.103 'sqlite3 /storage/areazine/areazine.db "SELECT source, COUNT(*) as total, SUM(CASE WHEN processed=0 THEN 1 ELSE 0 END) as pending FROM raw_data GROUP BY source"'
 
 # Check article count
 ssh root@158.101.199.103 'ls -1 /opt/areazine/repo/src/content/articles/ | wc -l'
@@ -541,21 +586,28 @@ Edit `pipeline/processor.js`:
 
 ```javascript
 const RATE_LIMITS = {
-  'recalls-cpsc': 30,      // per 24 hours
-  'recalls-fda': 30,
-  'weather': 20,
-  'earthquakes': 15,
+  weather: { max: 20, hours: 24 },
+  earthquakes: { max: 15, hours: 24 },
+  'recalls-cpsc': { max: 30, hours: 24 },
+  'recalls-fda': { max: 30, hours: 24 },
+  'recalls-vehicles': { max: 30, hours: 24 },
+  'disasters': { max: 10, hours: 24 },
+  'drug-shortages': { max: 20, hours: 24 },
+  'air-quality': { max: 15, hours: 24 },
 };
 ```
 
 Restart processor: `systemctl restart areazine-processor`
 
-### Fix NHTSA Source
+### Reset Failed Records for Reprocessing
 
-1. Apply for NHTSA API key at https://vpic.nhtsa.dot.gov/api/
-2. Add `NHTSA_API_KEY` to `/opt/areazine/repo/pipeline/.env`
-3. Update fetcher to use authenticated endpoint
-4. Restart fetcher: `systemctl restart areazine-fetcher`
+```bash
+# Reset quality-check failures (processed=2) for a specific source
+ssh root@158.101.199.103 "sqlite3 /storage/areazine/areazine.db \"UPDATE raw_data SET processed=0 WHERE source='SOURCE_NAME' AND processed=2;\""
+
+# Restart processor to pick up reset records
+ssh root@158.101.199.103 "systemctl restart areazine-processor"
+```
 
 ### Replace GitHub Token
 
@@ -583,7 +635,7 @@ journalctl -f -u areazine-fetcher -u areazine-processor -u areazine-publisher
 journalctl -u areazine-processor --since '1 hour ago' | grep ERROR
 
 # Database inspection
-sqlite3 /data/areazine.db
+sqlite3 /storage/areazine/areazine.db
 .mode column
 .headers on
 SELECT * FROM raw_data WHERE processed=0 LIMIT 10;
@@ -608,27 +660,35 @@ See [docs/growth-roadmap-1m.md](docs/growth-roadmap-1m.md) for comprehensive pla
 
 ### High Priority
 
-- [ ] Create Sentry project for error tracking
-- [ ] Complete Bing Webmaster Tools verification (add CNAME record)
+- [x] ~~Create Sentry project for error tracking~~ **DONE**
+- [x] ~~Complete Bing Webmaster Tools verification~~ **DONE** (2026-02-11)
+- [x] ~~Submit to Google Search Console~~ **DONE** (2026-02-11)
+- [x] ~~Fix NHTSA source~~ **DONE** (campaignNumber endpoint, no auth needed)
+- [x] ~~Add FDA Drug Shortages source~~ **DONE**
+- [x] ~~Add AirNow air quality source~~ **DONE**
+- [x] ~~Fix processor rate-limit spinning~~ **DONE** (per-cycle category tracking)
 - [ ] Replace `gh` OAuth token with GitHub PAT for publisher
-- [ ] Fix NHTSA source (apply for API key or use alternative endpoint)
 - [ ] Monitor pipeline output quality for 1-2 weeks
 - [ ] Add Pagefind for client-side search
+- [ ] Fix IndexNow 403 (verify API key setup for areazine.com)
 
 ### Medium Priority
 
-- [ ] Expand data sources (SEC, BLS, USPTO)
+- [ ] Add NHTSA complaints/investigations source (P2 from research)
+- [ ] Add FDA adverse events source (P2 from research)
+- [ ] Add NASA FIRMS wildfire detection (P2 from research)
 - [ ] Build email newsletter (export to Mailpit/Listmonk)
 - [ ] Add category-specific RSS feeds
 - [ ] Implement article deduplication logic
-- [ ] Add image support (pull from APIs, generate with Gemini Vision)
 
 ### Low Priority
 
+- [ ] Expand data sources (SEC, BLS, USPTO)
 - [ ] Build admin dashboard for pipeline monitoring
 - [ ] Add user engagement features (save articles, email alerts)
 - [ ] Explore social media auto-posting
-- [ ] A/B test headline variations
+- [ ] Historical data imports (backfill USGS, NOAA archives)
+- [ ] Add image support (pull from APIs, generate with Gemini Vision)
 
 ---
 
@@ -641,7 +701,7 @@ See [docs/growth-roadmap-1m.md](docs/growth-roadmap-1m.md) for comprehensive pla
 systemctl status areazine-fetcher
 
 # Check if raw data exists
-sqlite3 /data/areazine.db "SELECT COUNT(*) FROM raw_data WHERE processed=0"
+sqlite3 /storage/areazine/areazine.db "SELECT COUNT(*) FROM raw_data WHERE processed=0"
 
 # Check processor logs for errors
 journalctl -u areazine-processor --since '1 hour ago'
@@ -655,7 +715,7 @@ node processor.js
 
 ```bash
 # Check if articles are ready
-sqlite3 /data/areazine.db "SELECT COUNT(*) FROM articles WHERE published=0"
+sqlite3 /storage/areazine/areazine.db "SELECT COUNT(*) FROM articles WHERE published=0"
 
 # Check publisher logs
 journalctl -u areazine-publisher --since '1 hour ago'
@@ -691,6 +751,12 @@ git push origin main  # Should succeed without password prompt
 | `GITHUB_TOKEN` | GitHub PAT for publisher |
 | `INDEXNOW_KEY` | Bing IndexNow submission key |
 | `SENTRY_DSN` | Sentry error tracking |
+| `AIRNOW_API_KEY` | EPA AirNow API key |
+| `DATA_GOV_API_KEY` | api.data.gov key (unused by FDA shortages, may be used by future sources) |
+
+**Key files on Aurora:**
+- `/opt/areazine/repo/pipeline/.env` — All environment variables
+- `/opt/areazine/keys/airnow-api-key.txt` — AirNow API key (backup)
 
 **Local development:** Copy `.env.example` to `.env` and populate with your own keys.
 
@@ -748,4 +814,4 @@ git push origin main  # Should succeed without password prompt
 
 ---
 
-**Last Updated:** 2026-02-11
+**Last Updated:** 2026-02-11 (Phase 2: all 8 sources operational, 135+ articles)
