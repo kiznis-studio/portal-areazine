@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
-import { SITE_NAME, SITE_DESCRIPTION, getCategoryMeta } from '../lib/config';
+import { SITE_NAME, SITE_DESCRIPTION, getCategoryMeta, getCategoryBadgeClass } from '../lib/config';
 import type { CategoryKey } from '../lib/config';
 
 const allArticles = await getCollection('articles');
@@ -11,12 +11,31 @@ const sortedArticles = allArticles.sort((a, b) =>
 );
 
 const featured = sortedArticles[0];
-const latest = sortedArticles.slice(1);
+const latest = sortedArticles.slice(1, 13); // 12 latest after featured
 
-// Group by top-level category for sidebar sections
+// Build category sections dynamically — only show categories that have articles
+const categoryOrder: CategoryKey[] = [
+  'recalls-cpsc', 'recalls-fda', 'recalls-vehicles',
+  'weather', 'earthquakes', 'disasters',
+  'drug-shortages', 'air-quality',
+];
+
+// Group recalls together, keep others separate
 const recallArticles = sortedArticles.filter(a => a.data.category.startsWith('recalls-'));
-const weatherArticles = sortedArticles.filter(a => a.data.category === 'weather');
-const earthquakeArticles = sortedArticles.filter(a => a.data.category === 'earthquakes');
+const categorySections = [
+  { key: 'recalls' as const, label: 'Recalls', color: 'var(--cat-recalls)', href: '/recalls', articles: recallArticles },
+  ...['weather', 'earthquakes', 'disasters', 'drug-shortages', 'air-quality'].map(cat => {
+    const articles = sortedArticles.filter(a => a.data.category === cat);
+    const meta = getCategoryMeta(cat as CategoryKey);
+    return {
+      key: cat,
+      label: meta.label,
+      color: `var(--cat-${meta.color})`,
+      href: `/${meta.slug}`,
+      articles,
+    };
+  }),
+].filter(s => s.articles.length > 0);
 ---
 
 <Base
@@ -30,8 +49,10 @@ const earthquakeArticles = sortedArticles.filter(a => a.data.category === 'earth
         <a href={`/${getCategoryMeta(featured.data.category as CategoryKey).slug}/${featured.id}`} class="block border border-[var(--color-border)] rounded-xl p-6 md:p-8 hover:border-[var(--color-muted)] transition-colors">
           <div class="flex items-center gap-2 mb-3">
             <span class="text-xs font-bold uppercase tracking-wider text-[var(--color-accent)]">Breaking</span>
-            {featured.data.severity === 'high' && (
-              <span class="text-xs font-medium px-2 py-0.5 rounded-full badge-severity-high uppercase">High</span>
+            {featured.data.severity && ['critical', 'high'].includes(featured.data.severity) && (
+              <span class={`text-xs font-medium px-2 py-0.5 rounded-full uppercase badge-severity-${featured.data.severity}`}>
+                {featured.data.severity}
+              </span>
             )}
           </div>
           <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 leading-tight">{featured.data.title}</h1>
@@ -51,17 +72,16 @@ const earthquakeArticles = sortedArticles.filter(a => a.data.category === 'earth
       </section>
     )}
 
-    {/* Category sections + Latest */}
-    <div class="grid md:grid-cols-3 gap-8 mb-12">
-      {/* Recalls column */}
-      {recallArticles.length > 0 && (
+    {/* Category sections — 2-3 columns */}
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+      {categorySections.map(section => (
         <div>
           <div class="flex items-center justify-between mb-4">
-            <h2 class="text-sm font-bold uppercase tracking-wider" style="color: var(--cat-recalls)">Recalls</h2>
-            <a href="/recalls" class="text-xs text-[var(--color-muted)] hover:text-[var(--color-foreground)]">View all</a>
+            <h2 class="text-sm font-bold uppercase tracking-wider" style={`color: ${section.color}`}>{section.label}</h2>
+            <a href={section.href} class="text-xs text-[var(--color-muted)] hover:text-[var(--color-foreground)]">View all</a>
           </div>
           <div class="space-y-3">
-            {recallArticles.slice(0, 5).map(article => (
+            {section.articles.slice(0, 4).map(article => (
               <ArticleCard
                 title={article.data.title}
                 summary={article.data.summary}
@@ -74,76 +94,29 @@ const earthquakeArticles = sortedArticles.filter(a => a.data.category === 'earth
             ))}
           </div>
         </div>
-      )}
-
-      {/* Weather column */}
-      {weatherArticles.length > 0 && (
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <h2 class="text-sm font-bold uppercase tracking-wider" style="color: var(--cat-weather)">Weather</h2>
-            <a href="/weather" class="text-xs text-[var(--color-muted)] hover:text-[var(--color-foreground)]">View all</a>
-          </div>
-          <div class="space-y-3">
-            {weatherArticles.slice(0, 5).map(article => (
-              <ArticleCard
-                title={article.data.title}
-                summary={article.data.summary}
-                href={`/weather/${article.id}`}
-                category={article.data.category as CategoryKey}
-                sourceAgency={article.data.sourceAgency}
-                publishedAt={new Date(article.data.publishedAt)}
-                severity={article.data.severity}
-              />
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Earthquakes column */}
-      {earthquakeArticles.length > 0 && (
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <h2 class="text-sm font-bold uppercase tracking-wider" style="color: var(--cat-earthquakes)">Earthquakes</h2>
-            <a href="/earthquakes" class="text-xs text-[var(--color-muted)] hover:text-[var(--color-foreground)]">View all</a>
-          </div>
-          <div class="space-y-3">
-            {earthquakeArticles.slice(0, 5).map(article => (
-              <ArticleCard
-                title={article.data.title}
-                summary={article.data.summary}
-                href={`/earthquakes/${article.id}`}
-                category={article.data.category as CategoryKey}
-                sourceAgency={article.data.sourceAgency}
-                publishedAt={new Date(article.data.publishedAt)}
-                severity={article.data.severity}
-              />
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* If only one or no category has articles, fill remaining space with latest */}
-      {(weatherArticles.length === 0 && earthquakeArticles.length === 0) && (
-        <div class="md:col-span-2">
-          <div class="mb-4">
-            <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)]">Latest</h2>
-          </div>
-          <div class="space-y-3">
-            {latest.map(article => (
-              <ArticleCard
-                title={article.data.title}
-                summary={article.data.summary}
-                href={`/${getCategoryMeta(article.data.category as CategoryKey).slug}/${article.id}`}
-                category={article.data.category as CategoryKey}
-                sourceAgency={article.data.sourceAgency}
-                publishedAt={new Date(article.data.publishedAt)}
-                severity={article.data.severity}
-              />
-            ))}
-          </div>
-        </div>
-      )}
+      ))}
     </div>
+
+    {/* Latest articles across all categories */}
+    <section class="border-t border-[var(--color-border)] pt-8 mb-12">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-lg font-bold">Latest</h2>
+        <a href="/articles" class="text-sm text-[var(--color-muted)] hover:text-[var(--color-foreground)]">View all &rarr;</a>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {latest.map(article => (
+          <ArticleCard
+            title={article.data.title}
+            summary={article.data.summary}
+            href={`/${getCategoryMeta(article.data.category as CategoryKey).slug}/${article.id}`}
+            category={article.data.category as CategoryKey}
+            sourceAgency={article.data.sourceAgency}
+            publishedAt={new Date(article.data.publishedAt)}
+            severity={article.data.severity}
+          />
+        ))}
+      </div>
+    </section>
 
     {/* About blurb */}
     <section class="border-t border-[var(--color-border)] pt-8">
