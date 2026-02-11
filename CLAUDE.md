@@ -11,11 +11,13 @@ Automated US safety alerts news portal transforming government public data (CPSC
 
 - **Status:** **LIVE** (launched 2026-02-11)
 - **Architecture:** Astro 5 static site + Node.js pipeline (Aurora server)
-- **Content:** 135+ automated articles across 8 categories
+- **Pages:** 4,843 total (4,639 city profiles, 51 state hubs, 135+ articles, compare tool)
 - **Data Sources:** 8 active (CPSC, FDA, NHTSA, NOAA, USGS, FEMA, FDA Drug Shortages, AirNow)
+- **City Data:** Census Bureau ACS + CDC PLACES + CMS Hospital Compare (county-level)
+- **Design System:** Complete (8-phase overhaul, Feb 2026) — data viz, comparison indicators, pure CSS charts
 - **Traffic:** Minimal (new site, awaiting index)
 - **Revenue:** $0/mo (AdSense not applied yet)
-- **Phase:** Content scaling - all sources operational, pipeline stable
+- **Phase:** Content scaling + SEO growth
 
 ---
 
@@ -480,6 +482,14 @@ ssh root@158.101.199.103 "cd /opt/areazine/repo && git pull origin main && syste
 | 2026-02-11 | AirNow AQI > 100 threshold | Only newsworthy air quality (unhealthy for sensitive groups+) |
 | 2026-02-11 | DATA_DIR=/storage/areazine | Dedicated storage volume for production data |
 | 2026-02-11 | Dynamic homepage categories | Show all active categories instead of hardcoded 3 columns |
+| 2026-02-11 | Pure CSS data viz on city/state pages | 4,639 pages × any JS = massive weight. CSS bars achieve 95% visual impact at 0kb cost |
+| 2026-02-11 | National avg comparison as primary context | "$136,689 — 116% above avg" tells a story; raw numbers don't |
+| 2026-02-11 | Client-side JS only on /cities and /compare | Search/filter/sort and autocomplete need JS; everything else is static HTML/CSS |
+| 2026-02-11 | TSV data embedding for client-side search | Compact tab-separated format in `<script type="text/data">` blocks, ~220KB for 4,639 cities |
+| 2026-02-11 | Respectful ethnicity labels | Use "African American", "Hispanic or Latino", "Other / Multiethnic" — avoid "Black", "races" terminology |
+| 2026-02-11 | County-level data, city-level population | Census ACS data is county-level (smallest consistent geography); GeoNames provides city population |
+| 2026-02-11 | City profiles organized by state directory | `city-profiles/CA/san-francisco.json` for filesystem sanity at 4,639 files |
+| 2026-02-11 | Comparison tool with shareable URLs | `/compare?a=austin-tx&b=seattle` — all data embedded client-side, no server needed |
 
 ---
 
@@ -513,6 +523,12 @@ ssh root@158.101.199.103 "cd /opt/areazine/repo && git pull origin main && syste
 - **Per-cycle rate-limit tracking** - Without it, one high-volume rate-limited source (drug-shortages) blocks processing of all other sources
 - **Client-side date filtering** - Some FDA API date fields are text (MM/DD/YYYY), not queryable server-side
 - **NHTSA campaign number iteration** - Iterate types (V, E, T, C) and sequential numbers to discover all campaigns for a year
+- **CSS progress bars at scale** - Pure CSS flex-based bars with `width: X%` are performant across 4,639 pages with zero JS overhead
+- **Vite import.meta.glob** - Load all JSON profiles at build time; `eager: true` prevents async complexity
+- **ComparisonResult pattern** - `compareToNational(metric, value)` returning `{ direction, pct, label }` is reusable across all data components
+- **DOM createElement over innerHTML** - Security hook flags innerHTML usage; use createElement/textContent/appendChild pattern for all dynamic content
+- **National stats as comparison baseline** - Pre-computed `national-stats.json` loaded once, used by every component
+- **Ethnicity labels matter** - Use census-aligned but respectful terms: "African American" not "Black", "Hispanic or Latino" not "Hispanic", "Other / Multiethnic" not "Other / Multiracial"
 
 ### Pipeline Failure Modes
 
@@ -525,6 +541,58 @@ ssh root@158.101.199.103 "cd /opt/areazine/repo && git pull origin main && syste
 | Category rate limit | Records skipped per cycle | Processor auto-retries next cycle, sleeps 5min if all limited |
 | Database lock | Service waits, may timeout | SQLite WAL mode enabled, rare issue |
 | Publisher git conflict | Push rejected | Publisher needs `git pull --rebase` logic |
+
+---
+
+## Design System (Completed Feb 2026)
+
+8-phase design overhaul: "Bloomberg terminal meets NYT data journalism"
+
+### Components (`src/components/data/` and `src/components/ui/`)
+
+| Component | Purpose | JS Required |
+|-----------|---------|:-----------:|
+| StatCard | Metric display with national avg comparison | No |
+| ComparisonIndicator | Arrow + "116% above avg" text | No |
+| ComparisonBar | Horizontal bar with national avg marker line | No |
+| DemographicsChart | Stacked horizontal bar, colored segments + legend | No |
+| HealthMetricRow | Health metric with bar + color coding | No |
+| HospitalRatingDist | Star distribution as horizontal bars | No |
+| HospitalCard | Individual hospital card with star rating | No |
+| RankRow | Ranking entry with position badge + relative bar | No |
+| DataSourceFooter | Collapsible source attribution | No |
+| Breadcrumb | Unified breadcrumb navigation | No |
+| SectionHeader | Uppercase tracked section heading with count | No |
+
+### Utility Libraries (`src/lib/`)
+
+| Library | Purpose |
+|---------|---------|
+| `format.ts` | `fmt()`, `fmtMoney()`, `fmtPct()`, `fmtCompact()` |
+| `comparison.ts` | `compareToNational(metric, value)` → `{ direction, pct, label }` |
+
+### Page Types
+
+| Page | Count | JS | Size |
+|------|-------|:--:|------|
+| City profile (`/cities/[slug]`) | 4,639 | None (pure CSS) | ~35-41 KB |
+| State detail (`/states/[state]`) | 51 | None | ~222 KB (CA) |
+| States index (`/states/`) | 1 | None | ~71 KB |
+| Cities index (`/cities/`) | 1 | Client-side search/filter/sort | ~221 KB |
+| Compare tool (`/compare`) | 1 | Autocomplete + comparison | ~481 KB |
+| Homepage | 1 | None | ~44 KB |
+
+### Sensitivity Guidelines
+
+- **Ethnicity labels:** Use "African American" (not "Black"), "Hispanic or Latino" (not "Hispanic"), "Other / Multiethnic" (not "Other / Multiracial")
+- **Section headers:** "Demographics" is neutral and acceptable
+- **Avoid:** "race", "racial" terminology — use "ethnicity", "ethnic" instead
+
+### Planned Enhancements
+
+- **Historical data timeline** — Sparkline charts showing 5-10 year trends (population, income, home values) from Census ACS annual vintages. Major differentiator vs competitors.
+- **Pagefind site-wide search** — Build-time search index for full-text search across all pages
+- **Additional data sources** — FBI crime data (~3K city crime pages), NASA wildfire detection, SEC fraud alerts
 
 ---
 
