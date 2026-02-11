@@ -45,6 +45,7 @@ export async function fetch(lastFetchDate) {
       const drugResponse = await globalThis.fetch(drugUrl, {
         headers: {
           'Accept': 'application/json',
+        'User-Agent': 'Areazine/1.0 (areazine.com; hello@areazine.com)',
         },
       });
 
@@ -68,6 +69,7 @@ export async function fetch(lastFetchDate) {
       const foodResponse = await globalThis.fetch(foodUrl, {
         headers: {
           'Accept': 'application/json',
+        'User-Agent': 'Areazine/1.0 (areazine.com; hello@areazine.com)',
         },
       });
 

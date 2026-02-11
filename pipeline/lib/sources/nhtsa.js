@@ -34,6 +34,7 @@ export async function fetch(lastFetchDate) {
     const response = await globalThis.fetch(url, {
       headers: {
         'Accept': 'application/json',
+        'User-Agent': 'Areazine/1.0 (areazine.com; hello@areazine.com)',
       },
     });
 

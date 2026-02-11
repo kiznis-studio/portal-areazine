@@ -14,6 +14,7 @@ const REPO_DIR = process.env.REPO_DIR || '/repo';
 const CONTENT_DIR = join(REPO_DIR, 'src', 'content', 'articles');
 const MAX_BATCH = parseInt(process.env.MAX_BATCH_SIZE || '50');
 const PUBLISH_INTERVAL = parseInt(process.env.PUBLISH_INTERVAL || '30') * 60_000;
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -146,12 +147,37 @@ async function publishBatch() {
 }
 
 /**
+ * Configure git identity and credentials for pushing.
+ */
+function configureGit() {
+  const name = process.env.GIT_AUTHOR_NAME || 'Areazine Pipeline';
+  const email = process.env.GIT_AUTHOR_EMAIL || 'pipeline@areazine.com';
+
+  git('config', 'user.name', name);
+  git('config', 'user.email', email);
+
+  if (GITHUB_TOKEN) {
+    // Set HTTPS remote with embedded token for authentication
+    const currentRemote = git('remote', 'get-url', 'origin');
+    const repoPath = currentRemote
+      .replace(/^https?:\/\/[^/]*\//, '')
+      .replace(/^git@github\.com:/, '')
+      .replace(/\.git$/, '');
+    const tokenUrl = `https://x-access-token:${GITHUB_TOKEN}@github.com/${repoPath}.git`;
+    git('remote', 'set-url', 'origin', tokenUrl);
+    console.log('[publisher] Git credentials configured via GITHUB_TOKEN');
+  }
+}
+
+/**
  * Main loop — publishes at configured intervals.
  */
 async function main() {
   console.log('[publisher] Starting areazine publisher');
   console.log(`[publisher] Repo: ${REPO_DIR}`);
   console.log(`[publisher] Interval: ${PUBLISH_INTERVAL / 60_000} minutes`);
+
+  configureGit();
 
   while (true) {
     try {
