@@ -1,0 +1,121 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME } from '../lib/config';
+
+const title = 'Terms of Use';
+const description = 'Terms of use for Areazine: informational content, no professional advice, no liability.';
+---
+
+<Base title={title} description={description}>
+  <div class="container-narrow">
+    <article class="prose">
+      <h1>Terms of Use</h1>
+
+      <p><strong>Last updated:</strong> February 11, 2026</p>
+
+      <h2>Acceptance of Terms</h2>
+      <p>
+        By accessing or using {SITE_NAME}, you agree to these Terms of Use. If you don't agree,
+        please don't use the site.
+      </p>
+
+      <h2>Informational Purpose Only</h2>
+      <p>
+        All content on {SITE_NAME} is provided for <strong>informational purposes only</strong>.
+        We are not a government agency, and our articles are not official government communications.
+      </p>
+      <p>
+        We transform publicly available government data into readable articles. Every article
+        links to its original source. <strong>When in doubt, the official government source
+        is always authoritative.</strong>
+      </p>
+
+      <h2>Not Professional Advice</h2>
+      <p>
+        {SITE_NAME} does not provide:
+      </p>
+      <ul>
+        <li>Legal advice or guidance</li>
+        <li>Medical or health advice</li>
+        <li>Financial or investment advice</li>
+        <li>Professional consulting of any kind</li>
+      </ul>
+      <p>
+        If you have specific concerns about a product recall, safety issue, or weather alert,
+        consult the official government source or an appropriate licensed professional.
+      </p>
+
+      <h2>Accuracy and Timeliness</h2>
+      <p>
+        We strive for accuracy and update our content regularly. However:
+      </p>
+      <ul>
+        <li>Government data may be incomplete or change after we publish</li>
+        <li>Articles are written with AI assistance and human review, but errors can occur</li>
+        <li>Always verify critical information with the official source linked in each article</li>
+      </ul>
+
+      <h2>No Warranties</h2>
+      <p>
+        {SITE_NAME} is provided "as is" without warranties of any kind, express or implied.
+        We make no guarantees about the accuracy, completeness, reliability, or timeliness of
+        our content.
+      </p>
+
+      <h2>Limitation of Liability</h2>
+      <p>
+        To the fullest extent permitted by law, {SITE_NAME}, its operators, and contributors
+        are not liable for any damages arising from your use of the site or reliance on its content.
+      </p>
+      <p>
+        This includes but is not limited to:
+      </p>
+      <ul>
+        <li>Direct, indirect, incidental, or consequential damages</li>
+        <li>Loss of data, revenue, or profits</li>
+        <li>Personal injury or property damage</li>
+      </ul>
+
+      <h2>External Links</h2>
+      <p>
+        Articles on {SITE_NAME} link to official government websites. We are not responsible
+        for the content, accuracy, or privacy practices of external sites.
+      </p>
+
+      <h2>User Conduct</h2>
+      <p>
+        You agree not to:
+      </p>
+      <ul>
+        <li>Use the site for unlawful purposes</li>
+        <li>Attempt to interfere with site operations or security</li>
+        <li>Scrape or copy large portions of content without permission</li>
+        <li>Misrepresent our content as official government communications</li>
+      </ul>
+
+      <h2>Intellectual Property</h2>
+      <p>
+        Government data published on {SITE_NAME} is in the public domain. Our original writing,
+        design, and presentation are protected by copyright. You may link to our articles, but
+        please don't copy them in full without attribution.
+      </p>
+
+      <h2>Changes to Terms</h2>
+      <p>
+        We may update these Terms of Use at any time. Changes take effect when posted.
+        Continued use of the site after changes constitutes acceptance.
+      </p>
+
+      <h2>Governing Law</h2>
+      <p>
+        These terms are governed by the laws of the United States. Any disputes will be
+        resolved in the appropriate courts.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about these terms? Email us at <a href="mailto:legal@areazine.com">legal@areazine.com</a>.
+      </p>
+    </article>
+  </div>
+</Base>

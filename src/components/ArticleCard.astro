@@ -1,0 +1,73 @@
+---
+import { getCategoryMeta, getCategoryBadgeClass, getSeverityBadgeClass, formatRelativeTime } from '../lib/config';
+import type { CategoryKey } from '../lib/config';
+
+interface Props {
+  title: string;
+  summary: string;
+  href: string;
+  category: CategoryKey;
+  sourceAgency: string;
+  publishedAt: Date;
+  severity?: string;
+  location?: string;
+  featured?: boolean;
+}
+
+const { title, summary, href, category, sourceAgency, publishedAt, severity, location, featured } = Astro.props;
+const catMeta = getCategoryMeta(category);
+const badgeClass = getCategoryBadgeClass(category);
+const timeAgo = formatRelativeTime(publishedAt);
+---
+
+<a href={href} class:list={[
+  "block border border-[var(--color-border)] rounded-lg transition-colors hover:border-[var(--color-muted)]",
+  featured ? "p-6" : "p-4"
+]}>
+  {featured ? (
+    <div>
+      <div class="flex items-center gap-2 mb-3">
+        <span class:list={["text-xs font-medium px-2 py-0.5 rounded-full", badgeClass]}>
+          {catMeta.label}
+        </span>
+        {severity && (
+          <span class:list={["text-xs font-medium px-2 py-0.5 rounded-full uppercase", getSeverityBadgeClass(severity)]}>
+            {severity}
+          </span>
+        )}
+      </div>
+      <h2 class="text-xl md:text-2xl font-bold mb-2 leading-tight">{title}</h2>
+      <p class="text-[var(--color-muted)] mb-3 line-clamp-2">{summary}</p>
+      <div class="flex items-center gap-2 text-xs text-[var(--color-muted)]">
+        <span class="font-medium">{sourceAgency}</span>
+        <span>&middot;</span>
+        <span>{timeAgo}</span>
+        {location && (
+          <>
+            <span>&middot;</span>
+            <span>{location}</span>
+          </>
+        )}
+      </div>
+    </div>
+  ) : (
+    <div>
+      <div class="flex items-center gap-2 mb-2">
+        <span class:list={["text-xs font-medium px-2 py-0.5 rounded-full", badgeClass]}>
+          {catMeta.label}
+        </span>
+        {severity === 'high' && (
+          <span class:list={["text-xs font-medium px-2 py-0.5 rounded-full uppercase", getSeverityBadgeClass(severity)]}>
+            {severity}
+          </span>
+        )}
+      </div>
+      <h3 class="font-semibold mb-1 leading-snug">{title}</h3>
+      <div class="flex items-center gap-2 text-xs text-[var(--color-muted)]">
+        <span>{sourceAgency}</span>
+        <span>&middot;</span>
+        <span>{timeAgo}</span>
+      </div>
+    </div>
+  )}
+</a>

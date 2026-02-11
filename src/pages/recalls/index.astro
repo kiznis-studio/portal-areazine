@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCategoryMeta } from '../../lib/config';
+import type { CategoryKey } from '../../lib/config';
+
+const title = 'Product & Safety Recalls';
+const description = 'Latest product recalls, safety alerts, and consumer warnings from CPSC, FDA, and NHTSA.';
+
+const allRecalls = (await getCollection('articles'))
+  .filter((article) => article.data.category.startsWith('recalls-'))
+  .sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime());
+
+const subcategories: { key: CategoryKey; count: number }[] = [
+  { key: 'recalls-cpsc', count: allRecalls.filter(a => a.data.category === 'recalls-cpsc').length },
+  { key: 'recalls-fda', count: allRecalls.filter(a => a.data.category === 'recalls-fda').length },
+  { key: 'recalls-vehicles', count: allRecalls.filter(a => a.data.category === 'recalls-vehicles').length },
+];
+---
+
+<Base title={title} description={description}>
+  <div class="container py-8 md:py-12">
+    <header class="mb-8 pb-8 border-b border-[var(--color-border)]">
+      <h1 class="text-2xl md:text-3xl font-bold mb-3">Product & Safety Recalls</h1>
+      <p class="text-lg text-[var(--color-muted)] max-w-2xl">
+        Stay informed about the latest product recalls, safety alerts, and consumer warnings
+        from official U.S. government agencies.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+      {subcategories.map((subcat) => {
+        const meta = getCategoryMeta(subcat.key);
+        return (
+          <a href={`/${meta.slug}`} class="block p-5 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] transition-colors">
+            <h3 class="font-semibold mb-1">{meta.label}</h3>
+            <p class="text-xs text-[var(--color-muted)]">
+              {subcat.count} {subcat.count === 1 ? 'article' : 'articles'}
+            </p>
+          </a>
+        );
+      })}
+    </div>
+
+    <div>
+      <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] mb-6">All Recalls</h2>
+      <div class="space-y-3">
+        {allRecalls.map((article) => {
+          const catMeta = getCategoryMeta(article.data.category as CategoryKey);
+          return (
+            <ArticleCard
+              title={article.data.title}
+              summary={article.data.summary}
+              href={`/${catMeta.slug}/${article.id}`}
+              category={article.data.category as CategoryKey}
+              sourceAgency={article.data.sourceAgency}
+              publishedAt={new Date(article.data.publishedAt)}
+              severity={article.data.severity}
+            />
+          );
+        })}
+      </div>
+
+      {allRecalls.length === 0 && (
+        <p class="text-[var(--color-muted)] text-center py-12">
+          No recall articles available yet. Check back soon.
+        </p>
+      )}
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Recalls" }
+    ]
+  })} />
+</Base>

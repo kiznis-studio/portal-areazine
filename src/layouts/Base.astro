@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+import Meta from '../components/seo/Meta.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_NAME } from '../lib/config';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  article?: boolean;
+  publishedTime?: string;
+  modifiedTime?: string;
+  section?: string;
+  tags?: string[];
+}
+
+const props = Astro.props;
+const fullTitle = props.title === SITE_NAME ? props.title : `${props.title} | ${SITE_NAME}`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <Meta
+      title={fullTitle}
+      description={props.description}
+      image={props.image}
+      article={props.article}
+      publishedTime={props.publishedTime}
+      modifiedTime={props.modifiedTime}
+      section={props.section}
+      tags={props.tags}
+    />
+
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
+    <script is:inline>
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+
+    <!-- Umami Analytics (uncomment when configured) -->
+    <!-- <script defer src="https://analytics.opspixel.com/script.js" data-website-id="TODO"></script> -->
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

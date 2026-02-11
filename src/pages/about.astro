@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME } from '../lib/config';
+
+const title = 'About';
+const description = 'Learn about Areazine\'s mission to transform U.S. government public data into readable news.';
+---
+
+<Base title={title} description={description}>
+  <div class="container-narrow">
+    <article class="prose">
+      <h1>About {SITE_NAME}</h1>
+
+      <p class="lead">
+        We transform U.S. government public data into clear, readable news that matters to you.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        Government agencies publish critical information every day—product recalls, weather alerts,
+        safety notices, and more. But this data is often scattered across multiple websites, buried
+        in technical documents, or difficult to discover. Areazine brings it all together in one place.
+      </p>
+
+      <h2>Our Sources</h2>
+      <p>All our articles are based on official data from trusted U.S. government agencies:</p>
+      <ul>
+        <li><strong>Consumer Product Safety Commission (CPSC)</strong> — Product recalls and safety alerts</li>
+        <li><strong>Food and Drug Administration (FDA)</strong> — Food, drug, and medical device recalls</li>
+        <li><strong>National Highway Traffic Safety Administration (NHTSA)</strong> — Vehicle recalls and safety issues</li>
+        <li><strong>National Oceanic and Atmospheric Administration (NOAA)</strong> — Weather alerts and forecasts</li>
+      </ul>
+
+      <h2>Our Methodology</h2>
+      <p>We combine technology and human oversight to deliver accurate, timely information:</p>
+      <ol>
+        <li><strong>Automated Data Collection</strong> — We fetch the latest data from government APIs and databases daily</li>
+        <li><strong>AI-Assisted Writing</strong> — We use AI to transform technical data into clear, readable articles</li>
+        <li><strong>Human Verification</strong> — Every article is reviewed for accuracy and clarity before publication</li>
+      </ol>
+
+      <h2>Transparency</h2>
+      <p>
+        Every article includes a direct link to its original government source. We never
+        editorialize or interpret the data—we simply make it more accessible. When in doubt,
+        the official government source is always the authoritative reference.
+      </p>
+
+      <h2>What We Don't Do</h2>
+      <p>
+        We don't provide professional advice, legal guidance, or medical recommendations.
+        Our articles are informational only. For specific concerns about a recall or safety
+        issue, always consult the official source or appropriate professional.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions or feedback? Email us at <a href="mailto:hello@areazine.com">hello@areazine.com</a>.
+      </p>
+    </article>
+  </div>
+</Base>

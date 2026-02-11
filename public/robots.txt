@@ -1,0 +1,39 @@
+# Areazine - Government Data News
+# https://areazine.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://areazine.com/sitemap-index.xml
+
+# Common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI/LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# We welcome AI crawlers - our content transforms public data into readable news

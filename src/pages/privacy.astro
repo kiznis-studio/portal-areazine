@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME } from '../lib/config';
+
+const title = 'Privacy Policy';
+const description = 'Our privacy policy: we don\'t collect personal data, use cookies, or track visitors.';
+---
+
+<Base title={title} description={description}>
+  <div class="container-narrow">
+    <article class="prose">
+      <h1>Privacy Policy</h1>
+
+      <p><strong>Last updated:</strong> February 11, 2026</p>
+
+      <h2>The Short Version</h2>
+      <p>
+        We don't collect personal data. We don't use cookies. We don't track you.
+        We use privacy-focused analytics that respect your anonymity.
+      </p>
+
+      <h2>What We Collect</h2>
+      <p>
+        We use <strong>Umami Analytics</strong>, a privacy-focused analytics tool, to understand
+        how visitors use our site. Umami collects only basic, anonymous information:
+      </p>
+      <ul>
+        <li>Page views and referral sources</li>
+        <li>Browser type and device category (desktop/mobile/tablet)</li>
+        <li>Country and region (based on IP address, not stored)</li>
+      </ul>
+      <p>
+        Umami does not use cookies, does not track individuals across sessions, and does not
+        collect or store any personally identifiable information. All data is aggregated and anonymous.
+      </p>
+
+      <h2>What We Don't Collect</h2>
+      <ul>
+        <li>Email addresses or names (unless you email us directly)</li>
+        <li>IP addresses or precise location data</li>
+        <li>Browsing history or cross-site tracking data</li>
+        <li>Cookies or local storage (except for theme preference)</li>
+      </ul>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        Articles on {SITE_NAME} link to official government websites (CPSC, FDA, NHTSA, NOAA).
+        When you click these links, you leave our site and are subject to those sites' privacy policies.
+      </p>
+
+      <h2>GDPR & CCPA Compliance</h2>
+      <p>
+        Because we don't collect personal data, there's nothing to request, delete, or opt out of.
+        We are fully compliant with GDPR, CCPA, and other privacy regulations by design.
+      </p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        If we ever change our privacy practices, we'll update this page with the new date.
+        We'll never retroactively change how we handle data—what we didn't collect stays uncollected.
+      </p>
+
+      <h2>Questions</h2>
+      <p>
+        Email us at <a href="mailto:privacy@areazine.com">privacy@areazine.com</a> if you have
+        any questions about this policy.
+      </p>
+    </article>
+  </div>
+</Base>

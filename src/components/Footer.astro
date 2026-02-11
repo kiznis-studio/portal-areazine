@@ -1,0 +1,68 @@
+---
+import { SITE_NAME } from '../lib/config';
+const currentYear = new Date().getFullYear();
+
+const categories = [
+  { href: '/recalls/cpsc', label: 'Product Recalls' },
+  { href: '/recalls/fda', label: 'FDA Recalls' },
+  { href: '/recalls/vehicles', label: 'Vehicle Recalls' },
+  { href: '/weather', label: 'Weather Alerts' },
+];
+
+const info = [
+  { href: '/about', label: 'About' },
+  { href: '/privacy', label: 'Privacy Policy' },
+  { href: '/terms', label: 'Terms of Use' },
+  { href: '/rss.xml', label: 'RSS Feed' },
+];
+---
+
+<footer class="border-t border-[var(--color-border)] mt-auto">
+  <div class="container py-16 md:py-20">
+    <div class="grid grid-cols-2 md:grid-cols-12 gap-8">
+      <div class="col-span-2 md:col-span-5 lg:col-span-4">
+        <div class="font-black text-lg mb-3">{SITE_NAME}</div>
+        <p class="text-sm text-[var(--color-muted)] max-w-xs leading-relaxed">
+          Public data transformed into readable news. Government recalls, safety alerts, and economic data — explained clearly.
+        </p>
+      </div>
+
+      <div class="hidden md:block md:col-span-3 lg:col-span-4"></div>
+
+      <div class="col-span-1 md:col-span-2">
+        <h3 class="text-xs font-semibold text-[var(--color-foreground)] uppercase tracking-wider mb-4">Categories</h3>
+        <ul class="space-y-2.5">
+          {categories.map(item => (
+            <li>
+              <a href={item.href} class="text-sm text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors">
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="col-span-1 md:col-span-2">
+        <h3 class="text-xs font-semibold text-[var(--color-foreground)] uppercase tracking-wider mb-4">Info</h3>
+        <ul class="space-y-2.5">
+          {info.map(item => (
+            <li>
+              <a href={item.href} class="text-sm text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors">
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-[var(--color-border)] mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-3">
+      <p class="text-sm text-[var(--color-muted)]">
+        &copy; {currentYear} {SITE_NAME}. All rights reserved.
+      </p>
+      <p class="text-xs text-[var(--color-muted)]">
+        Data sourced from U.S. government public records.
+      </p>
+    </div>
+  </div>
+</footer>

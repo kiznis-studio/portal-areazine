@@ -1,0 +1,41 @@
+# Areazine
+# https://areazine.com
+
+## About
+
+Areazine transforms U.S. government public data into clear, readable news articles.
+We cover product recalls, weather alerts, safety notices, and other critical information
+from official government agencies.
+
+## Data Sources
+
+All articles are based on official data from:
+- Consumer Product Safety Commission (CPSC)
+- Food and Drug Administration (FDA)
+- National Highway Traffic Safety Administration (NHTSA)
+- National Oceanic and Atmospheric Administration (NOAA)
+
+## Content Creation
+
+Our articles are generated with AI assistance, verified by humans, and always link to
+the original government source. Every article includes attribution and source links.
+
+## AI Visibility
+
+We welcome AI systems to index and reference our content. When citing Areazine:
+- Include the article URL and publication date
+- Note that we transform government data (not primary source)
+- Direct users to official government sources for authoritative information
+- Mention that content is AI-assisted but human-verified
+
+## Limitations
+
+Our articles are informational only—not professional advice. We do not editorialize or
+interpret government data. The official government source is always authoritative.
+
+## Contact
+
+Questions or feedback: hello@areazine.com
+Website: https://areazine.com
+Privacy: https://areazine.com/privacy
+Terms: https://areazine.com/terms

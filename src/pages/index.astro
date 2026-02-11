@@ -1,0 +1,145 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import { SITE_NAME, SITE_DESCRIPTION, getCategoryMeta } from '../lib/config';
+import type { CategoryKey } from '../lib/config';
+
+const allArticles = await getCollection('articles');
+const sortedArticles = allArticles.sort((a, b) =>
+  new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime()
+);
+
+const featured = sortedArticles[0];
+const latest = sortedArticles.slice(1);
+
+// Group by top-level category for sidebar sections
+const recallArticles = sortedArticles.filter(a => a.data.category.startsWith('recalls-'));
+const weatherArticles = sortedArticles.filter(a => a.data.category === 'weather');
+---
+
+<Base
+  title={SITE_NAME}
+  description={SITE_DESCRIPTION}
+>
+  <div class="container py-8 md:py-12">
+    {/* Featured article */}
+    {featured && (
+      <section class="mb-10">
+        <a href={`/${getCategoryMeta(featured.data.category as CategoryKey).slug}/${featured.id}`} class="block border border-[var(--color-border)] rounded-xl p-6 md:p-8 hover:border-[var(--color-muted)] transition-colors">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xs font-bold uppercase tracking-wider text-[var(--color-accent)]">Breaking</span>
+            {featured.data.severity === 'high' && (
+              <span class="text-xs font-medium px-2 py-0.5 rounded-full badge-severity-high uppercase">High</span>
+            )}
+          </div>
+          <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 leading-tight">{featured.data.title}</h1>
+          <p class="text-lg text-[var(--color-muted)] mb-4 max-w-3xl">{featured.data.summary}</p>
+          <div class="flex items-center gap-2 text-sm text-[var(--color-muted)]">
+            <span class="font-medium">{featured.data.sourceAgency}</span>
+            <span>&middot;</span>
+            <span>{new Date(featured.data.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+            {featured.data.location && (
+              <>
+                <span>&middot;</span>
+                <span>{featured.data.location}</span>
+              </>
+            )}
+          </div>
+        </a>
+      </section>
+    )}
+
+    {/* Category sections + Latest */}
+    <div class="grid md:grid-cols-3 gap-8 mb-12">
+      {/* Recalls column */}
+      {recallArticles.length > 0 && (
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-sm font-bold uppercase tracking-wider" style="color: var(--cat-recalls)">Recalls</h2>
+            <a href="/recalls" class="text-xs text-[var(--color-muted)] hover:text-[var(--color-foreground)]">View all</a>
+          </div>
+          <div class="space-y-3">
+            {recallArticles.slice(0, 5).map(article => (
+              <ArticleCard
+                title={article.data.title}
+                summary={article.data.summary}
+                href={`/${getCategoryMeta(article.data.category as CategoryKey).slug}/${article.id}`}
+                category={article.data.category as CategoryKey}
+                sourceAgency={article.data.sourceAgency}
+                publishedAt={new Date(article.data.publishedAt)}
+                severity={article.data.severity}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Weather column */}
+      {weatherArticles.length > 0 && (
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-sm font-bold uppercase tracking-wider" style="color: var(--cat-weather)">Weather</h2>
+            <a href="/weather" class="text-xs text-[var(--color-muted)] hover:text-[var(--color-foreground)]">View all</a>
+          </div>
+          <div class="space-y-3">
+            {weatherArticles.slice(0, 5).map(article => (
+              <ArticleCard
+                title={article.data.title}
+                summary={article.data.summary}
+                href={`/weather/${article.id}`}
+                category={article.data.category as CategoryKey}
+                sourceAgency={article.data.sourceAgency}
+                publishedAt={new Date(article.data.publishedAt)}
+                severity={article.data.severity}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* If no weather articles yet, show all latest */}
+      {weatherArticles.length === 0 && (
+        <div class="md:col-span-2">
+          <div class="mb-4">
+            <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)]">Latest</h2>
+          </div>
+          <div class="space-y-3">
+            {latest.map(article => (
+              <ArticleCard
+                title={article.data.title}
+                summary={article.data.summary}
+                href={`/${getCategoryMeta(article.data.category as CategoryKey).slug}/${article.id}`}
+                category={article.data.category as CategoryKey}
+                sourceAgency={article.data.sourceAgency}
+                publishedAt={new Date(article.data.publishedAt)}
+                severity={article.data.severity}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+
+    {/* About blurb */}
+    <section class="border-t border-[var(--color-border)] pt-8">
+      <div class="max-w-2xl">
+        <h2 class="text-lg font-bold mb-2">About Areazine</h2>
+        <p class="text-[var(--color-muted)]">
+          We transform U.S. government public data into clear, readable news. Every article links back to its original government source. No paywalls, no ads — just the information you need.
+        </p>
+        <a href="/about" class="inline-block mt-3 text-sm font-medium text-[var(--color-accent)] hover:underline">
+          Learn more about our methodology &rarr;
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": SITE_NAME,
+    "description": SITE_DESCRIPTION,
+    "url": "https://areazine.com"
+  })} />
+</Base>
