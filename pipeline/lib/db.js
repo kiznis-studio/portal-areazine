@@ -122,6 +122,11 @@ const stmts = {
   sourceStats: db.prepare(
     'SELECT source, COUNT(*) as count, SUM(CASE WHEN processed = 0 THEN 1 ELSE 0 END) as pending FROM raw_data GROUP BY source'
   ),
+
+  // Count recent articles by category within a time window (hours)
+  recentArticleCount: db.prepare(
+    "SELECT COUNT(*) as cnt FROM articles WHERE category = @category AND generated_at > datetime('now', '-' || @hours || ' hours')"
+  ),
 };
 
 // Batch insert for raw data

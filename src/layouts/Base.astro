@@ -39,6 +39,7 @@ const fullTitle = props.title === SITE_NAME ? props.title : `${props.title} | ${
     />
 
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <link rel="alternate" type="application/rss+xml" title="Areazine RSS Feed" href="/rss.xml" />
 
     <script is:inline>
       if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {

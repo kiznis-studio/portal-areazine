@@ -1,0 +1,112 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCategoryMeta, CATEGORIES } from '../lib/config';
+import type { CategoryKey } from '../lib/config';
+
+const title = 'All Articles';
+const description = 'Browse all Areazine articles — recalls, weather alerts, earthquake reports, and more.';
+
+const allArticles = (await getCollection('articles'))
+  .sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime());
+
+// Active categories (only show ones with articles)
+const categoryCounts = new Map<string, number>();
+for (const a of allArticles) {
+  categoryCounts.set(a.data.category, (categoryCounts.get(a.data.category) || 0) + 1);
+}
+const activeCategories = Object.keys(CATEGORIES).filter(k => categoryCounts.has(k)) as CategoryKey[];
+---
+
+<Base title={title} description={description}>
+  <div class="container py-8 md:py-12">
+    <header class="mb-8 pb-8 border-b border-[var(--color-border)]">
+      <h1 class="text-2xl md:text-3xl font-bold mb-3">{title}</h1>
+      <p class="text-lg text-[var(--color-muted)] max-w-2xl">
+        {allArticles.length} articles from official U.S. government data sources.
+      </p>
+    </header>
+
+    {/* Category filter chips */}
+    <div class="flex flex-wrap gap-2 mb-8" id="category-filters">
+      <button
+        class="filter-chip active text-xs font-medium px-3 py-1.5 rounded-full border border-[var(--color-border)] transition-colors"
+        data-category="all"
+      >
+        All ({allArticles.length})
+      </button>
+      {activeCategories.map(cat => {
+        const meta = getCategoryMeta(cat);
+        return (
+          <button
+            class="filter-chip text-xs font-medium px-3 py-1.5 rounded-full border border-[var(--color-border)] transition-colors"
+            data-category={cat}
+          >
+            {meta.label} ({categoryCounts.get(cat)})
+          </button>
+        );
+      })}
+    </div>
+
+    <div class="space-y-3" id="articles-list">
+      {allArticles.map((article) => {
+        const catMeta = getCategoryMeta(article.data.category as CategoryKey);
+        return (
+          <div class="article-item" data-category={article.data.category}>
+            <ArticleCard
+              title={article.data.title}
+              summary={article.data.summary}
+              href={`/${catMeta.slug}/${article.id}`}
+              category={article.data.category as CategoryKey}
+              sourceAgency={article.data.sourceAgency}
+              publishedAt={new Date(article.data.publishedAt)}
+              severity={article.data.severity}
+            />
+          </div>
+        );
+      })}
+    </div>
+
+    {allArticles.length === 0 && (
+      <p class="text-[var(--color-muted)] text-center py-12">
+        No articles available yet. Check back soon.
+      </p>
+    )}
+  </div>
+
+  <script>
+    document.querySelectorAll('.filter-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const category = chip.getAttribute('data-category');
+
+        document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+
+        document.querySelectorAll('.article-item').forEach(item => {
+          const el = item as HTMLElement;
+          if (category === 'all' || el.dataset.category === category) {
+            el.style.display = '';
+          } else {
+            el.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
+      { "@type": "ListItem", "position": 2, "name": "All Articles" }
+    ]
+  })} />
+</Base>
+
+<style>
+  .filter-chip { color: var(--color-muted); cursor: pointer; }
+  .filter-chip:hover { border-color: var(--color-muted); color: var(--color-foreground); }
+  .filter-chip.active { background: var(--color-foreground); color: var(--color-background); border-color: var(--color-foreground); }
+</style>
