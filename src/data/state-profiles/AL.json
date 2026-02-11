@@ -1,0 +1,236 @@
+{
+  "stateCode": "AL",
+  "stateName": "Alabama",
+  "cityCount": 67,
+  "totalPopulation": 2323903,
+  "avgMedianIncome": 58110,
+  "avgMedianHomeValue": 168381,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "huntsville-al",
+        "name": "Huntsville",
+        "value": 215006
+      },
+      {
+        "slug": "birmingham-al",
+        "name": "Birmingham",
+        "value": 196357
+      },
+      {
+        "slug": "montgomery-al",
+        "name": "Montgomery",
+        "value": 195287
+      },
+      {
+        "slug": "mobile",
+        "name": "Mobile",
+        "value": 183289
+      },
+      {
+        "slug": "tuscaloosa",
+        "name": "Tuscaloosa",
+        "value": 111338
+      },
+      {
+        "slug": "hoover",
+        "name": "Hoover",
+        "value": 84848
+      },
+      {
+        "slug": "dothan",
+        "name": "Dothan",
+        "value": 68567
+      },
+      {
+        "slug": "auburn-al",
+        "name": "Auburn",
+        "value": 62059
+      },
+      {
+        "slug": "decatur-al",
+        "name": "Decatur",
+        "value": 55437
+      },
+      {
+        "slug": "madison-al",
+        "name": "Madison",
+        "value": 46962
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "alabaster",
+        "name": "Alabaster",
+        "value": 90618
+      },
+      {
+        "slug": "athens-al",
+        "name": "Athens",
+        "value": 80146
+      },
+      {
+        "slug": "huntsville-al",
+        "name": "Huntsville",
+        "value": 78058
+      },
+      {
+        "slug": "millbrook",
+        "name": "Millbrook",
+        "value": 73258
+      },
+      {
+        "slug": "pell-city",
+        "name": "Pell City",
+        "value": 73218
+      },
+      {
+        "slug": "daphne",
+        "name": "Daphne",
+        "value": 71039
+      },
+      {
+        "slug": "prattville",
+        "name": "Prattville",
+        "value": 68315
+      },
+      {
+        "slug": "birmingham-al",
+        "name": "Birmingham",
+        "value": 63595
+      },
+      {
+        "slug": "enterprise-al",
+        "name": "Enterprise",
+        "value": 62199
+      },
+      {
+        "slug": "tuscaloosa",
+        "name": "Tuscaloosa",
+        "value": 61645
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "alabaster",
+        "name": "Alabaster",
+        "value": 276500
+      },
+      {
+        "slug": "daphne",
+        "name": "Daphne",
+        "value": 266000
+      },
+      {
+        "slug": "huntsville-al",
+        "name": "Huntsville",
+        "value": 242900
+      },
+      {
+        "slug": "athens-al",
+        "name": "Athens",
+        "value": 229400
+      },
+      {
+        "slug": "auburn-al",
+        "name": "Auburn",
+        "value": 224400
+      },
+      {
+        "slug": "tuscaloosa",
+        "name": "Tuscaloosa",
+        "value": 218800
+      },
+      {
+        "slug": "birmingham-al",
+        "name": "Birmingham",
+        "value": 208900
+      },
+      {
+        "slug": "pell-city",
+        "name": "Pell City",
+        "value": 202000
+      },
+      {
+        "slug": "millbrook",
+        "name": "Millbrook",
+        "value": 200400
+      },
+      {
+        "slug": "prattville",
+        "name": "Prattville",
+        "value": 191800
+      }
+    ]
+  },
+  "cities": [
+    "alabaster",
+    "albertville",
+    "alexander-city",
+    "anniston",
+    "athens-al",
+    "atmore",
+    "auburn-al",
+    "bessemer",
+    "birmingham-al",
+    "calera",
+    "center-point",
+    "chelsea-al",
+    "cullman",
+    "daphne",
+    "decatur-al",
+    "dixiana",
+    "dothan",
+    "east-florence",
+    "enterprise-al",
+    "eufaula",
+    "fairfield-al",
+    "fairhope",
+    "florence-al",
+    "foley",
+    "forestdale",
+    "fort-payne",
+    "gadsden",
+    "gardendale",
+    "gulf-shores",
+    "hartselle",
+    "helena-al",
+    "homewood-al",
+    "hoover",
+    "hueytown",
+    "huntsville-al",
+    "irondale",
+    "jacksonville-al",
+    "jasper-al",
+    "leeds",
+    "madison-al",
+    "millbrook",
+    "mobile",
+    "montgomery-al",
+    "moody",
+    "mountain-brook",
+    "muscle-shoals",
+    "northport",
+    "opelika",
+    "oxford-al",
+    "ozark-al",
+    "pelham-al",
+    "pell-city",
+    "phenix-city",
+    "pleasant-grove-al",
+    "prattville",
+    "prichard",
+    "saks",
+    "saraland",
+    "scottsboro",
+    "selma-al",
+    "sylacauga",
+    "talladega",
+    "tillmans-corner",
+    "troy-al",
+    "trussville",
+    "tuscaloosa",
+    "vestavia-hills"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.899Z"
+}

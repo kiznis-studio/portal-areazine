@@ -1,0 +1,72 @@
+{
+  "city": "Carlisle",
+  "slug": "carlisle",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Cumberland County",
+  "lat": 40.2015,
+  "lng": -77.1889,
+  "fetchedAt": "2026-02-11T17:08:27.692Z",
+  "census": {
+    "population": 261269,
+    "medianAge": 40.3,
+    "medianHouseholdIncome": 82849,
+    "medianHomeValue": 246200,
+    "medianRent": 1146,
+    "povertyRate": 7.7,
+    "unemploymentRate": 3.7,
+    "bachelorDegreeOrHigher": 38.7,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 13,
+    "demographics": {
+      "white": 84.6,
+      "black": 4.3,
+      "asian": 5,
+      "hispanic": 4.6,
+      "other": 1.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.4,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 270738,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "UPMC CARLISLE",
+        "city": "CARLISLE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PENN STATE HEALTH HOLY SPIRIT MEDICAL CENTER",
+        "city": "CAMP HILL",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

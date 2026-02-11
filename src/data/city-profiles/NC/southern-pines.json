@@ -1,0 +1,142 @@
+{
+  "city": "Southern Pines",
+  "slug": "southern-pines",
+  "state": "North Carolina",
+  "stateCode": "NC",
+  "county": "Moore County",
+  "lat": 35.1741,
+  "lng": -79.3922,
+  "fetchedAt": "2026-02-11T17:08:27.788Z",
+  "census": {
+    "population": 100759,
+    "medianAge": 43,
+    "medianHouseholdIncome": 77981,
+    "medianHomeValue": 284000,
+    "medianRent": 1084,
+    "povertyRate": 9.5,
+    "unemploymentRate": 4.2,
+    "bachelorDegreeOrHigher": 39.9,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 10.8,
+    "demographics": {
+      "white": 79.1,
+      "black": 10.3,
+      "asian": 1.3,
+      "hispanic": 7.3,
+      "other": 2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 38.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 32.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 21,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 31.4,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 106898,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "FIRSTHEALTH MOORE REGIONAL HOSPITAL",
+        "city": "PINEHURST",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "city": "Burlingame",
+  "slug": "burlingame",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "San Mateo County",
+  "lat": 37.5841,
+  "lng": -122.3661,
+  "fetchedAt": "2026-02-11T17:08:27.589Z",
+  "census": {
+    "population": 754250,
+    "medianAge": 40.3,
+    "medianHouseholdIncome": 149907,
+    "medianHomeValue": 1441300,
+    "medianRent": 2805,
+    "povertyRate": 6.4,
+    "unemploymentRate": 4.5,
+    "bachelorDegreeOrHigher": 52.9,
+    "publicTransitPct": 7.4,
+    "workFromHomePct": 19,
+    "demographics": {
+      "white": 43.4,
+      "black": 2.3,
+      "asian": 30.5,
+      "hispanic": 23.9,
+      "other": -0.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 28.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 8.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 71.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 22.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 13.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 726353,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PENINSULA MEDICAL CENTER",
+        "city": "BURLINGAME",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITAL - SOUTH SAN FRANCISCO",
+        "city": "SOUTH SAN FRANCISCO",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SEQUOIA HOSPITAL",
+        "city": "REDWOOD CITY",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITAL - REDWOOD CITY",
+        "city": "REDWOOD CITY",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "AHMC SETON MEDICAL CENTER",
+        "city": "DALY CITY",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      }
+    ],
+    "totalHospitals": 6,
+    "ratedHospitals": 5,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

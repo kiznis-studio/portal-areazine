@@ -1,0 +1,72 @@
+{
+  "city": "Lebanon",
+  "slug": "lebanon-pa",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Lebanon County",
+  "lat": 40.3409,
+  "lng": -76.4113,
+  "fetchedAt": "2026-02-11T17:08:27.622Z",
+  "census": {
+    "population": 143258,
+    "medianAge": 41.3,
+    "medianHouseholdIncome": 72532,
+    "medianHomeValue": 211400,
+    "medianRent": 1023,
+    "povertyRate": 10.9,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 22.9,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 8.5,
+    "demographics": {
+      "white": 83.2,
+      "black": 2.1,
+      "asian": 1.6,
+      "hispanic": 14.5,
+      "other": -1.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.1,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 144252,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "WELLSPAN GOOD SAMARITAN HOSPITAL",
+        "city": "LEBANON",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "LEBANON VA MEDICAL CENTER",
+        "city": "LEBANON",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

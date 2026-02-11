@@ -1,0 +1,142 @@
+{
+  "city": "Clemson",
+  "slug": "clemson",
+  "state": "South Carolina",
+  "stateCode": "SC",
+  "county": "Pickens County",
+  "lat": 34.6834,
+  "lng": -82.8374,
+  "fetchedAt": "2026-02-11T17:08:27.746Z",
+  "census": {
+    "population": 131106,
+    "medianAge": 36.1,
+    "medianHouseholdIncome": 57628,
+    "medianHomeValue": 196600,
+    "medianRent": 896,
+    "povertyRate": 16.9,
+    "unemploymentRate": 4.1,
+    "bachelorDegreeOrHigher": 27.5,
+    "publicTransitPct": 0.9,
+    "workFromHomePct": 8.2,
+    "demographics": {
+      "white": 86.4,
+      "black": 6.2,
+      "asian": 1.8,
+      "hispanic": 4.2,
+      "other": 1.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 35.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 135495,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PRISMA HEALTH BAPTIST EASLEY HOSPITAL",
+        "city": "EASLEY",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "stateCode": "MT",
+  "stateName": "Montana",
+  "cityCount": 7,
+  "totalPopulation": 379514,
+  "avgMedianIncome": 68602,
+  "avgMedianHomeValue": 338286,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "billings",
+        "name": "Billings",
+        "value": 117116
+      },
+      {
+        "slug": "missoula",
+        "name": "Missoula",
+        "value": 71022
+      },
+      {
+        "slug": "great-falls-mt",
+        "name": "Great Falls",
+        "value": 59638
+      },
+      {
+        "slug": "bozeman",
+        "name": "Bozeman",
+        "value": 43405
+      },
+      {
+        "slug": "butte",
+        "name": "Butte",
+        "value": 34190
+      },
+      {
+        "slug": "helena-mt",
+        "name": "Helena",
+        "value": 32091
+      },
+      {
+        "slug": "kalispell",
+        "name": "Kalispell",
+        "value": 22052
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "bozeman",
+        "name": "Bozeman",
+        "value": 83434
+      },
+      {
+        "slug": "billings",
+        "name": "Billings",
+        "value": 72300
+      },
+      {
+        "slug": "helena-mt",
+        "name": "Helena",
+        "value": 71967
+      },
+      {
+        "slug": "kalispell",
+        "name": "Kalispell",
+        "value": 68025
+      },
+      {
+        "slug": "missoula",
+        "name": "Missoula",
+        "value": 66840
+      },
+      {
+        "slug": "great-falls-mt",
+        "name": "Great Falls",
+        "value": 61351
+      },
+      {
+        "slug": "butte",
+        "name": "Butte",
+        "value": 56297
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "bozeman",
+        "name": "Bozeman",
+        "value": 526700
+      },
+      {
+        "slug": "kalispell",
+        "name": "Kalispell",
+        "value": 414200
+      },
+      {
+        "slug": "missoula",
+        "name": "Missoula",
+        "value": 382400
+      },
+      {
+        "slug": "helena-mt",
+        "name": "Helena",
+        "value": 332000
+      },
+      {
+        "slug": "billings",
+        "name": "Billings",
+        "value": 289300
+      },
+      {
+        "slug": "great-falls-mt",
+        "name": "Great Falls",
+        "value": 227600
+      },
+      {
+        "slug": "butte",
+        "name": "Butte",
+        "value": 195800
+      }
+    ]
+  },
+  "cities": [
+    "billings",
+    "bozeman",
+    "butte",
+    "great-falls-mt",
+    "helena-mt",
+    "kalispell",
+    "missoula"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

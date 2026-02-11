@@ -1,0 +1,142 @@
+{
+  "city": "Elkton",
+  "slug": "elkton",
+  "state": "Maryland",
+  "stateCode": "MD",
+  "county": "Cecil County",
+  "lat": 39.6068,
+  "lng": -75.8333,
+  "fetchedAt": "2026-02-11T17:08:27.740Z",
+  "census": {
+    "population": 103876,
+    "medianAge": 41,
+    "medianHouseholdIncome": 86869,
+    "medianHomeValue": 292500,
+    "medianRent": 1322,
+    "povertyRate": 10.1,
+    "unemploymentRate": 4.9,
+    "bachelorDegreeOrHigher": 26.8,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 8.6,
+    "demographics": {
+      "white": 84.5,
+      "black": 6.8,
+      "asian": 1.3,
+      "hispanic": 4.9,
+      "other": 2.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 63.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 39.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 27.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 41.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 105672,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "UNION HOSPITAL OF CECIL COUNTY",
+        "city": "ELKTON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

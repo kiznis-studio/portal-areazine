@@ -1,0 +1,150 @@
+{
+  "city": "Carthage",
+  "slug": "carthage",
+  "state": "Missouri",
+  "stateCode": "MO",
+  "county": "Jasper County",
+  "lat": 37.1765,
+  "lng": -94.3102,
+  "fetchedAt": "2026-02-11T17:08:27.770Z",
+  "census": {
+    "population": 122788,
+    "medianAge": 36.6,
+    "medianHouseholdIncome": 54963,
+    "medianHomeValue": 147500,
+    "medianRent": 878,
+    "povertyRate": 18.5,
+    "unemploymentRate": 4.1,
+    "bachelorDegreeOrHigher": 24.7,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 7.4,
+    "demographics": {
+      "white": 86.4,
+      "black": 1.9,
+      "asian": 1.3,
+      "hispanic": 8.7,
+      "other": 1.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 37.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 32.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 57.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 125056,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "FREEMAN HEALTH SYSTEM - FREEMAN WEST",
+        "city": "JOPLIN",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MERCY HOSPITAL JOPLIN",
+        "city": "JOPLIN",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 1.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

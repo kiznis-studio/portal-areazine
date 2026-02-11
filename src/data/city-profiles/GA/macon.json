@@ -1,0 +1,150 @@
+{
+  "city": "Macon",
+  "slug": "macon",
+  "state": "Georgia",
+  "stateCode": "GA",
+  "county": "Bibb County",
+  "lat": 32.8407,
+  "lng": -83.6324,
+  "fetchedAt": "2026-02-11T17:08:27.444Z",
+  "census": {
+    "population": 156554,
+    "medianAge": 36.5,
+    "medianHouseholdIncome": 48897,
+    "medianHomeValue": 155200,
+    "medianRent": 967,
+    "povertyRate": 25.1,
+    "unemploymentRate": 7.5,
+    "bachelorDegreeOrHigher": 25.9,
+    "publicTransitPct": 1.1,
+    "workFromHomePct": 6.6,
+    "demographics": {
+      "white": 37.2,
+      "black": 54.3,
+      "asian": 2.2,
+      "hispanic": 3.7,
+      "other": 2.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 53.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 42.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 44.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 32.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 16.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 44.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 156512,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "COLISEUM MEDICAL CENTERS, LLC, DBA",
+        "city": "MACON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ATRIUM HEALTH NAVICENT THE MEDICAL CENTER",
+        "city": "MACON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "stateCode": "WA",
+  "stateName": "Washington",
+  "cityCount": 125,
+  "totalPopulation": 5399507,
+  "avgMedianIncome": 77733,
+  "avgMedianHomeValue": 394530,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "seattle",
+        "name": "Seattle",
+        "value": 780995
+      },
+      {
+        "slug": "tri-cities",
+        "name": "Tri-Cities",
+        "value": 244036
+      },
+      {
+        "slug": "spokane",
+        "name": "Spokane",
+        "value": 229447
+      },
+      {
+        "slug": "tacoma",
+        "name": "Tacoma",
+        "value": 222906
+      },
+      {
+        "slug": "vancouver",
+        "name": "Vancouver",
+        "value": 196442
+      },
+      {
+        "slug": "bellevue-wa",
+        "name": "Bellevue",
+        "value": 139820
+      },
+      {
+        "slug": "kent-wa",
+        "name": "Kent",
+        "value": 126952
+      },
+      {
+        "slug": "everett-wa",
+        "name": "Everett",
+        "value": 108010
+      },
+      {
+        "slug": "renton",
+        "name": "Renton",
+        "value": 100242
+      },
+      {
+        "slug": "federal-way",
+        "name": "Federal Way",
+        "value": 95171
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "seattle",
+        "name": "Seattle",
+        "value": 116340
+      },
+      {
+        "slug": "everett-wa",
+        "name": "Everett",
+        "value": 104083
+      },
+      {
+        "slug": "bremerton",
+        "name": "Bremerton",
+        "value": 93675
+      },
+      {
+        "slug": "tacoma",
+        "name": "Tacoma",
+        "value": 91486
+      },
+      {
+        "slug": "vancouver",
+        "name": "Vancouver",
+        "value": 90115
+      },
+      {
+        "slug": "olympia",
+        "name": "Olympia",
+        "value": 88895
+      },
+      {
+        "slug": "kennewick",
+        "name": "Kennewick",
+        "value": 83778
+      },
+      {
+        "slug": "oak-harbor",
+        "name": "Oak Harbor",
+        "value": 82850
+      },
+      {
+        "slug": "mount-vernon-wa",
+        "name": "Mount Vernon",
+        "value": 82029
+      },
+      {
+        "slug": "east-wenatchee",
+        "name": "East Wenatchee",
+        "value": 79422
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "seattle",
+        "name": "Seattle",
+        "value": 761500
+      },
+      {
+        "slug": "everett-wa",
+        "name": "Everett",
+        "value": 592800
+      },
+      {
+        "slug": "oak-harbor",
+        "name": "Oak Harbor",
+        "value": 480800
+      },
+      {
+        "slug": "bellingham",
+        "name": "Bellingham",
+        "value": 475000
+      },
+      {
+        "slug": "bremerton",
+        "name": "Bremerton",
+        "value": 463000
+      },
+      {
+        "slug": "vancouver",
+        "name": "Vancouver",
+        "value": 453200
+      },
+      {
+        "slug": "tacoma",
+        "name": "Tacoma",
+        "value": 444600
+      },
+      {
+        "slug": "mount-vernon-wa",
+        "name": "Mount Vernon",
+        "value": 444300
+      },
+      {
+        "slug": "ellensburg",
+        "name": "Ellensburg",
+        "value": 417600
+      },
+      {
+        "slug": "wenatchee",
+        "name": "Wenatchee",
+        "value": 412300
+      }
+    ]
+  },
+  "cities": [
+    "aberdeen-wa",
+    "anacortes",
+    "arlington-wa",
+    "artondale",
+    "auburn-wa",
+    "bainbridge-island",
+    "battle-ground",
+    "bellevue-wa",
+    "bellingham",
+    "bonney-lake",
+    "bothell",
+    "bothell-west",
+    "bremerton",
+    "bryn-mawr-skyway",
+    "burien",
+    "camano",
+    "camas",
+    "centralia-wa",
+    "cheney",
+    "city-of-sammamish",
+    "columbia-city",
+    "cottage-lake",
+    "covington-wa",
+    "des-moines-wa",
+    "east-hill-meridian",
+    "east-renton-highlands",
+    "east-wenatchee",
+    "eastmont",
+    "edmonds",
+    "elk-plain",
+    "ellensburg",
+    "enumclaw",
+    "everett-wa",
+    "fairwood",
+    "federal-way",
+    "ferndale-wa",
+    "five-corners",
+    "frederickson",
+    "graham-wa",
+    "grandview-wa",
+    "greenwood-wa",
+    "hazel-dell",
+    "inglewood-finn-hill",
+    "issaquah",
+    "joint-base-lewis-mcchord",
+    "kelso",
+    "kenmore-wa",
+    "kennewick",
+    "kent-wa",
+    "kingsgate",
+    "kirkland",
+    "klahanie",
+    "lacey",
+    "lake-forest-park",
+    "lake-morton-berrydale",
+    "lake-stevens",
+    "lakeland-north",
+    "lakeland-south",
+    "lakewood-wa",
+    "lea-hill",
+    "longview-wa",
+    "lynden",
+    "lynnwood",
+    "maltby",
+    "maple-valley",
+    "martha-lake",
+    "marysville-wa",
+    "mercer-island",
+    "mill-creek",
+    "mill-creek-east",
+    "monroe-wa",
+    "moses-lake",
+    "mount-vernon-wa",
+    "mountlake-terrace",
+    "mukilteo",
+    "newcastle",
+    "north-creek",
+    "oak-harbor",
+    "olympia",
+    "opportunity",
+    "orchards",
+    "parkland-wa",
+    "pasco",
+    "picnic-point-north-lynnwood",
+    "port-angeles",
+    "port-orchard",
+    "poulsbo",
+    "prairie-ridge",
+    "pullman",
+    "puyallup",
+    "redmond-wa",
+    "renton",
+    "richland",
+    "salmon-creek",
+    "sammamish",
+    "seatac",
+    "seattle",
+    "sedro-woolley",
+    "shoreline",
+    "silver-firs",
+    "silverdale",
+    "snoqualmie",
+    "south-hill",
+    "spanaway",
+    "spokane",
+    "spokane-valley",
+    "sunnyside-wa",
+    "tacoma",
+    "tri-cities",
+    "tukwila",
+    "tumwater",
+    "union-hill-novelty-hill",
+    "university-place",
+    "vancouver",
+    "vashon",
+    "walla-walla",
+    "washougal",
+    "wenatchee",
+    "west-lake-sammamish",
+    "west-lake-stevens",
+    "west-richland",
+    "west-valley",
+    "white-center",
+    "woodinville",
+    "yakima"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.894Z"
+}

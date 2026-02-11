@@ -1,0 +1,133 @@
+{
+  "city": "River Falls",
+  "slug": "river-falls",
+  "state": "Wisconsin",
+  "stateCode": "WI",
+  "county": "Pierce County",
+  "lat": 44.8614,
+  "lng": -92.6238,
+  "fetchedAt": "2026-02-11T17:08:27.750Z",
+  "census": {
+    "population": 42187,
+    "medianAge": 37.7,
+    "medianHouseholdIncome": 82996,
+    "medianHomeValue": 278700,
+    "medianRent": 999,
+    "povertyRate": 9.8,
+    "unemploymentRate": 2.9,
+    "bachelorDegreeOrHigher": 31,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 10.3,
+    "demographics": {
+      "white": 93.4,
+      "black": 0.6,
+      "asian": 1.1,
+      "hispanic": 2.5,
+      "other": 2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 20.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 75.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 43026,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 1,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

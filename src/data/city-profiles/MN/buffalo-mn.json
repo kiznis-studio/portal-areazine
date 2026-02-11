@@ -1,0 +1,142 @@
+{
+  "city": "Buffalo",
+  "slug": "buffalo-mn",
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "county": "Wright County",
+  "lat": 45.1719,
+  "lng": -93.8747,
+  "fetchedAt": "2026-02-11T17:08:27.735Z",
+  "census": {
+    "population": 142543,
+    "medianAge": 37.4,
+    "medianHouseholdIncome": 102980,
+    "medianHomeValue": 310900,
+    "medianRent": 1149,
+    "povertyRate": 4.8,
+    "unemploymentRate": 2.2,
+    "bachelorDegreeOrHigher": 33.1,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 11.2,
+    "demographics": {
+      "white": 91,
+      "black": 1.4,
+      "asian": 1.4,
+      "hispanic": 3.3,
+      "other": 2.9
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 19.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 31.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 35.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 69.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 151150,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "BUFFALO HOSPITAL",
+        "city": "BUFFALO",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 1,
+    "averageRating": 5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

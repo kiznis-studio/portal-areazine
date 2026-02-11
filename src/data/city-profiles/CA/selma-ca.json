@@ -1,0 +1,174 @@
+{
+  "city": "Selma",
+  "slug": "selma-ca",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Fresno County",
+  "lat": 36.5708,
+  "lng": -119.6121,
+  "fetchedAt": "2026-02-11T17:08:27.632Z",
+  "census": {
+    "population": 1008280,
+    "medianAge": 32.8,
+    "medianHouseholdIncome": 67756,
+    "medianHomeValue": 338200,
+    "medianRent": 1207,
+    "povertyRate": 19.5,
+    "unemploymentRate": 8.6,
+    "bachelorDegreeOrHigher": 23.4,
+    "publicTransitPct": 0.9,
+    "workFromHomePct": 8.2,
+    "demographics": {
+      "white": 48,
+      "black": 4.5,
+      "asian": 10.7,
+      "hispanic": 54.2,
+      "other": -17.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 30.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 70.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 31.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 14.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 53.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 1017162,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "FRESNO VA MEDICAL CENTER (VA CENTRAL CALIFORNIA HEALTHCARE SYSTEM)",
+        "city": "FRESNO",
+        "rating": 4,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITAL - FRESNO",
+        "city": "FRESNO",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SAINT AGNES MEDICAL CENTER",
+        "city": "FRESNO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "CLOVIS COMMUNITY MEDICAL CENTER",
+        "city": "CLOVIS",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "COMMUNITY REGIONAL MEDICAL CENTER",
+        "city": "FRESNO",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 8,
+    "ratedHospitals": 5,
+    "averageRating": 2.6,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

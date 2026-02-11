@@ -1,0 +1,142 @@
+{
+  "city": "Prattville",
+  "slug": "prattville",
+  "state": "Alabama",
+  "stateCode": "AL",
+  "county": "Autauga County",
+  "lat": 32.464,
+  "lng": -86.4597,
+  "fetchedAt": "2026-02-11T17:08:27.559Z",
+  "census": {
+    "population": 58761,
+    "medianAge": 39,
+    "medianHouseholdIncome": 68315,
+    "medianHomeValue": 191800,
+    "medianRent": 1199,
+    "povertyRate": 11.4,
+    "unemploymentRate": 2.7,
+    "bachelorDegreeOrHigher": 29.6,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 5.3,
+    "demographics": {
+      "white": 74.4,
+      "black": 19.6,
+      "asian": 1.1,
+      "hispanic": 3.2,
+      "other": 1.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 42,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 27,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 60342,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PRATTVILLE BAPTIST HOSPITAL",
+        "city": "PRATTVILLE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

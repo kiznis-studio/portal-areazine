@@ -1,0 +1,64 @@
+{
+  "city": "Middlesboro",
+  "slug": "middlesboro",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Bell County",
+  "lat": 36.6084,
+  "lng": -83.7166,
+  "fetchedAt": "2026-02-11T17:08:27.866Z",
+  "census": {
+    "population": 24248,
+    "medianAge": 41.5,
+    "medianHouseholdIncome": 33658,
+    "medianHomeValue": 76700,
+    "medianRent": 608,
+    "povertyRate": 26.3,
+    "unemploymentRate": 10,
+    "bachelorDegreeOrHigher": 11.7,
+    "publicTransitPct": 0,
+    "workFromHomePct": 4.2,
+    "demographics": {
+      "white": 94.4,
+      "black": 1.9,
+      "asian": 0.1,
+      "hispanic": 1.4,
+      "other": 2.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 49.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 41.5,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 23317,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MIDDLESBORO ARH HOSPITAL",
+        "city": "MIDDLESBORO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

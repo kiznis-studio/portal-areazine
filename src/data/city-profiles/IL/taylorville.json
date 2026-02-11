@@ -1,0 +1,142 @@
+{
+  "city": "Taylorville",
+  "slug": "taylorville",
+  "state": "Illinois",
+  "stateCode": "IL",
+  "county": "Christian County",
+  "lat": 39.5489,
+  "lng": -89.2945,
+  "fetchedAt": "2026-02-11T17:08:27.861Z",
+  "census": {
+    "population": 33893,
+    "medianAge": 42.2,
+    "medianHouseholdIncome": 56933,
+    "medianHomeValue": 108800,
+    "medianRent": 705,
+    "povertyRate": 11.9,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 17.2,
+    "publicTransitPct": 0,
+    "workFromHomePct": 5.6,
+    "demographics": {
+      "white": 94.3,
+      "black": 2.6,
+      "asian": 0.7,
+      "hispanic": 2,
+      "other": 0.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 38.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 60,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 37.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 33228,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "TAYLORVILLE MEMORIAL HOSPITAL",
+        "city": "TAYLORVILLE",
+        "rating": 4,
+        "type": "Critical Access Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

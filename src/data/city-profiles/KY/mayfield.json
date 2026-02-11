@@ -1,0 +1,64 @@
+{
+  "city": "Mayfield",
+  "slug": "mayfield",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Graves County",
+  "lat": 36.7417,
+  "lng": -88.6367,
+  "fetchedAt": "2026-02-11T17:08:27.885Z",
+  "census": {
+    "population": 36701,
+    "medianAge": 39.9,
+    "medianHouseholdIncome": 52526,
+    "medianHomeValue": 134900,
+    "medianRent": 662,
+    "povertyRate": 19.8,
+    "unemploymentRate": 3.7,
+    "bachelorDegreeOrHigher": 18.6,
+    "publicTransitPct": 0,
+    "workFromHomePct": 6.7,
+    "demographics": {
+      "white": 87,
+      "black": 4,
+      "asian": 0.4,
+      "hispanic": 7.4,
+      "other": 1.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 55.3,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 36461,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "JACKSON PURCHASE MEDICAL CENTER",
+        "city": "MAYFIELD",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

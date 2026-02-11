@@ -1,0 +1,150 @@
+{
+  "city": "Porterville",
+  "slug": "porterville",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Tulare County",
+  "lat": 36.0652,
+  "lng": -119.0168,
+  "fetchedAt": "2026-02-11T17:08:27.492Z",
+  "census": {
+    "population": 473446,
+    "medianAge": 31.5,
+    "medianHouseholdIncome": 64474,
+    "medianHomeValue": 280900,
+    "medianRent": 1137,
+    "povertyRate": 18.5,
+    "unemploymentRate": 9,
+    "bachelorDegreeOrHigher": 15.6,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 5.2,
+    "demographics": {
+      "white": 50.9,
+      "black": 1.6,
+      "asian": 3.6,
+      "hispanic": 66.1,
+      "other": -22.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 67.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 32.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 52.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 18.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 35,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 31.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 479468,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "KAWEAH HEALTH MEDICAL CENTER",
+        "city": "VISALIA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "SIERRA VIEW MEDICAL CENTER",
+        "city": "PORTERVILLE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

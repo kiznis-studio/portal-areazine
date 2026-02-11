@@ -1,0 +1,95 @@
+{
+  "stateCode": "DC",
+  "stateName": "District of Columbia",
+  "cityCount": 16,
+  "totalPopulation": 979101,
+  "avgMedianIncome": 101722,
+  "avgMedianHomeValue": 705000,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "washington-dc",
+        "name": "Washington",
+        "value": 689545
+      },
+      {
+        "slug": "columbia-heights-dc",
+        "name": "Columbia Heights",
+        "value": 38000
+      },
+      {
+        "slug": "mount-pleasant-dc",
+        "name": "Mount Pleasant",
+        "value": 35842
+      },
+      {
+        "slug": "dupont-circle",
+        "name": "Dupont Circle",
+        "value": 23226
+      },
+      {
+        "slug": "foggy-bottom",
+        "name": "Foggy Bottom",
+        "value": 22146
+      },
+      {
+        "slug": "pleasant-plains",
+        "name": "Pleasant Plains",
+        "value": 21174
+      },
+      {
+        "slug": "petworth",
+        "name": "Petworth",
+        "value": 18983
+      },
+      {
+        "slug": "park-view",
+        "name": "Park View",
+        "value": 18796
+      },
+      {
+        "slug": "shaw",
+        "name": "Shaw",
+        "value": 17639
+      },
+      {
+        "slug": "brightwood",
+        "name": "Brightwood",
+        "value": 17624
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "washington-dc",
+        "name": "Washington",
+        "value": 101722
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "washington-dc",
+        "name": "Washington",
+        "value": 705000
+      }
+    ]
+  },
+  "cities": [
+    "adams-morgan",
+    "anacostia",
+    "brentwood-village",
+    "brightwood",
+    "capitol-hill",
+    "columbia-heights-dc",
+    "dupont-circle",
+    "foggy-bottom",
+    "georgetown-dc",
+    "hillcrest",
+    "mount-pleasant-dc",
+    "park-view",
+    "petworth",
+    "pleasant-plains",
+    "shaw",
+    "washington-dc"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.895Z"
+}

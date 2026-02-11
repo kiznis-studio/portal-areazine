@@ -1,0 +1,142 @@
+{
+  "city": "Lincolnton",
+  "slug": "lincolnton",
+  "state": "North Carolina",
+  "stateCode": "NC",
+  "county": "Lincoln County",
+  "lat": 35.4738,
+  "lng": -81.2545,
+  "fetchedAt": "2026-02-11T17:08:27.859Z",
+  "census": {
+    "population": 87933,
+    "medianAge": 44.3,
+    "medianHouseholdIncome": 75672,
+    "medianHomeValue": 241200,
+    "medianRent": 928,
+    "povertyRate": 9.3,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 26.1,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 9.9,
+    "demographics": {
+      "white": 86.2,
+      "black": 5.6,
+      "asian": 0.8,
+      "hispanic": 7.6,
+      "other": -0.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 63,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 35,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 95675,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ATRIUM HEALTH LINCOLN",
+        "city": "LINCOLNTON",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

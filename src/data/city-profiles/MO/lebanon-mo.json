@@ -1,0 +1,133 @@
+{
+  "city": "Lebanon",
+  "slug": "lebanon-mo",
+  "state": "Missouri",
+  "stateCode": "MO",
+  "county": "Laclede County",
+  "lat": 37.6806,
+  "lng": -92.6638,
+  "fetchedAt": "2026-02-11T17:08:27.762Z",
+  "census": {
+    "population": 36060,
+    "medianAge": 39.5,
+    "medianHouseholdIncome": 49202,
+    "medianHomeValue": 151800,
+    "medianRent": 791,
+    "povertyRate": 17.1,
+    "unemploymentRate": 5.9,
+    "bachelorDegreeOrHigher": 16.9,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 4.6,
+    "demographics": {
+      "white": 91.6,
+      "black": 0.5,
+      "asian": 0.7,
+      "hispanic": 2.7,
+      "other": 4.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 17.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 21.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 34.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 39.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 53.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 38.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 36680,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 1,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "city": "New Albany",
+  "slug": "new-albany",
+  "state": "Indiana",
+  "stateCode": "IN",
+  "county": "Floyd County",
+  "lat": 38.2856,
+  "lng": -85.8241,
+  "fetchedAt": "2026-02-11T17:08:27.552Z",
+  "census": {
+    "population": 80191,
+    "medianAge": 39.8,
+    "medianHouseholdIncome": 75686,
+    "medianHomeValue": 214800,
+    "medianRent": 943,
+    "povertyRate": 9.4,
+    "unemploymentRate": 3.9,
+    "bachelorDegreeOrHigher": 31.3,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 10.3,
+    "demographics": {
+      "white": 88,
+      "black": 5,
+      "asian": 1.2,
+      "hispanic": 3.7,
+      "other": 2.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 38.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 80809,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "BAPTIST HEALTH FLOYD",
+        "city": "NEW ALBANY",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

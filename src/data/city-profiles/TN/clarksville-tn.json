@@ -1,0 +1,142 @@
+{
+  "city": "Clarksville",
+  "slug": "clarksville-tn",
+  "state": "Tennessee",
+  "stateCode": "TN",
+  "county": "Montgomery County",
+  "lat": 36.5298,
+  "lng": -87.3594,
+  "fetchedAt": "2026-02-11T17:08:27.395Z",
+  "census": {
+    "population": 222305,
+    "medianAge": 31.4,
+    "medianHouseholdIncome": 67890,
+    "medianHomeValue": 226400,
+    "medianRent": 1128,
+    "povertyRate": 11.9,
+    "unemploymentRate": 5.4,
+    "bachelorDegreeOrHigher": 30.4,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 6,
+    "demographics": {
+      "white": 65.5,
+      "black": 20.2,
+      "asian": 2.4,
+      "hispanic": 10.7,
+      "other": 1.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 38.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 58.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 76.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 44.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 20,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 23.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 239872,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "TENNOVA HEALTHCARE-CLARKSVILLE",
+        "city": "CLARKSVILLE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

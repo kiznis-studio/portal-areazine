@@ -1,0 +1,259 @@
+{
+  "stateCode": "NC",
+  "stateName": "North Carolina",
+  "cityCount": 90,
+  "totalPopulation": 5226803,
+  "avgMedianIncome": 61824,
+  "avgMedianHomeValue": 211461,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "charlotte",
+        "name": "Charlotte",
+        "value": 911311
+      },
+      {
+        "slug": "raleigh",
+        "name": "Raleigh",
+        "value": 482295
+      },
+      {
+        "slug": "west-raleigh",
+        "name": "West Raleigh",
+        "value": 338759
+      },
+      {
+        "slug": "greensboro",
+        "name": "Greensboro",
+        "value": 285342
+      },
+      {
+        "slug": "durham-nc",
+        "name": "Durham",
+        "value": 257636
+      },
+      {
+        "slug": "winston-salem",
+        "name": "Winston-Salem",
+        "value": 241218
+      },
+      {
+        "slug": "fayetteville-nc",
+        "name": "Fayetteville",
+        "value": 201963
+      },
+      {
+        "slug": "cary-nc",
+        "name": "Cary",
+        "value": 159769
+      },
+      {
+        "slug": "wilmington-nc",
+        "name": "Wilmington",
+        "value": 115933
+      },
+      {
+        "slug": "high-point",
+        "name": "High Point",
+        "value": 110268
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "raleigh",
+        "name": "Raleigh",
+        "value": 96734
+      },
+      {
+        "slug": "indian-trail",
+        "name": "Indian Trail",
+        "value": 95533
+      },
+      {
+        "slug": "chapel-hill",
+        "name": "Chapel Hill",
+        "value": 85785
+      },
+      {
+        "slug": "concord-nc",
+        "name": "Concord",
+        "value": 83828
+      },
+      {
+        "slug": "charlotte",
+        "name": "Charlotte",
+        "value": 79265
+      },
+      {
+        "slug": "pinehurst",
+        "name": "Pinehurst",
+        "value": 77981
+      },
+      {
+        "slug": "lincolnton",
+        "name": "Lincolnton",
+        "value": 75672
+      },
+      {
+        "slug": "clayton-nc",
+        "name": "Clayton",
+        "value": 75288
+      },
+      {
+        "slug": "durham-nc",
+        "name": "Durham",
+        "value": 74927
+      },
+      {
+        "slug": "mooresville",
+        "name": "Mooresville",
+        "value": 73103
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "chapel-hill",
+        "name": "Chapel Hill",
+        "value": 395600
+      },
+      {
+        "slug": "raleigh",
+        "name": "Raleigh",
+        "value": 385700
+      },
+      {
+        "slug": "indian-trail",
+        "name": "Indian Trail",
+        "value": 336600
+      },
+      {
+        "slug": "charlotte",
+        "name": "Charlotte",
+        "value": 334700
+      },
+      {
+        "slug": "asheville",
+        "name": "Asheville",
+        "value": 328900
+      },
+      {
+        "slug": "wilmington-nc",
+        "name": "Wilmington",
+        "value": 320000
+      },
+      {
+        "slug": "durham-nc",
+        "name": "Durham",
+        "value": 311300
+      },
+      {
+        "slug": "hendersonville-nc",
+        "name": "Hendersonville",
+        "value": 291500
+      },
+      {
+        "slug": "leland",
+        "name": "Leland",
+        "value": 284100
+      },
+      {
+        "slug": "pinehurst",
+        "name": "Pinehurst",
+        "value": 284000
+      }
+    ]
+  },
+  "cities": [
+    "albemarle",
+    "apex",
+    "archdale",
+    "asheboro",
+    "asheville",
+    "belmont-nc",
+    "boone-nc",
+    "burlington-nc",
+    "carrboro",
+    "cary-nc",
+    "chapel-hill",
+    "charlotte",
+    "clayton-nc",
+    "clemmons",
+    "concord-nc",
+    "cornelius-nc",
+    "davidson",
+    "durham-nc",
+    "eden",
+    "elizabeth-city",
+    "elon",
+    "fayetteville-nc",
+    "fort-bragg",
+    "fuquay-varina",
+    "garner",
+    "gastonia",
+    "goldsboro",
+    "graham-nc",
+    "greensboro",
+    "greenville-nc",
+    "harrisburg-nc",
+    "havelock",
+    "henderson-nc",
+    "hendersonville-nc",
+    "hickory",
+    "high-point",
+    "holly-springs-nc",
+    "hope-mills",
+    "huntersville",
+    "indian-trail",
+    "jacksonville-nc",
+    "kannapolis",
+    "kernersville",
+    "kings-mountain",
+    "kinston",
+    "knightdale",
+    "laurinburg",
+    "leland",
+    "lenoir",
+    "lewisville-nc",
+    "lexington-nc",
+    "lincolnton",
+    "lumberton-nc",
+    "masonboro",
+    "matthews",
+    "mebane",
+    "mint-hill",
+    "monroe-nc",
+    "mooresville",
+    "morganton",
+    "morrisville",
+    "mount-airy",
+    "mount-holly-nc",
+    "murraysville",
+    "new-bern",
+    "newton-nc",
+    "pinehurst",
+    "piney-green",
+    "raleigh",
+    "reidsville",
+    "roanoke-rapids",
+    "rocky-mount",
+    "salisbury-nc",
+    "sanford-nc",
+    "shelby-nc",
+    "smithfield-nc",
+    "southern-pines",
+    "spring-lake",
+    "stallings",
+    "statesville",
+    "summerfield-nc",
+    "tarboro",
+    "thomasville-nc",
+    "wake-forest",
+    "waxhaw",
+    "weddington",
+    "west-raleigh",
+    "wilmington-nc",
+    "wilson",
+    "winston-salem"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.894Z"
+}

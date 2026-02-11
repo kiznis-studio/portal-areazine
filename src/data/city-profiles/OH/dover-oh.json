@@ -1,0 +1,142 @@
+{
+  "city": "Dover",
+  "slug": "dover-oh",
+  "state": "Ohio",
+  "stateCode": "OH",
+  "county": "Tuscarawas County",
+  "lat": 40.5206,
+  "lng": -81.474,
+  "fetchedAt": "2026-02-11T17:08:27.806Z",
+  "census": {
+    "population": 92840,
+    "medianAge": 41.1,
+    "medianHouseholdIncome": 61953,
+    "medianHomeValue": 163700,
+    "medianRent": 844,
+    "povertyRate": 12.5,
+    "unemploymentRate": 5.5,
+    "bachelorDegreeOrHigher": 19.7,
+    "publicTransitPct": 0,
+    "workFromHomePct": 6.1,
+    "demographics": {
+      "white": 95.6,
+      "black": 0.6,
+      "asian": 0.4,
+      "hispanic": 3.4,
+      "other": 0
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 43.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 17.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 57.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 39.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.5,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 91874,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "UNION HOSPITAL",
+        "city": "DOVER",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

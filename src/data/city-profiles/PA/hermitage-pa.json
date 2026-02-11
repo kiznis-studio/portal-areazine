@@ -1,0 +1,72 @@
+{
+  "city": "Hermitage",
+  "slug": "hermitage-pa",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Mercer County",
+  "lat": 41.2334,
+  "lng": -80.4487,
+  "fetchedAt": "2026-02-11T17:08:27.735Z",
+  "census": {
+    "population": 110600,
+    "medianAge": 45,
+    "medianHouseholdIncome": 57353,
+    "medianHomeValue": 146100,
+    "medianRent": 761,
+    "povertyRate": 13.5,
+    "unemploymentRate": 5.5,
+    "bachelorDegreeOrHigher": 24.1,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 6.7,
+    "demographics": {
+      "white": 89.4,
+      "black": 5.6,
+      "asian": 0.7,
+      "hispanic": 1.6,
+      "other": 2.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 63.6,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 108503,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "UPMC HORIZON",
+        "city": "GREENVILLE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SHARON REGIONAL MEDICAL CENTER",
+        "city": "SHARON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "city": "Murray",
+  "slug": "murray-ut",
+  "state": "Utah",
+  "stateCode": "UT",
+  "county": "Salt Lake County",
+  "lat": 40.6669,
+  "lng": -111.888,
+  "fetchedAt": "2026-02-11T17:08:27.510Z",
+  "census": {
+    "population": 1180643,
+    "medianAge": 33.4,
+    "medianHouseholdIncome": 90011,
+    "medianHomeValue": 440400,
+    "medianRent": 1394,
+    "povertyRate": 8.1,
+    "unemploymentRate": 3.6,
+    "bachelorDegreeOrHigher": 37.7,
+    "publicTransitPct": 2.5,
+    "workFromHomePct": 15.3,
+    "demographics": {
+      "white": 74.6,
+      "black": 1.8,
+      "asian": 4.2,
+      "hispanic": 19.1,
+      "other": 0.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 18.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 29.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 8.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 8.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 69.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 27.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.2,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 1185813,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "UNIVERSITY OF UTAH HOSPITAL AND CLINICS",
+        "city": "SALT LAKE CITY",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - State"
+      },
+      {
+        "name": "INTERMOUNTAIN MEDICAL CENTER",
+        "city": "MURRAY",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "VA SALT LAKE CITY HEALTHCARE - GEORGE E. WAHLEN VA MEDICAL CENTER",
+        "city": "SALT LAKE CITY",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "LONE PEAK HOSPITAL",
+        "city": "DRAPER",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "LDS HOSPITAL",
+        "city": "SALT LAKE CITY",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "INTERMOUNTAIN HEALTH ALTA VIEW HOSPITAL",
+        "city": "SANDY",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ST MARK'S HOSPITAL",
+        "city": "SALT LAKE CITY",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "RIVERTON HOSPITAL",
+        "city": "RIVERTON",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HOLY CROSS HOSPITAL-JORDAN VALLEY",
+        "city": "WEST JORDAN",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HOLY CROSS HOSPITAL - SALT LAKE",
+        "city": "SALT LAKE CITY",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 13,
+    "ratedHospitals": 10,
+    "averageRating": 4.1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

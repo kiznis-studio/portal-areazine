@@ -1,0 +1,166 @@
+{
+  "city": "Augusta",
+  "slug": "augusta-ga",
+  "state": "Georgia",
+  "stateCode": "GA",
+  "county": "Richmond County",
+  "lat": 33.471,
+  "lng": -81.9748,
+  "fetchedAt": "2026-02-11T17:08:27.525Z",
+  "census": {
+    "population": 206153,
+    "medianAge": 34.8,
+    "medianHouseholdIncome": 50605,
+    "medianHomeValue": 142100,
+    "medianRent": 1024,
+    "povertyRate": 20.7,
+    "unemploymentRate": 7.8,
+    "bachelorDegreeOrHigher": 23.6,
+    "publicTransitPct": 1.9,
+    "workFromHomePct": 7,
+    "demographics": {
+      "white": 34.4,
+      "black": 55.9,
+      "asian": 1.8,
+      "hispanic": 5.3,
+      "other": 2.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 30.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 51.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 41.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 42.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 205414,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "AUGUSTA VA MEDICAL CENTER",
+        "city": "AUGUSTA",
+        "rating": 3,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "PIEDMONT AUGUSTA HOSPITAL",
+        "city": "AUGUSTA",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "DOCTORS HOSPITAL",
+        "city": "AUGUSTA",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "WELLSTAR MCG HEALTH, AFFILIATED WITH MED COL",
+        "city": "AUGUSTA",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 6,
+    "ratedHospitals": 4,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

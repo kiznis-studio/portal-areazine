@@ -1,0 +1,174 @@
+{
+  "city": "Springfield",
+  "slug": "springfield-ma",
+  "state": "Massachusetts",
+  "stateCode": "MA",
+  "county": "Hampden County",
+  "lat": 42.1015,
+  "lng": -72.5898,
+  "fetchedAt": "2026-02-11T17:08:27.399Z",
+  "census": {
+    "population": 464575,
+    "medianAge": 39.5,
+    "medianHouseholdIncome": 66619,
+    "medianHomeValue": 258100,
+    "medianRent": 1051,
+    "povertyRate": 15.8,
+    "unemploymentRate": 6.2,
+    "bachelorDegreeOrHigher": 28.6,
+    "publicTransitPct": 1.9,
+    "workFromHomePct": 8.6,
+    "demographics": {
+      "white": 70.9,
+      "black": 8.9,
+      "asian": 2.6,
+      "hispanic": 26.8,
+      "other": -9.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 12.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 460291,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "BAYSTATE WING HOSPITAL",
+        "city": "PALMER",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "HOLYOKE MEDICAL CENTER",
+        "city": "HOLYOKE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "BAYSTATE NOBLE HOSPITAL",
+        "city": "WESTFIELD",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MERCY MEDICAL CTR",
+        "city": "SPRINGFIELD",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "BAYSTATE MEDICAL CENTER",
+        "city": "SPRINGFIELD",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 6,
+    "ratedHospitals": 5,
+    "averageRating": 2.4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

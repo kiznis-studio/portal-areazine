@@ -1,0 +1,142 @@
+{
+  "city": "La Grande",
+  "slug": "la-grande",
+  "state": "Oregon",
+  "stateCode": "OR",
+  "county": "Union County",
+  "lat": 45.3246,
+  "lng": -118.0877,
+  "fetchedAt": "2026-02-11T17:08:27.800Z",
+  "census": {
+    "population": 26286,
+    "medianAge": 39.7,
+    "medianHouseholdIncome": 61946,
+    "medianHomeValue": 243400,
+    "medianRent": 930,
+    "povertyRate": 15.2,
+    "unemploymentRate": 6.3,
+    "bachelorDegreeOrHigher": 23.8,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 7.2,
+    "demographics": {
+      "white": 90.2,
+      "black": 1,
+      "asian": 1.4,
+      "hispanic": 5.2,
+      "other": 2.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 73.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 35.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 21.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 35.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 31.5,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 25944,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "GRANDE RONDE HOSPITAL",
+        "city": "LA GRANDE",
+        "rating": 3,
+        "type": "Critical Access Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

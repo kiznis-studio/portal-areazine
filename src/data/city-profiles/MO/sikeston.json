@@ -1,0 +1,142 @@
+{
+  "city": "Sikeston",
+  "slug": "sikeston",
+  "state": "Missouri",
+  "stateCode": "MO",
+  "county": "Scott County",
+  "lat": 36.8767,
+  "lng": -89.5879,
+  "fetchedAt": "2026-02-11T17:08:27.728Z",
+  "census": {
+    "population": 38055,
+    "medianAge": 39.4,
+    "medianHouseholdIncome": 54621,
+    "medianHomeValue": 132800,
+    "medianRent": 798,
+    "povertyRate": 15.6,
+    "unemploymentRate": 2.8,
+    "bachelorDegreeOrHigher": 21.2,
+    "publicTransitPct": 0,
+    "workFromHomePct": 4.1,
+    "demographics": {
+      "white": 83.4,
+      "black": 11.4,
+      "asian": 0.2,
+      "hispanic": 2.6,
+      "other": 2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 36.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 19.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 39.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 55.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 38.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 37889,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MISSOURI DELTA MEDICAL CENTER",
+        "city": "SIKESTON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

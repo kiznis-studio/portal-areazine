@@ -1,0 +1,133 @@
+{
+  "city": "Okmulgee",
+  "slug": "okmulgee",
+  "state": "Oklahoma",
+  "stateCode": "OK",
+  "county": "Okmulgee County",
+  "lat": 35.6234,
+  "lng": -95.9605,
+  "fetchedAt": "2026-02-11T17:08:27.820Z",
+  "census": {
+    "population": 36900,
+    "medianAge": 39.3,
+    "medianHouseholdIncome": 50819,
+    "medianHomeValue": 106300,
+    "medianRent": 765,
+    "povertyRate": 18,
+    "unemploymentRate": 7.2,
+    "bachelorDegreeOrHigher": 16,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 6.6,
+    "demographics": {
+      "white": 63.2,
+      "black": 7.5,
+      "asian": 0.5,
+      "hispanic": 4.7,
+      "other": 24.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 45,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 20,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 43.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 12.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 52.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 37.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 37035,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 2,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

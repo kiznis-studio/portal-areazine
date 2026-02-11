@@ -1,0 +1,64 @@
+{
+  "city": "Johnstown",
+  "slug": "johnstown-pa",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Cambria County",
+  "lat": 40.3267,
+  "lng": -78.922,
+  "fetchedAt": "2026-02-11T17:08:27.680Z",
+  "census": {
+    "population": 133263,
+    "medianAge": 45.6,
+    "medianHouseholdIncome": 54221,
+    "medianHomeValue": 110900,
+    "medianRent": 700,
+    "povertyRate": 14.4,
+    "unemploymentRate": 4.9,
+    "bachelorDegreeOrHigher": 22.7,
+    "publicTransitPct": 1,
+    "workFromHomePct": 7.8,
+    "demographics": {
+      "white": 92.2,
+      "black": 3.7,
+      "asian": 0.5,
+      "hispanic": 1.8,
+      "other": 1.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.4,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 130668,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "CONEMAUGH MEMORIAL MEDICAL CENTER",
+        "city": "JOHNSTOWN",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

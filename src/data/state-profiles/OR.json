@@ -1,0 +1,228 @@
+{
+  "stateCode": "OR",
+  "stateName": "Oregon",
+  "cityCount": 59,
+  "totalPopulation": 2650686,
+  "avgMedianIncome": 70263,
+  "avgMedianHomeValue": 356971,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "portland-or",
+        "name": "Portland",
+        "value": 652503
+      },
+      {
+        "slug": "eugene",
+        "name": "Eugene",
+        "value": 176654
+      },
+      {
+        "slug": "salem-or",
+        "name": "Salem",
+        "value": 175535
+      },
+      {
+        "slug": "gresham",
+        "name": "Gresham",
+        "value": 110553
+      },
+      {
+        "slug": "hillsboro",
+        "name": "Hillsboro",
+        "value": 102347
+      },
+      {
+        "slug": "beaverton",
+        "name": "Beaverton",
+        "value": 96577
+      },
+      {
+        "slug": "bend",
+        "name": "Bend",
+        "value": 87014
+      },
+      {
+        "slug": "medford-or",
+        "name": "Medford",
+        "value": 79805
+      },
+      {
+        "slug": "springfield-or",
+        "name": "Springfield",
+        "value": 60870
+      },
+      {
+        "slug": "corvallis",
+        "name": "Corvallis",
+        "value": 55780
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "hillsboro",
+        "name": "Hillsboro",
+        "value": 100121
+      },
+      {
+        "slug": "lake-oswego",
+        "name": "Lake Oswego",
+        "value": 95740
+      },
+      {
+        "slug": "portland-or",
+        "name": "Portland",
+        "value": 83668
+      },
+      {
+        "slug": "saint-helens",
+        "name": "Saint Helens",
+        "value": 83265
+      },
+      {
+        "slug": "bend",
+        "name": "Bend",
+        "value": 82042
+      },
+      {
+        "slug": "mcminnville-or",
+        "name": "McMinnville",
+        "value": 80125
+      },
+      {
+        "slug": "dallas-or",
+        "name": "Dallas",
+        "value": 77353
+      },
+      {
+        "slug": "corvallis",
+        "name": "Corvallis",
+        "value": 72882
+      },
+      {
+        "slug": "salem-or",
+        "name": "Salem",
+        "value": 70926
+      },
+      {
+        "slug": "hermiston",
+        "name": "Hermiston",
+        "value": 70322
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "lake-oswego",
+        "name": "Lake Oswego",
+        "value": 532200
+      },
+      {
+        "slug": "bend",
+        "name": "Bend",
+        "value": 526200
+      },
+      {
+        "slug": "hillsboro",
+        "name": "Hillsboro",
+        "value": 504300
+      },
+      {
+        "slug": "portland-or",
+        "name": "Portland",
+        "value": 492100
+      },
+      {
+        "slug": "corvallis",
+        "name": "Corvallis",
+        "value": 442300
+      },
+      {
+        "slug": "mcminnville-or",
+        "name": "McMinnville",
+        "value": 408500
+      },
+      {
+        "slug": "dallas-or",
+        "name": "Dallas",
+        "value": 382200
+      },
+      {
+        "slug": "medford-or",
+        "name": "Medford",
+        "value": 369500
+      },
+      {
+        "slug": "saint-helens",
+        "name": "Saint Helens",
+        "value": 365100
+      },
+      {
+        "slug": "eugene",
+        "name": "Eugene",
+        "value": 363800
+      }
+    ]
+  },
+  "cities": [
+    "agate-beach",
+    "albany-or",
+    "aloha",
+    "altamont",
+    "ashland-or",
+    "beaverton",
+    "bend",
+    "bethany-or",
+    "canby",
+    "cedar-mill",
+    "central-point",
+    "coos-bay",
+    "cornelius-or",
+    "corvallis",
+    "dallas-or",
+    "damascus-or",
+    "eugene",
+    "forest-grove",
+    "four-corners-or",
+    "gladstone-or",
+    "grants-pass",
+    "gresham",
+    "happy-valley",
+    "hayesville",
+    "hermiston",
+    "hillsboro",
+    "keizer",
+    "klamath-falls",
+    "la-grande",
+    "lake-oswego",
+    "lebanon-or",
+    "lents",
+    "mcminnville-or",
+    "medford-or",
+    "milwaukie",
+    "monmouth",
+    "newberg",
+    "newport-or",
+    "oak-grove-or",
+    "oak-hills",
+    "oatfield",
+    "ontario-or",
+    "oregon-city",
+    "pendleton",
+    "portland-or",
+    "redmond-or",
+    "roseburg",
+    "saint-helens",
+    "salem-or",
+    "sandy-or",
+    "sherwood-or",
+    "springfield-or",
+    "the-dalles",
+    "tigard",
+    "troutdale",
+    "tualatin",
+    "west-linn",
+    "wilsonville",
+    "woodburn"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.895Z"
+}

@@ -1,0 +1,142 @@
+{
+  "city": "Martinsville",
+  "slug": "martinsville-nj",
+  "state": "New Jersey",
+  "stateCode": "NJ",
+  "county": "Somerset County",
+  "lat": 40.6012,
+  "lng": -74.559,
+  "fetchedAt": "2026-02-11T17:08:27.828Z",
+  "census": {
+    "population": 344978,
+    "medianAge": 42,
+    "medianHouseholdIncome": 131948,
+    "medianHomeValue": 489500,
+    "medianRent": 1846,
+    "povertyRate": 5.3,
+    "unemploymentRate": 5,
+    "bachelorDegreeOrHigher": 57.3,
+    "publicTransitPct": 3.7,
+    "workFromHomePct": 17.9,
+    "demographics": {
+      "white": 57.7,
+      "black": 9.6,
+      "asian": 19.1,
+      "hispanic": 15.5,
+      "other": -1.9
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 8.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 70,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 26.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 348842,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ROBERT WOOD JOHNSON UNIVERSITY HOSPITAL - SOMERSET",
+        "city": "SOMERVILLE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

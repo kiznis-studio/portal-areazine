@@ -1,0 +1,32 @@
+---
+interface Props {
+  rank: number;
+  label: string;
+  value: string;
+  href: string;
+  /** 0-100 bar width */
+  barPct?: number;
+}
+
+const { rank, label, value, href, barPct } = Astro.props;
+
+const badgeClass = rank <= 3 ? `rank-badge rank-badge-${rank}` : 'rank-badge bg-[var(--color-card)] text-[var(--color-muted)]';
+---
+
+<a href={href} class="data-row group hover:bg-[var(--color-card)] transition-colors">
+  <div class="flex items-center gap-3 flex-1 min-w-0">
+    <span class={badgeClass}>{rank}</span>
+    <span class="text-sm truncate">{label}</span>
+  </div>
+  <div class="flex items-center gap-3">
+    {barPct != null && (
+      <div class="w-16 sm:w-24 progress-bar hidden sm:block">
+        <div
+          class="progress-bar-fill"
+          style={`width: ${barPct}%; background: var(--color-data-blue);`}
+        />
+      </div>
+    )}
+    <span class="font-semibold text-sm tabular-nums min-w-[5rem] text-right">{value}</span>
+  </div>
+</a>

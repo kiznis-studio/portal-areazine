@@ -1,0 +1,185 @@
+{
+  "stateCode": "WV",
+  "stateName": "West Virginia",
+  "cityCount": 16,
+  "totalPopulation": 351249,
+  "avgMedianIncome": 57695,
+  "avgMedianHomeValue": 158225,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "huntington-wv",
+        "name": "Huntington",
+        "value": 48638
+      },
+      {
+        "slug": "charleston-wv",
+        "name": "Charleston",
+        "value": 46838
+      },
+      {
+        "slug": "parkersburg",
+        "name": "Parkersburg",
+        "value": 30991
+      },
+      {
+        "slug": "morgantown",
+        "name": "Morgantown",
+        "value": 30708
+      },
+      {
+        "slug": "wheeling-wv",
+        "name": "Wheeling",
+        "value": 27648
+      },
+      {
+        "slug": "weirton-heights",
+        "name": "Weirton Heights",
+        "value": 19450
+      },
+      {
+        "slug": "weirton",
+        "name": "Weirton",
+        "value": 19175
+      },
+      {
+        "slug": "fairmont-wv",
+        "name": "Fairmont",
+        "value": 18733
+      },
+      {
+        "slug": "martinsburg",
+        "name": "Martinsburg",
+        "value": 17700
+      },
+      {
+        "slug": "beckley",
+        "name": "Beckley",
+        "value": 17056
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "teays-valley",
+        "name": "Teays Valley",
+        "value": 75725
+      },
+      {
+        "slug": "martinsburg",
+        "name": "Martinsburg",
+        "value": 73619
+      },
+      {
+        "slug": "morgantown",
+        "name": "Morgantown",
+        "value": 60893
+      },
+      {
+        "slug": "fairmont-wv",
+        "name": "Fairmont",
+        "value": 59974
+      },
+      {
+        "slug": "weirton-heights",
+        "name": "Weirton Heights",
+        "value": 57515
+      },
+      {
+        "slug": "clarksburg-wv",
+        "name": "Clarksburg",
+        "value": 56184
+      },
+      {
+        "slug": "wheeling-wv",
+        "name": "Wheeling",
+        "value": 55521
+      },
+      {
+        "slug": "charleston-wv",
+        "name": "Charleston",
+        "value": 55226
+      },
+      {
+        "slug": "parkersburg",
+        "name": "Parkersburg",
+        "value": 54350
+      },
+      {
+        "slug": "huntington-wv",
+        "name": "Huntington",
+        "value": 48944
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "morgantown",
+        "name": "Morgantown",
+        "value": 242100
+      },
+      {
+        "slug": "martinsburg",
+        "name": "Martinsburg",
+        "value": 231600
+      },
+      {
+        "slug": "teays-valley",
+        "name": "Teays Valley",
+        "value": 202300
+      },
+      {
+        "slug": "wheeling-wv",
+        "name": "Wheeling",
+        "value": 153000
+      },
+      {
+        "slug": "fairmont-wv",
+        "name": "Fairmont",
+        "value": 147600
+      },
+      {
+        "slug": "clarksburg-wv",
+        "name": "Clarksburg",
+        "value": 146900
+      },
+      {
+        "slug": "huntington-wv",
+        "name": "Huntington",
+        "value": 144200
+      },
+      {
+        "slug": "parkersburg",
+        "name": "Parkersburg",
+        "value": 140700
+      },
+      {
+        "slug": "beckley",
+        "name": "Beckley",
+        "value": 132300
+      },
+      {
+        "slug": "charleston-wv",
+        "name": "Charleston",
+        "value": 131200
+      }
+    ]
+  },
+  "cities": [
+    "beckley",
+    "bluefield",
+    "charleston-wv",
+    "clarksburg-wv",
+    "fairmont-wv",
+    "huntington-wv",
+    "martinsburg",
+    "morgantown",
+    "parkersburg",
+    "saint-albans",
+    "south-charleston",
+    "teays-valley",
+    "vienna-wv",
+    "weirton",
+    "weirton-heights",
+    "wheeling-wv"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

@@ -1,0 +1,127 @@
+{
+  "city": "Oswego",
+  "slug": "oswego-il",
+  "state": "Illinois",
+  "stateCode": "IL",
+  "county": "Kendall County",
+  "lat": 41.6828,
+  "lng": -88.3515,
+  "fetchedAt": "2026-02-11T17:08:27.565Z",
+  "census": {
+    "population": 132795,
+    "medianAge": 36.1,
+    "medianHouseholdIncome": 106358,
+    "medianHomeValue": 288100,
+    "medianRent": 1695,
+    "povertyRate": 4.7,
+    "unemploymentRate": 4.3,
+    "bachelorDegreeOrHigher": 35.8,
+    "publicTransitPct": 0.9,
+    "workFromHomePct": 11.9,
+    "demographics": {
+      "white": 73.6,
+      "black": 8,
+      "asian": 3,
+      "hispanic": 21,
+      "other": -5.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 76.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 19.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 139976,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

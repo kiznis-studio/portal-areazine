@@ -1,0 +1,158 @@
+{
+  "city": "Poinciana",
+  "slug": "poinciana",
+  "state": "Florida",
+  "stateCode": "FL",
+  "county": "Osceola County",
+  "lat": 28.1403,
+  "lng": -81.4584,
+  "fetchedAt": "2026-02-11T17:08:27.499Z",
+  "census": {
+    "population": 393745,
+    "medianAge": 36.6,
+    "medianHouseholdIncome": 64312,
+    "medianHomeValue": 285200,
+    "medianRent": 1537,
+    "povertyRate": 13.4,
+    "unemploymentRate": 5.3,
+    "bachelorDegreeOrHigher": 26.5,
+    "publicTransitPct": 1.1,
+    "workFromHomePct": 10.1,
+    "demographics": {
+      "white": 49.6,
+      "black": 10.9,
+      "asian": 2.7,
+      "hispanic": 56.1,
+      "other": -19.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 28.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 54.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 21.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 75.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 437784,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "HCA FLORIDA POINCIANA HOSPITAL",
+        "city": "KISSIMMEE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "HCA FLORIDA OSCEOLA HOSPITAL",
+        "city": "KISSIMMEE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "ORLANDO HEALTH ST CLOUD HOSPITAL",
+        "city": "SAINT CLOUD",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 3,
+    "averageRating": 1.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

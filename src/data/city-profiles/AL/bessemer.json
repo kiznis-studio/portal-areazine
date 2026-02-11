@@ -1,0 +1,198 @@
+{
+  "city": "Bessemer",
+  "slug": "bessemer",
+  "state": "Alabama",
+  "stateCode": "AL",
+  "county": "Jefferson County",
+  "lat": 33.4018,
+  "lng": -86.9544,
+  "fetchedAt": "2026-02-11T17:08:27.613Z",
+  "census": {
+    "population": 672265,
+    "medianAge": 37.9,
+    "medianHouseholdIncome": 63595,
+    "medianHomeValue": 208900,
+    "medianRent": 1086,
+    "povertyRate": 15.9,
+    "unemploymentRate": 5.4,
+    "bachelorDegreeOrHigher": 35.6,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 8.6,
+    "demographics": {
+      "white": 50.3,
+      "black": 42.7,
+      "asian": 1.7,
+      "hispanic": 4.2,
+      "other": 1.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 28,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 58.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 42.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 662895,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "BIRMINGHAM VA MEDICAL CENTER",
+        "city": "BIRMINGHAM",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "UNIVERSITY OF ALABAMA HOSPITAL",
+        "city": "BIRMINGHAM",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - State"
+      },
+      {
+        "name": "ST VINCENT'S BIRMINGHAM",
+        "city": "BIRMINGHAM",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PRINCETON BAPTIST MEDICAL CENTER",
+        "city": "BIRMINGHAM",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "ST. VINCENT'S EAST",
+        "city": "BIRMINGHAM",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "GRANDVIEW MEDICAL CENTER",
+        "city": "BIRMINGHAM",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "MEDICAL WEST, AN AFFILIATE OF UAB HEALTH SYSTEM",
+        "city": "BESSEMER",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "BROOKWOOD BAPTIST MEDICAL CENTER",
+        "city": "VESTAVIA",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 11,
+    "ratedHospitals": 8,
+    "averageRating": 2.8,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

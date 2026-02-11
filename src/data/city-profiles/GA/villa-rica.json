@@ -1,0 +1,150 @@
+{
+  "city": "Villa Rica",
+  "slug": "villa-rica",
+  "state": "Georgia",
+  "stateCode": "GA",
+  "county": "Carroll County",
+  "lat": 33.7321,
+  "lng": -84.9191,
+  "fetchedAt": "2026-02-11T17:08:27.758Z",
+  "census": {
+    "population": 120060,
+    "medianAge": 35.2,
+    "medianHouseholdIncome": 66895,
+    "medianHomeValue": 196900,
+    "medianRent": 1055,
+    "povertyRate": 16.9,
+    "unemploymentRate": 5.9,
+    "bachelorDegreeOrHigher": 21.2,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 7.6,
+    "demographics": {
+      "white": 71.2,
+      "black": 20.2,
+      "asian": 0.9,
+      "hispanic": 7.5,
+      "other": 0.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 60.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 76.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 36.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 28.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 127098,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "TANNER MEDICAL CENTER - CARROLLTON",
+        "city": "CARROLLTON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "TANNER MEDICAL CENTER VILLA RICA",
+        "city": "VILLA RICA",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

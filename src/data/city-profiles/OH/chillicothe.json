@@ -1,0 +1,142 @@
+{
+  "city": "Chillicothe",
+  "slug": "chillicothe",
+  "state": "Ohio",
+  "stateCode": "OH",
+  "county": "Ross County",
+  "lat": 39.3331,
+  "lng": -82.9824,
+  "fetchedAt": "2026-02-11T17:08:27.660Z",
+  "census": {
+    "population": 76957,
+    "medianAge": 41.3,
+    "medianHouseholdIncome": 58048,
+    "medianHomeValue": 153500,
+    "medianRent": 827,
+    "povertyRate": 16.1,
+    "unemploymentRate": 5.7,
+    "bachelorDegreeOrHigher": 16.5,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 3.9,
+    "demographics": {
+      "white": 89.4,
+      "black": 5.5,
+      "asian": 0.4,
+      "hispanic": 1.4,
+      "other": 3.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 30.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 40.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 19.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 44.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 55.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 76501,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ADENA REGIONAL MEDICAL CENTER",
+        "city": "CHILLICOTHE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

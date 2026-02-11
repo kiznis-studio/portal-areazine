@@ -1,0 +1,142 @@
+{
+  "city": "Atwater",
+  "slug": "atwater",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Merced County",
+  "lat": 37.3477,
+  "lng": -120.6091,
+  "fetchedAt": "2026-02-11T17:08:27.596Z",
+  "census": {
+    "population": 282290,
+    "medianAge": 31.5,
+    "medianHouseholdIncome": 64772,
+    "medianHomeValue": 342300,
+    "medianRent": 1200,
+    "povertyRate": 18.5,
+    "unemploymentRate": 10.7,
+    "bachelorDegreeOrHigher": 14.6,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 5.4,
+    "demographics": {
+      "white": 41.6,
+      "black": 3,
+      "asian": 7.3,
+      "hispanic": 61.9,
+      "other": -13.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 18.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 33.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 31.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 68.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 49.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 291920,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MERCY MEDICAL CENTER",
+        "city": "MERCED",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

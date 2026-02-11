@@ -1,0 +1,166 @@
+{
+  "city": "Estero",
+  "slug": "estero",
+  "state": "Florida",
+  "stateCode": "FL",
+  "county": "Lee County",
+  "lat": 26.4381,
+  "lng": -81.8067,
+  "fetchedAt": "2026-02-11T17:08:27.586Z",
+  "census": {
+    "population": 772902,
+    "medianAge": 49.1,
+    "medianHouseholdIncome": 69368,
+    "medianHomeValue": 290900,
+    "medianRent": 1466,
+    "povertyRate": 11.7,
+    "unemploymentRate": 4.5,
+    "bachelorDegreeOrHigher": 30.1,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 11.4,
+    "demographics": {
+      "white": 74.3,
+      "black": 8,
+      "asian": 1.7,
+      "hispanic": 23.1,
+      "other": -7.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 26.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 30.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 60.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 39.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 834573,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "LEE MEMORIAL HOSPITAL",
+        "city": "FORT MYERS",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "GULF COAST MEDICAL CENTER LEE HEALTH",
+        "city": "FORT MYERS",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "CAPE CORAL HOSPITAL",
+        "city": "CAPE CORAL",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "HCA FLORIDA LEHIGH REGIONAL MEDICAL CENTER",
+        "city": "LEHIGH ACRES",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 4,
+    "averageRating": 3.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

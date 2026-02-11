@@ -1,0 +1,133 @@
+{
+  "city": "Clarksdale",
+  "slug": "clarksdale",
+  "state": "Mississippi",
+  "stateCode": "MS",
+  "county": "Coahoma County",
+  "lat": 34.2001,
+  "lng": -90.5709,
+  "fetchedAt": "2026-02-11T17:08:27.721Z",
+  "census": {
+    "population": 21264,
+    "medianAge": 35.7,
+    "medianHouseholdIncome": 36075,
+    "medianHomeValue": 84400,
+    "medianRent": 706,
+    "povertyRate": 37,
+    "unemploymentRate": 10.8,
+    "bachelorDegreeOrHigher": 20,
+    "publicTransitPct": 0.7,
+    "workFromHomePct": 7.4,
+    "demographics": {
+      "white": 19.8,
+      "black": 75.9,
+      "asian": 0.2,
+      "hispanic": 1.8,
+      "other": 2.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 17.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 53.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 21.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 84.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 5.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 21.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 46.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 45.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 10.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 42.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 6.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 20077,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 1,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "city": "Nacogdoches",
+  "slug": "nacogdoches",
+  "state": "Texas",
+  "stateCode": "TX",
+  "county": "Nacogdoches County",
+  "lat": 31.6035,
+  "lng": -94.6555,
+  "fetchedAt": "2026-02-11T17:08:27.566Z",
+  "census": {
+    "population": 64768,
+    "medianAge": 31.7,
+    "medianHouseholdIncome": 51153,
+    "medianHomeValue": 150700,
+    "medianRent": 863,
+    "povertyRate": 22.4,
+    "unemploymentRate": 6.6,
+    "bachelorDegreeOrHigher": 25.4,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 6.2,
+    "demographics": {
+      "white": 67.8,
+      "black": 17.6,
+      "asian": 1,
+      "hispanic": 20.4,
+      "other": -6.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 73.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 35,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 52.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 65375,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "NACOGDOCHES MEDICAL CENTER",
+        "city": "NACOGDOCHES",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "NACOGDOCHES MEMORIAL HOSPITAL",
+        "city": "NACOGDOCHES",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 2,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

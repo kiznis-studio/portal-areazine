@@ -1,0 +1,166 @@
+{
+  "city": "Lakewood",
+  "slug": "lakewood-nj",
+  "state": "New Jersey",
+  "stateCode": "NJ",
+  "county": "Ocean County",
+  "lat": 40.0979,
+  "lng": -74.2176,
+  "fetchedAt": "2026-02-11T17:08:27.498Z",
+  "census": {
+    "population": 638691,
+    "medianAge": 41.8,
+    "medianHouseholdIncome": 82379,
+    "medianHomeValue": 343500,
+    "medianRent": 1639,
+    "povertyRate": 10.5,
+    "unemploymentRate": 5.7,
+    "bachelorDegreeOrHigher": 32.9,
+    "publicTransitPct": 1.4,
+    "workFromHomePct": 9.9,
+    "demographics": {
+      "white": 87,
+      "black": 3.1,
+      "asian": 1.9,
+      "hispanic": 9.7,
+      "other": -1.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 66.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 35,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.4,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 659197,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SOUTHERN OCEAN MEDICAL CENTER",
+        "city": "MANAHAWKIN",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "OCEAN MEDICAL CENTER",
+        "city": "BRICK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "MONMOUTH MEDICAL CENTER-SOUTHERN CAMPUS",
+        "city": "LAKEWOOD",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "COMMUNITY MEDICAL CENTER",
+        "city": "TOMS RIVER",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 4,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

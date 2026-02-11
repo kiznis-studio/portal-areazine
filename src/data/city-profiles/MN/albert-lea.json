@@ -1,0 +1,142 @@
+{
+  "city": "Albert Lea",
+  "slug": "albert-lea",
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "county": "Freeborn County",
+  "lat": 43.648,
+  "lng": -93.3683,
+  "fetchedAt": "2026-02-11T17:08:27.713Z",
+  "census": {
+    "population": 30857,
+    "medianAge": 44.1,
+    "medianHouseholdIncome": 65679,
+    "medianHomeValue": 154700,
+    "medianRent": 803,
+    "povertyRate": 9.5,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 17.1,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 6.8,
+    "demographics": {
+      "white": 85.5,
+      "black": 1.2,
+      "asian": 2.9,
+      "hispanic": 10.6,
+      "other": -0.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 35.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 30,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 75.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 30515,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MAYO CLINIC HEALTH SYSTEM - ALBERT LEA AND AUSTIN",
+        "city": "ALBERT LEA",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

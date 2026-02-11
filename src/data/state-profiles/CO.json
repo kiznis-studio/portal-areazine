@@ -1,0 +1,232 @@
+{
+  "stateCode": "CO",
+  "stateName": "Colorado",
+  "cityCount": 63,
+  "totalPopulation": 4097831,
+  "avgMedianIncome": 85794,
+  "avgMedianHomeValue": 458400,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "denver",
+        "name": "Denver",
+        "value": 729019
+      },
+      {
+        "slug": "colorado-springs",
+        "name": "Colorado Springs",
+        "value": 456568
+      },
+      {
+        "slug": "aurora-co",
+        "name": "Aurora",
+        "value": 359407
+      },
+      {
+        "slug": "fort-collins",
+        "name": "Fort Collins",
+        "value": 170924
+      },
+      {
+        "slug": "lakewood-co",
+        "name": "Lakewood",
+        "value": 152597
+      },
+      {
+        "slug": "thornton",
+        "name": "Thornton",
+        "value": 133451
+      },
+      {
+        "slug": "westminster-co",
+        "name": "Westminster",
+        "value": 116317
+      },
+      {
+        "slug": "arvada",
+        "name": "Arvada",
+        "value": 115368
+      },
+      {
+        "slug": "centennial",
+        "name": "Centennial",
+        "value": 109741
+      },
+      {
+        "slug": "pueblo",
+        "name": "Pueblo",
+        "value": 109412
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "highlands-ranch",
+        "name": "Highlands Ranch",
+        "value": 139010
+      },
+      {
+        "slug": "broomfield",
+        "name": "Broomfield",
+        "value": 117541
+      },
+      {
+        "slug": "lakewood-co",
+        "name": "Lakewood",
+        "value": 103167
+      },
+      {
+        "slug": "boulder",
+        "name": "Boulder",
+        "value": 99770
+      },
+      {
+        "slug": "edwards",
+        "name": "Edwards",
+        "value": 98887
+      },
+      {
+        "slug": "steamboat-springs",
+        "name": "Steamboat Springs",
+        "value": 95144
+      },
+      {
+        "slug": "centennial",
+        "name": "Centennial",
+        "value": 92292
+      },
+      {
+        "slug": "greeley",
+        "name": "Greeley",
+        "value": 89182
+      },
+      {
+        "slug": "fort-collins",
+        "name": "Fort Collins",
+        "value": 87199
+      },
+      {
+        "slug": "aurora-co",
+        "name": "Aurora",
+        "value": 86297
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "edwards",
+        "name": "Edwards",
+        "value": 728400
+      },
+      {
+        "slug": "steamboat-springs",
+        "name": "Steamboat Springs",
+        "value": 691800
+      },
+      {
+        "slug": "boulder",
+        "name": "Boulder",
+        "value": 671100
+      },
+      {
+        "slug": "highlands-ranch",
+        "name": "Highlands Ranch",
+        "value": 635100
+      },
+      {
+        "slug": "broomfield",
+        "name": "Broomfield",
+        "value": 581600
+      },
+      {
+        "slug": "lakewood-co",
+        "name": "Lakewood",
+        "value": 556800
+      },
+      {
+        "slug": "denver",
+        "name": "Denver",
+        "value": 540400
+      },
+      {
+        "slug": "durango",
+        "name": "Durango",
+        "value": 497800
+      },
+      {
+        "slug": "fort-collins",
+        "name": "Fort Collins",
+        "value": 488300
+      },
+      {
+        "slug": "centennial",
+        "name": "Centennial",
+        "value": 480500
+      }
+    ]
+  },
+  "cities": [
+    "arvada",
+    "aurora-co",
+    "berkley-co",
+    "black-forest",
+    "boulder",
+    "brighton-co",
+    "broomfield",
+    "canon-city",
+    "castle-pines-north",
+    "castle-rock",
+    "castlewood",
+    "centennial",
+    "cherry-creek",
+    "cimarron-hills",
+    "clifton-co",
+    "colorado-springs",
+    "columbine",
+    "commerce-city",
+    "denver",
+    "durango",
+    "edwards",
+    "englewood-co",
+    "erie-co",
+    "evans-co",
+    "federal-heights",
+    "firestone",
+    "fort-carson",
+    "fort-collins",
+    "fort-morgan",
+    "fountain",
+    "frederick-co",
+    "fruita",
+    "golden",
+    "grand-junction",
+    "greeley",
+    "greenwood-village",
+    "highlands-ranch",
+    "johnstown-co",
+    "ken-caryl",
+    "lafayette-co",
+    "lakewood-co",
+    "littleton",
+    "lone-tree",
+    "longmont",
+    "louisville-co",
+    "loveland-co",
+    "montrose",
+    "northglenn",
+    "parker-co",
+    "pueblo",
+    "pueblo-west",
+    "security-widefield",
+    "sherrelwood",
+    "southglenn",
+    "steamboat-springs",
+    "sterling-co",
+    "superior-co",
+    "the-pinery",
+    "thornton",
+    "welby",
+    "westminster-co",
+    "wheat-ridge",
+    "windsor-co"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.895Z"
+}

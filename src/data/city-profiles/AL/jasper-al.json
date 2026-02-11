@@ -1,0 +1,142 @@
+{
+  "city": "Jasper",
+  "slug": "jasper-al",
+  "state": "Alabama",
+  "stateCode": "AL",
+  "county": "Walker County",
+  "lat": 33.8312,
+  "lng": -87.2775,
+  "fetchedAt": "2026-02-11T17:08:27.775Z",
+  "census": {
+    "population": 64978,
+    "medianAge": 41.8,
+    "medianHouseholdIncome": 52987,
+    "medianHomeValue": 124100,
+    "medianRent": 698,
+    "povertyRate": 16.4,
+    "unemploymentRate": 5.7,
+    "bachelorDegreeOrHigher": 15.3,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 3.9,
+    "demographics": {
+      "white": 88.6,
+      "black": 6,
+      "asian": 0.2,
+      "hispanic": 2.9,
+      "other": 2.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 42.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 44.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 52.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 35.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 32.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 64728,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "WALKER BAPTIST MEDICAL CENTER",
+        "city": "JASPER",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

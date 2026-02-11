@@ -1,0 +1,133 @@
+{
+  "city": "Brigham City",
+  "slug": "brigham-city",
+  "state": "Utah",
+  "stateCode": "UT",
+  "county": "Box Elder County",
+  "lat": 41.5102,
+  "lng": -112.0155,
+  "fetchedAt": "2026-02-11T17:08:27.699Z",
+  "census": {
+    "population": 58291,
+    "medianAge": 33.1,
+    "medianHouseholdIncome": 72769,
+    "medianHomeValue": 308900,
+    "medianRent": 927,
+    "povertyRate": 8.1,
+    "unemploymentRate": 2.6,
+    "bachelorDegreeOrHigher": 25.8,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 9.8,
+    "demographics": {
+      "white": 90.3,
+      "black": 0.4,
+      "asian": 1,
+      "hispanic": 9.9,
+      "other": -1.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 32.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 28.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 73.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 62684,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 2,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

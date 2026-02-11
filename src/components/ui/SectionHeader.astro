@@ -1,0 +1,15 @@
+---
+interface Props {
+  title: string;
+  count?: number | string;
+}
+
+const { title, count } = Astro.props;
+---
+
+<h2 class="section-header">
+  <span>{title}</span>
+  {count != null && (
+    <span class="text-[var(--color-foreground)] font-normal text-xs tabular-nums">{count}</span>
+  )}
+</h2>

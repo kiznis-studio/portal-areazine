@@ -1,0 +1,150 @@
+{
+  "city": "La Vergne",
+  "slug": "la-vergne",
+  "state": "Tennessee",
+  "stateCode": "TN",
+  "county": "Rutherford County",
+  "lat": 36.0156,
+  "lng": -86.5819,
+  "fetchedAt": "2026-02-11T17:08:27.561Z",
+  "census": {
+    "population": 343727,
+    "medianAge": 34,
+    "medianHouseholdIncome": 78291,
+    "medianHomeValue": 305100,
+    "medianRent": 1311,
+    "povertyRate": 9.8,
+    "unemploymentRate": 3.9,
+    "bachelorDegreeOrHigher": 33.4,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 11.2,
+    "demographics": {
+      "white": 71.2,
+      "black": 15.2,
+      "asian": 3.6,
+      "hispanic": 9.1,
+      "other": 0.9
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 57.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 76.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 367101,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "TRISTAR STONECREST MEDICAL CENTER",
+        "city": "SMYRNA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "SAINT THOMAS RUTHERFORD HOSPITAL",
+        "city": "MURFREESBORO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "city": "Buckeye",
+  "slug": "buckeye",
+  "state": "Arizona",
+  "stateCode": "AZ",
+  "county": "Maricopa County",
+  "lat": 33.3703,
+  "lng": -112.5838,
+  "fetchedAt": "2026-02-11T17:08:27.506Z",
+  "census": {
+    "population": 4430871,
+    "medianAge": 37.1,
+    "medianHouseholdIncome": 80675,
+    "medianHomeValue": 371400,
+    "medianRent": 1437,
+    "povertyRate": 11.5,
+    "unemploymentRate": 4.7,
+    "bachelorDegreeOrHigher": 35,
+    "publicTransitPct": 1.4,
+    "workFromHomePct": 16.2,
+    "demographics": {
+      "white": 66.7,
+      "black": 5.7,
+      "asian": 4.3,
+      "hispanic": 31.7,
+      "other": -8.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 73.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 30.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 12.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 4585871,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MAYO CLINIC HOSPITAL",
+        "city": "PHOENIX",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MERCY GILBERT MEDICAL CENTER",
+        "city": "GILBERT",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "PHOENIX VA MEDICAL CENTER",
+        "city": "PHOENIX",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "WESTERN REGIONAL MEDICAL CENTER",
+        "city": "GOODYEAR",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "CHANDLER REGIONAL MEDICAL CENTER",
+        "city": "CHANDLER",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "BANNER GATEWAY MEDICAL CENTER",
+        "city": "GILBERT",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "HONORHEALTH SCOTTSDALE THOMPSON PEAK MED CTR",
+        "city": "SCOTTSDALE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HONORHEALTH SONORAN CROSSING MEDICAL CENTER",
+        "city": "PHOENIX",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "BANNER - UNIVERSITY MEDICAL CENTER PHOENIX",
+        "city": "PHOENIX",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "HONOR HEALTH JOHN C. LINCOLN MEDICAL CENTER",
+        "city": "PHOENIX",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 53,
+    "ratedHospitals": 29,
+    "averageRating": 3.1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

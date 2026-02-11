@@ -1,0 +1,26 @@
+---
+import { compareToNational, getIndicatorClass } from '../../lib/comparison';
+
+interface Props {
+  metric: string;
+  value: number | null | undefined;
+}
+
+const { metric, value } = Astro.props;
+
+const result = value != null ? compareToNational(metric, value) : null;
+const cls = result ? getIndicatorClass(metric, result) : '';
+---
+
+{result && result.direction !== 'average' && (
+  <span class={`text-xs inline-flex items-center gap-0.5 ${cls}`}>
+    <svg class="w-3 h-3" viewBox="0 0 12 12" fill="none">
+      {result.direction === 'above' ? (
+        <path d="M6 2L10 7H2L6 2Z" fill="currentColor" />
+      ) : (
+        <path d="M6 10L2 5H10L6 10Z" fill="currentColor" />
+      )}
+    </svg>
+    {result.label}
+  </span>
+)}

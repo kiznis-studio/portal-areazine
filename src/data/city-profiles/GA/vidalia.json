@@ -1,0 +1,142 @@
+{
+  "city": "Vidalia",
+  "slug": "vidalia",
+  "state": "Georgia",
+  "stateCode": "GA",
+  "county": "Toombs County",
+  "lat": 32.2177,
+  "lng": -82.4135,
+  "fetchedAt": "2026-02-11T17:08:27.868Z",
+  "census": {
+    "population": 26946,
+    "medianAge": 37.5,
+    "medianHouseholdIncome": 47310,
+    "medianHomeValue": 124800,
+    "medianRent": 661,
+    "povertyRate": 21.7,
+    "unemploymentRate": 6.2,
+    "bachelorDegreeOrHigher": 16.4,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 4.1,
+    "demographics": {
+      "white": 64.4,
+      "black": 23.9,
+      "asian": 0.8,
+      "hispanic": 12.1,
+      "other": -1.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 41.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 17.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 54.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 32.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.5,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 27040,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MEMORIAL HEALTH MEADOWS HOSPITAL",
+        "city": "VIDALIA",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

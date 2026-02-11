@@ -1,0 +1,142 @@
+{
+  "city": "Charleston",
+  "slug": "charleston-il",
+  "state": "Illinois",
+  "stateCode": "IL",
+  "county": "Coles County",
+  "lat": 39.4962,
+  "lng": -88.1762,
+  "fetchedAt": "2026-02-11T17:08:27.665Z",
+  "census": {
+    "population": 47076,
+    "medianAge": 37.4,
+    "medianHouseholdIncome": 53732,
+    "medianHomeValue": 114000,
+    "medianRent": 778,
+    "povertyRate": 19.4,
+    "unemploymentRate": 6.9,
+    "bachelorDegreeOrHigher": 27,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 5.9,
+    "demographics": {
+      "white": 91.5,
+      "black": 3.6,
+      "asian": 1.1,
+      "hispanic": 2.9,
+      "other": 0.9
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 46060,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SARAH BUSH LINCOLN HEALTH CENTER",
+        "city": "MATTOON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

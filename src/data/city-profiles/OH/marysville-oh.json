@@ -1,0 +1,142 @@
+{
+  "city": "Marysville",
+  "slug": "marysville-oh",
+  "state": "Ohio",
+  "stateCode": "OH",
+  "county": "Union County",
+  "lat": 40.2365,
+  "lng": -83.3671,
+  "fetchedAt": "2026-02-11T17:08:27.648Z",
+  "census": {
+    "population": 63411,
+    "medianAge": 38.4,
+    "medianHouseholdIncome": 104496,
+    "medianHomeValue": 282900,
+    "medianRent": 1144,
+    "povertyRate": 5.2,
+    "unemploymentRate": 2.9,
+    "bachelorDegreeOrHigher": 39.3,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 18.5,
+    "demographics": {
+      "white": 87.9,
+      "black": 2.5,
+      "asian": 4.7,
+      "hispanic": 2.3,
+      "other": 2.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 70.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 32,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 23.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 69637,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MEMORIAL HOSPITAL",
+        "city": "MARYSVILLE",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Local"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

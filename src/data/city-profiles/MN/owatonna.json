@@ -1,0 +1,142 @@
+{
+  "city": "Owatonna",
+  "slug": "owatonna",
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "county": "Steele County",
+  "lat": 44.0839,
+  "lng": -93.226,
+  "fetchedAt": "2026-02-11T17:08:27.621Z",
+  "census": {
+    "population": 37396,
+    "medianAge": 39.9,
+    "medianHouseholdIncome": 79722,
+    "medianHomeValue": 217100,
+    "medianRent": 914,
+    "povertyRate": 8.5,
+    "unemploymentRate": 3.4,
+    "bachelorDegreeOrHigher": 28.4,
+    "publicTransitPct": 0.9,
+    "workFromHomePct": 6.9,
+    "demographics": {
+      "white": 88.1,
+      "black": 3.2,
+      "asian": 0.4,
+      "hispanic": 8.3,
+      "other": 0
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 28.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 37421,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "OWATONNA HOSPITAL",
+        "city": "OWATONNA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

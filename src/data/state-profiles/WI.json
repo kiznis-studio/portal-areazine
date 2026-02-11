@@ -1,0 +1,256 @@
+{
+  "stateCode": "WI",
+  "stateName": "Wisconsin",
+  "cityCount": 87,
+  "totalPopulation": 3135695,
+  "avgMedianIncome": 74555,
+  "avgMedianHomeValue": 228288,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "milwaukee",
+        "name": "Milwaukee",
+        "value": 563531
+      },
+      {
+        "slug": "madison-wi",
+        "name": "Madison",
+        "value": 280305
+      },
+      {
+        "slug": "green-bay",
+        "name": "Green Bay",
+        "value": 105207
+      },
+      {
+        "slug": "kenosha",
+        "name": "Kenosha",
+        "value": 99858
+      },
+      {
+        "slug": "racine",
+        "name": "Racine",
+        "value": 77742
+      },
+      {
+        "slug": "appleton",
+        "name": "Appleton",
+        "value": 74139
+      },
+      {
+        "slug": "waukesha",
+        "name": "Waukesha",
+        "value": 71970
+      },
+      {
+        "slug": "eau-claire",
+        "name": "Eau Claire",
+        "value": 67778
+      },
+      {
+        "slug": "oshkosh",
+        "name": "Oshkosh",
+        "value": 66555
+      },
+      {
+        "slug": "janesville",
+        "name": "Janesville",
+        "value": 64123
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "waukesha",
+        "name": "Waukesha",
+        "value": 101639
+      },
+      {
+        "slug": "hudson-wi",
+        "name": "Hudson",
+        "value": 97950
+      },
+      {
+        "slug": "mequon",
+        "name": "Mequon",
+        "value": 92258
+      },
+      {
+        "slug": "west-bend",
+        "name": "West Bend",
+        "value": 91915
+      },
+      {
+        "slug": "madison-wi",
+        "name": "Madison",
+        "value": 84297
+      },
+      {
+        "slug": "river-falls",
+        "name": "River Falls",
+        "value": 82996
+      },
+      {
+        "slug": "portage-wi",
+        "name": "Portage",
+        "value": 79271
+      },
+      {
+        "slug": "appleton",
+        "name": "Appleton",
+        "value": 78705
+      },
+      {
+        "slug": "watertown-wi",
+        "name": "Watertown",
+        "value": 77018
+      },
+      {
+        "slug": "kenosha",
+        "name": "Kenosha",
+        "value": 76583
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "waukesha",
+        "name": "Waukesha",
+        "value": 352600
+      },
+      {
+        "slug": "mequon",
+        "name": "Mequon",
+        "value": 344900
+      },
+      {
+        "slug": "madison-wi",
+        "name": "Madison",
+        "value": 342900
+      },
+      {
+        "slug": "hudson-wi",
+        "name": "Hudson",
+        "value": 323900
+      },
+      {
+        "slug": "west-bend",
+        "name": "West Bend",
+        "value": 293300
+      },
+      {
+        "slug": "river-falls",
+        "name": "River Falls",
+        "value": 278700
+      },
+      {
+        "slug": "whitewater",
+        "name": "Whitewater",
+        "value": 254300
+      },
+      {
+        "slug": "portage-wi",
+        "name": "Portage",
+        "value": 243600
+      },
+      {
+        "slug": "watertown-wi",
+        "name": "Watertown",
+        "value": 238300
+      },
+      {
+        "slug": "kenosha",
+        "name": "Kenosha",
+        "value": 234700
+      }
+    ]
+  },
+  "cities": [
+    "allouez",
+    "appleton",
+    "ashwaubenon",
+    "baraboo",
+    "beaver-dam",
+    "bellevue-wi",
+    "beloit",
+    "brookfield-wi",
+    "brown-deer",
+    "burlington-wi",
+    "caledonia",
+    "cedarburg",
+    "chippewa-falls",
+    "cudahy-wi",
+    "de-pere",
+    "eau-claire",
+    "fitchburg-wi",
+    "fond-du-lac",
+    "fort-atkinson",
+    "franklin-wi",
+    "germantown-wi",
+    "glendale-wi",
+    "grafton-wi",
+    "green-bay",
+    "greendale",
+    "greenfield-wi",
+    "hartford-wi",
+    "howard",
+    "hudson-wi",
+    "janesville",
+    "kaukauna",
+    "kenosha",
+    "la-crosse",
+    "little-chute",
+    "madison-wi",
+    "manitowoc",
+    "marinette",
+    "marshfield",
+    "menasha",
+    "menomonee-falls",
+    "menomonie",
+    "mequon",
+    "middleton",
+    "milwaukee",
+    "monroe-wi",
+    "mount-pleasant-wi",
+    "muskego",
+    "neenah",
+    "new-berlin",
+    "north-la-crosse",
+    "oak-creek-wi",
+    "oconomowoc",
+    "onalaska",
+    "oregon-wi",
+    "oshkosh",
+    "platteville",
+    "pleasant-prairie",
+    "plover",
+    "port-washington-wi",
+    "portage-wi",
+    "racine",
+    "richfield-wi",
+    "river-falls",
+    "salem-wi",
+    "sheboygan",
+    "shorewood-wi",
+    "south-milwaukee",
+    "stevens-point",
+    "stoughton-wi",
+    "suamico",
+    "sun-prairie",
+    "superior-wi",
+    "sussex",
+    "two-rivers",
+    "verona-wi",
+    "watertown-wi",
+    "waukesha",
+    "waunakee",
+    "waupun",
+    "wausau",
+    "wauwatosa",
+    "west-allis",
+    "west-bend",
+    "weston-wi",
+    "whitefish-bay",
+    "whitewater",
+    "wisconsin-rapids"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.896Z"
+}

@@ -1,0 +1,142 @@
+{
+  "city": "Dodge City",
+  "slug": "dodge-city",
+  "state": "Kansas",
+  "stateCode": "KS",
+  "county": "Ford County",
+  "lat": 37.7528,
+  "lng": -100.0171,
+  "fetchedAt": "2026-02-11T17:08:27.605Z",
+  "census": {
+    "population": 34212,
+    "medianAge": 32.6,
+    "medianHouseholdIncome": 67997,
+    "medianHomeValue": 121500,
+    "medianRent": 948,
+    "povertyRate": 11.9,
+    "unemploymentRate": 3.2,
+    "bachelorDegreeOrHigher": 19.8,
+    "publicTransitPct": 0,
+    "workFromHomePct": 2.1,
+    "demographics": {
+      "white": 66.6,
+      "black": 2.5,
+      "asian": 1.4,
+      "hispanic": 56.5,
+      "other": -27
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 53.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 72.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 34,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 21.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 33980,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "CENTURA ST. CATHERINE-DODGE CITY",
+        "city": "DODGE CITY",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

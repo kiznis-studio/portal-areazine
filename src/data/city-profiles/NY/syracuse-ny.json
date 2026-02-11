@@ -1,0 +1,166 @@
+{
+  "city": "Syracuse",
+  "slug": "syracuse-ny",
+  "state": "New York",
+  "stateCode": "NY",
+  "county": "Onondaga County",
+  "lat": 43.0481,
+  "lng": -76.1474,
+  "fetchedAt": "2026-02-11T17:08:27.406Z",
+  "census": {
+    "population": 472637,
+    "medianAge": 39.4,
+    "medianHouseholdIncome": 71479,
+    "medianHomeValue": 172800,
+    "medianRent": 1002,
+    "povertyRate": 13.9,
+    "unemploymentRate": 5.6,
+    "bachelorDegreeOrHigher": 36.9,
+    "publicTransitPct": 2.4,
+    "workFromHomePct": 9.9,
+    "demographics": {
+      "white": 76.7,
+      "black": 11.1,
+      "asian": 4,
+      "hispanic": 5.4,
+      "other": 2.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 5.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 23.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 82,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 35.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 467873,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ST JOSEPH'S HOSPITAL HEALTH CENTER",
+        "city": "SYRACUSE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "CROUSE HOSPITAL",
+        "city": "SYRACUSE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UNIVERSITY HOSPITAL S U N Y HEALTH SCIENCE CENTER",
+        "city": "SYRACUSE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - State"
+      },
+      {
+        "name": "SYRACUSE VA MEDICAL CENTER",
+        "city": "SYRACUSE",
+        "rating": 2,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 4,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

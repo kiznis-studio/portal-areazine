@@ -1,0 +1,133 @@
+{
+  "city": "West Memphis",
+  "slug": "west-memphis",
+  "state": "Arkansas",
+  "stateCode": "AR",
+  "county": "Crittenden County",
+  "lat": 35.1465,
+  "lng": -90.1845,
+  "fetchedAt": "2026-02-11T17:08:27.626Z",
+  "census": {
+    "population": 47945,
+    "medianAge": 35.8,
+    "medianHouseholdIncome": 51860,
+    "medianHomeValue": 147300,
+    "medianRent": 831,
+    "povertyRate": 19.7,
+    "unemploymentRate": 10.4,
+    "bachelorDegreeOrHigher": 17.6,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 5.4,
+    "demographics": {
+      "white": 41.6,
+      "black": 50.1,
+      "asian": 0.8,
+      "hispanic": 3,
+      "other": 4.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 12.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 47.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 38.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 46.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 47.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 12.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 42.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 20.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 47139,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 2,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

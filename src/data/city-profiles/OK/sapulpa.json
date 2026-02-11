@@ -1,0 +1,133 @@
+{
+  "city": "Sapulpa",
+  "slug": "sapulpa",
+  "state": "Oklahoma",
+  "stateCode": "OK",
+  "county": "Creek County",
+  "lat": 35.9987,
+  "lng": -96.1142,
+  "fetchedAt": "2026-02-11T17:08:27.673Z",
+  "census": {
+    "population": 72076,
+    "medianAge": 40.4,
+    "medianHouseholdIncome": 61657,
+    "medianHomeValue": 158900,
+    "medianRent": 880,
+    "povertyRate": 13.6,
+    "unemploymentRate": 3.6,
+    "bachelorDegreeOrHigher": 18,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 7.8,
+    "demographics": {
+      "white": 76.8,
+      "black": 2,
+      "asian": 0.6,
+      "hispanic": 4.9,
+      "other": 15.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 57.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 31.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 39.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 73332,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 3,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

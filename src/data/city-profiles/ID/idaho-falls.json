@@ -1,0 +1,158 @@
+{
+  "city": "Idaho Falls",
+  "slug": "idaho-falls",
+  "state": "Idaho",
+  "stateCode": "ID",
+  "county": "Bonneville County",
+  "lat": 43.4666,
+  "lng": -112.0341,
+  "fetchedAt": "2026-02-11T17:08:27.485Z",
+  "census": {
+    "population": 124490,
+    "medianAge": 33.2,
+    "medianHouseholdIncome": 73103,
+    "medianHomeValue": 288300,
+    "medianRent": 971,
+    "povertyRate": 9.5,
+    "unemploymentRate": 4.6,
+    "bachelorDegreeOrHigher": 31.9,
+    "publicTransitPct": 2.2,
+    "workFromHomePct": 8.7,
+    "demographics": {
+      "white": 86.9,
+      "black": 0.4,
+      "asian": 0.9,
+      "hispanic": 13.8,
+      "other": -2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 21.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.5,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 131366,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "IDAHO FALLS COMMUNITY HOSPITAL, LLC",
+        "city": "IDAHO FALLS",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "EASTERN IDAHO REGIONAL MEDICAL CENTER",
+        "city": "IDAHO FALLS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "MOUNTAIN VIEW HOSPITAL",
+        "city": "IDAHO FALLS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Physician"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 3,
+    "averageRating": 3.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

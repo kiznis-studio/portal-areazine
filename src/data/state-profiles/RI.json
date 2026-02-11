@@ -1,0 +1,148 @@
+{
+  "stateCode": "RI",
+  "stateName": "Rhode Island",
+  "cityCount": 29,
+  "totalPopulation": 1002709,
+  "avgMedianIncome": 92003,
+  "avgMedianHomeValue": 399980,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "providence",
+        "name": "Providence",
+        "value": 190934
+      },
+      {
+        "slug": "warwick",
+        "name": "Warwick",
+        "value": 81699
+      },
+      {
+        "slug": "cranston",
+        "name": "Cranston",
+        "value": 81073
+      },
+      {
+        "slug": "pawtucket",
+        "name": "Pawtucket",
+        "value": 71591
+      },
+      {
+        "slug": "east-providence",
+        "name": "East Providence",
+        "value": 47408
+      },
+      {
+        "slug": "woonsocket",
+        "name": "Woonsocket",
+        "value": 41475
+      },
+      {
+        "slug": "coventry",
+        "name": "Coventry",
+        "value": 35525
+      },
+      {
+        "slug": "cumberland-ri",
+        "name": "Cumberland",
+        "value": 34843
+      },
+      {
+        "slug": "north-providence",
+        "name": "North Providence",
+        "value": 33835
+      },
+      {
+        "slug": "south-kingstown",
+        "name": "South Kingstown",
+        "value": 30826
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "bristol-ri",
+        "name": "Bristol",
+        "value": 105875
+      },
+      {
+        "slug": "south-kingstown",
+        "name": "South Kingstown",
+        "value": 99510
+      },
+      {
+        "slug": "newport-ri",
+        "name": "Newport",
+        "value": 96319
+      },
+      {
+        "slug": "warwick",
+        "name": "Warwick",
+        "value": 85732
+      },
+      {
+        "slug": "providence",
+        "name": "Providence",
+        "value": 72579
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "newport-ri",
+        "name": "Newport",
+        "value": 503700
+      },
+      {
+        "slug": "bristol-ri",
+        "name": "Bristol",
+        "value": 443700
+      },
+      {
+        "slug": "south-kingstown",
+        "name": "South Kingstown",
+        "value": 436000
+      },
+      {
+        "slug": "providence",
+        "name": "Providence",
+        "value": 310500
+      },
+      {
+        "slug": "warwick",
+        "name": "Warwick",
+        "value": 306000
+      }
+    ]
+  },
+  "cities": [
+    "barrington-ri",
+    "bristol-ri",
+    "central-falls",
+    "coventry",
+    "cranston",
+    "cumberland-ri",
+    "east-greenwich",
+    "east-providence",
+    "johnston-ri",
+    "lincoln-ri",
+    "middletown-ri",
+    "narragansett",
+    "newport-east",
+    "newport-ri",
+    "north-kingstown",
+    "north-providence",
+    "north-scituate",
+    "north-smithfield",
+    "pawtucket",
+    "portsmouth-ri",
+    "providence",
+    "smithfield-ri",
+    "south-kingstown",
+    "valley-falls",
+    "warren-ri",
+    "warwick",
+    "west-warwick",
+    "westerly",
+    "woonsocket"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.899Z"
+}

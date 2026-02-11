@@ -1,0 +1,127 @@
+{
+  "city": "Colonial Heights",
+  "slug": "colonial-heights",
+  "state": "Virginia",
+  "stateCode": "VA",
+  "county": "Colonial Heights city",
+  "lat": 37.268,
+  "lng": -77.4073,
+  "fetchedAt": "2026-02-11T17:08:27.711Z",
+  "census": {
+    "population": 18158,
+    "medianAge": 38.4,
+    "medianHouseholdIncome": 72216,
+    "medianHomeValue": 221400,
+    "medianRent": 1123,
+    "povertyRate": 10.2,
+    "unemploymentRate": 6.1,
+    "bachelorDegreeOrHigher": 28.1,
+    "publicTransitPct": 0,
+    "workFromHomePct": 7.7,
+    "demographics": {
+      "white": 72,
+      "black": 17.2,
+      "asian": 3.6,
+      "hispanic": 7.2,
+      "other": 0
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 36.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 66.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 18393,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

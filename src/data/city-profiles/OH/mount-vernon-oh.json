@@ -1,0 +1,142 @@
+{
+  "city": "Mount Vernon",
+  "slug": "mount-vernon-oh",
+  "state": "Ohio",
+  "stateCode": "OH",
+  "county": "Knox County",
+  "lat": 40.3934,
+  "lng": -82.4857,
+  "fetchedAt": "2026-02-11T17:08:27.723Z",
+  "census": {
+    "population": 62657,
+    "medianAge": 39.4,
+    "medianHouseholdIncome": 71246,
+    "medianHomeValue": 197400,
+    "medianRent": 878,
+    "povertyRate": 12.9,
+    "unemploymentRate": 3.3,
+    "bachelorDegreeOrHigher": 23.7,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 10.1,
+    "demographics": {
+      "white": 94.5,
+      "black": 0.9,
+      "asian": 0.5,
+      "hispanic": 1.7,
+      "other": 2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 37.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 27.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 63320,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "KNOX COMMUNITY HOSPITAL",
+        "city": "MOUNT VERNON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

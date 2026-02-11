@@ -1,0 +1,127 @@
+{
+  "city": "Killingly Center",
+  "slug": "killingly-center",
+  "state": "Connecticut",
+  "stateCode": "CT",
+  "county": "Northeastern Connecticut Planning Region",
+  "lat": 41.8387,
+  "lng": -71.8692,
+  "fetchedAt": "2026-02-11T17:08:27.717Z",
+  "census": {
+    "population": 95687,
+    "medianAge": 41.7,
+    "medianHouseholdIncome": 83119,
+    "medianHomeValue": 268500,
+    "medianRent": 1119,
+    "povertyRate": 8.8,
+    "unemploymentRate": 7.4,
+    "bachelorDegreeOrHigher": 25,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 9,
+    "demographics": {
+      "white": 85.2,
+      "black": 1.7,
+      "asian": 1.4,
+      "hispanic": 11.8,
+      "other": -0.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 69.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 26.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 35.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 96692,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

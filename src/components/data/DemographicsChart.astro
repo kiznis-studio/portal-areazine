@@ -1,0 +1,51 @@
+---
+interface Props {
+  demographics: Record<string, number>;
+}
+
+const { demographics } = Astro.props;
+
+const DEMO_COLORS: Record<string, string> = {
+  white: 'var(--color-data-blue)',
+  black: 'var(--color-data-teal)',
+  asian: 'var(--color-data-amber)',
+  hispanic: 'var(--color-data-rose)',
+  other: 'var(--color-data-slate)',
+};
+
+const DEMO_LABELS: Record<string, string> = {
+  white: 'White',
+  black: 'Black',
+  asian: 'Asian',
+  hispanic: 'Hispanic',
+  other: 'Other / Multiracial',
+};
+
+const entries = Object.entries(demographics)
+  .filter(([, pct]) => pct > 0)
+  .sort(([, a], [, b]) => b - a);
+---
+
+<div>
+  <div class="demo-bar mb-3">
+    {entries.map(([group, pct]) => (
+      <div
+        class="demo-bar-segment"
+        style={`width: ${pct}%; background: ${DEMO_COLORS[group] || 'var(--color-data-slate)'};`}
+        title={`${DEMO_LABELS[group] || group}: ${pct}%`}
+      />
+    ))}
+  </div>
+  <div class="flex flex-wrap gap-x-4 gap-y-1">
+    {entries.map(([group, pct]) => (
+      <div class="flex items-center gap-1.5 text-xs">
+        <span
+          class="w-2.5 h-2.5 rounded-sm flex-shrink-0"
+          style={`background: ${DEMO_COLORS[group] || 'var(--color-data-slate)'};`}
+        />
+        <span class="text-[var(--color-muted)]">{DEMO_LABELS[group] || group}</span>
+        <span class="font-semibold tabular-nums">{pct}%</span>
+      </div>
+    ))}
+  </div>
+</div>

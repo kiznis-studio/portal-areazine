@@ -1,0 +1,127 @@
+{
+  "city": "The Villages",
+  "slug": "the-villages",
+  "state": "Florida",
+  "stateCode": "FL",
+  "county": "Sumter County",
+  "lat": 28.9341,
+  "lng": -81.9599,
+  "fetchedAt": "2026-02-11T17:08:27.504Z",
+  "census": {
+    "population": 131832,
+    "medianAge": 68.3,
+    "medianHouseholdIncome": 70105,
+    "medianHomeValue": 324400,
+    "medianRent": 1185,
+    "povertyRate": 9.3,
+    "unemploymentRate": 5.1,
+    "bachelorDegreeOrHigher": 33.7,
+    "publicTransitPct": 0,
+    "workFromHomePct": 12.2,
+    "demographics": {
+      "white": 87,
+      "black": 7.1,
+      "asian": 1.1,
+      "hispanic": 6.1,
+      "other": -1.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 12.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 29.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 5.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 87,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 48,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 8.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 29.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 151565,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

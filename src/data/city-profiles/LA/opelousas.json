@@ -1,0 +1,150 @@
+{
+  "city": "Opelousas",
+  "slug": "opelousas",
+  "state": "Louisiana",
+  "stateCode": "LA",
+  "county": "St. Landry Parish",
+  "lat": 30.5335,
+  "lng": -92.0815,
+  "fetchedAt": "2026-02-11T17:08:27.726Z",
+  "census": {
+    "population": 82574,
+    "medianAge": 37.3,
+    "medianHouseholdIncome": 44478,
+    "medianHomeValue": 148400,
+    "medianRent": 739,
+    "povertyRate": 27.5,
+    "unemploymentRate": 6.9,
+    "bachelorDegreeOrHigher": 14.1,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 5.7,
+    "demographics": {
+      "white": 54.1,
+      "black": 40.7,
+      "asian": 0.6,
+      "hispanic": 2.5,
+      "other": 2.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 22,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 18.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 36.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 50.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 82.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 47.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 21.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 5.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 81464,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "OPELOUSAS GENERAL HEALTH SYSTEM",
+        "city": "OPELOUSAS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "ACADIAN MEDICAL CENTER",
+        "city": "EUNICE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

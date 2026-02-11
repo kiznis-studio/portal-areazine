@@ -1,0 +1,160 @@
+{
+  "stateCode": "HI",
+  "stateName": "Hawaii",
+  "cityCount": 51,
+  "totalPopulation": 1491799,
+  "avgMedianIncome": 89576,
+  "avgMedianHomeValue": 707525,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "honolulu",
+        "name": "Honolulu",
+        "value": 350964
+      },
+      {
+        "slug": "east-honolulu",
+        "name": "East Honolulu",
+        "value": 49914
+      },
+      {
+        "slug": "pearl-city",
+        "name": "Pearl City",
+        "value": 47698
+      },
+      {
+        "slug": "makakilo-kapolei-honokai-hale",
+        "name": "Makakilo / Kapolei / Honokai Hale",
+        "value": 46389
+      },
+      {
+        "slug": "kalihi-palama",
+        "name": "Kalihi-Palama",
+        "value": 43805
+      },
+      {
+        "slug": "hilo",
+        "name": "Hilo",
+        "value": 43263
+      },
+      {
+        "slug": "joint-base-pearl-harbor-hickam",
+        "name": "Joint Base Pearl Harbor Hickam",
+        "value": 42184
+      },
+      {
+        "slug": "aliamanu-salt-lakes-foster-village",
+        "name": "Aliamanu / Salt Lakes / Foster Village",
+        "value": 38833
+      },
+      {
+        "slug": "kailua",
+        "name": "Kailua",
+        "value": 38635
+      },
+      {
+        "slug": "waipahu",
+        "name": "Waipahu",
+        "value": 38216
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "honolulu",
+        "name": "Honolulu",
+        "value": 99816
+      },
+      {
+        "slug": "kahului",
+        "name": "Kahului",
+        "value": 95379
+      },
+      {
+        "slug": "kapaa",
+        "name": "Kapa'a",
+        "value": 88869
+      },
+      {
+        "slug": "hilo",
+        "name": "Hilo",
+        "value": 74238
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "honolulu",
+        "name": "Honolulu",
+        "value": 832200
+      },
+      {
+        "slug": "kahului",
+        "name": "Kahului",
+        "value": 800100
+      },
+      {
+        "slug": "kapaa",
+        "name": "Kapa'a",
+        "value": 742900
+      },
+      {
+        "slug": "hilo",
+        "name": "Hilo",
+        "value": 454900
+      }
+    ]
+  },
+  "cities": [
+    "aliamanu-salt-lakes-foster-village",
+    "diamond-head-kapahulu-saint-louis-heights",
+    "downtown-honolulu",
+    "east-honolulu",
+    "ewa-beach",
+    "ewa-gentry",
+    "halawa",
+    "halawa-heights",
+    "hawaii-kai",
+    "hawaiian-paradise-park",
+    "hilo",
+    "honolulu",
+    "joint-base-pearl-harbor-hickam",
+    "kahului",
+    "kailua",
+    "kailua-kona",
+    "kaimuki",
+    "kalihi-palama",
+    "kalihi-valley",
+    "kaneohe",
+    "kapaa",
+    "kapolei",
+    "kihei",
+    "koolauloa",
+    "kuliouou-kalani-iki",
+    "lahaina",
+    "liliha-kapalama",
+    "makakilo",
+    "makakilo-city",
+    "makakilo-kapolei-honokai-hale",
+    "makiki-lower-punchbowl-tantalus",
+    "manoa",
+    "mccully-moiliili",
+    "mililani-mauka-launani-valley",
+    "mililani-town",
+    "moiliili",
+    "nanakuli",
+    "niu-valley",
+    "nuuanu-punchbowl",
+    "palolo",
+    "pearl-city",
+    "royal-kunia",
+    "schofield-barracks",
+    "village-park",
+    "wahiawa",
+    "waianae",
+    "waikiki",
+    "wailuku",
+    "waimalu",
+    "waipahu",
+    "waipio"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.898Z"
+}

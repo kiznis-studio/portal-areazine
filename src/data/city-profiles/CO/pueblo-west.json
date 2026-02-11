@@ -1,0 +1,150 @@
+{
+  "city": "Pueblo West",
+  "slug": "pueblo-west",
+  "state": "Colorado",
+  "stateCode": "CO",
+  "county": "Pueblo County",
+  "lat": 38.35,
+  "lng": -104.7227,
+  "fetchedAt": "2026-02-11T17:08:27.594Z",
+  "census": {
+    "population": 168135,
+    "medianAge": 39.8,
+    "medianHouseholdIncome": 59436,
+    "medianHomeValue": 238400,
+    "medianRent": 967,
+    "povertyRate": 16.6,
+    "unemploymentRate": 5.9,
+    "bachelorDegreeOrHigher": 24.1,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 5.8,
+    "demographics": {
+      "white": 76.1,
+      "black": 2,
+      "asian": 0.9,
+      "hispanic": 43.6,
+      "other": -22.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 26.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 16.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 32.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 72.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 32.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.7,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 169422,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ST MARY CORWIN MED CTR, CENTURA HEALTH",
+        "city": "PUEBLO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "PARKVIEW MEDICAL CENTER, INC",
+        "city": "PUEBLO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

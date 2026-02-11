@@ -1,0 +1,150 @@
+{
+  "city": "Saginaw Township North",
+  "slug": "saginaw-township-north",
+  "state": "Michigan",
+  "stateCode": "MI",
+  "county": "Saginaw County",
+  "lat": 43.46,
+  "lng": -84.0067,
+  "fetchedAt": "2026-02-11T17:08:27.626Z",
+  "census": {
+    "population": 189821,
+    "medianAge": 41,
+    "medianHouseholdIncome": 56579,
+    "medianHomeValue": 131100,
+    "medianRent": 876,
+    "povertyRate": 18.2,
+    "unemploymentRate": 6.6,
+    "bachelorDegreeOrHigher": 22.9,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 7,
+    "demographics": {
+      "white": 72.3,
+      "black": 18.8,
+      "asian": 1.2,
+      "hispanic": 9,
+      "other": -1.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 30.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 40.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 187782,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "COVENANT MEDICAL CENTER",
+        "city": "SAGINAW",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ASCENSION ST MARY'S HOSPITAL",
+        "city": "SAGINAW",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

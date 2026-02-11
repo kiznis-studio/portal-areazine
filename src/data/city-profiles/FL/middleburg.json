@@ -1,0 +1,150 @@
+{
+  "city": "Middleburg",
+  "slug": "middleburg",
+  "state": "Florida",
+  "stateCode": "FL",
+  "county": "Clay County",
+  "lat": 30.0689,
+  "lng": -81.8604,
+  "fetchedAt": "2026-02-11T17:08:27.802Z",
+  "census": {
+    "population": 219650,
+    "medianAge": 39.9,
+    "medianHouseholdIncome": 82242,
+    "medianHomeValue": 254500,
+    "medianRent": 1372,
+    "povertyRate": 9.4,
+    "unemploymentRate": 4.2,
+    "bachelorDegreeOrHigher": 27.6,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 12.6,
+    "demographics": {
+      "white": 73.8,
+      "black": 11.5,
+      "asian": 2.9,
+      "hispanic": 10.8,
+      "other": 1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 36.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 60.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 232439,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "HCA FLORIDA ORANGE PARK HOSPITAL",
+        "city": "ORANGE PARK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "ASCENSION ST VINCENT'S CLAY COUNTY",
+        "city": "MIDDLEBURG",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 2,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "city": "Bozeman",
+  "slug": "bozeman",
+  "state": "Montana",
+  "stateCode": "MT",
+  "county": "Gallatin County",
+  "lat": 45.6797,
+  "lng": -111.0386,
+  "fetchedAt": "2026-02-11T17:08:27.525Z",
+  "census": {
+    "population": 119685,
+    "medianAge": 33.5,
+    "medianHouseholdIncome": 83434,
+    "medianHomeValue": 526700,
+    "medianRent": 1405,
+    "povertyRate": 10.6,
+    "unemploymentRate": 2.1,
+    "bachelorDegreeOrHigher": 52.9,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 14.5,
+    "demographics": {
+      "white": 91.2,
+      "black": 0.4,
+      "asian": 1.4,
+      "hispanic": 4.3,
+      "other": 2.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 9.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 68,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 23.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 66.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 23,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 28.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 23.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 126409,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "BOZEMAN HEALTH DEACONESS HOSPITAL",
+        "city": "BOZEMAN",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

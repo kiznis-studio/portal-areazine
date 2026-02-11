@@ -1,0 +1,158 @@
+{
+  "city": "Windham",
+  "slug": "windham-nh",
+  "state": "New Hampshire",
+  "stateCode": "NH",
+  "county": "Rockingham County",
+  "lat": 42.8006,
+  "lng": -71.3042,
+  "fetchedAt": "2026-02-11T17:08:27.799Z",
+  "census": {
+    "population": 315169,
+    "medianAge": 44.7,
+    "medianHouseholdIncome": 110225,
+    "medianHomeValue": 424100,
+    "medianRent": 1518,
+    "povertyRate": 4.8,
+    "unemploymentRate": 3.4,
+    "bachelorDegreeOrHigher": 43.6,
+    "publicTransitPct": 0.7,
+    "workFromHomePct": 15,
+    "demographics": {
+      "white": 92.1,
+      "black": 0.9,
+      "asian": 2.1,
+      "hispanic": 3.5,
+      "other": 1.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 31.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 5.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 18.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 71.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 320689,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "EXETER HOSPITAL INC",
+        "city": "EXETER",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PARKLAND MEDICAL CENTER",
+        "city": "DERRY",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "PORTSMOUTH REGIONAL HOSPITAL",
+        "city": "PORTSMOUTH",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 3,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

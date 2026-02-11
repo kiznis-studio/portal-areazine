@@ -1,0 +1,142 @@
+{
+  "city": "Arlington",
+  "slug": "arlington-va",
+  "state": "Virginia",
+  "stateCode": "VA",
+  "county": "Arlington County",
+  "lat": 38.881,
+  "lng": -77.1043,
+  "fetchedAt": "2026-02-11T17:08:27.380Z",
+  "census": {
+    "population": 235845,
+    "medianAge": 35.3,
+    "medianHouseholdIncome": 137387,
+    "medianHomeValue": 833300,
+    "medianRent": 2227,
+    "povertyRate": 6.7,
+    "unemploymentRate": 2.7,
+    "bachelorDegreeOrHigher": 76.8,
+    "publicTransitPct": 18.5,
+    "workFromHomePct": 27,
+    "demographics": {
+      "white": 65,
+      "black": 9.3,
+      "asian": 10.3,
+      "hispanic": 15.6,
+      "other": -0.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 25.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 76.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 72,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 8.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 3.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 28.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 25.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 1.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 13.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 234162,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "VIRGINIA HOSPITAL CENTER",
+        "city": "ARLINGTON",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "city": "Jackson",
+  "slug": "jackson-ms",
+  "state": "Mississippi",
+  "stateCode": "MS",
+  "county": "Hinds County",
+  "lat": 32.2988,
+  "lng": -90.1848,
+  "fetchedAt": "2026-02-11T17:08:27.400Z",
+  "census": {
+    "population": 226541,
+    "medianAge": 36.1,
+    "medianHouseholdIncome": 48596,
+    "medianHomeValue": 141600,
+    "medianRent": 1004,
+    "povertyRate": 21,
+    "unemploymentRate": 7.7,
+    "bachelorDegreeOrHigher": 31.3,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 6.6,
+    "demographics": {
+      "white": 24,
+      "black": 72.9,
+      "asian": 0.7,
+      "hispanic": 1.6,
+      "other": 0.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 34.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 83.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 43.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 12,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 47.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 44,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 214870,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "G. V. (SONNY) MONTGOMERY VA MEDICAL CENTER (JACKSON)",
+        "city": "JACKSON",
+        "rating": 4,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "UNIVERSITY OF MISSISSIPPI MED CENTER",
+        "city": "JACKSON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - State"
+      },
+      {
+        "name": "MISSISSIPPI BAPTIST MEDICAL CENTER",
+        "city": "JACKSON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ST DOMINIC-JACKSON MEMORIAL HOSPITAL",
+        "city": "JACKSON",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "MERIT HEALTH CENTRAL",
+        "city": "JACKSON",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 6,
+    "ratedHospitals": 5,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "stateCode": "OH",
+  "stateName": "Ohio",
+  "cityCount": 195,
+  "totalPopulation": 6543760,
+  "avgMedianIncome": 66740,
+  "avgMedianHomeValue": 177098,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "columbus-oh",
+        "name": "Columbus",
+        "value": 913175
+      },
+      {
+        "slug": "cleveland-oh",
+        "name": "Cleveland",
+        "value": 365379
+      },
+      {
+        "slug": "cincinnati",
+        "name": "Cincinnati",
+        "value": 311097
+      },
+      {
+        "slug": "toledo",
+        "name": "Toledo",
+        "value": 265638
+      },
+      {
+        "slug": "akron",
+        "name": "Akron",
+        "value": 197542
+      },
+      {
+        "slug": "dayton",
+        "name": "Dayton",
+        "value": 135512
+      },
+      {
+        "slug": "parma",
+        "name": "Parma",
+        "value": 79937
+      },
+      {
+        "slug": "canton-oh",
+        "name": "Canton",
+        "value": 71885
+      },
+      {
+        "slug": "youngstown",
+        "name": "Youngstown",
+        "value": 64628
+      },
+      {
+        "slug": "lorain",
+        "name": "Lorain",
+        "value": 63647
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "delaware",
+        "name": "Delaware",
+        "value": 123995
+      },
+      {
+        "slug": "marysville-oh",
+        "name": "Marysville",
+        "value": 104496
+      },
+      {
+        "slug": "mason",
+        "name": "Mason",
+        "value": 103128
+      },
+      {
+        "slug": "brunswick-oh",
+        "name": "Brunswick",
+        "value": 89968
+      },
+      {
+        "slug": "lancaster-oh",
+        "name": "Lancaster",
+        "value": 82969
+      },
+      {
+        "slug": "beavercreek",
+        "name": "Beavercreek",
+        "value": 81243
+      },
+      {
+        "slug": "goshen-oh",
+        "name": "Goshen",
+        "value": 79573
+      },
+      {
+        "slug": "newark-oh",
+        "name": "Newark",
+        "value": 78505
+      },
+      {
+        "slug": "hamilton",
+        "name": "Hamilton",
+        "value": 77062
+      },
+      {
+        "slug": "london",
+        "name": "London",
+        "value": 77062
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "delaware",
+        "name": "Delaware",
+        "value": 393000
+      },
+      {
+        "slug": "mason",
+        "name": "Mason",
+        "value": 290900
+      },
+      {
+        "slug": "marysville-oh",
+        "name": "Marysville",
+        "value": 282900
+      },
+      {
+        "slug": "brunswick-oh",
+        "name": "Brunswick",
+        "value": 249700
+      },
+      {
+        "slug": "lancaster-oh",
+        "name": "Lancaster",
+        "value": 247800
+      },
+      {
+        "slug": "columbus-oh",
+        "name": "Columbus",
+        "value": 243100
+      },
+      {
+        "slug": "newark-oh",
+        "name": "Newark",
+        "value": 232200
+      },
+      {
+        "slug": "goshen-oh",
+        "name": "Goshen",
+        "value": 224800
+      },
+      {
+        "slug": "hamilton",
+        "name": "Hamilton",
+        "value": 224300
+      },
+      {
+        "slug": "beavercreek",
+        "name": "Beavercreek",
+        "value": 222300
+      }
+    ]
+  },
+  "cities": [
+    "akron",
+    "alliance",
+    "amherst-oh",
+    "ashland-oh",
+    "ashtabula",
+    "athens-oh",
+    "aurora-oh",
+    "austintown",
+    "avon-center",
+    "avon-lake",
+    "avon-oh",
+    "barberton",
+    "bay-village",
+    "beachwood-oh",
+    "beavercreek",
+    "bedford-heights",
+    "bedford-oh",
+    "bellefontaine",
+    "berea-oh",
+    "bexley",
+    "blue-ash",
+    "boardman",
+    "bowling-green-oh",
+    "brecksville",
+    "bridgetown",
+    "broadview-heights",
+    "brook-park",
+    "brooklyn",
+    "brunswick-oh",
+    "bucyrus",
+    "cambridge-oh",
+    "canton-oh",
+    "celina",
+    "centerville-oh",
+    "chillicothe",
+    "cincinnati",
+    "circleville",
+    "clark-fulton",
+    "clayton-oh",
+    "cleveland-heights",
+    "cleveland-oh",
+    "collinwood",
+    "columbus-oh",
+    "conneaut",
+    "copley",
+    "coshocton",
+    "cuyahoga-falls",
+    "dayton",
+    "defiance",
+    "delaware",
+    "dent",
+    "detroit-shoreway",
+    "dover-oh",
+    "dublin-oh",
+    "east-cleveland",
+    "east-liverpool",
+    "eastlake",
+    "elyria",
+    "englewood-oh",
+    "euclid",
+    "fairborn",
+    "fairfield-oh",
+    "fairview-park",
+    "findlay",
+    "finneytown",
+    "forest-park-oh",
+    "forestville-oh",
+    "fostoria",
+    "franklin-oh",
+    "fremont-oh",
+    "gahanna",
+    "galion",
+    "garfield-heights",
+    "glenville-oh",
+    "goshen-oh",
+    "green",
+    "greenville-oh",
+    "grove-city",
+    "hamilton",
+    "heath",
+    "hilliard",
+    "hough",
+    "huber-heights",
+    "hudson-oh",
+    "ironton",
+    "kent-oh",
+    "kettering-oh",
+    "lakewood-oh",
+    "lancaster-oh",
+    "lebanon-oh",
+    "lewis-center",
+    "lima",
+    "london",
+    "lorain",
+    "loveland-oh",
+    "lyndhurst-oh",
+    "macedonia",
+    "mack",
+    "mansfield-oh",
+    "maple-heights",
+    "marietta-oh",
+    "marion-oh",
+    "marysville-oh",
+    "mason",
+    "massillon",
+    "maumee",
+    "mayfield-heights",
+    "medina",
+    "mentor",
+    "miamisburg",
+    "middleburg-heights",
+    "middletown-oh",
+    "monfort-heights",
+    "monroe-oh",
+    "montgomery-oh",
+    "mount-vernon-oh",
+    "new-franklin",
+    "new-philadelphia",
+    "newark-oh",
+    "niles-oh",
+    "north-canton",
+    "north-olmsted",
+    "north-ridgeville",
+    "north-royalton",
+    "northbrook-oh",
+    "norton-oh",
+    "norwalk-oh",
+    "norwood-oh",
+    "oregon-oh",
+    "oxford-oh",
+    "painesville",
+    "parma",
+    "parma-heights",
+    "pataskala",
+    "perrysburg",
+    "pickerington",
+    "piqua",
+    "portsmouth-oh",
+    "powell",
+    "ravenna",
+    "reading-oh",
+    "reynoldsburg",
+    "richmond-heights",
+    "riverside-oh",
+    "rocky-river",
+    "salem-oh",
+    "sandusky",
+    "seven-hills",
+    "shaker-heights",
+    "sharonville",
+    "shiloh-oh",
+    "sidney",
+    "solon",
+    "south-euclid",
+    "springboro",
+    "springdale-oh",
+    "springfield-oh",
+    "steubenville",
+    "stow",
+    "streetsboro",
+    "strongsville",
+    "struthers",
+    "sylvania",
+    "tallmadge",
+    "tiffin",
+    "toledo",
+    "trenton-oh",
+    "trotwood",
+    "troy-oh",
+    "twinsburg",
+    "university-heights-oh",
+    "upper-arlington",
+    "urbana-oh",
+    "van-wert",
+    "vandalia",
+    "vermilion",
+    "vermilion-on-the-lake",
+    "wadsworth",
+    "warren-oh",
+    "warrensville-heights",
+    "washington-court-house",
+    "west-carrollton-city",
+    "westerville",
+    "westlake",
+    "white-oak-oh",
+    "whitehall-oh",
+    "wickliffe",
+    "willoughby",
+    "willowick",
+    "wilmington-oh",
+    "wooster",
+    "worthington-oh",
+    "xenia",
+    "youngstown",
+    "zanesville"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.894Z"
+}

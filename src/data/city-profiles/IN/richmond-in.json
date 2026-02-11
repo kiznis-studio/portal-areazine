@@ -1,0 +1,142 @@
+{
+  "city": "Richmond",
+  "slug": "richmond-in",
+  "state": "Indiana",
+  "stateCode": "IN",
+  "county": "Wayne County",
+  "lat": 39.8289,
+  "lng": -84.8902,
+  "fetchedAt": "2026-02-11T17:08:27.557Z",
+  "census": {
+    "population": 66522,
+    "medianAge": 40.9,
+    "medianHouseholdIncome": 54854,
+    "medianHomeValue": 119400,
+    "medianRent": 793,
+    "povertyRate": 16,
+    "unemploymentRate": 4.5,
+    "bachelorDegreeOrHigher": 19,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 5.4,
+    "demographics": {
+      "white": 88.1,
+      "black": 4.3,
+      "asian": 1.1,
+      "hispanic": 3.3,
+      "other": 3.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 55.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 19.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 40.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 28.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 66127,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "REID HEALTH",
+        "city": "RICHMOND",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

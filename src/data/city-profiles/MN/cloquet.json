@@ -1,0 +1,133 @@
+{
+  "city": "Cloquet",
+  "slug": "cloquet",
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "county": "Carlton County",
+  "lat": 46.7216,
+  "lng": -92.4594,
+  "fetchedAt": "2026-02-11T17:08:27.825Z",
+  "census": {
+    "population": 36362,
+    "medianAge": 41.6,
+    "medianHouseholdIncome": 74660,
+    "medianHomeValue": 218000,
+    "medianRent": 955,
+    "povertyRate": 12.7,
+    "unemploymentRate": 4.6,
+    "bachelorDegreeOrHigher": 25.1,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 7.1,
+    "demographics": {
+      "white": 88.3,
+      "black": 2,
+      "asian": 0.4,
+      "hispanic": 1.9,
+      "other": 7.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 73.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 38.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 19.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 36825,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 2,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

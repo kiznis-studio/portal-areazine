@@ -1,0 +1,133 @@
+{
+  "city": "Coshocton",
+  "slug": "coshocton",
+  "state": "Ohio",
+  "stateCode": "OH",
+  "county": "Coshocton County",
+  "lat": 40.272,
+  "lng": -81.8596,
+  "fetchedAt": "2026-02-11T17:08:27.854Z",
+  "census": {
+    "population": 36629,
+    "medianAge": 40.6,
+    "medianHouseholdIncome": 52048,
+    "medianHomeValue": 128600,
+    "medianRent": 694,
+    "povertyRate": 18.9,
+    "unemploymentRate": 6.1,
+    "bachelorDegreeOrHigher": 16.5,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 6,
+    "demographics": {
+      "white": 95.6,
+      "black": 1.1,
+      "asian": 0.4,
+      "hispanic": 1.2,
+      "other": 1.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 32.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 20.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 41.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 41.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 36869,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 1,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

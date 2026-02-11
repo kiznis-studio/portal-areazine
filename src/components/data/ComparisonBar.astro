@@ -1,0 +1,38 @@
+---
+import { getNationalAvg, getBarWidth } from '../../lib/comparison';
+
+interface Props {
+  metric: string;
+  value: number;
+  color?: string;
+  /** If true, higher = worse (poverty, unemployment) */
+  invert?: boolean;
+}
+
+const { metric, value, color, invert = false } = Astro.props;
+
+const avg = getNationalAvg(metric);
+const barWidth = getBarWidth(metric, value);
+const avgPosition = avg ? getBarWidth(metric, avg) : null;
+
+const isAboveAvg = avg ? value > avg : false;
+const barColor = color || (invert
+  ? (isAboveAvg ? 'var(--color-below)' : 'var(--color-above)')
+  : (isAboveAvg ? 'var(--color-above)' : 'var(--color-below)'));
+---
+
+<div class="w-full max-w-[10rem]">
+  <div class="progress-bar">
+    <div
+      class="progress-bar-fill"
+      style={`width: ${barWidth}%; background: ${barColor};`}
+    />
+    {avgPosition && (
+      <div
+        class="avg-marker"
+        style={`left: ${avgPosition}%`}
+        title={`National avg`}
+      />
+    )}
+  </div>
+</div>

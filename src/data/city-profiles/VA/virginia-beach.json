@@ -1,0 +1,150 @@
+{
+  "city": "Virginia Beach",
+  "slug": "virginia-beach",
+  "state": "Virginia",
+  "stateCode": "VA",
+  "county": "Virginia Beach city",
+  "lat": 36.8529,
+  "lng": -75.978,
+  "fetchedAt": "2026-02-11T17:08:27.355Z",
+  "census": {
+    "population": 457900,
+    "medianAge": 37.1,
+    "medianHouseholdIncome": 87544,
+    "medianHomeValue": 343700,
+    "medianRent": 1568,
+    "povertyRate": 8,
+    "unemploymentRate": 3.9,
+    "bachelorDegreeOrHigher": 39.8,
+    "publicTransitPct": 0.9,
+    "workFromHomePct": 10.7,
+    "demographics": {
+      "white": 62.8,
+      "black": 18.9,
+      "asian": 7.1,
+      "hispanic": 8.8,
+      "other": 2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 35.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 72.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 453649,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SENTARA VIRGINIA BEACH GENERAL HOSPITAL",
+        "city": "VIRGINIA BEACH",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "SENTARA PRINCESS ANNE HOSPITAL",
+        "city": "VIRGINIA BEACH",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

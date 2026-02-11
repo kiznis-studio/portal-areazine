@@ -1,0 +1,133 @@
+{
+  "city": "Troy",
+  "slug": "troy-al",
+  "state": "Alabama",
+  "stateCode": "AL",
+  "county": "Pike County",
+  "lat": 31.8088,
+  "lng": -85.9699,
+  "fetchedAt": "2026-02-11T17:08:27.697Z",
+  "census": {
+    "population": 32997,
+    "medianAge": 31.1,
+    "medianHouseholdIncome": 42616,
+    "medianHomeValue": 144500,
+    "medianRent": 750,
+    "povertyRate": 23.6,
+    "unemploymentRate": 4.9,
+    "bachelorDegreeOrHigher": 27.7,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 3.6,
+    "demographics": {
+      "white": 56.6,
+      "black": 37.3,
+      "asian": 2,
+      "hispanic": 2.4,
+      "other": 1.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 55.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 40.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 28.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 33137,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 1,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

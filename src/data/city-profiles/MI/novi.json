@@ -1,0 +1,206 @@
+{
+  "city": "Novi",
+  "slug": "novi",
+  "state": "Michigan",
+  "stateCode": "MI",
+  "county": "Oakland County",
+  "lat": 42.4806,
+  "lng": -83.4755,
+  "fetchedAt": "2026-02-11T17:08:27.486Z",
+  "census": {
+    "population": 1272264,
+    "medianAge": 41.1,
+    "medianHouseholdIncome": 92620,
+    "medianHomeValue": 302800,
+    "medianRent": 1243,
+    "povertyRate": 7.7,
+    "unemploymentRate": 4.8,
+    "bachelorDegreeOrHigher": 49.5,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 15.5,
+    "demographics": {
+      "white": 71.8,
+      "black": 13.2,
+      "asian": 8.1,
+      "hispanic": 4.5,
+      "other": 2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 31.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 31.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 5.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 73.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 1270426,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ASCENSION PROVIDENCE HOSPITAL, SOUTHFIELD AND NOVI",
+        "city": "SOUTHFIELD",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "BEAUMONT HOSPITAL ROYAL OAK",
+        "city": "ROYAL OAK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "BEAUMONT HOSPITAL, TROY",
+        "city": "TROY",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HENRY FORD HEALTH WEST BLOOMFIELD HOSPITAL",
+        "city": "W BLOOMFIELD",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "TRINITY HEALTH OAKLAND HOSPITAL",
+        "city": "PONTIAC",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "BEAUMONT HOSPITAL - FARMINGTON HILLS",
+        "city": "FARMINGTON HILLS",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MCLAREN OAKLAND",
+        "city": "PONTIAC",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ASCENSION PROVIDENCE ROCHESTER HOSPITAL",
+        "city": "ROCHESTER",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HURON VALLEY-SINAI HOSPITAL",
+        "city": "COMMERCE TOWNSHIP",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 14,
+    "ratedHospitals": 9,
+    "averageRating": 2.6,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "stateCode": "VT",
+  "stateName": "Vermont",
+  "cityCount": 5,
+  "totalPopulation": 104164,
+  "avgMedianIncome": 76068,
+  "avgMedianHomeValue": 290900,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "burlington-vt",
+        "name": "Burlington",
+        "value": 42452
+      },
+      {
+        "slug": "south-burlington",
+        "name": "South Burlington",
+        "value": 18791
+      },
+      {
+        "slug": "colchester",
+        "name": "Colchester",
+        "value": 16986
+      },
+      {
+        "slug": "rutland",
+        "name": "Rutland",
+        "value": 15824
+      },
+      {
+        "slug": "essex-junction",
+        "name": "Essex Junction",
+        "value": 10111
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "burlington-vt",
+        "name": "Burlington",
+        "value": 89494
+      },
+      {
+        "slug": "rutland",
+        "name": "Rutland",
+        "value": 62641
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "burlington-vt",
+        "name": "Burlington",
+        "value": 378300
+      },
+      {
+        "slug": "rutland",
+        "name": "Rutland",
+        "value": 203500
+      }
+    ]
+  },
+  "cities": [
+    "burlington-vt",
+    "colchester",
+    "essex-junction",
+    "rutland",
+    "south-burlington"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

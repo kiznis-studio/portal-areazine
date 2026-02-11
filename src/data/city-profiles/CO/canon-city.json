@@ -1,0 +1,142 @@
+{
+  "city": "Canon City",
+  "slug": "canon-city",
+  "state": "Colorado",
+  "stateCode": "CO",
+  "county": "Fremont County",
+  "lat": 38.441,
+  "lng": -105.2424,
+  "fetchedAt": "2026-02-11T17:08:27.729Z",
+  "census": {
+    "population": 49107,
+    "medianAge": 44.9,
+    "medianHouseholdIncome": 56165,
+    "medianHomeValue": 264300,
+    "medianRent": 959,
+    "povertyRate": 15,
+    "unemploymentRate": 4.8,
+    "bachelorDegreeOrHigher": 20.2,
+    "publicTransitPct": 0,
+    "workFromHomePct": 11.2,
+    "demographics": {
+      "white": 87.3,
+      "black": 3.9,
+      "asian": 0.6,
+      "hispanic": 13.7,
+      "other": -5.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 32.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 30.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 71.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 13.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 57.9,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 50318,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ST THOMAS MORE HOSPITAL",
+        "city": "CANON CITY",
+        "rating": 3,
+        "type": "Critical Access Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

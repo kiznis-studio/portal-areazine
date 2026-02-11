@@ -1,0 +1,150 @@
+{
+  "city": "Cayce",
+  "slug": "cayce",
+  "state": "South Carolina",
+  "stateCode": "SC",
+  "county": "Lexington County",
+  "lat": 33.9657,
+  "lng": -81.074,
+  "fetchedAt": "2026-02-11T17:08:27.786Z",
+  "census": {
+    "population": 295934,
+    "medianAge": 39.4,
+    "medianHouseholdIncome": 71280,
+    "medianHomeValue": 197600,
+    "medianRent": 1061,
+    "povertyRate": 11.6,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 32.6,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 8.8,
+    "demographics": {
+      "white": 75,
+      "black": 15.1,
+      "asian": 2.1,
+      "hispanic": 6.5,
+      "other": 1.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 37.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 309528,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "LEXINGTON MEDICAL CENTER",
+        "city": "WEST COLUMBIA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "PRISMA HEALTH BAPTIST PARKRIDGE",
+        "city": "COLUMBIA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

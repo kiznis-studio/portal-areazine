@@ -1,0 +1,150 @@
+{
+  "city": "Port Huron",
+  "slug": "port-huron",
+  "state": "Michigan",
+  "stateCode": "MI",
+  "county": "St. Clair County",
+  "lat": 42.9709,
+  "lng": -82.4249,
+  "fetchedAt": "2026-02-11T17:08:27.595Z",
+  "census": {
+    "population": 160257,
+    "medianAge": 44.1,
+    "medianHouseholdIncome": 66887,
+    "medianHomeValue": 197300,
+    "medianRent": 982,
+    "povertyRate": 11.9,
+    "unemploymentRate": 6.7,
+    "bachelorDegreeOrHigher": 19.9,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 5.7,
+    "demographics": {
+      "white": 92.1,
+      "black": 2.3,
+      "asian": 0.5,
+      "hispanic": 3.6,
+      "other": 1.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 38.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 159874,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "LAKE HURON MEDICAL CENTER",
+        "city": "PORT HURON",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "ASCENSION RIVER DISTRICT HOSPITAL",
+        "city": "EAST CHINA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 2,
+    "averageRating": 3.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "city": "Shakopee",
+  "slug": "shakopee",
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "county": "Scott County",
+  "lat": 44.798,
+  "lng": -93.5269,
+  "fetchedAt": "2026-02-11T17:08:27.538Z",
+  "census": {
+    "population": 151347,
+    "medianAge": 37.3,
+    "medianHouseholdIncome": 118268,
+    "medianHomeValue": 376000,
+    "medianRent": 1419,
+    "povertyRate": 5,
+    "unemploymentRate": 3.2,
+    "bachelorDegreeOrHigher": 42.9,
+    "publicTransitPct": 1,
+    "workFromHomePct": 15.9,
+    "demographics": {
+      "white": 80.1,
+      "black": 5.1,
+      "asian": 6.4,
+      "hispanic": 5.6,
+      "other": 2.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 32,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 19.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 28.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 155814,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ST FRANCIS REGIONAL MEDICAL CENTER",
+        "city": "SHAKOPEE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

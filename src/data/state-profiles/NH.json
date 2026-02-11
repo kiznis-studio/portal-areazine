@@ -1,0 +1,170 @@
+{
+  "stateCode": "NH",
+  "stateName": "New Hampshire",
+  "cityCount": 21,
+  "totalPopulation": 626208,
+  "avgMedianIncome": 85670,
+  "avgMedianHomeValue": 299663,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "manchester-nh",
+        "name": "Manchester",
+        "value": 110229
+      },
+      {
+        "slug": "nashua",
+        "name": "Nashua",
+        "value": 87970
+      },
+      {
+        "slug": "concord-nh",
+        "name": "Concord",
+        "value": 43976
+      },
+      {
+        "slug": "east-concord",
+        "name": "East Concord",
+        "value": 42605
+      },
+      {
+        "slug": "derry-village",
+        "name": "Derry Village",
+        "value": 34539
+      },
+      {
+        "slug": "dover-nh",
+        "name": "Dover",
+        "value": 30880
+      },
+      {
+        "slug": "rochester-nh",
+        "name": "Rochester",
+        "value": 30038
+      },
+      {
+        "slug": "salem-nh",
+        "name": "Salem",
+        "value": 29549
+      },
+      {
+        "slug": "merrimack",
+        "name": "Merrimack",
+        "value": 26726
+      },
+      {
+        "slug": "keene",
+        "name": "Keene",
+        "value": 23265
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "derry-village",
+        "name": "Derry Village",
+        "value": 110225
+      },
+      {
+        "slug": "manchester-nh",
+        "name": "Manchester",
+        "value": 95112
+      },
+      {
+        "slug": "concord-nh",
+        "name": "Concord",
+        "value": 88806
+      },
+      {
+        "slug": "dover-nh",
+        "name": "Dover",
+        "value": 83212
+      },
+      {
+        "slug": "laconia",
+        "name": "Laconia",
+        "value": 80719
+      },
+      {
+        "slug": "lebanon-nh",
+        "name": "Lebanon",
+        "value": 79949
+      },
+      {
+        "slug": "keene",
+        "name": "Keene",
+        "value": 76551
+      },
+      {
+        "slug": "claremont-nh",
+        "name": "Claremont",
+        "value": 70788
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "derry-village",
+        "name": "Derry Village",
+        "value": 424100
+      },
+      {
+        "slug": "manchester-nh",
+        "name": "Manchester",
+        "value": 356200
+      },
+      {
+        "slug": "dover-nh",
+        "name": "Dover",
+        "value": 300200
+      },
+      {
+        "slug": "concord-nh",
+        "name": "Concord",
+        "value": 297600
+      },
+      {
+        "slug": "laconia",
+        "name": "Laconia",
+        "value": 295900
+      },
+      {
+        "slug": "lebanon-nh",
+        "name": "Lebanon",
+        "value": 273100
+      },
+      {
+        "slug": "keene",
+        "name": "Keene",
+        "value": 238800
+      },
+      {
+        "slug": "claremont-nh",
+        "name": "Claremont",
+        "value": 211400
+      }
+    ]
+  },
+  "cities": [
+    "bedford-nh",
+    "claremont-nh",
+    "concord-nh",
+    "derry",
+    "derry-village",
+    "dover-nh",
+    "durham-nh",
+    "east-concord",
+    "keene",
+    "laconia",
+    "lebanon-nh",
+    "londonderry",
+    "manchester-nh",
+    "merrimack",
+    "nashua",
+    "pelham-nh",
+    "portsmouth-nh",
+    "rochester-nh",
+    "salem-nh",
+    "somersworth",
+    "windham-nh"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

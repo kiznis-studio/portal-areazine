@@ -1,0 +1,150 @@
+{
+  "city": "Beaver Dam",
+  "slug": "beaver-dam",
+  "state": "Wisconsin",
+  "stateCode": "WI",
+  "county": "Dodge County",
+  "lat": 43.4578,
+  "lng": -88.8373,
+  "fetchedAt": "2026-02-11T17:08:27.726Z",
+  "census": {
+    "population": 89032,
+    "medianAge": 42.7,
+    "medianHouseholdIncome": 71747,
+    "medianHomeValue": 201000,
+    "medianRent": 929,
+    "povertyRate": 7.6,
+    "unemploymentRate": 4.1,
+    "bachelorDegreeOrHigher": 19.6,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 6.5,
+    "demographics": {
+      "white": 91,
+      "black": 2.6,
+      "asian": 0.6,
+      "hispanic": 5.5,
+      "other": 0.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 28.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 19.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 42.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 88231,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MARSHFIELD MEDICAL CENTER - BEAVER DAM (MMC-BD)",
+        "city": "BEAVER DAM",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "WATERTOWN MEMORIAL HOSPITAL",
+        "city": "WATERTOWN",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 2,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

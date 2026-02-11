@@ -1,0 +1,212 @@
+{
+  "stateCode": "OK",
+  "stateName": "Oklahoma",
+  "cityCount": 43,
+  "totalPopulation": 2386860,
+  "avgMedianIncome": 60040,
+  "avgMedianHomeValue": 157143,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "oklahoma-city",
+        "name": "Oklahoma City",
+        "value": 681054
+      },
+      {
+        "slug": "tulsa",
+        "name": "Tulsa",
+        "value": 413066
+      },
+      {
+        "slug": "norman",
+        "name": "Norman",
+        "value": 128026
+      },
+      {
+        "slug": "broken-arrow",
+        "name": "Broken Arrow",
+        "value": 106563
+      },
+      {
+        "slug": "lawton",
+        "name": "Lawton",
+        "value": 96655
+      },
+      {
+        "slug": "edmond",
+        "name": "Edmond",
+        "value": 90092
+      },
+      {
+        "slug": "moore",
+        "name": "Moore",
+        "value": 60451
+      },
+      {
+        "slug": "midwest-city",
+        "name": "Midwest City",
+        "value": 57249
+      },
+      {
+        "slug": "enid",
+        "name": "Enid",
+        "value": 51776
+      },
+      {
+        "slug": "stillwater-ok",
+        "name": "Stillwater",
+        "value": 48967
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "yukon",
+        "name": "Yukon",
+        "value": 82364
+      },
+      {
+        "slug": "guthrie",
+        "name": "Guthrie",
+        "value": 80565
+      },
+      {
+        "slug": "claremore",
+        "name": "Claremore",
+        "value": 75312
+      },
+      {
+        "slug": "chickasha",
+        "name": "Chickasha",
+        "value": 74349
+      },
+      {
+        "slug": "norman",
+        "name": "Norman",
+        "value": 71757
+      },
+      {
+        "slug": "tulsa",
+        "name": "Tulsa",
+        "value": 65229
+      },
+      {
+        "slug": "enid",
+        "name": "Enid",
+        "value": 64165
+      },
+      {
+        "slug": "oklahoma-city",
+        "name": "Oklahoma City",
+        "value": 62505
+      },
+      {
+        "slug": "sapulpa",
+        "name": "Sapulpa",
+        "value": 61657
+      },
+      {
+        "slug": "woodward",
+        "name": "Woodward",
+        "value": 61207
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "guthrie",
+        "name": "Guthrie",
+        "value": 221300
+      },
+      {
+        "slug": "yukon",
+        "name": "Yukon",
+        "value": 212700
+      },
+      {
+        "slug": "claremore",
+        "name": "Claremore",
+        "value": 206300
+      },
+      {
+        "slug": "norman",
+        "name": "Norman",
+        "value": 203900
+      },
+      {
+        "slug": "tulsa",
+        "name": "Tulsa",
+        "value": 196300
+      },
+      {
+        "slug": "stillwater-ok",
+        "name": "Stillwater",
+        "value": 196100
+      },
+      {
+        "slug": "oklahoma-city",
+        "name": "Oklahoma City",
+        "value": 190500
+      },
+      {
+        "slug": "chickasha",
+        "name": "Chickasha",
+        "value": 177100
+      },
+      {
+        "slug": "weatherford-ok",
+        "name": "Weatherford",
+        "value": 168700
+      },
+      {
+        "slug": "woodward",
+        "name": "Woodward",
+        "value": 161600
+      }
+    ]
+  },
+  "cities": [
+    "ada",
+    "altus",
+    "ardmore-ok",
+    "bartlesville",
+    "bethany-ok",
+    "bixby",
+    "broken-arrow",
+    "chickasha",
+    "choctaw",
+    "claremore",
+    "del-city",
+    "duncan",
+    "durant",
+    "edmond",
+    "el-reno",
+    "elk-city",
+    "enid",
+    "glenpool",
+    "guthrie",
+    "guymon",
+    "jenks",
+    "lawton",
+    "mcalester",
+    "miami-ok",
+    "midwest-city",
+    "moore",
+    "muskogee",
+    "mustang",
+    "norman",
+    "oklahoma-city",
+    "okmulgee",
+    "owasso",
+    "ponca-city",
+    "sand-springs",
+    "sapulpa",
+    "shawnee-ok",
+    "stillwater-ok",
+    "tahlequah",
+    "tulsa",
+    "warr-acres",
+    "weatherford-ok",
+    "woodward",
+    "yukon"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.895Z"
+}

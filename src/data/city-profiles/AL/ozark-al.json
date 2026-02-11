@@ -1,0 +1,142 @@
+{
+  "city": "Ozark",
+  "slug": "ozark-al",
+  "state": "Alabama",
+  "stateCode": "AL",
+  "county": "Dale County",
+  "lat": 31.4591,
+  "lng": -85.6405,
+  "fetchedAt": "2026-02-11T17:08:27.762Z",
+  "census": {
+    "population": 49455,
+    "medianAge": 37.7,
+    "medianHouseholdIncome": 52813,
+    "medianHomeValue": 123800,
+    "medianRent": 829,
+    "povertyRate": 17.5,
+    "unemploymentRate": 7,
+    "bachelorDegreeOrHigher": 19.2,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 3.5,
+    "demographics": {
+      "white": 70.4,
+      "black": 21.1,
+      "asian": 1.2,
+      "hispanic": 7,
+      "other": 0.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 41.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 31.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 54.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 44.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 17.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.9,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 49871,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "DALE MEDICAL CENTER",
+        "city": "OZARK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

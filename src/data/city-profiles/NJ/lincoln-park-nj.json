@@ -1,0 +1,158 @@
+{
+  "city": "Lincoln Park",
+  "slug": "lincoln-park-nj",
+  "state": "New Jersey",
+  "stateCode": "NJ",
+  "county": "Morris County",
+  "lat": 40.9243,
+  "lng": -74.3021,
+  "fetchedAt": "2026-02-11T17:08:27.875Z",
+  "census": {
+    "population": 508816,
+    "medianAge": 42.7,
+    "medianHouseholdIncome": 130808,
+    "medianHomeValue": 531800,
+    "medianRent": 1814,
+    "povertyRate": 5,
+    "unemploymentRate": 5.3,
+    "bachelorDegreeOrHigher": 57.1,
+    "publicTransitPct": 3.7,
+    "workFromHomePct": 17.1,
+    "demographics": {
+      "white": 73.8,
+      "black": 3.4,
+      "asian": 10.7,
+      "hispanic": 14.1,
+      "other": -2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 8.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 22.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 8.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 31,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 73.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 514423,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MORRISTOWN MEDICAL CENTER",
+        "city": "MORRISTOWN",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "CHILTON MEDICAL CENTER",
+        "city": "POMPTON PLAINS",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SAINT CLARE'S HOSPITAL/ DENVILLE CAMPUS",
+        "city": "DENVILLE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 3,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

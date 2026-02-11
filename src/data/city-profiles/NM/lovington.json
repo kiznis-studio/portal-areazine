@@ -1,0 +1,142 @@
+{
+  "city": "Lovington",
+  "slug": "lovington",
+  "state": "New Mexico",
+  "stateCode": "NM",
+  "county": "Lea County",
+  "lat": 32.944,
+  "lng": -103.3485,
+  "fetchedAt": "2026-02-11T17:08:27.832Z",
+  "census": {
+    "population": 73103,
+    "medianAge": 32.2,
+    "medianHouseholdIncome": 65855,
+    "medianHomeValue": 162000,
+    "medianRent": 1031,
+    "povertyRate": 17.8,
+    "unemploymentRate": 7.4,
+    "bachelorDegreeOrHigher": 14.6,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 3.3,
+    "demographics": {
+      "white": 62.4,
+      "black": 4.2,
+      "asian": 0.6,
+      "hispanic": 61.5,
+      "other": -28.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 21.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 54.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 32.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 65,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.5,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 72101,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "COVENANT HEALTH HOBBS HOSPITAL",
+        "city": "HOBBS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "city": "Merrimack",
+  "slug": "merrimack",
+  "state": "New Hampshire",
+  "stateCode": "NH",
+  "county": "Hillsborough County",
+  "lat": 42.8651,
+  "lng": -71.4934,
+  "fetchedAt": "2026-02-11T17:08:27.613Z",
+  "census": {
+    "population": 422733,
+    "medianAge": 40.9,
+    "medianHouseholdIncome": 95112,
+    "medianHomeValue": 356200,
+    "medianRent": 1444,
+    "povertyRate": 6.9,
+    "unemploymentRate": 3.7,
+    "bachelorDegreeOrHigher": 40.2,
+    "publicTransitPct": 0.7,
+    "workFromHomePct": 13.9,
+    "demographics": {
+      "white": 84.8,
+      "black": 2.6,
+      "asian": 4.2,
+      "hispanic": 7.7,
+      "other": 0.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 31.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 69.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 427354,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ST JOSEPH HOSPITAL",
+        "city": "NASHUA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "SOUTHERN NH MEDICAL CENTER",
+        "city": "NASHUA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "CATHOLIC MEDICAL CENTER",
+        "city": "MANCHESTER",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ELLIOT HOSPITAL",
+        "city": "MANCHESTER",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MONADNOCK COMMUNITY HOSPITAL",
+        "city": "PETERBOROUGH",
+        "rating": 2,
+        "type": "Critical Access Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 5,
+    "averageRating": 2.8,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

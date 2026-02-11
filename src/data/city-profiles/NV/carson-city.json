@@ -1,0 +1,142 @@
+{
+  "city": "Carson City",
+  "slug": "carson-city",
+  "state": "Nevada",
+  "stateCode": "NV",
+  "county": "Carson City",
+  "lat": 39.1638,
+  "lng": -119.7674,
+  "fetchedAt": "2026-02-11T17:08:27.487Z",
+  "census": {
+    "population": 58249,
+    "medianAge": 42.1,
+    "medianHouseholdIncome": 67465,
+    "medianHomeValue": 390800,
+    "medianRent": 1127,
+    "povertyRate": 11.2,
+    "unemploymentRate": 4.6,
+    "bachelorDegreeOrHigher": 24.3,
+    "publicTransitPct": 1.7,
+    "workFromHomePct": 6.9,
+    "demographics": {
+      "white": 74.6,
+      "black": 2.1,
+      "asian": 2.7,
+      "hispanic": 25,
+      "other": -4.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 12.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 72.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 58036,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "CARSON TAHOE REGIONAL MEDICAL CENTER",
+        "city": "CARSON CITY",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

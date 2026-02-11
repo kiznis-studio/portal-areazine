@@ -1,0 +1,142 @@
+{
+  "city": "Cambridge",
+  "slug": "cambridge-oh",
+  "state": "Ohio",
+  "stateCode": "OH",
+  "county": "Guernsey County",
+  "lat": 40.0312,
+  "lng": -81.5885,
+  "fetchedAt": "2026-02-11T17:08:27.875Z",
+  "census": {
+    "population": 38409,
+    "medianAge": 42.6,
+    "medianHouseholdIncome": 53901,
+    "medianHomeValue": 145800,
+    "medianRent": 801,
+    "povertyRate": 17,
+    "unemploymentRate": 4.6,
+    "bachelorDegreeOrHigher": 14.9,
+    "publicTransitPct": 0,
+    "workFromHomePct": 3.1,
+    "demographics": {
+      "white": 94,
+      "black": 1.9,
+      "asian": 0.4,
+      "hispanic": 1.2,
+      "other": 2.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 55.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 38.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 40.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 32.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 19,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.1,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 38089,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SOUTHEASTERN OHIO REGIONAL MEDICAL CENTER",
+        "city": "CAMBRIDGE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "stateCode": "ID",
+  "stateName": "Idaho",
+  "cityCount": 24,
+  "totalPopulation": 989564,
+  "avgMedianIncome": 65756,
+  "avgMedianHomeValue": 281814,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "boise",
+        "name": "Boise",
+        "value": 235684
+      },
+      {
+        "slug": "meridian-id",
+        "name": "Meridian",
+        "value": 90739
+      },
+      {
+        "slug": "nampa",
+        "name": "Nampa",
+        "value": 89839
+      },
+      {
+        "slug": "idaho-falls",
+        "name": "Idaho Falls",
+        "value": 59184
+      },
+      {
+        "slug": "pocatello",
+        "name": "Pocatello",
+        "value": 54441
+      },
+      {
+        "slug": "caldwell",
+        "name": "Caldwell",
+        "value": 51686
+      },
+      {
+        "slug": "coeur-dalene",
+        "name": "Coeur d'Alene",
+        "value": 49122
+      },
+      {
+        "slug": "twin-falls",
+        "name": "Twin Falls",
+        "value": 47468
+      },
+      {
+        "slug": "lewiston-id",
+        "name": "Lewiston",
+        "value": 32544
+      },
+      {
+        "slug": "lewiston-orchards",
+        "name": "Lewiston Orchards",
+        "value": 31422
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "boise",
+        "name": "Boise",
+        "value": 83881
+      },
+      {
+        "slug": "idaho-falls",
+        "name": "Idaho Falls",
+        "value": 73103
+      },
+      {
+        "slug": "coeur-dalene",
+        "name": "Coeur d'Alene",
+        "value": 71949
+      },
+      {
+        "slug": "blackfoot",
+        "name": "Blackfoot",
+        "value": 69433
+      },
+      {
+        "slug": "nampa",
+        "name": "Nampa",
+        "value": 68473
+      },
+      {
+        "slug": "jerome",
+        "name": "Jerome",
+        "value": 67347
+      },
+      {
+        "slug": "conda",
+        "name": "Conda",
+        "value": 65380
+      },
+      {
+        "slug": "lewiston-id",
+        "name": "Lewiston",
+        "value": 65023
+      },
+      {
+        "slug": "burley",
+        "name": "Burley",
+        "value": 63525
+      },
+      {
+        "slug": "moscow",
+        "name": "Moscow",
+        "value": 62258
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "boise",
+        "name": "Boise",
+        "value": 423500
+      },
+      {
+        "slug": "coeur-dalene",
+        "name": "Coeur d'Alene",
+        "value": 407000
+      },
+      {
+        "slug": "rexburg",
+        "name": "Rexburg",
+        "value": 324300
+      },
+      {
+        "slug": "moscow",
+        "name": "Moscow",
+        "value": 309300
+      },
+      {
+        "slug": "nampa",
+        "name": "Nampa",
+        "value": 306200
+      },
+      {
+        "slug": "idaho-falls",
+        "name": "Idaho Falls",
+        "value": 288300
+      },
+      {
+        "slug": "twin-falls",
+        "name": "Twin Falls",
+        "value": 262200
+      },
+      {
+        "slug": "lewiston-id",
+        "name": "Lewiston",
+        "value": 259600
+      },
+      {
+        "slug": "mountain-home-id",
+        "name": "Mountain Home",
+        "value": 235200
+      },
+      {
+        "slug": "jerome",
+        "name": "Jerome",
+        "value": 234300
+      }
+    ]
+  },
+  "cities": [
+    "ammon",
+    "blackfoot",
+    "boise",
+    "burley",
+    "caldwell",
+    "chubbuck",
+    "coeur-dalene",
+    "conda",
+    "eagle",
+    "garden-city-id",
+    "hayden",
+    "idaho-falls",
+    "jerome",
+    "kuna",
+    "lewiston-id",
+    "lewiston-orchards",
+    "meridian-id",
+    "moscow",
+    "mountain-home-id",
+    "nampa",
+    "pocatello",
+    "post-falls",
+    "rexburg",
+    "twin-falls"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.898Z"
+}

@@ -1,0 +1,64 @@
+{
+  "city": "Georgetown",
+  "slug": "georgetown-ky",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Scott County",
+  "lat": 38.2098,
+  "lng": -84.5588,
+  "fetchedAt": "2026-02-11T17:08:27.578Z",
+  "census": {
+    "population": 57286,
+    "medianAge": 36.1,
+    "medianHouseholdIncome": 80782,
+    "medianHomeValue": 240800,
+    "medianRent": 1098,
+    "povertyRate": 9.3,
+    "unemploymentRate": 3.7,
+    "bachelorDegreeOrHigher": 31.9,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 8.3,
+    "demographics": {
+      "white": 86.9,
+      "black": 4.9,
+      "asian": 1,
+      "hispanic": 4.5,
+      "other": 2.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 63.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.6,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 60168,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "GEORGETOWN COMMUNITY HOSPITAL",
+        "city": "GEORGETOWN",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

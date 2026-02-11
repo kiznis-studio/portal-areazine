@@ -1,0 +1,158 @@
+{
+  "city": "New Haven",
+  "slug": "new-haven-in",
+  "state": "Indiana",
+  "stateCode": "IN",
+  "county": "Allen County",
+  "lat": 41.0706,
+  "lng": -85.0144,
+  "fetchedAt": "2026-02-11T17:08:27.742Z",
+  "census": {
+    "population": 385456,
+    "medianAge": 36.1,
+    "medianHouseholdIncome": 66222,
+    "medianHomeValue": 173600,
+    "medianRent": 924,
+    "povertyRate": 12,
+    "unemploymentRate": 4.8,
+    "bachelorDegreeOrHigher": 30.5,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 7.3,
+    "demographics": {
+      "white": 74.4,
+      "black": 11.2,
+      "asian": 4.7,
+      "hispanic": 8,
+      "other": 1.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 36.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 394545,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PARKVIEW REGIONAL MEDICAL CENTER",
+        "city": "FORT WAYNE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "DUPONT HOSPITAL LLC",
+        "city": "FORT WAYNE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "LUTHERAN HOSPITAL OF INDIANA",
+        "city": "FORT WAYNE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 8,
+    "ratedHospitals": 3,
+    "averageRating": 2.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

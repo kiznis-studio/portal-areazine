@@ -1,0 +1,150 @@
+{
+  "city": "Rantoul",
+  "slug": "rantoul",
+  "state": "Illinois",
+  "stateCode": "IL",
+  "county": "Champaign County",
+  "lat": 40.3084,
+  "lng": -88.1559,
+  "fetchedAt": "2026-02-11T17:08:27.802Z",
+  "census": {
+    "population": 206525,
+    "medianAge": 30.8,
+    "medianHouseholdIncome": 61090,
+    "medianHomeValue": 192600,
+    "medianRent": 977,
+    "povertyRate": 18.7,
+    "unemploymentRate": 4.8,
+    "bachelorDegreeOrHigher": 45.6,
+    "publicTransitPct": 4.1,
+    "workFromHomePct": 11.5,
+    "demographics": {
+      "white": 68.3,
+      "black": 13.2,
+      "asian": 11,
+      "hispanic": 6.5,
+      "other": 1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 75,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 28.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 31.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 19,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 205644,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "CARLE FOUNDATION HOSPITAL",
+        "city": "URBANA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "OSF HEART OF MARY MEDICAL CENTER",
+        "city": "URBANA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

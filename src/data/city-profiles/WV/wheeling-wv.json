@@ -1,0 +1,142 @@
+{
+  "city": "Wheeling",
+  "slug": "wheeling-wv",
+  "state": "West Virginia",
+  "stateCode": "WV",
+  "county": "Ohio County",
+  "lat": 40.064,
+  "lng": -80.7209,
+  "fetchedAt": "2026-02-11T17:08:27.607Z",
+  "census": {
+    "population": 42224,
+    "medianAge": 43.1,
+    "medianHouseholdIncome": 55521,
+    "medianHomeValue": 153000,
+    "medianRent": 773,
+    "povertyRate": 14.7,
+    "unemploymentRate": 5.3,
+    "bachelorDegreeOrHigher": 33.2,
+    "publicTransitPct": 1.5,
+    "workFromHomePct": 5.9,
+    "demographics": {
+      "white": 91.4,
+      "black": 3.2,
+      "asian": 0.6,
+      "hispanic": 1.3,
+      "other": 3.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 42.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 20.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 41194,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "WHEELING HOSPITAL, INC",
+        "city": "WHEELING",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

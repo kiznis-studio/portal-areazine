@@ -1,0 +1,253 @@
+{
+  "stateCode": "MO",
+  "stateName": "Missouri",
+  "cityCount": 84,
+  "totalPopulation": 3167519,
+  "avgMedianIncome": 62053,
+  "avgMedianHomeValue": 176467,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "kansas-city-mo",
+        "name": "Kansas City",
+        "value": 475378
+      },
+      {
+        "slug": "st-louis",
+        "name": "St. Louis",
+        "value": 279695
+      },
+      {
+        "slug": "springfield-mo",
+        "name": "Springfield",
+        "value": 170188
+      },
+      {
+        "slug": "columbia-mo",
+        "name": "Columbia",
+        "value": 129330
+      },
+      {
+        "slug": "independence-mo",
+        "name": "Independence",
+        "value": 117255
+      },
+      {
+        "slug": "east-independence",
+        "name": "East Independence",
+        "value": 110675
+      },
+      {
+        "slug": "lees-summit",
+        "name": "Lee's Summit",
+        "value": 95094
+      },
+      {
+        "slug": "ofallon-mo",
+        "name": "O'Fallon",
+        "value": 85040
+      },
+      {
+        "slug": "saint-joseph",
+        "name": "Saint Joseph",
+        "value": 76780
+      },
+      {
+        "slug": "saint-charles-mo",
+        "name": "Saint Charles",
+        "value": 65794
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "ofallon-mo",
+        "name": "O'Fallon",
+        "value": 99596
+      },
+      {
+        "slug": "troy-mo",
+        "name": "Troy",
+        "value": 82543
+      },
+      {
+        "slug": "raymore",
+        "name": "Raymore",
+        "value": 82473
+      },
+      {
+        "slug": "liberty",
+        "name": "Liberty",
+        "value": 82264
+      },
+      {
+        "slug": "florissant",
+        "name": "Florissant",
+        "value": 78067
+      },
+      {
+        "slug": "arnold-mo",
+        "name": "Arnold",
+        "value": 77217
+      },
+      {
+        "slug": "nixa",
+        "name": "Nixa",
+        "value": 75787
+      },
+      {
+        "slug": "jefferson-city",
+        "name": "Jefferson City",
+        "value": 70667
+      },
+      {
+        "slug": "fulton-mo",
+        "name": "Fulton",
+        "value": 70599
+      },
+      {
+        "slug": "washington-mo",
+        "name": "Washington",
+        "value": 70111
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "ofallon-mo",
+        "name": "O'Fallon",
+        "value": 278300
+      },
+      {
+        "slug": "florissant",
+        "name": "Florissant",
+        "value": 249400
+      },
+      {
+        "slug": "raymore",
+        "name": "Raymore",
+        "value": 242300
+      },
+      {
+        "slug": "columbia-mo",
+        "name": "Columbia",
+        "value": 237600
+      },
+      {
+        "slug": "liberty",
+        "name": "Liberty",
+        "value": 237200
+      },
+      {
+        "slug": "nixa",
+        "name": "Nixa",
+        "value": 229200
+      },
+      {
+        "slug": "troy-mo",
+        "name": "Troy",
+        "value": 206800
+      },
+      {
+        "slug": "warrensburg",
+        "name": "Warrensburg",
+        "value": 206600
+      },
+      {
+        "slug": "arnold-mo",
+        "name": "Arnold",
+        "value": 202500
+      },
+      {
+        "slug": "washington-mo",
+        "name": "Washington",
+        "value": 201700
+      }
+    ]
+  },
+  "cities": [
+    "affton",
+    "arnold-mo",
+    "ballwin",
+    "bellefontaine-neighbors",
+    "blue-springs",
+    "bolivar",
+    "branson",
+    "bridgeton-mo",
+    "cape-girardeau",
+    "carthage",
+    "chesterfield",
+    "clayton-mo",
+    "columbia-mo",
+    "concord-mo",
+    "crestwood-mo",
+    "creve-coeur",
+    "dardenne-prairie",
+    "east-independence",
+    "eureka-mo",
+    "excelsior-springs",
+    "farmington-mo",
+    "ferguson",
+    "festus",
+    "florissant",
+    "fort-leonard-wood",
+    "fulton-mo",
+    "gladstone-mo",
+    "grain-valley",
+    "grandview-mo",
+    "hannibal",
+    "hazelwood",
+    "independence-mo",
+    "jackson-mo",
+    "jefferson-city",
+    "jennings-mo",
+    "joplin",
+    "kansas-city-mo",
+    "kennett",
+    "kirksville",
+    "kirkwood",
+    "lake-saint-louis",
+    "lebanon-mo",
+    "lees-summit",
+    "lemay",
+    "liberty",
+    "manchester-mo",
+    "marshall-mo",
+    "maryland-heights",
+    "maryville-mo",
+    "mehlville",
+    "mexico",
+    "moberly",
+    "neosho",
+    "nixa",
+    "oakville",
+    "ofallon-mo",
+    "old-jamestown",
+    "overland",
+    "ozark-mo",
+    "poplar-bluff",
+    "raymore",
+    "raytown",
+    "republic",
+    "rolla",
+    "saint-ann",
+    "saint-charles-mo",
+    "saint-joseph",
+    "saint-peters",
+    "sedalia",
+    "sikeston",
+    "spanish-lake",
+    "springfield-mo",
+    "st-louis",
+    "town-and-country",
+    "troy-mo",
+    "union-mo",
+    "university-city-mo",
+    "warrensburg",
+    "washington-mo",
+    "webb-city",
+    "webster-groves",
+    "wentzville",
+    "west-plains",
+    "wildwood"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.897Z"
+}

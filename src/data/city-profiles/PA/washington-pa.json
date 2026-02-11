@@ -1,0 +1,72 @@
+{
+  "city": "Washington",
+  "slug": "washington-pa",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Washington County",
+  "lat": 40.174,
+  "lng": -80.2462,
+  "fetchedAt": "2026-02-11T17:08:27.789Z",
+  "census": {
+    "population": 209631,
+    "medianAge": 44.2,
+    "medianHouseholdIncome": 74403,
+    "medianHomeValue": 205600,
+    "medianRent": 879,
+    "povertyRate": 9.5,
+    "unemploymentRate": 5,
+    "bachelorDegreeOrHigher": 32.4,
+    "publicTransitPct": 1,
+    "workFromHomePct": 12,
+    "demographics": {
+      "white": 91.4,
+      "black": 3.2,
+      "asian": 1.2,
+      "hispanic": 1.9,
+      "other": 2.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.7,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 210232,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "WASHINGTON HOSPITAL, THE",
+        "city": "WASHINGTON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PENN HIGHLANDS MON VALLEY",
+        "city": "MONONGAHELA",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 2,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

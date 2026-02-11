@@ -1,0 +1,166 @@
+{
+  "city": "Lincolnia",
+  "slug": "lincolnia",
+  "state": "Virginia",
+  "stateCode": "VA",
+  "county": "Fairfax County",
+  "lat": 38.8185,
+  "lng": -77.1433,
+  "fetchedAt": "2026-02-11T17:08:27.648Z",
+  "census": {
+    "population": 1145354,
+    "medianAge": 38.6,
+    "medianHouseholdIncome": 145165,
+    "medianHomeValue": 666900,
+    "medianRent": 2159,
+    "povertyRate": 6,
+    "unemploymentRate": 4,
+    "bachelorDegreeOrHigher": 64.1,
+    "publicTransitPct": 6.3,
+    "workFromHomePct": 21.7,
+    "demographics": {
+      "white": 54.2,
+      "black": 9.9,
+      "asian": 20.2,
+      "hispanic": 16.5,
+      "other": -0.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 24,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 74.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 1141878,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "INOVA FAIRFAX HOSPITAL",
+        "city": "FALLS CHURCH",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "INOVA FAIR OAKS HOSPITAL",
+        "city": "FAIRFAX",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "RESTON HOSPITAL CENTER",
+        "city": "RESTON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "INOVA MOUNT VERNON HOSPITAL",
+        "city": "ALEXANDRIA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 7,
+    "ratedHospitals": 4,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

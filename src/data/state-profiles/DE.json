@@ -1,0 +1,110 @@
+{
+  "stateCode": "DE",
+  "stateName": "Delaware",
+  "cityCount": 11,
+  "totalPopulation": 258832,
+  "avgMedianIncome": 76664,
+  "avgMedianHomeValue": 302900,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "wilmington-de",
+        "name": "Wilmington",
+        "value": 70898
+      },
+      {
+        "slug": "dover-de",
+        "name": "Dover",
+        "value": 39403
+      },
+      {
+        "slug": "newark-de",
+        "name": "Newark",
+        "value": 33817
+      },
+      {
+        "slug": "middletown-de",
+        "name": "Middletown",
+        "value": 20372
+      },
+      {
+        "slug": "bear",
+        "name": "Bear",
+        "value": 19371
+      },
+      {
+        "slug": "brookside",
+        "name": "Brookside",
+        "value": 14353
+      },
+      {
+        "slug": "glasgow-de",
+        "name": "Glasgow",
+        "value": 14303
+      },
+      {
+        "slug": "hockessin",
+        "name": "Hockessin",
+        "value": 13527
+      },
+      {
+        "slug": "smyrna-de",
+        "name": "Smyrna",
+        "value": 11319
+      },
+      {
+        "slug": "pike-creek-valley",
+        "name": "Pike Creek Valley",
+        "value": 11217
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "wilmington-de",
+        "name": "Wilmington",
+        "value": 85309
+      },
+      {
+        "slug": "milford-de",
+        "name": "Milford",
+        "value": 75406
+      },
+      {
+        "slug": "dover-de",
+        "name": "Dover",
+        "value": 69278
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "milford-de",
+        "name": "Milford",
+        "value": 324400
+      },
+      {
+        "slug": "wilmington-de",
+        "name": "Wilmington",
+        "value": 312000
+      },
+      {
+        "slug": "dover-de",
+        "name": "Dover",
+        "value": 272300
+      }
+    ]
+  },
+  "cities": [
+    "bear",
+    "brookside",
+    "dover-de",
+    "glasgow-de",
+    "hockessin",
+    "middletown-de",
+    "milford-de",
+    "newark-de",
+    "pike-creek-valley",
+    "smyrna-de",
+    "wilmington-de"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

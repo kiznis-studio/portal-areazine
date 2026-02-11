@@ -1,0 +1,198 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
+import StatCard from '../../components/data/StatCard.astro';
+import RankRow from '../../components/data/RankRow.astro';
+import { CITIES, US_STATES, getCitiesByState } from '../../data/cities';
+import { fmt, fmtMoney, fmtCompact } from '../../lib/format';
+
+// Load state profiles
+const stateProfileMods = import.meta.glob('../../data/state-profiles/*.json', { eager: true }) as Record<string, { default: any }>;
+const stateProfiles: Record<string, any> = {};
+for (const [path, mod] of Object.entries(stateProfileMods)) {
+  const code = path.split('/').pop()?.replace('.json', '') || '';
+  stateProfiles[code] = mod.default ?? mod;
+}
+
+export function getStaticPaths() {
+  const states = import.meta.glob('../../data/state-profiles/*.json', { eager: true });
+  const statesList: { code: string; name: string; slug: string }[] = [];
+
+  for (const path of Object.keys(states)) {
+    const code = path.split('/').pop()?.replace('.json', '') || '';
+    const profile = (states[path] as any).default ?? states[path];
+    statesList.push({
+      code,
+      name: profile.stateName,
+      slug: profile.stateName.toLowerCase().replace(/\s+/g, '-'),
+    });
+  }
+
+  return statesList.map(s => ({
+    params: { state: s.slug },
+    props: { stateCode: s.code, stateName: s.name },
+  }));
+}
+
+const { stateCode, stateName } = Astro.props;
+const profile = stateProfiles[stateCode];
+const cities = getCitiesByState(stateCode).sort((a, b) => b.population - a.population);
+
+const stateSlug = stateName.toLowerCase().replace(/\s+/g, '-');
+const pageTitle = `${stateName} City Data — ${profile?.cityCount || 0} Cities`;
+const pageDesc = `Explore ${profile?.cityCount || 0} cities in ${stateName}. Population, income, health data, and hospital ratings from official U.S. government sources.`;
+
+// Max values for ranking bars
+const maxPop = profile?.rankings?.byPopulation?.[0]?.value || 1;
+const maxIncome = profile?.rankings?.byIncome?.[0]?.value || 1;
+const maxHomeVal = profile?.rankings?.byHomeValue?.[0]?.value || 1;
+---
+
+<Base title={pageTitle} description={pageDesc}>
+  <div class="container py-8 md:py-12">
+
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'States', href: '/states' },
+      { label: stateName },
+    ]} />
+
+    {/* Hero */}
+    <header class="mb-10">
+      <div class="flex items-baseline gap-3 mb-2">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-black tracking-tight">{stateName}</h1>
+        <span class="text-base md:text-lg text-[var(--color-muted)] font-medium px-2 py-0.5 bg-[var(--color-card)] rounded">{stateCode}</span>
+      </div>
+      <p class="text-base text-[var(--color-muted)] max-w-2xl">
+        {profile?.cityCount} cities with population 10,000+ — government data from Census Bureau, CDC, and CMS.
+      </p>
+    </header>
+
+    {/* Quick Stats */}
+    {profile && (
+      <section class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-12">
+        <StatCard
+          label="Cities"
+          value={profile.cityCount.toString()}
+          subtitle="pop ≥ 10,000"
+          accentColor="var(--color-data-blue)"
+        />
+        <StatCard
+          label="Total Population"
+          value={fmt(profile.totalPopulation)}
+          subtitle="in tracked cities"
+          accentColor="var(--color-data-teal)"
+        />
+        <StatCard
+          label="Avg Median Income"
+          value={fmtMoney(profile.avgMedianIncome)}
+          metric="medianHouseholdIncome"
+          rawValue={profile.avgMedianIncome}
+          accentColor="var(--color-data-amber)"
+        />
+        <StatCard
+          label="Avg Home Value"
+          value={fmtMoney(profile.avgMedianHomeValue)}
+          metric="medianHomeValue"
+          rawValue={profile.avgMedianHomeValue}
+          accentColor="var(--color-data-violet)"
+        />
+      </section>
+    )}
+
+    {/* Rankings */}
+    {profile?.rankings && (
+      <div class="grid md:grid-cols-3 gap-6 mb-12">
+        <section>
+          <SectionHeader title="Largest Cities" count={profile.rankings.byPopulation.length} />
+          <div class="data-table">
+            {profile.rankings.byPopulation.map((c: any, i: number) => (
+              <RankRow
+                rank={i + 1}
+                label={c.name}
+                value={fmt(c.value)}
+                href={`/cities/${c.slug}`}
+                barPct={(c.value / maxPop) * 100}
+              />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <SectionHeader title="Highest Income" count={profile.rankings.byIncome.length} />
+          <div class="data-table">
+            {profile.rankings.byIncome.map((c: any, i: number) => (
+              <RankRow
+                rank={i + 1}
+                label={c.name}
+                value={fmtMoney(c.value)}
+                href={`/cities/${c.slug}`}
+                barPct={(c.value / maxIncome) * 100}
+              />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <SectionHeader title="Highest Home Values" count={profile.rankings.byHomeValue.length} />
+          <div class="data-table">
+            {profile.rankings.byHomeValue.map((c: any, i: number) => (
+              <RankRow
+                rank={i + 1}
+                label={c.name}
+                value={fmtMoney(c.value)}
+                href={`/cities/${c.slug}`}
+                barPct={(c.value / maxHomeVal) * 100}
+              />
+            ))}
+          </div>
+        </section>
+      </div>
+    )}
+
+    {/* All Cities */}
+    <section class="mb-12">
+      <SectionHeader title={`All Cities in ${stateName}`} count={cities.length} />
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+        {cities.map(city => (
+          <a
+            href={`/cities/${city.slug}`}
+            class="text-sm py-2 px-3 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] hover:bg-[var(--color-card)] transition-colors flex justify-between items-center"
+          >
+            <span class="truncate">{city.name}</span>
+            <span class="text-xs text-[var(--color-muted)] tabular-nums flex-shrink-0 ml-2">{fmtCompact(city.population)}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {/* Data Sources */}
+    <details class="pt-8 border-t border-[var(--color-border)] group">
+      <summary class="cursor-pointer text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] select-none flex items-center gap-2">
+        <svg class="w-4 h-4 transition-transform group-open:rotate-90" viewBox="0 0 16 16" fill="none">
+          <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Data Sources
+      </summary>
+      <div class="mt-4">
+        <p class="text-sm text-[var(--color-muted)] max-w-2xl leading-relaxed">
+          City population from GeoNames/Census Bureau. Economic data from the
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Census Bureau American Community Survey</a> (2022 5-year estimates, county-level).
+          Health data from the <a href="https://www.cdc.gov/places/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">CDC PLACES</a> program.
+          Hospital ratings from <a href="https://data.cms.gov/provider-data/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">CMS Hospital Compare</a>.
+        </p>
+      </div>
+    </details>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
+      { "@type": "ListItem", "position": 2, "name": "States", "item": "https://areazine.com/states/" },
+      { "@type": "ListItem", "position": 3, "name": stateName },
+    ],
+  })} />
+</Base>

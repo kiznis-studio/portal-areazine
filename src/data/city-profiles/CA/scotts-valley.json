@@ -1,0 +1,150 @@
+{
+  "city": "Scotts Valley",
+  "slug": "scotts-valley",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Santa Cruz County",
+  "lat": 37.0511,
+  "lng": -122.0147,
+  "fetchedAt": "2026-02-11T17:08:27.829Z",
+  "census": {
+    "population": 268571,
+    "medianAge": 39.2,
+    "medianHouseholdIncome": 104409,
+    "medianHomeValue": 951300,
+    "medianRent": 2094,
+    "povertyRate": 11.4,
+    "unemploymentRate": 5.9,
+    "bachelorDegreeOrHigher": 42.5,
+    "publicTransitPct": 1.8,
+    "workFromHomePct": 16.3,
+    "demographics": {
+      "white": 65.7,
+      "black": 1.1,
+      "asian": 4.9,
+      "hispanic": 34.2,
+      "other": -5.9
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 25.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 71.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.4,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 261547,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "DOMINICAN HOSPITAL",
+        "city": "SANTA CRUZ",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "WATSONVILLE COMMUNITY HOSPITAL",
+        "city": "WATSONVILLE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 2,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

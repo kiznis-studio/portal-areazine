@@ -1,0 +1,64 @@
+{
+  "city": "Madisonville",
+  "slug": "madisonville",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Hopkins County",
+  "lat": 37.3281,
+  "lng": -87.4989,
+  "fetchedAt": "2026-02-11T17:08:27.686Z",
+  "census": {
+    "population": 45223,
+    "medianAge": 41.4,
+    "medianHouseholdIncome": 54466,
+    "medianHomeValue": 125800,
+    "medianRent": 815,
+    "povertyRate": 19.2,
+    "unemploymentRate": 7.7,
+    "bachelorDegreeOrHigher": 15.5,
+    "publicTransitPct": 0,
+    "workFromHomePct": 3.3,
+    "demographics": {
+      "white": 88.6,
+      "black": 6.1,
+      "asian": 0.6,
+      "hispanic": 2.3,
+      "other": 2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 53.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 43.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 44929,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "BAPTIST HEALTH DEACONESS MADISONVILLE",
+        "city": "MADISONVILLE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "city": "Nanticoke",
+  "slug": "nanticoke",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Luzerne County",
+  "lat": 41.2054,
+  "lng": -76.0049,
+  "fetchedAt": "2026-02-11T17:08:27.879Z",
+  "census": {
+    "population": 325396,
+    "medianAge": 42.2,
+    "medianHouseholdIncome": 60836,
+    "medianHomeValue": 152400,
+    "medianRent": 904,
+    "povertyRate": 14.9,
+    "unemploymentRate": 5.9,
+    "bachelorDegreeOrHigher": 24.5,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 8.2,
+    "demographics": {
+      "white": 80.6,
+      "black": 5.2,
+      "asian": 1.1,
+      "hispanic": 15.1,
+      "other": -2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 327388,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "WILKES BARRE VA MEDICAL CENTER",
+        "city": "WILKES-BARRE",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "GEISINGER WYOMING VALLEY MEDICAL CENTER",
+        "city": "WILKES BARRE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "WILKES-BARRE GENERAL HOSPITAL",
+        "city": "WILKES-BARRE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "LEHIGH VALLEY HOSPITAL - HAZLETON",
+        "city": "HAZLETON",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 4,
+    "averageRating": 2.8,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

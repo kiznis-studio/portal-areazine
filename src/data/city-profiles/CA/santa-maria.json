@@ -1,0 +1,166 @@
+{
+  "city": "Santa Maria",
+  "slug": "santa-maria",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Santa Barbara County",
+  "lat": 34.953,
+  "lng": -120.4357,
+  "fetchedAt": "2026-02-11T17:08:27.435Z",
+  "census": {
+    "population": 445213,
+    "medianAge": 34.3,
+    "medianHouseholdIncome": 92332,
+    "medianHomeValue": 714800,
+    "medianRent": 1964,
+    "povertyRate": 13.5,
+    "unemploymentRate": 6,
+    "bachelorDegreeOrHigher": 35.7,
+    "publicTransitPct": 2.3,
+    "workFromHomePct": 11.2,
+    "demographics": {
+      "white": 60.8,
+      "black": 1.9,
+      "asian": 5.5,
+      "hispanic": 46.6,
+      "other": -14.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 70.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 31.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 26.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 441257,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "GOLETA VALLEY COTTAGE HOSPITAL",
+        "city": "SANTA BARBARA",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "SANTA BARBARA COTTAGE HOSPITAL",
+        "city": "SANTA BARBARA",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MARIAN REGIONAL MEDICAL CENTER",
+        "city": "SANTA MARIA",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "LOMPOC VALLEY MEDICAL CENTER",
+        "city": "LOMPOC",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 6,
+    "ratedHospitals": 4,
+    "averageRating": 3.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

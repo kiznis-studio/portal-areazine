@@ -1,0 +1,49 @@
+{
+  "city": "Paducah",
+  "slug": "paducah",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "McCracken County",
+  "lat": 37.0834,
+  "lng": -88.6,
+  "fetchedAt": "2026-02-11T17:08:27.628Z",
+  "census": {
+    "population": 67573,
+    "medianAge": 42.5,
+    "medianHouseholdIncome": 58490,
+    "medianHomeValue": 172300,
+    "medianRent": 849,
+    "povertyRate": 15.2,
+    "unemploymentRate": 3.6,
+    "bachelorDegreeOrHigher": 28.2,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 5.6,
+    "demographics": {
+      "white": 83.3,
+      "black": 10.5,
+      "asian": 1,
+      "hispanic": 2.8,
+      "other": 2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 56.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 67428,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

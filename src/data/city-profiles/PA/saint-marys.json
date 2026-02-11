@@ -1,0 +1,64 @@
+{
+  "city": "Saint Marys",
+  "slug": "saint-marys",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Elk County",
+  "lat": 41.4278,
+  "lng": -78.5609,
+  "fetchedAt": "2026-02-11T17:08:27.800Z",
+  "census": {
+    "population": 30886,
+    "medianAge": 48.2,
+    "medianHouseholdIncome": 61672,
+    "medianHomeValue": 121900,
+    "medianRent": 707,
+    "povertyRate": 9,
+    "unemploymentRate": 6.5,
+    "bachelorDegreeOrHigher": 18.5,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 2.6,
+    "demographics": {
+      "white": 96,
+      "black": 0.7,
+      "asian": 0.4,
+      "hispanic": 0.8,
+      "other": 2.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 63.2,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 30198,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PENN HIGHLANDS ELK",
+        "city": "SAINT MARYS",
+        "rating": 3,
+        "type": "Critical Access Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "stateCode": "GA",
+  "stateName": "Georgia",
+  "cityCount": 105,
+  "totalPopulation": 3823057,
+  "avgMedianIncome": 65401,
+  "avgMedianHomeValue": 207704,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "atlanta",
+        "name": "Atlanta",
+        "value": 510823
+      },
+      {
+        "slug": "columbus-ga",
+        "name": "Columbus",
+        "value": 206922
+      },
+      {
+        "slug": "savannah",
+        "name": "Savannah",
+        "value": 147780
+      },
+      {
+        "slug": "athens-ga",
+        "name": "Athens",
+        "value": 127315
+      },
+      {
+        "slug": "south-fulton",
+        "name": "South Fulton",
+        "value": 107436
+      },
+      {
+        "slug": "sandy-springs",
+        "name": "Sandy Springs",
+        "value": 105330
+      },
+      {
+        "slug": "roswell-ga",
+        "name": "Roswell",
+        "value": 94501
+      },
+      {
+        "slug": "macon",
+        "name": "Macon",
+        "value": 91351
+      },
+      {
+        "slug": "johns-creek",
+        "name": "Johns Creek",
+        "value": 83335
+      },
+      {
+        "slug": "albany-ga",
+        "name": "Albany",
+        "value": 74843
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "peachtree-city",
+        "name": "Peachtree City",
+        "value": 105910
+      },
+      {
+        "slug": "woodstock-ga",
+        "name": "Woodstock",
+        "value": 100824
+      },
+      {
+        "slug": "marietta-ga",
+        "name": "Marietta",
+        "value": 94244
+      },
+      {
+        "slug": "martinez-ga",
+        "name": "Martinez",
+        "value": 92571
+      },
+      {
+        "slug": "richmond-hill-ga",
+        "name": "Richmond Hill",
+        "value": 90627
+      },
+      {
+        "slug": "newnan",
+        "name": "Newnan",
+        "value": 90031
+      },
+      {
+        "slug": "dallas-ga",
+        "name": "Dallas",
+        "value": 89237
+      },
+      {
+        "slug": "atlanta",
+        "name": "Atlanta",
+        "value": 86267
+      },
+      {
+        "slug": "peachtree-corners",
+        "name": "Peachtree Corners",
+        "value": 82296
+      },
+      {
+        "slug": "jefferson-ga",
+        "name": "Jefferson",
+        "value": 82056
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "atlanta",
+        "name": "Atlanta",
+        "value": 398300
+      },
+      {
+        "slug": "peachtree-city",
+        "name": "Peachtree City",
+        "value": 369700
+      },
+      {
+        "slug": "woodstock-ga",
+        "name": "Woodstock",
+        "value": 358400
+      },
+      {
+        "slug": "marietta-ga",
+        "name": "Marietta",
+        "value": 346000
+      },
+      {
+        "slug": "peachtree-corners",
+        "name": "Peachtree Corners",
+        "value": 307300
+      },
+      {
+        "slug": "brookhaven-ga",
+        "name": "Brookhaven",
+        "value": 301100
+      },
+      {
+        "slug": "newnan",
+        "name": "Newnan",
+        "value": 291900
+      },
+      {
+        "slug": "jefferson-ga",
+        "name": "Jefferson",
+        "value": 280600
+      },
+      {
+        "slug": "gainesville-ga",
+        "name": "Gainesville",
+        "value": 277900
+      },
+      {
+        "slug": "richmond-hill-ga",
+        "name": "Richmond Hill",
+        "value": 276100
+      }
+    ]
+  },
+  "cities": [
+    "acworth",
+    "albany-ga",
+    "alpharetta",
+    "americus",
+    "athens-ga",
+    "atlanta",
+    "augusta-ga",
+    "bainbridge",
+    "belvedere-park",
+    "brookhaven-ga",
+    "brunswick-ga",
+    "buford",
+    "calhoun",
+    "candler-mcafee",
+    "canton-ga",
+    "carrollton-ga",
+    "cartersville",
+    "chamblee",
+    "clarkston",
+    "college-park-ga",
+    "columbus-ga",
+    "conyers",
+    "cordele",
+    "covington-ga",
+    "cusseta",
+    "dallas-ga",
+    "dalton",
+    "decatur-ga",
+    "doraville",
+    "douglas-ga",
+    "douglasville",
+    "druid-hills",
+    "dublin-ga",
+    "duluth-ga",
+    "dunwoody",
+    "east-point",
+    "evans-ga",
+    "fairburn",
+    "fayetteville-ga",
+    "forest-park-ga",
+    "gainesville-ga",
+    "georgetown-ga",
+    "griffin",
+    "grovetown",
+    "hinesville",
+    "holly-springs-ga",
+    "jefferson-ga",
+    "johns-creek",
+    "kennesaw",
+    "kingsland",
+    "lagrange",
+    "lawrenceville",
+    "lilburn",
+    "lithia-springs",
+    "loganville",
+    "mableton",
+    "macon",
+    "marietta-ga",
+    "martinez-ga",
+    "mcdonough",
+    "milledgeville",
+    "milton-ga",
+    "monroe-ga",
+    "moultrie",
+    "mountain-park",
+    "newnan",
+    "norcross",
+    "north-decatur",
+    "north-druid-hills",
+    "peachtree-city",
+    "peachtree-corners",
+    "perry",
+    "pooler",
+    "powder-springs",
+    "redan",
+    "richmond-hill-ga",
+    "riverdale-ga",
+    "rome-ga",
+    "roswell-ga",
+    "saint-simon-mills",
+    "saint-simons-island",
+    "sandy-springs",
+    "savannah",
+    "scottdale",
+    "smyrna-ga",
+    "snellville",
+    "south-fulton",
+    "st-marys",
+    "statesboro",
+    "stockbridge",
+    "stonecrest",
+    "sugar-hill",
+    "suwanee",
+    "thomasville-ga",
+    "tifton",
+    "tucker",
+    "union-city-ga",
+    "valdosta",
+    "vidalia",
+    "villa-rica",
+    "warner-robins",
+    "waycross",
+    "wilmington-island",
+    "winder",
+    "woodstock-ga"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.897Z"
+}

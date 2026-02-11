@@ -1,0 +1,198 @@
+{
+  "city": "Robbinsdale",
+  "slug": "robbinsdale",
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "county": "Hennepin County",
+  "lat": 45.0322,
+  "lng": -93.3386,
+  "fetchedAt": "2026-02-11T17:08:27.767Z",
+  "census": {
+    "population": 1270787,
+    "medianAge": 37.2,
+    "medianHouseholdIncome": 92595,
+    "medianHomeValue": 358000,
+    "medianRent": 1373,
+    "povertyRate": 9.8,
+    "unemploymentRate": 4.3,
+    "bachelorDegreeOrHigher": 52.6,
+    "publicTransitPct": 4.8,
+    "workFromHomePct": 19,
+    "demographics": {
+      "white": 69,
+      "black": 13.3,
+      "asian": 7.1,
+      "hispanic": 7.1,
+      "other": 3.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 18.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 27.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 28.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 27.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 1258713,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MINNEAPOLIS VA MEDICAL CENTER",
+        "city": "MINNEAPOLIS",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "ABBOTT NORTHWESTERN HOSPITAL",
+        "city": "MINNEAPOLIS",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "M HEALTH FAIRVIEW SOUTHDALE HOSPITAL",
+        "city": "EDINA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MAPLE GROVE HOSPITAL",
+        "city": "MAPLE GROVE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HENNEPIN COUNTY MEDICAL CENTER",
+        "city": "MINNEAPOLIS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Local"
+      },
+      {
+        "name": "PARK NICOLLET METHODIST HOSPITAL",
+        "city": "SAINT LOUIS PARK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "M HEALTH FAIRVIEW UNIVERSITY OF MN",
+        "city": "MINNEAPOLIS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "NORTH MEMORIAL HEALTH HOSPITAL",
+        "city": "ROBBINSDALE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 9,
+    "ratedHospitals": 8,
+    "averageRating": 3.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

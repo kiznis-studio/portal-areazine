@@ -1,0 +1,158 @@
+{
+  "city": "Milford",
+  "slug": "milford-de",
+  "state": "Delaware",
+  "stateCode": "DE",
+  "county": "Sussex County",
+  "lat": 38.9126,
+  "lng": -75.428,
+  "fetchedAt": "2026-02-11T17:08:27.879Z",
+  "census": {
+    "population": 240668,
+    "medianAge": 51.3,
+    "medianHouseholdIncome": 75406,
+    "medianHomeValue": 324400,
+    "medianRent": 1162,
+    "povertyRate": 11.6,
+    "unemploymentRate": 5,
+    "bachelorDegreeOrHigher": 31.7,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 10.5,
+    "demographics": {
+      "white": 78,
+      "black": 11,
+      "asian": 1.3,
+      "hispanic": 9.5,
+      "other": 0.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 63.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 83.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 13.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 27.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 43.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.5,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 263509,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "TIDALHEALTH NANTICOKE, INC.",
+        "city": "SEAFORD",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "BEEBE MEDICAL CENTER",
+        "city": "LEWES",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "BAYHEALTH HOSPITAL, SUSSEX CAMPUS",
+        "city": "MILFORD",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 3,
+    "averageRating": 3.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

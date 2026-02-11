@@ -1,0 +1,80 @@
+{
+  "city": "Easton",
+  "slug": "easton-pa",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Northampton County",
+  "lat": 40.6884,
+  "lng": -75.2207,
+  "fetchedAt": "2026-02-11T17:08:27.612Z",
+  "census": {
+    "population": 314299,
+    "medianAge": 41.9,
+    "medianHouseholdIncome": 82201,
+    "medianHomeValue": 265600,
+    "medianRent": 1280,
+    "povertyRate": 9.2,
+    "unemploymentRate": 4.6,
+    "bachelorDegreeOrHigher": 32.8,
+    "publicTransitPct": 1.3,
+    "workFromHomePct": 11.2,
+    "demographics": {
+      "white": 78.9,
+      "black": 5.7,
+      "asian": 3,
+      "hispanic": 14.7,
+      "other": -2.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.4,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 319091,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ST LUKE'S HOSPITAL BETHLEHEM",
+        "city": "BETHLEHEM",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ST LUKE'S HOSPITAL - ANDERSON CAMPUS",
+        "city": "EASTON",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ST LUKE'S HOSPITAL - EASTON CAMPUS",
+        "city": "EASTON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 3,
+    "averageRating": 4.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

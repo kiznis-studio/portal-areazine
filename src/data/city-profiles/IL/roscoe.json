@@ -1,0 +1,158 @@
+{
+  "city": "Roscoe",
+  "slug": "roscoe",
+  "state": "Illinois",
+  "stateCode": "IL",
+  "county": "Winnebago County",
+  "lat": 42.4134,
+  "lng": -89.0093,
+  "fetchedAt": "2026-02-11T17:08:27.871Z",
+  "census": {
+    "population": 284591,
+    "medianAge": 39.5,
+    "medianHouseholdIncome": 61738,
+    "medianHomeValue": 146800,
+    "medianRent": 941,
+    "povertyRate": 16.1,
+    "unemploymentRate": 7.5,
+    "bachelorDegreeOrHigher": 24.1,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 7.3,
+    "demographics": {
+      "white": 71.7,
+      "black": 13.4,
+      "asian": 2.9,
+      "hispanic": 14.1,
+      "other": -2.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 42,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 38.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 27,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 56.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 280922,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "UW HEALTH",
+        "city": "ROCKFORD",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SAINT ANTHONY MEDICAL CENTER",
+        "city": "ROCKFORD",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "JAVON BEA HOSPITAL",
+        "city": "ROCKFORD",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 3,
+    "averageRating": 2.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

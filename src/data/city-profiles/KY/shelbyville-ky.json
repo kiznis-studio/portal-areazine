@@ -1,0 +1,55 @@
+{
+  "city": "Shelbyville",
+  "slug": "shelbyville-ky",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Shelby County",
+  "lat": 38.212,
+  "lng": -85.2236,
+  "fetchedAt": "2026-02-11T17:08:27.750Z",
+  "census": {
+    "population": 48105,
+    "medianAge": 40.6,
+    "medianHouseholdIncome": 81012,
+    "medianHomeValue": 247500,
+    "medianRent": 939,
+    "povertyRate": 7.9,
+    "unemploymentRate": 3.2,
+    "bachelorDegreeOrHigher": 30.2,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 10.1,
+    "demographics": {
+      "white": 83.1,
+      "black": 5.2,
+      "asian": 1.1,
+      "hispanic": 9.6,
+      "other": 1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.4,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 49515,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 1,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

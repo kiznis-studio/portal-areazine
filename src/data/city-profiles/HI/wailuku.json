@@ -1,0 +1,142 @@
+{
+  "city": "Wailuku",
+  "slug": "wailuku",
+  "state": "Hawaii",
+  "stateCode": "HI",
+  "county": "Maui County",
+  "lat": 20.8913,
+  "lng": -156.506,
+  "fetchedAt": "2026-02-11T17:08:27.749Z",
+  "census": {
+    "population": 164765,
+    "medianAge": 42.2,
+    "medianHouseholdIncome": 95379,
+    "medianHomeValue": 800100,
+    "medianRent": 1805,
+    "povertyRate": 9.3,
+    "unemploymentRate": 5.4,
+    "bachelorDegreeOrHigher": 30.1,
+    "publicTransitPct": 1.6,
+    "workFromHomePct": 8.5,
+    "demographics": {
+      "white": 31.8,
+      "black": 0.8,
+      "asian": 28.4,
+      "hispanic": 11.9,
+      "other": 27.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 26.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 41.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 164183,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MAUI MEMORIAL MEDICAL CENTER",
+        "city": "WAILUKU",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Government - State"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

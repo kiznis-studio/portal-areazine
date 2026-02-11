@@ -1,0 +1,133 @@
+{
+  "city": "Cave Spring",
+  "slug": "cave-spring",
+  "state": "Virginia",
+  "stateCode": "VA",
+  "county": "Roanoke County",
+  "lat": 37.2276,
+  "lng": -80.0128,
+  "fetchedAt": "2026-02-11T17:08:27.627Z",
+  "census": {
+    "population": 96653,
+    "medianAge": 43.6,
+    "medianHouseholdIncome": 80872,
+    "medianHomeValue": 245800,
+    "medianRent": 1116,
+    "povertyRate": 7.1,
+    "unemploymentRate": 2.6,
+    "bachelorDegreeOrHigher": 37.5,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 12.5,
+    "demographics": {
+      "white": 85.6,
+      "black": 6.1,
+      "asian": 3.6,
+      "hispanic": 3.5,
+      "other": 1.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 31.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 36.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 70.5,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 97026,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 1,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

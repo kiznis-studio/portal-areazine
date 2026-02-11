@@ -1,0 +1,158 @@
+{
+  "city": "Kingsport",
+  "slug": "kingsport",
+  "state": "Tennessee",
+  "stateCode": "TN",
+  "county": "Sullivan County",
+  "lat": 36.5484,
+  "lng": -82.5618,
+  "fetchedAt": "2026-02-11T17:08:27.499Z",
+  "census": {
+    "population": 158722,
+    "medianAge": 45.2,
+    "medianHouseholdIncome": 54357,
+    "medianHomeValue": 173000,
+    "medianRent": 793,
+    "povertyRate": 15.2,
+    "unemploymentRate": 6.2,
+    "bachelorDegreeOrHigher": 26.3,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 7.7,
+    "demographics": {
+      "white": 93.2,
+      "black": 2,
+      "asian": 0.8,
+      "hispanic": 2.2,
+      "other": 1.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 19.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 42,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 162135,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "WELLMONT HOLSTON VALLEY MEDICAL CENTER",
+        "city": "KINGSPORT",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "INDIAN PATH COMMUNITY HOSPITAL",
+        "city": "KINGSPORT",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "WELLMONT BRISTOL REGIONAL MEDICAL CENTER",
+        "city": "BRISTOL",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 3,
+    "averageRating": 2.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

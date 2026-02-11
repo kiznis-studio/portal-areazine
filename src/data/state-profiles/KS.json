@@ -1,0 +1,205 @@
+{
+  "stateCode": "KS",
+  "stateName": "Kansas",
+  "cityCount": 36,
+  "totalPopulation": 1821774,
+  "avgMedianIncome": 64226,
+  "avgMedianHomeValue": 166983,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "wichita",
+        "name": "Wichita",
+        "value": 396119
+      },
+      {
+        "slug": "overland-park",
+        "name": "Overland Park",
+        "value": 186515
+      },
+      {
+        "slug": "kansas-city-ks",
+        "name": "Kansas City",
+        "value": 152933
+      },
+      {
+        "slug": "olathe",
+        "name": "Olathe",
+        "value": 134305
+      },
+      {
+        "slug": "topeka",
+        "name": "Topeka",
+        "value": 125963
+      },
+      {
+        "slug": "lawrence-ks",
+        "name": "Lawrence",
+        "value": 93917
+      },
+      {
+        "slug": "shawnee-ks",
+        "name": "Shawnee",
+        "value": 65046
+      },
+      {
+        "slug": "manhattan",
+        "name": "Manhattan",
+        "value": 56308
+      },
+      {
+        "slug": "lenexa",
+        "name": "Lenexa",
+        "value": 52490
+      },
+      {
+        "slug": "salina",
+        "name": "Salina",
+        "value": 47813
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "overland-park",
+        "name": "Overland Park",
+        "value": 103644
+      },
+      {
+        "slug": "leavenworth",
+        "name": "Leavenworth",
+        "value": 84307
+      },
+      {
+        "slug": "el-dorado-ks",
+        "name": "El Dorado",
+        "value": 77724
+      },
+      {
+        "slug": "mcpherson",
+        "name": "McPherson",
+        "value": 71250
+      },
+      {
+        "slug": "newton-ks",
+        "name": "Newton",
+        "value": 70685
+      },
+      {
+        "slug": "garden-city-ks",
+        "name": "Garden City",
+        "value": 68481
+      },
+      {
+        "slug": "ottawa-ks",
+        "name": "Ottawa",
+        "value": 68217
+      },
+      {
+        "slug": "dodge-city",
+        "name": "Dodge City",
+        "value": 67997
+      },
+      {
+        "slug": "lawrence-ks",
+        "name": "Lawrence",
+        "value": 66153
+      },
+      {
+        "slug": "wichita",
+        "name": "Wichita",
+        "value": 65372
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "overland-park",
+        "name": "Overland Park",
+        "value": 343300
+      },
+      {
+        "slug": "lawrence-ks",
+        "name": "Lawrence",
+        "value": 259500
+      },
+      {
+        "slug": "leavenworth",
+        "name": "Leavenworth",
+        "value": 240800
+      },
+      {
+        "slug": "manhattan",
+        "name": "Manhattan",
+        "value": 231000
+      },
+      {
+        "slug": "hays",
+        "name": "Hays",
+        "value": 199100
+      },
+      {
+        "slug": "garden-city-ks",
+        "name": "Garden City",
+        "value": 183900
+      },
+      {
+        "slug": "el-dorado-ks",
+        "name": "El Dorado",
+        "value": 181700
+      },
+      {
+        "slug": "mcpherson",
+        "name": "McPherson",
+        "value": 180900
+      },
+      {
+        "slug": "wichita",
+        "name": "Wichita",
+        "value": 175700
+      },
+      {
+        "slug": "ottawa-ks",
+        "name": "Ottawa",
+        "value": 175500
+      }
+    ]
+  },
+  "cities": [
+    "andover-ks",
+    "arkansas-city",
+    "atchison",
+    "derby-ks",
+    "dodge-city",
+    "el-dorado-ks",
+    "emporia",
+    "garden-city-ks",
+    "gardner-ks",
+    "great-bend",
+    "hays",
+    "haysville",
+    "hutchinson-ks",
+    "junction-city",
+    "kansas-city-ks",
+    "lansing-ks",
+    "lawrence-ks",
+    "leavenworth",
+    "leawood",
+    "lenexa",
+    "liberal",
+    "manhattan",
+    "mcpherson",
+    "merriam",
+    "newton-ks",
+    "olathe",
+    "ottawa-ks",
+    "overland-park",
+    "parsons",
+    "pittsburg-ks",
+    "prairie-village",
+    "salina",
+    "shawnee-ks",
+    "topeka",
+    "wichita",
+    "winfield"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.897Z"
+}

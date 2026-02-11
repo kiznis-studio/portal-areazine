@@ -1,0 +1,150 @@
+{
+  "city": "Mount Airy",
+  "slug": "mount-airy",
+  "state": "North Carolina",
+  "stateCode": "NC",
+  "county": "Surry County",
+  "lat": 36.4993,
+  "lng": -80.6073,
+  "fetchedAt": "2026-02-11T17:08:27.877Z",
+  "census": {
+    "population": 71429,
+    "medianAge": 43.8,
+    "medianHouseholdIncome": 52743,
+    "medianHomeValue": 153700,
+    "medianRent": 706,
+    "povertyRate": 17.9,
+    "unemploymentRate": 4.8,
+    "bachelorDegreeOrHigher": 18.2,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 4.1,
+    "demographics": {
+      "white": 88,
+      "black": 3.8,
+      "asian": 0.6,
+      "hispanic": 11.5,
+      "other": -3.9
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 28.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 17.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 58.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 40.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 71462,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "NORTHERN REGIONAL HOSPITAL",
+        "city": "MOUNT AIRY",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "HUGH CHATHAM MEMORIAL HOSPITAL",
+        "city": "ELKIN",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 2,
+    "averageRating": 3.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "stateCode": "WY",
+  "stateName": "Wyoming",
+  "cityCount": 10,
+  "totalPopulation": 278053,
+  "avgMedianIncome": 76593,
+  "avgMedianHomeValue": 362711,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "cheyenne",
+        "name": "Cheyenne",
+        "value": 65132
+      },
+      {
+        "slug": "casper",
+        "name": "Casper",
+        "value": 60285
+      },
+      {
+        "slug": "gillette",
+        "name": "Gillette",
+        "value": 32649
+      },
+      {
+        "slug": "laramie",
+        "name": "Laramie",
+        "value": 32158
+      },
+      {
+        "slug": "rock-springs",
+        "name": "Rock Springs",
+        "value": 23962
+      },
+      {
+        "slug": "sheridan",
+        "name": "Sheridan",
+        "value": 17873
+      },
+      {
+        "slug": "green-river",
+        "name": "Green River",
+        "value": 12465
+      },
+      {
+        "slug": "evanston-wy",
+        "name": "Evanston",
+        "value": 12133
+      },
+      {
+        "slug": "riverton-wy",
+        "name": "Riverton",
+        "value": 10873
+      },
+      {
+        "slug": "jackson-wy",
+        "name": "Jackson",
+        "value": 10523
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "jackson-wy",
+        "name": "Jackson",
+        "value": 108279
+      },
+      {
+        "slug": "gillette",
+        "name": "Gillette",
+        "value": 93315
+      },
+      {
+        "slug": "rock-springs",
+        "name": "Rock Springs",
+        "value": 79375
+      },
+      {
+        "slug": "evanston-wy",
+        "name": "Evanston",
+        "value": 78164
+      },
+      {
+        "slug": "cheyenne",
+        "name": "Cheyenne",
+        "value": 76282
+      },
+      {
+        "slug": "casper",
+        "name": "Casper",
+        "value": 69104
+      },
+      {
+        "slug": "sheridan",
+        "name": "Sheridan",
+        "value": 68898
+      },
+      {
+        "slug": "riverton-wy",
+        "name": "Riverton",
+        "value": 60030
+      },
+      {
+        "slug": "laramie",
+        "name": "Laramie",
+        "value": 55887
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "jackson-wy",
+        "name": "Jackson",
+        "value": 1137500
+      },
+      {
+        "slug": "sheridan",
+        "name": "Sheridan",
+        "value": 342400
+      },
+      {
+        "slug": "cheyenne",
+        "name": "Cheyenne",
+        "value": 295800
+      },
+      {
+        "slug": "laramie",
+        "name": "Laramie",
+        "value": 291500
+      },
+      {
+        "slug": "gillette",
+        "name": "Gillette",
+        "value": 247800
+      },
+      {
+        "slug": "casper",
+        "name": "Casper",
+        "value": 247600
+      },
+      {
+        "slug": "rock-springs",
+        "name": "Rock Springs",
+        "value": 240300
+      },
+      {
+        "slug": "riverton-wy",
+        "name": "Riverton",
+        "value": 236700
+      },
+      {
+        "slug": "evanston-wy",
+        "name": "Evanston",
+        "value": 224800
+      }
+    ]
+  },
+  "cities": [
+    "casper",
+    "cheyenne",
+    "evanston-wy",
+    "gillette",
+    "green-river",
+    "jackson-wy",
+    "laramie",
+    "riverton-wy",
+    "rock-springs",
+    "sheridan"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

@@ -1,0 +1,25 @@
+---
+interface Props {
+  county: string;
+}
+
+const { county } = Astro.props;
+---
+
+<details class="mt-12 pt-8 border-t border-[var(--color-border)] group">
+  <summary class="cursor-pointer text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] select-none flex items-center gap-2">
+    <svg class="w-4 h-4 transition-transform group-open:rotate-90" viewBox="0 0 16 16" fill="none">
+      <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    Data Sources
+  </summary>
+  <div class="mt-4">
+    <p class="text-sm text-[var(--color-muted)] max-w-2xl leading-relaxed">
+      All data on this page comes from official U.S. government sources. Demographics and economic data from the
+      <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Census Bureau American Community Survey</a> (2022 5-year estimates).
+      Health data from the <a href="https://www.cdc.gov/places/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">CDC PLACES</a> program (2023).
+      Hospital ratings from <a href="https://data.cms.gov/provider-data/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">CMS Hospital Compare</a> (2024).
+      Data is county-level ({county}) as the smallest consistent geographic unit across all sources.
+    </p>
+  </div>
+</details>

@@ -1,0 +1,206 @@
+{
+  "city": "Greenburgh",
+  "slug": "greenburgh",
+  "state": "New York",
+  "stateCode": "NY",
+  "county": "Westchester County",
+  "lat": 41.0329,
+  "lng": -73.8429,
+  "fetchedAt": "2026-02-11T17:08:27.449Z",
+  "census": {
+    "population": 997904,
+    "medianAge": 41.3,
+    "medianHouseholdIncome": 114651,
+    "medianHomeValue": 619000,
+    "medianRent": 1796,
+    "povertyRate": 8.5,
+    "unemploymentRate": 6,
+    "bachelorDegreeOrHigher": 51.8,
+    "publicTransitPct": 18.6,
+    "workFromHomePct": 15.2,
+    "demographics": {
+      "white": 57.3,
+      "black": 14.6,
+      "asian": 6.2,
+      "hispanic": 25.8,
+      "other": -3.9
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 26,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 990817,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "VA HUDSON VALLEY HEALTHCARE SYSTEM",
+        "city": "MONTROSE",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": false,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "NORTHERN WESTCHESTER HOSPITAL",
+        "city": "MOUNT KISCO",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "WHITE PLAINS HOSPITAL CENTER",
+        "city": "WHITE PLAINS",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HUDSON VALLEY HOSPITAL CENTER",
+        "city": "CORTLANDT MANOR",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PHELPS HOSPITAL",
+        "city": "SLEEPY HOLLOW",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ST JOHN'S RIVERSIDE HOSPITAL",
+        "city": "YONKERS",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ST JOSEPH'S MEDICAL CENTER",
+        "city": "YONKERS",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MONTEFIORE NEW ROCHELLE HOSPITAL",
+        "city": "NEW ROCHELLE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "WESTCHESTER MEDICAL CENTER",
+        "city": "VALHALLA",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 12,
+    "ratedHospitals": 9,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

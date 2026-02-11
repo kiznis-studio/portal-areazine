@@ -1,0 +1,158 @@
+{
+  "city": "Columbus",
+  "slug": "columbus-ga",
+  "state": "Georgia",
+  "stateCode": "GA",
+  "county": "Muscogee County",
+  "lat": 32.461,
+  "lng": -84.9877,
+  "fetchedAt": "2026-02-11T17:08:27.381Z",
+  "census": {
+    "population": 204572,
+    "medianAge": 34.9,
+    "medianHouseholdIncome": 54561,
+    "medianHomeValue": 168400,
+    "medianRent": 1038,
+    "povertyRate": 18.7,
+    "unemploymentRate": 6.8,
+    "bachelorDegreeOrHigher": 28.4,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 7,
+    "demographics": {
+      "white": 40.6,
+      "black": 46.6,
+      "asian": 2.6,
+      "hispanic": 8,
+      "other": 2.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 43.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 14.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 40.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 54.3,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 201877,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PIEDMONT COLUMBUS REGIONAL NORTHSIDE",
+        "city": "COLUMBUS",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "ST FRANCIS HOSPITAL- EMORY HEALTHCARE",
+        "city": "COLUMBUS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PIEDMONT COLUMBUS REGIONAL MIDTOWN",
+        "city": "COLUMBUS",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 3,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

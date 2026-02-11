@@ -1,0 +1,309 @@
+{
+  "stateCode": "MD",
+  "stateName": "Maryland",
+  "cityCount": 140,
+  "totalPopulation": 4357695,
+  "avgMedianIncome": 95781,
+  "avgMedianHomeValue": 349589,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "baltimore",
+        "name": "Baltimore",
+        "value": 585708
+      },
+      {
+        "slug": "columbia-md",
+        "name": "Columbia",
+        "value": 99615
+      },
+      {
+        "slug": "germantown-md",
+        "name": "Germantown",
+        "value": 86395
+      },
+      {
+        "slug": "silver-spring",
+        "name": "Silver Spring",
+        "value": 71452
+      },
+      {
+        "slug": "frederick-md",
+        "name": "Frederick",
+        "value": 69479
+      },
+      {
+        "slug": "waldorf",
+        "name": "Waldorf",
+        "value": 67752
+      },
+      {
+        "slug": "glen-burnie",
+        "name": "Glen Burnie",
+        "value": 67639
+      },
+      {
+        "slug": "gaithersburg",
+        "name": "Gaithersburg",
+        "value": 67456
+      },
+      {
+        "slug": "rockville",
+        "name": "Rockville",
+        "value": 66980
+      },
+      {
+        "slug": "ellicott-city",
+        "name": "Ellicott City",
+        "value": 65834
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "columbia-md",
+        "name": "Columbia",
+        "value": 140971
+      },
+      {
+        "slug": "chesapeake-ranch-estates-drum-point",
+        "name": "Chesapeake Ranch Estates-Drum Point",
+        "value": 128078
+      },
+      {
+        "slug": "germantown-md",
+        "name": "Germantown",
+        "value": 125583
+      },
+      {
+        "slug": "waldorf",
+        "name": "Waldorf",
+        "value": 116882
+      },
+      {
+        "slug": "glen-burnie",
+        "name": "Glen Burnie",
+        "value": 116009
+      },
+      {
+        "slug": "frederick-md",
+        "name": "Frederick",
+        "value": 115724
+      },
+      {
+        "slug": "california",
+        "name": "California",
+        "value": 113668
+      },
+      {
+        "slug": "eldersburg",
+        "name": "Eldersburg",
+        "value": 111672
+      },
+      {
+        "slug": "south-bel-air",
+        "name": "South Bel Air",
+        "value": 106417
+      },
+      {
+        "slug": "bowie",
+        "name": "Bowie",
+        "value": 97935
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "germantown-md",
+        "name": "Germantown",
+        "value": 588900
+      },
+      {
+        "slug": "columbia-md",
+        "name": "Columbia",
+        "value": 551300
+      },
+      {
+        "slug": "glen-burnie",
+        "name": "Glen Burnie",
+        "value": 432000
+      },
+      {
+        "slug": "chesapeake-ranch-estates-drum-point",
+        "name": "Chesapeake Ranch Estates-Drum Point",
+        "value": 418900
+      },
+      {
+        "slug": "frederick-md",
+        "name": "Frederick",
+        "value": 412500
+      },
+      {
+        "slug": "eldersburg",
+        "name": "Eldersburg",
+        "value": 390200
+      },
+      {
+        "slug": "waldorf",
+        "name": "Waldorf",
+        "value": 382800
+      },
+      {
+        "slug": "easton-md",
+        "name": "Easton",
+        "value": 382000
+      },
+      {
+        "slug": "bowie",
+        "name": "Bowie",
+        "value": 380500
+      },
+      {
+        "slug": "california",
+        "name": "California",
+        "value": 376900
+      }
+    ]
+  },
+  "cities": [
+    "aberdeen-md",
+    "accokeek",
+    "adelphi",
+    "annapolis",
+    "arbutus",
+    "arnold-md",
+    "aspen-hill",
+    "ballenger-creek",
+    "baltimore",
+    "bel-air",
+    "bel-air-north",
+    "bel-air-south",
+    "beltsville",
+    "bennsville",
+    "bethesda",
+    "bowie",
+    "brooklyn-park-md",
+    "california",
+    "calverton",
+    "cambridge-md",
+    "camp-springs",
+    "canton-md",
+    "carney",
+    "catonsville",
+    "chesapeake-ranch-estates",
+    "chesapeake-ranch-estates-drum-point",
+    "chillum",
+    "clarksburg-md",
+    "clinton-md",
+    "cloverly",
+    "cockeysville",
+    "colesville",
+    "college-park-md",
+    "columbia-md",
+    "crofton",
+    "cumberland-md",
+    "damascus-md",
+    "dundalk",
+    "east-riverdale",
+    "easton-md",
+    "edgewood",
+    "eldersburg",
+    "elkridge",
+    "elkton",
+    "ellicott-city",
+    "essex",
+    "fairland",
+    "ferndale-md",
+    "forestville-md",
+    "fort-washington",
+    "frankford-md",
+    "frederick-md",
+    "gaithersburg",
+    "germantown-md",
+    "glassmanor",
+    "glen-burnie",
+    "glenmont",
+    "glenn-dale",
+    "greater-upper-marlboro",
+    "green-haven",
+    "green-valley-md",
+    "greenbelt",
+    "gwynn-oak",
+    "hagerstown",
+    "halfway",
+    "hanover-md",
+    "havre-de-grace",
+    "hillcrest-heights",
+    "hunt-valley",
+    "hyattsville",
+    "ilchester",
+    "joppatowne",
+    "kemp-mill",
+    "kettering-md",
+    "lake-shore",
+    "landover",
+    "langley-park",
+    "lanham",
+    "lanham-seabrook",
+    "largo-md",
+    "laurel-md",
+    "lexington-park",
+    "linthicum",
+    "lochearn",
+    "lutherville-timonium",
+    "maryland-city",
+    "mays-chapel",
+    "middle-river",
+    "milford-mill",
+    "mitchellville",
+    "montgomery-village",
+    "new-carrollton",
+    "north-bel-air",
+    "north-bethesda",
+    "north-potomac",
+    "ocean-pines",
+    "odenton",
+    "olney-md",
+    "overlea",
+    "owings-mills",
+    "oxon-hill",
+    "oxon-hill-glassmanor",
+    "parkville",
+    "parole",
+    "pasadena-md",
+    "perry-hall",
+    "pikesville",
+    "potomac",
+    "randallstown",
+    "redland",
+    "reisterstown",
+    "riviera-beach-md",
+    "rockville",
+    "rosaryville",
+    "rosedale-md",
+    "rossville-md",
+    "saint-charles-md",
+    "salisbury-md",
+    "scaggsville",
+    "seabrook-md",
+    "severn",
+    "severna-park",
+    "silver-spring",
+    "south-bel-air",
+    "south-gate-md",
+    "south-laurel",
+    "st-charles-md",
+    "suitland",
+    "suitland-silver-hill",
+    "summerfield-md",
+    "takoma-park",
+    "towson",
+    "travilah",
+    "waldorf",
+    "walker-mill",
+    "west-elkridge",
+    "westminster-md",
+    "wheaton-md",
+    "white-oak-md",
+    "woodlawn-md"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.896Z"
+}

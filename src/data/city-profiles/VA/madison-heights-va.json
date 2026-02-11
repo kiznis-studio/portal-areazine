@@ -1,0 +1,127 @@
+{
+  "city": "Madison Heights",
+  "slug": "madison-heights-va",
+  "state": "Virginia",
+  "stateCode": "VA",
+  "county": "Amherst County",
+  "lat": 37.431,
+  "lng": -79.1231,
+  "fetchedAt": "2026-02-11T17:08:27.847Z",
+  "census": {
+    "population": 31426,
+    "medianAge": 43.9,
+    "medianHouseholdIncome": 64454,
+    "medianHomeValue": 181600,
+    "medianRent": 811,
+    "povertyRate": 11.3,
+    "unemploymentRate": 4.5,
+    "bachelorDegreeOrHigher": 21.9,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 8,
+    "demographics": {
+      "white": 74.9,
+      "black": 18.2,
+      "asian": 0.7,
+      "hispanic": 2.7,
+      "other": 3.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 41.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 31396,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

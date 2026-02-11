@@ -1,0 +1,42 @@
+---
+interface Props {
+  label: string;
+  value: number;
+  unit: string;
+  /** Higher value is worse for most health metrics */
+  invert?: boolean;
+}
+
+const { label, value, unit, invert = true } = Astro.props;
+
+// Health metrics are typically 0-50% range
+const barWidth = Math.min((value / 50) * 100, 100);
+
+// Severity color based on value
+const barColor = value >= 30
+  ? 'var(--severity-high)'
+  : value >= 20
+    ? 'var(--severity-medium)'
+    : 'var(--color-data-teal)';
+
+const textClass = value >= 30
+  ? 'text-[var(--severity-high)]'
+  : value >= 20
+    ? 'text-[var(--severity-medium)]'
+    : '';
+---
+
+<div class="data-row group">
+  <span class="text-sm flex-shrink-0">{label}</span>
+  <div class="flex items-center gap-3">
+    <div class="w-20 sm:w-28 progress-bar hidden sm:block">
+      <div
+        class="progress-bar-fill"
+        style={`width: ${barWidth}%; background: ${barColor};`}
+      />
+    </div>
+    <span class={`font-semibold text-sm tabular-nums min-w-[3.5rem] text-right ${textClass}`}>
+      {value}{unit}
+    </span>
+  </div>
+</div>

@@ -1,0 +1,206 @@
+{
+  "city": "Elk Grove",
+  "slug": "elk-grove",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Sacramento County",
+  "lat": 38.4088,
+  "lng": -121.3716,
+  "fetchedAt": "2026-02-11T17:08:27.395Z",
+  "census": {
+    "population": 1579211,
+    "medianAge": 36.8,
+    "medianHouseholdIncome": 84010,
+    "medianHomeValue": 465900,
+    "medianRent": 1599,
+    "povertyRate": 13.1,
+    "unemploymentRate": 6.3,
+    "bachelorDegreeOrHigher": 32.6,
+    "publicTransitPct": 1.7,
+    "workFromHomePct": 14.9,
+    "demographics": {
+      "white": 49.8,
+      "black": 9.6,
+      "asian": 17.2,
+      "hispanic": 24,
+      "other": -0.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 29.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 21.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 70.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 1584288,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MERCY GENERAL HOSPITAL",
+        "city": "SACRAMENTO",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SUTTER MEDICAL CENTER, SACRAMENTO",
+        "city": "SACRAMENTO",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "VA N CALIFORNIA HEALTHCARE SYSTEM",
+        "city": "MATHER",
+        "rating": 4,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "MERCY HOSPITAL OF FOLSOM",
+        "city": "FOLSOM",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITAL - SACRAMENTO",
+        "city": "SACRAMENTO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MERCY SAN JUAN MEDICAL CENTER",
+        "city": "CARMICHAEL",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "METHODIST HOSPITAL OF SACRAMENTO",
+        "city": "SACRAMENTO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA DAVIS MEDICAL CENTER",
+        "city": "SACRAMENTO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSP SO SACRAMENTO",
+        "city": "SACRAMENTO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 14,
+    "ratedHospitals": 9,
+    "averageRating": 3.4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

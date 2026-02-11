@@ -1,0 +1,182 @@
+{
+  "city": "Aspen Hill",
+  "slug": "aspen-hill",
+  "state": "Maryland",
+  "stateCode": "MD",
+  "county": "Montgomery County",
+  "lat": 39.0796,
+  "lng": -77.073,
+  "fetchedAt": "2026-02-11T17:08:27.512Z",
+  "census": {
+    "population": 1056910,
+    "medianAge": 39.8,
+    "medianHouseholdIncome": 125583,
+    "medianHomeValue": 588900,
+    "medianRent": 1957,
+    "povertyRate": 7.2,
+    "unemploymentRate": 4.8,
+    "bachelorDegreeOrHigher": 60,
+    "publicTransitPct": 9.4,
+    "workFromHomePct": 21.9,
+    "demographics": {
+      "white": 46.6,
+      "black": 18.5,
+      "asian": 15.3,
+      "hispanic": 20,
+      "other": -0.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 12,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 7.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 69.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 26.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 32.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 1058474,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MEDSTAR MONTGOMERY MEDICAL CENTER",
+        "city": "OLNEY",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SUBURBAN HOSPITAL",
+        "city": "BETHESDA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HOLY CROSS HOSPITAL",
+        "city": "SILVER SPRING",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "ADVENTIST HEALTHCARE WHITE OAK MEDICAL CENTER",
+        "city": "SILVER SPRING",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ADVENTIST HEALTHCARE SHADY GROVE MEDICAL CENTER",
+        "city": "ROCKVILLE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HOLY CROSS GERMANTOWN HOSPITAL",
+        "city": "GERMANTOWN",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 7,
+    "ratedHospitals": 6,
+    "averageRating": 2.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

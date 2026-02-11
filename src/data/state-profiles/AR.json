@@ -1,0 +1,208 @@
+{
+  "stateCode": "AR",
+  "stateName": "Arkansas",
+  "cityCount": 39,
+  "totalPopulation": 1382407,
+  "avgMedianIncome": 53872,
+  "avgMedianHomeValue": 149289,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "little-rock",
+        "name": "Little Rock",
+        "value": 202591
+      },
+      {
+        "slug": "fort-smith",
+        "name": "Fort Smith",
+        "value": 88194
+      },
+      {
+        "slug": "fayetteville-ar",
+        "name": "Fayetteville",
+        "value": 82830
+      },
+      {
+        "slug": "springdale-ar",
+        "name": "Springdale",
+        "value": 77859
+      },
+      {
+        "slug": "jonesboro",
+        "name": "Jonesboro",
+        "value": 73907
+      },
+      {
+        "slug": "north-little-rock",
+        "name": "North Little Rock",
+        "value": 66504
+      },
+      {
+        "slug": "conway-ar",
+        "name": "Conway",
+        "value": 64980
+      },
+      {
+        "slug": "rogers-ar",
+        "name": "Rogers",
+        "value": 63159
+      },
+      {
+        "slug": "pine-bluff",
+        "name": "Pine Bluff",
+        "value": 44772
+      },
+      {
+        "slug": "bentonville",
+        "name": "Bentonville",
+        "value": 44499
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "rogers-ar",
+        "name": "Rogers",
+        "value": 85269
+      },
+      {
+        "slug": "benton",
+        "name": "Benton",
+        "value": 73236
+      },
+      {
+        "slug": "cabot",
+        "name": "Cabot",
+        "value": 68078
+      },
+      {
+        "slug": "fayetteville-ar",
+        "name": "Fayetteville",
+        "value": 61985
+      },
+      {
+        "slug": "conway-ar",
+        "name": "Conway",
+        "value": 61273
+      },
+      {
+        "slug": "little-rock",
+        "name": "Little Rock",
+        "value": 58326
+      },
+      {
+        "slug": "van-buren",
+        "name": "Van Buren",
+        "value": 56702
+      },
+      {
+        "slug": "jonesboro",
+        "name": "Jonesboro",
+        "value": 55169
+      },
+      {
+        "slug": "paragould",
+        "name": "Paragould",
+        "value": 54879
+      },
+      {
+        "slug": "hot-springs",
+        "name": "Hot Springs",
+        "value": 54229
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "rogers-ar",
+        "name": "Rogers",
+        "value": 254000
+      },
+      {
+        "slug": "fayetteville-ar",
+        "name": "Fayetteville",
+        "value": 235500
+      },
+      {
+        "slug": "conway-ar",
+        "name": "Conway",
+        "value": 195800
+      },
+      {
+        "slug": "benton",
+        "name": "Benton",
+        "value": 194400
+      },
+      {
+        "slug": "little-rock",
+        "name": "Little Rock",
+        "value": 187600
+      },
+      {
+        "slug": "jonesboro",
+        "name": "Jonesboro",
+        "value": 182600
+      },
+      {
+        "slug": "cabot",
+        "name": "Cabot",
+        "value": 169600
+      },
+      {
+        "slug": "hot-springs",
+        "name": "Hot Springs",
+        "value": 166600
+      },
+      {
+        "slug": "harrison-ar",
+        "name": "Harrison",
+        "value": 158100
+      },
+      {
+        "slug": "paragould",
+        "name": "Paragould",
+        "value": 157400
+      }
+    ]
+  },
+  "cities": [
+    "arkadelphia",
+    "batesville",
+    "bella-vista",
+    "benton",
+    "bentonville",
+    "blytheville",
+    "bryant",
+    "cabot",
+    "camden-ar",
+    "centerton",
+    "conway-ar",
+    "el-dorado-ar",
+    "fayetteville-ar",
+    "forrest-city",
+    "fort-smith",
+    "harrison-ar",
+    "helena-west-helena",
+    "hot-springs",
+    "hot-springs-village",
+    "jacksonville-ar",
+    "jonesboro",
+    "little-rock",
+    "magnolia",
+    "malvern",
+    "marion-ar",
+    "maumelle",
+    "mountain-home-ar",
+    "north-little-rock",
+    "paragould",
+    "pine-bluff",
+    "rogers-ar",
+    "russellville",
+    "searcy",
+    "sherwood-ar",
+    "siloam-springs",
+    "springdale-ar",
+    "texarkana-ar",
+    "van-buren",
+    "west-memphis"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.899Z"
+}

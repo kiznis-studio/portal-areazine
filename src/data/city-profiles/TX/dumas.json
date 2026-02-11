@@ -1,0 +1,133 @@
+{
+  "city": "Dumas",
+  "slug": "dumas",
+  "state": "Texas",
+  "stateCode": "TX",
+  "county": "Moore County",
+  "lat": 35.8656,
+  "lng": -101.9732,
+  "fetchedAt": "2026-02-11T17:08:27.756Z",
+  "census": {
+    "population": 21284,
+    "medianAge": 30.7,
+    "medianHouseholdIncome": 59041,
+    "medianHomeValue": 122700,
+    "medianRent": 879,
+    "povertyRate": 13.5,
+    "unemploymentRate": 2.5,
+    "bachelorDegreeOrHigher": 11.8,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 1.3,
+    "demographics": {
+      "white": 65.1,
+      "black": 4.2,
+      "asian": 3.9,
+      "hispanic": 58.5,
+      "other": -31.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 43.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 71.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 29.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 35.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 21190,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [],
+    "totalHospitals": 1,
+    "ratedHospitals": 0,
+    "averageRating": null,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

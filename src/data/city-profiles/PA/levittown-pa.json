@@ -1,0 +1,96 @@
+{
+  "city": "Levittown",
+  "slug": "levittown-pa",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Bucks County",
+  "lat": 40.1551,
+  "lng": -74.8288,
+  "fetchedAt": "2026-02-11T17:08:27.499Z",
+  "census": {
+    "population": 645163,
+    "medianAge": 44,
+    "medianHouseholdIncome": 107826,
+    "medianHomeValue": 395800,
+    "medianRent": 1461,
+    "povertyRate": 5.6,
+    "unemploymentRate": 4.6,
+    "bachelorDegreeOrHigher": 43.3,
+    "publicTransitPct": 2.3,
+    "workFromHomePct": 14.9,
+    "demographics": {
+      "white": 83.8,
+      "black": 3.9,
+      "asian": 4.9,
+      "hispanic": 5.9,
+      "other": 1.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.2,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 645984,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "GRAND VIEW HEALTH",
+        "city": "SELLERSVILLE",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "ST LUKES QUAKERTOWN HOSPITAL",
+        "city": "QUAKERTOWN",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "DOYLESTOWN HOSPITAL",
+        "city": "DOYLESTOWN",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "LOWER BUCKS HOSPITAL",
+        "city": "BRISTOL",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "ST MARY MEDICAL CENTER",
+        "city": "LANGHORNE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 7,
+    "ratedHospitals": 5,
+    "averageRating": 3.6,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

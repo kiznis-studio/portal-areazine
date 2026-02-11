@@ -1,0 +1,127 @@
+{
+  "city": "Bloomington",
+  "slug": "bloomington-il",
+  "state": "Illinois",
+  "stateCode": "IL",
+  "county": "McLean County",
+  "lat": 40.4842,
+  "lng": -88.9937,
+  "fetchedAt": "2026-02-11T17:08:27.456Z",
+  "census": {
+    "population": 171284,
+    "medianAge": 34,
+    "medianHouseholdIncome": 75356,
+    "medianHomeValue": 191300,
+    "medianRent": 941,
+    "povertyRate": 14.2,
+    "unemploymentRate": 3.2,
+    "bachelorDegreeOrHigher": 46,
+    "publicTransitPct": 0.7,
+    "workFromHomePct": 13.3,
+    "demographics": {
+      "white": 81,
+      "black": 8.5,
+      "asian": 5.1,
+      "hispanic": 5.3,
+      "other": 0.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 170441,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

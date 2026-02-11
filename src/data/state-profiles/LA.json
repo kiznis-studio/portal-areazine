@@ -1,0 +1,232 @@
+{
+  "stateCode": "LA",
+  "stateName": "Louisiana",
+  "cityCount": 63,
+  "totalPopulation": 2328652,
+  "avgMedianIncome": 57816,
+  "avgMedianHomeValue": 184529,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "new-orleans",
+        "name": "New Orleans",
+        "value": 362701
+      },
+      {
+        "slug": "baton-rouge",
+        "name": "Baton Rouge",
+        "value": 227470
+      },
+      {
+        "slug": "shreveport",
+        "name": "Shreveport",
+        "value": 187593
+      },
+      {
+        "slug": "metairie-terrace",
+        "name": "Metairie Terrace",
+        "value": 142489
+      },
+      {
+        "slug": "metairie",
+        "name": "Metairie",
+        "value": 138481
+      },
+      {
+        "slug": "lafayette-la",
+        "name": "Lafayette",
+        "value": 121374
+      },
+      {
+        "slug": "lake-charles",
+        "name": "Lake Charles",
+        "value": 76070
+      },
+      {
+        "slug": "bossier-city",
+        "name": "Bossier City",
+        "value": 68094
+      },
+      {
+        "slug": "kenner",
+        "name": "Kenner",
+        "value": 67091
+      },
+      {
+        "slug": "monroe-la",
+        "name": "Monroe",
+        "value": 49598
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "prairieville",
+        "name": "Prairieville",
+        "value": 93800
+      },
+      {
+        "slug": "luling",
+        "name": "Luling",
+        "value": 79191
+      },
+      {
+        "slug": "belle-chasse",
+        "name": "Belle Chasse",
+        "value": 77996
+      },
+      {
+        "slug": "denham-springs",
+        "name": "Denham Springs",
+        "value": 77978
+      },
+      {
+        "slug": "slidell",
+        "name": "Slidell",
+        "value": 76914
+      },
+      {
+        "slug": "deridder",
+        "name": "DeRidder",
+        "value": 68525
+      },
+      {
+        "slug": "lafayette-la",
+        "name": "Lafayette",
+        "value": 66617
+      },
+      {
+        "slug": "laplace",
+        "name": "Laplace",
+        "value": 65114
+      },
+      {
+        "slug": "bossier-city",
+        "name": "Bossier City",
+        "value": 64598
+      },
+      {
+        "slug": "lake-charles",
+        "name": "Lake Charles",
+        "value": 64370
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "new-orleans",
+        "name": "New Orleans",
+        "value": 281500
+      },
+      {
+        "slug": "slidell",
+        "name": "Slidell",
+        "value": 262400
+      },
+      {
+        "slug": "prairieville",
+        "name": "Prairieville",
+        "value": 255600
+      },
+      {
+        "slug": "belle-chasse",
+        "name": "Belle Chasse",
+        "value": 253300
+      },
+      {
+        "slug": "luling",
+        "name": "Luling",
+        "value": 248600
+      },
+      {
+        "slug": "baton-rouge",
+        "name": "Baton Rouge",
+        "value": 232800
+      },
+      {
+        "slug": "metairie-terrace",
+        "name": "Metairie Terrace",
+        "value": 231700
+      },
+      {
+        "slug": "lafayette-la",
+        "name": "Lafayette",
+        "value": 222400
+      },
+      {
+        "slug": "denham-springs",
+        "name": "Denham Springs",
+        "value": 210100
+      },
+      {
+        "slug": "bossier-city",
+        "name": "Bossier City",
+        "value": 206600
+      }
+    ]
+  },
+  "cities": [
+    "abbeville",
+    "alexandria-la",
+    "baker",
+    "bastrop",
+    "baton-rouge",
+    "bayou-boeuf",
+    "bayou-cane",
+    "belle-chasse",
+    "bogalusa",
+    "bossier-city",
+    "broussard",
+    "central",
+    "chalmette",
+    "claiborne",
+    "crowley-la",
+    "denham-springs",
+    "deridder",
+    "destrehan",
+    "estelle",
+    "eunice",
+    "gardere",
+    "gonzales",
+    "grand-bayou-mobile-home-park",
+    "gretna",
+    "hammond-la",
+    "harvey-la",
+    "houma",
+    "jefferson-la",
+    "jennings-la",
+    "kenner",
+    "lafayette-la",
+    "lake-charles",
+    "laplace",
+    "luling",
+    "mandeville",
+    "marrero",
+    "metairie",
+    "metairie-terrace",
+    "minden",
+    "monroe-la",
+    "morgan-city",
+    "moss-bluff",
+    "natchitoches",
+    "new-iberia",
+    "new-orleans",
+    "opelousas",
+    "pineville",
+    "prairieville",
+    "raceland",
+    "river-ridge",
+    "ruston",
+    "shenandoah",
+    "shreveport",
+    "slidell",
+    "sulphur",
+    "terrytown",
+    "thibodaux",
+    "timberlane",
+    "waggaman",
+    "west-monroe",
+    "woodmere-la",
+    "youngsville",
+    "zachary"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.898Z"
+}

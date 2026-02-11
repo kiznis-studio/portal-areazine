@@ -1,0 +1,64 @@
+{
+  "city": "Glasgow",
+  "slug": "glasgow-ky",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Barren County",
+  "lat": 36.9959,
+  "lng": -85.9119,
+  "fetchedAt": "2026-02-11T17:08:27.767Z",
+  "census": {
+    "population": 44511,
+    "medianAge": 40.2,
+    "medianHouseholdIncome": 48141,
+    "medianHomeValue": 156800,
+    "medianRent": 745,
+    "povertyRate": 21.1,
+    "unemploymentRate": 4.9,
+    "bachelorDegreeOrHigher": 17.4,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 6.4,
+    "demographics": {
+      "white": 89.7,
+      "black": 3.5,
+      "asian": 0.8,
+      "hispanic": 3.6,
+      "other": 2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 41.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 56.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 45008,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "T J SAMSON COMMUNITY HOSPITAL",
+        "city": "GLASGOW",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "city": "Kansas City",
+  "slug": "kansas-city-ks",
+  "state": "Kansas",
+  "stateCode": "KS",
+  "county": "Wyandotte County",
+  "lat": 39.1142,
+  "lng": -94.6275,
+  "fetchedAt": "2026-02-11T17:08:27.401Z",
+  "census": {
+    "population": 167989,
+    "medianAge": 34.3,
+    "medianHouseholdIncome": 57771,
+    "medianHomeValue": 139800,
+    "medianRent": 1043,
+    "povertyRate": 16.8,
+    "unemploymentRate": 5.7,
+    "bachelorDegreeOrHigher": 20,
+    "publicTransitPct": 0.9,
+    "workFromHomePct": 7.4,
+    "demographics": {
+      "white": 50.2,
+      "black": 20.5,
+      "asian": 5.3,
+      "hispanic": 30.2,
+      "other": -6.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 75.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 34.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 17.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 53,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 37,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 17.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 165281,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "UNIVERSITY OF KANSAS HOSPITAL",
+        "city": "KANSAS CITY",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "PROVIDENCE MEDICAL CENTER",
+        "city": "KANSAS CITY",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 2,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

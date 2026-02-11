@@ -1,0 +1,127 @@
+{
+  "city": "West Hartford",
+  "slug": "west-hartford",
+  "state": "Connecticut",
+  "stateCode": "CT",
+  "county": "Capitol Planning Region",
+  "lat": 41.762,
+  "lng": -72.742,
+  "fetchedAt": "2026-02-11T17:08:27.477Z",
+  "census": {
+    "population": 977165,
+    "medianAge": 39.8,
+    "medianHouseholdIncome": 88190,
+    "medianHomeValue": 283800,
+    "medianRent": 1297,
+    "povertyRate": 10.8,
+    "unemploymentRate": 5.6,
+    "bachelorDegreeOrHigher": 41.1,
+    "publicTransitPct": 2.7,
+    "workFromHomePct": 13.2,
+    "demographics": {
+      "white": 66.9,
+      "black": 12.7,
+      "asian": 5.8,
+      "hispanic": 17.9,
+      "other": -3.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 32.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 31.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 69.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 975328,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

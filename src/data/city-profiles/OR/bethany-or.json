@@ -1,0 +1,166 @@
+{
+  "city": "Bethany",
+  "slug": "bethany-or",
+  "state": "Oregon",
+  "stateCode": "OR",
+  "county": "Washington County",
+  "lat": 45.5579,
+  "lng": -122.8676,
+  "fetchedAt": "2026-02-11T17:08:27.672Z",
+  "census": {
+    "population": 599541,
+    "medianAge": 37.5,
+    "medianHouseholdIncome": 100121,
+    "medianHomeValue": 504300,
+    "medianRent": 1695,
+    "povertyRate": 8.2,
+    "unemploymentRate": 4.6,
+    "bachelorDegreeOrHigher": 45.8,
+    "publicTransitPct": 4.1,
+    "workFromHomePct": 18.7,
+    "demographics": {
+      "white": 68.7,
+      "black": 2.3,
+      "asian": 11,
+      "hispanic": 17.4,
+      "other": 0.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 17.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 70.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 9.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 32.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 29.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 598865,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PROVIDENCE ST VINCENT MEDICAL CENTER",
+        "city": "PORTLAND",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITAL WESTSIDE",
+        "city": "HILLSBORO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HILLSBORO MEDICAL CENTER",
+        "city": "HILLSBORO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "LEGACY MERIDIAN PARK MEDICAL CENTER",
+        "city": "TUALATIN",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 4,
+    "averageRating": 2.8,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

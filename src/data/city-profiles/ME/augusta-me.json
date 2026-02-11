@@ -1,0 +1,150 @@
+{
+  "city": "Augusta",
+  "slug": "augusta-me",
+  "state": "Maine",
+  "stateCode": "ME",
+  "county": "Kennebec County",
+  "lat": 44.3106,
+  "lng": -69.7795,
+  "fetchedAt": "2026-02-11T17:08:27.697Z",
+  "census": {
+    "population": 124003,
+    "medianAge": 44.3,
+    "medianHouseholdIncome": 62118,
+    "medianHomeValue": 198300,
+    "medianRent": 900,
+    "povertyRate": 12.4,
+    "unemploymentRate": 4.1,
+    "bachelorDegreeOrHigher": 29.9,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 12,
+    "demographics": {
+      "white": 94.1,
+      "black": 0.7,
+      "asian": 0.9,
+      "hispanic": 1.8,
+      "other": 2.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 32.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 127259,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MAINE GENERAL MEDICAL CENTER",
+        "city": "AUGUSTA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "TOGUS VA MEDICAL CENTER",
+        "city": "AUGUSTA",
+        "rating": 4,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 2,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

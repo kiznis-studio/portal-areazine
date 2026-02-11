@@ -1,0 +1,214 @@
+{
+  "city": "Mission Viejo",
+  "slug": "mission-viejo",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Orange County",
+  "lat": 33.6,
+  "lng": -117.672,
+  "fetchedAt": "2026-02-11T17:08:27.440Z",
+  "census": {
+    "population": 3175227,
+    "medianAge": 38.7,
+    "medianHouseholdIncome": 109361,
+    "medianHomeValue": 862900,
+    "medianRent": 2248,
+    "povertyRate": 9.7,
+    "unemploymentRate": 5.4,
+    "bachelorDegreeOrHigher": 42.8,
+    "publicTransitPct": 1.4,
+    "workFromHomePct": 14.6,
+    "demographics": {
+      "white": 50.2,
+      "black": 1.7,
+      "asian": 21.7,
+      "hispanic": 33.9,
+      "other": -7.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 23.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 73.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 3135755,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "HOAG MEMORIAL HOSPITAL PRESBYTERIAN",
+        "city": "NEWPORT BEACH",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PROVIDENCE ST. JOSEPH HOSPITAL",
+        "city": "ORANGE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "PROVIDENCE ST. JUDE MEDICAL CENTER",
+        "city": "FULLERTON",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "UCI HEALTH-ORANGE",
+        "city": "ORANGE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Local"
+      },
+      {
+        "name": "PROVIDENCE MISSION HOSPITAL",
+        "city": "MISSION VIEJO",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MEMORIALCARE SADDLEBACK MEDICAL CENTER",
+        "city": "LAGUNA HILLS",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITAL - ORANGE COUNTY - ANAHEIM",
+        "city": "ANAHEIM",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "AHMC ANAHEIM REGIONAL MEDICAL CENTER",
+        "city": "ANAHEIM",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "GARDEN GROVE HOSPITAL & MEDICAL CENTER",
+        "city": "GARDEN GROVE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "UCI HEALTH - LOS ALAMITOS",
+        "city": "LOS ALAMITOS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 28,
+    "ratedHospitals": 17,
+    "averageRating": 3.1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

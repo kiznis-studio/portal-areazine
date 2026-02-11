@@ -1,0 +1,280 @@
+{
+  "stateCode": "MI",
+  "stateName": "Michigan",
+  "cityCount": 111,
+  "totalPopulation": 4735563,
+  "avgMedianIncome": 65698,
+  "avgMedianHomeValue": 184333,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "detroit",
+        "name": "Detroit",
+        "value": 645705
+      },
+      {
+        "slug": "grand-rapids-mi",
+        "name": "Grand Rapids",
+        "value": 195097
+      },
+      {
+        "slug": "warren-mi",
+        "name": "Warren",
+        "value": 134056
+      },
+      {
+        "slug": "sterling-heights",
+        "name": "Sterling Heights",
+        "value": 132052
+      },
+      {
+        "slug": "ann-arbor",
+        "name": "Ann Arbor",
+        "value": 117070
+      },
+      {
+        "slug": "lansing-mi",
+        "name": "Lansing",
+        "value": 112644
+      },
+      {
+        "slug": "clinton-township",
+        "name": "Clinton Township",
+        "value": 99753
+      },
+      {
+        "slug": "flint",
+        "name": "Flint",
+        "value": 98310
+      },
+      {
+        "slug": "dearborn",
+        "name": "Dearborn",
+        "value": 95171
+      },
+      {
+        "slug": "livonia",
+        "name": "Livonia",
+        "value": 94635
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "troy-mi",
+        "name": "Troy",
+        "value": 92620
+      },
+      {
+        "slug": "ann-arbor",
+        "name": "Ann Arbor",
+        "value": 84245
+      },
+      {
+        "slug": "allendale",
+        "name": "Allendale",
+        "value": 83932
+      },
+      {
+        "slug": "waverly-mi",
+        "name": "Waverly",
+        "value": 77158
+      },
+      {
+        "slug": "grand-rapids-mi",
+        "name": "Grand Rapids",
+        "value": 76247
+      },
+      {
+        "slug": "traverse-city",
+        "name": "Traverse City",
+        "value": 75553
+      },
+      {
+        "slug": "holland",
+        "name": "Holland",
+        "value": 75543
+      },
+      {
+        "slug": "warren-mi",
+        "name": "Warren",
+        "value": 73876
+      },
+      {
+        "slug": "midland-mi",
+        "name": "Midland",
+        "value": 73643
+      },
+      {
+        "slug": "monroe-mi",
+        "name": "Monroe",
+        "value": 72573
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "ann-arbor",
+        "name": "Ann Arbor",
+        "value": 336300
+      },
+      {
+        "slug": "troy-mi",
+        "name": "Troy",
+        "value": 302800
+      },
+      {
+        "slug": "traverse-city",
+        "name": "Traverse City",
+        "value": 273300
+      },
+      {
+        "slug": "allendale",
+        "name": "Allendale",
+        "value": 269200
+      },
+      {
+        "slug": "grand-rapids-mi",
+        "name": "Grand Rapids",
+        "value": 242200
+      },
+      {
+        "slug": "holland",
+        "name": "Holland",
+        "value": 225000
+      },
+      {
+        "slug": "warren-mi",
+        "name": "Warren",
+        "value": 216200
+      },
+      {
+        "slug": "kalamazoo",
+        "name": "Kalamazoo",
+        "value": 209700
+      },
+      {
+        "slug": "monroe-mi",
+        "name": "Monroe",
+        "value": 202200
+      },
+      {
+        "slug": "port-huron",
+        "name": "Port Huron",
+        "value": 197300
+      }
+    ]
+  },
+  "cities": [
+    "adrian",
+    "allen-park",
+    "allendale",
+    "alpena",
+    "ann-arbor",
+    "auburn-hills",
+    "battle-creek",
+    "bay-city-mi",
+    "beecher",
+    "berkley-mi",
+    "beverly-hills-mi",
+    "big-rapids",
+    "birmingham-mi",
+    "burton",
+    "cadillac",
+    "canton-mi",
+    "clawson",
+    "clinton-township",
+    "coldwater",
+    "comstock-park",
+    "cutlerville",
+    "dearborn",
+    "dearborn-heights",
+    "detroit",
+    "east-grand-rapids",
+    "east-lansing",
+    "eastpointe",
+    "escanaba",
+    "farmington-hills",
+    "farmington-mi",
+    "fenton",
+    "ferndale-mi",
+    "flint",
+    "forest-hills-mi",
+    "fraser",
+    "garden-city-mi",
+    "grand-haven",
+    "grand-rapids-mi",
+    "grandville",
+    "grosse-ile",
+    "grosse-pointe-park",
+    "grosse-pointe-woods",
+    "hamtramck",
+    "harper-woods",
+    "haslett",
+    "hazel-park",
+    "highland-park-mi",
+    "holland",
+    "holt",
+    "inkster",
+    "ionia",
+    "jackson-mi",
+    "jenison",
+    "kalamazoo",
+    "kentwood",
+    "lansing-mi",
+    "lincoln-park-mi",
+    "livonia",
+    "madison-heights-mi",
+    "marquette",
+    "melvindale",
+    "midland-mi",
+    "monroe-mi",
+    "mount-clemens",
+    "mount-pleasant-mi",
+    "muskegon",
+    "muskegon-heights",
+    "new-baltimore",
+    "niles-mi",
+    "northview",
+    "norton-shores",
+    "novi",
+    "oak-park-mi",
+    "okemos",
+    "owosso",
+    "pontiac-mi",
+    "port-huron",
+    "portage-mi",
+    "redford",
+    "riverview-mi",
+    "rochester-hills",
+    "rochester-mi",
+    "romulus",
+    "roseville-mi",
+    "royal-oak",
+    "saginaw-mi",
+    "saginaw-township-north",
+    "saint-clair-shores",
+    "sault-ste-marie",
+    "shelby-mi",
+    "south-lyon",
+    "southfield",
+    "southgate",
+    "sterling-heights",
+    "sturgis",
+    "taylor-mi",
+    "traverse-city",
+    "trenton-mi",
+    "troy-mi",
+    "walker",
+    "warren-mi",
+    "waterford-mi",
+    "waverly-mi",
+    "wayne-mi",
+    "west-bloomfield-township",
+    "westland",
+    "wixom",
+    "woodhaven-mi",
+    "wyandotte",
+    "wyoming",
+    "ypsilanti"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.896Z"
+}

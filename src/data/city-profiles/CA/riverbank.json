@@ -1,0 +1,158 @@
+{
+  "city": "Riverbank",
+  "slug": "riverbank",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Stanislaus County",
+  "lat": 37.736,
+  "lng": -120.9355,
+  "fetchedAt": "2026-02-11T17:08:27.635Z",
+  "census": {
+    "population": 552063,
+    "medianAge": 34.5,
+    "medianHouseholdIncome": 74872,
+    "medianHomeValue": 393300,
+    "medianRent": 1433,
+    "povertyRate": 13.7,
+    "unemploymentRate": 8.2,
+    "bachelorDegreeOrHigher": 18.2,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 6.6,
+    "demographics": {
+      "white": 57.3,
+      "black": 2.8,
+      "asian": 6,
+      "hispanic": 48.6,
+      "other": -14.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 71,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 31.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 30.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 551430,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "EMANUEL MEDICAL CENTER",
+        "city": "TURLOCK",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "MEMORIAL MEDICAL CENTER",
+        "city": "MODESTO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "DOCTORS MEDICAL CENTER",
+        "city": "MODESTO",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 3,
+    "averageRating": 1.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

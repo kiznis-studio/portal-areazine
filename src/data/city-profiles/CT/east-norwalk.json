@@ -1,0 +1,127 @@
+{
+  "city": "East Norwalk",
+  "slug": "east-norwalk",
+  "state": "Connecticut",
+  "stateCode": "CT",
+  "county": "Western Connecticut Planning Region",
+  "lat": 41.1057,
+  "lng": -73.3984,
+  "fetchedAt": "2026-02-11T17:08:27.450Z",
+  "census": {
+    "population": 620666,
+    "medianAge": 41.1,
+    "medianHouseholdIncome": 118930,
+    "medianHomeValue": 595600,
+    "medianRent": 1952,
+    "povertyRate": 7.4,
+    "unemploymentRate": 5.6,
+    "bachelorDegreeOrHigher": 54.2,
+    "publicTransitPct": 7.7,
+    "workFromHomePct": 16.7,
+    "demographics": {
+      "white": 66.7,
+      "black": 10,
+      "asian": 5.2,
+      "hispanic": 20.1,
+      "other": -2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 8.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 24.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 28.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 74.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 8.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 623907,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

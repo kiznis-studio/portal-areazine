@@ -1,0 +1,150 @@
+{
+  "city": "Bayou Cane",
+  "slug": "bayou-cane",
+  "state": "Louisiana",
+  "stateCode": "LA",
+  "county": "Terrebonne Parish",
+  "lat": 29.6241,
+  "lng": -90.7512,
+  "fetchedAt": "2026-02-11T17:08:27.689Z",
+  "census": {
+    "population": 108862,
+    "medianAge": 36.9,
+    "medianHouseholdIncome": 63088,
+    "medianHomeValue": 174400,
+    "medianRent": 956,
+    "povertyRate": 16.4,
+    "unemploymentRate": 5.9,
+    "bachelorDegreeOrHigher": 17,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 3.2,
+    "demographics": {
+      "white": 67.5,
+      "black": 19.1,
+      "asian": 1.2,
+      "hispanic": 5.3,
+      "other": 6.9
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 41.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 18.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 41.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 42.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 33.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 20.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 58.4,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 103616,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "TERREBONNE GENERAL MEDICAL CENTER - PARISH",
+        "city": "HOUMA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "LEONARD J CHABERT MEDICAL CENTER",
+        "city": "HOUMA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 2,
+    "averageRating": 3.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

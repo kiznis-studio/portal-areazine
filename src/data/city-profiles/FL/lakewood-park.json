@@ -1,0 +1,150 @@
+{
+  "city": "Lakewood Park",
+  "slug": "lakewood-park",
+  "state": "Florida",
+  "stateCode": "FL",
+  "county": "St. Lucie County",
+  "lat": 27.5431,
+  "lng": -80.4023,
+  "fetchedAt": "2026-02-11T17:08:27.846Z",
+  "census": {
+    "population": 334682,
+    "medianAge": 45.3,
+    "medianHouseholdIncome": 66154,
+    "medianHomeValue": 275900,
+    "medianRent": 1363,
+    "povertyRate": 12.5,
+    "unemploymentRate": 6,
+    "bachelorDegreeOrHigher": 25,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 8.8,
+    "demographics": {
+      "white": 63.1,
+      "black": 20.4,
+      "asian": 2,
+      "hispanic": 20.6,
+      "other": -6.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 56.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 27,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 39.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 31.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 373586,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "HCA FLORIDA LAWNWOOD HOSPITAL",
+        "city": "FORT PIERCE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "ST LUCIE MEDICAL CENTER",
+        "city": "PORT SAINT LUCIE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

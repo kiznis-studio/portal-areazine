@@ -1,0 +1,235 @@
+{
+  "stateCode": "TN",
+  "stateName": "Tennessee",
+  "cityCount": 66,
+  "totalPopulation": 4370309,
+  "avgMedianIncome": 63288,
+  "avgMedianHomeValue": 225953,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "nashville",
+        "name": "Nashville",
+        "value": 689447
+      },
+      {
+        "slug": "new-south-memphis",
+        "name": "New South Memphis",
+        "value": 641608
+      },
+      {
+        "slug": "memphis",
+        "name": "Memphis",
+        "value": 633104
+      },
+      {
+        "slug": "knoxville",
+        "name": "Knoxville",
+        "value": 190740
+      },
+      {
+        "slug": "chattanooga",
+        "name": "Chattanooga",
+        "value": 181099
+      },
+      {
+        "slug": "clarksville-tn",
+        "name": "Clarksville",
+        "value": 166722
+      },
+      {
+        "slug": "murfreesboro",
+        "name": "Murfreesboro",
+        "value": 165430
+      },
+      {
+        "slug": "east-chattanooga",
+        "name": "East Chattanooga",
+        "value": 154024
+      },
+      {
+        "slug": "franklin-tn",
+        "name": "Franklin",
+        "value": 72639
+      },
+      {
+        "slug": "cordova",
+        "name": "Cordova",
+        "value": 68779
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "franklin-tn",
+        "name": "Franklin",
+        "value": 125943
+      },
+      {
+        "slug": "mount-juliet",
+        "name": "Mount Juliet",
+        "value": 89462
+      },
+      {
+        "slug": "hendersonville-tn",
+        "name": "Hendersonville",
+        "value": 81883
+      },
+      {
+        "slug": "murfreesboro",
+        "name": "Murfreesboro",
+        "value": 78291
+      },
+      {
+        "slug": "springfield-tn",
+        "name": "Springfield",
+        "value": 74440
+      },
+      {
+        "slug": "nashville",
+        "name": "Nashville",
+        "value": 71863
+      },
+      {
+        "slug": "columbia-tn",
+        "name": "Columbia",
+        "value": 71500
+      },
+      {
+        "slug": "maryville-tn",
+        "name": "Maryville",
+        "value": 70935
+      },
+      {
+        "slug": "chattanooga",
+        "name": "Chattanooga",
+        "value": 69069
+      },
+      {
+        "slug": "knoxville",
+        "name": "Knoxville",
+        "value": 68580
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "franklin-tn",
+        "name": "Franklin",
+        "value": 611100
+      },
+      {
+        "slug": "mount-juliet",
+        "name": "Mount Juliet",
+        "value": 358900
+      },
+      {
+        "slug": "nashville",
+        "name": "Nashville",
+        "value": 354700
+      },
+      {
+        "slug": "hendersonville-tn",
+        "name": "Hendersonville",
+        "value": 332700
+      },
+      {
+        "slug": "murfreesboro",
+        "name": "Murfreesboro",
+        "value": 305100
+      },
+      {
+        "slug": "columbia-tn",
+        "name": "Columbia",
+        "value": 273400
+      },
+      {
+        "slug": "springfield-tn",
+        "name": "Springfield",
+        "value": 271300
+      },
+      {
+        "slug": "chattanooga",
+        "name": "Chattanooga",
+        "value": 250900
+      },
+      {
+        "slug": "knoxville",
+        "name": "Knoxville",
+        "value": 248200
+      },
+      {
+        "slug": "maryville-tn",
+        "name": "Maryville",
+        "value": 247600
+      }
+    ]
+  },
+  "cities": [
+    "arlington-tn",
+    "athens-tn",
+    "bartlett-tn",
+    "brentwood-estates",
+    "brentwood-tn",
+    "bristol-tn",
+    "chattanooga",
+    "clarksville-tn",
+    "cleveland-tn",
+    "clinton-tn",
+    "collegedale",
+    "collierville",
+    "columbia-tn",
+    "cookeville",
+    "cordova",
+    "crossville",
+    "dickson",
+    "dyersburg",
+    "east-brainerd",
+    "east-chattanooga",
+    "east-ridge",
+    "elizabethton",
+    "ellendale",
+    "farragut",
+    "franklin-tn",
+    "gallatin",
+    "germantown-tn",
+    "goodlettsville",
+    "greeneville",
+    "hendersonville-tn",
+    "hermitage-tn",
+    "jackson-tn",
+    "johnson-city-tn",
+    "kingsport",
+    "knoxville",
+    "la-vergne",
+    "lakeland-tn",
+    "lawrenceburg-tn",
+    "lebanon-tn",
+    "lewisburg",
+    "manchester-tn",
+    "martin",
+    "maryville-tn",
+    "mcminnville-tn",
+    "memphis",
+    "middle-valley",
+    "millington",
+    "morristown-tn",
+    "mount-juliet",
+    "murfreesboro",
+    "nashville",
+    "new-south-memphis",
+    "oak-ridge-tn",
+    "paris-tn",
+    "portland-tn",
+    "red-bank-tn",
+    "sevierville",
+    "seymour-tn",
+    "shelbyville-tn",
+    "smyrna-tn",
+    "soddy-daisy",
+    "spring-hill-tn",
+    "springfield-tn",
+    "tullahoma",
+    "union-city-tn",
+    "white-house"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.895Z"
+}

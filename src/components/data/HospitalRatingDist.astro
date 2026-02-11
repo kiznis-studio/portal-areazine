@@ -1,0 +1,32 @@
+---
+interface Props {
+  ratings: { rating: number; count: number }[];
+  total: number;
+}
+
+const { ratings, total } = Astro.props;
+const maxCount = Math.max(...ratings.map(r => r.count), 1);
+---
+
+<div class="space-y-1.5">
+  {ratings.map(({ rating, count }) => {
+    const pct = total > 0 ? Math.round((count / total) * 100) : 0;
+    const barWidth = maxCount > 0 ? (count / maxCount) * 100 : 0;
+    return (
+      <div class="flex items-center gap-2 text-sm">
+        <span class="w-12 text-right text-xs text-[var(--color-muted)] tabular-nums flex-shrink-0">
+          {'★'.repeat(rating)}
+        </span>
+        <div class="flex-1 progress-bar" style="height: 0.5rem;">
+          <div
+            class="progress-bar-fill"
+            style={`width: ${barWidth}%; background: var(--color-data-amber);`}
+          />
+        </div>
+        <span class="w-8 text-right text-xs text-[var(--color-muted)] tabular-nums flex-shrink-0">
+          {count}
+        </span>
+      </div>
+    );
+  })}
+</div>

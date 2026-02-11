@@ -1,0 +1,101 @@
+{
+  "stateCode": "AK",
+  "stateName": "Alaska",
+  "cityCount": 7,
+  "totalPopulation": 425642,
+  "avgMedianIncome": 89883,
+  "avgMedianHomeValue": 335525,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "anchorage",
+        "name": "Anchorage",
+        "value": 289600
+      },
+      {
+        "slug": "fairbanks",
+        "name": "Fairbanks",
+        "value": 32325
+      },
+      {
+        "slug": "juneau",
+        "name": "Juneau",
+        "value": 31555
+      },
+      {
+        "slug": "eagle-river",
+        "name": "Eagle River",
+        "value": 24793
+      },
+      {
+        "slug": "badger",
+        "name": "Badger",
+        "value": 19482
+      },
+      {
+        "slug": "knik-fairview",
+        "name": "Knik-Fairview",
+        "value": 14923
+      },
+      {
+        "slug": "college",
+        "name": "College",
+        "value": 12964
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "anchorage",
+        "name": "Anchorage",
+        "value": 95731
+      },
+      {
+        "slug": "juneau",
+        "name": "Juneau",
+        "value": 95711
+      },
+      {
+        "slug": "knik-fairview",
+        "name": "Knik-Fairview",
+        "value": 86435
+      },
+      {
+        "slug": "fairbanks",
+        "name": "Fairbanks",
+        "value": 81655
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "juneau",
+        "name": "Juneau",
+        "value": 404600
+      },
+      {
+        "slug": "anchorage",
+        "name": "Anchorage",
+        "value": 363800
+      },
+      {
+        "slug": "knik-fairview",
+        "name": "Knik-Fairview",
+        "value": 296900
+      },
+      {
+        "slug": "fairbanks",
+        "name": "Fairbanks",
+        "value": 276800
+      }
+    ]
+  },
+  "cities": [
+    "anchorage",
+    "badger",
+    "college",
+    "eagle-river",
+    "fairbanks",
+    "juneau",
+    "knik-fairview"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.898Z"
+}

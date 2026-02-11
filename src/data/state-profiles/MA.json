@@ -1,0 +1,347 @@
+{
+  "stateCode": "MA",
+  "stateName": "Massachusetts",
+  "cityCount": 178,
+  "totalPopulation": 6832104,
+  "avgMedianIncome": 89977,
+  "avgMedianHomeValue": 445683,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "boston",
+        "name": "Boston",
+        "value": 653833
+      },
+      {
+        "slug": "south-boston",
+        "name": "South Boston",
+        "value": 571281
+      },
+      {
+        "slug": "worcester",
+        "name": "Worcester",
+        "value": 206518
+      },
+      {
+        "slug": "springfield-ma",
+        "name": "Springfield",
+        "value": 154341
+      },
+      {
+        "slug": "lowell",
+        "name": "Lowell",
+        "value": 110699
+      },
+      {
+        "slug": "cambridge-ma",
+        "name": "Cambridge",
+        "value": 110402
+      },
+      {
+        "slug": "new-bedford",
+        "name": "New Bedford",
+        "value": 101079
+      },
+      {
+        "slug": "dorchester",
+        "name": "Dorchester",
+        "value": 97826
+      },
+      {
+        "slug": "brockton",
+        "name": "Brockton",
+        "value": 95314
+      },
+      {
+        "slug": "fall-river",
+        "name": "Fall River",
+        "value": 94000
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "lowell",
+        "name": "Lowell",
+        "value": 121304
+      },
+      {
+        "slug": "quincy-ma",
+        "name": "Quincy",
+        "value": 120621
+      },
+      {
+        "slug": "brockton",
+        "name": "Brockton",
+        "value": 105387
+      },
+      {
+        "slug": "lynn",
+        "name": "Lynn",
+        "value": 94378
+      },
+      {
+        "slug": "barnstable",
+        "name": "Barnstable",
+        "value": 90447
+      },
+      {
+        "slug": "worcester",
+        "name": "Worcester",
+        "value": 88524
+      },
+      {
+        "slug": "boston",
+        "name": "Boston",
+        "value": 87669
+      },
+      {
+        "slug": "amherst-ma",
+        "name": "Amherst",
+        "value": 84025
+      },
+      {
+        "slug": "new-bedford",
+        "name": "New Bedford",
+        "value": 80628
+      },
+      {
+        "slug": "greenfield-ma",
+        "name": "Greenfield",
+        "value": 70383
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "lowell",
+        "name": "Lowell",
+        "value": 654300
+      },
+      {
+        "slug": "boston",
+        "name": "Boston",
+        "value": 650900
+      },
+      {
+        "slug": "quincy-ma",
+        "name": "Quincy",
+        "value": 612100
+      },
+      {
+        "slug": "lynn",
+        "name": "Lynn",
+        "value": 535300
+      },
+      {
+        "slug": "barnstable",
+        "name": "Barnstable",
+        "value": 519100
+      },
+      {
+        "slug": "brockton",
+        "name": "Brockton",
+        "value": 475500
+      },
+      {
+        "slug": "new-bedford",
+        "name": "New Bedford",
+        "value": 385000
+      },
+      {
+        "slug": "worcester",
+        "name": "Worcester",
+        "value": 363200
+      },
+      {
+        "slug": "amherst-ma",
+        "name": "Amherst",
+        "value": 344200
+      },
+      {
+        "slug": "greenfield-ma",
+        "name": "Greenfield",
+        "value": 284100
+      }
+    ]
+  },
+  "cities": [
+    "abington-ma",
+    "acton",
+    "acushnet",
+    "agawam",
+    "allston",
+    "amesbury",
+    "amherst-center",
+    "amherst-ma",
+    "arlington-ma",
+    "ashland-ma",
+    "ashmont",
+    "attleboro",
+    "auburn-ma",
+    "back-bay",
+    "barnstable",
+    "bedford-ma",
+    "belmont-ma",
+    "beverly",
+    "beverly-cove",
+    "billerica",
+    "boston",
+    "braintree",
+    "brighton-ma",
+    "brockton",
+    "brookline",
+    "burlington-ma",
+    "cambridge-ma",
+    "cambridgeport",
+    "canton-ma",
+    "carver",
+    "charlestown",
+    "charlton",
+    "chelmsford",
+    "chelsea-ma",
+    "chestnut-hill",
+    "chicopee",
+    "concord-ma",
+    "danvers",
+    "dedham",
+    "dorchester",
+    "dracut",
+    "dudley",
+    "duxbury",
+    "east-boston",
+    "east-bridgewater",
+    "east-cambridge",
+    "east-longmeadow",
+    "easthampton",
+    "easton-ma",
+    "everett-ma",
+    "fairhaven",
+    "fall-river",
+    "fenway-kenmore",
+    "fitchburg-ma",
+    "framingham",
+    "framingham-center",
+    "franklin-ma",
+    "gardner-ma",
+    "gloucester",
+    "grafton-ma",
+    "greenfield-ma",
+    "hanover-ma",
+    "hanson",
+    "harwich",
+    "haverhill",
+    "head-of-westport",
+    "holbrook-ma",
+    "holden",
+    "holliston",
+    "holyoke",
+    "hudson-ma",
+    "hull",
+    "hyannis",
+    "hyde-park-ma",
+    "jamaica-plain",
+    "kingston-ma",
+    "lawrence-ma",
+    "leicester",
+    "leominster",
+    "lexington-ma",
+    "longmeadow",
+    "lowell",
+    "ludlow",
+    "lynn",
+    "lynnfield",
+    "malden",
+    "mansfield-ma",
+    "marblehead",
+    "marlborough",
+    "mashpee",
+    "mattapan",
+    "maynard",
+    "medford-ma",
+    "medway",
+    "melrose-ma",
+    "methuen",
+    "mid-cambridge",
+    "middleborough",
+    "milford-ma",
+    "millbury",
+    "milton-ma",
+    "mission-hill",
+    "natick",
+    "needham",
+    "new-bedford",
+    "newburyport",
+    "newton-ma",
+    "newtonville",
+    "norfolk-ma",
+    "north-adams",
+    "north-andover",
+    "north-attleborough-center",
+    "north-chicopee",
+    "north-end",
+    "north-reading",
+    "northampton",
+    "northbridge",
+    "norton-ma",
+    "norwell",
+    "norwood-ma",
+    "orient-heights",
+    "palmer",
+    "peabody",
+    "pittsfield",
+    "quincy-ma",
+    "randolph-ma",
+    "raynham",
+    "reading-ma",
+    "rehoboth",
+    "revere",
+    "rockland",
+    "roslindale",
+    "roxbury-crossing",
+    "salem-ma",
+    "saugus",
+    "seekonk",
+    "shrewsbury",
+    "somerset-ma",
+    "somerville-ma",
+    "south-boston",
+    "south-hadley",
+    "south-peabody",
+    "south-yarmouth",
+    "southbridge",
+    "springfield-ma",
+    "stoneham",
+    "stoughton-ma",
+    "sudbury",
+    "suffolk-downs-station",
+    "swampscott",
+    "swansea-ma",
+    "taunton",
+    "tewksbury",
+    "tyngsboro",
+    "union-square",
+    "uxbridge",
+    "wakefield-ma",
+    "waltham",
+    "watertown-ma",
+    "wayland",
+    "webster-ma",
+    "wellesley",
+    "west-roxbury",
+    "west-springfield-ma",
+    "westfield-ma",
+    "westford",
+    "weston-ma",
+    "westwood-ma",
+    "weymouth",
+    "whitman-ma",
+    "wilmington-ma",
+    "winchester-ma",
+    "winter-hill",
+    "winthrop",
+    "woburn",
+    "worcester",
+    "wrentham",
+    "yarmouth"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.895Z"
+}

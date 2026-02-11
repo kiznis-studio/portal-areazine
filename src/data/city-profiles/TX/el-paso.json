@@ -1,0 +1,182 @@
+{
+  "city": "El Paso",
+  "slug": "el-paso",
+  "state": "Texas",
+  "stateCode": "TX",
+  "county": "El Paso County",
+  "lat": 31.7587,
+  "lng": -106.4869,
+  "fetchedAt": "2026-02-11T17:08:27.346Z",
+  "census": {
+    "population": 863832,
+    "medianAge": 32.8,
+    "medianHouseholdIncome": 55417,
+    "medianHomeValue": 153600,
+    "medianRent": 978,
+    "povertyRate": 19.5,
+    "unemploymentRate": 6.5,
+    "bachelorDegreeOrHigher": 25,
+    "publicTransitPct": 0.9,
+    "workFromHomePct": 6.7,
+    "demographics": {
+      "white": 49.6,
+      "black": 3.2,
+      "asian": 1.3,
+      "hispanic": 82.9,
+      "other": -37
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 49.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 29,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 12.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 8.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 33.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 869880,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "THE HOSPITALS OF PROVIDENCE - MEMORIAL CAMPUS",
+        "city": "EL PASO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "SIERRA MEDICAL CENTER",
+        "city": "EL PASO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "THE HOSPITALS OF PROVIDENCE - EAST CAMPUS",
+        "city": "EL PASO",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "UNIVERSITY MEDICAL CENTER OF EL PASO",
+        "city": "EL PASO",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Physician"
+      },
+      {
+        "name": "LAS PALMAS MEDICAL CENTER A CAMPUS OF LPDS HEALTHC",
+        "city": "EL PASO",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "THE HOSPITALS OF PROVIDENCE TRANSMOUNTAIN CAMPUS",
+        "city": "EL PASO",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 12,
+    "ratedHospitals": 6,
+    "averageRating": 1.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

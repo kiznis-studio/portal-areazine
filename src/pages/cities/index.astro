@@ -1,9 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { CITIES } from '../../data/cities';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
+import { CITIES, US_STATES } from '../../data/cities';
+import { fmt, fmtMoney, fmtCompact } from '../../lib/format';
 
 // Import all city profiles at build time via Vite glob
-const profileModules = import.meta.glob('../../data/city-profiles/*.json', { eager: true }) as Record<string, { default: any }>;
+const profileModules = import.meta.glob('../../data/city-profiles/**/*.json', { eager: true }) as Record<string, { default: any }>;
 
 const profileMap: Record<string, any> = {};
 for (const [path, mod] of Object.entries(profileModules)) {
@@ -11,111 +14,313 @@ for (const [path, mod] of Object.entries(profileModules)) {
   profileMap[slug] = mod.default ?? mod;
 }
 
-const cityProfiles = CITIES.map(city => {
-  const profile = profileMap[city.slug];
-  return { ...city, census: profile?.census || null, hospitals: profile?.hospitals || null };
-}).sort((a, b) => (b.census?.population || 0) - (a.census?.population || 0));
+const maxTier = parseInt(import.meta.env.CITY_TIER || '2');
+const cityProfiles = CITIES
+  .filter(c => c.tier <= maxTier)
+  .map(city => {
+    const profile = profileMap[city.slug];
+    const census = profile?.census;
+    return {
+      name: city.name,
+      stateCode: city.stateCode,
+      state: city.state,
+      slug: city.slug,
+      // Use GeoNames city population (not county-level census population)
+      population: city.population || 0,
+      income: census?.medianHouseholdIncome || 0,
+      homeValue: census?.medianHomeValue || 0,
+    };
+  })
+  .sort((a, b) => b.population - a.population);
 
-function fmt(n: number | null | undefined): string {
-  if (n == null) return 'N/A';
-  return n.toLocaleString('en-US');
-}
-function fmtMoney(n: number | null | undefined): string {
-  if (n == null) return 'N/A';
-  return `$${n.toLocaleString('en-US')}`;
-}
+const totalPop = cityProfiles.reduce((s, c) => s + c.population, 0);
+
+// Get unique states for filter
+const stateList = US_STATES.map(s => ({ code: s.code, name: s.name })).sort((a, b) => a.name.localeCompare(b.name));
+
+// Embed compact city data for client-side search (name|state|slug|pop|income|homeVal per line)
+const cityData = cityProfiles.map(c =>
+  `${c.name}\t${c.stateCode}\t${c.slug}\t${c.population}\t${c.income}\t${c.homeValue}`
+).join('\n');
 ---
 
 <Base
-  title="US City Data Reports"
-  description="City data profiles for major US cities. Population, income, health metrics, hospital ratings, and safety alerts from official government sources."
+  title={`US City Data Reports — ${fmtCompact(cityProfiles.length)} Cities`}
+  description={`Search ${fmt(cityProfiles.length)} US city profiles. Population, median income, home values, health data, and hospital ratings from official government sources.`}
 >
   <div class="container py-8 md:py-12">
-    <nav class="flex items-center gap-2 text-sm text-[var(--color-muted)] mb-6">
-      <a href="/" class="hover:text-[var(--color-foreground)]">Home</a>
-      <span>/</span>
-      <span class="text-[var(--color-foreground)]">Cities</span>
-    </nav>
+
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Cities' },
+    ]} />
 
     <header class="mb-10">
-      <h1 class="text-3xl md:text-4xl font-black tracking-tight mb-3">US City Data Reports</h1>
-      <p class="text-lg text-[var(--color-muted)] max-w-2xl">
-        Data-driven city profiles powered by Census Bureau, CDC, and CMS government data.
-        Population, economics, health metrics, and hospital quality at a glance.
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-black tracking-tight mb-3">US City Data</h1>
+      <p class="text-base text-[var(--color-muted)] max-w-2xl">
+        {fmt(cityProfiles.length)} city profiles covering {fmtCompact(totalPop)} residents — government data from Census Bureau, CDC, and CMS.
       </p>
     </header>
 
-    {/* City Grid */}
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-      {cityProfiles.map(city => (
-        <a
-          href={`/cities/${city.slug}`}
-          class="block border border-[var(--color-border)] rounded-lg p-5 hover:border-[var(--color-muted)] transition-colors"
-        >
-          <div class="flex items-baseline justify-between mb-3">
-            <h2 class="text-lg font-bold">{city.name}</h2>
-            <span class="text-sm text-[var(--color-muted)]">{city.stateCode}</span>
-          </div>
+    {/* Search & Filter Controls */}
+    <div class="mb-8 space-y-4" id="search-controls">
+      <div class="relative">
+        <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--color-muted)]" viewBox="0 0 20 20" fill="none">
+          <circle cx="8.5" cy="8.5" r="6" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M13 13L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input
+          type="text"
+          id="city-search"
+          placeholder="Search cities..."
+          class="search-input w-full pl-12 pr-4 py-3 text-base"
+          autocomplete="off"
+        />
+      </div>
 
-          {city.census && (
-            <div class="space-y-2">
-              <div class="flex justify-between text-sm">
-                <span class="text-[var(--color-muted)]">Population</span>
-                <span class="font-medium">{fmt(city.census.population)}</span>
-              </div>
-              <div class="flex justify-between text-sm">
-                <span class="text-[var(--color-muted)]">Median Income</span>
-                <span class="font-medium">{fmtMoney(city.census.medianHouseholdIncome)}</span>
-              </div>
-              <div class="flex justify-between text-sm">
-                <span class="text-[var(--color-muted)]">Median Home</span>
-                <span class="font-medium">{fmtMoney(city.census.medianHomeValue)}</span>
-              </div>
-              {city.hospitals && (
-                <div class="flex justify-between text-sm">
-                  <span class="text-[var(--color-muted)]">Hospital Avg Rating</span>
-                  <span class="font-medium">
-                    {city.hospitals.averageRating ? `${city.hospitals.averageRating}/5` : 'N/A'}
-                    <span class="text-amber-500 ml-1">★</span>
-                  </span>
-                </div>
-              )}
-            </div>
-          )}
+      <div class="flex flex-wrap items-center gap-3">
+        {/* State Filter */}
+        <select id="state-filter" class="text-sm border border-[var(--color-border)] rounded-lg px-3 py-2 bg-[var(--color-bg)] text-[var(--color-foreground)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/30 focus:border-[var(--color-accent)]">
+          <option value="">All States</option>
+          {stateList.map(s => (
+            <option value={s.code}>{s.name}</option>
+          ))}
+        </select>
 
-          <div class="mt-3 text-xs text-[var(--color-muted)]">{city.countyName}</div>
-        </a>
-      ))}
+        {/* Sort */}
+        <div class="flex border border-[var(--color-border)] rounded-lg overflow-hidden text-sm">
+          <button data-sort="population" class="sort-btn px-3 py-2 bg-[var(--color-card)] text-[var(--color-foreground)] font-medium" aria-pressed="true">Population</button>
+          <button data-sort="income" class="sort-btn px-3 py-2 hover:bg-[var(--color-card)] text-[var(--color-muted)]">Income</button>
+          <button data-sort="homeValue" class="sort-btn px-3 py-2 hover:bg-[var(--color-card)] text-[var(--color-muted)]">Home Value</button>
+          <button data-sort="name" class="sort-btn px-3 py-2 hover:bg-[var(--color-card)] text-[var(--color-muted)]">A-Z</button>
+        </div>
+
+        {/* Result Count */}
+        <span id="result-count" class="text-sm text-[var(--color-muted)] tabular-nums ml-auto">{fmt(cityProfiles.length)} cities</span>
+      </div>
     </div>
 
-    {/* About */}
-    <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
-      <div class="max-w-2xl">
-        <h2 class="font-bold mb-2">About City Reports</h2>
-        <p class="text-sm text-[var(--color-muted)]">
-          Each city profile aggregates data from the U.S. Census Bureau (demographics, economics),
-          CDC PLACES (health metrics), and CMS Hospital Compare (hospital quality). All data comes
-          from official government sources and is updated annually or quarterly depending on the source.
+    {/* City Grid */}
+    <div id="city-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+      {/* Rendered by JS */}
+    </div>
+
+    {/* Show More */}
+    <div id="show-more-wrap" class="text-center mt-8">
+      <button id="show-more-btn" class="px-6 py-2.5 text-sm font-medium border border-[var(--color-border)] rounded-lg hover:bg-[var(--color-card)] transition-colors">
+        Show more cities
+      </button>
+    </div>
+
+    {/* Data Sources */}
+    <details class="mt-12 pt-8 border-t border-[var(--color-border)] group">
+      <summary class="cursor-pointer text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] select-none flex items-center gap-2">
+        <svg class="w-4 h-4 transition-transform group-open:rotate-90" viewBox="0 0 16 16" fill="none">
+          <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        About City Data
+      </summary>
+      <div class="mt-4 max-w-2xl">
+        <p class="text-sm text-[var(--color-muted)] leading-relaxed">
+          Each city profile aggregates data from the
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Census Bureau American Community Survey</a> (demographics, economics),
+          <a href="https://www.cdc.gov/places/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">CDC PLACES</a> (health metrics), and
+          <a href="https://data.cms.gov/provider-data/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">CMS Hospital Compare</a> (hospital quality).
           Data is reported at county level — the smallest geography consistently available across all sources.
         </p>
       </div>
-    </section>
+    </details>
   </div>
+
+  {/* Embed city data for client-side search */}
+  <script type="text/data" id="city-data" set:html={cityData} />
+
+  <script>
+    // Parse embedded city data
+    const raw = document.getElementById('city-data')?.textContent || '';
+    const cities = raw.trim().split('\n').map(line => {
+      const [name, stateCode, slug, pop, income, homeVal] = line.split('\t');
+      return { name, stateCode, slug, pop: +pop, income: +income, homeVal: +homeVal };
+    });
+
+    const grid = document.getElementById('city-grid');
+    const searchInput = document.getElementById('city-search') as HTMLInputElement;
+    const stateFilter = document.getElementById('state-filter') as HTMLSelectElement;
+    const resultCount = document.getElementById('result-count');
+    const showMoreBtn = document.getElementById('show-more-btn');
+    const showMoreWrap = document.getElementById('show-more-wrap');
+    const sortBtns = document.querySelectorAll('.sort-btn');
+
+    let currentSort = 'population';
+    let pageSize = 60;
+    let visibleCount = 60;
+
+    function fmtNum(n: number): string {
+      if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+      if (n >= 1_000) return (n / 1_000).toFixed(n >= 100_000 ? 0 : 1).replace(/\.0$/, '') + 'K';
+      return n.toLocaleString();
+    }
+
+    function fmtMoney(n: number): string {
+      if (!n) return 'N/A';
+      return '$' + n.toLocaleString();
+    }
+
+    function getFiltered(): typeof cities {
+      const query = searchInput.value.toLowerCase().trim();
+      const state = stateFilter.value;
+
+      let filtered = cities;
+
+      if (state) {
+        filtered = filtered.filter(c => c.stateCode === state);
+      }
+
+      if (query) {
+        filtered = filtered.filter(c =>
+          c.name.toLowerCase().includes(query) ||
+          c.stateCode.toLowerCase().includes(query)
+        );
+      }
+
+      // Sort
+      switch (currentSort) {
+        case 'population':
+          filtered.sort((a, b) => b.pop - a.pop);
+          break;
+        case 'income':
+          filtered.sort((a, b) => b.income - a.income);
+          break;
+        case 'homeValue':
+          filtered.sort((a, b) => b.homeVal - a.homeVal);
+          break;
+        case 'name':
+          filtered.sort((a, b) => a.name.localeCompare(b.name));
+          break;
+      }
+
+      return filtered;
+    }
+
+    function render() {
+      if (!grid) return;
+
+      const filtered = getFiltered();
+      const toShow = filtered.slice(0, visibleCount);
+
+      // Clear grid
+      while (grid.firstChild) grid.removeChild(grid.firstChild);
+
+      for (const city of toShow) {
+        const a = document.createElement('a');
+        a.href = '/cities/' + city.slug;
+        a.className = 'card-interactive block p-4';
+
+        const header = document.createElement('div');
+        header.className = 'flex items-baseline justify-between mb-2';
+
+        const nameEl = document.createElement('h2');
+        nameEl.className = 'text-base font-bold truncate';
+        nameEl.textContent = city.name;
+
+        const stateEl = document.createElement('span');
+        stateEl.className = 'text-sm text-[var(--color-muted)] font-medium px-1.5 py-0.5 bg-[var(--color-card)] rounded flex-shrink-0 ml-2';
+        stateEl.textContent = city.stateCode;
+
+        header.appendChild(nameEl);
+        header.appendChild(stateEl);
+        a.appendChild(header);
+
+        const stats = document.createElement('div');
+        stats.className = 'grid grid-cols-3 gap-2 text-xs';
+
+        const metrics = [
+          { label: 'Pop', value: fmtNum(city.pop) },
+          { label: 'Income', value: fmtMoney(city.income) },
+          { label: 'Home', value: fmtMoney(city.homeVal) },
+        ];
+
+        for (const m of metrics) {
+          const cell = document.createElement('div');
+          const labelEl = document.createElement('div');
+          labelEl.className = 'text-[var(--color-muted)]';
+          labelEl.textContent = m.label;
+          const valEl = document.createElement('div');
+          valEl.className = 'font-semibold tabular-nums';
+          valEl.textContent = m.value;
+          cell.appendChild(labelEl);
+          cell.appendChild(valEl);
+          stats.appendChild(cell);
+        }
+
+        a.appendChild(stats);
+        grid.appendChild(a);
+      }
+
+      // Update count
+      if (resultCount) {
+        resultCount.textContent = filtered.length.toLocaleString() + ' cities';
+      }
+
+      // Show/hide "Show more"
+      if (showMoreWrap) {
+        showMoreWrap.style.display = filtered.length > visibleCount ? '' : 'none';
+      }
+    }
+
+    // Event listeners
+    let debounceTimer: ReturnType<typeof setTimeout>;
+    searchInput?.addEventListener('input', () => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        visibleCount = pageSize;
+        render();
+      }, 150);
+    });
+
+    stateFilter?.addEventListener('change', () => {
+      visibleCount = pageSize;
+      render();
+    });
+
+    showMoreBtn?.addEventListener('click', () => {
+      visibleCount += pageSize;
+      render();
+    });
+
+    sortBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const sort = (btn as HTMLElement).dataset.sort || 'population';
+        currentSort = sort;
+        visibleCount = pageSize;
+
+        // Update active state
+        sortBtns.forEach(b => {
+          const el = b as HTMLElement;
+          if (el.dataset.sort === sort) {
+            el.classList.add('bg-[var(--color-card)]', 'text-[var(--color-foreground)]', 'font-medium');
+            el.classList.remove('text-[var(--color-muted)]');
+            el.setAttribute('aria-pressed', 'true');
+          } else {
+            el.classList.remove('bg-[var(--color-card)]', 'text-[var(--color-foreground)]', 'font-medium');
+            el.classList.add('text-[var(--color-muted)]');
+            el.setAttribute('aria-pressed', 'false');
+          }
+        });
+
+        render();
+      });
+    });
+
+    // Initial render
+    render();
+  </script>
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "US City Data Reports",
-    "description": "City data profiles for major US cities with government data on population, income, health, and hospitals.",
+    "description": `City data profiles for ${cityProfiles.length} major US cities with government data on population, income, health, and hospitals.`,
     "url": "https://areazine.com/cities/",
-    "mainEntity": {
-      "@type": "ItemList",
-      "itemListElement": cityProfiles.map((city, i) => ({
-        "@type": "ListItem",
-        "position": i + 1,
-        "url": `https://areazine.com/cities/${city.slug}`,
-        "name": `${city.name}, ${city.stateCode}`,
-      })),
-    },
   })} />
 </Base>

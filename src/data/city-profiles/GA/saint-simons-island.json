@@ -1,0 +1,142 @@
+{
+  "city": "Saint Simons Island",
+  "slug": "saint-simons-island",
+  "state": "Georgia",
+  "stateCode": "GA",
+  "county": "Glynn County",
+  "lat": 31.1505,
+  "lng": -81.3695,
+  "fetchedAt": "2026-02-11T17:08:27.802Z",
+  "census": {
+    "population": 84566,
+    "medianAge": 43.3,
+    "medianHouseholdIncome": 65970,
+    "medianHomeValue": 238000,
+    "medianRent": 1031,
+    "povertyRate": 16.4,
+    "unemploymentRate": 4.3,
+    "bachelorDegreeOrHigher": 30.6,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 7.2,
+    "demographics": {
+      "white": 66.6,
+      "black": 24.7,
+      "asian": 1.2,
+      "hispanic": 6.8,
+      "other": 0.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 44,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 28.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 35.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 86172,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SOUTHEAST GEORGIA HEALTH SYSTEM- BRUNSWICK CAMPUS",
+        "city": "BRUNSWICK",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

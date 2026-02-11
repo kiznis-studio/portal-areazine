@@ -1,0 +1,158 @@
+{
+  "city": "Paso Robles",
+  "slug": "paso-robles",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "San Luis Obispo County",
+  "lat": 35.6266,
+  "lng": -120.691,
+  "fetchedAt": "2026-02-11T17:08:27.610Z",
+  "census": {
+    "population": 281712,
+    "medianAge": 40,
+    "medianHouseholdIncome": 90158,
+    "medianHomeValue": 726700,
+    "medianRent": 1800,
+    "povertyRate": 12.6,
+    "unemploymentRate": 4.9,
+    "bachelorDegreeOrHigher": 38,
+    "publicTransitPct": 0.7,
+    "workFromHomePct": 13,
+    "demographics": {
+      "white": 76.8,
+      "black": 1.2,
+      "asian": 3.8,
+      "hispanic": 23.4,
+      "other": -5.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 26.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 30.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 31.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 72.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 281639,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "FRENCH HOSPITAL MEDICAL CENTER",
+        "city": "SAN LUIS OBISPO",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ADVENTIST HEALTH SIERRA VISTA",
+        "city": "SAN LUIS OBISPO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "ADVENTIST HEALTH TWIN CITIES",
+        "city": "TEMPLETON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 3,
+    "averageRating": 3.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

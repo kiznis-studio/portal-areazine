@@ -1,0 +1,158 @@
+{
+  "city": "Collegedale",
+  "slug": "collegedale",
+  "state": "Tennessee",
+  "stateCode": "TN",
+  "county": "Hamilton County",
+  "lat": 35.0531,
+  "lng": -85.0502,
+  "fetchedAt": "2026-02-11T17:08:27.865Z",
+  "census": {
+    "population": 367193,
+    "medianAge": 39.7,
+    "medianHouseholdIncome": 69069,
+    "medianHomeValue": 250900,
+    "medianRent": 1079,
+    "povertyRate": 12.3,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 35.5,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 11.2,
+    "demographics": {
+      "white": 72.5,
+      "black": 17.9,
+      "asian": 1.9,
+      "hispanic": 6.2,
+      "other": 1.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 38.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 379864,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MEMORIAL HEALTHCARE SYSTEM, INC",
+        "city": "CHATTANOOGA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "ERLANGER MEDICAL CENTER",
+        "city": "CHATTANOOGA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "PARKRIDGE MEDICAL CENTER",
+        "city": "CHATTANOOGA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 3,
+    "averageRating": 3.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

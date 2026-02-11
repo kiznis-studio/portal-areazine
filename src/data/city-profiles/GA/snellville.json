@@ -1,0 +1,166 @@
+{
+  "city": "Snellville",
+  "slug": "snellville",
+  "state": "Georgia",
+  "stateCode": "GA",
+  "county": "Gwinnett County",
+  "lat": 33.8573,
+  "lng": -84.0199,
+  "fetchedAt": "2026-02-11T17:08:27.684Z",
+  "census": {
+    "population": 957977,
+    "medianAge": 35.7,
+    "medianHouseholdIncome": 82296,
+    "medianHomeValue": 307300,
+    "medianRent": 1594,
+    "povertyRate": 10.1,
+    "unemploymentRate": 4.1,
+    "bachelorDegreeOrHigher": 38.9,
+    "publicTransitPct": 0.7,
+    "workFromHomePct": 14.1,
+    "demographics": {
+      "white": 39.4,
+      "black": 28.5,
+      "asian": 12.7,
+      "hispanic": 21.8,
+      "other": -2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 27.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 76.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 13.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 15.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 60.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 983526,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "NORTHSIDE HOSPITAL GWINNETT",
+        "city": "LAWRENCEVILLE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "EMORY JOHNS CREEK HOSPITAL",
+        "city": "JOHNS CREEK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "NORTHSIDE HOSPITAL DULUTH",
+        "city": "DULUTH",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PIEDMONT EASTSIDE MEDICAL CENTER",
+        "city": "SNELLVILLE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 4,
+    "averageRating": 2.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

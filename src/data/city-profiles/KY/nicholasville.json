@@ -1,0 +1,49 @@
+{
+  "city": "Nicholasville",
+  "slug": "nicholasville",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Jessamine County",
+  "lat": 37.8806,
+  "lng": -84.573,
+  "fetchedAt": "2026-02-11T17:08:27.593Z",
+  "census": {
+    "population": 53381,
+    "medianAge": 38.4,
+    "medianHouseholdIncome": 69905,
+    "medianHomeValue": 226900,
+    "medianRent": 972,
+    "povertyRate": 12.1,
+    "unemploymentRate": 4.5,
+    "bachelorDegreeOrHigher": 30.3,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 9.1,
+    "demographics": {
+      "white": 89.2,
+      "black": 4.3,
+      "asian": 1.3,
+      "hispanic": 3.9,
+      "other": 1.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.2,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 55017,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

@@ -1,0 +1,64 @@
+{
+  "city": "Murray",
+  "slug": "murray-ky",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Calloway County",
+  "lat": 36.6103,
+  "lng": -88.3148,
+  "fetchedAt": "2026-02-11T17:08:27.696Z",
+  "census": {
+    "population": 37345,
+    "medianAge": 35.6,
+    "medianHouseholdIncome": 48276,
+    "medianHomeValue": 169100,
+    "medianRent": 770,
+    "povertyRate": 18.7,
+    "unemploymentRate": 4.7,
+    "bachelorDegreeOrHigher": 31.5,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 4.2,
+    "demographics": {
+      "white": 90,
+      "black": 3.5,
+      "asian": 1.6,
+      "hispanic": 2.8,
+      "other": 2.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.3,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 38280,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MURRAY-CALLOWAY COUNTY HOSPITAL",
+        "city": "MURRAY",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

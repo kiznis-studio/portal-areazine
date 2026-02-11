@@ -1,0 +1,72 @@
+{
+  "city": "Bowling Green",
+  "slug": "bowling-green-ky",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Warren County",
+  "lat": 36.9903,
+  "lng": -86.4436,
+  "fetchedAt": "2026-02-11T17:08:27.476Z",
+  "census": {
+    "population": 135307,
+    "medianAge": 33.3,
+    "medianHouseholdIncome": 63074,
+    "medianHomeValue": 227300,
+    "medianRent": 942,
+    "povertyRate": 17.2,
+    "unemploymentRate": 4.7,
+    "bachelorDegreeOrHigher": 32.9,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 5.1,
+    "demographics": {
+      "white": 79.2,
+      "black": 8.8,
+      "asian": 5,
+      "hispanic": 5.7,
+      "other": 1.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 60.2,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 142229,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "THE MEDICAL CENTER (BOWLING GREEN)",
+        "city": "BOWLING GREEN",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "TRISTAR GREENVIEW REGIONAL HOSPITAL",
+        "city": "BOWLING GREEN",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

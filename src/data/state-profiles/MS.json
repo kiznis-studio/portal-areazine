@@ -1,0 +1,212 @@
+{
+  "stateCode": "MS",
+  "stateName": "Mississippi",
+  "cityCount": 43,
+  "totalPopulation": 1159562,
+  "avgMedianIncome": 50591,
+  "avgMedianHomeValue": 149238,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "jackson-ms",
+        "name": "Jackson",
+        "value": 153701
+      },
+      {
+        "slug": "gulfport-ms",
+        "name": "Gulfport",
+        "value": 71856
+      },
+      {
+        "slug": "west-gulfport",
+        "name": "West Gulfport",
+        "value": 71329
+      },
+      {
+        "slug": "southaven",
+        "name": "Southaven",
+        "value": 52589
+      },
+      {
+        "slug": "hattiesburg",
+        "name": "Hattiesburg",
+        "value": 46805
+      },
+      {
+        "slug": "biloxi",
+        "name": "Biloxi",
+        "value": 45637
+      },
+      {
+        "slug": "meridian-ms",
+        "name": "Meridian",
+        "value": 39661
+      },
+      {
+        "slug": "olive-branch",
+        "name": "Olive Branch",
+        "value": 36010
+      },
+      {
+        "slug": "tupelo",
+        "name": "Tupelo",
+        "value": 35680
+      },
+      {
+        "slug": "greenville-ms",
+        "name": "Greenville",
+        "value": 32156
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "southaven",
+        "name": "Southaven",
+        "value": 79666
+      },
+      {
+        "slug": "madison-ms",
+        "name": "Madison",
+        "value": 79105
+      },
+      {
+        "slug": "pearl",
+        "name": "Pearl",
+        "value": 76460
+      },
+      {
+        "slug": "tupelo",
+        "name": "Tupelo",
+        "value": 64479
+      },
+      {
+        "slug": "pascagoula",
+        "name": "Pascagoula",
+        "value": 60045
+      },
+      {
+        "slug": "oxford-ms",
+        "name": "Oxford",
+        "value": 59748
+      },
+      {
+        "slug": "gulfport-ms",
+        "name": "Gulfport",
+        "value": 55211
+      },
+      {
+        "slug": "carriere",
+        "name": "Carriere",
+        "value": 54220
+      },
+      {
+        "slug": "vicksburg",
+        "name": "Vicksburg",
+        "value": 54117
+      },
+      {
+        "slug": "columbus-ms",
+        "name": "Columbus",
+        "value": 53687
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "madison-ms",
+        "name": "Madison",
+        "value": 264700
+      },
+      {
+        "slug": "oxford-ms",
+        "name": "Oxford",
+        "value": 242800
+      },
+      {
+        "slug": "southaven",
+        "name": "Southaven",
+        "value": 227600
+      },
+      {
+        "slug": "starkville",
+        "name": "Starkville",
+        "value": 211200
+      },
+      {
+        "slug": "pearl",
+        "name": "Pearl",
+        "value": 203300
+      },
+      {
+        "slug": "gulfport-ms",
+        "name": "Gulfport",
+        "value": 185000
+      },
+      {
+        "slug": "tupelo",
+        "name": "Tupelo",
+        "value": 172900
+      },
+      {
+        "slug": "carriere",
+        "name": "Carriere",
+        "value": 167700
+      },
+      {
+        "slug": "pascagoula",
+        "name": "Pascagoula",
+        "value": 161700
+      },
+      {
+        "slug": "columbus-ms",
+        "name": "Columbus",
+        "value": 155300
+      }
+    ]
+  },
+  "cities": [
+    "biloxi",
+    "brandon-ms",
+    "brookhaven-ms",
+    "byram",
+    "canton-ms",
+    "carriere",
+    "clarksdale",
+    "cleveland-ms",
+    "clinton-ms",
+    "columbus-ms",
+    "corinth-ms",
+    "diberville",
+    "gautier",
+    "greenville-ms",
+    "greenwood-ms",
+    "grenada",
+    "gulfport-ms",
+    "hattiesburg",
+    "hernando",
+    "horn-lake",
+    "jackson-ms",
+    "laurel-ms",
+    "long-beach-ms",
+    "madison-ms",
+    "mccomb",
+    "meridian-ms",
+    "moss-point",
+    "natchez",
+    "ocean-springs",
+    "olive-branch",
+    "oxford-ms",
+    "pascagoula",
+    "pearl",
+    "petal",
+    "picayune",
+    "ridgeland",
+    "southaven",
+    "starkville",
+    "tupelo",
+    "vicksburg",
+    "west-gulfport",
+    "west-point-ms",
+    "yazoo-city"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.899Z"
+}

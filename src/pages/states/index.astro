@@ -1,0 +1,132 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
+import { US_STATES } from '../../data/cities';
+import { fmt, fmtMoney, fmtCompact } from '../../lib/format';
+import { compareToNational } from '../../lib/comparison';
+
+// Load all state profiles
+const stateProfileMods = import.meta.glob('../../data/state-profiles/*.json', { eager: true }) as Record<string, { default: any }>;
+const stateProfiles: Record<string, any> = {};
+for (const [path, mod] of Object.entries(stateProfileMods)) {
+  const code = path.split('/').pop()?.replace('.json', '') || '';
+  stateProfiles[code] = mod.default ?? mod;
+}
+
+const states = US_STATES.map(s => ({
+  ...s,
+  profile: stateProfiles[s.code] || null,
+})).sort((a, b) => a.name.localeCompare(b.name));
+
+const totalCities = states.reduce((s, st) => s + (st.profile?.cityCount || 0), 0);
+const totalPop = states.reduce((s, st) => s + (st.profile?.totalPopulation || 0), 0);
+---
+
+<Base
+  title="US State Data Index — All 50 States + DC"
+  description={`Browse city data by state. Population, income, health, and hospital data for ${fmtCompact(totalCities)}+ cities across all 50 US states and DC.`}
+>
+  <div class="container py-8 md:py-12">
+
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'States' },
+    ]} />
+
+    <header class="mb-10">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-black tracking-tight mb-3">US States</h1>
+      <p class="text-base text-[var(--color-muted)] max-w-2xl">
+        {fmt(totalCities)} cities across {states.length} states — {fmtCompact(totalPop)} residents tracked with government data from Census Bureau, CDC, and CMS.
+      </p>
+    </header>
+
+    {/* Summary Stats */}
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-12">
+      <div class="stat-card" style="--accent: var(--color-data-blue)">
+        <div class="data-label">States</div>
+        <div class="data-value">{states.length}</div>
+        <div class="text-xs text-[var(--color-muted)] mt-1">+ District of Columbia</div>
+      </div>
+      <div class="stat-card" style="--accent: var(--color-data-teal)">
+        <div class="data-label">Total Cities</div>
+        <div class="data-value">{fmtCompact(totalCities)}</div>
+        <div class="text-xs text-[var(--color-muted)] mt-1">population 10,000+</div>
+      </div>
+      <div class="stat-card" style="--accent: var(--color-data-amber)">
+        <div class="data-label">Population Tracked</div>
+        <div class="data-value">{fmtCompact(totalPop)}</div>
+        <div class="text-xs text-[var(--color-muted)] mt-1">in tracked cities</div>
+      </div>
+      <div class="stat-card" style="--accent: var(--color-data-violet)">
+        <div class="data-label">Data Sources</div>
+        <div class="data-value">3</div>
+        <div class="text-xs text-[var(--color-muted)] mt-1">Census, CDC, CMS</div>
+      </div>
+    </section>
+
+    {/* State Grid */}
+    <SectionHeader title="All States" count={states.length} />
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {states.map(state => {
+        const incomeComp = state.profile ? compareToNational('medianHouseholdIncome', state.profile.avgMedianIncome) : null;
+        return (
+          <a
+            href={`/states/${state.slug}`}
+            class="card-interactive block p-5"
+          >
+            <div class="flex items-baseline justify-between mb-3">
+              <h2 class="text-lg font-bold">{state.name}</h2>
+              <span class="text-sm text-[var(--color-muted)] font-medium px-2 py-0.5 bg-[var(--color-card)] rounded">{state.code}</span>
+            </div>
+
+            {state.profile && (
+              <div class="space-y-2">
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--color-muted)]">Cities</span>
+                  <span class="font-semibold tabular-nums">{state.profile.cityCount}</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--color-muted)]">Population</span>
+                  <span class="font-semibold tabular-nums">{fmtCompact(state.profile.totalPopulation)}</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--color-muted)]">Avg Income</span>
+                  <div class="flex items-center gap-2">
+                    <span class="font-semibold tabular-nums">{fmtMoney(state.profile.avgMedianIncome)}</span>
+                    {incomeComp && incomeComp.direction !== 'average' && (
+                      <span class={`text-xs font-medium ${incomeComp.direction === 'above' ? 'text-[var(--color-above)]' : 'text-[var(--color-below)]'}`}>
+                        {incomeComp.label}
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--color-muted)]">Avg Home Value</span>
+                  <span class="font-semibold tabular-nums">{fmtMoney(state.profile.avgMedianHomeValue)}</span>
+                </div>
+              </div>
+            )}
+          </a>
+        );
+      })}
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "US State Data Index",
+    "description": "Browse city data by state across all 50 US states and DC.",
+    "url": "https://areazine.com/states/",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": states.map((s, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "url": `https://areazine.com/states/${s.slug}`,
+        "name": s.name,
+      })),
+    },
+  })} />
+</Base>

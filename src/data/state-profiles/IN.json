@@ -1,0 +1,251 @@
+{
+  "stateCode": "IN",
+  "stateName": "Indiana",
+  "cityCount": 82,
+  "totalPopulation": 3693212,
+  "avgMedianIncome": 67284,
+  "avgMedianHomeValue": 174957,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "indianapolis",
+        "name": "Indianapolis",
+        "value": 887642
+      },
+      {
+        "slug": "fort-wayne",
+        "name": "Fort Wayne",
+        "value": 260326
+      },
+      {
+        "slug": "evansville",
+        "name": "Evansville",
+        "value": 119943
+      },
+      {
+        "slug": "south-bend",
+        "name": "South Bend",
+        "value": 101516
+      },
+      {
+        "slug": "carmel",
+        "name": "Carmel",
+        "value": 88713
+      },
+      {
+        "slug": "bloomington-in",
+        "name": "Bloomington",
+        "value": 84067
+      },
+      {
+        "slug": "hammond-in",
+        "name": "Hammond",
+        "value": 77614
+      },
+      {
+        "slug": "gary",
+        "name": "Gary",
+        "value": 77156
+      },
+      {
+        "slug": "fishers",
+        "name": "Fishers",
+        "value": 76794
+      },
+      {
+        "slug": "lafayette-in",
+        "name": "Lafayette",
+        "value": 71111
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "carmel",
+        "name": "Carmel",
+        "value": 114866
+      },
+      {
+        "slug": "zionsville",
+        "name": "Zionsville",
+        "value": 103038
+      },
+      {
+        "slug": "plainfield-in",
+        "name": "Plainfield",
+        "value": 95261
+      },
+      {
+        "slug": "greenfield-in",
+        "name": "Greenfield",
+        "value": 85262
+      },
+      {
+        "slug": "portage-in",
+        "name": "Portage",
+        "value": 82915
+      },
+      {
+        "slug": "greenwood-in",
+        "name": "Greenwood",
+        "value": 82730
+      },
+      {
+        "slug": "martinsville-in",
+        "name": "Martinsville",
+        "value": 79134
+      },
+      {
+        "slug": "columbus-in",
+        "name": "Columbus",
+        "value": 76912
+      },
+      {
+        "slug": "new-albany",
+        "name": "New Albany",
+        "value": 75686
+      },
+      {
+        "slug": "greensburg-in",
+        "name": "Greensburg",
+        "value": 71566
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "carmel",
+        "name": "Carmel",
+        "value": 350900
+      },
+      {
+        "slug": "zionsville",
+        "name": "Zionsville",
+        "value": 320000
+      },
+      {
+        "slug": "plainfield-in",
+        "name": "Plainfield",
+        "value": 257700
+      },
+      {
+        "slug": "portage-in",
+        "name": "Portage",
+        "value": 242300
+      },
+      {
+        "slug": "greenwood-in",
+        "name": "Greenwood",
+        "value": 240700
+      },
+      {
+        "slug": "bloomington-in",
+        "name": "Bloomington",
+        "value": 240600
+      },
+      {
+        "slug": "greenfield-in",
+        "name": "Greenfield",
+        "value": 235500
+      },
+      {
+        "slug": "new-albany",
+        "name": "New Albany",
+        "value": 214800
+      },
+      {
+        "slug": "martinsville-in",
+        "name": "Martinsville",
+        "value": 200600
+      },
+      {
+        "slug": "lafayette-in",
+        "name": "Lafayette",
+        "value": 199300
+      }
+    ]
+  },
+  "cities": [
+    "anderson-in",
+    "auburn-in",
+    "avon-in",
+    "bedford-in",
+    "beech-grove",
+    "bloomington-in",
+    "bluffton-in",
+    "broad-ripple",
+    "brownsburg",
+    "carmel",
+    "cedar-lake",
+    "chesterton",
+    "clarksville-in",
+    "columbus-in",
+    "connersville",
+    "crawfordsville",
+    "crown-point",
+    "dyer",
+    "east-chicago",
+    "elkhart",
+    "evansville",
+    "fairfield-heights",
+    "fishers",
+    "fort-wayne",
+    "frankfort-in",
+    "franklin-in",
+    "gary",
+    "goshen-in",
+    "granger",
+    "greencastle",
+    "greenfield-in",
+    "greensburg-in",
+    "greenwood-in",
+    "griffith",
+    "hammond-in",
+    "highland-in",
+    "hobart",
+    "huntington-in",
+    "indianapolis",
+    "jasper-in",
+    "jeffersonville",
+    "kokomo",
+    "la-porte-in",
+    "lafayette-in",
+    "lake-station",
+    "lawrence-in",
+    "lebanon-in",
+    "logansport",
+    "madison-in",
+    "marion-in",
+    "martinsville-in",
+    "merrillville",
+    "michigan-city",
+    "mishawaka",
+    "muncie",
+    "munster",
+    "new-albany",
+    "new-castle-in",
+    "new-haven-in",
+    "noblesville",
+    "north-madison",
+    "peru",
+    "plainfield-in",
+    "plymouth-in",
+    "portage-in",
+    "richmond-in",
+    "saint-john",
+    "schererville",
+    "seymour-in",
+    "shelbyville-in",
+    "south-bend",
+    "speedway",
+    "terre-haute",
+    "valparaiso",
+    "vincennes",
+    "wabash",
+    "warsaw",
+    "washington-in",
+    "west-lafayette",
+    "westfield-in",
+    "yorktown",
+    "zionsville"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.894Z"
+}

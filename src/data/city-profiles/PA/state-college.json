@@ -1,0 +1,64 @@
+{
+  "city": "State College",
+  "slug": "state-college",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Centre County",
+  "lat": 40.7934,
+  "lng": -77.86,
+  "fetchedAt": "2026-02-11T17:08:27.530Z",
+  "census": {
+    "population": 158665,
+    "medianAge": 33.3,
+    "medianHouseholdIncome": 70087,
+    "medianHomeValue": 289800,
+    "medianRent": 1118,
+    "povertyRate": 17,
+    "unemploymentRate": 4,
+    "bachelorDegreeOrHigher": 46.2,
+    "publicTransitPct": 4,
+    "workFromHomePct": 12.1,
+    "demographics": {
+      "white": 85.8,
+      "black": 3.3,
+      "asian": 6.2,
+      "hispanic": 3.1,
+      "other": 1.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 157795,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MOUNT NITTANY MEDICAL CENTER",
+        "city": "STATE COLLEGE",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

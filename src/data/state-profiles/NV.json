@@ -1,0 +1,161 @@
+{
+  "stateCode": "NV",
+  "stateName": "Nevada",
+  "cityCount": 22,
+  "totalPopulation": 2538559,
+  "avgMedianIncome": 73507,
+  "avgMedianHomeValue": 367586,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "las-vegas-nv",
+        "name": "Las Vegas",
+        "value": 641903
+      },
+      {
+        "slug": "henderson-nv",
+        "name": "Henderson",
+        "value": 285667
+      },
+      {
+        "slug": "reno",
+        "name": "Reno",
+        "value": 264165
+      },
+      {
+        "slug": "north-las-vegas",
+        "name": "North Las Vegas",
+        "value": 234807
+      },
+      {
+        "slug": "paradise-nv",
+        "name": "Paradise",
+        "value": 223167
+      },
+      {
+        "slug": "sunrise-manor",
+        "name": "Sunrise Manor",
+        "value": 189372
+      },
+      {
+        "slug": "spring-valley-nv",
+        "name": "Spring Valley",
+        "value": 178395
+      },
+      {
+        "slug": "enterprise-nv",
+        "name": "Enterprise",
+        "value": 108481
+      },
+      {
+        "slug": "sparks",
+        "name": "Sparks",
+        "value": 96094
+      },
+      {
+        "slug": "carson-city",
+        "name": "Carson City",
+        "value": 58639
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "elko",
+        "name": "Elko",
+        "value": 87755
+      },
+      {
+        "slug": "gardnerville-ranchos",
+        "name": "Gardnerville Ranchos",
+        "value": 84262
+      },
+      {
+        "slug": "reno",
+        "name": "Reno",
+        "value": 81531
+      },
+      {
+        "slug": "fernley",
+        "name": "Fernley",
+        "value": 70026
+      },
+      {
+        "slug": "las-vegas-nv",
+        "name": "Las Vegas",
+        "value": 69911
+      },
+      {
+        "slug": "carson-city",
+        "name": "Carson City",
+        "value": 67465
+      },
+      {
+        "slug": "pahrump",
+        "name": "Pahrump",
+        "value": 53602
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "gardnerville-ranchos",
+        "name": "Gardnerville Ranchos",
+        "value": 529600
+      },
+      {
+        "slug": "reno",
+        "name": "Reno",
+        "value": 460000
+      },
+      {
+        "slug": "carson-city",
+        "name": "Carson City",
+        "value": 390800
+      },
+      {
+        "slug": "las-vegas-nv",
+        "name": "Las Vegas",
+        "value": 368800
+      },
+      {
+        "slug": "fernley",
+        "name": "Fernley",
+        "value": 314200
+      },
+      {
+        "slug": "elko",
+        "name": "Elko",
+        "value": 274200
+      },
+      {
+        "slug": "pahrump",
+        "name": "Pahrump",
+        "value": 235500
+      }
+    ]
+  },
+  "cities": [
+    "boulder-city",
+    "carson-city",
+    "elko",
+    "enterprise-nv",
+    "fernley",
+    "gardnerville-ranchos",
+    "henderson-nv",
+    "las-vegas-nv",
+    "mesquite-nv",
+    "north-las-vegas",
+    "pahrump",
+    "paradise-nv",
+    "reno",
+    "spanish-springs",
+    "sparks",
+    "spring-creek",
+    "spring-valley-nv",
+    "summerlin-south",
+    "sun-valley",
+    "sunrise-manor",
+    "whitney",
+    "winchester-nv"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.896Z"
+}

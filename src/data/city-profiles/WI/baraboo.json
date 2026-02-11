@@ -1,0 +1,158 @@
+{
+  "city": "Baraboo",
+  "slug": "baraboo",
+  "state": "Wisconsin",
+  "stateCode": "WI",
+  "county": "Sauk County",
+  "lat": 43.4711,
+  "lng": -89.7443,
+  "fetchedAt": "2026-02-11T17:08:27.823Z",
+  "census": {
+    "population": 65664,
+    "medianAge": 41.1,
+    "medianHouseholdIncome": 72930,
+    "medianHomeValue": 227500,
+    "medianRent": 914,
+    "povertyRate": 8.6,
+    "unemploymentRate": 2.8,
+    "bachelorDegreeOrHigher": 25.2,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 7.7,
+    "demographics": {
+      "white": 91.8,
+      "black": 0.8,
+      "asian": 0.4,
+      "hispanic": 5.8,
+      "other": 1.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 19,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 65920,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SAUK PRAIRIE HOSPITAL",
+        "city": "PRAIRIE DU SAC",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SSM HEALTH ST CLARE HOSPITAL - BARABOO",
+        "city": "BARABOO",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "REEDSBURG AREA MEDICAL CENTER",
+        "city": "REEDSBURG",
+        "rating": 3,
+        "type": "Critical Access Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 3,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

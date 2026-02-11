@@ -1,0 +1,127 @@
+{
+  "city": "Rockport",
+  "slug": "rockport",
+  "state": "Texas",
+  "stateCode": "TX",
+  "county": "Aransas County",
+  "lat": 28.0208,
+  "lng": -97.056,
+  "fetchedAt": "2026-02-11T17:08:27.873Z",
+  "census": {
+    "population": 24048,
+    "medianAge": 51,
+    "medianHouseholdIncome": 58168,
+    "medianHomeValue": 221500,
+    "medianRent": 1076,
+    "povertyRate": 17.9,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 24.2,
+    "publicTransitPct": 0.6,
+    "workFromHomePct": 10.6,
+    "demographics": {
+      "white": 81.1,
+      "black": 0.8,
+      "asian": 1.7,
+      "hispanic": 28.9,
+      "other": -12.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 30.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 36,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 53,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 43.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 25374,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

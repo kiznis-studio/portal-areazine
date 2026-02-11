@@ -1,0 +1,269 @@
+{
+  "stateCode": "MN",
+  "stateName": "Minnesota",
+  "cityCount": 100,
+  "totalPopulation": 3648192,
+  "avgMedianIncome": 79657,
+  "avgMedianHomeValue": 250269,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "minneapolis",
+        "name": "Minneapolis",
+        "value": 410939
+      },
+      {
+        "slug": "saint-paul",
+        "name": "Saint Paul",
+        "value": 303176
+      },
+      {
+        "slug": "rochester-mn",
+        "name": "Rochester",
+        "value": 112225
+      },
+      {
+        "slug": "bloomington-mn",
+        "name": "Bloomington",
+        "value": 86435
+      },
+      {
+        "slug": "duluth-mn",
+        "name": "Duluth",
+        "value": 86110
+      },
+      {
+        "slug": "brooklyn-park-mn",
+        "name": "Brooklyn Park",
+        "value": 79149
+      },
+      {
+        "slug": "plymouth-mn",
+        "name": "Plymouth",
+        "value": 75907
+      },
+      {
+        "slug": "maple-grove",
+        "name": "Maple Grove",
+        "value": 68385
+      },
+      {
+        "slug": "woodbury-mn",
+        "name": "Woodbury",
+        "value": 67855
+      },
+      {
+        "slug": "eagan",
+        "name": "Eagan",
+        "value": 66286
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "shakopee",
+        "name": "Shakopee",
+        "value": 118268
+      },
+      {
+        "slug": "chanhassen",
+        "name": "Chanhassen",
+        "value": 116308
+      },
+      {
+        "slug": "woodbury-mn",
+        "name": "Woodbury",
+        "value": 110828
+      },
+      {
+        "slug": "saint-michael",
+        "name": "Saint Michael",
+        "value": 102980
+      },
+      {
+        "slug": "eagan",
+        "name": "Eagan",
+        "value": 101360
+      },
+      {
+        "slug": "elk-river",
+        "name": "Elk River",
+        "value": 99431
+      },
+      {
+        "slug": "north-branch",
+        "name": "North Branch",
+        "value": 97446
+      },
+      {
+        "slug": "coon-rapids",
+        "name": "Coon Rapids",
+        "value": 95782
+      },
+      {
+        "slug": "minneapolis",
+        "name": "Minneapolis",
+        "value": 92595
+      },
+      {
+        "slug": "rochester-mn",
+        "name": "Rochester",
+        "value": 90420
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "chanhassen",
+        "name": "Chanhassen",
+        "value": 400500
+      },
+      {
+        "slug": "woodbury-mn",
+        "name": "Woodbury",
+        "value": 379300
+      },
+      {
+        "slug": "shakopee",
+        "name": "Shakopee",
+        "value": 376000
+      },
+      {
+        "slug": "minneapolis",
+        "name": "Minneapolis",
+        "value": 358000
+      },
+      {
+        "slug": "eagan",
+        "name": "Eagan",
+        "value": 341200
+      },
+      {
+        "slug": "saint-michael",
+        "name": "Saint Michael",
+        "value": 310900
+      },
+      {
+        "slug": "elk-river",
+        "name": "Elk River",
+        "value": 306000
+      },
+      {
+        "slug": "coon-rapids",
+        "name": "Coon Rapids",
+        "value": 302300
+      },
+      {
+        "slug": "north-branch",
+        "name": "North Branch",
+        "value": 299800
+      },
+      {
+        "slug": "saint-paul",
+        "name": "Saint Paul",
+        "value": 289300
+      }
+    ]
+  },
+  "cities": [
+    "albert-lea",
+    "alexandria-mn",
+    "andover-mn",
+    "anoka",
+    "apple-valley-mn",
+    "austin-mn",
+    "bemidji",
+    "big-lake",
+    "blaine",
+    "bloomington-mn",
+    "brainerd",
+    "brooklyn-center",
+    "brooklyn-park-mn",
+    "buffalo-mn",
+    "burnsville",
+    "champlin",
+    "chanhassen",
+    "chaska",
+    "cloquet",
+    "columbia-heights-mn",
+    "coon-rapids",
+    "cottage-grove",
+    "crystal",
+    "duluth-mn",
+    "eagan",
+    "east-bethel",
+    "eden-prairie",
+    "edina",
+    "elk-river",
+    "fairmont-mn",
+    "faribault",
+    "farmington-mn",
+    "fergus-falls",
+    "forest-lake",
+    "fridley",
+    "golden-valley",
+    "grand-rapids-mn",
+    "ham-lake",
+    "hastings-mn",
+    "hibbing",
+    "hopkins",
+    "hugo",
+    "hutchinson-mn",
+    "inver-grove-heights",
+    "lakeville",
+    "lino-lakes",
+    "little-canada",
+    "longfellow-community",
+    "mankato",
+    "maple-grove",
+    "maplewood-mn",
+    "marshall-mn",
+    "mendota-heights",
+    "minneapolis",
+    "minnetonka",
+    "minnetonka-mills",
+    "monticello",
+    "moorhead",
+    "mounds-view",
+    "new-brighton",
+    "new-hope",
+    "new-ulm",
+    "north-branch",
+    "north-mankato",
+    "north-saint-paul",
+    "northfield",
+    "oakdale-mn",
+    "otsego",
+    "owatonna",
+    "plymouth-mn",
+    "prior-lake",
+    "ramsey-mn",
+    "red-wing",
+    "richfield-mn",
+    "robbinsdale",
+    "rochester-mn",
+    "rogers-mn",
+    "rosemount",
+    "roseville-mn",
+    "saint-cloud-mn",
+    "saint-louis-park",
+    "saint-michael",
+    "saint-paul",
+    "saint-peter",
+    "sartell",
+    "sauk-rapids",
+    "savage",
+    "shakopee",
+    "shoreview",
+    "south-saint-paul",
+    "stillwater-mn",
+    "vadnais-heights",
+    "waconia",
+    "west-coon-rapids",
+    "west-saint-paul",
+    "white-bear-lake",
+    "willmar",
+    "winona",
+    "woodbury-mn",
+    "worthington-mn"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.897Z"
+}

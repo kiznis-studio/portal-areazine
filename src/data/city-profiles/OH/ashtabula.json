@@ -1,0 +1,150 @@
+{
+  "city": "Ashtabula",
+  "slug": "ashtabula",
+  "state": "Ohio",
+  "stateCode": "OH",
+  "county": "Ashtabula County",
+  "lat": 41.865,
+  "lng": -80.7898,
+  "fetchedAt": "2026-02-11T17:08:27.703Z",
+  "census": {
+    "population": 97666,
+    "medianAge": 42.6,
+    "medianHouseholdIncome": 53663,
+    "medianHomeValue": 139000,
+    "medianRent": 811,
+    "povertyRate": 18,
+    "unemploymentRate": 7.6,
+    "bachelorDegreeOrHigher": 15.7,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 3.7,
+    "demographics": {
+      "white": 90.2,
+      "black": 3.6,
+      "asian": 0.4,
+      "hispanic": 4.7,
+      "other": 1.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 41.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 16.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 45.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 57.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 20.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.2,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 96845,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ASHTABULA COUNTY MEDICAL CENTER",
+        "city": "ASHTABULA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UHHS MEMORIAL HOSPITAL OF GENEVA",
+        "city": "GENEVA",
+        "rating": 3,
+        "type": "Critical Access Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 2,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

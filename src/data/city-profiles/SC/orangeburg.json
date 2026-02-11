@@ -1,0 +1,127 @@
+{
+  "city": "Orangeburg",
+  "slug": "orangeburg",
+  "state": "South Carolina",
+  "stateCode": "SC",
+  "county": "Orangeburg County",
+  "lat": 33.4918,
+  "lng": -80.8556,
+  "fetchedAt": "2026-02-11T17:08:27.790Z",
+  "census": {
+    "population": 84159,
+    "medianAge": 40.5,
+    "medianHouseholdIncome": 41020,
+    "medianHomeValue": 105500,
+    "medianRent": 771,
+    "povertyRate": 25,
+    "unemploymentRate": 9.2,
+    "bachelorDegreeOrHigher": 19.2,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 5.6,
+    "demographics": {
+      "white": 34.5,
+      "black": 61.5,
+      "asian": 0.7,
+      "hispanic": 2.5,
+      "other": 0.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 39.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 83.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 33.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 16.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 8.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 47.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 5.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 42.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 55.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 19,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 82820,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

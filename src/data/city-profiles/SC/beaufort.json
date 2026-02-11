@@ -1,0 +1,150 @@
+{
+  "city": "Beaufort",
+  "slug": "beaufort",
+  "state": "South Carolina",
+  "stateCode": "SC",
+  "county": "Beaufort County",
+  "lat": 32.4317,
+  "lng": -80.6699,
+  "fetchedAt": "2026-02-11T17:08:27.794Z",
+  "census": {
+    "population": 189071,
+    "medianAge": 46.8,
+    "medianHouseholdIncome": 81260,
+    "medianHomeValue": 377900,
+    "medianRent": 1435,
+    "povertyRate": 10.4,
+    "unemploymentRate": 2.9,
+    "bachelorDegreeOrHigher": 43.4,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 11,
+    "demographics": {
+      "white": 71.1,
+      "black": 16.2,
+      "asian": 1.1,
+      "hispanic": 11.2,
+      "other": 0.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 30.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 82.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 8.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 13.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 29.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 38.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 9.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 198979,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "BEAUFORT COUNTY MEMORIAL HOSPITAL",
+        "city": "BEAUFORT",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Local"
+      },
+      {
+        "name": "HILTON HEAD REGIONAL MEDICAL CENTER",
+        "city": "HILTON HEAD ISLAND",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

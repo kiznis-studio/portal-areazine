@@ -1,0 +1,64 @@
+{
+  "city": "Frankfort",
+  "slug": "frankfort-ky",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Franklin County",
+  "lat": 38.2009,
+  "lng": -84.8733,
+  "fetchedAt": "2026-02-11T17:08:27.601Z",
+  "census": {
+    "population": 51475,
+    "medianAge": 40,
+    "medianHouseholdIncome": 62929,
+    "medianHomeValue": 184000,
+    "medianRent": 902,
+    "povertyRate": 13.3,
+    "unemploymentRate": 4.7,
+    "bachelorDegreeOrHigher": 31.6,
+    "publicTransitPct": 1.2,
+    "workFromHomePct": 11.3,
+    "demographics": {
+      "white": 82,
+      "black": 8.7,
+      "asian": 1.7,
+      "hispanic": 3.9,
+      "other": 3.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 51644,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "FRANKFORT REGIONAL MEDICAL CENTER",
+        "city": "FRANKFORT",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

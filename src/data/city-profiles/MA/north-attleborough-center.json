@@ -1,0 +1,166 @@
+{
+  "city": "North Attleborough Center",
+  "slug": "north-attleborough-center",
+  "state": "Massachusetts",
+  "stateCode": "MA",
+  "county": "Bristol County",
+  "lat": 41.9726,
+  "lng": -71.3247,
+  "fetchedAt": "2026-02-11T17:08:27.722Z",
+  "census": {
+    "population": 576699,
+    "medianAge": 41,
+    "medianHouseholdIncome": 80628,
+    "medianHomeValue": 385000,
+    "medianRent": 1116,
+    "povertyRate": 11.1,
+    "unemploymentRate": 5.7,
+    "bachelorDegreeOrHigher": 29.7,
+    "publicTransitPct": 1.9,
+    "workFromHomePct": 8.7,
+    "demographics": {
+      "white": 80.4,
+      "black": 4.2,
+      "asian": 2.3,
+      "hispanic": 9,
+      "other": 4.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 32.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 5.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 12.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 581841,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SOUTHCOAST HOSPITALS GROUP",
+        "city": "FALL RIVER",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "STURDY MEMORIAL HOSPITAL",
+        "city": "ATTLEBORO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "SAINT ANNE'S HOSPITAL",
+        "city": "FALL RIVER",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "BROWN UNIVERSITY HEALTH MORTON HOSPITAL",
+        "city": "TAUNTON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 8,
+    "ratedHospitals": 4,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

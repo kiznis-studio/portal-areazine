@@ -1,0 +1,142 @@
+{
+  "city": "Jacksonville",
+  "slug": "jacksonville-nc",
+  "state": "North Carolina",
+  "stateCode": "NC",
+  "county": "Onslow County",
+  "lat": 34.7541,
+  "lng": -77.4302,
+  "fetchedAt": "2026-02-11T17:08:27.468Z",
+  "census": {
+    "population": 203686,
+    "medianAge": 26.9,
+    "medianHouseholdIncome": 59976,
+    "medianHomeValue": 196800,
+    "medianRent": 1132,
+    "povertyRate": 12.8,
+    "unemploymentRate": 4.2,
+    "bachelorDegreeOrHigher": 25.7,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 8.3,
+    "demographics": {
+      "white": 70.5,
+      "black": 13.9,
+      "asian": 1.9,
+      "hispanic": 13.3,
+      "other": 0.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 28.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 76.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 8.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 63.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 213676,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ONSLOW MEMORIAL HOSPITAL",
+        "city": "JACKSONVILLE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 1,
+    "averageRating": 1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

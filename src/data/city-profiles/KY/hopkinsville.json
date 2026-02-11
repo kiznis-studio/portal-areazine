@@ -1,0 +1,64 @@
+{
+  "city": "Hopkinsville",
+  "slug": "hopkinsville",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Christian County",
+  "lat": 36.8656,
+  "lng": -87.4912,
+  "fetchedAt": "2026-02-11T17:08:27.579Z",
+  "census": {
+    "population": 72766,
+    "medianAge": 28.4,
+    "medianHouseholdIncome": 48920,
+    "medianHomeValue": 142000,
+    "medianRent": 984,
+    "povertyRate": 16.7,
+    "unemploymentRate": 6,
+    "bachelorDegreeOrHigher": 19.1,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 3.7,
+    "demographics": {
+      "white": 68.4,
+      "black": 20.2,
+      "asian": 1.2,
+      "hispanic": 8.4,
+      "other": 1.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 52.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.9,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 72032,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "JENNIE STUART MEDICAL CENTER",
+        "city": "HOPKINSVILLE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 4,
+    "ratedHospitals": 1,
+    "averageRating": 1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

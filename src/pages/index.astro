@@ -4,6 +4,9 @@ import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
 import { SITE_NAME, SITE_DESCRIPTION, getCategoryMeta, getCategoryBadgeClass } from '../lib/config';
 import type { CategoryKey } from '../lib/config';
+import { CITIES, US_STATES } from '../data/cities';
+import { fmt, fmtMoney, fmtCompact } from '../lib/format';
+import nationalStats from '../data/national-stats.json';
 
 const allArticles = await getCollection('articles');
 const sortedArticles = allArticles.sort((a, b) =>
@@ -36,6 +39,15 @@ const categorySections = [
     };
   }),
 ].filter(s => s.articles.length > 0);
+
+// City data for homepage
+const maxTier = parseInt(import.meta.env.CITY_TIER || '2');
+const totalCities = CITIES.filter(c => c.tier <= maxTier).length;
+const totalPop = CITIES.filter(c => c.tier <= maxTier).reduce((s, c) => s + c.population, 0);
+const topCities = CITIES
+  .filter(c => c.tier <= maxTier)
+  .sort((a, b) => b.population - a.population)
+  .slice(0, 12);
 ---
 
 <Base
@@ -71,6 +83,67 @@ const categorySections = [
         </a>
       </section>
     )}
+
+    {/* City Data Section */}
+    <section class="mb-10 border border-[var(--color-border)] rounded-xl p-6 md:p-8">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+        <div>
+          <h2 class="text-xl md:text-2xl font-bold mb-1">City Data Reports</h2>
+          <p class="text-sm text-[var(--color-muted)]">
+            {fmt(totalCities)} cities covering {fmtCompact(totalPop)} residents — population, income, health, and hospitals.
+          </p>
+        </div>
+        <a href="/cities" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium border border-[var(--color-border)] rounded-lg hover:bg-[var(--color-card)] transition-colors flex-shrink-0">
+          Search all cities &rarr;
+        </a>
+      </div>
+
+      {/* National Snapshot */}
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+        <div class="stat-card" style="--accent: var(--color-data-blue)">
+          <div class="data-label">Cities Tracked</div>
+          <div class="data-value">{fmtCompact(totalCities)}</div>
+        </div>
+        <div class="stat-card" style="--accent: var(--color-data-teal)">
+          <div class="data-label">Natl Median Income</div>
+          <div class="data-value">{fmtMoney(nationalStats.avgMedianIncome)}</div>
+        </div>
+        <div class="stat-card" style="--accent: var(--color-data-amber)">
+          <div class="data-label">Natl Median Home</div>
+          <div class="data-value">{fmtMoney(nationalStats.avgMedianHomeValue)}</div>
+        </div>
+        <div class="stat-card" style="--accent: var(--color-data-violet)">
+          <div class="data-label">Data Sources</div>
+          <div class="data-value">3</div>
+          <div class="text-xs text-[var(--color-muted)] mt-0.5">Census, CDC, CMS</div>
+        </div>
+      </div>
+
+      {/* Top Cities Quick Links */}
+      <div class="flex flex-wrap gap-2">
+        {topCities.map(city => (
+          <a
+            href={`/cities/${city.slug}`}
+            class="text-sm px-3 py-1.5 border border-[var(--color-border)] rounded-full hover:border-[var(--color-muted)] hover:bg-[var(--color-card)] transition-colors flex items-center gap-2"
+          >
+            <span>{city.name}</span>
+            <span class="text-xs text-[var(--color-muted)] tabular-nums">{fmtCompact(city.population)}</span>
+          </a>
+        ))}
+        <a
+          href="/cities"
+          class="text-sm px-3 py-1.5 text-[var(--color-accent)] hover:underline flex items-center"
+        >
+          View all {fmtCompact(totalCities)} cities &rarr;
+        </a>
+      </div>
+
+      {/* State Links */}
+      <div class="mt-4 pt-4 border-t border-[var(--color-border)] flex items-center gap-2 flex-wrap">
+        <span class="text-xs text-[var(--color-muted)] font-medium uppercase tracking-wider">By state:</span>
+        <a href="/states" class="text-sm text-[var(--color-accent)] hover:underline">All 50 states + DC &rarr;</a>
+      </div>
+    </section>
 
     {/* Category sections — 2-3 columns */}
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">

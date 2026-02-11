@@ -1,0 +1,219 @@
+{
+  "stateCode": "KY",
+  "stateName": "Kentucky",
+  "cityCount": 50,
+  "totalPopulation": 2546737,
+  "avgMedianIncome": 62685,
+  "avgMedianHomeValue": 184631,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "louisville-ky",
+        "name": "Louisville",
+        "value": 624444
+      },
+      {
+        "slug": "lexington-ky",
+        "name": "Lexington",
+        "value": 320347
+      },
+      {
+        "slug": "lexington-fayette",
+        "name": "Lexington-Fayette",
+        "value": 314488
+      },
+      {
+        "slug": "meads",
+        "name": "Meads",
+        "value": 288649
+      },
+      {
+        "slug": "bowling-green-ky",
+        "name": "Bowling Green",
+        "value": 63616
+      },
+      {
+        "slug": "owensboro",
+        "name": "Owensboro",
+        "value": 59042
+      },
+      {
+        "slug": "covington-ky",
+        "name": "Covington",
+        "value": 40997
+      },
+      {
+        "slug": "richmond-ky",
+        "name": "Richmond",
+        "value": 33533
+      },
+      {
+        "slug": "georgetown-ky",
+        "name": "Georgetown",
+        "value": 32356
+      },
+      {
+        "slug": "florence-ky",
+        "name": "Florence",
+        "value": 32227
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "florence-ky",
+        "name": "Florence",
+        "value": 91697
+      },
+      {
+        "slug": "shelbyville-ky",
+        "name": "Shelbyville",
+        "value": 81012
+      },
+      {
+        "slug": "georgetown-ky",
+        "name": "Georgetown",
+        "value": 80782
+      },
+      {
+        "slug": "covington-ky",
+        "name": "Covington",
+        "value": 76016
+      },
+      {
+        "slug": "mount-washington",
+        "name": "Mount Washington",
+        "value": 73900
+      },
+      {
+        "slug": "fort-thomas",
+        "name": "Fort Thomas",
+        "value": 71979
+      },
+      {
+        "slug": "nicholasville",
+        "name": "Nicholasville",
+        "value": 69905
+      },
+      {
+        "slug": "lawrenceburg-ky",
+        "name": "Lawrenceburg",
+        "value": 69885
+      },
+      {
+        "slug": "louisville-ky",
+        "name": "Louisville",
+        "value": 66296
+      },
+      {
+        "slug": "bardstown",
+        "name": "Bardstown",
+        "value": 66212
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "lexington-ky",
+        "name": "Lexington",
+        "value": 247900
+      },
+      {
+        "slug": "shelbyville-ky",
+        "name": "Shelbyville",
+        "value": 247500
+      },
+      {
+        "slug": "georgetown-ky",
+        "name": "Georgetown",
+        "value": 240800
+      },
+      {
+        "slug": "florence-ky",
+        "name": "Florence",
+        "value": 237600
+      },
+      {
+        "slug": "bowling-green-ky",
+        "name": "Bowling Green",
+        "value": 227300
+      },
+      {
+        "slug": "nicholasville",
+        "name": "Nicholasville",
+        "value": 226900
+      },
+      {
+        "slug": "louisville-ky",
+        "name": "Louisville",
+        "value": 222200
+      },
+      {
+        "slug": "fort-thomas",
+        "name": "Fort Thomas",
+        "value": 214400
+      },
+      {
+        "slug": "mount-washington",
+        "name": "Mount Washington",
+        "value": 214000
+      },
+      {
+        "slug": "covington-ky",
+        "name": "Covington",
+        "value": 207700
+      }
+    ]
+  },
+  "cities": [
+    "ashland-ky",
+    "bardstown",
+    "berea-ky",
+    "bowling-green-ky",
+    "burlington-ky",
+    "campbellsville",
+    "covington-ky",
+    "danville-ky",
+    "elizabethtown-ky",
+    "erlanger",
+    "fern-creek",
+    "florence-ky",
+    "fort-campbell-north",
+    "fort-knox",
+    "fort-thomas",
+    "frankfort-ky",
+    "georgetown-ky",
+    "glasgow-ky",
+    "henderson-ky",
+    "highview",
+    "hopkinsville",
+    "independence-ky",
+    "jeffersontown",
+    "lawrenceburg-ky",
+    "lexington-fayette",
+    "lexington-ky",
+    "louisville-ky",
+    "lyndon",
+    "madisonville",
+    "mayfield",
+    "meads",
+    "middlesboro",
+    "mount-washington",
+    "murray-ky",
+    "newburg",
+    "newport-ky",
+    "nicholasville",
+    "okolona",
+    "owensboro",
+    "paducah",
+    "pleasure-ridge-park",
+    "radcliff",
+    "richmond-ky",
+    "saint-matthews",
+    "shelbyville-ky",
+    "shepherdsville",
+    "shively",
+    "somerset-ky",
+    "valley-station",
+    "winchester-ky"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.896Z"
+}

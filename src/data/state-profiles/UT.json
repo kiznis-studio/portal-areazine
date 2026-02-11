@@ -1,0 +1,234 @@
+{
+  "stateCode": "UT",
+  "stateName": "Utah",
+  "cityCount": 65,
+  "totalPopulation": 2577917,
+  "avgMedianIncome": 80885,
+  "avgMedianHomeValue": 362780,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "salt-lake-city",
+        "name": "Salt Lake City",
+        "value": 215548
+      },
+      {
+        "slug": "west-valley-city",
+        "name": "West Valley City",
+        "value": 136208
+      },
+      {
+        "slug": "provo",
+        "name": "Provo",
+        "value": 115162
+      },
+      {
+        "slug": "west-jordan",
+        "name": "West Jordan",
+        "value": 111946
+      },
+      {
+        "slug": "orem",
+        "name": "Orem",
+        "value": 94457
+      },
+      {
+        "slug": "sandy-hills",
+        "name": "Sandy Hills",
+        "value": 89575
+      },
+      {
+        "slug": "sandy-ut",
+        "name": "Sandy",
+        "value": 87461
+      },
+      {
+        "slug": "ogden",
+        "name": "Ogden",
+        "value": 85444
+      },
+      {
+        "slug": "layton",
+        "name": "Layton",
+        "value": 74143
+      },
+      {
+        "slug": "saint-george",
+        "name": "Saint George",
+        "value": 72897
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "layton",
+        "name": "Layton",
+        "value": 101285
+      },
+      {
+        "slug": "tooele",
+        "name": "Tooele",
+        "value": 95545
+      },
+      {
+        "slug": "provo",
+        "name": "Provo",
+        "value": 91263
+      },
+      {
+        "slug": "salt-lake-city",
+        "name": "Salt Lake City",
+        "value": 90011
+      },
+      {
+        "slug": "ogden",
+        "name": "Ogden",
+        "value": 82291
+      },
+      {
+        "slug": "brigham-city",
+        "name": "Brigham City",
+        "value": 72769
+      },
+      {
+        "slug": "logan-ut",
+        "name": "Logan",
+        "value": 72719
+      },
+      {
+        "slug": "saint-george",
+        "name": "Saint George",
+        "value": 71976
+      },
+      {
+        "slug": "vernal",
+        "name": "Vernal",
+        "value": 67983
+      },
+      {
+        "slug": "cedar-city",
+        "name": "Cedar City",
+        "value": 63005
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "provo",
+        "name": "Provo",
+        "value": 443000
+      },
+      {
+        "slug": "salt-lake-city",
+        "name": "Salt Lake City",
+        "value": 440400
+      },
+      {
+        "slug": "layton",
+        "name": "Layton",
+        "value": 423200
+      },
+      {
+        "slug": "saint-george",
+        "name": "Saint George",
+        "value": 417400
+      },
+      {
+        "slug": "logan-ut",
+        "name": "Logan",
+        "value": 351700
+      },
+      {
+        "slug": "ogden",
+        "name": "Ogden",
+        "value": 346800
+      },
+      {
+        "slug": "tooele",
+        "name": "Tooele",
+        "value": 343900
+      },
+      {
+        "slug": "brigham-city",
+        "name": "Brigham City",
+        "value": 308900
+      },
+      {
+        "slug": "cedar-city",
+        "name": "Cedar City",
+        "value": 299400
+      },
+      {
+        "slug": "vernal",
+        "name": "Vernal",
+        "value": 253100
+      }
+    ]
+  },
+  "cities": [
+    "alpine-ut",
+    "american-fork",
+    "bluffdale",
+    "bountiful",
+    "brigham-city",
+    "canyon-rim",
+    "cedar-city",
+    "cedar-hills",
+    "centerville-ut",
+    "clearfield",
+    "clinton-ut",
+    "cottonwood-heights",
+    "draper",
+    "eagle-mountain",
+    "east-millcreek",
+    "farmington-ut",
+    "grantsville",
+    "herriman",
+    "highland-ut",
+    "holladay",
+    "hurricane",
+    "kaysville",
+    "kearns",
+    "layton",
+    "lehi",
+    "lindon",
+    "logan-ut",
+    "magna",
+    "midvale",
+    "millcreek",
+    "murray-ut",
+    "north-logan",
+    "north-ogden",
+    "north-salt-lake",
+    "ogden",
+    "oquirrh",
+    "orem",
+    "payson-ut",
+    "pleasant-grove-ut",
+    "provo",
+    "riverton-ut",
+    "roy",
+    "saint-george",
+    "salt-lake-city",
+    "sandy-hills",
+    "sandy-ut",
+    "santaquin",
+    "saratoga-springs-ut",
+    "smithfield-ut",
+    "south-jordan",
+    "south-jordan-heights",
+    "south-ogden",
+    "south-salt-lake",
+    "spanish-fork",
+    "springville",
+    "syracuse-ut",
+    "taylorsville",
+    "tooele",
+    "vernal",
+    "washington-ut",
+    "west-haven-ut",
+    "west-jordan",
+    "west-point-ut",
+    "west-valley-city",
+    "woods-cross"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.898Z"
+}

@@ -1,0 +1,150 @@
+{
+  "city": "Binghamton",
+  "slug": "binghamton",
+  "state": "New York",
+  "stateCode": "NY",
+  "county": "Broome County",
+  "lat": 42.0987,
+  "lng": -75.918,
+  "fetchedAt": "2026-02-11T17:08:27.518Z",
+  "census": {
+    "population": 198365,
+    "medianAge": 39.7,
+    "medianHouseholdIncome": 58317,
+    "medianHomeValue": 139200,
+    "medianRent": 882,
+    "povertyRate": 19.1,
+    "unemploymentRate": 6.9,
+    "bachelorDegreeOrHigher": 29.8,
+    "publicTransitPct": 3.1,
+    "workFromHomePct": 7,
+    "demographics": {
+      "white": 82.6,
+      "black": 5.4,
+      "asian": 4.9,
+      "hispanic": 4.8,
+      "other": 2.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 35,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.6,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 196077,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "OUR LADY OF LOURDES MEMORIAL HOSPITAL, INC",
+        "city": "BINGHAMTON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UNITED HEALTH SERVICES HOSPITALS, INC",
+        "city": "BINGHAMTON",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

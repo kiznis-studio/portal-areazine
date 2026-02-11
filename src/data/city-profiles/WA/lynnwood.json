@@ -1,0 +1,158 @@
+{
+  "city": "Lynnwood",
+  "slug": "lynnwood",
+  "state": "Washington",
+  "stateCode": "WA",
+  "county": "Snohomish County",
+  "lat": 47.8209,
+  "lng": -122.3151,
+  "fetchedAt": "2026-02-11T17:08:27.551Z",
+  "census": {
+    "population": 828337,
+    "medianAge": 38.3,
+    "medianHouseholdIncome": 104083,
+    "medianHomeValue": 592800,
+    "medianRent": 1794,
+    "povertyRate": 7.6,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 35.4,
+    "publicTransitPct": 3.8,
+    "workFromHomePct": 15.9,
+    "demographics": {
+      "white": 68.9,
+      "black": 3.5,
+      "asian": 12.3,
+      "hispanic": 11.1,
+      "other": 4.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 71.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 30.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 17.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 66.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 844761,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PROVIDENCE REGIONAL MEDICAL CENTER EVERETT",
+        "city": "EVERETT",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "SWEDISH EDMONDS HOSPITAL",
+        "city": "EDMONDS",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "CASCADE VALLEY HOSPITAL",
+        "city": "ARLINGTON",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 3,
+    "averageRating": 1.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

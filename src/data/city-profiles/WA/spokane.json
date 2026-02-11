@@ -1,0 +1,174 @@
+{
+  "city": "Spokane",
+  "slug": "spokane",
+  "state": "Washington",
+  "stateCode": "WA",
+  "county": "Spokane County",
+  "lat": 47.6597,
+  "lng": -117.4291,
+  "fetchedAt": "2026-02-11T17:08:27.375Z",
+  "census": {
+    "population": 538711,
+    "medianAge": 38,
+    "medianHouseholdIncome": 70394,
+    "medianHomeValue": 331600,
+    "medianRent": 1123,
+    "povertyRate": 12.3,
+    "unemploymentRate": 5.7,
+    "bachelorDegreeOrHigher": 31.9,
+    "publicTransitPct": 2.2,
+    "workFromHomePct": 12.3,
+    "demographics": {
+      "white": 84.8,
+      "black": 1.9,
+      "asian": 2.2,
+      "hispanic": 6.5,
+      "other": 4.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 31.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 72.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 19.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 551455,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "MULTICARE VALLEY HOSPITAL",
+        "city": "SPOKANE VALLEY",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SPOKANE VA MEDICAL CENTER",
+        "city": "SPOKANE",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "DEACONESS MEDICAL CENTER",
+        "city": "SPOKANE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "PROV SACRED HRT MED CTR & CHILDS HOSP.",
+        "city": "SPOKANE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "PROVIDENCE HOLY FAMILY HOSPITAL",
+        "city": "SPOKANE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 8,
+    "ratedHospitals": 5,
+    "averageRating": 3.4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "stateCode": "SC",
+  "stateName": "South Carolina",
+  "cityCount": 51,
+  "totalPopulation": 1553218,
+  "avgMedianIncome": 63242,
+  "avgMedianHomeValue": 214200,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "columbia-sc",
+        "name": "Columbia",
+        "value": 142416
+      },
+      {
+        "slug": "charleston-sc",
+        "name": "Charleston",
+        "value": 132609
+      },
+      {
+        "slug": "north-charleston",
+        "name": "North Charleston",
+        "value": 108304
+      },
+      {
+        "slug": "mount-pleasant-sc",
+        "name": "Mount Pleasant",
+        "value": 81317
+      },
+      {
+        "slug": "rock-hill",
+        "name": "Rock Hill",
+        "value": 71548
+      },
+      {
+        "slug": "greenville-sc",
+        "name": "Greenville",
+        "value": 64579
+      },
+      {
+        "slug": "summerville",
+        "name": "Summerville",
+        "value": 48848
+      },
+      {
+        "slug": "sumter",
+        "name": "Sumter",
+        "value": 40816
+      },
+      {
+        "slug": "goose-creek",
+        "name": "Goose Creek",
+        "value": 40633
+      },
+      {
+        "slug": "hilton-head-island",
+        "name": "Hilton Head Island",
+        "value": 40512
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "hilton-head-island",
+        "name": "Hilton Head Island",
+        "value": 81260
+      },
+      {
+        "slug": "rock-hill",
+        "name": "Rock Hill",
+        "value": 80158
+      },
+      {
+        "slug": "charleston-sc",
+        "name": "Charleston",
+        "value": 78795
+      },
+      {
+        "slug": "goose-creek",
+        "name": "Goose Creek",
+        "value": 77874
+      },
+      {
+        "slug": "summerville",
+        "name": "Summerville",
+        "value": 73686
+      },
+      {
+        "slug": "greenville-sc",
+        "name": "Greenville",
+        "value": 71328
+      },
+      {
+        "slug": "lexington-sc",
+        "name": "Lexington",
+        "value": 71280
+      },
+      {
+        "slug": "aiken",
+        "name": "Aiken",
+        "value": 63212
+      },
+      {
+        "slug": "anderson-sc",
+        "name": "Anderson",
+        "value": 62347
+      },
+      {
+        "slug": "spartanburg",
+        "name": "Spartanburg",
+        "value": 61955
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "charleston-sc",
+        "name": "Charleston",
+        "value": 415000
+      },
+      {
+        "slug": "hilton-head-island",
+        "name": "Hilton Head Island",
+        "value": 377900
+      },
+      {
+        "slug": "rock-hill",
+        "name": "Rock Hill",
+        "value": 287600
+      },
+      {
+        "slug": "summerville",
+        "name": "Summerville",
+        "value": 273000
+      },
+      {
+        "slug": "goose-creek",
+        "name": "Goose Creek",
+        "value": 253100
+      },
+      {
+        "slug": "greenville-sc",
+        "name": "Greenville",
+        "value": 248900
+      },
+      {
+        "slug": "myrtle-beach",
+        "name": "Myrtle Beach",
+        "value": 235000
+      },
+      {
+        "slug": "columbia-sc",
+        "name": "Columbia",
+        "value": 201200
+      },
+      {
+        "slug": "lexington-sc",
+        "name": "Lexington",
+        "value": 197600
+      },
+      {
+        "slug": "easley",
+        "name": "Easley",
+        "value": 196600
+      }
+    ]
+  },
+  "cities": [
+    "aiken",
+    "anderson-sc",
+    "beaufort",
+    "berea-sc",
+    "bluffton-sc",
+    "cayce",
+    "charleston-sc",
+    "clemson",
+    "columbia-sc",
+    "conway-sc",
+    "dentsville",
+    "easley",
+    "five-forks",
+    "florence-sc",
+    "forest-acres",
+    "fort-mill",
+    "gaffney",
+    "gantt",
+    "goose-creek",
+    "greenville-sc",
+    "greenwood-sc",
+    "greer",
+    "hanahan",
+    "hilton-head",
+    "hilton-head-island",
+    "irmo",
+    "ladson",
+    "lexington-sc",
+    "mauldin",
+    "mount-pleasant-sc",
+    "myrtle-beach",
+    "newberry",
+    "north-augusta",
+    "north-charleston",
+    "north-myrtle-beach",
+    "oak-grove-sc",
+    "orangeburg",
+    "parker-sc",
+    "port-royal",
+    "red-hill",
+    "rock-hill",
+    "saint-andrews",
+    "seven-oaks",
+    "simpsonville",
+    "socastee",
+    "spartanburg",
+    "summerville",
+    "sumter",
+    "taylors",
+    "wade-hampton",
+    "west-columbia"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

@@ -1,0 +1,153 @@
+{
+  "stateCode": "ND",
+  "stateName": "North Dakota",
+  "cityCount": 9,
+  "totalPopulation": 421219,
+  "avgMedianIncome": 75228,
+  "avgMedianHomeValue": 250775,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "fargo",
+        "name": "Fargo",
+        "value": 118523
+      },
+      {
+        "slug": "bismarck",
+        "name": "Bismarck",
+        "value": 75092
+      },
+      {
+        "slug": "grand-forks",
+        "name": "Grand Forks",
+        "value": 57011
+      },
+      {
+        "slug": "minot",
+        "name": "Minot",
+        "value": 49450
+      },
+      {
+        "slug": "west-fargo",
+        "name": "West Fargo",
+        "value": 33597
+      },
+      {
+        "slug": "williston",
+        "name": "Williston",
+        "value": 26977
+      },
+      {
+        "slug": "dickinson-nd",
+        "name": "Dickinson",
+        "value": 23765
+      },
+      {
+        "slug": "mandan",
+        "name": "Mandan",
+        "value": 21382
+      },
+      {
+        "slug": "jamestown-nd",
+        "name": "Jamestown",
+        "value": 15422
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "williston",
+        "name": "Williston",
+        "value": 86139
+      },
+      {
+        "slug": "bismarck",
+        "name": "Bismarck",
+        "value": 82141
+      },
+      {
+        "slug": "mandan",
+        "name": "Mandan",
+        "value": 79555
+      },
+      {
+        "slug": "dickinson-nd",
+        "name": "Dickinson",
+        "value": 78734
+      },
+      {
+        "slug": "minot",
+        "name": "Minot",
+        "value": 78143
+      },
+      {
+        "slug": "fargo",
+        "name": "Fargo",
+        "value": 73249
+      },
+      {
+        "slug": "grand-forks",
+        "name": "Grand Forks",
+        "value": 64698
+      },
+      {
+        "slug": "jamestown-nd",
+        "name": "Jamestown",
+        "value": 59167
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "bismarck",
+        "name": "Bismarck",
+        "value": 302300
+      },
+      {
+        "slug": "fargo",
+        "name": "Fargo",
+        "value": 270300
+      },
+      {
+        "slug": "dickinson-nd",
+        "name": "Dickinson",
+        "value": 255200
+      },
+      {
+        "slug": "williston",
+        "name": "Williston",
+        "value": 255000
+      },
+      {
+        "slug": "minot",
+        "name": "Minot",
+        "value": 249800
+      },
+      {
+        "slug": "mandan",
+        "name": "Mandan",
+        "value": 247200
+      },
+      {
+        "slug": "grand-forks",
+        "name": "Grand Forks",
+        "value": 235400
+      },
+      {
+        "slug": "jamestown-nd",
+        "name": "Jamestown",
+        "value": 191000
+      }
+    ]
+  },
+  "cities": [
+    "bismarck",
+    "dickinson-nd",
+    "fargo",
+    "grand-forks",
+    "jamestown-nd",
+    "mandan",
+    "minot",
+    "west-fargo",
+    "williston"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

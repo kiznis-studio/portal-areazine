@@ -1,0 +1,127 @@
+{
+  "city": "Raymondville",
+  "slug": "raymondville",
+  "state": "Texas",
+  "stateCode": "TX",
+  "county": "Willacy County",
+  "lat": 26.4815,
+  "lng": -97.783,
+  "fetchedAt": "2026-02-11T17:08:27.853Z",
+  "census": {
+    "population": 20308,
+    "medianAge": 33.7,
+    "medianHouseholdIncome": 42839,
+    "medianHomeValue": 66900,
+    "medianRent": 695,
+    "povertyRate": 26.6,
+    "unemploymentRate": 8.7,
+    "bachelorDegreeOrHigher": 10.5,
+    "publicTransitPct": 0,
+    "workFromHomePct": 7.9,
+    "demographics": {
+      "white": 69.5,
+      "black": 0.9,
+      "asian": 0,
+      "hispanic": 88.3,
+      "other": -58.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 40.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 36.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 44.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 8.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 18.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 41,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 70.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 43.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 41,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 16.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 20037,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

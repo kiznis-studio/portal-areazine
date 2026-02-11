@@ -1,0 +1,127 @@
+{
+  "city": "East Wenatchee",
+  "slug": "east-wenatchee",
+  "state": "Washington",
+  "stateCode": "WA",
+  "county": "Douglas County",
+  "lat": 47.4157,
+  "lng": -120.2931,
+  "fetchedAt": "2026-02-11T17:08:27.785Z",
+  "census": {
+    "population": 43189,
+    "medianAge": 37.8,
+    "medianHouseholdIncome": 79422,
+    "medianHomeValue": 366800,
+    "medianRent": 1181,
+    "povertyRate": 7.9,
+    "unemploymentRate": 4.3,
+    "bachelorDegreeOrHigher": 21.7,
+    "publicTransitPct": 1,
+    "workFromHomePct": 7.8,
+    "demographics": {
+      "white": 64.5,
+      "black": 0.5,
+      "asian": 0.7,
+      "hispanic": 33.3,
+      "other": 1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 23,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 29,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 35.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 32.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 71,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 44798,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

@@ -1,0 +1,158 @@
+{
+  "city": "Lincoln",
+  "slug": "lincoln-ne",
+  "state": "Nebraska",
+  "stateCode": "NE",
+  "county": "Lancaster County",
+  "lat": 40.8,
+  "lng": -96.667,
+  "fetchedAt": "2026-02-11T17:08:27.362Z",
+  "census": {
+    "population": 322063,
+    "medianAge": 34.1,
+    "medianHouseholdIncome": 70387,
+    "medianHomeValue": 239900,
+    "medianRent": 997,
+    "povertyRate": 11.8,
+    "unemploymentRate": 3.2,
+    "bachelorDegreeOrHigher": 40.9,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 9,
+    "demographics": {
+      "white": 83.3,
+      "black": 3.7,
+      "asian": 4.1,
+      "hispanic": 7.7,
+      "other": 1.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 20.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 29.6,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 20.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 75.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 326716,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "BRYAN MEDICAL CENTER",
+        "city": "LINCOLN",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "CHI HEALTH ST. ELIZABETH",
+        "city": "LINCOLN",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "CHI HEALTH NEBRASKA HEART",
+        "city": "LINCOLN",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 3,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

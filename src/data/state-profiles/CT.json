@@ -1,0 +1,238 @@
+{
+  "stateCode": "CT",
+  "stateName": "Connecticut",
+  "cityCount": 79,
+  "totalPopulation": 2988298,
+  "avgMedianIncome": 89776,
+  "avgMedianHomeValue": 335222,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "bridgeport-ct",
+        "name": "Bridgeport",
+        "value": 147629
+      },
+      {
+        "slug": "new-haven-ct",
+        "name": "New Haven",
+        "value": 130322
+      },
+      {
+        "slug": "stamford",
+        "name": "Stamford",
+        "value": 128874
+      },
+      {
+        "slug": "north-stamford",
+        "name": "North Stamford",
+        "value": 121230
+      },
+      {
+        "slug": "hartford-ct",
+        "name": "Hartford",
+        "value": 121054
+      },
+      {
+        "slug": "waterbury",
+        "name": "Waterbury",
+        "value": 108802
+      },
+      {
+        "slug": "norwalk-ct",
+        "name": "Norwalk",
+        "value": 88485
+      },
+      {
+        "slug": "danbury",
+        "name": "Danbury",
+        "value": 84657
+      },
+      {
+        "slug": "east-norwalk",
+        "name": "East Norwalk",
+        "value": 84530
+      },
+      {
+        "slug": "new-britain",
+        "name": "New Britain",
+        "value": 72808
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "stamford",
+        "name": "Stamford",
+        "value": 118930
+      },
+      {
+        "slug": "middletown-ct",
+        "name": "Middletown",
+        "value": 99742
+      },
+      {
+        "slug": "hartford-ct",
+        "name": "Hartford",
+        "value": 88190
+      },
+      {
+        "slug": "west-torrington",
+        "name": "West Torrington",
+        "value": 87971
+      },
+      {
+        "slug": "new-haven-ct",
+        "name": "New Haven",
+        "value": 83617
+      },
+      {
+        "slug": "bridgeport-ct",
+        "name": "Bridgeport",
+        "value": 83147
+      },
+      {
+        "slug": "killingly-center",
+        "name": "Killingly Center",
+        "value": 83119
+      },
+      {
+        "slug": "waterbury",
+        "name": "Waterbury",
+        "value": 82939
+      },
+      {
+        "slug": "norwich",
+        "name": "Norwich",
+        "value": 80330
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "stamford",
+        "name": "Stamford",
+        "value": 595600
+      },
+      {
+        "slug": "bridgeport-ct",
+        "name": "Bridgeport",
+        "value": 372000
+      },
+      {
+        "slug": "middletown-ct",
+        "name": "Middletown",
+        "value": 341300
+      },
+      {
+        "slug": "new-haven-ct",
+        "name": "New Haven",
+        "value": 309600
+      },
+      {
+        "slug": "west-torrington",
+        "name": "West Torrington",
+        "value": 296800
+      },
+      {
+        "slug": "hartford-ct",
+        "name": "Hartford",
+        "value": 283800
+      },
+      {
+        "slug": "norwich",
+        "name": "Norwich",
+        "value": 275900
+      },
+      {
+        "slug": "waterbury",
+        "name": "Waterbury",
+        "value": 273500
+      },
+      {
+        "slug": "killingly-center",
+        "name": "Killingly Center",
+        "value": 268500
+      }
+    ]
+  },
+  "cities": [
+    "ansonia",
+    "avon-ct",
+    "bloomfield-ct",
+    "branford",
+    "bridgeport-ct",
+    "bristol-ct",
+    "cheshire",
+    "city-of-milford-balance",
+    "cromwell",
+    "danbury",
+    "darien-ct",
+    "derby-ct",
+    "east-hartford",
+    "east-haven",
+    "east-norwalk",
+    "ellington",
+    "enfield",
+    "fairfield-ct",
+    "farmington-ct",
+    "glastonbury",
+    "greenwich",
+    "guilford",
+    "hamden",
+    "hartford-ct",
+    "killingly-center",
+    "ledyard",
+    "madison-ct",
+    "manchester-ct",
+    "mansfield-city",
+    "meriden",
+    "middletown-ct",
+    "milford-ct",
+    "montville-center",
+    "naugatuck",
+    "new-britain",
+    "new-canaan",
+    "new-fairfield",
+    "new-haven-ct",
+    "new-london",
+    "newington-ct",
+    "north-branford",
+    "north-haven",
+    "north-stamford",
+    "norwalk-ct",
+    "norwich",
+    "old-saybrook",
+    "orange-ct",
+    "oxford-ct",
+    "plainfield-ct",
+    "plainville",
+    "plymouth-ct",
+    "seymour-ct",
+    "shelton",
+    "south-windsor",
+    "southbury",
+    "southington",
+    "stafford-ct",
+    "stamford",
+    "storrs",
+    "stratford",
+    "tolland",
+    "torrington",
+    "trumbull",
+    "wallingford",
+    "wallingford-center",
+    "waterbury",
+    "waterford-ct",
+    "west-hartford",
+    "west-haven-ct",
+    "west-torrington",
+    "westport",
+    "wethersfield",
+    "willimantic",
+    "wilton-ct",
+    "winchester-center",
+    "windham-ct",
+    "windsor-ct",
+    "windsor-locks",
+    "wolcott"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

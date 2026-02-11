@@ -1,0 +1,127 @@
+{
+  "city": "Streator",
+  "slug": "streator",
+  "state": "Illinois",
+  "stateCode": "IL",
+  "county": "LaSalle County",
+  "lat": 41.1209,
+  "lng": -88.8353,
+  "fetchedAt": "2026-02-11T17:08:27.797Z",
+  "census": {
+    "population": 109495,
+    "medianAge": 41.9,
+    "medianHouseholdIncome": 67942,
+    "medianHomeValue": 147400,
+    "medianRent": 874,
+    "povertyRate": 13.7,
+    "unemploymentRate": 5.4,
+    "bachelorDegreeOrHigher": 18.4,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 4.2,
+    "demographics": {
+      "white": 88.3,
+      "black": 2.8,
+      "asian": 0.9,
+      "hispanic": 10.5,
+      "other": -2.5
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 37.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 36.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 14.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 24.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 61.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 78.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 17,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 108309,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

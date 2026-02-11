@@ -1,0 +1,127 @@
+{
+  "city": "Moorhead",
+  "slug": "moorhead",
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "county": "Clay County",
+  "lat": 46.8739,
+  "lng": -96.7695,
+  "fetchedAt": "2026-02-11T17:08:27.530Z",
+  "census": {
+    "population": 65307,
+    "medianAge": 32.8,
+    "medianHouseholdIncome": 75006,
+    "medianHomeValue": 241400,
+    "medianRent": 972,
+    "povertyRate": 14.7,
+    "unemploymentRate": 4,
+    "bachelorDegreeOrHigher": 36.7,
+    "publicTransitPct": 1,
+    "workFromHomePct": 9.6,
+    "demographics": {
+      "white": 87.4,
+      "black": 4.6,
+      "asian": 1.5,
+      "hispanic": 4.9,
+      "other": 1.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 29.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 32.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 68.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 21.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 72.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 19.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 66258,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

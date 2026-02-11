@@ -1,0 +1,158 @@
+{
+  "city": "Claiborne",
+  "slug": "claiborne",
+  "state": "Louisiana",
+  "stateCode": "LA",
+  "county": "Ouachita Parish",
+  "lat": 32.516,
+  "lng": -92.1918,
+  "fetchedAt": "2026-02-11T17:08:27.840Z",
+  "census": {
+    "population": 159585,
+    "medianAge": 36.5,
+    "medianHouseholdIncome": 49261,
+    "medianHomeValue": 172800,
+    "medianRent": 886,
+    "povertyRate": 23.4,
+    "unemploymentRate": 6.5,
+    "bachelorDegreeOrHigher": 25.8,
+    "publicTransitPct": 1,
+    "workFromHomePct": 6.1,
+    "demographics": {
+      "white": 57.5,
+      "black": 37.3,
+      "asian": 1.2,
+      "hispanic": 2.3,
+      "other": 1.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 19.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 54.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 32.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 15.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 81.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 44.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 4.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 17.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 43.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 157568,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "OCHSNER LSU HEALTH MONROE",
+        "city": "MONROE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ST FRANCIS MEDICAL CENTER",
+        "city": "MONROE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "GLENWOOD REGIONAL MEDICAL CENTER",
+        "city": "WEST MONROE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 3,
+    "averageRating": 2.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "stateCode": "NM",
+  "stateName": "New Mexico",
+  "cityCount": 25,
+  "totalPopulation": 1375212,
+  "avgMedianIncome": 59875,
+  "avgMedianHomeValue": 190278,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "albuquerque",
+        "name": "Albuquerque",
+        "value": 564559
+      },
+      {
+        "slug": "las-cruces",
+        "name": "Las Cruces",
+        "value": 101643
+      },
+      {
+        "slug": "rio-rancho",
+        "name": "Rio Rancho",
+        "value": 87521
+      },
+      {
+        "slug": "enchanted-hills",
+        "name": "Enchanted Hills",
+        "value": 87521
+      },
+      {
+        "slug": "santa-fe-nm",
+        "name": "Santa Fe",
+        "value": 87505
+      },
+      {
+        "slug": "roswell-nm",
+        "name": "Roswell",
+        "value": 48544
+      },
+      {
+        "slug": "farmington-nm",
+        "name": "Farmington",
+        "value": 42871
+      },
+      {
+        "slug": "south-valley",
+        "name": "South Valley",
+        "value": 40976
+      },
+      {
+        "slug": "clovis-nm",
+        "name": "Clovis",
+        "value": 39480
+      },
+      {
+        "slug": "hobbs",
+        "name": "Hobbs",
+        "value": 38416
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "los-alamos",
+        "name": "Los Alamos",
+        "value": 135801
+      },
+      {
+        "slug": "carlsbad-nm",
+        "name": "Carlsbad",
+        "value": 77458
+      },
+      {
+        "slug": "rio-rancho",
+        "name": "Rio Rancho",
+        "value": 76424
+      },
+      {
+        "slug": "santa-fe-nm",
+        "name": "Santa Fe",
+        "value": 70522
+      },
+      {
+        "slug": "hobbs",
+        "name": "Hobbs",
+        "value": 65855
+      },
+      {
+        "slug": "albuquerque",
+        "name": "Albuquerque",
+        "value": 62220
+      },
+      {
+        "slug": "los-lunas",
+        "name": "Los Lunas",
+        "value": 56246
+      },
+      {
+        "slug": "clovis-nm",
+        "name": "Clovis",
+        "value": 55427
+      },
+      {
+        "slug": "portales",
+        "name": "Portales",
+        "value": 52644
+      },
+      {
+        "slug": "espanola",
+        "name": "Espanola",
+        "value": 52031
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "los-alamos",
+        "name": "Los Alamos",
+        "value": 412700
+      },
+      {
+        "slug": "santa-fe-nm",
+        "name": "Santa Fe",
+        "value": 374200
+      },
+      {
+        "slug": "rio-rancho",
+        "name": "Rio Rancho",
+        "value": 258100
+      },
+      {
+        "slug": "albuquerque",
+        "name": "Albuquerque",
+        "value": 247300
+      },
+      {
+        "slug": "espanola",
+        "name": "Espanola",
+        "value": 212700
+      },
+      {
+        "slug": "carlsbad-nm",
+        "name": "Carlsbad",
+        "value": 188400
+      },
+      {
+        "slug": "las-cruces",
+        "name": "Las Cruces",
+        "value": 187400
+      },
+      {
+        "slug": "los-lunas",
+        "name": "Los Lunas",
+        "value": 184400
+      },
+      {
+        "slug": "farmington-nm",
+        "name": "Farmington",
+        "value": 170700
+      },
+      {
+        "slug": "hobbs",
+        "name": "Hobbs",
+        "value": 162000
+      }
+    ]
+  },
+  "cities": [
+    "alamogordo",
+    "albuquerque",
+    "artesia-nm",
+    "carlsbad-nm",
+    "chaparral",
+    "clovis-nm",
+    "deming",
+    "enchanted-hills",
+    "espanola",
+    "farmington-nm",
+    "gallup",
+    "hobbs",
+    "las-cruces",
+    "las-vegas-nm",
+    "los-alamos",
+    "los-lunas",
+    "lovington",
+    "north-valley",
+    "portales",
+    "rio-rancho",
+    "roswell-nm",
+    "santa-fe-nm",
+    "silver-city",
+    "south-valley",
+    "sunland-park"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.896Z"
+}

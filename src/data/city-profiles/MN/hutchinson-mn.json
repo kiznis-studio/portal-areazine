@@ -1,0 +1,127 @@
+{
+  "city": "Hutchinson",
+  "slug": "hutchinson-mn",
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "county": "McLeod County",
+  "lat": 44.8877,
+  "lng": -94.3697,
+  "fetchedAt": "2026-02-11T17:08:27.779Z",
+  "census": {
+    "population": 36727,
+    "medianAge": 41.3,
+    "medianHouseholdIncome": 73296,
+    "medianHomeValue": 214300,
+    "medianRent": 831,
+    "povertyRate": 7.1,
+    "unemploymentRate": 3.2,
+    "bachelorDegreeOrHigher": 18.9,
+    "publicTransitPct": 0.5,
+    "workFromHomePct": 6.9,
+    "demographics": {
+      "white": 92.2,
+      "black": 0.6,
+      "asian": 0.7,
+      "hispanic": 6.9,
+      "other": -0.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 42,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 67.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 8.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 18.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 36785,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

@@ -1,0 +1,64 @@
+{
+  "city": "Bloomsburg",
+  "slug": "bloomsburg",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Columbia County",
+  "lat": 41.0037,
+  "lng": -76.4549,
+  "fetchedAt": "2026-02-11T17:08:27.764Z",
+  "census": {
+    "population": 64924,
+    "medianAge": 41.3,
+    "medianHouseholdIncome": 59457,
+    "medianHomeValue": 183200,
+    "medianRent": 862,
+    "povertyRate": 15.3,
+    "unemploymentRate": 4.7,
+    "bachelorDegreeOrHigher": 25.5,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 8.9,
+    "demographics": {
+      "white": 93.1,
+      "black": 1.9,
+      "asian": 1,
+      "hispanic": 3.4,
+      "other": 0.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 63.3,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.9,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 65439,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "GEISINGER-BLOOMSBURG HOSPITAL",
+        "city": "BLOOMSBURG",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 1,
+    "averageRating": 4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

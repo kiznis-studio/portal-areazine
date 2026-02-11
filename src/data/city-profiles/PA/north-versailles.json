@@ -1,0 +1,136 @@
+{
+  "city": "North Versailles",
+  "slug": "north-versailles",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Allegheny County",
+  "lat": 40.3798,
+  "lng": -79.8095,
+  "fetchedAt": "2026-02-11T17:08:27.871Z",
+  "census": {
+    "population": 1245310,
+    "medianAge": 40.6,
+    "medianHouseholdIncome": 72537,
+    "medianHomeValue": 200200,
+    "medianRent": 1050,
+    "povertyRate": 11.1,
+    "unemploymentRate": 4.9,
+    "bachelorDegreeOrHigher": 43.8,
+    "publicTransitPct": 6.9,
+    "workFromHomePct": 15.8,
+    "demographics": {
+      "white": 77.8,
+      "black": 12.7,
+      "asian": 4.1,
+      "hispanic": 2.4,
+      "other": 3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 35.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 1224825,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "AHN WEXFORD HOSPITAL",
+        "city": "WEXFORD",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ALLEGHENY VALLEY HOSPITAL",
+        "city": "NATRONA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HERITAGE VALLEY SEWICKLEY",
+        "city": "SEWICKLEY",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UPMC PASSAVANT",
+        "city": "PITTSBURGH",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UPMC PRESBYTERIAN SHADYSIDE",
+        "city": "PITTSBURGH",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ST CLAIR HOSPITAL",
+        "city": "PITTSBURGH",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UPMC EAST",
+        "city": "MONROEVILLE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UPMC MCKEESPORT HOSPITAL",
+        "city": "MC KEESPORT",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UPMC MERCY",
+        "city": "PITTSBURGH",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "WEST PENN HOSPITAL",
+        "city": "PITTSBURGH",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 18,
+    "ratedHospitals": 16,
+    "averageRating": 3.4,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

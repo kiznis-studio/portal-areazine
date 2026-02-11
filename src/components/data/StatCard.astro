@@ -1,0 +1,45 @@
+---
+import { compareToNational, getIndicatorClass } from '../../lib/comparison';
+
+interface Props {
+  label: string;
+  value: string;
+  subtitle?: string;
+  metric?: string;
+  rawValue?: number;
+  accentColor?: string;
+}
+
+const { label, value, subtitle, metric, rawValue, accentColor } = Astro.props;
+
+const comparison = metric && rawValue != null
+  ? compareToNational(metric, rawValue)
+  : null;
+const indicatorClass = comparison
+  ? getIndicatorClass(metric!, comparison)
+  : '';
+---
+
+<div class="stat-card" style={accentColor ? `--stat-accent: ${accentColor}` : undefined}>
+  {accentColor && (
+    <style>{`.stat-card[style*="${accentColor}"]::before { background: ${accentColor}; }`}</style>
+  )}
+  <div class="data-label mb-2">{label}</div>
+  <div class="data-value mb-1">{value}</div>
+  {comparison && comparison.direction !== 'average' ? (
+    <div class={`text-xs flex items-center gap-1 ${indicatorClass}`}>
+      <svg class="w-3 h-3 flex-shrink-0" viewBox="0 0 12 12" fill="none">
+        {comparison.direction === 'above' ? (
+          <path d="M6 2L10 7H2L6 2Z" fill="currentColor" />
+        ) : (
+          <path d="M6 10L2 5H10L6 10Z" fill="currentColor" />
+        )}
+      </svg>
+      <span>{comparison.label}</span>
+    </div>
+  ) : comparison?.direction === 'average' ? (
+    <div class="text-xs indicator-neutral">{comparison.label}</div>
+  ) : subtitle ? (
+    <div class="text-xs text-[var(--color-muted)]">{subtitle}</div>
+  ) : null}
+</div>

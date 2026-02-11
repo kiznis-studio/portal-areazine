@@ -1,0 +1,209 @@
+{
+  "stateCode": "IA",
+  "stateName": "Iowa",
+  "cityCount": 40,
+  "totalPopulation": 1566217,
+  "avgMedianIncome": 70029,
+  "avgMedianHomeValue": 177212,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "des-moines-ia",
+        "name": "Des Moines",
+        "value": 214133
+      },
+      {
+        "slug": "cedar-rapids",
+        "name": "Cedar Rapids",
+        "value": 130405
+      },
+      {
+        "slug": "davenport",
+        "name": "Davenport",
+        "value": 102582
+      },
+      {
+        "slug": "sioux-city",
+        "name": "Sioux City",
+        "value": 82821
+      },
+      {
+        "slug": "iowa-city",
+        "name": "Iowa City",
+        "value": 74220
+      },
+      {
+        "slug": "waterloo-ia",
+        "name": "Waterloo",
+        "value": 68460
+      },
+      {
+        "slug": "ames",
+        "name": "Ames",
+        "value": 65060
+      },
+      {
+        "slug": "west-des-moines",
+        "name": "West Des Moines",
+        "value": 64113
+      },
+      {
+        "slug": "council-bluffs",
+        "name": "Council Bluffs",
+        "value": 62597
+      },
+      {
+        "slug": "dubuque",
+        "name": "Dubuque",
+        "value": 58799
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "waukee",
+        "name": "Waukee",
+        "value": 99533
+      },
+      {
+        "slug": "indianola",
+        "name": "Indianola",
+        "value": 89741
+      },
+      {
+        "slug": "waverly-ia",
+        "name": "Waverly",
+        "value": 84727
+      },
+      {
+        "slug": "des-moines-ia",
+        "name": "Des Moines",
+        "value": 78827
+      },
+      {
+        "slug": "boone-ia",
+        "name": "Boone",
+        "value": 75759
+      },
+      {
+        "slug": "cedar-rapids",
+        "name": "Cedar Rapids",
+        "value": 75457
+      },
+      {
+        "slug": "pella",
+        "name": "Pella",
+        "value": 74193
+      },
+      {
+        "slug": "dubuque",
+        "name": "Dubuque",
+        "value": 73495
+      },
+      {
+        "slug": "iowa-city",
+        "name": "Iowa City",
+        "value": 72977
+      },
+      {
+        "slug": "davenport",
+        "name": "Davenport",
+        "value": 72792
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "waukee",
+        "name": "Waukee",
+        "value": 314900
+      },
+      {
+        "slug": "iowa-city",
+        "name": "Iowa City",
+        "value": 277800
+      },
+      {
+        "slug": "indianola",
+        "name": "Indianola",
+        "value": 234300
+      },
+      {
+        "slug": "des-moines-ia",
+        "name": "Des Moines",
+        "value": 232000
+      },
+      {
+        "slug": "ames",
+        "name": "Ames",
+        "value": 229100
+      },
+      {
+        "slug": "dubuque",
+        "name": "Dubuque",
+        "value": 210300
+      },
+      {
+        "slug": "waverly-ia",
+        "name": "Waverly",
+        "value": 202600
+      },
+      {
+        "slug": "davenport",
+        "name": "Davenport",
+        "value": 198000
+      },
+      {
+        "slug": "pella",
+        "name": "Pella",
+        "value": 192300
+      },
+      {
+        "slug": "cedar-rapids",
+        "name": "Cedar Rapids",
+        "value": 188800
+      }
+    ]
+  },
+  "cities": [
+    "altoona-ia",
+    "ames",
+    "ankeny",
+    "bettendorf",
+    "boone-ia",
+    "burlington-ia",
+    "cedar-falls",
+    "cedar-rapids",
+    "clinton-ia",
+    "clive",
+    "coralville",
+    "council-bluffs",
+    "davenport",
+    "des-moines-ia",
+    "dubuque",
+    "fort-dodge",
+    "fort-madison",
+    "grimes",
+    "indianola",
+    "iowa-city",
+    "johnston-ia",
+    "keokuk",
+    "marion-ia",
+    "marshalltown",
+    "mason-city",
+    "muscatine",
+    "newton-ia",
+    "north-liberty",
+    "norwalk-ia",
+    "oskaloosa",
+    "ottumwa",
+    "pella",
+    "sioux-city",
+    "spencer",
+    "storm-lake",
+    "urbandale",
+    "waterloo-ia",
+    "waukee",
+    "waverly-ia",
+    "west-des-moines"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.899Z"
+}

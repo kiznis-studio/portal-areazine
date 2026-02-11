@@ -1,0 +1,64 @@
+{
+  "city": "Fort Thomas",
+  "slug": "fort-thomas",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Campbell County",
+  "lat": 39.0751,
+  "lng": -84.4472,
+  "fetchedAt": "2026-02-11T17:08:27.729Z",
+  "census": {
+    "population": 93122,
+    "medianAge": 38.9,
+    "medianHouseholdIncome": 71979,
+    "medianHomeValue": 214400,
+    "medianRent": 979,
+    "povertyRate": 11.7,
+    "unemploymentRate": 3.8,
+    "bachelorDegreeOrHigher": 39.3,
+    "publicTransitPct": 1.1,
+    "workFromHomePct": 13,
+    "demographics": {
+      "white": 92.3,
+      "black": 2.6,
+      "asian": 1,
+      "hispanic": 2.3,
+      "other": 1.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.7,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 93702,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ST ELIZABETH FT THOMAS",
+        "city": "FORT THOMAS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

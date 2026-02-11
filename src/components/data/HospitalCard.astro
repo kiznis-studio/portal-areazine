@@ -1,0 +1,39 @@
+---
+interface Props {
+  name: string;
+  city: string;
+  type: string;
+  rating: number;
+  emergency: boolean;
+}
+
+const { name, city, type, rating, emergency } = Astro.props;
+
+const starColor = rating >= 4
+  ? 'text-[var(--color-data-amber)]'
+  : rating >= 3
+    ? 'text-[var(--color-muted)]'
+    : 'text-[var(--color-below)]';
+---
+
+<div class="data-row group">
+  <div class="flex-1 min-w-0">
+    <div class="font-semibold text-sm truncate">{name}</div>
+    <div class="text-xs text-[var(--color-muted)] flex items-center gap-1.5 mt-0.5">
+      <span>{city}</span>
+      <span>&middot;</span>
+      <span>{type}</span>
+      {emergency && (
+        <>
+          <span>&middot;</span>
+          <span class="text-[var(--color-data-rose)] font-medium">ER</span>
+        </>
+      )}
+    </div>
+  </div>
+  <div class="flex-shrink-0 text-right">
+    <div class={`text-sm tracking-wider ${starColor}`} title={`${rating} out of 5 stars`}>
+      {'★'.repeat(rating)}{'☆'.repeat(5 - rating)}
+    </div>
+  </div>
+</div>

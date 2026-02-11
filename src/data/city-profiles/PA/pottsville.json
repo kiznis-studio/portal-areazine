@@ -1,0 +1,80 @@
+{
+  "city": "Pottsville",
+  "slug": "pottsville",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Schuylkill County",
+  "lat": 40.6857,
+  "lng": -76.1955,
+  "fetchedAt": "2026-02-11T17:08:27.781Z",
+  "census": {
+    "population": 143201,
+    "medianAge": 44.2,
+    "medianHouseholdIncome": 63574,
+    "medianHomeValue": 127900,
+    "medianRent": 801,
+    "povertyRate": 12.3,
+    "unemploymentRate": 5.3,
+    "bachelorDegreeOrHigher": 18.5,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 5.3,
+    "demographics": {
+      "white": 90.9,
+      "black": 2.9,
+      "asian": 0.4,
+      "hispanic": 6.2,
+      "other": -0.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 59.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.8,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 143786,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "ST LUKE'S MINERS MEMORIAL HOSPITAL",
+        "city": "COALDALE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "GEISINGER ST. LUKE'S  HOSPITAL",
+        "city": "ORWIGSBURG",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": false,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SCHUYLKILL MEDICAL CENTER - SOUTH JACKSON STREET",
+        "city": "POTTSVILLE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 3,
+    "averageRating": 3.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "city": "Dunmore",
+  "slug": "dunmore",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Lackawanna County",
+  "lat": 41.4198,
+  "lng": -75.6324,
+  "fetchedAt": "2026-02-11T17:08:27.792Z",
+  "census": {
+    "population": 215672,
+    "medianAge": 41.9,
+    "medianHouseholdIncome": 63739,
+    "medianHomeValue": 175700,
+    "medianRent": 917,
+    "povertyRate": 13,
+    "unemploymentRate": 4.8,
+    "bachelorDegreeOrHigher": 29.9,
+    "publicTransitPct": 1,
+    "workFromHomePct": 8.3,
+    "demographics": {
+      "white": 85.3,
+      "black": 2.7,
+      "asian": 2.9,
+      "hispanic": 9,
+      "other": 0.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 216123,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "LEHIGH VALLEY HOSPITAL - DICKSON CITY",
+        "city": "DICKSON CITY",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "GEISINGER-COMMUNITY MEDICAL CENTER",
+        "city": "SCRANTON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "REGIONAL HOSPITAL OF SCRANTON",
+        "city": "SCRANTON",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 3,
+    "averageRating": 3.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

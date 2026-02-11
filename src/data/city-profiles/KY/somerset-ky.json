@@ -1,0 +1,64 @@
+{
+  "city": "Somerset",
+  "slug": "somerset-ky",
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "county": "Pulaski County",
+  "lat": 37.092,
+  "lng": -84.6041,
+  "fetchedAt": "2026-02-11T17:08:27.842Z",
+  "census": {
+    "population": 65145,
+    "medianAge": 41.8,
+    "medianHouseholdIncome": 48768,
+    "medianHomeValue": 140400,
+    "medianRent": 810,
+    "povertyRate": 21.4,
+    "unemploymentRate": 4.9,
+    "bachelorDegreeOrHigher": 17.8,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 3.6,
+    "demographics": {
+      "white": 95.4,
+      "black": 0.9,
+      "asian": 0.8,
+      "hispanic": 2.7,
+      "other": 0.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 52.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 40.7,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 66191,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "LAKE CUMBERLAND REGIONAL HOSPITAL",
+        "city": "SOMERSET",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 1,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

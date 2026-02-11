@@ -1,0 +1,64 @@
+{
+  "city": "Indiana",
+  "slug": "indiana",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Indiana County",
+  "lat": 40.6215,
+  "lng": -79.1525,
+  "fetchedAt": "2026-02-11T17:08:27.775Z",
+  "census": {
+    "population": 83394,
+    "medianAge": 39.6,
+    "medianHouseholdIncome": 57170,
+    "medianHomeValue": 140700,
+    "medianRent": 771,
+    "povertyRate": 13,
+    "unemploymentRate": 6.5,
+    "bachelorDegreeOrHigher": 26.2,
+    "publicTransitPct": 0.2,
+    "workFromHomePct": 7.2,
+    "demographics": {
+      "white": 93.1,
+      "black": 2.3,
+      "asian": 0.8,
+      "hispanic": 1.6,
+      "other": 2.2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 36.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.7,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 83094,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "INDIANA REGIONAL MEDICAL CENTER",
+        "city": "INDIANA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 1,
+    "ratedHospitals": 1,
+    "averageRating": 3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

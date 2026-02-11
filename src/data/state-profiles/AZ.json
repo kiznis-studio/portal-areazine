@@ -1,0 +1,244 @@
+{
+  "stateCode": "AZ",
+  "stateName": "Arizona",
+  "cityCount": 75,
+  "totalPopulation": 6768100,
+  "avgMedianIncome": 61266,
+  "avgMedianHomeValue": 255209,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "phoenix",
+        "name": "Phoenix",
+        "value": 1650070
+      },
+      {
+        "slug": "tucson",
+        "name": "Tucson",
+        "value": 542629
+      },
+      {
+        "slug": "mesa",
+        "name": "Mesa",
+        "value": 471825
+      },
+      {
+        "slug": "chandler",
+        "name": "Chandler",
+        "value": 260828
+      },
+      {
+        "slug": "gilbert",
+        "name": "Gilbert",
+        "value": 247542
+      },
+      {
+        "slug": "glendale-az",
+        "name": "Glendale",
+        "value": 240126
+      },
+      {
+        "slug": "scottsdale",
+        "name": "Scottsdale",
+        "value": 236839
+      },
+      {
+        "slug": "maryvale",
+        "name": "Maryvale",
+        "value": 208189
+      },
+      {
+        "slug": "peoria-az",
+        "name": "Peoria",
+        "value": 190985
+      },
+      {
+        "slug": "tempe",
+        "name": "Tempe",
+        "value": 175826
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "phoenix",
+        "name": "Phoenix",
+        "value": 80675
+      },
+      {
+        "slug": "san-tan-valley",
+        "name": "San Tan Valley",
+        "value": 73313
+      },
+      {
+        "slug": "flagstaff",
+        "name": "Flagstaff",
+        "value": 67266
+      },
+      {
+        "slug": "tucson",
+        "name": "Tucson",
+        "value": 64323
+      },
+      {
+        "slug": "prescott-valley",
+        "name": "Prescott Valley",
+        "value": 62430
+      },
+      {
+        "slug": "sierra-vista",
+        "name": "Sierra Vista",
+        "value": 58421
+      },
+      {
+        "slug": "yuma",
+        "name": "Yuma",
+        "value": 56439
+      },
+      {
+        "slug": "payson-az",
+        "name": "Payson",
+        "value": 55242
+      },
+      {
+        "slug": "lake-havasu-city",
+        "name": "Lake Havasu City",
+        "value": 53592
+      },
+      {
+        "slug": "nogales",
+        "name": "Nogales",
+        "value": 51885
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "flagstaff",
+        "name": "Flagstaff",
+        "value": 379400
+      },
+      {
+        "slug": "phoenix",
+        "name": "Phoenix",
+        "value": 371400
+      },
+      {
+        "slug": "prescott-valley",
+        "name": "Prescott Valley",
+        "value": 354300
+      },
+      {
+        "slug": "san-tan-valley",
+        "name": "San Tan Valley",
+        "value": 268900
+      },
+      {
+        "slug": "tucson",
+        "name": "Tucson",
+        "value": 258300
+      },
+      {
+        "slug": "lake-havasu-city",
+        "name": "Lake Havasu City",
+        "value": 233700
+      },
+      {
+        "slug": "payson-az",
+        "name": "Payson",
+        "value": 222500
+      },
+      {
+        "slug": "nogales",
+        "name": "Nogales",
+        "value": 196700
+      },
+      {
+        "slug": "sierra-vista",
+        "name": "Sierra Vista",
+        "value": 183000
+      },
+      {
+        "slug": "yuma",
+        "name": "Yuma",
+        "value": 173500
+      }
+    ]
+  },
+  "cities": [
+    "ahwatukee-foothills",
+    "alhambra-az",
+    "anthem",
+    "apache-junction",
+    "arizona-city",
+    "avondale-az",
+    "buckeye",
+    "bullhead-city",
+    "camp-verde",
+    "casa-grande",
+    "casas-adobes",
+    "catalina-foothills",
+    "central-city",
+    "chandler",
+    "chino-valley",
+    "coolidge",
+    "cottonwood",
+    "deer-valley",
+    "douglas-az",
+    "drexel-heights",
+    "el-mirage",
+    "eloy",
+    "encanto",
+    "flagstaff",
+    "florence-az",
+    "flowing-wells",
+    "fortuna-foothills",
+    "fountain-hills",
+    "gilbert",
+    "glendale-az",
+    "gold-camp",
+    "gold-canyon",
+    "goodyear",
+    "green-valley-az",
+    "kingman",
+    "lake-havasu-city",
+    "marana",
+    "maricopa",
+    "maryvale",
+    "mesa",
+    "new-kingman-butler",
+    "new-river",
+    "nogales",
+    "oro-valley",
+    "paradise-valley",
+    "payson-az",
+    "peoria-az",
+    "phoenix",
+    "prescott",
+    "prescott-valley",
+    "queen-creek",
+    "rio-rico",
+    "saddlebrooke",
+    "sahuarita",
+    "san-luis",
+    "san-tan-valley",
+    "scottsdale",
+    "sedona",
+    "show-low",
+    "sierra-vista",
+    "sierra-vista-southeast",
+    "somerton-az",
+    "sun-city-az",
+    "sun-city-west",
+    "sun-lakes",
+    "surprise",
+    "tanque-verde",
+    "tempe",
+    "tempe-junction",
+    "tucson",
+    "tucson-estates",
+    "vail",
+    "verde-village",
+    "west-sedona",
+    "yuma"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.892Z"
+}

@@ -1,0 +1,150 @@
+{
+  "city": "Calexico",
+  "slug": "calexico",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Imperial County",
+  "lat": 32.679,
+  "lng": -115.4989,
+  "fetchedAt": "2026-02-11T17:08:27.538Z",
+  "census": {
+    "population": 179578,
+    "medianAge": 32.6,
+    "medianHouseholdIncome": 53847,
+    "medianHomeValue": 256000,
+    "medianRent": 961,
+    "povertyRate": 21.1,
+    "unemploymentRate": 13.1,
+    "bachelorDegreeOrHigher": 15.9,
+    "publicTransitPct": 0.7,
+    "workFromHomePct": 5.9,
+    "demographics": {
+      "white": 39.5,
+      "black": 2.6,
+      "asian": 1.5,
+      "hispanic": 85.4,
+      "other": -29
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 50.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 68.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 41,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 12.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 22.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 35.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 15,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 17.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 179057,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PIONEERS MEMORIAL HEALTHCARE DISTRICT",
+        "city": "BRAWLEY",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "EL CENTRO REGIONAL MEDICAL CENTER",
+        "city": "EL CENTRO",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Local"
+      }
+    ],
+    "totalHospitals": 2,
+    "ratedHospitals": 2,
+    "averageRating": 1.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

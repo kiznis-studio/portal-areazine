@@ -1,0 +1,166 @@
+{
+  "city": "Rochester",
+  "slug": "rochester-ny",
+  "state": "New York",
+  "stateCode": "NY",
+  "county": "Monroe County",
+  "lat": 43.1548,
+  "lng": -77.6156,
+  "fetchedAt": "2026-02-11T17:08:27.380Z",
+  "census": {
+    "population": 756406,
+    "medianAge": 39.3,
+    "medianHouseholdIncome": 71450,
+    "medianHomeValue": 182700,
+    "medianRent": 1085,
+    "povertyRate": 13.4,
+    "unemploymentRate": 5.3,
+    "bachelorDegreeOrHigher": 40.5,
+    "publicTransitPct": 2,
+    "workFromHomePct": 11.7,
+    "demographics": {
+      "white": 72.3,
+      "black": 14.9,
+      "asian": 3.8,
+      "hispanic": 9.6,
+      "other": -0.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 70.2,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 15.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 34.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 11.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 31.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.4,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 748482,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "STRONG MEMORIAL HOSPITAL",
+        "city": "ROCHESTER",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "ROCHESTER GENERAL HOSPITAL",
+        "city": "ROCHESTER",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HIGHLAND HOSPITAL",
+        "city": "ROCHESTER",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "UNITY HOSPITAL",
+        "city": "ROCHESTER",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 6,
+    "ratedHospitals": 4,
+    "averageRating": 1.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

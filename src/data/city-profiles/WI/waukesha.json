@@ -1,0 +1,166 @@
+{
+  "city": "Waukesha",
+  "slug": "waukesha",
+  "state": "Wisconsin",
+  "stateCode": "WI",
+  "county": "Waukesha County",
+  "lat": 43.0117,
+  "lng": -88.2315,
+  "fetchedAt": "2026-02-11T17:08:27.463Z",
+  "census": {
+    "population": 407290,
+    "medianAge": 43.3,
+    "medianHouseholdIncome": 101639,
+    "medianHomeValue": 352600,
+    "medianRent": 1235,
+    "povertyRate": 4.9,
+    "unemploymentRate": 2.6,
+    "bachelorDegreeOrHigher": 47.2,
+    "publicTransitPct": 0.3,
+    "workFromHomePct": 13.2,
+    "demographics": {
+      "white": 89.1,
+      "black": 1.6,
+      "asian": 3.9,
+      "hispanic": 5.1,
+      "other": 0.3
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 21,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 30.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 73,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 12.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 20.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 33.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 5.7,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 412591,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "WAUKESHA MEMORIAL HOSPITAL",
+        "city": "WAUKESHA",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "OCONOMOWOC MEMORIAL HOSPITAL",
+        "city": "OCONOMOWOC",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "AURORA MEDICAL CENTER - SUMMIT",
+        "city": "SUMMIT",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "COMMUNITY MEMORIAL HOSPITAL",
+        "city": "MENOMONEE FALLS",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 8,
+    "ratedHospitals": 4,
+    "averageRating": 4.5,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

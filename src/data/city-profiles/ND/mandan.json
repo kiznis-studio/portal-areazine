@@ -1,0 +1,127 @@
+{
+  "city": "Mandan",
+  "slug": "mandan",
+  "state": "North Dakota",
+  "stateCode": "ND",
+  "county": "Morton County",
+  "lat": 46.8267,
+  "lng": -100.8896,
+  "fetchedAt": "2026-02-11T17:08:27.663Z",
+  "census": {
+    "population": 33192,
+    "medianAge": 36.7,
+    "medianHouseholdIncome": 79555,
+    "medianHomeValue": 247200,
+    "medianRent": 973,
+    "povertyRate": 8.1,
+    "unemploymentRate": 2,
+    "bachelorDegreeOrHigher": 26.7,
+    "publicTransitPct": 0,
+    "workFromHomePct": 7.2,
+    "demographics": {
+      "white": 88.5,
+      "black": 1.3,
+      "asian": 0.4,
+      "hispanic": 4.2,
+      "other": 5.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 11.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 75.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 32.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 33.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 7.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 9.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 64.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 38.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 21.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 33895,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

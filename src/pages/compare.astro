@@ -1,0 +1,586 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/ui/Breadcrumb.astro';
+import { CITIES } from '../data/cities';
+import { fmt, fmtMoney, fmtCompact } from '../lib/format';
+import nationalStats from '../data/national-stats.json';
+
+// Import all city profiles for comparison data
+const profileModules = import.meta.glob('../data/city-profiles/**/*.json', { eager: true }) as Record<string, { default: any }>;
+
+const profileMap: Record<string, any> = {};
+for (const [path, mod] of Object.entries(profileModules)) {
+  const slug = path.split('/').pop()?.replace('.json', '') || '';
+  profileMap[slug] = mod.default ?? mod;
+}
+
+const maxTier = parseInt(import.meta.env.CITY_TIER || '2');
+const filteredCities = CITIES.filter(c => c.tier <= maxTier);
+
+// Build compact city data for client: slug\tname\tstateCode\tpop\tincome\thome\trent\tage\tpoverty\tunemp\tedu\twfh\ttransit\twhite\tblack\tasian\thispanic\tother\thospCount\thospRating
+const cityLines = filteredCities
+  .sort((a, b) => b.population - a.population)
+  .map(city => {
+    const p = profileMap[city.slug];
+    const c = p?.census;
+    const h = p?.hospitals;
+    return [
+      city.slug,
+      city.name,
+      city.stateCode,
+      city.population || 0,
+      c?.medianHouseholdIncome || 0,
+      c?.medianHomeValue || 0,
+      c?.medianRent || 0,
+      c?.medianAge || 0,
+      c?.povertyRate || 0,
+      c?.unemploymentRate || 0,
+      c?.bachelorDegreeOrHigher || 0,
+      c?.workFromHomePct || 0,
+      c?.publicTransitPct || 0,
+      c?.demographics?.white || 0,
+      c?.demographics?.black || 0,
+      c?.demographics?.asian || 0,
+      c?.demographics?.hispanic || 0,
+      c?.demographics?.other || 0,
+      h?.totalHospitals || 0,
+      h?.averageRating || 0,
+    ].join('\t');
+  })
+  .join('\n');
+
+const natl = {
+  income: nationalStats.avgMedianIncome,
+  home: nationalStats.avgMedianHomeValue,
+  rent: nationalStats.avgMedianRent,
+  poverty: nationalStats.avgPovertyRate,
+};
+---
+
+<Base
+  title="Compare Cities — Side-by-Side City Data"
+  description="Compare two US cities side by side. Population, income, home values, health data, and demographics from official government sources."
+>
+  <div class="container py-8 md:py-12">
+
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Cities', href: '/cities' },
+      { label: 'Compare' },
+    ]} />
+
+    <header class="mb-8">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-black tracking-tight mb-2">Compare Cities</h1>
+      <p class="text-base text-[var(--color-muted)] max-w-2xl">
+        Select two cities to compare side by side — demographics, economics, health, and hospitals.
+      </p>
+    </header>
+
+    {/* City Selectors */}
+    <div class="grid md:grid-cols-2 gap-4 mb-10">
+      <div class="relative">
+        <label class="block text-xs font-bold uppercase tracking-wider text-[var(--color-muted)] mb-2">City A</label>
+        <input
+          type="text"
+          id="input-a"
+          placeholder="Type a city name..."
+          class="search-input w-full px-4 py-3 text-base"
+          autocomplete="off"
+        />
+        <div id="dropdown-a" class="absolute z-20 left-0 right-0 top-full mt-1 bg-[var(--color-bg)] border border-[var(--color-border)] rounded-lg shadow-lg max-h-60 overflow-y-auto hidden"></div>
+      </div>
+      <div class="relative">
+        <label class="block text-xs font-bold uppercase tracking-wider text-[var(--color-muted)] mb-2">City B</label>
+        <input
+          type="text"
+          id="input-b"
+          placeholder="Type a city name..."
+          class="search-input w-full px-4 py-3 text-base"
+          autocomplete="off"
+        />
+        <div id="dropdown-b" class="absolute z-20 left-0 right-0 top-full mt-1 bg-[var(--color-bg)] border border-[var(--color-border)] rounded-lg shadow-lg max-h-60 overflow-y-auto hidden"></div>
+      </div>
+    </div>
+
+    {/* Comparison Results - rendered by JS */}
+    <div id="compare-empty" class="text-center py-16 border border-dashed border-[var(--color-border)] rounded-xl">
+      <p class="text-lg text-[var(--color-muted)] mb-2">Select two cities above to compare</p>
+      <p class="text-sm text-[var(--color-muted)]">Choose from {fmtCompact(filteredCities.length)} US cities</p>
+    </div>
+
+    <div id="compare-results" class="hidden">
+      {/* Header with city names */}
+      <div class="grid grid-cols-[1fr_1fr] md:grid-cols-[200px_1fr_1fr] gap-4 mb-6 items-end">
+        <div class="hidden md:block"></div>
+        <div id="header-a" class="text-center">
+          <div class="text-xl font-bold" id="name-a"></div>
+          <div class="text-sm text-[var(--color-muted)]" id="state-a"></div>
+        </div>
+        <div id="header-b" class="text-center">
+          <div class="text-xl font-bold" id="name-b"></div>
+          <div class="text-sm text-[var(--color-muted)]" id="state-b"></div>
+        </div>
+      </div>
+
+      {/* Comparison Sections */}
+      <div id="comparison-body"></div>
+
+      {/* Links to full profiles */}
+      <div class="grid md:grid-cols-2 gap-4 mt-8">
+        <a id="link-a" href="#" class="card-interactive block p-4 text-center text-sm font-medium">View full profile &rarr;</a>
+        <a id="link-b" href="#" class="card-interactive block p-4 text-center text-sm font-medium">View full profile &rarr;</a>
+      </div>
+    </div>
+
+    {/* Popular Comparisons */}
+    <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
+      <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] mb-4">Popular Comparisons</h2>
+      <div class="flex flex-wrap gap-2">
+        {[
+          ['austin-tx', 'denver', 'Austin vs Denver'],
+          ['san-francisco', 'seattle', 'San Francisco vs Seattle'],
+          ['new-york-city', 'los-angeles', 'NYC vs LA'],
+          ['chicago', 'houston', 'Chicago vs Houston'],
+          ['miami-fl', 'tampa', 'Miami vs Tampa'],
+          ['portland-or', 'seattle', 'Portland vs Seattle'],
+          ['dallas-tx', 'houston', 'Dallas vs Houston'],
+          ['boston', 'washington-dc', 'Boston vs DC'],
+        ].map(([a, b, label]) => (
+          <a
+            href={`/compare?a=${a}&b=${b}`}
+            class="text-sm px-3 py-1.5 border border-[var(--color-border)] rounded-full hover:border-[var(--color-muted)] hover:bg-[var(--color-card)] transition-colors"
+          >
+            {label}
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  {/* Embed city data */}
+  <script type="text/data" id="city-data" set:html={cityLines} />
+  <script type="text/data" id="natl-data" set:html={JSON.stringify(natl)} />
+
+  <script>
+    // Parse city data
+    interface CityData {
+      slug: string; name: string; state: string; pop: number;
+      income: number; home: number; rent: number; age: number;
+      poverty: number; unemp: number; edu: number; wfh: number;
+      transit: number; white: number; black: number; asian: number;
+      hispanic: number; other: number; hospCount: number; hospRating: number;
+    }
+
+    const raw = document.getElementById('city-data')?.textContent || '';
+    const natl = JSON.parse(document.getElementById('natl-data')?.textContent || '{}');
+    const cities: CityData[] = raw.trim().split('\n').map(line => {
+      const f = line.split('\t');
+      return {
+        slug: f[0], name: f[1], state: f[2], pop: +f[3],
+        income: +f[4], home: +f[5], rent: +f[6], age: +f[7],
+        poverty: +f[8], unemp: +f[9], edu: +f[10], wfh: +f[11],
+        transit: +f[12], white: +f[13], black: +f[14], asian: +f[15],
+        hispanic: +f[16], other: +f[17], hospCount: +f[18], hospRating: +f[19],
+      };
+    });
+
+    const cityMap = new Map(cities.map(c => [c.slug, c]));
+
+    // DOM elements
+    const inputA = document.getElementById('input-a') as HTMLInputElement;
+    const inputB = document.getElementById('input-b') as HTMLInputElement;
+    const dropdownA = document.getElementById('dropdown-a')!;
+    const dropdownB = document.getElementById('dropdown-b')!;
+    const emptyState = document.getElementById('compare-empty')!;
+    const results = document.getElementById('compare-results')!;
+    const body = document.getElementById('comparison-body')!;
+
+    let selectedA: CityData | null = null;
+    let selectedB: CityData | null = null;
+    let activeDropdown: HTMLElement | null = null;
+    let highlightIdx = -1;
+
+    // Format helpers
+    function fmtNum(n: number): string {
+      if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+      if (n >= 1_000) return (n / 1_000).toFixed(n >= 100_000 ? 0 : 1).replace(/\\.0$/, '') + 'K';
+      return n.toLocaleString();
+    }
+    function fmtMoney(n: number): string { return n ? '$' + n.toLocaleString() : 'N/A'; }
+    function fmtPct(n: number): string { return n ? n + '%' : 'N/A'; }
+
+    // Autocomplete
+    function setupAutocomplete(input: HTMLInputElement, dropdown: HTMLElement, side: 'a' | 'b') {
+      let timer: ReturnType<typeof setTimeout>;
+
+      input.addEventListener('input', () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+          const q = input.value.toLowerCase().trim();
+          if (q.length < 2) { dropdown.classList.add('hidden'); return; }
+
+          const matches = cities.filter(c =>
+            c.name.toLowerCase().includes(q) || c.state.toLowerCase().includes(q)
+          ).slice(0, 10);
+
+          // Clear dropdown
+          while (dropdown.firstChild) dropdown.removeChild(dropdown.firstChild);
+
+          if (matches.length === 0) {
+            const empty = document.createElement('div');
+            empty.className = 'px-4 py-3 text-sm text-[var(--color-muted)]';
+            empty.textContent = 'No cities found';
+            dropdown.appendChild(empty);
+          } else {
+            matches.forEach((city, idx) => {
+              const item = document.createElement('div');
+              item.className = 'px-4 py-2.5 text-sm cursor-pointer hover:bg-[var(--color-card)] flex justify-between items-center';
+              item.dataset.slug = city.slug;
+              item.dataset.idx = idx.toString();
+
+              const nameSpan = document.createElement('span');
+              nameSpan.className = 'font-medium';
+              nameSpan.textContent = city.name + ', ' + city.state;
+
+              const popSpan = document.createElement('span');
+              popSpan.className = 'text-xs text-[var(--color-muted)] tabular-nums';
+              popSpan.textContent = fmtNum(city.pop);
+
+              item.appendChild(nameSpan);
+              item.appendChild(popSpan);
+
+              item.addEventListener('click', () => {
+                selectCity(city, side);
+                dropdown.classList.add('hidden');
+              });
+
+              dropdown.appendChild(item);
+            });
+          }
+
+          highlightIdx = -1;
+          activeDropdown = dropdown;
+          dropdown.classList.remove('hidden');
+        }, 100);
+      });
+
+      input.addEventListener('keydown', (e) => {
+        if (dropdown.classList.contains('hidden')) return;
+        const items = dropdown.querySelectorAll('[data-slug]');
+
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          highlightIdx = Math.min(highlightIdx + 1, items.length - 1);
+          updateHighlight(items);
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          highlightIdx = Math.max(highlightIdx - 1, 0);
+          updateHighlight(items);
+        } else if (e.key === 'Enter' && highlightIdx >= 0) {
+          e.preventDefault();
+          const slug = (items[highlightIdx] as HTMLElement).dataset.slug!;
+          const city = cityMap.get(slug)!;
+          selectCity(city, side);
+          dropdown.classList.add('hidden');
+        } else if (e.key === 'Escape') {
+          dropdown.classList.add('hidden');
+        }
+      });
+
+      input.addEventListener('blur', () => {
+        setTimeout(() => dropdown.classList.add('hidden'), 200);
+      });
+    }
+
+    function updateHighlight(items: NodeListOf<Element>) {
+      items.forEach((item, i) => {
+        if (i === highlightIdx) {
+          item.classList.add('bg-[var(--color-card)]');
+        } else {
+          item.classList.remove('bg-[var(--color-card)]');
+        }
+      });
+    }
+
+    function selectCity(city: CityData, side: 'a' | 'b') {
+      if (side === 'a') {
+        selectedA = city;
+        inputA.value = city.name + ', ' + city.state;
+      } else {
+        selectedB = city;
+        inputB.value = city.name + ', ' + city.state;
+      }
+      if (selectedA && selectedB) {
+        renderComparison();
+        updateURL();
+      }
+    }
+
+    function updateURL() {
+      if (!selectedA || !selectedB) return;
+      const url = new URL(window.location.href);
+      url.searchParams.set('a', selectedA.slug);
+      url.searchParams.set('b', selectedB.slug);
+      history.replaceState({}, '', url.toString());
+    }
+
+    // Render comparison
+    function renderComparison() {
+      if (!selectedA || !selectedB) return;
+      const a = selectedA;
+      const b = selectedB;
+
+      emptyState.classList.add('hidden');
+      results.classList.remove('hidden');
+
+      // Headers
+      (document.getElementById('name-a') as HTMLElement).textContent = a.name;
+      (document.getElementById('state-a') as HTMLElement).textContent = a.state;
+      (document.getElementById('name-b') as HTMLElement).textContent = b.name;
+      (document.getElementById('state-b') as HTMLElement).textContent = b.state;
+      (document.getElementById('link-a') as HTMLAnchorElement).href = '/cities/' + a.slug;
+      (document.getElementById('link-a') as HTMLElement).textContent = 'View ' + a.name + ' profile →';
+      (document.getElementById('link-b') as HTMLAnchorElement).href = '/cities/' + b.slug;
+      (document.getElementById('link-b') as HTMLElement).textContent = 'View ' + b.name + ' profile →';
+
+      // Clear body
+      while (body.firstChild) body.removeChild(body.firstChild);
+
+      // Sections
+      addSection('Population & Demographics', [
+        { label: 'Population', a: fmtNum(a.pop), b: fmtNum(b.pop), aVal: a.pop, bVal: b.pop, max: Math.max(a.pop, b.pop) || 1 },
+        { label: 'Median Age', a: a.age ? a.age.toString() : 'N/A', b: b.age ? b.age.toString() : 'N/A', aVal: a.age, bVal: b.age, max: 60 },
+      ]);
+
+      // Demographics bars
+      addDemographicsComparison(a, b);
+
+      addSection('Economics', [
+        { label: 'Median Income', a: fmtMoney(a.income), b: fmtMoney(b.income), aVal: a.income, bVal: b.income, max: 200000, natl: natl.income },
+        { label: 'Median Home Value', a: fmtMoney(a.home), b: fmtMoney(b.home), aVal: a.home, bVal: b.home, max: 1500000, natl: natl.home },
+        { label: 'Median Rent', a: fmtMoney(a.rent), b: fmtMoney(b.rent), aVal: a.rent, bVal: b.rent, max: 3000, natl: natl.rent },
+        { label: 'Poverty Rate', a: fmtPct(a.poverty), b: fmtPct(b.poverty), aVal: a.poverty, bVal: b.poverty, max: 40, invert: true, natl: natl.poverty },
+        { label: 'Unemployment', a: fmtPct(a.unemp), b: fmtPct(b.unemp), aVal: a.unemp, bVal: b.unemp, max: 20, invert: true },
+      ]);
+
+      addSection('Education & Work', [
+        { label: "Bachelor's+", a: fmtPct(a.edu), b: fmtPct(b.edu), aVal: a.edu, bVal: b.edu, max: 80 },
+        { label: 'Work From Home', a: fmtPct(a.wfh), b: fmtPct(b.wfh), aVal: a.wfh, bVal: b.wfh, max: 50 },
+        { label: 'Public Transit', a: fmtPct(a.transit), b: fmtPct(b.transit), aVal: a.transit, bVal: b.transit, max: 60 },
+      ]);
+
+      addSection('Healthcare', [
+        { label: 'Hospitals', a: a.hospCount.toString(), b: b.hospCount.toString(), aVal: a.hospCount, bVal: b.hospCount, max: Math.max(a.hospCount, b.hospCount, 1) },
+        { label: 'Avg Hospital Rating', a: a.hospRating ? (a.hospRating + '/5') : 'N/A', b: b.hospRating ? (b.hospRating + '/5') : 'N/A', aVal: a.hospRating, bVal: b.hospRating, max: 5 },
+      ]);
+    }
+
+    interface MetricRow {
+      label: string; a: string; b: string;
+      aVal: number; bVal: number; max: number;
+      invert?: boolean; natl?: number;
+    }
+
+    function addSection(title: string, metrics: MetricRow[]) {
+      const section = document.createElement('div');
+      section.className = 'mb-8';
+
+      const header = document.createElement('h3');
+      header.className = 'text-xs font-bold uppercase tracking-wider text-[var(--color-muted)] mb-3';
+      header.textContent = title;
+      section.appendChild(header);
+
+      const table = document.createElement('div');
+      table.className = 'data-table';
+
+      for (const m of metrics) {
+        const row = document.createElement('div');
+        row.className = 'grid grid-cols-[1fr_1fr] md:grid-cols-[200px_1fr_1fr] gap-4 px-4 py-3 border-b border-[var(--color-border)] last:border-0 items-center';
+
+        // Label
+        const labelEl = document.createElement('div');
+        labelEl.className = 'hidden md:block text-sm text-[var(--color-muted)]';
+        labelEl.textContent = m.label;
+
+        // City A value
+        const cellA = document.createElement('div');
+        const valA = document.createElement('div');
+        valA.className = 'font-semibold text-sm tabular-nums mb-1';
+        valA.textContent = m.a;
+        cellA.appendChild(valA);
+
+        // Mobile label for A
+        const mobLabelA = document.createElement('div');
+        mobLabelA.className = 'md:hidden text-xs text-[var(--color-muted)] mb-1';
+        mobLabelA.textContent = m.label;
+        cellA.insertBefore(mobLabelA, valA);
+
+        // Bar A
+        const barA = createBar(m.aVal, m.bVal, m.max, m.invert, m.natl);
+        cellA.appendChild(barA);
+
+        // Winner indicator for A
+        if (m.aVal && m.bVal && m.aVal !== m.bVal) {
+          const isWinner = m.invert ? m.aVal < m.bVal : m.aVal > m.bVal;
+          if (isWinner) {
+            valA.classList.add('text-[var(--color-above)]');
+          }
+        }
+
+        // City B value
+        const cellB = document.createElement('div');
+        const valB = document.createElement('div');
+        valB.className = 'font-semibold text-sm tabular-nums mb-1';
+        valB.textContent = m.b;
+        cellB.appendChild(valB);
+
+        // Mobile label for B
+        const mobLabelB = document.createElement('div');
+        mobLabelB.className = 'md:hidden text-xs text-[var(--color-muted)] mb-1';
+        mobLabelB.textContent = m.label;
+        cellB.insertBefore(mobLabelB, valB);
+
+        // Bar B
+        const barB = createBar(m.bVal, m.aVal, m.max, m.invert, m.natl);
+        cellB.appendChild(barB);
+
+        // Winner indicator for B
+        if (m.aVal && m.bVal && m.aVal !== m.bVal) {
+          const isWinner = m.invert ? m.bVal < m.aVal : m.bVal > m.aVal;
+          if (isWinner) {
+            valB.classList.add('text-[var(--color-above)]');
+          }
+        }
+
+        row.appendChild(labelEl);
+        row.appendChild(cellA);
+        row.appendChild(cellB);
+        table.appendChild(row);
+      }
+
+      section.appendChild(table);
+      body.appendChild(section);
+    }
+
+    function createBar(val: number, otherVal: number, max: number, invert?: boolean, natlVal?: number): HTMLElement {
+      const container = document.createElement('div');
+      container.className = 'progress-bar relative';
+      container.style.height = '6px';
+
+      const pct = max > 0 ? Math.min((val / max) * 100, 100) : 0;
+      const fill = document.createElement('div');
+      fill.className = 'progress-bar-fill';
+
+      // Color: winner gets accent, loser gets muted
+      const isWinner = invert ? val < otherVal : val > otherVal;
+      if (val && otherVal && val !== otherVal) {
+        fill.style.setProperty('--bar-color', isWinner ? 'var(--color-data-teal)' : 'var(--color-data-slate)');
+      }
+      fill.style.width = pct + '%';
+      container.appendChild(fill);
+
+      // National average marker
+      if (natlVal && max > 0) {
+        const markerPct = Math.min((natlVal / max) * 100, 100);
+        const marker = document.createElement('div');
+        marker.style.cssText = `position:absolute;left:${markerPct}%;top:-2px;bottom:-2px;width:2px;background:var(--color-muted);opacity:0.4;border-radius:1px`;
+        marker.title = 'National average';
+        container.appendChild(marker);
+      }
+
+      return container;
+    }
+
+    function addDemographicsComparison(a: CityData, b: CityData) {
+      const section = document.createElement('div');
+      section.className = 'mb-8';
+
+      const grid = document.createElement('div');
+      grid.className = 'grid md:grid-cols-2 gap-4';
+
+      for (const city of [a, b]) {
+        const card = document.createElement('div');
+        card.className = 'border border-[var(--color-border)] rounded-xl p-4';
+
+        const title = document.createElement('div');
+        title.className = 'text-sm font-medium mb-3';
+        title.textContent = city.name + ' Demographics';
+        card.appendChild(title);
+
+        const segments = [
+          { label: 'White', value: city.white, color: '#60a5fa' },
+          { label: 'Hispanic', value: city.hispanic, color: '#f59e0b' },
+          { label: 'Black', value: city.black, color: '#a78bfa' },
+          { label: 'Asian', value: city.asian, color: '#34d399' },
+          { label: 'Other', value: Math.max(0, city.other), color: '#94a3b8' },
+        ].filter(s => s.value > 0);
+
+        // Stacked bar
+        const bar = document.createElement('div');
+        bar.className = 'flex rounded-full overflow-hidden h-4 mb-3';
+
+        for (const seg of segments) {
+          const piece = document.createElement('div');
+          piece.style.width = seg.value + '%';
+          piece.style.backgroundColor = seg.color;
+          piece.title = seg.label + ': ' + seg.value + '%';
+          bar.appendChild(piece);
+        }
+        card.appendChild(bar);
+
+        // Legend
+        const legend = document.createElement('div');
+        legend.className = 'flex flex-wrap gap-x-4 gap-y-1';
+        for (const seg of segments) {
+          const item = document.createElement('div');
+          item.className = 'flex items-center gap-1.5 text-xs';
+
+          const dot = document.createElement('span');
+          dot.className = 'w-2 h-2 rounded-full flex-shrink-0';
+          dot.style.backgroundColor = seg.color;
+
+          const text = document.createElement('span');
+          text.className = 'text-[var(--color-muted)]';
+          text.textContent = seg.label + ' ' + seg.value + '%';
+
+          item.appendChild(dot);
+          item.appendChild(text);
+          legend.appendChild(item);
+        }
+        card.appendChild(legend);
+        grid.appendChild(card);
+      }
+
+      section.appendChild(grid);
+      body.appendChild(section);
+    }
+
+    // Setup
+    setupAutocomplete(inputA, dropdownA, 'a');
+    setupAutocomplete(inputB, dropdownB, 'b');
+
+    // Check URL params
+    const params = new URLSearchParams(window.location.search);
+    const slugA = params.get('a');
+    const slugB = params.get('b');
+    if (slugA && slugB) {
+      const cityA = cityMap.get(slugA);
+      const cityB = cityMap.get(slugB);
+      if (cityA && cityB) {
+        selectedA = cityA;
+        selectedB = cityB;
+        inputA.value = cityA.name + ', ' + cityA.state;
+        inputB.value = cityB.name + ', ' + cityB.state;
+        renderComparison();
+      }
+    }
+  </script>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Compare Cities — Side-by-Side City Data",
+    "description": "Compare two US cities side by side with government data on population, income, health, and hospitals.",
+    "url": "https://areazine.com/compare",
+  })} />
+</Base>

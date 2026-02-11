@@ -1,0 +1,190 @@
+{
+  "city": "Leon Valley",
+  "slug": "leon-valley",
+  "state": "Texas",
+  "stateCode": "TX",
+  "county": "Bexar County",
+  "lat": 29.4952,
+  "lng": -98.6186,
+  "fetchedAt": "2026-02-11T17:08:27.852Z",
+  "census": {
+    "population": 2014059,
+    "medianAge": 34.2,
+    "medianHouseholdIncome": 67275,
+    "medianHomeValue": 222300,
+    "medianRent": 1212,
+    "povertyRate": 15.2,
+    "unemploymentRate": 5.4,
+    "bachelorDegreeOrHigher": 30.4,
+    "publicTransitPct": 1.7,
+    "workFromHomePct": 10.7,
+    "demographics": {
+      "white": 57.1,
+      "black": 7.6,
+      "asian": 3.1,
+      "hispanic": 61,
+      "other": -28.8
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 41,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 30.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 21.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 33.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 55,
+        "unit": "%",
+        "year": "2022"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 72,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.1,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 2087679,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "SAN ANTONIO VA MEDICAL CENTER (VA SOUTH TEXAS HEALTHCARE SYSTEM)",
+        "city": "SAN ANTONIO",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "BAPTIST MEDICAL CENTER",
+        "city": "SAN ANTONIO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "UNIVERSITY HEALTH SYSTEM",
+        "city": "SAN ANTONIO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "CHRISTUS SANTA ROSA MEDICAL CENTER",
+        "city": "SAN ANTONIO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "METHODIST HOSPITAL",
+        "city": "SAN ANTONIO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "FOUNDATION SURGICAL HOSPITAL OF SAN ANTONIO",
+        "city": "SAN ANTONIO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      },
+      {
+        "name": "METHODIST HOSPITAL  STONE OAK",
+        "city": "SAN ANTONIO",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 18,
+    "ratedHospitals": 7,
+    "averageRating": 3.3,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

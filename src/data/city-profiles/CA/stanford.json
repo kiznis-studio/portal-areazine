@@ -1,0 +1,198 @@
+{
+  "city": "Stanford",
+  "slug": "stanford",
+  "state": "California",
+  "stateCode": "CA",
+  "county": "Santa Clara County",
+  "lat": 37.4241,
+  "lng": -122.1661,
+  "fetchedAt": "2026-02-11T17:08:27.781Z",
+  "census": {
+    "population": 1916831,
+    "medianAge": 37.7,
+    "medianHouseholdIncome": 153792,
+    "medianHomeValue": 1316800,
+    "medianRent": 2719,
+    "povertyRate": 6.9,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 55.3,
+    "publicTransitPct": 2.9,
+    "workFromHomePct": 19.5,
+    "demographics": {
+      "white": 36.2,
+      "black": 2.4,
+      "asian": 38.9,
+      "hispanic": 24.9,
+      "other": -2.4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 8.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 7.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 71.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 27,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 13.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 66.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 22.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 21.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 10.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 31.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 12.9,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 1877592,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "PALO ALTO VA MEDICAL CENTER",
+        "city": "PALO ALTO",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "STANFORD HEALTH CARE",
+        "city": "STANFORD",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "EL CAMINO HOSPITAL",
+        "city": "MOUNTAIN VIEW",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Hospital District or Authority"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITAL-SAN JOSE",
+        "city": "SAN JOSE",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "SANTA CLARA VALLEY MEDICAL CENTER",
+        "city": "SAN JOSE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Local"
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITAL-SANTA CLARA",
+        "city": "SANTA CLARA",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "REGIONAL MEDICAL CENTER OF SAN JOSE",
+        "city": "SAN JOSE",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Federal"
+      },
+      {
+        "name": "GOOD SAMARITAN HOSPITAL",
+        "city": "SAN JOSE",
+        "rating": 2,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Proprietary"
+      }
+    ],
+    "totalHospitals": 12,
+    "ratedHospitals": 8,
+    "averageRating": 3.6,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

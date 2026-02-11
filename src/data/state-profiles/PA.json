@@ -1,0 +1,325 @@
+{
+  "stateCode": "PA",
+  "stateName": "Pennsylvania",
+  "cityCount": 156,
+  "totalPopulation": 5487186,
+  "avgMedianIncome": 72187,
+  "avgMedianHomeValue": 212303,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "philadelphia",
+        "name": "Philadelphia",
+        "value": 1573916
+      },
+      {
+        "slug": "pittsburgh",
+        "name": "Pittsburgh",
+        "value": 304391
+      },
+      {
+        "slug": "allentown",
+        "name": "Allentown",
+        "value": 120207
+      },
+      {
+        "slug": "erie-pa",
+        "name": "Erie",
+        "value": 99475
+      },
+      {
+        "slug": "reading-pa",
+        "name": "Reading",
+        "value": 87879
+      },
+      {
+        "slug": "scranton",
+        "name": "Scranton",
+        "value": 77118
+      },
+      {
+        "slug": "bethlehem",
+        "name": "Bethlehem",
+        "value": 74892
+      },
+      {
+        "slug": "bensalem",
+        "name": "Bensalem",
+        "value": 60427
+      },
+      {
+        "slug": "lancaster-pa",
+        "name": "Lancaster",
+        "value": 59339
+      },
+      {
+        "slug": "center-city",
+        "name": "Center City",
+        "value": 57239
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "west-chester",
+        "name": "West Chester",
+        "value": 118574
+      },
+      {
+        "slug": "bensalem",
+        "name": "Bensalem",
+        "value": 107826
+      },
+      {
+        "slug": "abington-pa",
+        "name": "Abington",
+        "value": 107441
+      },
+      {
+        "slug": "havertown",
+        "name": "Havertown",
+        "value": 86390
+      },
+      {
+        "slug": "cranberry-township",
+        "name": "Cranberry Township",
+        "value": 82932
+      },
+      {
+        "slug": "carlisle",
+        "name": "Carlisle",
+        "value": 82849
+      },
+      {
+        "slug": "bethlehem",
+        "name": "Bethlehem",
+        "value": 82201
+      },
+      {
+        "slug": "lancaster-pa",
+        "name": "Lancaster",
+        "value": 81458
+      },
+      {
+        "slug": "east-stroudsburg",
+        "name": "East Stroudsburg",
+        "value": 80656
+      },
+      {
+        "slug": "york",
+        "name": "York",
+        "value": 79183
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "west-chester",
+        "name": "West Chester",
+        "value": 435000
+      },
+      {
+        "slug": "bensalem",
+        "name": "Bensalem",
+        "value": 395800
+      },
+      {
+        "slug": "abington-pa",
+        "name": "Abington",
+        "value": 382300
+      },
+      {
+        "slug": "state-college",
+        "name": "State College",
+        "value": 289800
+      },
+      {
+        "slug": "havertown",
+        "name": "Havertown",
+        "value": 289700
+      },
+      {
+        "slug": "bethlehem",
+        "name": "Bethlehem",
+        "value": 265600
+      },
+      {
+        "slug": "lancaster-pa",
+        "name": "Lancaster",
+        "value": 263600
+      },
+      {
+        "slug": "cranberry-township",
+        "name": "Cranberry Township",
+        "value": 258500
+      },
+      {
+        "slug": "allentown",
+        "name": "Allentown",
+        "value": 254500
+      },
+      {
+        "slug": "carlisle",
+        "name": "Carlisle",
+        "value": 246200
+      }
+    ]
+  },
+  "cities": [
+    "abington-pa",
+    "allegheny-west",
+    "allentown",
+    "allison-park",
+    "altoona-pa",
+    "ardmore-pa",
+    "back-mountain",
+    "baldwin-pa",
+    "bensalem",
+    "berwick",
+    "bethel-park",
+    "bethlehem",
+    "bloomsburg",
+    "broomall",
+    "bustleton",
+    "butler",
+    "carlisle",
+    "carnot-moon",
+    "carroll-park",
+    "cedarbrook",
+    "center-city",
+    "chambersburg",
+    "chester-pa",
+    "coatesville",
+    "cobbs-creek",
+    "colonial-park",
+    "columbia-pa",
+    "cranberry-township",
+    "darby",
+    "drexel-hill",
+    "dunmore",
+    "east-mount-airy",
+    "east-norriton",
+    "east-stroudsburg",
+    "easton-pa",
+    "elizabethtown-pa",
+    "elmwood",
+    "emmaus",
+    "ephrata",
+    "erie-pa",
+    "fernway",
+    "fishtown",
+    "fox-chase",
+    "frankford-pa",
+    "franklin-park-pa",
+    "fullerton-pa",
+    "germantown-pa",
+    "girard-estate",
+    "grays-ferry",
+    "greensburg-pa",
+    "haddington",
+    "hanover-pa",
+    "harrisburg-pa",
+    "hartranft",
+    "havertown",
+    "hazleton",
+    "hermitage-pa",
+    "hershey",
+    "holmesburg",
+    "horsham",
+    "hunting-park",
+    "indiana",
+    "jefferson-hills",
+    "johnstown-pa",
+    "juniata-park",
+    "king-of-prussia",
+    "kingsessing",
+    "kingston-pa",
+    "lancaster-pa",
+    "landenberg",
+    "lansdale",
+    "lansdowne",
+    "lawndale-pa",
+    "lebanon-pa",
+    "levittown-pa",
+    "limerick",
+    "logan-pa",
+    "logan-square-pa",
+    "lower-burrell",
+    "lower-moyamensing",
+    "mckeesport",
+    "meadville",
+    "modena-park",
+    "monroeville",
+    "montgomeryville",
+    "mount-lebanon",
+    "mountain-top",
+    "munhall",
+    "murrysville",
+    "nanticoke",
+    "natrona-heights",
+    "new-castle-pa",
+    "new-kensington",
+    "nicetown-tioga",
+    "norristown",
+    "north-versailles",
+    "ogontz",
+    "oil-city",
+    "olney-pa",
+    "overbrook",
+    "oxford-circle",
+    "parkwood-manor",
+    "paschall",
+    "penn-hills",
+    "pennsport",
+    "philadelphia",
+    "phoenixville",
+    "pittsburgh",
+    "plum",
+    "point-breeze",
+    "port-richmond-pa",
+    "pottstown",
+    "pottsville",
+    "radnor",
+    "reading-pa",
+    "rhawnhurst",
+    "rittenhouse",
+    "roxborough",
+    "saint-marys",
+    "scranton",
+    "sharon",
+    "shiloh-pa",
+    "somerton-pa",
+    "south-park-township",
+    "southwest-center-city-philadelphia",
+    "springfield-pa",
+    "state-college",
+    "strawberry-mansion",
+    "tacony",
+    "torresdale",
+    "university-city-pa",
+    "upper-roxborough",
+    "upper-saint-clair",
+    "washington-pa",
+    "washington-square",
+    "wayne-pa",
+    "waynesboro-pa",
+    "weigelstown",
+    "west-chester",
+    "west-kensington",
+    "west-mifflin",
+    "west-mount-airy",
+    "west-norriton",
+    "west-oak-lane",
+    "wharton",
+    "whitehall-pa",
+    "whitehall-township",
+    "whitman-pa",
+    "wilkes-barre",
+    "wilkinsburg",
+    "williamsport",
+    "willow-grove",
+    "wissinoming",
+    "wyomissing",
+    "yeadon",
+    "york"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.893Z"
+}

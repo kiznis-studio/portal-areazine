@@ -1,0 +1,186 @@
+{
+  "stateCode": "NE",
+  "stateName": "Nebraska",
+  "cityCount": 17,
+  "totalPopulation": 1141543,
+  "avgMedianIncome": 68012,
+  "avgMedianHomeValue": 187679,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "omaha",
+        "name": "Omaha",
+        "value": 486051
+      },
+      {
+        "slug": "lincoln-ne",
+        "name": "Lincoln",
+        "value": 294757
+      },
+      {
+        "slug": "bellevue-ne",
+        "name": "Bellevue",
+        "value": 55510
+      },
+      {
+        "slug": "grand-island-ne",
+        "name": "Grand Island",
+        "value": 51440
+      },
+      {
+        "slug": "kearney",
+        "name": "Kearney",
+        "value": 33021
+      },
+      {
+        "slug": "fremont-ne",
+        "name": "Fremont",
+        "value": 26474
+      },
+      {
+        "slug": "hastings-ne",
+        "name": "Hastings",
+        "value": 24924
+      },
+      {
+        "slug": "norfolk-ne",
+        "name": "Norfolk",
+        "value": 24366
+      },
+      {
+        "slug": "north-platte",
+        "name": "North Platte",
+        "value": 24194
+      },
+      {
+        "slug": "columbus-ne",
+        "name": "Columbus",
+        "value": 22797
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "bellevue-ne",
+        "name": "Bellevue",
+        "value": 95911
+      },
+      {
+        "slug": "omaha",
+        "name": "Omaha",
+        "value": 76083
+      },
+      {
+        "slug": "lincoln-ne",
+        "name": "Lincoln",
+        "value": 70387
+      },
+      {
+        "slug": "kearney",
+        "name": "Kearney",
+        "value": 70093
+      },
+      {
+        "slug": "columbus-ne",
+        "name": "Columbus",
+        "value": 69943
+      },
+      {
+        "slug": "lexington-ne",
+        "name": "Lexington",
+        "value": 67462
+      },
+      {
+        "slug": "fremont-ne",
+        "name": "Fremont",
+        "value": 66793
+      },
+      {
+        "slug": "south-sioux-city",
+        "name": "South Sioux City",
+        "value": 66112
+      },
+      {
+        "slug": "grand-island-ne",
+        "name": "Grand Island",
+        "value": 63553
+      },
+      {
+        "slug": "north-platte",
+        "name": "North Platte",
+        "value": 63019
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "bellevue-ne",
+        "name": "Bellevue",
+        "value": 263000
+      },
+      {
+        "slug": "lincoln-ne",
+        "name": "Lincoln",
+        "value": 239900
+      },
+      {
+        "slug": "omaha",
+        "name": "Omaha",
+        "value": 227400
+      },
+      {
+        "slug": "kearney",
+        "name": "Kearney",
+        "value": 218600
+      },
+      {
+        "slug": "columbus-ne",
+        "name": "Columbus",
+        "value": 195800
+      },
+      {
+        "slug": "grand-island-ne",
+        "name": "Grand Island",
+        "value": 190800
+      },
+      {
+        "slug": "norfolk-ne",
+        "name": "Norfolk",
+        "value": 187100
+      },
+      {
+        "slug": "fremont-ne",
+        "name": "Fremont",
+        "value": 168900
+      },
+      {
+        "slug": "north-platte",
+        "name": "North Platte",
+        "value": 167900
+      },
+      {
+        "slug": "hastings-ne",
+        "name": "Hastings",
+        "value": 166300
+      }
+    ]
+  },
+  "cities": [
+    "beatrice",
+    "bellevue-ne",
+    "chalco",
+    "columbus-ne",
+    "fremont-ne",
+    "grand-island-ne",
+    "hastings-ne",
+    "kearney",
+    "la-vista",
+    "lexington-ne",
+    "lincoln-ne",
+    "norfolk-ne",
+    "north-platte",
+    "omaha",
+    "papillion",
+    "scottsbluff",
+    "south-sioux-city"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.897Z"
+}

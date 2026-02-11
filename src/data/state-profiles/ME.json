@@ -1,0 +1,135 @@
+{
+  "stateCode": "ME",
+  "stateName": "Maine",
+  "cityCount": 16,
+  "totalPopulation": 388082,
+  "avgMedianIncome": 70702,
+  "avgMedianHomeValue": 256640,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "portland-me",
+        "name": "Portland",
+        "value": 66881
+      },
+      {
+        "slug": "lewiston-me",
+        "name": "Lewiston",
+        "value": 36202
+      },
+      {
+        "slug": "bangor",
+        "name": "Bangor",
+        "value": 32391
+      },
+      {
+        "slug": "west-scarborough",
+        "name": "West Scarborough",
+        "value": 27706
+      },
+      {
+        "slug": "south-portland",
+        "name": "South Portland",
+        "value": 25556
+      },
+      {
+        "slug": "south-portland-gardens",
+        "name": "South Portland Gardens",
+        "value": 23893
+      },
+      {
+        "slug": "auburn-me",
+        "name": "Auburn",
+        "value": 22871
+      },
+      {
+        "slug": "biddeford",
+        "name": "Biddeford",
+        "value": 21282
+      },
+      {
+        "slug": "sanford-me",
+        "name": "Sanford",
+        "value": 20893
+      },
+      {
+        "slug": "saco",
+        "name": "Saco",
+        "value": 19078
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "portland-me",
+        "name": "Portland",
+        "value": 87710
+      },
+      {
+        "slug": "biddeford",
+        "name": "Biddeford",
+        "value": 79743
+      },
+      {
+        "slug": "lewiston-me",
+        "name": "Lewiston",
+        "value": 64500
+      },
+      {
+        "slug": "augusta-me",
+        "name": "Augusta",
+        "value": 62118
+      },
+      {
+        "slug": "bangor",
+        "name": "Bangor",
+        "value": 59438
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "portland-me",
+        "name": "Portland",
+        "value": 372900
+      },
+      {
+        "slug": "biddeford",
+        "name": "Biddeford",
+        "value": 323500
+      },
+      {
+        "slug": "lewiston-me",
+        "name": "Lewiston",
+        "value": 211800
+      },
+      {
+        "slug": "augusta-me",
+        "name": "Augusta",
+        "value": 198300
+      },
+      {
+        "slug": "bangor",
+        "name": "Bangor",
+        "value": 176700
+      }
+    ]
+  },
+  "cities": [
+    "auburn-me",
+    "augusta-me",
+    "bangor",
+    "biddeford",
+    "brunswick-me",
+    "lewiston-me",
+    "portland-me",
+    "saco",
+    "sanford-me",
+    "south-portland",
+    "south-portland-gardens",
+    "waterville",
+    "wells-beach-station",
+    "west-scarborough",
+    "westbrook",
+    "york-beach"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.900Z"
+}

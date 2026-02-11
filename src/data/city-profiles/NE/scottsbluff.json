@@ -1,0 +1,127 @@
+{
+  "city": "Scottsbluff",
+  "slug": "scottsbluff",
+  "state": "Nebraska",
+  "stateCode": "NE",
+  "county": "Scotts Bluff County",
+  "lat": 41.8666,
+  "lng": -103.6672,
+  "fetchedAt": "2026-02-11T17:08:27.761Z",
+  "census": {
+    "population": 36048,
+    "medianAge": 39.2,
+    "medianHouseholdIncome": 60137,
+    "medianHomeValue": 150600,
+    "medianRent": 876,
+    "povertyRate": 12.5,
+    "unemploymentRate": 3.5,
+    "bachelorDegreeOrHigher": 25.2,
+    "publicTransitPct": 0.1,
+    "workFromHomePct": 5.5,
+    "demographics": {
+      "white": 82,
+      "black": 0.6,
+      "asian": 0.6,
+      "hispanic": 24.9,
+      "other": -8.1
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 32.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 29.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 37.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 39.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 60.7,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 12.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 13,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 7.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 77.2,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 35699,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

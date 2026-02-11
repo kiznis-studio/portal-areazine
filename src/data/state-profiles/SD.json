@@ -1,0 +1,180 @@
+{
+  "stateCode": "SD",
+  "stateName": "South Dakota",
+  "cityCount": 11,
+  "totalPopulation": 398596,
+  "avgMedianIncome": 66587,
+  "avgMedianHomeValue": 213009,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "sioux-falls",
+        "name": "Sioux Falls",
+        "value": 171544
+      },
+      {
+        "slug": "rapid-city",
+        "name": "Rapid City",
+        "value": 73569
+      },
+      {
+        "slug": "aberdeen-sd",
+        "name": "Aberdeen",
+        "value": 28102
+      },
+      {
+        "slug": "brookings",
+        "name": "Brookings",
+        "value": 23657
+      },
+      {
+        "slug": "watertown-sd",
+        "name": "Watertown",
+        "value": 22073
+      },
+      {
+        "slug": "mitchell",
+        "name": "Mitchell",
+        "value": 15669
+      },
+      {
+        "slug": "yankton",
+        "name": "Yankton",
+        "value": 14557
+      },
+      {
+        "slug": "pierre",
+        "name": "Pierre",
+        "value": 14091
+      },
+      {
+        "slug": "huron",
+        "name": "Huron",
+        "value": 13313
+      },
+      {
+        "slug": "spearfish",
+        "name": "Spearfish",
+        "value": 11283
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "pierre",
+        "name": "Pierre",
+        "value": 83750
+      },
+      {
+        "slug": "sioux-falls",
+        "name": "Sioux Falls",
+        "value": 73110
+      },
+      {
+        "slug": "aberdeen-sd",
+        "name": "Aberdeen",
+        "value": 70379
+      },
+      {
+        "slug": "yankton",
+        "name": "Yankton",
+        "value": 68847
+      },
+      {
+        "slug": "rapid-city",
+        "name": "Rapid City",
+        "value": 67823
+      },
+      {
+        "slug": "watertown-sd",
+        "name": "Watertown",
+        "value": 65747
+      },
+      {
+        "slug": "brookings",
+        "name": "Brookings",
+        "value": 64438
+      },
+      {
+        "slug": "huron",
+        "name": "Huron",
+        "value": 63813
+      },
+      {
+        "slug": "spearfish",
+        "name": "Spearfish",
+        "value": 62977
+      },
+      {
+        "slug": "vermillion",
+        "name": "Vermillion",
+        "value": 55963
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "spearfish",
+        "name": "Spearfish",
+        "value": 267900
+      },
+      {
+        "slug": "rapid-city",
+        "name": "Rapid City",
+        "value": 247800
+      },
+      {
+        "slug": "sioux-falls",
+        "name": "Sioux Falls",
+        "value": 246200
+      },
+      {
+        "slug": "brookings",
+        "name": "Brookings",
+        "value": 227800
+      },
+      {
+        "slug": "pierre",
+        "name": "Pierre",
+        "value": 216500
+      },
+      {
+        "slug": "vermillion",
+        "name": "Vermillion",
+        "value": 209300
+      },
+      {
+        "slug": "watertown-sd",
+        "name": "Watertown",
+        "value": 206600
+      },
+      {
+        "slug": "aberdeen-sd",
+        "name": "Aberdeen",
+        "value": 200400
+      },
+      {
+        "slug": "yankton",
+        "name": "Yankton",
+        "value": 190400
+      },
+      {
+        "slug": "mitchell",
+        "name": "Mitchell",
+        "value": 178100
+      }
+    ]
+  },
+  "cities": [
+    "aberdeen-sd",
+    "brookings",
+    "huron",
+    "mitchell",
+    "pierre",
+    "rapid-city",
+    "sioux-falls",
+    "spearfish",
+    "vermillion",
+    "watertown-sd",
+    "yankton"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.899Z"
+}

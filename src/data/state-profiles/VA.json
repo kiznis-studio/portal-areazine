@@ -1,0 +1,276 @@
+{
+  "stateCode": "VA",
+  "stateName": "Virginia",
+  "cityCount": 107,
+  "totalPopulation": 4774492,
+  "avgMedianIncome": 81095,
+  "avgMedianHomeValue": 333284,
+  "rankings": {
+    "byPopulation": [
+      {
+        "slug": "virginia-beach",
+        "name": "Virginia Beach",
+        "value": 454808
+      },
+      {
+        "slug": "norfolk-va",
+        "name": "Norfolk",
+        "value": 238005
+      },
+      {
+        "slug": "chesapeake",
+        "name": "Chesapeake",
+        "value": 235429
+      },
+      {
+        "slug": "richmond-va",
+        "name": "Richmond",
+        "value": 226610
+      },
+      {
+        "slug": "arlington-va",
+        "name": "Arlington",
+        "value": 207627
+      },
+      {
+        "slug": "newport-news",
+        "name": "Newport News",
+        "value": 186247
+      },
+      {
+        "slug": "alexandria-va",
+        "name": "Alexandria",
+        "value": 159467
+      },
+      {
+        "slug": "east-hampton",
+        "name": "East Hampton",
+        "value": 147993
+      },
+      {
+        "slug": "hampton",
+        "name": "Hampton",
+        "value": 137148
+      },
+      {
+        "slug": "roanoke",
+        "name": "Roanoke",
+        "value": 100011
+      }
+    ],
+    "byIncome": [
+      {
+        "slug": "leesburg-va",
+        "name": "Leesburg",
+        "value": 170463
+      },
+      {
+        "slug": "falls-church",
+        "name": "Falls Church",
+        "value": 164536
+      },
+      {
+        "slug": "centreville",
+        "name": "Centreville",
+        "value": 145165
+      },
+      {
+        "slug": "arlington-va",
+        "name": "Arlington",
+        "value": 137387
+      },
+      {
+        "slug": "fairfax",
+        "name": "Fairfax",
+        "value": 128708
+      },
+      {
+        "slug": "dale-city",
+        "name": "Dale City",
+        "value": 123193
+      },
+      {
+        "slug": "poquoson",
+        "name": "Poquoson",
+        "value": 114503
+      },
+      {
+        "slug": "alexandria-va",
+        "name": "Alexandria",
+        "value": 113179
+      },
+      {
+        "slug": "manassas",
+        "name": "Manassas",
+        "value": 110559
+      },
+      {
+        "slug": "mechanicsville",
+        "name": "Mechanicsville",
+        "value": 104678
+      }
+    ],
+    "byHomeValue": [
+      {
+        "slug": "falls-church",
+        "name": "Falls Church",
+        "value": 938500
+      },
+      {
+        "slug": "arlington-va",
+        "name": "Arlington",
+        "value": 833300
+      },
+      {
+        "slug": "centreville",
+        "name": "Centreville",
+        "value": 666900
+      },
+      {
+        "slug": "leesburg-va",
+        "name": "Leesburg",
+        "value": 657000
+      },
+      {
+        "slug": "alexandria-va",
+        "name": "Alexandria",
+        "value": 655700
+      },
+      {
+        "slug": "fairfax",
+        "name": "Fairfax",
+        "value": 649600
+      },
+      {
+        "slug": "dale-city",
+        "name": "Dale City",
+        "value": 472000
+      },
+      {
+        "slug": "fredericksburg-va",
+        "name": "Fredericksburg",
+        "value": 438400
+      },
+      {
+        "slug": "poquoson",
+        "name": "Poquoson",
+        "value": 406700
+      },
+      {
+        "slug": "charlottesville",
+        "name": "Charlottesville",
+        "value": 398400
+      }
+    ]
+  },
+  "cities": [
+    "alexandria-va",
+    "annandale",
+    "arlington-va",
+    "ashburn-va",
+    "baileys-crossroads",
+    "blacksburg",
+    "bon-air",
+    "brandermill",
+    "bristol-va",
+    "broadlands",
+    "buckhall",
+    "bull-run",
+    "burke",
+    "cave-spring",
+    "centreville",
+    "chantilly",
+    "charlottesville",
+    "cherry-hill-va",
+    "chesapeake",
+    "chester-va",
+    "christiansburg",
+    "colonial-heights",
+    "countryside",
+    "culpeper",
+    "dale-city",
+    "danville-va",
+    "dranesville",
+    "east-hampton",
+    "east-highland-park",
+    "fairfax",
+    "fairfax-station",
+    "falls-church",
+    "fort-hunt",
+    "franconia",
+    "fredericksburg-va",
+    "front-royal",
+    "gainesville-va",
+    "glen-allen",
+    "great-falls-va",
+    "groveton",
+    "hampton",
+    "harrisonburg",
+    "herndon",
+    "highland-springs",
+    "hollins",
+    "hopewell",
+    "huntington-va",
+    "hybla-valley",
+    "idylwood",
+    "kings-park-west",
+    "lake-ridge",
+    "lakeside-va",
+    "laurel-va",
+    "leesburg-va",
+    "lincolnia",
+    "linton-hall",
+    "lorton",
+    "lowes-island",
+    "lynchburg",
+    "madison-heights-va",
+    "manassas",
+    "manassas-park",
+    "martinsville-va",
+    "mclean",
+    "meadowbrook",
+    "mechanicsville",
+    "merrifield",
+    "midlothian-va",
+    "montclair-va",
+    "mount-vernon-va",
+    "newington-va",
+    "newport-news",
+    "norfolk-va",
+    "oak-hill",
+    "oakton",
+    "petersburg",
+    "poquoson",
+    "portsmouth-heights",
+    "portsmouth-va",
+    "radford",
+    "reston",
+    "richmond-va",
+    "roanoke",
+    "rose-hill",
+    "salem-va",
+    "short-pump",
+    "south-riding",
+    "south-suffolk",
+    "springfield-va",
+    "staunton",
+    "sterling-va",
+    "sudley",
+    "suffolk",
+    "sugarland-run",
+    "timberlake",
+    "tuckahoe",
+    "tysons",
+    "vienna-va",
+    "virginia-beach",
+    "waynesboro-va",
+    "west-falls-church",
+    "west-lynchburg",
+    "west-springfield-va",
+    "williamsburg-va",
+    "winchester-va",
+    "wolf-trap",
+    "woodlawn-va"
+  ],
+  "generatedAt": "2026-02-11T17:08:27.897Z"
+}

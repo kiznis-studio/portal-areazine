@@ -1,0 +1,88 @@
+{
+  "city": "Columbia",
+  "slug": "columbia-pa",
+  "state": "Pennsylvania",
+  "stateCode": "PA",
+  "county": "Lancaster County",
+  "lat": 40.0337,
+  "lng": -76.5044,
+  "fetchedAt": "2026-02-11T17:08:27.876Z",
+  "census": {
+    "population": 553202,
+    "medianAge": 39,
+    "medianHouseholdIncome": 81458,
+    "medianHomeValue": 263600,
+    "medianRent": 1221,
+    "povertyRate": 8.2,
+    "unemploymentRate": 3.4,
+    "bachelorDegreeOrHigher": 30.5,
+    "publicTransitPct": 0.8,
+    "workFromHomePct": 9.1,
+    "demographics": {
+      "white": 84.4,
+      "black": 4,
+      "asian": 2.4,
+      "hispanic": 11.2,
+      "other": -2
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 65.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 37.7,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "totalPopulation": 558589,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "LANCASTER GENERAL HOSPITAL",
+        "city": "LANCASTER",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "WELLSPAN EPHRATA COMMUNITY HOSPITAL",
+        "city": "EPHRATA",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "UPMC LITITZ",
+        "city": "LITITZ",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Other"
+      },
+      {
+        "name": "PENN STATE HEALTH LANCASTER MEDICAL CENTER",
+        "city": "LANCASTER",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 5,
+    "ratedHospitals": 4,
+    "averageRating": 3.8,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

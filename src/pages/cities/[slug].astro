@@ -1,14 +1,24 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { CITIES } from '../../data/cities';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
+import StatCard from '../../components/data/StatCard.astro';
+import ComparisonIndicator from '../../components/data/ComparisonIndicator.astro';
+import ComparisonBar from '../../components/data/ComparisonBar.astro';
+import DemographicsChart from '../../components/data/DemographicsChart.astro';
+import HealthMetricRow from '../../components/data/HealthMetricRow.astro';
+import HospitalRatingDist from '../../components/data/HospitalRatingDist.astro';
+import HospitalCard from '../../components/data/HospitalCard.astro';
+import DataSourceFooter from '../../components/data/DataSourceFooter.astro';
+import { CITIES, getNearbyCities } from '../../data/cities';
 import { getCollection } from 'astro:content';
 import { getCategoryMeta, SITE_NAME } from '../../lib/config';
 import type { CategoryKey } from '../../lib/config';
+import { fmt, fmtMoney, fmtPct, fmtCompact } from '../../lib/format';
 
-// Import all city profiles at build time via Vite glob
-const profileModules = import.meta.glob('../../data/city-profiles/*.json', { eager: true }) as Record<string, { default: any }>;
-
+// Import all city profiles at build time
+const profileModules = import.meta.glob('../../data/city-profiles/**/*.json', { eager: true }) as Record<string, { default: any }>;
 const profiles: Record<string, any> = {};
 for (const [path, mod] of Object.entries(profileModules)) {
   const slug = path.split('/').pop()?.replace('.json', '') || '';
@@ -16,22 +26,22 @@ for (const [path, mod] of Object.entries(profileModules)) {
 }
 
 export function getStaticPaths() {
-  return CITIES.map(city => ({
-    params: { slug: city.slug },
-    props: { city },
-  }));
+  const maxTier = parseInt(import.meta.env.CITY_TIER || '2');
+  return CITIES
+    .filter(c => c.tier <= maxTier)
+    .map(city => ({
+      params: { slug: city.slug },
+      props: { city },
+    }));
 }
 
 const { city } = Astro.props;
-
-// Load pre-fetched profile data
 const profile = profiles[city.slug] || null;
-
 const census = profile?.census;
 const health = profile?.health;
 const hospitalData = profile?.hospitals;
 
-// Find related articles (match city name, state, or county in location field)
+// Related articles
 const allArticles = await getCollection('articles');
 const cityTerms = [
   city.name.toLowerCase(),
@@ -47,24 +57,10 @@ const relatedArticles = allArticles
   .sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime())
   .slice(0, 6);
 
-// Format helpers
-function fmt(n: number | null | undefined): string {
-  if (n == null) return 'N/A';
-  return n.toLocaleString('en-US');
-}
-function fmtPct(n: number | null | undefined): string {
-  if (n == null) return 'N/A';
-  return `${n}%`;
-}
-function fmtMoney(n: number | null | undefined): string {
-  if (n == null) return 'N/A';
-  return `$${n.toLocaleString('en-US')}`;
-}
-
-// Health measures sorted by severity (highest rates first, excluding positive metrics)
+// Health measures sorted by severity
 const healthConcerns = health?.measures
   ? Object.entries(health.measures)
-    .filter(([id]) => !['CHECKUP', 'DENTAL'].includes(id)) // Exclude positive metrics
+    .filter(([id]) => !['CHECKUP', 'DENTAL'].includes(id))
     .map(([id, m]: [string, any]) => ({ id, ...m }))
     .sort((a: any, b: any) => b.value - a.value)
   : [];
@@ -81,119 +77,139 @@ const ratingDist = [5, 4, 3, 2, 1].map(r => ({
   count: (hospitalData?.hospitals || []).filter((h: any) => h.rating === r).length,
 }));
 
-const pageTitle = `${city.name}, ${city.stateCode} — City Data Report`;
-const pageDesc = `${city.name}, ${city.stateCode} city profile: population ${fmt(census?.population)}, median income ${fmtMoney(census?.medianHouseholdIncome)}, health data, hospitals, and safety alerts from official U.S. government sources.`;
+// Nearby cities
+const nearby = getNearbyCities(city.lat, city.lng, 8, city.slug);
 
-// Star rendering helper
-function stars(rating: number): string {
-  return '★'.repeat(rating) + '☆'.repeat(5 - rating);
+// Page meta
+const pageTitle = `${city.name}, ${city.stateCode} — City Data Report`;
+const pageDesc = `${city.name}, ${city.stateCode}: population ${fmt(census?.population)}, median income ${fmtMoney(census?.medianHouseholdIncome)}, health data, hospitals. Official U.S. government sources.`;
+
+// Summary highlights for hero
+const highlights: string[] = [];
+if (census) {
+  highlights.push(`Population ${fmtCompact(census.population)}`);
+  highlights.push(`Median income ${fmtMoney(census.medianHouseholdIncome)}`);
 }
+if (hospitalData?.totalHospitals) {
+  highlights.push(`${hospitalData.totalHospitals} hospital${hospitalData.totalHospitals > 1 ? 's' : ''}`);
+}
+
+const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
 ---
 
 <Base title={pageTitle} description={pageDesc}>
   <div class="container py-8 md:py-12">
-    {/* Breadcrumb */}
-    <nav class="flex items-center gap-2 text-sm text-[var(--color-muted)] mb-6">
-      <a href="/" class="hover:text-[var(--color-foreground)]">Home</a>
-      <span>/</span>
-      <a href="/cities" class="hover:text-[var(--color-foreground)]">Cities</a>
-      <span>/</span>
-      <span class="text-[var(--color-foreground)]">{city.name}</span>
-    </nav>
+
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'States', href: '/states' },
+      { label: city.state, href: `/states/${stateSlug}` },
+      { label: city.name },
+    ]} />
 
     {/* Hero */}
     <header class="mb-10">
       <div class="flex items-baseline gap-3 mb-2">
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-black tracking-tight">{city.name}</h1>
-        <span class="text-lg md:text-xl text-[var(--color-muted)] font-medium">{city.stateCode}</span>
+        <span class="text-base md:text-lg text-[var(--color-muted)] font-medium px-2 py-0.5 bg-[var(--color-card)] rounded">{city.stateCode}</span>
       </div>
-      <p class="text-lg text-[var(--color-muted)] max-w-2xl">
-        {city.countyName}, {city.state} — Government data from Census Bureau, CDC, and CMS.
+      <p class="text-base text-[var(--color-muted)]">
+        {city.countyName}, {city.state}
       </p>
+      {highlights.length > 0 && (
+        <p class="text-sm text-[var(--color-muted)] mt-2 flex flex-wrap gap-x-3 gap-y-1">
+          {highlights.map((h, i) => (
+            <>
+              {i > 0 && <span class="text-[var(--color-border)]">|</span>}
+              <span>{h}</span>
+            </>
+          ))}
+        </p>
+      )}
     </header>
 
     {census && (
       <>
-        {/* Quick Stats Grid */}
-        <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-          <div class="border border-[var(--color-border)] rounded-lg p-4">
-            <div class="text-xs font-medium text-[var(--color-muted)] uppercase tracking-wider mb-1">Population</div>
-            <div class="text-2xl font-bold">{fmt(census.population)}</div>
-            <div class="text-xs text-[var(--color-muted)]">{city.countyName}</div>
-          </div>
-          <div class="border border-[var(--color-border)] rounded-lg p-4">
-            <div class="text-xs font-medium text-[var(--color-muted)] uppercase tracking-wider mb-1">Median Income</div>
-            <div class="text-2xl font-bold">{fmtMoney(census.medianHouseholdIncome)}</div>
-            <div class="text-xs text-[var(--color-muted)]">per household/year</div>
-          </div>
-          <div class="border border-[var(--color-border)] rounded-lg p-4">
-            <div class="text-xs font-medium text-[var(--color-muted)] uppercase tracking-wider mb-1">Median Home</div>
-            <div class="text-2xl font-bold">{fmtMoney(census.medianHomeValue)}</div>
-            <div class="text-xs text-[var(--color-muted)]">home value</div>
-          </div>
-          <div class="border border-[var(--color-border)] rounded-lg p-4">
-            <div class="text-xs font-medium text-[var(--color-muted)] uppercase tracking-wider mb-1">Median Age</div>
-            <div class="text-2xl font-bold">{census.medianAge}</div>
-            <div class="text-xs text-[var(--color-muted)]">years</div>
-          </div>
+        {/* Quick Stats */}
+        <section class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-12">
+          <StatCard
+            label="Population"
+            value={fmt(census.population)}
+            metric="medianHouseholdIncome"
+            subtitle={city.countyName}
+            accentColor="var(--color-data-blue)"
+          />
+          <StatCard
+            label="Median Income"
+            value={fmtMoney(census.medianHouseholdIncome)}
+            metric="medianHouseholdIncome"
+            rawValue={census.medianHouseholdIncome}
+            accentColor="var(--color-data-teal)"
+          />
+          <StatCard
+            label="Median Home Value"
+            value={fmtMoney(census.medianHomeValue)}
+            metric="medianHomeValue"
+            rawValue={census.medianHomeValue}
+            accentColor="var(--color-data-amber)"
+          />
+          <StatCard
+            label="Median Age"
+            value={census.medianAge?.toString() || 'N/A'}
+            subtitle="years"
+            accentColor="var(--color-data-violet)"
+          />
         </section>
 
         {/* Economics & Demographics */}
         <div class="grid md:grid-cols-2 gap-8 mb-12">
+
           {/* Economics */}
           <section>
-            <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] mb-4">Economics</h2>
-            <div class="border border-[var(--color-border)] rounded-lg divide-y divide-[var(--color-border)]">
-              <div class="flex justify-between items-center p-4">
+            <SectionHeader title="Economics" />
+            <div class="data-table">
+              <div class="data-row">
                 <span class="text-sm">Median Rent</span>
-                <span class="font-semibold">{fmtMoney(census.medianRent)}/mo</span>
+                <div class="flex items-center gap-2">
+                  <ComparisonBar metric="medianRent" value={census.medianRent} />
+                  <span class="font-semibold text-sm tabular-nums">{fmtMoney(census.medianRent)}/mo</span>
+                </div>
               </div>
-              <div class="flex justify-between items-center p-4">
+              <div class="data-row">
                 <span class="text-sm">Poverty Rate</span>
-                <span class="font-semibold">{fmtPct(census.povertyRate)}</span>
+                <div class="flex items-center gap-2">
+                  <ComparisonBar metric="povertyRate" value={census.povertyRate} invert />
+                  <div class="text-right">
+                    <span class="font-semibold text-sm tabular-nums">{fmtPct(census.povertyRate)}</span>
+                    <ComparisonIndicator metric="povertyRate" value={census.povertyRate} />
+                  </div>
+                </div>
               </div>
-              <div class="flex justify-between items-center p-4">
+              <div class="data-row">
                 <span class="text-sm">Unemployment</span>
-                <span class="font-semibold">{fmtPct(census.unemploymentRate)}</span>
+                <span class="font-semibold text-sm tabular-nums">{fmtPct(census.unemploymentRate)}</span>
               </div>
-              <div class="flex justify-between items-center p-4">
+              <div class="data-row">
                 <span class="text-sm">Bachelor's Degree+</span>
-                <span class="font-semibold">{fmtPct(census.bachelorDegreeOrHigher)}</span>
+                <span class="font-semibold text-sm tabular-nums">{fmtPct(census.bachelorDegreeOrHigher)}</span>
               </div>
-              <div class="flex justify-between items-center p-4">
+              <div class="data-row">
                 <span class="text-sm">Work From Home</span>
-                <span class="font-semibold">{fmtPct(census.workFromHomePct)}</span>
+                <span class="font-semibold text-sm tabular-nums">{fmtPct(census.workFromHomePct)}</span>
               </div>
-              <div class="flex justify-between items-center p-4">
+              <div class="data-row">
                 <span class="text-sm">Public Transit</span>
-                <span class="font-semibold">{fmtPct(census.publicTransitPct)}</span>
+                <span class="font-semibold text-sm tabular-nums">{fmtPct(census.publicTransitPct)}</span>
               </div>
             </div>
-            <p class="text-xs text-[var(--color-muted)] mt-2">Source: {census.source}</p>
           </section>
 
           {/* Demographics */}
           <section>
-            <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] mb-4">Demographics</h2>
-            <div class="border border-[var(--color-border)] rounded-lg p-4">
-              <div class="space-y-3">
-                {Object.entries(census.demographics).map(([group, pct]: [string, any]) => (
-                  <div>
-                    <div class="flex justify-between text-sm mb-1">
-                      <span class="capitalize">{group === 'other' ? 'Other / Multiracial' : group}</span>
-                      <span class="font-semibold">{pct}%</span>
-                    </div>
-                    <div class="w-full bg-[var(--color-card)] rounded-full h-2">
-                      <div
-                        class="bg-[var(--color-accent)] rounded-full h-2 transition-all"
-                        style={`width: ${Math.min(pct, 100)}%; opacity: ${0.4 + (pct / 100) * 0.6}`}
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
+            <SectionHeader title="Demographics" />
+            <div class="border border-[var(--color-border)] rounded-xl p-5">
+              <DemographicsChart demographics={census.demographics} />
             </div>
-            <p class="text-xs text-[var(--color-muted)] mt-2">Source: {census.source}</p>
           </section>
         </div>
       </>
@@ -202,106 +218,93 @@ function stars(rating: number): string {
     {/* Health Profile */}
     {healthConcerns.length > 0 && (
       <section class="mb-12">
-        <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] mb-4">Health Profile</h2>
+        <SectionHeader title="Health Profile" count={`${healthConcerns.length + healthPositive.length} measures`} />
         <div class="grid md:grid-cols-2 gap-4">
-          {/* Health Concerns */}
-          <div class="border border-[var(--color-border)] rounded-lg">
-            <div class="p-4 border-b border-[var(--color-border)]">
-              <h3 class="font-semibold text-sm">Health Indicators</h3>
+          <div class="data-table">
+            <div class="px-4 py-3 border-b border-[var(--color-border)] bg-[var(--color-card)]">
+              <h3 class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">Health Indicators</h3>
             </div>
-            <div class="divide-y divide-[var(--color-border)]">
-              {healthConcerns.slice(0, 10).map((m: any) => (
-                <div class="flex justify-between items-center p-4">
-                  <span class="text-sm">{m.label}</span>
-                  <span class:list={[
-                    "font-semibold text-sm px-2 py-0.5 rounded",
-                    m.value >= 30 ? "text-[var(--severity-high)] bg-[rgba(220,38,38,0.08)]" :
-                    m.value >= 20 ? "text-[var(--severity-medium)] bg-[rgba(217,119,6,0.08)]" :
-                    "text-[var(--color-foreground)]"
-                  ]}>
-                    {m.value}{m.unit}
-                  </span>
-                </div>
-              ))}
-            </div>
+            {healthConcerns.slice(0, 10).map((m: any) => (
+              <HealthMetricRow label={m.label} value={m.value} unit={m.unit} />
+            ))}
           </div>
 
-          {/* Preventive Care */}
-          <div>
+          <div class="space-y-4">
             {healthPositive.length > 0 && (
-              <div class="border border-[var(--color-border)] rounded-lg mb-4">
-                <div class="p-4 border-b border-[var(--color-border)]">
-                  <h3 class="font-semibold text-sm">Preventive Care</h3>
+              <div class="data-table">
+                <div class="px-4 py-3 border-b border-[var(--color-border)] bg-[var(--color-card)]">
+                  <h3 class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">Preventive Care</h3>
                 </div>
-                <div class="divide-y divide-[var(--color-border)]">
-                  {healthPositive.map((m: any) => (
-                    <div class="flex justify-between items-center p-4">
-                      <span class="text-sm">{m.label}</span>
-                      <span class="font-semibold text-sm">{m.value}{m.unit}</span>
-                    </div>
-                  ))}
-                </div>
+                {healthPositive.map((m: any) => (
+                  <div class="data-row">
+                    <span class="text-sm">{m.label}</span>
+                    <span class="font-semibold text-sm tabular-nums text-[var(--color-above)]">{m.value}{m.unit}</span>
+                  </div>
+                ))}
               </div>
             )}
 
             {healthConcerns.length > 10 && (
-              <div class="border border-[var(--color-border)] rounded-lg">
-                <div class="p-4 border-b border-[var(--color-border)]">
-                  <h3 class="font-semibold text-sm">Other Measures</h3>
+              <div class="data-table">
+                <div class="px-4 py-3 border-b border-[var(--color-border)] bg-[var(--color-card)]">
+                  <h3 class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">Other Measures</h3>
                 </div>
-                <div class="divide-y divide-[var(--color-border)]">
-                  {healthConcerns.slice(10).map((m: any) => (
-                    <div class="flex justify-between items-center p-4">
-                      <span class="text-sm">{m.label}</span>
-                      <span class="font-semibold text-sm">{m.value}{m.unit}</span>
-                    </div>
-                  ))}
-                </div>
+                {healthConcerns.slice(10).map((m: any) => (
+                  <HealthMetricRow label={m.label} value={m.value} unit={m.unit} />
+                ))}
               </div>
             )}
           </div>
         </div>
-        <p class="text-xs text-[var(--color-muted)] mt-2">Source: {health?.source}</p>
       </section>
     )}
 
     {/* Hospitals */}
     {hospitalData && hospitalData.hospitals.length > 0 && (
       <section class="mb-12">
-        <div class="flex items-center justify-between mb-4">
-          <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)]">Hospitals</h2>
-          <span class="text-sm text-[var(--color-muted)]">
-            {hospitalData.totalHospitals} total &middot; Avg rating {hospitalData.averageRating}/5
-          </span>
+        <SectionHeader title="Hospitals" count={`${hospitalData.totalHospitals} total`} />
+
+        {/* Rating Distribution */}
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+          <div class="border border-[var(--color-border)] rounded-xl p-5">
+            <div class="data-label mb-2">Rating Distribution</div>
+            <HospitalRatingDist ratings={ratingDist} total={hospitalData.totalHospitals} />
+          </div>
+          <div class="md:col-span-2 border border-[var(--color-border)] rounded-xl p-5 flex items-center gap-6">
+            <div>
+              <div class="data-label mb-1">Average Rating</div>
+              <div class="data-value text-[var(--color-data-amber)]">{hospitalData.averageRating}<span class="text-base font-normal text-[var(--color-muted)]">/5</span></div>
+            </div>
+            <div>
+              <div class="data-label mb-1">Total Hospitals</div>
+              <div class="data-value">{hospitalData.totalHospitals}</div>
+            </div>
+            <div>
+              <div class="data-label mb-1">With ER</div>
+              <div class="data-value">{hospitalData.hospitals.filter((h: any) => h.emergency).length}</div>
+            </div>
+          </div>
         </div>
 
-        <div class="border border-[var(--color-border)] rounded-lg divide-y divide-[var(--color-border)]">
+        {/* Hospital List */}
+        <div class="data-table">
           {hospitalData.hospitals.map((h: any) => (
-            <div class="p-4 flex items-start justify-between gap-4">
-              <div>
-                <div class="font-semibold text-sm">{h.name}</div>
-                <div class="text-xs text-[var(--color-muted)]">
-                  {h.city} &middot; {h.type}
-                  {h.emergency && <span class="ml-1 text-[var(--cat-weather)]">&middot; ER</span>}
-                </div>
-              </div>
-              <div class="flex-shrink-0 text-right">
-                <div class="text-amber-500 text-sm tracking-wider" title={`${h.rating} out of 5 stars`}>{stars(h.rating)}</div>
-                <div class="text-xs text-[var(--color-muted)]">{h.rating}/5</div>
-              </div>
-            </div>
+            <HospitalCard
+              name={h.name}
+              city={h.city}
+              type={h.type}
+              rating={h.rating}
+              emergency={h.emergency}
+            />
           ))}
         </div>
-        <p class="text-xs text-[var(--color-muted)] mt-2">Source: {hospitalData.source}</p>
       </section>
     )}
 
     {/* Related Articles */}
     {relatedArticles.length > 0 && (
-      <section class="mb-12 pt-8 border-t border-[var(--color-border)]">
-        <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] mb-4">
-          Recent Alerts &amp; News — {city.name} Area
-        </h2>
+      <section class="section-divider mb-12">
+        <SectionHeader title={`Alerts & News — ${city.name} Area`} count={relatedArticles.length} />
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {relatedArticles.map(article => (
             <ArticleCard
@@ -319,61 +322,50 @@ function stars(rating: number): string {
       </section>
     )}
 
-    {/* Browse Other Cities */}
-    <section class="pt-8 border-t border-[var(--color-border)]">
-      <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] mb-4">Explore Other Cities</h2>
+    {/* Nearby Cities */}
+    <section class="section-divider">
+      <SectionHeader title="Nearby Cities" count={nearby.length} />
       <div class="flex flex-wrap gap-2">
-        {CITIES.filter(c => c.slug !== city.slug).map(c => (
+        {nearby.map(c => (
           <a
             href={`/cities/${c.slug}`}
-            class="text-sm px-3 py-1.5 border border-[var(--color-border)] rounded-full hover:border-[var(--color-muted)] transition-colors"
+            class="text-sm px-3 py-1.5 border border-[var(--color-border)] rounded-full hover:border-[var(--color-muted)] hover:bg-[var(--color-card)] transition-colors flex items-center gap-2"
           >
-            {c.name}, {c.stateCode}
+            <span>{c.name}, {c.stateCode}</span>
+            <span class="text-xs text-[var(--color-muted)] tabular-nums">{fmtCompact(c.population)}</span>
           </a>
         ))}
+      </div>
+      <div class="mt-4 flex gap-4">
+        <a href={`/states/${stateSlug}`} class="text-sm text-[var(--color-accent)] hover:underline">All cities in {city.state} &rarr;</a>
+        <a href="/cities" class="text-sm text-[var(--color-muted)] hover:text-[var(--color-foreground)]">Browse all cities</a>
       </div>
     </section>
 
     {/* Data Sources */}
-    <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
-      <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] mb-3">Data Sources</h2>
-      <p class="text-sm text-[var(--color-muted)] max-w-2xl">
-        All data on this page comes from official U.S. government sources. Demographics and economic data from the
-        <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Census Bureau American Community Survey</a> (2022 5-year estimates).
-        Health data from the <a href="https://www.cdc.gov/places/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">CDC PLACES</a> program (2023).
-        Hospital ratings from <a href="https://data.cms.gov/provider-data/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">CMS Hospital Compare</a> (2024).
-        Data is county-level ({city.countyName}) as the smallest consistent geographic unit across all sources.
-      </p>
-    </section>
+    <DataSourceFooter county={city.countyName} />
   </div>
 
-  {/* Structured Data — Place */}
+  {/* Structured Data */}
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "City",
     "name": city.name,
-    "containedInPlace": {
-      "@type": "State",
-      "name": city.state,
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": city.lat,
-      "longitude": city.lng,
-    },
+    "containedInPlace": { "@type": "State", "name": city.state },
+    "geo": { "@type": "GeoCoordinates", "latitude": city.lat, "longitude": city.lng },
     ...(census && {
       "description": `${city.name}, ${city.stateCode} has a population of ${fmt(census.population)} (${city.countyName}) with a median household income of ${fmtMoney(census.medianHouseholdIncome)}.`,
     }),
   })} />
 
-  {/* Breadcrumb structured data */}
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Cities", "item": "https://areazine.com/cities/" },
-      { "@type": "ListItem", "position": 3, "name": `${city.name}, ${city.stateCode}` },
+      { "@type": "ListItem", "position": 2, "name": "States", "item": "https://areazine.com/states/" },
+      { "@type": "ListItem", "position": 3, "name": city.state, "item": `https://areazine.com/states/${stateSlug}` },
+      { "@type": "ListItem", "position": 4, "name": `${city.name}, ${city.stateCode}` },
     ],
   })} />
 </Base>

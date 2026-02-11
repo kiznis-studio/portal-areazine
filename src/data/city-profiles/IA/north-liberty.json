@@ -1,0 +1,158 @@
+{
+  "city": "North Liberty",
+  "slug": "north-liberty",
+  "state": "Iowa",
+  "stateCode": "IA",
+  "county": "Johnson County",
+  "lat": 41.7492,
+  "lng": -91.5979,
+  "fetchedAt": "2026-02-11T17:08:27.737Z",
+  "census": {
+    "population": 153360,
+    "medianAge": 30.6,
+    "medianHouseholdIncome": 72977,
+    "medianHomeValue": 277800,
+    "medianRent": 1086,
+    "povertyRate": 16.9,
+    "unemploymentRate": 3.8,
+    "bachelorDegreeOrHigher": 54.1,
+    "publicTransitPct": 4.1,
+    "workFromHomePct": 10.9,
+    "demographics": {
+      "white": 78.9,
+      "black": 7.4,
+      "asian": 6.2,
+      "hispanic": 5.9,
+      "other": 1.6
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 76.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 23,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 6.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 8.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 2.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 30.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 4.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 70.8,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 28.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 16.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 10,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 29.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 18.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 157528,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "IOWA CITY VA MEDICAL CENTER",
+        "city": "IOWA CITY",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "UNIVERSITY OF IOWA HEALTH CARE MEDICAL CENTER DOWN",
+        "city": "IOWA CITY",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "UNIVERSITY OF IOWA HOSPITAL & CLINICS",
+        "city": "IOWA CITY",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - State"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 3,
+    "averageRating": 3.7,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "city": "Waco",
+  "slug": "waco",
+  "state": "Texas",
+  "stateCode": "TX",
+  "county": "McLennan County",
+  "lat": 31.5493,
+  "lng": -97.1467,
+  "fetchedAt": "2026-02-11T17:08:27.412Z",
+  "census": {
+    "population": 261090,
+    "medianAge": 33.6,
+    "medianHouseholdIncome": 59781,
+    "medianHomeValue": 196400,
+    "medianRent": 1048,
+    "povertyRate": 17.9,
+    "unemploymentRate": 4.4,
+    "bachelorDegreeOrHigher": 26.9,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 7,
+    "demographics": {
+      "white": 67.9,
+      "black": 14.1,
+      "asian": 1.6,
+      "hispanic": 27.1,
+      "other": -10.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 13.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.9,
+        "unit": "%",
+        "year": "2022"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 34.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 13.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 6.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 34.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 16.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 51.4,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 74.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.5,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 10.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 27.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 16.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.5,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 268583,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": null
+}

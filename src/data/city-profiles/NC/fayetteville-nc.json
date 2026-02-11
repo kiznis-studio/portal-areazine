@@ -1,0 +1,150 @@
+{
+  "city": "Fayetteville",
+  "slug": "fayetteville-nc",
+  "state": "North Carolina",
+  "stateCode": "NC",
+  "county": "Cumberland County",
+  "lat": 35.0527,
+  "lng": -78.8784,
+  "fetchedAt": "2026-02-11T17:08:27.383Z",
+  "census": {
+    "population": 335207,
+    "medianAge": 31.7,
+    "medianHouseholdIncome": 55551,
+    "medianHomeValue": 166600,
+    "medianRent": 1098,
+    "povertyRate": 17.6,
+    "unemploymentRate": 6.4,
+    "bachelorDegreeOrHigher": 26.9,
+    "publicTransitPct": 0.4,
+    "workFromHomePct": 5.5,
+    "demographics": {
+      "white": 45.1,
+      "black": 37.2,
+      "asian": 2.5,
+      "hispanic": 12.5,
+      "other": 2.7
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "measures": {
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 11.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 41.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 18.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 62.1,
+        "unit": "%",
+        "year": "2022"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 25.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 40.1,
+        "unit": "%",
+        "year": "2023"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 11.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 12.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 15.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 37.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 79.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 14.8,
+        "unit": "%",
+        "year": "2023"
+      }
+    },
+    "totalPopulation": 337890,
+    "source": "CDC PLACES (2023)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "FAYETTEVILLE NC VA MEDICAL CENTER",
+        "city": "FAYETTEVILLE",
+        "rating": 3,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": false,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "CAPE FEAR VALLEY MEDICAL CENTER",
+        "city": "FAYETTEVILLE",
+        "rating": 1,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 3,
+    "ratedHospitals": 2,
+    "averageRating": 2,
+    "source": "CMS Hospital Compare (2024)"
+  }
+}
