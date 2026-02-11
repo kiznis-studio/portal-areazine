@@ -16,6 +16,7 @@ const latest = sortedArticles.slice(1);
 // Group by top-level category for sidebar sections
 const recallArticles = sortedArticles.filter(a => a.data.category.startsWith('recalls-'));
 const weatherArticles = sortedArticles.filter(a => a.data.category === 'weather');
+const earthquakeArticles = sortedArticles.filter(a => a.data.category === 'earthquakes');
 ---
 
 <Base
@@ -98,8 +99,31 @@ const weatherArticles = sortedArticles.filter(a => a.data.category === 'weather'
         </div>
       )}
 
-      {/* If no weather articles yet, show all latest */}
-      {weatherArticles.length === 0 && (
+      {/* Earthquakes column */}
+      {earthquakeArticles.length > 0 && (
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-sm font-bold uppercase tracking-wider" style="color: var(--cat-earthquakes)">Earthquakes</h2>
+            <a href="/earthquakes" class="text-xs text-[var(--color-muted)] hover:text-[var(--color-foreground)]">View all</a>
+          </div>
+          <div class="space-y-3">
+            {earthquakeArticles.slice(0, 5).map(article => (
+              <ArticleCard
+                title={article.data.title}
+                summary={article.data.summary}
+                href={`/earthquakes/${article.id}`}
+                category={article.data.category as CategoryKey}
+                sourceAgency={article.data.sourceAgency}
+                publishedAt={new Date(article.data.publishedAt)}
+                severity={article.data.severity}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* If only one or no category has articles, fill remaining space with latest */}
+      {(weatherArticles.length === 0 && earthquakeArticles.length === 0) && (
         <div class="md:col-span-2">
           <div class="mb-4">
             <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--color-muted)]">Latest</h2>

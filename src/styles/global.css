@@ -22,6 +22,7 @@
   --cat-weather: #2563eb;
   --cat-economy: #16a34a;
   --cat-finance: #7c3aed;
+  --cat-earthquakes: #ea580c;
   --cat-technology: #0d9488;
 
   /* Severity */
@@ -117,6 +118,7 @@ a { text-decoration: none; }
 /* Category badge colors */
 .badge-recalls { background-color: rgba(220, 38, 38, 0.1); color: var(--cat-recalls); }
 .badge-weather { background-color: rgba(37, 99, 235, 0.1); color: var(--cat-weather); }
+.badge-earthquakes { background-color: rgba(234, 88, 12, 0.1); color: var(--cat-earthquakes); }
 .badge-economy { background-color: rgba(22, 163, 74, 0.1); color: var(--cat-economy); }
 .badge-finance { background-color: rgba(124, 58, 237, 0.1); color: var(--cat-finance); }
 .badge-technology { background-color: rgba(13, 148, 136, 0.1); color: var(--cat-technology); }

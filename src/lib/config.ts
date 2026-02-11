@@ -7,6 +7,7 @@ export const CATEGORIES = {
   'recalls-fda': { label: 'FDA Recalls', slug: 'recalls/fda', color: 'recalls', icon: 'heart' },
   'recalls-vehicles': { label: 'Vehicle Recalls', slug: 'recalls/vehicles', color: 'recalls', icon: 'truck' },
   'weather': { label: 'Weather Alerts', slug: 'weather', color: 'weather', icon: 'cloud' },
+  'earthquakes': { label: 'Earthquakes', slug: 'earthquakes', color: 'earthquakes', icon: 'activity' },
   'economy': { label: 'Economy', slug: 'economy', color: 'economy', icon: 'chart' },
   'finance': { label: 'Finance', slug: 'finance', color: 'finance', icon: 'dollar' },
   'technology': { label: 'Technology', slug: 'technology', color: 'technology', icon: 'cpu' },

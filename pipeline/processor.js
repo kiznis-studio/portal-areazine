@@ -13,6 +13,7 @@ import { validate } from './lib/quality.js';
 const TEMPLATES = {
   recall: readFileSync(new URL('./templates/recall.md', import.meta.url), 'utf-8'),
   weather: readFileSync(new URL('./templates/weather.md', import.meta.url), 'utf-8'),
+  earthquake: readFileSync(new URL('./templates/earthquake.md', import.meta.url), 'utf-8'),
 };
 
 // Map source to template type and metadata
@@ -21,6 +22,7 @@ const SOURCE_CONFIG = {
   fda: { template: 'recall', agency: 'FDA', type: 'Drug/Food', category: 'recalls-fda' },
   nhtsa: { template: 'recall', agency: 'NHTSA', type: 'Vehicle', category: 'recalls-vehicles' },
   noaa: { template: 'weather', agency: 'NOAA', type: 'Weather Alert', category: 'weather' },
+  usgs: { template: 'earthquake', agency: 'USGS', type: 'Earthquake', category: 'earthquakes' },
 };
 
 const BATCH_SIZE = 10;
@@ -51,12 +53,18 @@ function shouldProcess(rawRecord) {
 
   // NOAA: Skip routine advisories, only keep significant alerts
   if (rawRecord.source === 'noaa') {
-    const severity = data.properties?.severity;
+    const props = data.properties || data;
+    const severity = props.severity;
     if (!severity || !['Extreme', 'Severe'].includes(severity)) {
       return false;
     }
-    // Skip test alerts
-    if (data.properties?.status === 'Test') return false;
+    if (props.status === 'Test') return false;
+  }
+
+  // USGS: Skip minor earthquakes (M < 3.0)
+  if (rawRecord.source === 'usgs') {
+    const mag = data.mag ?? data.properties?.mag;
+    if (mag == null || mag < 3.0) return false;
   }
 
   return true;
@@ -89,7 +97,9 @@ function extractSourceUrl(source, rawData) {
     case 'nhtsa':
       return `https://www.nhtsa.gov/recalls?nhtsaId=${rawData.NHTSACampaignNumber || ''}`;
     case 'noaa':
-      return rawData.properties?.['@id'] || 'https://alerts.weather.gov';
+      return rawData['@id'] || rawData.properties?.['@id'] || 'https://alerts.weather.gov';
+    case 'usgs':
+      return rawData.url || `https://earthquake.usgs.gov/earthquakes/eventpage/${rawData.ids || ''}`;
     default:
       return '';
   }

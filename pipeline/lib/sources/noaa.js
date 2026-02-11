@@ -61,12 +61,13 @@ export async function fetch(lastFetchDate) {
       return [];
     }
 
-    // Normalize records
+    // Normalize records — store alert.properties (not full GeoJSON Feature)
+    // This puts event, areaDesc, headline etc. at the root level
     const normalized = filtered.map(alert => ({
       id: `noaa:${alert.properties.id}`,
       source: 'noaa',
       category: 'weather',
-      raw_json: JSON.stringify(alert),
+      raw_json: JSON.stringify(alert.properties),
     }));
 
     return normalized;

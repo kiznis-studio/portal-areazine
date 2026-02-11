@@ -10,6 +10,7 @@ const VALID_CATEGORIES = [
   'recalls-fda',
   'recalls-vehicles',
   'weather',
+  'earthquakes',
   'economy',
   'finance',
   'technology',
@@ -99,25 +100,46 @@ function extractKeyIdentifiers(rawData, sourceType) {
     }
   }
 
-  // NOAA Weather Alerts
+  // NOAA Weather Alerts — handle both flat (new) and nested (legacy GeoJSON) formats
   if (sourceType === 'noaa' || sourceType === 'alerts-noaa' || sourceType === 'alerts-weather') {
-    // Event type (e.g., "Tornado Warning")
-    if (rawData.event) identifiers.push(rawData.event);
-    if (rawData.phenomenon || rawData.phenomena) {
-      identifiers.push(rawData.phenomenon || rawData.phenomena);
-    }
+    // Resolve props: flat format has fields at root, legacy has them under .properties
+    const props = rawData.properties || rawData;
 
-    // Geographic identifiers (areas/counties)
-    if (rawData.areaDesc) identifiers.push(rawData.areaDesc);
-    if (rawData.headline) {
-      // Extract geographic markers from headline
-      const geoMatch = rawData.headline.match(/(?:for|in|across)\s+([A-Z][^.;]+)/);
+    // Event type (e.g., "Tornado Warning")
+    if (props.event) identifiers.push(props.event);
+
+    // Geographic identifiers (areas/counties) — use first county/area only
+    if (props.areaDesc) {
+      const firstArea = props.areaDesc.split(';')[0].trim();
+      if (firstArea.length > 3) identifiers.push(firstArea);
+    }
+    if (props.headline) {
+      const geoMatch = props.headline.match(/(?:for|in|across)\s+([A-Z][^.;]+)/);
       if (geoMatch) identifiers.push(geoMatch[1].trim());
     }
   }
 
-  // General identifiers (all sources)
-  if (rawData.source_url) identifiers.push(new URL(rawData.source_url).hostname);
+  // USGS Earthquakes
+  if (sourceType === 'usgs' || sourceType === 'earthquakes') {
+    // Resolve props: flat format has fields at root, GeoJSON has them under .properties
+    const props = rawData.properties || rawData;
+
+    // Magnitude (e.g., "4.2")
+    if (props.mag != null) identifiers.push(String(props.mag));
+
+    // Place description (e.g., "5km NW of The Geysers, CA")
+    if (props.place) {
+      identifiers.push(props.place);
+      // Also extract just the location name after the comma
+      const locMatch = props.place.match(/,\s*(.+)$/);
+      if (locMatch) identifiers.push(locMatch[1].trim());
+    }
+  }
+
+  // General identifiers (all sources) — skip hostnames for weather/earthquake APIs (too generic)
+  if (rawData.source_url && sourceType !== 'noaa' && sourceType !== 'usgs') {
+    identifiers.push(new URL(rawData.source_url).hostname);
+  }
   if (rawData.id || rawData.ID) identifiers.push(String(rawData.id || rawData.ID));
 
   // Clean and deduplicate

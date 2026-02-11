@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME } from '../lib/config';
+---
+
+<Base title="Page Not Found" description="The page you're looking for doesn't exist.">
+  <div class="container py-16 md:py-24 text-center">
+    <h1 class="text-6xl md:text-8xl font-black mb-4 text-[var(--color-border)]">404</h1>
+    <h2 class="text-xl md:text-2xl font-bold mb-3">Page Not Found</h2>
+    <p class="text-[var(--color-muted)] mb-8 max-w-md mx-auto">
+      The page you're looking for doesn't exist or has been moved. Try one of the sections below.
+    </p>
+
+    <div class="flex flex-wrap justify-center gap-3 mb-12">
+      <a href="/" class="px-4 py-2 text-sm font-medium border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] transition-colors">
+        Home
+      </a>
+      <a href="/recalls" class="px-4 py-2 text-sm font-medium border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] transition-colors">
+        Recalls
+      </a>
+      <a href="/weather" class="px-4 py-2 text-sm font-medium border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] transition-colors">
+        Weather
+      </a>
+      <a href="/earthquakes" class="px-4 py-2 text-sm font-medium border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] transition-colors">
+        Earthquakes
+      </a>
+    </div>
+  </div>
+</Base>
