@@ -36,7 +36,10 @@ function git(...args) {
  */
 function generateMarkdown(article) {
   const tags = JSON.parse(article.tags || '[]');
-  const publishDate = new Date().toISOString().split('T')[0];
+  // Use article generation time (UTC from SQLite) as publish date
+  const publishDate = article.generated_at
+    ? new Date(article.generated_at + 'Z').toISOString()
+    : new Date().toISOString();
 
   const frontmatter = [
     '---',
