@@ -161,8 +161,7 @@ async function processRecord(rawRecord) {
   if (rateLimit) {
     const { cnt } = stmts.recentArticleCount.get({ category: config.category, hours: rateLimit.hours });
     if (cnt >= rateLimit.max) {
-      console.log(`[processor] Rate limited ${rawRecord.id}: ${config.category} has ${cnt}/${rateLimit.max} articles in ${rateLimit.hours}h`);
-      return; // Leave unprocessed, will retry next cycle
+      return 'rate-limited'; // Signal to main loop to skip this category
     }
   }
 
@@ -215,27 +214,49 @@ async function processRecord(rawRecord) {
 
 /**
  * Main loop — processes pending records continuously.
+ * Tracks rate-limited categories per cycle to avoid spinning on blocked records.
  */
 async function main() {
   console.log('[processor] Starting areazine article processor');
 
   while (true) {
-    const pending = stmts.getUnprocessed.all(BATCH_SIZE);
+    const pending = stmts.getUnprocessed.all(BATCH_SIZE * 5); // Fetch more to skip rate-limited
 
     if (pending.length === 0) {
       await sleep(SLEEP_EMPTY_MS);
       continue;
     }
 
-    console.log(`[processor] Found ${pending.length} pending records`);
+    const rateLimitedCategories = new Set();
+    let processed = 0;
 
     for (const record of pending) {
-      await processRecord(record);
+      // Skip records from categories we already know are rate-limited this cycle
+      const config = SOURCE_CONFIG[record.source];
+      if (config && rateLimitedCategories.has(config.category)) {
+        continue;
+      }
+
+      const result = await processRecord(record);
+
+      if (result === 'rate-limited') {
+        rateLimitedCategories.add(config.category);
+        console.log(`[processor] Category ${config.category} rate-limited, skipping remaining`);
+        continue;
+      }
+
+      processed++;
       await sleep(SLEEP_BETWEEN_MS); // Rate limit Gemini calls
     }
 
     const stats = stmts.stats.get();
     console.log(`[processor] DB: ${stats.total_articles} articles, ${stats.pending_articles} pending publish`);
+
+    if (processed === 0 && rateLimitedCategories.size > 0) {
+      // All remaining records are rate-limited, sleep longer
+      console.log(`[processor] All pending records rate-limited, sleeping 5 min`);
+      await sleep(300_000);
+    }
   }
 }
 
