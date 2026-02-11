@@ -3,119 +3,184 @@ import Base from '../layouts/Base.astro';
 import { SITE_NAME } from '../lib/config';
 
 const title = 'Terms of Use';
-const description = 'Terms of use for Areazine: informational content, no professional advice, no liability.';
+const description = 'Terms and conditions for using Areazine, a public data news aggregation service.';
 ---
 
 <Base title={title} description={description}>
-  <div class="container-narrow">
-    <article class="prose">
+  <div class="container py-8 md:py-12">
+    <article class="prose max-w-3xl">
       <h1>Terms of Use</h1>
+      <p class="text-[var(--color-muted)]">Last updated: February 11, 2026</p>
 
-      <p><strong>Last updated:</strong> February 11, 2026</p>
-
-      <h2>Acceptance of Terms</h2>
+      <h2>Agreement to Terms</h2>
       <p>
-        By accessing or using {SITE_NAME}, you agree to these Terms of Use. If you don't agree,
-        please don't use the site.
+        By accessing or using {SITE_NAME} (areazine.com), you agree to be bound by these Terms of Use.
+        If you do not agree to these terms, please do not use our website.
       </p>
 
-      <h2>Informational Purpose Only</h2>
+      <h2>Description of Service</h2>
       <p>
-        All content on {SITE_NAME} is provided for <strong>informational purposes only</strong>.
-        We are not a government agency, and our articles are not official government communications.
-      </p>
-      <p>
-        We transform publicly available government data into readable articles. Every article
-        links to its original source. <strong>When in doubt, the official government source
-        is always authoritative.</strong>
+        {SITE_NAME} is an automated news aggregation and summarization service that transforms publicly
+        available government data into readable news articles. We aggregate data from official U.S.
+        government sources including the Consumer Product Safety Commission (CPSC), Food and Drug
+        Administration (FDA), National Highway Traffic Safety Administration (NHTSA), National Oceanic
+        and Atmospheric Administration (NOAA), U.S. Geological Survey (USGS), and Federal Emergency
+        Management Agency (FEMA).
       </p>
 
-      <h2>Not Professional Advice</h2>
+      <h2>AI-Generated Content Disclosure</h2>
       <p>
-        {SITE_NAME} does not provide:
+        <strong>Important:</strong> Articles on {SITE_NAME} are generated using artificial intelligence
+        (AI) technology. While every article is based on official government data and undergoes automated
+        quality validation, the transformation from raw data to readable article is performed by AI.
+        This means:
       </p>
       <ul>
-        <li>Legal advice or guidance</li>
-        <li>Medical or health advice</li>
-        <li>Financial or investment advice</li>
-        <li>Professional consulting of any kind</li>
+        <li>Articles may contain AI-introduced inaccuracies in phrasing, context, or interpretation</li>
+        <li>Articles are not written or reviewed by human journalists</li>
+        <li>The original government source data is always linked for verification</li>
+        <li>Articles should be considered <strong>summaries</strong> of official data, not authoritative reporting</li>
       </ul>
       <p>
-        If you have specific concerns about a product recall, safety issue, or weather alert,
-        consult the official government source or an appropriate licensed professional.
+        We strongly recommend that readers verify critical safety information by consulting the
+        original government source linked at the bottom of every article.
+      </p>
+
+      <h2>Not Professional Advice — Not an Emergency Service</h2>
+      <p>
+        Content on {SITE_NAME} is provided for <strong>general informational purposes only</strong>
+        and does not constitute:
+      </p>
+      <ul>
+        <li>Professional medical, legal, financial, or safety advice</li>
+        <li>Official government communications or emergency alerts</li>
+        <li>A substitute for official recall notices or safety warnings</li>
+        <li>Emergency notification or early warning services</li>
+      </ul>
+      <p>
+        <strong>In any emergency, always call 911 or your local emergency number.</strong> Do not
+        rely on {SITE_NAME} for emergency information. Our content may be delayed from the original
+        government publication by minutes to hours.
+      </p>
+
+      <h2>Independence from Government Agencies</h2>
+      <p>
+        {SITE_NAME} is an <strong>independent service</strong> and is not affiliated with, endorsed by,
+        or officially connected to any U.S. government agency. All article content is derived from
+        publicly available data published under federal open data policies. Government agency names
+        and data are used for attribution purposes only. Their inclusion does not imply endorsement.
       </p>
 
       <h2>Accuracy and Timeliness</h2>
       <p>
-        We strive for accuracy and update our content regularly. However:
+        While we strive for accuracy, we make <strong>no guarantees</strong> regarding:
       </p>
       <ul>
-        <li>Government data may be incomplete or change after we publish</li>
-        <li>Articles are written with AI assistance and human review, but errors can occur</li>
-        <li>Always verify critical information with the official source linked in each article</li>
+        <li>The accuracy, completeness, or timeliness of any article</li>
+        <li>Whether our articles reflect the most current government data</li>
+        <li>The accuracy of AI-generated summaries and interpretations</li>
+        <li>Whether all relevant safety information is included</li>
+        <li>The availability or uptime of our service</li>
       </ul>
-
-      <h2>No Warranties</h2>
       <p>
-        {SITE_NAME} is provided "as is" without warranties of any kind, express or implied.
-        We make no guarantees about the accuracy, completeness, reliability, or timeliness of
-        our content.
+        Government agencies may update, revise, or retract their data at any time. Our articles
+        reflect data as it existed at the time of generation and may not reflect subsequent updates.
       </p>
 
       <h2>Limitation of Liability</h2>
       <p>
-        To the fullest extent permitted by law, {SITE_NAME}, its operators, and contributors
-        are not liable for any damages arising from your use of the site or reliance on its content.
-      </p>
-      <p>
-        This includes but is not limited to:
+        To the fullest extent permitted by applicable law, {SITE_NAME} and its operators shall
+        <strong>not be liable</strong> for any direct, indirect, incidental, special, consequential,
+        or punitive damages, including but not limited to:
       </p>
       <ul>
-        <li>Direct, indirect, incidental, or consequential damages</li>
-        <li>Loss of data, revenue, or profits</li>
-        <li>Personal injury or property damage</li>
+        <li>Personal injury, property damage, or financial loss resulting from reliance on our content</li>
+        <li>Failure to receive timely safety alerts or recall notices</li>
+        <li>Inaccuracies, omissions, or errors in AI-generated content</li>
+        <li>Actions taken or not taken based on information on our website</li>
+        <li>Interruptions, delays, or failures in service</li>
+        <li>Losses arising from third-party government data inaccuracies</li>
       </ul>
-
-      <h2>External Links</h2>
       <p>
-        Articles on {SITE_NAME} link to official government websites. We are not responsible
-        for the content, accuracy, or privacy practices of external sites.
+        <strong>Our total liability for all claims shall not exceed $0 (zero dollars).</strong>
+        {SITE_NAME} is a free service and users accept all risk associated with its use.
       </p>
 
-      <h2>User Conduct</h2>
+      <h2>Disclaimer of Warranties</h2>
       <p>
-        You agree not to:
+        {SITE_NAME} is provided <strong>"as is" and "as available"</strong> without warranties of
+        any kind, either express or implied, including but not limited to implied warranties of
+        merchantability, fitness for a particular purpose, accuracy, completeness, timeliness,
+        and non-infringement.
       </p>
-      <ul>
-        <li>Use the site for unlawful purposes</li>
-        <li>Attempt to interfere with site operations or security</li>
-        <li>Scrape or copy large portions of content without permission</li>
-        <li>Misrepresent our content as official government communications</li>
-      </ul>
+      <p>
+        We do not warrant that our service will be uninterrupted, error-free, secure, or free of
+        inaccuracies. We do not warrant that any AI-generated content will be factually correct or
+        complete. We expressly disclaim any responsibility for actions taken based on our content.
+      </p>
 
       <h2>Intellectual Property</h2>
       <p>
-        Government data published on {SITE_NAME} is in the public domain. Our original writing,
-        design, and presentation are protected by copyright. You may link to our articles, but
-        please don't copy them in full without attribution.
+        Government data used in our articles is public domain under federal law. Our original
+        editorial contributions (article structure, summaries, formatting, design, and code) are
+        copyrighted by {SITE_NAME}. You may not reproduce, distribute, or create derivative works
+        from our content without prior written permission.
+      </p>
+
+      <h2>User Conduct</h2>
+      <p>When using our website, you agree not to:</p>
+      <ul>
+        <li>Use automated systems to scrape, mirror, or reproduce our content at scale</li>
+        <li>Attempt to interfere with site functionality or security</li>
+        <li>Represent our content as official government communications</li>
+        <li>Remove attribution or source links from our content</li>
+        <li>Use the site for any unlawful purpose</li>
+      </ul>
+
+      <h2>Indemnification</h2>
+      <p>
+        You agree to indemnify, defend, and hold harmless {SITE_NAME} and its operators, officers,
+        directors, employees, and agents from and against all claims, damages, losses, costs, and
+        expenses (including reasonable legal fees) arising from your use of the website, your violation
+        of these Terms, or your infringement of any third-party rights.
       </p>
 
       <h2>Changes to Terms</h2>
       <p>
-        We may update these Terms of Use at any time. Changes take effect when posted.
-        Continued use of the site after changes constitutes acceptance.
+        We reserve the right to modify these Terms of Use at any time. Changes will be effective
+        immediately upon posting with an updated date. Your continued use of the website after
+        changes constitutes acceptance of the new terms.
       </p>
 
       <h2>Governing Law</h2>
       <p>
-        These terms are governed by the laws of the United States. Any disputes will be
-        resolved in the appropriate courts.
+        These Terms of Use shall be governed by and construed in accordance with the laws of the
+        Republic of Lithuania, without regard to conflict of law principles. Any disputes arising
+        from these Terms shall be subject to the exclusive jurisdiction of the courts of the
+        Republic of Lithuania.
+      </p>
+
+      <h2>Severability</h2>
+      <p>
+        If any provision of these Terms is found to be unenforceable or invalid, that provision
+        shall be limited or eliminated to the minimum extent necessary so that these Terms shall
+        otherwise remain in full force and effect.
       </p>
 
       <h2>Contact</h2>
       <p>
-        Questions about these terms? Email us at <a href="mailto:legal@areazine.com">legal@areazine.com</a>.
+        If you have questions about these Terms of Use, contact us at
+        <a href="mailto:legal@areazine.com">legal@areazine.com</a>.
       </p>
     </article>
   </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Terms of Use" }
+    ]
+  })} />
 </Base>

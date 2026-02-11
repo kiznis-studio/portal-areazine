@@ -23,9 +23,11 @@
   --cat-economy: #16a34a;
   --cat-finance: #7c3aed;
   --cat-earthquakes: #ea580c;
+  --cat-disasters: #7c2d12;
   --cat-technology: #0d9488;
 
   /* Severity */
+  --severity-critical: #991b1b;
   --severity-high: #dc2626;
   --severity-medium: #d97706;
   --severity-low: #6b7280;
@@ -121,9 +123,11 @@ a { text-decoration: none; }
 .badge-earthquakes { background-color: rgba(234, 88, 12, 0.1); color: var(--cat-earthquakes); }
 .badge-economy { background-color: rgba(22, 163, 74, 0.1); color: var(--cat-economy); }
 .badge-finance { background-color: rgba(124, 58, 237, 0.1); color: var(--cat-finance); }
+.badge-disasters { background-color: rgba(124, 45, 18, 0.1); color: var(--cat-disasters); }
 .badge-technology { background-color: rgba(13, 148, 136, 0.1); color: var(--cat-technology); }
 
 /* Severity badges */
+.badge-severity-critical { background-color: rgba(153, 27, 27, 0.15); color: var(--severity-critical); font-weight: 600; }
 .badge-severity-high { background-color: rgba(220, 38, 38, 0.1); color: var(--severity-high); }
 .badge-severity-medium { background-color: rgba(217, 119, 6, 0.1); color: var(--severity-medium); }
 .badge-severity-low { background-color: rgba(107, 114, 128, 0.1); color: var(--severity-low); }

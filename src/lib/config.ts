@@ -8,6 +8,7 @@ export const CATEGORIES = {
   'recalls-vehicles': { label: 'Vehicle Recalls', slug: 'recalls/vehicles', color: 'recalls', icon: 'truck' },
   'weather': { label: 'Weather Alerts', slug: 'weather', color: 'weather', icon: 'cloud' },
   'earthquakes': { label: 'Earthquakes', slug: 'earthquakes', color: 'earthquakes', icon: 'activity' },
+  'disasters': { label: 'Disasters', slug: 'disasters', color: 'disasters', icon: 'alert' },
   'economy': { label: 'Economy', slug: 'economy', color: 'economy', icon: 'chart' },
   'finance': { label: 'Finance', slug: 'finance', color: 'finance', icon: 'dollar' },
   'technology': { label: 'Technology', slug: 'technology', color: 'technology', icon: 'cpu' },
@@ -25,7 +26,7 @@ export function getCategoryBadgeClass(category: CategoryKey): string {
 }
 
 export function getSeverityBadgeClass(severity: string): string {
-  if (severity === 'high' || severity === 'medium' || severity === 'low') {
+  if (severity === 'critical' || severity === 'high' || severity === 'medium' || severity === 'low') {
     return `badge-severity-${severity}`;
   }
   return 'badge-severity-low';

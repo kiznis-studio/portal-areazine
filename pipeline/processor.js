@@ -15,6 +15,7 @@ const TEMPLATES = {
   recall: readFileSync(new URL('./templates/recall.md', import.meta.url), 'utf-8'),
   weather: readFileSync(new URL('./templates/weather.md', import.meta.url), 'utf-8'),
   earthquake: readFileSync(new URL('./templates/earthquake.md', import.meta.url), 'utf-8'),
+  disaster: readFileSync(new URL('./templates/disaster.md', import.meta.url), 'utf-8'),
 };
 
 // Map source to template type and metadata
@@ -24,6 +25,7 @@ const SOURCE_CONFIG = {
   nhtsa: { template: 'recall', agency: 'NHTSA', type: 'Vehicle', category: 'recalls-vehicles' },
   noaa: { template: 'weather', agency: 'NOAA', type: 'Weather Alert', category: 'weather' },
   usgs: { template: 'earthquake', agency: 'USGS', type: 'Earthquake', category: 'earthquakes' },
+  fema: { template: 'disaster', agency: 'FEMA', type: 'Disaster Declaration', category: 'disasters' },
 };
 
 const BATCH_SIZE = 10;
@@ -37,6 +39,7 @@ const RATE_LIMITS = {
   'recalls-cpsc': { max: 30, hours: 24 },
   'recalls-fda': { max: 30, hours: 24 },
   'recalls-vehicles': { max: 30, hours: 24 },
+  'disasters': { max: 10, hours: 24 },
 };
 
 function sleep(ms) {
@@ -110,6 +113,10 @@ function extractSourceUrl(source, rawData) {
       return rawData['@id'] || rawData.properties?.['@id'] || 'https://alerts.weather.gov';
     case 'usgs':
       return rawData.url || `https://earthquake.usgs.gov/earthquakes/eventpage/${rawData.ids || ''}`;
+    case 'fema':
+      return rawData.femaDeclarationString
+        ? `https://www.fema.gov/disaster/${rawData.disasterNumber || ''}`
+        : 'https://www.fema.gov/disaster/declarations';
     default:
       return '';
   }

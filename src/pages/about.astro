@@ -2,61 +2,112 @@
 import Base from '../layouts/Base.astro';
 import { SITE_NAME } from '../lib/config';
 
-const title = 'About';
-const description = 'Learn about Areazine\'s mission to transform U.S. government public data into readable news.';
+const title = 'About Areazine';
+const description = 'Areazine delivers real-time safety alerts from official U.S. government sources — recalls, weather warnings, earthquake reports, and more.';
 ---
 
 <Base title={title} description={description}>
-  <div class="container-narrow">
-    <article class="prose">
+  <div class="container py-8 md:py-12">
+    <article class="prose max-w-3xl">
       <h1>About {SITE_NAME}</h1>
 
-      <p class="lead">
-        We transform U.S. government public data into clear, readable news that matters to you.
+      <p class="text-lg text-[var(--color-muted)]">
+        Real-time safety alerts from official U.S. government sources, transformed into clear, actionable news.
       </p>
 
       <h2>Our Mission</h2>
       <p>
-        Government agencies publish critical information every day—product recalls, weather alerts,
-        safety notices, and more. But this data is often scattered across multiple websites, buried
-        in technical documents, or difficult to discover. Areazine brings it all together in one place.
+        Government agencies publish critical safety information every day — product recalls, severe weather alerts,
+        earthquake reports, and more. But this data is scattered across multiple federal websites, buried
+        in technical formats, and difficult to discover quickly. Areazine aggregates it all into one comprehensive,
+        searchable source updated around the clock.
       </p>
 
-      <h2>Our Sources</h2>
-      <p>All our articles are based on official data from trusted U.S. government agencies:</p>
+      <h2>Data Sources</h2>
+      <p>Every article on Areazine is derived from official U.S. government data:</p>
       <ul>
-        <li><strong>Consumer Product Safety Commission (CPSC)</strong> — Product recalls and safety alerts</li>
-        <li><strong>Food and Drug Administration (FDA)</strong> — Food, drug, and medical device recalls</li>
-        <li><strong>National Highway Traffic Safety Administration (NHTSA)</strong> — Vehicle recalls and safety issues</li>
-        <li><strong>National Oceanic and Atmospheric Administration (NOAA)</strong> — Weather alerts and forecasts</li>
+        <li>
+          <strong><a href="https://www.cpsc.gov/Recalls" target="_blank" rel="noopener">Consumer Product Safety Commission (CPSC)</a></strong>
+          — Consumer product recalls and safety alerts. Updated every 4 hours.
+        </li>
+        <li>
+          <strong><a href="https://open.fda.gov/" target="_blank" rel="noopener">Food and Drug Administration (FDA)</a></strong>
+          — Drug, food, and medical device recalls and enforcement actions. Updated every 4 hours.
+        </li>
+        <li>
+          <strong><a href="https://alerts.weather.gov/" target="_blank" rel="noopener">National Oceanic and Atmospheric Administration (NOAA)</a></strong>
+          — Severe weather alerts, warnings, and advisories. Updated every hour.
+        </li>
+        <li>
+          <strong><a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener">U.S. Geological Survey (USGS)</a></strong>
+          — Earthquake reports worldwide with magnitude, location, and depth data. Updated every 30 minutes.
+        </li>
       </ul>
+      <p class="text-sm text-[var(--color-muted)]">
+        We are actively expanding to include additional sources including FEMA disaster declarations,
+        EPA air quality data, and NHTSA vehicle recalls.
+      </p>
 
-      <h2>Our Methodology</h2>
-      <p>We combine technology and human oversight to deliver accurate, timely information:</p>
+      <h2>How It Works</h2>
+      <p>Areazine uses a fully automated pipeline to deliver timely, accurate safety information:</p>
       <ol>
-        <li><strong>Automated Data Collection</strong> — We fetch the latest data from government APIs and databases daily</li>
-        <li><strong>AI-Assisted Writing</strong> — We use AI to transform technical data into clear, readable articles</li>
-        <li><strong>Human Verification</strong> — Every article is reviewed for accuracy and clarity before publication</li>
+        <li>
+          <strong>Real-Time Data Collection</strong> — Our systems continuously monitor government APIs,
+          fetching new data as frequently as every 30 minutes depending on the source.
+        </li>
+        <li>
+          <strong>AI-Powered Article Generation</strong> — We use Google's Gemini AI to transform
+          raw government data into clear, readable articles while preserving all factual details.
+        </li>
+        <li>
+          <strong>Automated Quality Validation</strong> — Every generated article passes through our
+          anti-hallucination validation system, which verifies that key facts from the source data
+          (product names, dates, locations, magnitudes) appear accurately in the final article.
+          Articles that fail validation are rejected and flagged for review.
+        </li>
+        <li>
+          <strong>Instant Publishing</strong> — Validated articles are automatically published to the site,
+          and URLs are submitted to search engines via IndexNow for rapid indexing.
+        </li>
       </ol>
+
+      <h2>Editorial Standards</h2>
+      <ul>
+        <li>Every article links directly to its original government source</li>
+        <li>We report facts from official data — we do not editorialize, speculate, or interpret</li>
+        <li>Source agency attribution is displayed on every article</li>
+        <li>Severity levels (where applicable) are derived from official classifications</li>
+        <li>Articles are time-stamped with the original alert issuance time</li>
+      </ul>
 
       <h2>Transparency</h2>
       <p>
-        Every article includes a direct link to its original government source. We never
-        editorialize or interpret the data—we simply make it more accessible. When in doubt,
-        the official government source is always the authoritative reference.
+        Areazine is fully automated. Articles are generated by AI from government data and published
+        without manual editorial review, though our quality validation system ensures factual accuracy.
+        If you find an error, please let us know and we will correct it promptly.
+        The official government source is always the authoritative reference.
       </p>
 
       <h2>What We Don't Do</h2>
       <p>
         We don't provide professional advice, legal guidance, or medical recommendations.
-        Our articles are informational only. For specific concerns about a recall or safety
-        issue, always consult the official source or appropriate professional.
+        Our articles are informational only. For specific concerns about a recall, weather event,
+        or earthquake, always consult the official source or appropriate professional.
       </p>
 
       <h2>Contact</h2>
       <p>
-        Questions or feedback? Email us at <a href="mailto:hello@areazine.com">hello@areazine.com</a>.
+        Questions, corrections, or feedback? Email us at <a href="mailto:hello@areazine.com">hello@areazine.com</a>.
       </p>
     </article>
   </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
+      { "@type": "ListItem", "position": 2, "name": "About" }
+    ]
+  })} />
 </Base>

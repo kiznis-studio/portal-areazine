@@ -14,6 +14,7 @@ const sources = {
   nhtsa: (await import('./lib/sources/nhtsa.js')).fetch,
   noaa: (await import('./lib/sources/noaa.js')).fetch,
   usgs: (await import('./lib/sources/usgs.js')).fetch,
+  fema: (await import('./lib/sources/fema.js')).fetch,
 };
 
 // Intervals in minutes (from env or defaults)
@@ -23,6 +24,7 @@ const intervals = {
   nhtsa: parseInt(process.env.FETCH_INTERVAL_NHTSA || '240'),
   noaa: parseInt(process.env.FETCH_INTERVAL_NOAA || '60'),
   usgs: parseInt(process.env.FETCH_INTERVAL_USGS || '30'),
+  fema: parseInt(process.env.FETCH_INTERVAL_FEMA || '360'),
 };
 
 function sleep(ms) {

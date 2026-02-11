@@ -3,68 +3,140 @@ import Base from '../layouts/Base.astro';
 import { SITE_NAME } from '../lib/config';
 
 const title = 'Privacy Policy';
-const description = 'Our privacy policy: we don\'t collect personal data, use cookies, or track visitors.';
+const description = 'How Areazine collects, uses, and protects your information. Cookie-free, privacy-focused analytics.';
 ---
 
 <Base title={title} description={description}>
-  <div class="container-narrow">
-    <article class="prose">
+  <div class="container py-8 md:py-12">
+    <article class="prose max-w-3xl">
       <h1>Privacy Policy</h1>
+      <p class="text-[var(--color-muted)]">Last updated: February 11, 2026</p>
 
-      <p><strong>Last updated:</strong> February 11, 2026</p>
-
-      <h2>The Short Version</h2>
+      <h2>Overview</h2>
       <p>
-        We don't collect personal data. We don't use cookies. We don't track you.
-        We use privacy-focused analytics that respect your anonymity.
+        {SITE_NAME} ("we," "our," or "us") operates the website areazine.com. This Privacy Policy
+        explains how we collect, use, and protect your information when you visit our site.
+        We are committed to respecting your privacy — our site does not use tracking cookies,
+        does not require user accounts, and collects minimal data.
       </p>
 
-      <h2>What We Collect</h2>
-      <p>
-        We use <strong>Umami Analytics</strong>, a privacy-focused analytics tool, to understand
-        how visitors use our site. Umami collects only basic, anonymous information:
-      </p>
+      <h2>Information We Collect</h2>
+
+      <h3>Analytics Data (Anonymized)</h3>
+      <p>We use <strong>Umami Analytics</strong>, a privacy-focused, self-hosted analytics service that:</p>
       <ul>
-        <li>Page views and referral sources</li>
-        <li>Browser type and device category (desktop/mobile/tablet)</li>
-        <li>Country and region (based on IP address, not stored)</li>
+        <li>Does <strong>not</strong> use cookies</li>
+        <li>Does <strong>not</strong> track individual users across sessions</li>
+        <li>Does <strong>not</strong> collect personal information</li>
+        <li>Does <strong>not</strong> share data with third parties</li>
       </ul>
       <p>
-        Umami does not use cookies, does not track individuals across sessions, and does not
-        collect or store any personally identifiable information. All data is aggregated and anonymous.
+        Aggregated, anonymous metrics we collect include: pages visited, referring website,
+        browser type, device category, and country-level location. This data cannot be used
+        to identify any individual visitor.
       </p>
 
-      <h2>What We Don't Collect</h2>
+      <h3>Error Tracking</h3>
+      <p>
+        We use <strong>Sentry</strong> to detect and fix technical errors. When an error occurs,
+        we may collect error messages, stack traces, browser information, and the page URL.
+        This data is used solely to improve site functionality and is automatically deleted
+        after 90 days.
+      </p>
+
+      <h3>Server Logs</h3>
+      <p>
+        Our hosting provider (Cloudflare) may collect standard web server logs including IP
+        addresses, request timestamps, and URLs accessed. These logs are retained by Cloudflare
+        in accordance with their own privacy policy and are used for security and performance purposes.
+      </p>
+
+      <h2>Information We Do NOT Collect</h2>
       <ul>
-        <li>Email addresses or names (unless you email us directly)</li>
-        <li>IP addresses or precise location data</li>
-        <li>Browsing history or cross-site tracking data</li>
-        <li>Cookies or local storage (except for theme preference)</li>
+        <li>Names, email addresses, or contact information</li>
+        <li>Browsing history beyond our own site</li>
+        <li>Location data beyond country level</li>
+        <li>Financial or payment information</li>
+        <li>Social media profiles or identifiers</li>
       </ul>
+      <p>
+        {SITE_NAME} does not require user accounts, login credentials, or any form of registration.
+      </p>
+
+      <h2>Cookies</h2>
+      <p>
+        {SITE_NAME} does not set any first-party cookies. We do not use advertising cookies,
+        tracking pixels, or fingerprinting techniques. Your theme preference (light/dark mode)
+        is stored in your browser's localStorage, which is not transmitted to our servers.
+      </p>
 
       <h2>Third-Party Services</h2>
+      <p>We use the following third-party services to operate {SITE_NAME}:</p>
+      <ul>
+        <li><strong>Cloudflare</strong> — CDN, DNS, and DDoS protection (<a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">privacy policy</a>)</li>
+        <li><strong>Umami Analytics</strong> — Privacy-focused, cookie-free analytics (self-hosted, no data shared)</li>
+        <li><strong>Sentry</strong> — Error tracking and monitoring (<a href="https://sentry.io/privacy/" target="_blank" rel="noopener noreferrer">privacy policy</a>)</li>
+        <li><strong>GitHub</strong> — Source code hosting and deployment (<a href="https://docs.github.com/en/site-policy/privacy-policies" target="_blank" rel="noopener noreferrer">privacy policy</a>)</li>
+      </ul>
       <p>
-        Articles on {SITE_NAME} link to official government websites (CPSC, FDA, NHTSA, NOAA).
-        When you click these links, you leave our site and are subject to those sites' privacy policies.
+        We link to official government websites (CPSC, FDA, NHTSA, NOAA, USGS, FEMA) as original
+        data sources. These websites have their own privacy policies governed by federal regulations.
       </p>
 
-      <h2>GDPR & CCPA Compliance</h2>
+      <h2>Children's Privacy</h2>
       <p>
-        Because we don't collect personal data, there's nothing to request, delete, or opt out of.
-        We are fully compliant with GDPR, CCPA, and other privacy regulations by design.
+        {SITE_NAME} is a general-audience news website not directed at children under 13.
+        We do not knowingly collect personal information from children.
+      </p>
+
+      <h2>Your Rights</h2>
+      <p>
+        Because we do not collect personal information, there is typically no personal data to
+        access, modify, or delete. However, depending on your jurisdiction (GDPR, CCPA, etc.),
+        you may have the right to:
+      </p>
+      <ul>
+        <li>Request information about data we hold about you</li>
+        <li>Request deletion of any personal data</li>
+        <li>Opt out of analytics tracking (our analytics are anonymous by design)</li>
+        <li>Lodge a complaint with your local data protection authority</li>
+      </ul>
+
+      <h2>Data Retention</h2>
+      <p>
+        Analytics data is retained in aggregated, anonymized form. Error tracking data in Sentry
+        is automatically deleted after 90 days. Server logs are managed by Cloudflare per their
+        retention policies.
+      </p>
+
+      <h2>International Users</h2>
+      <p>
+        {SITE_NAME} is operated from within the European Union. Our infrastructure providers
+        (Cloudflare, GitHub) may process data in multiple countries. By using our website, you
+        acknowledge that your anonymized usage data may be processed outside your country of residence.
       </p>
 
       <h2>Changes to This Policy</h2>
       <p>
-        If we ever change our privacy practices, we'll update this page with the new date.
-        We'll never retroactively change how we handle data—what we didn't collect stays uncollected.
+        We may update this Privacy Policy from time to time. Changes will be posted on this page
+        with an updated "Last updated" date. Continued use of the website after changes constitutes
+        acceptance of the updated policy.
       </p>
 
-      <h2>Questions</h2>
+      <h2>Contact</h2>
       <p>
-        Email us at <a href="mailto:privacy@areazine.com">privacy@areazine.com</a> if you have
-        any questions about this policy.
+        If you have questions about this Privacy Policy, contact us at
+        <a href="mailto:privacy@areazine.com">privacy@areazine.com</a>.
       </p>
     </article>
   </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Privacy Policy" }
+    ]
+  })} />
 </Base>

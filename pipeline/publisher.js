@@ -166,6 +166,7 @@ async function submitIndexNow(articles) {
     'recalls-vehicles': 'recalls/vehicles',
     'weather': 'weather',
     'earthquakes': 'earthquakes',
+    'disasters': 'disasters',
   };
 
   const urls = articles.map(a => {

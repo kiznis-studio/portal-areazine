@@ -11,12 +11,13 @@ const VALID_CATEGORIES = [
   'recalls-vehicles',
   'weather',
   'earthquakes',
+  'disasters',
   'economy',
   'finance',
   'technology',
 ];
 
-const VALID_SEVERITIES = ['high', 'medium', 'low'];
+const VALID_SEVERITIES = ['critical', 'high', 'medium', 'low'];
 
 const PLACEHOLDER_PATTERNS = [
   /\{\{.*?\}\}/g,           // Template variables still present
@@ -116,6 +117,25 @@ function extractKeyIdentifiers(rawData, sourceType) {
     if (props.headline) {
       const geoMatch = props.headline.match(/(?:for|in|across)\s+([A-Z][^.;]+)/);
       if (geoMatch) identifiers.push(geoMatch[1].trim());
+    }
+  }
+
+  // FEMA Disaster Declarations
+  if (sourceType === 'fema' || sourceType === 'disasters') {
+    // Declaration string (e.g., "DR-4899-MS") — appears in every article
+    if (rawData.femaDeclarationString) {
+      identifiers.push(rawData.femaDeclarationString);
+    }
+
+    // State name
+    if (rawData.state) identifiers.push(rawData.state);
+
+    // Incident type (e.g., "Hurricane", "Tornado", "Winter Storm")
+    if (rawData.incidentType) identifiers.push(rawData.incidentType);
+
+    // Declaration title (e.g., "HURRICANE HELENE")
+    if (rawData.declarationTitle) {
+      identifiers.push(rawData.declarationTitle);
     }
   }
 

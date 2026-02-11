@@ -13,10 +13,10 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),
     summary: z.string(),
-    category: z.enum(['recalls-cpsc', 'recalls-fda', 'recalls-vehicles', 'weather', 'earthquakes', 'economy', 'finance', 'technology']),
+    category: z.enum(['recalls-cpsc', 'recalls-fda', 'recalls-vehicles', 'weather', 'earthquakes', 'disasters', 'economy', 'finance', 'technology']),
     tags: z.array(z.string()),
     location: z.string().optional(),
-    severity: z.enum(['high', 'medium', 'low']).optional(),
+    severity: z.enum(['critical', 'high', 'medium', 'low']).optional(),
     sourceUrl: z.string().url(),
     sourceAgency: z.string(),
     publishedAt: z.coerce.date(),
