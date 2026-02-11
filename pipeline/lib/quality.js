@@ -121,18 +121,20 @@ function extractKeyIdentifiers(rawData, sourceType) {
 
   // USGS Earthquakes
   if (sourceType === 'usgs' || sourceType === 'earthquakes') {
-    // Resolve props: flat format has fields at root, GeoJSON has them under .properties
     const props = rawData.properties || rawData;
 
-    // Magnitude (e.g., "4.2")
-    if (props.mag != null) identifiers.push(String(props.mag));
+    // Magnitude — round to 1 decimal (Gemini writes "M 3.5", not "3.53468871787197")
+    if (props.mag != null) {
+      identifiers.push(String(Number(props.mag).toFixed(1)));
+    }
 
-    // Place description (e.g., "5km NW of The Geysers, CA")
+    // Place — extract the named location, not the full "7 km WNW of Delta, B.C., MX"
+    // Gemini rephrases distance/direction but keeps the place name
     if (props.place) {
-      identifiers.push(props.place);
-      // Also extract just the location name after the comma
-      const locMatch = props.place.match(/,\s*(.+)$/);
-      if (locMatch) identifiers.push(locMatch[1].trim());
+      // Extract location name: strip "N km DIR of " prefix
+      const nameMatch = props.place.match(/\d+\s*km\s+\w+\s+of\s+(.+)/i);
+      const placeName = nameMatch ? nameMatch[1].trim() : props.place;
+      identifiers.push(placeName);
     }
   }
 
