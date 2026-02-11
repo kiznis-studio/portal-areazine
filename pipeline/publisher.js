@@ -9,12 +9,15 @@ import { join } from 'path';
 import { execFileSync } from 'child_process';
 import { randomUUID } from 'crypto';
 import { stmts } from './lib/db.js';
+import { Sentry } from './lib/sentry.js';
 
 const REPO_DIR = process.env.REPO_DIR || '/repo';
 const CONTENT_DIR = join(REPO_DIR, 'src', 'content', 'articles');
 const MAX_BATCH = parseInt(process.env.MAX_BATCH_SIZE || '50');
 const PUBLISH_INTERVAL = parseInt(process.env.PUBLISH_INTERVAL || '30') * 60_000;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
+const INDEXNOW_KEY = '766538bdafcc4bf2b8f3a2d4d4d0b9fa';
+const SITE_URL = 'https://areazine.com';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -130,6 +133,9 @@ async function publishBatch() {
 
     console.log(`[publisher] Pushed commit ${sha} with ${articles.length} articles`);
 
+    // Submit to IndexNow for instant Bing/Yandex indexing
+    await submitIndexNow(articles);
+
     // Mark all as published
     const batchId = randomUUID();
     for (const article of articles) {
@@ -145,7 +151,42 @@ async function publishBatch() {
     return articles.length;
   } catch (err) {
     console.error(`[publisher] Git push failed: ${err.message}`);
+    Sentry.captureException(err, { tags: { component: 'publisher', action: 'git_push' } });
     return 0;
+  }
+}
+
+/**
+ * Submit URLs to IndexNow (Bing, Yandex) for instant indexing.
+ */
+async function submitIndexNow(articles) {
+  const CATEGORIES = {
+    'recalls-cpsc': 'recalls/cpsc',
+    'recalls-fda': 'recalls/fda',
+    'recalls-vehicles': 'recalls/vehicles',
+    'weather': 'weather',
+    'earthquakes': 'earthquakes',
+  };
+
+  const urls = articles.map(a => {
+    const catSlug = CATEGORIES[a.category] || a.category;
+    return `${SITE_URL}/${catSlug}/${a.id}`;
+  });
+
+  try {
+    const response = await fetch('https://api.indexnow.org/indexnow', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        host: 'areazine.com',
+        key: INDEXNOW_KEY,
+        keyLocation: `${SITE_URL}/${INDEXNOW_KEY}.txt`,
+        urlList: urls,
+      }),
+    });
+    console.log(`[publisher] IndexNow submitted ${urls.length} URLs, status: ${response.status}`);
+  } catch (err) {
+    console.warn(`[publisher] IndexNow failed: ${err.message}`);
   }
 }
 
@@ -208,5 +249,6 @@ process.on('SIGINT', () => {
 
 main().catch(err => {
   console.error('[publisher] Fatal error:', err);
-  process.exit(1);
+  Sentry.captureException(err);
+  Sentry.flush(2000).finally(() => process.exit(1));
 });

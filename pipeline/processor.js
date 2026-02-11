@@ -8,6 +8,7 @@ import { readFileSync } from 'fs';
 import { stmts } from './lib/db.js';
 import { callGeminiJSON } from './lib/gemini.js';
 import { validate } from './lib/quality.js';
+import { Sentry } from './lib/sentry.js';
 
 // Load templates
 const TEMPLATES = {
@@ -28,6 +29,15 @@ const SOURCE_CONFIG = {
 const BATCH_SIZE = 10;
 const SLEEP_EMPTY_MS = 30_000; // 30s when no pending records
 const SLEEP_BETWEEN_MS = 2_000; // 2s between Gemini calls (rate limiting)
+
+// Rate limits: max articles per category per time window
+const RATE_LIMITS = {
+  weather: { max: 20, hours: 24 },
+  earthquakes: { max: 15, hours: 24 },
+  'recalls-cpsc': { max: 30, hours: 24 },
+  'recalls-fda': { max: 30, hours: 24 },
+  'recalls-vehicles': { max: 30, hours: 24 },
+};
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -123,6 +133,16 @@ async function processRecord(rawRecord) {
     return;
   }
 
+  // Rate limiting: don't flood any single category
+  const rateLimit = RATE_LIMITS[config.category];
+  if (rateLimit) {
+    const { cnt } = stmts.recentArticleCount.get({ category: config.category, hours: rateLimit.hours });
+    if (cnt >= rateLimit.max) {
+      console.log(`[processor] Rate limited ${rawRecord.id}: ${config.category} has ${cnt}/${rateLimit.max} articles in ${rateLimit.hours}h`);
+      return; // Leave unprocessed, will retry next cycle
+    }
+  }
+
   console.log(`[processor] Processing ${rawRecord.id}...`);
 
   try {
@@ -165,6 +185,7 @@ async function processRecord(rawRecord) {
     console.log(`[processor] Generated: "${article.title}" (${tokens} tokens)`);
   } catch (err) {
     console.error(`[processor] Failed ${rawRecord.id}: ${err.message}`);
+    Sentry.captureException(err, { tags: { source: rawRecord.source, record_id: rawRecord.id } });
     stmts.markProcessed.run({ id: rawRecord.id, status: 2 }); // 2 = failed
   }
 }
@@ -207,5 +228,6 @@ process.on('SIGINT', () => {
 
 main().catch(err => {
   console.error('[processor] Fatal error:', err);
-  process.exit(1);
+  Sentry.captureException(err);
+  Sentry.flush(2000).finally(() => process.exit(1));
 });

@@ -9,6 +9,7 @@
     "publish": "node publisher.js"
   },
   "dependencies": {
+    "@sentry/node": "^10.38.0",
     "better-sqlite3": "^11.0.0"
   }
 }

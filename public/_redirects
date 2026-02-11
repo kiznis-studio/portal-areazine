@@ -1,0 +1,62 @@
+# Old areazine.com was a city/country news aggregator.
+# Redirect old high-traffic paths to relevant categories.
+
+# US cities → Weather (most common old content was local news/weather)
+/charlotte/* /weather 301
+/charlotte /weather 301
+/akron/* /weather 301
+/akron /weather 301
+/dallas/* /weather 301
+/dallas /weather 301
+/houston/* /weather 301
+/houston /weather 301
+/atlanta/* /weather 301
+/atlanta /weather 301
+/austin/* /weather 301
+/austin /weather 301
+/boston/* /weather 301
+/boston /weather 301
+/chicago/* /weather 301
+/chicago /weather 301
+/denver/* /weather 301
+/denver /weather 301
+/detroit/* /weather 301
+/detroit /weather 301
+/miami/* /weather 301
+/miami /weather 301
+/phoenix/* /weather 301
+/phoenix /weather 301
+/seattle/* /weather 301
+/seattle /weather 301
+
+# Earthquake-prone regions → Earthquakes
+/santiago/* /earthquakes 301
+/santiago /earthquakes 301
+/los-angeles/* /earthquakes 301
+/los-angeles /earthquakes 301
+/san-francisco/* /earthquakes 301
+/san-francisco /earthquakes 301
+/mexico/* /earthquakes 301
+/mexico /earthquakes 301
+/japan/* /earthquakes 301
+/japan /earthquakes 301
+/chile/* /earthquakes 301
+/chile /earthquakes 301
+
+# Country/international pages → All articles
+/iraq/* /articles 301
+/iraq /articles 301
+/ukraine/* /articles 301
+/ukraine /articles 301
+/china/* /articles 301
+/china /articles 301
+/india/* /articles 301
+/india /articles 301
+
+# Generic old paths → All articles
+/news/* /articles 301
+/news /articles 301
+/breaking/* /articles 301
+/breaking /articles 301
+/latest/* /articles 301
+/latest /articles 301

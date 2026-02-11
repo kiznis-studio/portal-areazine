@@ -5,6 +5,7 @@
  */
 
 import { stmts, insertRawBatch } from './lib/db.js';
+import { Sentry } from './lib/sentry.js';
 
 // Dynamic source imports
 const sources = {
@@ -78,6 +79,7 @@ async function fetchSource(name) {
     console.log(`[fetcher] ${name}: ${inserted} new / ${total} total records`);
   } catch (err) {
     console.error(`[fetcher] ${name} failed: ${err.message}`);
+    Sentry.captureException(err, { tags: { source: name } });
     stmts.insertFetchLog.run({
       source: name,
       new_records: 0,
@@ -122,5 +124,6 @@ process.on('SIGINT', () => {
 
 main().catch(err => {
   console.error('[fetcher] Fatal error:', err);
-  process.exit(1);
+  Sentry.captureException(err);
+  Sentry.flush(2000).finally(() => process.exit(1));
 });
