@@ -37,17 +37,39 @@ const natPct = ((100 - 80) / 50) * 100; // national avg at RPP=100
     </p>
 
     {/* Visual bar */}
-    <div class="relative h-6 bg-[var(--color-card)] rounded border border-[var(--color-border)] mb-3">
+    <div class="relative h-6 bg-[var(--color-card)] rounded border border-[var(--color-border)] mb-3 mt-5">
+      {/* Fill from left to RPP position */}
       <div
         class="absolute top-0 bottom-0 left-0 rounded-l"
-        style={`width: ${barPct}%; background: ${isAbove ? 'var(--color-data-red)' : 'var(--color-data-teal)'}; opacity: 0.25;`}
+        style={`width: ${barPct}%; background: ${isAbove ? 'var(--color-data-red)' : 'var(--color-data-teal)'}; opacity: 0.15;`}
       />
+      {/* Colored segment showing delta from national avg */}
+      {isAbove ? (
+        <div
+          class="absolute top-0 bottom-0 rounded-sm"
+          style={`left: ${natPct}%; width: ${barPct - natPct}%; background: var(--color-data-red); opacity: 0.5;`}
+        />
+      ) : (
+        <div
+          class="absolute top-0 bottom-0 rounded-sm"
+          style={`left: ${barPct}%; width: ${natPct - barPct}%; background: var(--color-data-teal); opacity: 0.5;`}
+        />
+      )}
+      {/* National avg marker */}
       <div
         class="absolute top-0 bottom-0 w-px bg-[var(--color-muted)]"
         style={`left: ${natPct}%;`}
       />
-      <span class="absolute text-[10px] text-[var(--color-muted)] tabular-nums" style={`left: ${natPct}%; top: -16px; transform: translateX(-50%);`}>
+      <span class="absolute text-[10px] text-[var(--color-muted)] tabular-nums" style={`left: ${natPct}%; top: -18px; transform: translateX(-50%);`}>
         US avg
+      </span>
+      {/* City RPP position marker */}
+      <div
+        class="absolute top-0 bottom-0 w-0.5 rounded"
+        style={`left: ${barPct}%; background: ${isAbove ? 'var(--color-data-red)' : 'var(--color-data-teal)'};`}
+      />
+      <span class="absolute text-[10px] font-semibold tabular-nums" style={`left: ${barPct}%; top: -18px; transform: translateX(-50%); color: ${isAbove ? 'var(--color-data-red)' : 'var(--color-data-teal)'};`}>
+        {rpp.toFixed(1)}
       </span>
     </div>
 

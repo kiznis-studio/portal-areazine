@@ -529,6 +529,12 @@ ssh root@158.101.199.103 "cd /opt/areazine/repo && git pull origin main && syste
 - **DOM createElement over innerHTML** - Security hook flags innerHTML usage; use createElement/textContent/appendChild pattern for all dynamic content
 - **National stats as comparison baseline** - Pre-computed `national-stats.json` loaded once, used by every component
 - **Ethnicity labels matter** - Use census-aligned but respectful terms: "African American" not "Black", "Hispanic or Latino" not "Hispanic", "Other / Multiethnic" not "Other / Multiracial"
+- **Census race vs ethnicity** - Hispanic/Latino is an ethnicity (B03001 table), NOT a race. It overlaps with White, Black, Asian, Other. Never subtract Hispanic from race total — produces negative numbers. Display separately as "Hispanic or Latino (any race): X%"
+- **NOAA precipitation gaps** - Some weather stations only report temperature, not precipitation. Track `precipCount` separately; set annual total to `null` (not `0`) when no precip data exists. Otherwise cities appear to have zero rainfall.
+- **State-level data ≠ city data** - Never display state-level statistics (e.g., state crime rates) as if they're city-specific. Users expect city data on a city page. Omit the section entirely rather than show misleading data.
+- **NCES school matching by city name** - School data uses city names that may not match profile slugs (e.g., "Queens Village" school district vs "Queens" borough). Validate with schools-per-capita ratio: >50 schools per 10K population indicates a matching error (likely pulling county/state data).
+- **Aurora publisher git conflicts** - When local dev and pipeline both push to the same repo, publisher's `git push` fails. Fix: SSH into Aurora, `cd /opt/areazine/repo && git pull --rebase origin main && git push`. Add `--rebase` logic to publisher for auto-recovery.
+- **Batch data fixes at scale** - For fixing 4,640+ city profiles, write a Node.js script that loads all JSON files, applies transforms, and writes back. Much safer than manual edits. Always validate output counts match input counts.
 
 ### Pipeline Failure Modes
 
