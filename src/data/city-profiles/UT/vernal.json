@@ -310,5 +310,18 @@
       "hotMonths": 2,
       "coldMonths": 5
     }
+  },
+  "education": {
+    "source": "NCES Common Core of Data 2024-25",
+    "totalSchools": 12,
+    "elementarySchools": 6,
+    "middleSchools": 2,
+    "highSchools": 2,
+    "otherSchools": 2,
+    "charterSchools": 1,
+    "charterPct": 8.3,
+    "nslpSchools": 10,
+    "nslpPct": 83.3,
+    "virtualSchools": 0
   }
 }

@@ -1,22 +1,14 @@
 #!/usr/bin/env node
 
 /**
- * Add education data to city profiles from NCES Common Core of Data
+ * Add education data to city profiles from NCES Common Core of Data 2024-25
  *
- * SETUP REQUIRED:
- * 1. Download school directory data from: https://nces.ed.gov/ccd/pubschuniv.asp
- * 2. Look for "School Data Files" for the latest year (2022-23 or 2023-24)
- * 3. Download the CSV file to: scripts/.cache/nces-schools.csv
+ * Uses two files from https://nces.ed.gov/ccd/files.asp:
+ * - School Directory (ccd_sch_029): school names, charter status, grade levels, location
+ * - School Characteristics (ccd_sch_129): NSLP (lunch program) status, virtual status
  *
- * The file should have columns like:
- * - LEAID (Local Education Agency ID - first 2 digits are state FIPS)
- * - COUNTY_CODE (3-digit county FIPS)
- * - SCH_STATUS_CODE (1 = Open)
- * - TOTAL_STUDENTS (enrollment)
- * - FTE_CLASSROOM_TEACHER (full-time equivalent teachers)
- * - SCHOOL_LEVEL (Elementary, Middle, High)
- * - CHARTER_TEXT (Yes/No)
- * - TITLE_I_STATUS_CODE (1-5 = eligible/participating)
+ * Schools are matched to city profiles by ZIP code → county FIPS mapping.
+ * County FIPS is derived from the LEAID (first 2 digits = state FIPS) + school ZIP → county lookup.
  *
  * Usage:
  *   node scripts/fetch-education-data.cjs [--dry-run] [--limit=N]
@@ -30,9 +22,12 @@ const readline = require('readline');
 const CITIES_FILE = path.join(__dirname, '../src/data/us-cities.json');
 const PROFILES_DIR = path.join(__dirname, '../src/data/city-profiles');
 const CACHE_DIR = path.join(__dirname, '.cache');
-const CSV_FILE = path.join(CACHE_DIR, 'nces-schools.csv');
 
-// Parse command line args
+// The downloaded and unzipped NCES school directory CSV
+const DIR_CSV = path.join(CACHE_DIR, 'ccd_sch_029_2425_w_1a_073025.csv');
+// School characteristics (has NSLP/lunch program data)
+const CHARS_CSV = path.join(CACHE_DIR, 'ccd_sch_129_2425_w_1a_073025.csv');
+
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const limitArg = args.find(arg => arg.startsWith('--limit='));
@@ -48,7 +43,6 @@ function parseCSVRow(line) {
 
   for (let i = 0; i < line.length; i++) {
     const char = line[i];
-
     if (char === '"') {
       inQuotes = !inQuotes;
     } else if (char === ',' && !inQuotes) {
@@ -58,327 +52,279 @@ function parseCSVRow(line) {
       current += char;
     }
   }
-
   result.push(current.trim());
   return result;
 }
 
 /**
- * Process CSV and aggregate by county
+ * Build a ZIP → county FIPS + stateCode mapping from city profiles
  */
-async function processCSV() {
-  if (!fs.existsSync(CSV_FILE)) {
-    console.error(`\n❌ CSV file not found: ${CSV_FILE}`);
-    console.error('\nPlease download the NCES school directory CSV:');
-    console.error('1. Visit https://nces.ed.gov/ccd/pubschuniv.asp');
-    console.error('2. Download the latest "School Data Files" CSV');
-    console.error(`3. Save it to: ${CSV_FILE}\n`);
+function buildZipToCountyMap(cities) {
+  // Map city name+state → county info for fuzzy matching
+  const cityStateToCounty = new Map();
+
+  for (const city of cities) {
+    const key = `${city.name.toLowerCase()}|${city.stateCode}`;
+    cityStateToCounty.set(key, {
+      countyFIPS: city.countyFIPS,
+      stateFIPS: city.stateFIPS,
+      stateCode: city.stateCode,
+      countyName: city.countyName
+    });
+  }
+
+  return cityStateToCounty;
+}
+
+/**
+ * Read school characteristics (NSLP data) into a map keyed by NCESSCH
+ */
+async function readCharacteristics() {
+  if (!fs.existsSync(CHARS_CSV)) {
+    console.log('⚠ No school characteristics file found, skipping NSLP data');
+    return new Map();
+  }
+
+  const nslpMap = new Map();
+  const fileStream = createReadStream(CHARS_CSV);
+  const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
+
+  let headers = null;
+  let count = 0;
+
+  for await (const line of rl) {
+    if (!headers) {
+      headers = parseCSVRow(line).map(h => h.replace(/^"|"$/g, ''));
+      continue;
+    }
+
+    const values = parseCSVRow(line);
+    const row = {};
+    headers.forEach((h, i) => { row[h] = (values[i] || '').replace(/^"|"$/g, ''); });
+
+    const ncessch = row.NCESSCH;
+    if (!ncessch) continue;
+
+    nslpMap.set(ncessch, {
+      nslp: row.NSLP_STATUS_TEXT || '',
+      virtual: row.VIRTUAL_TEXT || ''
+    });
+    count++;
+  }
+
+  console.log(`Loaded ${count.toLocaleString()} school characteristics records`);
+  return nslpMap;
+}
+
+/**
+ * Read the directory CSV and aggregate schools by county
+ */
+async function processDirectoryCSV(cityStateToCounty, nslpMap) {
+  if (!fs.existsSync(DIR_CSV)) {
+    console.error(`\n❌ Directory CSV not found: ${DIR_CSV}`);
+    console.error('\nDownload from https://nces.ed.gov/ccd/files.asp');
+    console.error('Select: Nonfiscal → School → 2024-2025 → Directory\n');
     process.exit(1);
   }
 
-  const countyData = new Map();
-
-  const fileStream = createReadStream(CSV_FILE);
-  const rl = readline.createInterface({
-    input: fileStream,
-    crlfDelay: Infinity
-  });
+  const countyData = new Map(); // key: "stateFIPS-countyFIPS" → schools array
+  const fileStream = createReadStream(DIR_CSV);
+  const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
 
   let headers = null;
   let lineCount = 0;
-  let schoolCount = 0;
+  let matched = 0;
+  let unmatched = 0;
 
-  console.log('📖 Reading CSV file...\n');
+  console.log('📖 Reading school directory CSV...\n');
 
   for await (const line of rl) {
     lineCount++;
 
     if (lineCount === 1) {
-      // Parse headers
       headers = parseCSVRow(line).map(h => h.replace(/^"|"$/g, ''));
       continue;
     }
 
     if (lineCount % 10000 === 0) {
-      process.stdout.write(`\r  Processed ${lineCount.toLocaleString()} rows, ${schoolCount.toLocaleString()} schools...`);
+      process.stdout.write(`\r  Processed ${lineCount.toLocaleString()} rows (${matched.toLocaleString()} matched)...`);
     }
 
     try {
       const values = parseCSVRow(line);
       const row = {};
+      headers.forEach((h, i) => { row[h] = (values[i] || '').replace(/^"|"$/g, ''); });
 
-      headers.forEach((header, i) => {
-        row[header] = values[i] || '';
-      });
+      // Skip non-open schools
+      const status = row.SY_STATUS || row.SCH_STATUS_CODE || '';
+      if (status !== '1') continue;
 
-      // Skip if not an active school
-      if (row.SCH_STATUS_CODE !== '1' && row.SCH_STATUS_CODE !== '"1"') continue;
+      // Try to match to a county via city name + state
+      const city = (row.LCITY || '').toLowerCase().trim();
+      const state = (row.ST || row.LSTATE || '').toUpperCase().trim();
+      if (!city || !state) continue;
 
-      // Get FIPS codes
-      const leaState = row.LEAID ? row.LEAID.replace(/"/g, '').substring(0, 2) : '';
-      let countyCode = row.COUNTY_CODE || row.COUNTY || '';
-      countyCode = countyCode.replace(/"/g, '');
+      const key = `${city}|${state}`;
+      const county = cityStateToCounty.get(key);
 
-      if (!leaState || !countyCode) continue;
-
-      // Pad county code to 3 digits
-      countyCode = countyCode.padStart(3, '0');
-
-      const countyFIPS = `${leaState}-${countyCode}`;
-
-      if (!countyData.has(countyFIPS)) {
-        countyData.set(countyFIPS, []);
+      if (!county) {
+        unmatched++;
+        continue;
       }
 
-      // Parse numeric values
-      const enrollmentStr = row.TOTAL_STUDENTS || row.ENROLLMENT || '0';
-      const teachersStr = row.FTE_CLASSROOM_TEACHER || row.TEACHERS || '0';
-      const enrollment = parseInt(enrollmentStr.replace(/"/g, '')) || 0;
-      const teachers = parseFloat(teachersStr.replace(/"/g, '')) || 0;
+      const countyKey = `${county.stateFIPS}-${county.countyFIPS}`;
 
-      const charterStr = (row.CHARTER_TEXT || row.CHARTER || '').replace(/"/g, '');
-      const charter = charterStr.toLowerCase() === 'yes' || charterStr === '1' ? 1 : 0;
+      if (!countyData.has(countyKey)) {
+        countyData.set(countyKey, { schools: [], stateCode: county.stateCode });
+      }
 
-      const titleIStr = (row.TITLE_I_STATUS_CODE || row.TITLE_I_STATUS || '0').replace(/"/g, '');
-      const titleI = parseInt(titleIStr) || 0;
-
-      // School level mapping
+      // School level from LEVEL column
+      const levelStr = (row.LEVEL || '').toLowerCase();
       let schoolLevel = 0;
-      const level = (row.SCHOOL_LEVEL || '').replace(/"/g, '');
-      if (level.includes('Elementary') || level.includes('Primary')) schoolLevel = 1;
-      else if (level.includes('Middle')) schoolLevel = 2;
-      else if (level.includes('High') || level.includes('Secondary')) schoolLevel = 3;
+      if (levelStr.includes('elementary') || levelStr.includes('primary')) schoolLevel = 1;
+      else if (levelStr.includes('middle')) schoolLevel = 2;
+      else if (levelStr.includes('high') || levelStr.includes('secondary')) schoolLevel = 3;
 
-      countyData.get(countyFIPS).push({
-        enrollment,
-        teachers,
+      // Charter status
+      const charter = (row.CHARTER_TEXT || '').toLowerCase() === 'yes' ? 1 : 0;
+
+      // NSLP from characteristics
+      const chars = nslpMap.get(row.NCESSCH || '');
+      const nslpEligible = chars && chars.nslp && chars.nslp.toLowerCase().includes('yes') ? 1 : 0;
+      const isVirtual = chars && chars.virtual && chars.virtual.toLowerCase() === 'yes' ? 1 : 0;
+
+      // Grade range
+      const loGrade = row.GSLO || '';
+      const hiGrade = row.GSHI || '';
+
+      countyData.get(countyKey).schools.push({
+        schoolLevel,
         charter,
-        titleI,
-        schoolLevel
+        nslpEligible,
+        isVirtual,
+        loGrade,
+        hiGrade
       });
 
-      schoolCount++;
-
-    } catch (err) {
-      // Skip malformed rows
+      matched++;
+    } catch {
       continue;
     }
   }
 
-  console.log(`\n✅ Processed ${schoolCount.toLocaleString()} schools across ${countyData.size.toLocaleString()} counties\n`);
+  console.log(`\n✅ Matched ${matched.toLocaleString()} schools to ${countyData.size.toLocaleString()} counties`);
+  console.log(`⚠ ${unmatched.toLocaleString()} schools could not be matched (city not in our profiles)\n`);
 
   return countyData;
 }
 
 /**
- * Aggregate education data from schools
+ * Aggregate education metrics for a county
  */
-function aggregateEducationData(schools) {
-  if (!schools || schools.length === 0) {
-    return null;
+function aggregateEducation(schools) {
+  if (!schools || schools.length === 0) return null;
+
+  let elementary = 0, middle = 0, high = 0, other = 0;
+  let charter = 0, nslp = 0, virtual = 0;
+
+  for (const s of schools) {
+    if (s.schoolLevel === 1) elementary++;
+    else if (s.schoolLevel === 2) middle++;
+    else if (s.schoolLevel === 3) high++;
+    else other++;
+
+    if (s.charter) charter++;
+    if (s.nslpEligible) nslp++;
+    if (s.isVirtual) virtual++;
   }
 
-  let totalEnrollment = 0;
-  let totalTeachers = 0;
-  let elementarySchools = 0;
-  let middleSchools = 0;
-  let highSchools = 0;
-  let charterSchools = 0;
-  let titleISchools = 0;
-
-  for (const school of schools) {
-    totalEnrollment += school.enrollment;
-    totalTeachers += school.teachers;
-
-    if (school.schoolLevel === 1) elementarySchools++;
-    else if (school.schoolLevel === 2) middleSchools++;
-    else if (school.schoolLevel === 3) highSchools++;
-
-    if (school.charter === 1) charterSchools++;
-    if (school.titleI >= 1 && school.titleI <= 5) titleISchools++;
-  }
-
-  const studentTeacherRatio = totalTeachers > 0
-    ? Math.round((totalEnrollment / totalTeachers) * 10) / 10
-    : null;
-
-  const charterPct = schools.length > 0
-    ? Math.round((charterSchools / schools.length) * 1000) / 10
-    : 0;
-
-  const titleIPct = schools.length > 0
-    ? Math.round((titleISchools / schools.length) * 1000) / 10
-    : 0;
+  const total = schools.length;
 
   return {
-    source: "NCES Common Core of Data",
-    totalSchools: schools.length,
-    enrollment: totalEnrollment,
-    studentTeacherRatio,
-    elementarySchools,
-    middleSchools,
-    highSchools,
-    charterSchools,
-    charterPct,
-    titleISchools,
-    titleIPct
+    source: 'NCES Common Core of Data 2024-25',
+    totalSchools: total,
+    elementarySchools: elementary,
+    middleSchools: middle,
+    highSchools: high,
+    otherSchools: other,
+    charterSchools: charter,
+    charterPct: Math.round((charter / total) * 1000) / 10,
+    nslpSchools: nslp,
+    nslpPct: Math.round((nslp / total) * 1000) / 10,
+    virtualSchools: virtual
   };
 }
 
-/**
- * Main execution
- */
 async function main() {
-  console.log('📚 Processing education data from NCES Common Core of Data...\n');
-
-  if (dryRun) {
-    console.log('🔍 DRY RUN MODE - No files will be modified\n');
-  }
-
-  // Process CSV
-  const countyData = await processCSV();
+  console.log('📚 NCES Education Data Importer\n');
+  if (dryRun) console.log('🔍 DRY RUN MODE\n');
 
   // Load cities
   const cities = JSON.parse(fs.readFileSync(CITIES_FILE, 'utf8'));
   console.log(`Loaded ${cities.length.toLocaleString()} cities`);
 
-  // Get unique counties
-  const countyMap = new Map();
-  for (const city of cities) {
-    const key = `${city.stateFIPS}-${city.countyFIPS}`;
-    if (!countyMap.has(key)) {
-      countyMap.set(key, {
-        stateFIPS: city.stateFIPS,
-        countyFIPS: city.countyFIPS,
-        countyName: city.countyName,
-        stateCode: city.stateCode,
-        cities: []
-      });
-    }
-    countyMap.get(key).cities.push(city);
-  }
+  // Build lookup map
+  const cityStateToCounty = buildZipToCountyMap(cities);
+  console.log(`City-state lookup: ${cityStateToCounty.size.toLocaleString()} entries\n`);
 
-  const counties = Array.from(countyMap.values());
-  const totalCounties = limit ? Math.min(limit, counties.length) : counties.length;
+  // Read school characteristics
+  const nslpMap = await readCharacteristics();
 
-  console.log(`Found ${counties.length.toLocaleString()} unique counties`);
-  if (limit) {
-    console.log(`Limited to first ${limit} counties for testing`);
-  }
-  console.log();
-
-  // Aggregate data
-  const aggregatedData = new Map();
-  let hasData = 0;
-  let noData = 0;
-
-  for (let i = 0; i < totalCounties; i++) {
-    const county = counties[i];
-    const { stateFIPS, countyFIPS, countyName, stateCode } = county;
-    const key = `${stateFIPS}-${countyFIPS}`;
-
-    const schools = countyData.get(key);
-
-    if (!schools || schools.length === 0) {
-      if (limit) { // Only log when testing
-        console.log(`[${i + 1}/${totalCounties}] ${countyName}, ${stateCode} - No data`);
-      }
-      noData++;
-    } else {
-      const eduData = aggregateEducationData(schools);
-      aggregatedData.set(key, eduData);
-      if (limit) { // Only log when testing
-        console.log(`[${i + 1}/${totalCounties}] ${countyName}, ${stateCode} - ${schools.length} schools, ${eduData.enrollment} students`);
-      }
-      hasData++;
-    }
-
-    // Progress indicator for full run
-    if (!limit && (i + 1) % 100 === 0) {
-      process.stdout.write(`\r  Processed ${i + 1}/${totalCounties} counties (${hasData} with data)...`);
-    }
-  }
-
-  if (!limit) console.log(); // New line after progress
-
-  console.log(`\n✅ ${hasData.toLocaleString()} counties with data, ${noData.toLocaleString()} without`);
+  // Process directory CSV
+  const countyData = await processDirectoryCSV(cityStateToCounty, nslpMap);
 
   if (dryRun) {
-    console.log('\n🔍 DRY RUN - Would update profiles but skipping writes\n');
-
-    // Show sample data
-    const firstCountyWithData = Array.from(aggregatedData.entries())[0];
-    if (firstCountyWithData) {
-      console.log('Sample education data:');
-      console.log(JSON.stringify(firstCountyWithData[1], null, 2));
+    const sample = Array.from(countyData.entries())[0];
+    if (sample) {
+      console.log('Sample aggregated data:');
+      console.log(JSON.stringify(aggregateEducation(sample[1].schools), null, 2));
     }
-
     return;
   }
 
-  console.log('\n📝 Updating city profiles...\n');
+  // Update city profiles
+  console.log('📝 Updating city profiles...\n');
+  let updated = 0, skipped = 0;
 
-  // Group cities by state for batch writes
-  const stateGroups = new Map();
-  for (const county of counties.slice(0, totalCounties)) {
-    for (const city of county.cities) {
-      const key = `${county.stateFIPS}-${county.countyFIPS}`;
-      const eduData = aggregatedData.get(key);
-
-      if (!stateGroups.has(city.stateCode)) {
-        stateGroups.set(city.stateCode, []);
-      }
-
-      stateGroups.get(city.stateCode).push({
-        city,
-        eduData
-      });
-    }
+  // Build county → cities mapping
+  const countyToCities = new Map();
+  for (const city of cities) {
+    const key = `${city.stateFIPS}-${city.countyFIPS}`;
+    if (!countyToCities.has(key)) countyToCities.set(key, []);
+    countyToCities.get(key).push(city);
   }
 
-  // Update profiles state by state
-  let updated = 0;
-  let skipped = 0;
+  const totalCounties = limit ? Math.min(limit, countyData.size) : countyData.size;
+  let processed = 0;
 
-  for (const [stateCode, items] of stateGroups) {
-    console.log(`Updating ${items.length.toLocaleString()} cities in ${stateCode}...`);
+  for (const [countyKey, { schools }] of countyData) {
+    if (limit && processed >= limit) break;
+    processed++;
 
-    for (const { city, eduData } of items) {
-      const profilePath = path.join(PROFILES_DIR, stateCode, `${city.slug}.json`);
+    const eduData = aggregateEducation(schools);
+    const citiesInCounty = countyToCities.get(countyKey) || [];
 
-      if (!fs.existsSync(profilePath)) {
-        skipped++;
-        continue;
-      }
+    for (const city of citiesInCounty) {
+      const profilePath = path.join(PROFILES_DIR, city.stateCode, `${city.slug}.json`);
+      if (!fs.existsSync(profilePath)) { skipped++; continue; }
 
       try {
         const profile = JSON.parse(fs.readFileSync(profilePath, 'utf8'));
-
-        if (eduData) {
-          profile.education = eduData;
-        } else {
-          // Mark as no data available
-          profile.education = {
-            source: "NCES Common Core of Data",
-            note: "No school data available for this county"
-          };
-        }
-
-        fs.writeFileSync(profilePath, JSON.stringify(profile, null, 2) + '\n', 'utf8');
+        profile.education = eduData;
+        fs.writeFileSync(profilePath, JSON.stringify(profile, null, 2) + '\n');
         updated++;
-
-      } catch (err) {
-        console.error(`  ❌ Error updating ${city.slug}: ${err.message}`);
+      } catch {
         skipped++;
       }
     }
+
+    if (processed % 100 === 0) {
+      process.stdout.write(`\r  ${processed}/${totalCounties} counties, ${updated} profiles updated...`);
+    }
   }
 
-  console.log(`\n✅ Updated ${updated.toLocaleString()} city profiles`);
-  if (skipped > 0) {
-    console.log(`⚠️  Skipped ${skipped.toLocaleString()} cities`);
-  }
-
+  console.log(`\n\n✅ Updated ${updated.toLocaleString()} city profiles with education data`);
+  if (skipped > 0) console.log(`⚠ Skipped ${skipped.toLocaleString()} profiles`);
   console.log('\n🎉 Education data import complete!');
 }
 
