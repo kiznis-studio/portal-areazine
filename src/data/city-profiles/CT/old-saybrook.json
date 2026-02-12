@@ -22,10 +22,10 @@
       "white": 83.9,
       "black": 5,
       "asian": 3.4,
-      "hispanic": 7,
-      "other": 0.7
+      "other": 7.7
     },
-    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+    "source": "Census Bureau ACS 5-Year Estimates (2022)",
+    "hispanicPct": 7
   },
   "health": {
     "measures": {
@@ -124,19 +124,6 @@
     "source": "CDC PLACES (2023)"
   },
   "hospitals": null,
-  "crime": {
-    "year": 2022,
-    "source": "state",
-    "sourceLabel": "FBI Crime Data Explorer (UCR Summary)",
-    "violentCrimeRate": 135.3,
-    "propertyCrimeRate": 1515.7,
-    "assaultRate": 85.4,
-    "homicideRate": 3.9,
-    "robberyRate": 46,
-    "burglaryRate": 132.2,
-    "larcenyRate": 1185,
-    "motorVehicleTheftRate": 198.5
-  },
   "climate": {
     "station": "US1CTNL0038",
     "stationName": "OLD LYME 3.4 ESE",

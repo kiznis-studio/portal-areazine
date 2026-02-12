@@ -22,10 +22,10 @@
       "white": 76.3,
       "black": 0.8,
       "asian": 0.9,
-      "hispanic": 28,
-      "other": -6
+      "other": 22
     },
-    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+    "source": "Census Bureau ACS 5-Year Estimates (2022)",
+    "hispanicPct": 28
   },
   "health": {
     "measures": {
@@ -138,19 +138,6 @@
     "ratedHospitals": 1,
     "averageRating": 3,
     "source": "CMS Hospital Compare (2024)"
-  },
-  "crime": {
-    "year": 2022,
-    "source": "state",
-    "sourceLabel": "FBI Crime Data Explorer (UCR Summary)",
-    "violentCrimeRate": 309.5,
-    "propertyCrimeRate": 2971.5,
-    "assaultRate": 235,
-    "homicideRate": 4.8,
-    "robberyRate": 69.7,
-    "burglaryRate": 375.2,
-    "larcenyRate": 2043.5,
-    "motorVehicleTheftRate": 552.8
   },
   "history": {
     "years": [
@@ -303,7 +290,6 @@
       "avgTemp": 52.9,
       "highTemp": 66,
       "lowTemp": 39.9,
-      "totalPrecip": 0,
       "hotMonths": 2,
       "coldMonths": 3
     }

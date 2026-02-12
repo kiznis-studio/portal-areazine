@@ -582,11 +582,18 @@ ssh root@158.101.199.103 "cd /opt/areazine/repo && git pull origin main && syste
 | Compare tool (`/compare`) | 1 | Autocomplete + comparison | ~481 KB |
 | Homepage | 1 | None | ~44 KB |
 
-### Sensitivity Guidelines
+### Data Neutrality & Sensitivity (Mandatory)
 
-- **Ethnicity labels:** Use "African American" (not "Black"), "Hispanic or Latino" (not "Hispanic"), "Other / Multiethnic" (not "Other / Multiracial")
+**Racial and ethnic neutrality is non-negotiable.** All data must be presented factually without editorializing, ranking by demographic characteristics, or implying value judgments about any group.
+
+- **Official terminology only:** Follow Census Bureau naming — "White", "African American", "Asian", "Hispanic or Latino", "Other / Multiracial"
+- **Race vs ethnicity:** Hispanic/Latino is an ethnicity (not a race). Show race categories summing to 100% in one breakdown; show Hispanic/Latino separately with "(ethnicity, any race)" qualifier
 - **Section headers:** "Demographics" is neutral and acceptable
-- **Avoid:** "race", "racial" terminology — use "ethnicity", "ethnic" instead
+- **Never fabricate or extrapolate:** If data isn't available at the correct geographic level (e.g., city-level crime from state-level source), omit it entirely — never display misleading approximations
+- **Source attribution required:** Every data section must show source agency and data year
+- **No loaded comparisons:** Don't rank or sort cities by demographic or socioeconomic characteristics in ways that stigmatize communities
+- **Missing data:** Show "Data not available" or hide the section — never show zeros or placeholders that could be mistaken for real values
+- **Context matters:** Crime rates, poverty rates, and health metrics should always include context (e.g., sample size, geographic scope, data vintage)
 
 ### Planned Enhancements
 

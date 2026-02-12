@@ -22,10 +22,10 @@
       "white": 85.2,
       "black": 1.7,
       "asian": 1.4,
-      "hispanic": 11.8,
-      "other": -0.1
+      "other": 11.7
     },
-    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+    "source": "Census Bureau ACS 5-Year Estimates (2022)",
+    "hispanicPct": 11.8
   },
   "health": {
     "measures": {
@@ -124,19 +124,6 @@
     "source": "CDC PLACES (2023)"
   },
   "hospitals": null,
-  "crime": {
-    "year": 2022,
-    "source": "state",
-    "sourceLabel": "FBI Crime Data Explorer (UCR Summary)",
-    "violentCrimeRate": 135.3,
-    "propertyCrimeRate": 1515.7,
-    "assaultRate": 85.4,
-    "homicideRate": 3.9,
-    "robberyRate": 46,
-    "burglaryRate": 132.2,
-    "larcenyRate": 1185,
-    "motorVehicleTheftRate": 198.5
-  },
   "climate": {
     "station": "USC00063857",
     "stationName": "JEWETT CITY",
@@ -185,18 +172,5 @@
       "hotMonths": 0,
       "coldMonths": 0
     }
-  },
-  "education": {
-    "source": "NCES Common Core of Data 2024-25",
-    "totalSchools": 3,
-    "elementarySchools": 2,
-    "middleSchools": 1,
-    "highSchools": 0,
-    "otherSchools": 0,
-    "charterSchools": 0,
-    "charterPct": 0,
-    "nslpSchools": 3,
-    "nslpPct": 100,
-    "virtualSchools": 0
   }
 }

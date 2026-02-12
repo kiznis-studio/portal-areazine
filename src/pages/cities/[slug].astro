@@ -11,7 +11,7 @@ import HealthMetricRow from '../../components/data/HealthMetricRow.astro';
 import HospitalRatingDist from '../../components/data/HospitalRatingDist.astro';
 import HospitalCard from '../../components/data/HospitalCard.astro';
 import DataSourceFooter from '../../components/data/DataSourceFooter.astro';
-import CrimeSection from '../../components/data/CrimeSection.astro';
+// CrimeSection removed — only state-level data available, not city-specific
 import HistoricalTrends from '../../components/data/HistoricalTrends.astro';
 import ClimateSection from '../../components/data/ClimateSection.astro';
 import CostOfLivingSection from '../../components/data/CostOfLivingSection.astro';
@@ -45,7 +45,7 @@ const profile = profiles[city.slug] || null;
 const census = profile?.census;
 const health = profile?.health;
 const hospitalData = profile?.hospitals;
-const crimeData = profile?.crime;
+// crimeData removed — only state-level data available
 const historyData = profile?.history;
 const climateData = profile?.climate;
 const educationData = profile?.education;
@@ -218,7 +218,7 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
           <section>
             <SectionHeader title="Demographics" />
             <div class="border border-[var(--color-border)] rounded-xl p-5">
-              <DemographicsChart demographics={census.demographics} />
+              <DemographicsChart demographics={census.demographics} hispanicPct={census.hispanicPct} />
             </div>
           </section>
         </div>
@@ -269,13 +269,9 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
       </section>
     )}
 
-    {/* Public Safety */}
-    {crimeData && crimeData.violentCrimeRate > 0 && (
-      <section class="mb-12">
-        <SectionHeader title="Public Safety" count={`${crimeData.year} data`} />
-        <CrimeSection crime={crimeData} />
-      </section>
-    )}
+    {/* Public Safety: Removed — only state-level data available from FBI CDE.
+         Showing state averages as city-specific would be misleading.
+         Crime data remains on state pages where it's accurate. */}
 
     {/* Hospitals */}
     {hospitalData && hospitalData.hospitals.length > 0 && (
@@ -320,7 +316,7 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
     )}
 
     {/* Climate */}
-    {climateData && climateData.annual && (
+    {climateData && climateData.annual && climateData.annual.avgTemp != null && (
       <ClimateSection climate={climateData} />
     )}
 
@@ -405,10 +401,7 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
         { "@type": "PropertyValue", "name": "Median Rent", "value": census.medianRent, "unitCode": "USD" },
         { "@type": "PropertyValue", "name": "Poverty Rate", "value": census.povertyRate, "unitText": "%" },
         { "@type": "PropertyValue", "name": "Median Age", "value": census.medianAge, "unitText": "years" },
-        ...(crimeData ? [
-          { "@type": "PropertyValue", "name": "Violent Crime Rate", "value": crimeData.violentCrimeRate, "unitText": "per 100,000 residents" },
-          { "@type": "PropertyValue", "name": "Property Crime Rate", "value": crimeData.propertyCrimeRate, "unitText": "per 100,000 residents" },
-        ] : []),
+        // Crime data omitted from city pages — only state-level data available
       ].filter(p => p.value != null),
     }),
   })} />
@@ -418,7 +411,7 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
     "@context": "https://schema.org",
     "@type": "Dataset",
     "name": `${city.name}, ${city.stateCode} City Data Report`,
-    "description": `Demographics, economics, health, crime, and hospital data for ${city.name}, ${city.stateCode}. Sources: U.S. Census Bureau ACS, CDC PLACES, CMS Hospital Compare, FBI Crime Data Explorer.`,
+    "description": `Demographics, economics, health, and hospital data for ${city.name}, ${city.stateCode}. Sources: U.S. Census Bureau ACS, CDC PLACES, CMS Hospital Compare, NOAA, BEA, NCES.`,
     "url": `https://areazine.com/cities/${city.slug}`,
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "isAccessibleForFree": true,
@@ -436,7 +429,7 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
     },
     "variableMeasured": [
       "Population", "Median Household Income", "Median Home Value", "Poverty Rate",
-      "Violent Crime Rate", "Property Crime Rate", "Health Indicators", "Hospital Ratings",
+      "Health Indicators", "Hospital Ratings", "Climate", "Cost of Living", "Education",
     ],
   })} />
 

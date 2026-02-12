@@ -48,7 +48,7 @@ const tempRange = maxTemp - minTemp || 1;
         </svg>
         Annual Rainfall
       </div>
-      <div class="text-xl font-black tabular-nums">{climate.annual.totalPrecip != null ? `${climate.annual.totalPrecip.toFixed(1)}"` : '—'}</div>
+      <div class="text-xl font-black tabular-nums">{climate.annual.totalPrecip != null ? `${climate.annual.totalPrecip.toFixed(1)}"` : 'N/A'}</div>
     </div>
     <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
       <div class="text-xs text-[var(--color-muted)] mb-1 flex items-center gap-1.5">
@@ -104,7 +104,7 @@ const tempRange = maxTemp - minTemp || 1;
             </div>
             <div class="text-xs text-[var(--color-muted)] mt-1 tabular-nums">{data.lowTemp.toFixed(0)}°</div>
             <div class="text-xs font-medium mt-0.5">{monthLabels[i]}</div>
-            <div class="text-xs text-[var(--color-muted)] tabular-nums">{(data.precip || 0).toFixed(1)}"</div>
+            <div class="text-xs text-[var(--color-muted)] tabular-nums">{data.precip != null ? `${data.precip.toFixed(1)}"` : '—'}</div>
           </div>
         );
       })}

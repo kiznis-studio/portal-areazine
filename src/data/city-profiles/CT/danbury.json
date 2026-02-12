@@ -22,10 +22,10 @@
       "white": 66.7,
       "black": 10,
       "asian": 5.2,
-      "hispanic": 20.1,
-      "other": -2
+      "other": 18.1
     },
-    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+    "source": "Census Bureau ACS 5-Year Estimates (2022)",
+    "hispanicPct": 20.1
   },
   "health": {
     "measures": {
@@ -124,19 +124,6 @@
     "source": "CDC PLACES (2023)"
   },
   "hospitals": null,
-  "crime": {
-    "year": 2022,
-    "source": "state",
-    "sourceLabel": "FBI Crime Data Explorer (UCR Summary)",
-    "violentCrimeRate": 135.3,
-    "propertyCrimeRate": 1515.7,
-    "assaultRate": 85.4,
-    "homicideRate": 3.9,
-    "robberyRate": 46,
-    "burglaryRate": 132.2,
-    "larcenyRate": 1185,
-    "motorVehicleTheftRate": 198.5
-  },
   "climate": {
     "station": "USC00061762",
     "stationName": "DANBURY",

@@ -22,10 +22,10 @@
       "white": 68.9,
       "black": 11.6,
       "asian": 4.1,
-      "hispanic": 19.1,
-      "other": -3.7
+      "other": 15.4
     },
-    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+    "source": "Census Bureau ACS 5-Year Estimates (2022)",
+    "hispanicPct": 19.1
   },
   "health": {
     "measures": {
@@ -124,19 +124,6 @@
     "source": "CDC PLACES (2023)"
   },
   "hospitals": null,
-  "crime": {
-    "year": 2022,
-    "source": "state",
-    "sourceLabel": "FBI Crime Data Explorer (UCR Summary)",
-    "violentCrimeRate": 135.3,
-    "propertyCrimeRate": 1515.7,
-    "assaultRate": 85.4,
-    "homicideRate": 3.9,
-    "robberyRate": 46,
-    "burglaryRate": 132.2,
-    "larcenyRate": 1185,
-    "motorVehicleTheftRate": 198.5
-  },
   "climate": {
     "station": "USC00068330",
     "stationName": "THOMASTON DAM",

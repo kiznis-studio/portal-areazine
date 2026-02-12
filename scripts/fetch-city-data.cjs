@@ -51,6 +51,8 @@ const CENSUS_VARS = [
   'B02001_002E',  // White alone
   'B02001_003E',  // Black alone
   'B02001_005E',  // Asian alone
+  'B02001_006E',  // Some other race alone
+  'B02001_007E',  // Two or more races
   'B03001_003E',  // Hispanic/Latino
   'B08301_001E',  // Total commuters
   'B08301_010E',  // Public transit commuters
@@ -152,15 +154,17 @@ async function fetchCensusData() {
           ? ((raw.B08006_017E / raw.B08301_001E) * 100).toFixed(1)
           : null;
 
-        // Race percentages
+        // Race percentages (from B02001 race table — mutually exclusive, sums to 100%)
         const raceTotal = raw.B02001_001E || 1;
         const whitePct = ((raw.B02001_002E / raceTotal) * 100).toFixed(1);
         const blackPct = ((raw.B02001_003E / raceTotal) * 100).toFixed(1);
         const asianPct = ((raw.B02001_005E / raceTotal) * 100).toFixed(1);
-        const hispanicPct = raceTotal > 0
-          ? ((raw.B03001_003E / raceTotal) * 100).toFixed(1)
+        // "Other" = AI/AN + NHPI + Some other race + Two or more (remainder of race table)
+        const otherPct = (100 - Number(whitePct) - Number(blackPct) - Number(asianPct)).toFixed(1);
+        // Hispanic/Latino is an ethnicity (not a race) — shown separately, not in race breakdown
+        const hispanicPct = raw.B03001_003E > 0
+          ? ((raw.B03001_003E / (raw.B01001_001E || 1)) * 100).toFixed(1)
           : null;
-        const otherPct = (100 - Number(whitePct) - Number(blackPct) - Number(asianPct) - Number(hispanicPct || 0)).toFixed(1);
 
         results[city.slug] = {
           population,
@@ -177,9 +181,9 @@ async function fetchCensusData() {
             white: Number(whitePct),
             black: Number(blackPct),
             asian: Number(asianPct),
-            hispanic: Number(hispanicPct),
             other: Number(otherPct),
           },
+          hispanicPct: hispanicPct ? Number(hispanicPct) : null,
           source: 'Census Bureau ACS 5-Year Estimates (2022)',
         };
 

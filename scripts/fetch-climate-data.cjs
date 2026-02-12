@@ -187,6 +187,7 @@ async function fetchStationClimateData(stationId) {
     let avgTempCount = 0;
     let highTempCount = 0;
     let lowTempCount = 0;
+    let precipCount = 0;
 
     for (const month of months) {
       const data = monthlyData[month];
@@ -206,6 +207,7 @@ async function fetchStationClimateData(stationId) {
       }
       if (data.precip !== undefined) {
         totalPrecip += data.precip;
+        precipCount++;
       }
     }
 
@@ -213,7 +215,7 @@ async function fetchStationClimateData(stationId) {
       avgTemp: avgTempCount > 0 ? Math.round(totalAvgTemp / avgTempCount * 10) / 10 : null,
       highTemp: highTempCount > 0 ? Math.round(totalHighTemp / highTempCount * 10) / 10 : null,
       lowTemp: lowTempCount > 0 ? Math.round(totalLowTemp / lowTempCount * 10) / 10 : null,
-      totalPrecip: Math.round(totalPrecip * 100) / 100,
+      totalPrecip: precipCount > 0 ? Math.round(totalPrecip * 100) / 100 : null,
       hotMonths,
       coldMonths
     };
