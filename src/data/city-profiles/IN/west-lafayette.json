@@ -239,5 +239,54 @@
       3.6,
       2.9
     ]
+  },
+  "climate": {
+    "station": "USC00129435",
+    "stationName": "W LAFAYETTE SEW PLT",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 43,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

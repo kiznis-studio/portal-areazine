@@ -303,5 +303,54 @@
       4.7,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1AZMR0026",
+    "stationName": "SUN CITY WEST 1.0 W",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.2
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 1
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.1
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.9
+      },
+      "aug": {
+        "precip": 1
+      },
+      "sep": {
+        "precip": 0.7
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 0.6
+      },
+      "dec": {
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 8.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

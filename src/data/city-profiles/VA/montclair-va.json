@@ -239,5 +239,54 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1VAPW0010",
+    "stationName": "WOODBRIDGE 5.9 NW",
+    "distanceMi": 6.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

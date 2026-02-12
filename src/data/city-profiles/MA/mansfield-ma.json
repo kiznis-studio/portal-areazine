@@ -255,5 +255,93 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00195984",
+    "stationName": "NORTON W",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.4,
+        "highTemp": 36.5,
+        "lowTemp": 18.3,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 29.1,
+        "highTemp": 38.9,
+        "lowTemp": 19.4,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 36.4,
+        "highTemp": 46.2,
+        "lowTemp": 26.5,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 46.7,
+        "highTemp": 58,
+        "lowTemp": 35.4,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 57.2,
+        "highTemp": 68.6,
+        "lowTemp": 45.8,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 66.2,
+        "highTemp": 77.1,
+        "lowTemp": 55.3,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 72.1,
+        "highTemp": 82.5,
+        "lowTemp": 61.6,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 70.5,
+        "highTemp": 80.9,
+        "lowTemp": 60,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 62.6,
+        "highTemp": 73.2,
+        "lowTemp": 52,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 51.1,
+        "highTemp": 61.2,
+        "lowTemp": 41,
+        "precip": 5.1
+      },
+      "nov": {
+        "avgTemp": 41.5,
+        "highTemp": 51.1,
+        "lowTemp": 32,
+        "precip": 4.5
+      },
+      "dec": {
+        "avgTemp": 32.9,
+        "highTemp": 41.5,
+        "lowTemp": 24.3,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 59.6,
+      "lowTemp": 39.3,
+      "totalPrecip": 52.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

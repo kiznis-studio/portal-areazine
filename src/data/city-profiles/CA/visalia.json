@@ -239,5 +239,91 @@
       9,
       8.8
     ]
+  },
+  "climate": {
+    "station": "USC00049367",
+    "stationName": "VISALIA",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.9,
+        "highTemp": 55.3,
+        "lowTemp": 38.4,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 51.4,
+        "highTemp": 61.3,
+        "lowTemp": 41.6,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 56.2,
+        "highTemp": 66.9,
+        "lowTemp": 45.4,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 60.6,
+        "highTemp": 72.7,
+        "lowTemp": 48.6,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 68,
+        "highTemp": 80.6,
+        "lowTemp": 55.4,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 75.1,
+        "highTemp": 88.8,
+        "lowTemp": 61.5,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 80.2,
+        "highTemp": 93.8,
+        "lowTemp": 66.7
+      },
+      "aug": {
+        "avgTemp": 79,
+        "highTemp": 93.2,
+        "lowTemp": 64.9
+      },
+      "sep": {
+        "avgTemp": 74.2,
+        "highTemp": 88.3,
+        "lowTemp": 60.1,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 65.1,
+        "highTemp": 77.8,
+        "lowTemp": 52.3,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 53.9,
+        "highTemp": 64.4,
+        "lowTemp": 43.3,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 46.6,
+        "highTemp": 55.4,
+        "lowTemp": 37.9,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 63.1,
+      "highTemp": 74.9,
+      "lowTemp": 51.3,
+      "totalPrecip": 10.4,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

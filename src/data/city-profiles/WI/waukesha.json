@@ -255,5 +255,93 @@
       2.6,
       2.6
     ]
+  },
+  "climate": {
+    "station": "USC00478937",
+    "stationName": "WAUKESHA WWTP",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.7,
+        "highTemp": 27.7,
+        "lowTemp": 11.6,
+        "precip": 1.6
+      },
+      "feb": {
+        "avgTemp": 23,
+        "highTemp": 31.5,
+        "lowTemp": 14.6,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 33.5,
+        "highTemp": 43,
+        "lowTemp": 24,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 45.1,
+        "highTemp": 55.3,
+        "lowTemp": 34.8,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 56.6,
+        "highTemp": 67.3,
+        "lowTemp": 45.8,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 66.5,
+        "highTemp": 77.4,
+        "lowTemp": 55.6,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 70.9,
+        "highTemp": 81.4,
+        "lowTemp": 60.3,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 69.4,
+        "highTemp": 79.8,
+        "lowTemp": 58.9,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 62,
+        "highTemp": 72.9,
+        "lowTemp": 51.1,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 49.9,
+        "highTemp": 60,
+        "lowTemp": 39.8,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 36.7,
+        "highTemp": 45,
+        "lowTemp": 28.3,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 25.5,
+        "highTemp": 33,
+        "lowTemp": 18.1,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 46.6,
+      "highTemp": 56.2,
+      "lowTemp": 36.9,
+      "totalPrecip": 36.1,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

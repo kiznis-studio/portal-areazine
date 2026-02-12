@@ -231,5 +231,93 @@
       4.9,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00313356",
+    "stationName": "GASTONIA",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.1,
+        "highTemp": 52.7,
+        "lowTemp": 31.4,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 45.6,
+        "highTemp": 57,
+        "lowTemp": 34.1,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 52.6,
+        "highTemp": 64.7,
+        "lowTemp": 40.4,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 61.8,
+        "highTemp": 73.8,
+        "lowTemp": 49.7,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 69.4,
+        "highTemp": 80.5,
+        "lowTemp": 58.3,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 77,
+        "highTemp": 87.3,
+        "lowTemp": 66.7,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 80.5,
+        "highTemp": 90.7,
+        "lowTemp": 70.2,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 79.2,
+        "highTemp": 89.2,
+        "lowTemp": 69.1,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 73.6,
+        "highTemp": 84,
+        "lowTemp": 63.3,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 62.7,
+        "highTemp": 74.3,
+        "lowTemp": 51,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 51.9,
+        "highTemp": 63.8,
+        "lowTemp": 40,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 45,
+        "highTemp": 55.6,
+        "lowTemp": 34.5,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 61.8,
+      "highTemp": 72.8,
+      "lowTemp": 50.7,
+      "totalPrecip": 44.1,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

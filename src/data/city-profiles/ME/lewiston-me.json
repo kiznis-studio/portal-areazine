@@ -239,5 +239,93 @@
       4.8,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00174566",
+    "stationName": "LEWISTON HCN",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 20,
+        "highTemp": 28.4,
+        "lowTemp": 11.6,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 22.6,
+        "highTemp": 31.6,
+        "lowTemp": 13.7,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 31.4,
+        "highTemp": 40.3,
+        "lowTemp": 22.6,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 43.9,
+        "highTemp": 52.9,
+        "lowTemp": 34.8,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 55.6,
+        "highTemp": 65.3,
+        "lowTemp": 46,
+        "precip": 3.2
+      },
+      "jun": {
+        "avgTemp": 64.9,
+        "highTemp": 74.1,
+        "lowTemp": 55.8,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 70.8,
+        "highTemp": 79.9,
+        "lowTemp": 61.8,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 69.8,
+        "highTemp": 79.2,
+        "lowTemp": 60.4,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 61.3,
+        "highTemp": 70.3,
+        "lowTemp": 52.2,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 49.4,
+        "highTemp": 57.6,
+        "lowTemp": 41.2,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 38.2,
+        "highTemp": 45,
+        "lowTemp": 31.4,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 27.3,
+        "highTemp": 34.2,
+        "lowTemp": 20.4,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 46.3,
+      "highTemp": 54.9,
+      "lowTemp": 37.7,
+      "totalPrecip": 45.1,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

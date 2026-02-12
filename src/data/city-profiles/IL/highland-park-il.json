@@ -271,5 +271,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1ILLK0069",
+    "stationName": "HIGHWOOD 0.9 S",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.1
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,54 @@
       3.1,
       3
     ]
+  },
+  "climate": {
+    "station": "USC00124249",
+    "stationName": "INDIANAPOLIS EAGLE CREEK 4 NNE",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 4.6
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

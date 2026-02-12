@@ -247,5 +247,93 @@
       5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00356151",
+    "stationName": "N WILLAMETTE EXP STN",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.8,
+        "highTemp": 47.2,
+        "lowTemp": 36.4,
+        "precip": 6.1
+      },
+      "feb": {
+        "avgTemp": 44.1,
+        "highTemp": 51.6,
+        "lowTemp": 36.6,
+        "precip": 4.2
+      },
+      "mar": {
+        "avgTemp": 47.3,
+        "highTemp": 55.7,
+        "lowTemp": 38.9,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 51.2,
+        "highTemp": 60.2,
+        "lowTemp": 42.1,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 57.4,
+        "highTemp": 67.7,
+        "lowTemp": 47.1,
+        "precip": 2.4
+      },
+      "jun": {
+        "avgTemp": 62.7,
+        "highTemp": 73.7,
+        "lowTemp": 51.7,
+        "precip": 1.6
+      },
+      "jul": {
+        "avgTemp": 68.6,
+        "highTemp": 81.7,
+        "lowTemp": 55.5,
+        "precip": 0.5
+      },
+      "aug": {
+        "avgTemp": 68.7,
+        "highTemp": 82.2,
+        "lowTemp": 55.3,
+        "precip": 0.5
+      },
+      "sep": {
+        "avgTemp": 63.8,
+        "highTemp": 76.2,
+        "lowTemp": 51.3,
+        "precip": 1.7
+      },
+      "oct": {
+        "avgTemp": 54,
+        "highTemp": 63.5,
+        "lowTemp": 44.6,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 45.8,
+        "highTemp": 52.4,
+        "lowTemp": 39.2,
+        "precip": 6.3
+      },
+      "dec": {
+        "avgTemp": 41.3,
+        "highTemp": 47,
+        "lowTemp": 35.5,
+        "precip": 6.6
+      }
+    },
+    "annual": {
+      "avgTemp": 53.9,
+      "highTemp": 63.3,
+      "lowTemp": 44.5,
+      "totalPrecip": 42.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,93 @@
       2.9,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USW00014898",
+    "stationName": "GREEN BAY 72645",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 18.3,
+        "highTemp": 25.5,
+        "lowTemp": 11.1,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 21.1,
+        "highTemp": 29,
+        "lowTemp": 13.2,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 32.1,
+        "highTemp": 40.4,
+        "lowTemp": 23.9,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 44.3,
+        "highTemp": 53.8,
+        "lowTemp": 34.8,
+        "precip": 3
+      },
+      "may": {
+        "avgTemp": 56.5,
+        "highTemp": 67.1,
+        "lowTemp": 46,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 66.4,
+        "highTemp": 76.6,
+        "lowTemp": 56.2,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 70.5,
+        "highTemp": 81,
+        "lowTemp": 60.1,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 68.6,
+        "highTemp": 78.9,
+        "lowTemp": 58.2,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 61,
+        "highTemp": 71.7,
+        "lowTemp": 50.2,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 48.7,
+        "highTemp": 58,
+        "lowTemp": 39.5,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 36.2,
+        "highTemp": 43.5,
+        "lowTemp": 28.9,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 24.5,
+        "highTemp": 31.1,
+        "lowTemp": 18,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 45.7,
+      "highTemp": 54.7,
+      "lowTemp": 36.7,
+      "totalPrecip": 31.8,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

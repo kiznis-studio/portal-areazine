@@ -239,5 +239,93 @@
       6.2,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USC00117391",
+    "stationName": "ROCK ISLAND L&D 15",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.2,
+        "highTemp": 31,
+        "lowTemp": 13.4,
+        "precip": 1.5
+      },
+      "feb": {
+        "avgTemp": 27.1,
+        "highTemp": 36.3,
+        "lowTemp": 17.9,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 38.2,
+        "highTemp": 48.4,
+        "lowTemp": 28,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 50.3,
+        "highTemp": 61.4,
+        "lowTemp": 39.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 72.3,
+        "lowTemp": 50.8,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 71.1,
+        "highTemp": 81.2,
+        "lowTemp": 61,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 74.4,
+        "highTemp": 83.9,
+        "lowTemp": 64.9,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 72.7,
+        "highTemp": 82.4,
+        "lowTemp": 63.1,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 65.8,
+        "highTemp": 76.7,
+        "lowTemp": 55,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 53.3,
+        "highTemp": 63.7,
+        "lowTemp": 42.9,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 39.4,
+        "highTemp": 48.7,
+        "lowTemp": 30.2,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 27.8,
+        "highTemp": 36,
+        "lowTemp": 19.7,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 50.3,
+      "highTemp": 60.2,
+      "lowTemp": 40.5,
+      "totalPrecip": 38.7,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

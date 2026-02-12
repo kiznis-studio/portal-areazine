@@ -231,5 +231,54 @@
       4.2,
       3.9
     ]
+  },
+  "climate": {
+    "station": "US1KSRN0062",
+    "stationName": "HUTCHINSON 2.5 W",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.9
+      },
+      "feb": {
+        "precip": 1.1
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 2.4
+      },
+      "oct": {
+        "precip": 2.5
+      },
+      "nov": {
+        "precip": 1.3
+      },
+      "dec": {
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 31.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

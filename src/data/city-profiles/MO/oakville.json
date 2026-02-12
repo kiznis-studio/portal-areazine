@@ -303,5 +303,54 @@
       4.3,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1MOJF0018",
+    "stationName": "ARNOLD 0.5 E",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

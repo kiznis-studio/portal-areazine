@@ -279,5 +279,92 @@
       7.2,
       7.4
     ]
+  },
+  "climate": {
+    "station": "USC00048560",
+    "stationName": "STOCKTON FIRE STN 4",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.8,
+        "highTemp": 58.2,
+        "lowTemp": 39.3,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 53.3,
+        "highTemp": 64.5,
+        "lowTemp": 42.2,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 57.8,
+        "highTemp": 70,
+        "lowTemp": 45.6,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 62.2,
+        "highTemp": 75,
+        "lowTemp": 49.4,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 68.7,
+        "highTemp": 83.1,
+        "lowTemp": 54.2,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 74.3,
+        "highTemp": 90.5,
+        "lowTemp": 58.2,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 77.8,
+        "highTemp": 94.7,
+        "lowTemp": 61
+      },
+      "aug": {
+        "avgTemp": 77.4,
+        "highTemp": 94.9,
+        "lowTemp": 59.8,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 74.5,
+        "highTemp": 91.9,
+        "lowTemp": 57.1,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 66.4,
+        "highTemp": 81.8,
+        "lowTemp": 50.9,
+        "precip": 1
+      },
+      "nov": {
+        "avgTemp": 56.2,
+        "highTemp": 68.8,
+        "lowTemp": 43.7,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 48.9,
+        "highTemp": 58.7,
+        "lowTemp": 39,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 63.9,
+      "highTemp": 77.7,
+      "lowTemp": 50,
+      "totalPrecip": 17.4,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

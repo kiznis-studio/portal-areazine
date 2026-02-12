@@ -271,5 +271,93 @@
       7.3,
       7.1
     ]
+  },
+  "climate": {
+    "station": "USC00405956",
+    "stationName": "MEMPHIS WFO",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.6,
+        "highTemp": 49.4,
+        "lowTemp": 29.9,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 43.4,
+        "highTemp": 54.1,
+        "lowTemp": 32.7,
+        "precip": 4.8
+      },
+      "mar": {
+        "avgTemp": 51.6,
+        "highTemp": 63.1,
+        "lowTemp": 40.1,
+        "precip": 5.7
+      },
+      "apr": {
+        "avgTemp": 60.8,
+        "highTemp": 72.7,
+        "lowTemp": 49,
+        "precip": 5.9
+      },
+      "may": {
+        "avgTemp": 70.1,
+        "highTemp": 81.1,
+        "lowTemp": 59.1,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 78,
+        "highTemp": 88.4,
+        "lowTemp": 67.5,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 81.1,
+        "highTemp": 91.3,
+        "lowTemp": 71,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 79.9,
+        "highTemp": 90.7,
+        "lowTemp": 69.2,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 73.6,
+        "highTemp": 85.3,
+        "lowTemp": 61.9,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 62.2,
+        "highTemp": 74.6,
+        "lowTemp": 49.7,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 50.6,
+        "highTemp": 62.1,
+        "lowTemp": 39.1,
+        "precip": 4.8
+      },
+      "dec": {
+        "avgTemp": 42.6,
+        "highTemp": 52.4,
+        "lowTemp": 32.8,
+        "precip": 5.7
+      }
+    },
+    "annual": {
+      "avgTemp": 61.1,
+      "highTemp": 72.1,
+      "lowTemp": 50.2,
+      "totalPrecip": 57.2,
+      "hotMonths": 5,
+      "coldMonths": 1
+    }
   }
 }

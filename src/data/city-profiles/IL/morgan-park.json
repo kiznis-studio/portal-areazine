@@ -303,5 +303,54 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1ILCK0211",
+    "stationName": "OAK LAWN 1.6 WNW",
+    "distanceMi": 6.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

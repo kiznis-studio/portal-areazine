@@ -255,5 +255,54 @@
       4.5,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1FLLE0006",
+    "stationName": "BUCKINGHAM 1.7 SE",
+    "distanceMi": 6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 11.3
+      },
+      "jul": {
+        "precip": 9
+      },
+      "aug": {
+        "precip": 10.1
+      },
+      "sep": {
+        "precip": 11.1
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 62.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -295,5 +295,93 @@
       4.2,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00417588",
+    "stationName": "RICHARDSON",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.8,
+        "highTemp": 55.9,
+        "lowTemp": 35.8,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 49.8,
+        "highTemp": 60,
+        "lowTemp": 39.5,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 58.1,
+        "highTemp": 68.6,
+        "lowTemp": 47.5,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 65.1,
+        "highTemp": 75.4,
+        "lowTemp": 54.8,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 73.1,
+        "highTemp": 82.6,
+        "lowTemp": 63.6,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 80.6,
+        "highTemp": 90,
+        "lowTemp": 71.2,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 84.8,
+        "highTemp": 94.3,
+        "lowTemp": 75.3,
+        "precip": 2.2
+      },
+      "aug": {
+        "avgTemp": 84.7,
+        "highTemp": 94.8,
+        "lowTemp": 74.5,
+        "precip": 2.5
+      },
+      "sep": {
+        "avgTemp": 77.2,
+        "highTemp": 87.3,
+        "lowTemp": 67.1,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 66.8,
+        "highTemp": 77.5,
+        "lowTemp": 56.1,
+        "precip": 5.3
+      },
+      "nov": {
+        "avgTemp": 55.9,
+        "highTemp": 66.1,
+        "lowTemp": 45.6,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 47.6,
+        "highTemp": 57.3,
+        "lowTemp": 38,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 65.8,
+      "highTemp": 75.8,
+      "lowTemp": 55.8,
+      "totalPrecip": 42,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

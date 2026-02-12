@@ -271,5 +271,93 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00513117",
+    "stationName": "KANEOHE 838.1",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 72.4,
+        "highTemp": 78.4,
+        "lowTemp": 66.3,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 72.2,
+        "highTemp": 77.9,
+        "lowTemp": 66.5,
+        "precip": 5.5
+      },
+      "mar": {
+        "avgTemp": 72.9,
+        "highTemp": 78.6,
+        "lowTemp": 67.1,
+        "precip": 6.5
+      },
+      "apr": {
+        "avgTemp": 74.2,
+        "highTemp": 79.9,
+        "lowTemp": 68.6,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 76,
+        "highTemp": 81.8,
+        "lowTemp": 70.3,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 77.6,
+        "highTemp": 83,
+        "lowTemp": 72.1,
+        "precip": 2.7
+      },
+      "jul": {
+        "avgTemp": 78.5,
+        "highTemp": 83.8,
+        "lowTemp": 73.2,
+        "precip": 2.5
+      },
+      "aug": {
+        "avgTemp": 79.1,
+        "highTemp": 84.3,
+        "lowTemp": 73.9,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 79.6,
+        "highTemp": 85.4,
+        "lowTemp": 73.9,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 78.1,
+        "highTemp": 84,
+        "lowTemp": 72.3,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 76.1,
+        "highTemp": 81.2,
+        "lowTemp": 70.9,
+        "precip": 6
+      },
+      "dec": {
+        "avgTemp": 73.7,
+        "highTemp": 78.9,
+        "lowTemp": 68.6,
+        "precip": 5.6
+      }
+    },
+    "annual": {
+      "avgTemp": 75.9,
+      "highTemp": 81.4,
+      "lowTemp": 70.3,
+      "totalPrecip": 51,
+      "hotMonths": 12,
+      "coldMonths": 0
+    }
   }
 }

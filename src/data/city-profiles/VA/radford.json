@@ -216,5 +216,54 @@
       7.2,
       7.5
     ]
+  },
+  "climate": {
+    "station": "US1VARDC001",
+    "stationName": "RADFORD 0.9 WNW",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

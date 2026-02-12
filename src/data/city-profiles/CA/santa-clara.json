@@ -287,5 +287,92 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USW00023293",
+    "stationName": "SAN JOSE",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.8,
+        "highTemp": 59.8,
+        "lowTemp": 41.8,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 53.2,
+        "highTemp": 62.4,
+        "lowTemp": 43.9,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 56.1,
+        "highTemp": 65.9,
+        "lowTemp": 46.3,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 58.8,
+        "highTemp": 69.2,
+        "lowTemp": 48.4,
+        "precip": 1.1
+      },
+      "may": {
+        "avgTemp": 63,
+        "highTemp": 73.8,
+        "lowTemp": 52.1,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 67.3,
+        "highTemp": 79.1,
+        "lowTemp": 55.5,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 69.5,
+        "highTemp": 80.8,
+        "lowTemp": 58.1
+      },
+      "aug": {
+        "avgTemp": 70,
+        "highTemp": 81.4,
+        "lowTemp": 58.6,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 69,
+        "highTemp": 80.7,
+        "lowTemp": 57.2,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 64.3,
+        "highTemp": 75.8,
+        "lowTemp": 52.7,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 55.9,
+        "highTemp": 66.1,
+        "lowTemp": 45.7,
+        "precip": 1.3
+      },
+      "dec": {
+        "avgTemp": 50.6,
+        "highTemp": 59.5,
+        "lowTemp": 41.7,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 60.7,
+      "highTemp": 71.2,
+      "lowTemp": 50.2,
+      "totalPrecip": 13.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

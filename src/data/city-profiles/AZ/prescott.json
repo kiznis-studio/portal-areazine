@@ -247,5 +247,54 @@
       4.9,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1AZYV0068",
+    "stationName": "PRESCOTT 0.8 WSW",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 2
+      },
+      "apr": {
+        "precip": 0.4
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.4
+      },
+      "jul": {
+        "precip": 2.2
+      },
+      "aug": {
+        "precip": 2.4
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

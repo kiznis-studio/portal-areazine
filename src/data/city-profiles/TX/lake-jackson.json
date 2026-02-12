@@ -239,5 +239,54 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1TXBRZ020",
+    "stationName": "LAKE JACKSON 0.9 SSW",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 5.2
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 5.4
+      },
+      "sep": {
+        "precip": 6.1
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

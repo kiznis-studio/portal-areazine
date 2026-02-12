@@ -303,5 +303,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1TXDA0070",
+    "stationName": "MESQUITE 2.3 N",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 2.3
+      },
+      "aug": {
+        "precip": 3
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

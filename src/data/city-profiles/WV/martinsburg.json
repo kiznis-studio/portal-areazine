@@ -239,5 +239,93 @@
       4.6,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00465706",
+    "stationName": "MARTINSBURG 2",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.3,
+        "highTemp": 41.6,
+        "lowTemp": 22.9,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 34.3,
+        "highTemp": 45.2,
+        "lowTemp": 23.5,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 41.8,
+        "highTemp": 53.5,
+        "lowTemp": 30.1,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 52.7,
+        "highTemp": 65.5,
+        "lowTemp": 39.8,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 62.9,
+        "highTemp": 74.9,
+        "lowTemp": 51,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 71.3,
+        "highTemp": 83.1,
+        "lowTemp": 59.5,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 87.2,
+        "lowTemp": 64.1,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 73.8,
+        "highTemp": 85.7,
+        "lowTemp": 61.9,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 66.8,
+        "highTemp": 79.2,
+        "lowTemp": 54.4,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 67.4,
+        "lowTemp": 43,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 44.3,
+        "highTemp": 55.6,
+        "lowTemp": 33.1,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 35.9,
+        "highTemp": 45.1,
+        "lowTemp": 26.7,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 53.9,
+      "highTemp": 65.3,
+      "lowTemp": 42.5,
+      "totalPrecip": 41.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

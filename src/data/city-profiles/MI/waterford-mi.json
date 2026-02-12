@@ -295,5 +295,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1MIOK0035",
+    "stationName": "WATERFORD 2.1 NW",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 1.7
+      },
+      "mar": {
+        "precip": 2
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 3.4
+      },
+      "jul": {
+        "precip": 3.3
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.1
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 33.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

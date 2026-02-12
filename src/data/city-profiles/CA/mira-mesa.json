@@ -303,5 +303,54 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1CASD0080",
+    "stationName": "SAN DIEGO 13.9N",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 1.8
+      },
+      "apr": {
+        "precip": 0.9
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 13.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

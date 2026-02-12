@@ -303,5 +303,93 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00118324",
+    "stationName": "STREAMWOOD",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23,
+        "highTemp": 32.3,
+        "lowTemp": 13.7,
+        "precip": 1.9
+      },
+      "feb": {
+        "avgTemp": 26.4,
+        "highTemp": 36.7,
+        "lowTemp": 16.1,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 36.5,
+        "highTemp": 47.7,
+        "lowTemp": 25.3,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 48.2,
+        "highTemp": 61,
+        "lowTemp": 35.4,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 59.7,
+        "highTemp": 72.9,
+        "lowTemp": 46.5,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 70.2,
+        "highTemp": 83.4,
+        "lowTemp": 57,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 74.1,
+        "highTemp": 86.9,
+        "lowTemp": 61.4,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 72.3,
+        "highTemp": 84.8,
+        "lowTemp": 59.8,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 64.8,
+        "highTemp": 78.1,
+        "lowTemp": 51.4,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 52.2,
+        "highTemp": 64.8,
+        "lowTemp": 39.6,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 39.2,
+        "highTemp": 49.8,
+        "lowTemp": 28.7,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 28.3,
+        "highTemp": 37.7,
+        "lowTemp": 18.9,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 49.6,
+      "highTemp": 61.3,
+      "lowTemp": 37.8,
+      "totalPrecip": 38,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

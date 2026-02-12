@@ -153,5 +153,54 @@
       5.2,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1KYMM0003",
+    "stationName": "MOUNT STERLING 2.4 W",
+    "distanceMi": 11.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.6
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 5.3
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

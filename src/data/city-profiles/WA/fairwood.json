@@ -303,5 +303,54 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1WAKG0041",
+    "stationName": "RENTON 3.6 SSE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.2
+      },
+      "feb": {
+        "precip": 4.2
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 2.3
+      },
+      "jun": {
+        "precip": 1.9
+      },
+      "jul": {
+        "precip": 0.9
+      },
+      "aug": {
+        "precip": 1.1
+      },
+      "sep": {
+        "precip": 1.9
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 6.5
+      },
+      "dec": {
+        "precip": 5.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

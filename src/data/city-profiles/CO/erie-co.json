@@ -263,5 +263,54 @@
       4.4,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1COWE0511",
+    "stationName": "ERIE 1.5 NNE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.6
+      },
+      "mar": {
+        "precip": 1.6
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 2.6
+      },
+      "jun": {
+        "precip": 1.6
+      },
+      "jul": {
+        "precip": 1.8
+      },
+      "aug": {
+        "precip": 1.4
+      },
+      "sep": {
+        "precip": 1.6
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 16.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

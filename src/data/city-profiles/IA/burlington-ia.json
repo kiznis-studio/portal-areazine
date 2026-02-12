@@ -231,5 +231,93 @@
       2.9,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USW00014931",
+    "stationName": "BURLINGTON MUNI AP 72542",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.3,
+        "highTemp": 32.3,
+        "lowTemp": 16.4,
+        "precip": 1.5
+      },
+      "feb": {
+        "avgTemp": 28.8,
+        "highTemp": 37.2,
+        "lowTemp": 20.5,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 40.7,
+        "highTemp": 50.2,
+        "lowTemp": 31.1,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 52.3,
+        "highTemp": 62.8,
+        "lowTemp": 41.9,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 63,
+        "highTemp": 73.1,
+        "lowTemp": 52.9,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 72.5,
+        "highTemp": 82.3,
+        "lowTemp": 62.6,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 85.2,
+        "lowTemp": 66,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 73.8,
+        "highTemp": 83.5,
+        "lowTemp": 64,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 66.7,
+        "highTemp": 77.5,
+        "lowTemp": 55.8,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 54.2,
+        "highTemp": 64.5,
+        "lowTemp": 44,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 41,
+        "highTemp": 49.8,
+        "lowTemp": 32.3,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 29.9,
+        "highTemp": 37.4,
+        "lowTemp": 22.3,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 51.9,
+      "highTemp": 61.3,
+      "lowTemp": 42.5,
+      "totalPrecip": 37.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -255,5 +255,54 @@
       3.8,
       3.6
     ]
+  },
+  "climate": {
+    "station": "US1TNBT0008",
+    "stationName": "FRIENDSVILLE 4.6 NE",
+    "distanceMi": 6.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.1
+      },
+      "feb": {
+        "precip": 5.2
+      },
+      "mar": {
+        "precip": 5.4
+      },
+      "apr": {
+        "precip": 5.4
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 6.2
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 5.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 57.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

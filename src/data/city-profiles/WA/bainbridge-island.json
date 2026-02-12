@@ -231,5 +231,54 @@
       4.2,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1WAKP0003",
+    "stationName": "BREMERTON 1.8 NE",
+    "distanceMi": 5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7.1
+      },
+      "feb": {
+        "precip": 3.8
+      },
+      "mar": {
+        "precip": 5.2
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 2.3
+      },
+      "jun": {
+        "precip": 1.4
+      },
+      "jul": {
+        "precip": 0.7
+      },
+      "aug": {
+        "precip": 1
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 7.3
+      },
+      "dec": {
+        "precip": 7.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 45.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

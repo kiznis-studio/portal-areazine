@@ -231,5 +231,93 @@
       5.2,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00309000",
+    "stationName": "WATERTOWN HCN",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.8,
+        "highTemp": 28.9,
+        "lowTemp": 10.7,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 21.3,
+        "highTemp": 30.9,
+        "lowTemp": 11.7,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 30.6,
+        "highTemp": 39.6,
+        "lowTemp": 21.6,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 44,
+        "highTemp": 53.5,
+        "lowTemp": 34.5,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 57,
+        "highTemp": 66.9,
+        "lowTemp": 47.2,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 66.1,
+        "highTemp": 75.3,
+        "lowTemp": 56.9,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 70.9,
+        "highTemp": 79.8,
+        "lowTemp": 62,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 69.6,
+        "highTemp": 78.7,
+        "lowTemp": 60.5,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 62.1,
+        "highTemp": 71.8,
+        "lowTemp": 52.3,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 49.8,
+        "highTemp": 58.6,
+        "lowTemp": 41,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 38.4,
+        "highTemp": 46.4,
+        "lowTemp": 30.5,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 27.3,
+        "highTemp": 34.9,
+        "lowTemp": 19.7,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 46.4,
+      "highTemp": 55.4,
+      "lowTemp": 37.4,
+      "totalPrecip": 44.5,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

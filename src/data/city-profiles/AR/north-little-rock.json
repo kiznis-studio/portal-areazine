@@ -279,5 +279,54 @@
       5.2,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1ARPS0016",
+    "stationName": "NORTH LITTLE ROCK 1.2 E",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 4.1
+      },
+      "mar": {
+        "precip": 5.4
+      },
+      "apr": {
+        "precip": 5.5
+      },
+      "may": {
+        "precip": 5.5
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 5
+      },
+      "dec": {
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 54,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

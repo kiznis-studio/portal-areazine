@@ -1,0 +1,116 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
+import { fmtCompact, fmtMoney } from '../../lib/format';
+import { SITE_NAME } from '../../lib/config';
+
+import zctaRaw from '../../data/zcta-data.json';
+const zctas = Object.values(zctaRaw as Record<string, any>).filter((z: any) => z.population > 0);
+const totalZips = zctas.length;
+
+// Group by first 3 digits (sectional center)
+const sections: Record<string, { count: number; totalPop: number; range: string }> = {};
+for (const z of zctas as any[]) {
+  const prefix = z.zip.slice(0, 3);
+  if (!sections[prefix]) sections[prefix] = { count: 0, totalPop: 0, range: `${prefix}xx` };
+  sections[prefix].count++;
+  sections[prefix].totalPop += z.population || 0;
+}
+const topSections = Object.entries(sections)
+  .sort((a, b) => b[1].totalPop - a[1].totalPop)
+  .slice(0, 50);
+
+const pageTitle = `US ZIP Code Data — ${totalZips.toLocaleString()} ZIP Codes | ${SITE_NAME}`;
+const pageDesc = `Browse ${totalZips.toLocaleString()} US ZIP codes with population, income, home values, and demographic data from the Census Bureau.`;
+---
+
+<Base title={pageTitle} description={pageDesc}>
+  <div class="container py-8 md:py-12">
+
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'ZIP Codes' },
+    ]} />
+
+    <header class="mb-10">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-black tracking-tight mb-2">US ZIP Code Data</h1>
+      <p class="text-base text-[var(--color-muted)] max-w-2xl">
+        {totalZips.toLocaleString()} ZIP codes with Census demographic and economic data. Search by ZIP code or browse by region.
+      </p>
+    </header>
+
+    {/* Search */}
+    <section class="mb-12">
+      <div class="max-w-md">
+        <label for="zip-search" class="sr-only">Search ZIP codes</label>
+        <input
+          id="zip-search"
+          type="text"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          maxlength={5}
+          placeholder="Enter ZIP code (e.g. 90210)"
+          class="w-full px-4 py-3 rounded-lg bg-[var(--color-card)] border border-[var(--color-border)] text-lg font-mono placeholder:text-[var(--color-muted)] focus:outline-none focus:border-[var(--color-accent)]"
+        />
+        <p id="zip-result" class="mt-2 text-sm text-[var(--color-muted)] hidden"></p>
+      </div>
+    </section>
+
+    {/* Browse by Region */}
+    <section class="mb-12">
+      <SectionHeader title="Browse by Region" count={Object.keys(sections).length} />
+      <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-10 gap-2">
+        {['0','1','2','3','4','5','6','7','8','9'].map(digit => {
+          const regionSections = Object.entries(sections).filter(([k]) => k.startsWith(digit));
+          const regionPop = regionSections.reduce((s, [,v]) => s + v.totalPop, 0);
+          const regionCount = regionSections.reduce((s, [,v]) => s + v.count, 0);
+          return (
+            <div class="text-center py-3 px-2 border border-[var(--color-border)] rounded-lg bg-[var(--color-card)]">
+              <div class="text-2xl font-black tabular-nums">{digit}xxxx</div>
+              <div class="text-xs text-[var(--color-muted)] mt-1">{fmtCompact(regionCount)} ZIPs</div>
+              <div class="text-xs text-[var(--color-muted)]">{fmtCompact(regionPop)} pop</div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    {/* Data Sources */}
+    <details class="pt-8 border-t border-[var(--color-border)] group">
+      <summary class="cursor-pointer text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] select-none flex items-center gap-2">
+        <svg class="w-4 h-4 transition-transform group-open:rotate-90" viewBox="0 0 16 16" fill="none">
+          <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Data Sources
+      </summary>
+      <div class="mt-4">
+        <p class="text-sm text-[var(--color-muted)] max-w-2xl leading-relaxed">
+          Data from the <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Census Bureau American Community Survey</a> (2022 5-year estimates) by ZIP Code Tabulation Area (ZCTA).
+        </p>
+      </div>
+    </details>
+  </div>
+
+  <script>
+    const input = document.getElementById('zip-search') as HTMLInputElement;
+    const result = document.getElementById('zip-result') as HTMLElement;
+    if (input && result) {
+      input.addEventListener('input', () => {
+        const val = input.value.replace(/\D/g, '');
+        input.value = val;
+        if (val.length === 5) {
+          result.classList.remove('hidden');
+          result.textContent = 'Loading...';
+          // Navigate directly to zip page
+          window.location.href = `/zip/${val}`;
+        } else if (val.length > 0) {
+          result.classList.remove('hidden');
+          result.textContent = `Type ${5 - val.length} more digit${5 - val.length > 1 ? 's' : ''}...`;
+        } else {
+          result.classList.add('hidden');
+        }
+      });
+    }
+  </script>
+</Base>

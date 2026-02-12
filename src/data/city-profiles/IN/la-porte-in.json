@@ -216,5 +216,93 @@
       5,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00124837",
+    "stationName": "LAPORTE HCN",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.2,
+        "highTemp": 31.2,
+        "lowTemp": 17.3,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 27.7,
+        "highTemp": 35.1,
+        "lowTemp": 20.3,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 37.4,
+        "highTemp": 46,
+        "lowTemp": 28.7,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 49,
+        "highTemp": 58.8,
+        "lowTemp": 39.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 60,
+        "highTemp": 70,
+        "lowTemp": 50,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 69.3,
+        "highTemp": 78.9,
+        "lowTemp": 59.7,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 73.1,
+        "highTemp": 82.1,
+        "lowTemp": 64,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 71.5,
+        "highTemp": 80.3,
+        "lowTemp": 62.8,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 64.8,
+        "highTemp": 74.4,
+        "lowTemp": 55.2,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 53,
+        "highTemp": 62,
+        "lowTemp": 43.9,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 40.3,
+        "highTemp": 47.7,
+        "lowTemp": 32.9,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 29.9,
+        "highTemp": 36.2,
+        "lowTemp": 23.5,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 50,
+      "highTemp": 58.6,
+      "lowTemp": 41.5,
+      "totalPrecip": 42.5,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

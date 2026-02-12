@@ -231,5 +231,93 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USW00013866",
+    "stationName": "CHARLESTON YEAGER AP 72414",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35,
+        "highTemp": 43.9,
+        "lowTemp": 26.1,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 38.2,
+        "highTemp": 47.8,
+        "lowTemp": 28.6,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 46,
+        "highTemp": 56.8,
+        "lowTemp": 35.1,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 56.9,
+        "highTemp": 69.4,
+        "lowTemp": 44.5,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 64.7,
+        "highTemp": 76.2,
+        "lowTemp": 53.2,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 72.3,
+        "highTemp": 83.1,
+        "lowTemp": 61.5,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 75.8,
+        "highTemp": 86,
+        "lowTemp": 65.5,
+        "precip": 5.4
+      },
+      "aug": {
+        "avgTemp": 74.6,
+        "highTemp": 85.2,
+        "lowTemp": 64.1,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 68.3,
+        "highTemp": 79.5,
+        "lowTemp": 57.1,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 57,
+        "highTemp": 68.7,
+        "lowTemp": 45.3,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 46.4,
+        "highTemp": 57.3,
+        "lowTemp": 35.6,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 38.7,
+        "highTemp": 47.5,
+        "lowTemp": 29.9,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 56.2,
+      "highTemp": 66.8,
+      "lowTemp": 45.5,
+      "totalPrecip": 46.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

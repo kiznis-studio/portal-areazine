@@ -303,5 +303,54 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1ILCK0282",
+    "stationName": "BERWYN 0.9 NW",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -287,5 +287,93 @@
       4.3,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00215838",
+    "stationName": "NEW HOPE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 15.3,
+        "highTemp": 23.6,
+        "lowTemp": 7,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 19.8,
+        "highTemp": 28.8,
+        "lowTemp": 10.8,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 32.4,
+        "highTemp": 41.9,
+        "lowTemp": 22.8,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 45.9,
+        "highTemp": 56.7,
+        "lowTemp": 35.2,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 58.4,
+        "highTemp": 69,
+        "lowTemp": 47.7,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 68.2,
+        "highTemp": 78.2,
+        "lowTemp": 58.1,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 72.7,
+        "highTemp": 82.3,
+        "lowTemp": 63.1,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 70.3,
+        "highTemp": 79.7,
+        "lowTemp": 60.8,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 62.1,
+        "highTemp": 71.8,
+        "lowTemp": 52.4,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 48.2,
+        "highTemp": 57.4,
+        "lowTemp": 39,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 33.6,
+        "highTemp": 41.4,
+        "lowTemp": 25.8,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 21,
+        "highTemp": 28.5,
+        "lowTemp": 13.6,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 45.7,
+      "highTemp": 54.9,
+      "lowTemp": 36.4,
+      "totalPrecip": 34.8,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

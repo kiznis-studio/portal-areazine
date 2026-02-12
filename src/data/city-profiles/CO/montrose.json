@@ -231,5 +231,93 @@
       4.3,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00055722",
+    "stationName": "MONTROSE #2 HCN",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.8,
+        "highTemp": 40.2,
+        "lowTemp": 17.5,
+        "precip": 0.5
+      },
+      "feb": {
+        "avgTemp": 34.7,
+        "highTemp": 46.4,
+        "lowTemp": 23,
+        "precip": 0.5
+      },
+      "mar": {
+        "avgTemp": 43.5,
+        "highTemp": 56.8,
+        "lowTemp": 30.2,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 50.3,
+        "highTemp": 64.1,
+        "lowTemp": 36.6,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 59.4,
+        "highTemp": 73.9,
+        "lowTemp": 45,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 69.4,
+        "highTemp": 85.5,
+        "lowTemp": 53.3,
+        "precip": 0.5
+      },
+      "jul": {
+        "avgTemp": 74.7,
+        "highTemp": 90.2,
+        "lowTemp": 59.2,
+        "precip": 0.9
+      },
+      "aug": {
+        "avgTemp": 72.3,
+        "highTemp": 87.1,
+        "lowTemp": 57.5,
+        "precip": 1.1
+      },
+      "sep": {
+        "avgTemp": 64.2,
+        "highTemp": 79.4,
+        "lowTemp": 49,
+        "precip": 1.2
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 66.5,
+        "lowTemp": 37.3,
+        "precip": 1
+      },
+      "nov": {
+        "avgTemp": 39.7,
+        "highTemp": 52.2,
+        "lowTemp": 27.2,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 29.2,
+        "highTemp": 40.6,
+        "lowTemp": 17.7,
+        "precip": 0.6
+      }
+    },
+    "annual": {
+      "avgTemp": 51.5,
+      "highTemp": 65.2,
+      "lowTemp": 37.8,
+      "totalPrecip": 9.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

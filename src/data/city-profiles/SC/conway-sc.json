@@ -255,5 +255,93 @@
       5.6,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00381997",
+    "stationName": "CONWAY HCN",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.7,
+        "highTemp": 58.1,
+        "lowTemp": 35.2,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 49.4,
+        "highTemp": 60.6,
+        "lowTemp": 38.1,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 55.8,
+        "highTemp": 68,
+        "lowTemp": 43.6,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 63.8,
+        "highTemp": 75.8,
+        "lowTemp": 51.9,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 71.6,
+        "highTemp": 82.6,
+        "lowTemp": 60.6,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 78.2,
+        "highTemp": 87.7,
+        "lowTemp": 68.7,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 81.6,
+        "highTemp": 90.8,
+        "lowTemp": 72.4,
+        "precip": 6.9
+      },
+      "aug": {
+        "avgTemp": 80.2,
+        "highTemp": 89.1,
+        "lowTemp": 71.2,
+        "precip": 7.8
+      },
+      "sep": {
+        "avgTemp": 75.4,
+        "highTemp": 84.8,
+        "lowTemp": 66,
+        "precip": 6
+      },
+      "oct": {
+        "avgTemp": 65.9,
+        "highTemp": 76.9,
+        "lowTemp": 54.8,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 56.1,
+        "highTemp": 68.2,
+        "lowTemp": 44.1,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 49.6,
+        "highTemp": 60.6,
+        "lowTemp": 38.6,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 64.5,
+      "highTemp": 75.3,
+      "lowTemp": 53.8,
+      "totalPrecip": 55.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,54 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00417172",
+    "stationName": "PORT ARTHUR CITY",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.4
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 6.6
+      },
+      "jul": {
+        "precip": 6.2
+      },
+      "aug": {
+        "precip": 6.8
+      },
+      "sep": {
+        "precip": 6.1
+      },
+      "oct": {
+        "precip": 5.5
+      },
+      "nov": {
+        "precip": 3.9
+      },
+      "dec": {
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 59.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

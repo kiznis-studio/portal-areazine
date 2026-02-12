@@ -255,5 +255,81 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00056323",
+    "stationName": "PARKER",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31,
+        "highTemp": 47,
+        "lowTemp": 14.9
+      },
+      "feb": {
+        "avgTemp": 33.1,
+        "highTemp": 49.3,
+        "lowTemp": 16.9
+      },
+      "mar": {
+        "avgTemp": 40.8,
+        "highTemp": 57.2,
+        "lowTemp": 24.3
+      },
+      "apr": {
+        "avgTemp": 47.7,
+        "highTemp": 64.1,
+        "lowTemp": 31.3
+      },
+      "may": {
+        "avgTemp": 56.3,
+        "highTemp": 72.3,
+        "lowTemp": 40.3
+      },
+      "jun": {
+        "avgTemp": 66.5,
+        "highTemp": 83.4,
+        "lowTemp": 49.6
+      },
+      "jul": {
+        "avgTemp": 71.5,
+        "highTemp": 87.9,
+        "lowTemp": 55.1
+      },
+      "aug": {
+        "avgTemp": 69.4,
+        "highTemp": 85.2,
+        "lowTemp": 53.6
+      },
+      "sep": {
+        "avgTemp": 61.9,
+        "highTemp": 78.9,
+        "lowTemp": 44.9
+      },
+      "oct": {
+        "avgTemp": 49.7,
+        "highTemp": 67.1,
+        "lowTemp": 32.3
+      },
+      "nov": {
+        "avgTemp": 38.5,
+        "highTemp": 54.6,
+        "lowTemp": 22.4
+      },
+      "dec": {
+        "avgTemp": 30.5,
+        "highTemp": 46.8,
+        "lowTemp": 14.2
+      }
+    },
+    "annual": {
+      "avgTemp": 49.7,
+      "highTemp": 66.1,
+      "lowTemp": 33.3,
+      "totalPrecip": 0,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

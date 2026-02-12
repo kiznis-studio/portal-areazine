@@ -222,5 +222,54 @@
       5.7,
       5.8
     ]
+  },
+  "climate": {
+    "station": "US1WYSW0019",
+    "stationName": "ROCK SPRINGS 0.9 S",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.4
+      },
+      "feb": {
+        "precip": 0.6
+      },
+      "mar": {
+        "precip": 0.6
+      },
+      "apr": {
+        "precip": 1.1
+      },
+      "may": {
+        "precip": 1.7
+      },
+      "jun": {
+        "precip": 0.8
+      },
+      "jul": {
+        "precip": 0.9
+      },
+      "aug": {
+        "precip": 0.7
+      },
+      "sep": {
+        "precip": 1
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 0.6
+      },
+      "dec": {
+        "precip": 0.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 9.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

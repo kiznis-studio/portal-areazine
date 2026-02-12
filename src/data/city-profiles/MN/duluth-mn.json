@@ -255,5 +255,81 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00212246",
+    "stationName": "DULUTH HARBOR STN",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 12.6,
+        "highTemp": 20.8,
+        "lowTemp": 4.3
+      },
+      "feb": {
+        "avgTemp": 16.9,
+        "highTemp": 25.7,
+        "lowTemp": 8
+      },
+      "mar": {
+        "avgTemp": 26.7,
+        "highTemp": 34.7,
+        "lowTemp": 18.6
+      },
+      "apr": {
+        "avgTemp": 38.1,
+        "highTemp": 45.3,
+        "lowTemp": 30.8
+      },
+      "may": {
+        "avgTemp": 48.4,
+        "highTemp": 56.1,
+        "lowTemp": 40.8
+      },
+      "jun": {
+        "avgTemp": 57.6,
+        "highTemp": 66.2,
+        "lowTemp": 49
+      },
+      "jul": {
+        "avgTemp": 66.4,
+        "highTemp": 75.2,
+        "lowTemp": 57.7
+      },
+      "aug": {
+        "avgTemp": 67,
+        "highTemp": 74.4,
+        "lowTemp": 59.5
+      },
+      "sep": {
+        "avgTemp": 58.5,
+        "highTemp": 66.2,
+        "lowTemp": 50.8
+      },
+      "oct": {
+        "avgTemp": 45.3,
+        "highTemp": 52.1,
+        "lowTemp": 38.5
+      },
+      "nov": {
+        "avgTemp": 32.3,
+        "highTemp": 38.8,
+        "lowTemp": 25.9
+      },
+      "dec": {
+        "avgTemp": 19.7,
+        "highTemp": 26.7,
+        "lowTemp": 12.8
+      }
+    },
+    "annual": {
+      "avgTemp": 40.8,
+      "highTemp": 48.5,
+      "lowTemp": 33.1,
+      "totalPrecip": 0,
+      "hotMonths": 0,
+      "coldMonths": 6
+    }
   }
 }

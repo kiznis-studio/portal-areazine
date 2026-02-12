@@ -303,5 +303,92 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00003122",
+    "stationName": "TORRANCE AP",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 56.9,
+        "highTemp": 66.8,
+        "lowTemp": 47,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 57,
+        "highTemp": 66.4,
+        "lowTemp": 47.6,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 58.8,
+        "highTemp": 67.7,
+        "lowTemp": 49.8,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 60.9,
+        "highTemp": 70.2,
+        "lowTemp": 51.6,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 63.6,
+        "highTemp": 71.8,
+        "lowTemp": 55.4,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 66.2,
+        "highTemp": 73.9,
+        "lowTemp": 58.5,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 69.4,
+        "highTemp": 76.9,
+        "lowTemp": 61.8,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 70.2,
+        "highTemp": 78.1,
+        "lowTemp": 62.4
+      },
+      "sep": {
+        "avgTemp": 69.5,
+        "highTemp": 78.1,
+        "lowTemp": 60.9,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 66.4,
+        "highTemp": 75.7,
+        "lowTemp": 57.1,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 60.7,
+        "highTemp": 70.7,
+        "lowTemp": 50.7,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 56.2,
+        "highTemp": 66.1,
+        "lowTemp": 46.3,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 63,
+      "highTemp": 71.9,
+      "lowTemp": 54.1,
+      "totalPrecip": 13.8,
+      "hotMonths": 1,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       6.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00462920",
+    "stationName": "FAIRMONT",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.8,
+        "highTemp": 39.6,
+        "lowTemp": 24,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 34.3,
+        "highTemp": 43,
+        "lowTemp": 25.5,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 42.5,
+        "highTemp": 52.4,
+        "lowTemp": 32.6,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 53.9,
+        "highTemp": 65.4,
+        "lowTemp": 42.4,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 62.5,
+        "highTemp": 73.4,
+        "lowTemp": 51.6,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 70,
+        "highTemp": 80.2,
+        "lowTemp": 59.8,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 73.6,
+        "highTemp": 83.6,
+        "lowTemp": 63.7,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 72.6,
+        "highTemp": 82.6,
+        "lowTemp": 62.5,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 66.4,
+        "highTemp": 77.1,
+        "lowTemp": 55.8,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 54.9,
+        "highTemp": 65.3,
+        "lowTemp": 44.5,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 44.7,
+        "highTemp": 53.8,
+        "lowTemp": 35.5,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 36.1,
+        "highTemp": 43.6,
+        "lowTemp": 28.7,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 53.6,
+      "highTemp": 63.3,
+      "lowTemp": 43.9,
+      "totalPrecip": 47.8,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

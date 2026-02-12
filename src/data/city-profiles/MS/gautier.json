@@ -231,5 +231,93 @@
       7.9,
       7.3
     ]
+  },
+  "climate": {
+    "station": "USW00053858",
+    "stationName": "PASCAGOULA LOTT INTL AP",
+    "distanceMi": 7.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.7,
+        "highTemp": 62.5,
+        "lowTemp": 40.9,
+        "precip": 5
+      },
+      "feb": {
+        "avgTemp": 55.5,
+        "highTemp": 66.4,
+        "lowTemp": 44.6,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 61.2,
+        "highTemp": 72.2,
+        "lowTemp": 50.1,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 66.6,
+        "highTemp": 77.6,
+        "lowTemp": 55.7,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 73.6,
+        "highTemp": 84.3,
+        "lowTemp": 63,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 80.3,
+        "highTemp": 89.6,
+        "lowTemp": 71.1,
+        "precip": 6.9
+      },
+      "jul": {
+        "avgTemp": 82.1,
+        "highTemp": 90.9,
+        "lowTemp": 73.4,
+        "precip": 6.7
+      },
+      "aug": {
+        "avgTemp": 81.9,
+        "highTemp": 90.7,
+        "lowTemp": 73.2,
+        "precip": 7.9
+      },
+      "sep": {
+        "avgTemp": 78.5,
+        "highTemp": 88,
+        "lowTemp": 69,
+        "precip": 4.8
+      },
+      "oct": {
+        "avgTemp": 69.2,
+        "highTemp": 80.7,
+        "lowTemp": 57.7,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 59.1,
+        "highTemp": 71.4,
+        "lowTemp": 46.9,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 54,
+        "highTemp": 64.8,
+        "lowTemp": 43.2,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 67.8,
+      "highTemp": 78.3,
+      "lowTemp": 57.4,
+      "totalPrecip": 61.8,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

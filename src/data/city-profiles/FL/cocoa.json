@@ -279,5 +279,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1FLBV0023",
+    "stationName": "COCOA 2.6 WNW",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.5
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 3.2
+      },
+      "jun": {
+        "precip": 8.1
+      },
+      "jul": {
+        "precip": 7.2
+      },
+      "aug": {
+        "precip": 7.6
+      },
+      "sep": {
+        "precip": 8.3
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -271,5 +271,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1MDMG0005",
+    "stationName": "NORBECK 1.1 ESE",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 3.9
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

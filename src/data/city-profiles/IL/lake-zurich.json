@@ -271,5 +271,93 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00115961",
+    "stationName": "MUNDELEIN 4 WSW",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.2,
+        "highTemp": 28.9,
+        "lowTemp": 13.5,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 24.6,
+        "highTemp": 32.9,
+        "lowTemp": 16.3,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 35,
+        "highTemp": 44.2,
+        "lowTemp": 25.8,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 46.3,
+        "highTemp": 56.5,
+        "lowTemp": 36,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 57.7,
+        "highTemp": 68,
+        "lowTemp": 47.4,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 67.8,
+        "highTemp": 77.9,
+        "lowTemp": 57.8,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 72.2,
+        "highTemp": 82.1,
+        "lowTemp": 62.3,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 80.7,
+        "lowTemp": 60.9,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 63.3,
+        "highTemp": 73.7,
+        "lowTemp": 52.8,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 51.1,
+        "highTemp": 60.8,
+        "lowTemp": 41.5,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 38.3,
+        "highTemp": 46.6,
+        "lowTemp": 30.1,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 26.9,
+        "highTemp": 34.2,
+        "lowTemp": 19.6,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 47.9,
+      "highTemp": 57.2,
+      "lowTemp": 38.7,
+      "totalPrecip": 38.6,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

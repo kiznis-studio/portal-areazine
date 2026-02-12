@@ -231,5 +231,93 @@
       7.4,
       7.4
     ]
+  },
+  "climate": {
+    "station": "USC00414810",
+    "stationName": "KINGSVILLE",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.5,
+        "highTemp": 68.4,
+        "lowTemp": 46.6,
+        "precip": 1.5
+      },
+      "feb": {
+        "avgTemp": 61.8,
+        "highTemp": 72.4,
+        "lowTemp": 51.2,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 67.3,
+        "highTemp": 77.8,
+        "lowTemp": 56.9,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 73.8,
+        "highTemp": 84.2,
+        "lowTemp": 63.4,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 79.6,
+        "highTemp": 88.9,
+        "lowTemp": 70.3,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 84.4,
+        "highTemp": 93.7,
+        "lowTemp": 75.1,
+        "precip": 3
+      },
+      "jul": {
+        "avgTemp": 85.6,
+        "highTemp": 95.5,
+        "lowTemp": 75.8,
+        "precip": 2.3
+      },
+      "aug": {
+        "avgTemp": 86.4,
+        "highTemp": 96.7,
+        "lowTemp": 76.1,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 82,
+        "highTemp": 91.7,
+        "lowTemp": 72.4,
+        "precip": 6
+      },
+      "oct": {
+        "avgTemp": 75.2,
+        "highTemp": 86.1,
+        "lowTemp": 64.2,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 66.2,
+        "highTemp": 77.1,
+        "lowTemp": 55.3,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 59.6,
+        "highTemp": 70.3,
+        "lowTemp": 48.9,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 73.3,
+      "highTemp": 83.6,
+      "lowTemp": 63,
+      "totalPrecip": 31,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

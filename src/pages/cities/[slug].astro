@@ -13,6 +13,7 @@ import HospitalCard from '../../components/data/HospitalCard.astro';
 import DataSourceFooter from '../../components/data/DataSourceFooter.astro';
 import CrimeSection from '../../components/data/CrimeSection.astro';
 import HistoricalTrends from '../../components/data/HistoricalTrends.astro';
+import ClimateSection from '../../components/data/ClimateSection.astro';
 import { CITIES, getNearbyCities } from '../../data/cities';
 import { getCollection } from 'astro:content';
 import { getCategoryMeta, SITE_NAME } from '../../lib/config';
@@ -44,6 +45,7 @@ const health = profile?.health;
 const hospitalData = profile?.hospitals;
 const crimeData = profile?.crime;
 const historyData = profile?.history;
+const climateData = profile?.climate;
 
 // Related articles
 const allArticles = await getCollection('articles');
@@ -101,7 +103,7 @@ if (hospitalData?.totalHospitals) {
 const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
 ---
 
-<Base title={pageTitle} description={pageDesc}>
+<Base title={pageTitle} description={pageDesc} image={`/og/${city.slug}.png`}>
   <div class="container py-8 md:py-12">
 
     <Breadcrumb items={[
@@ -323,6 +325,11 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
       </section>
     )}
 
+    {/* Climate */}
+    {climateData && climateData.annual && (
+      <ClimateSection climate={climateData} />
+    )}
+
     {/* Related Articles */}
     {relatedArticles.length > 0 && (
       <section class="section-divider mb-12">
@@ -368,18 +375,68 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
     <DataSourceFooter county={city.countyName} />
   </div>
 
-  {/* Structured Data */}
+  {/* Structured Data — Place */}
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "City",
-    "name": city.name,
-    "containedInPlace": { "@type": "State", "name": city.state },
-    "geo": { "@type": "GeoCoordinates", "latitude": city.lat, "longitude": city.lng },
+    "name": `${city.name}, ${city.stateCode}`,
+    "alternateName": city.name,
+    "url": `https://areazine.com/cities/${city.slug}`,
+    "containedInPlace": {
+      "@type": "AdministrativeArea",
+      "name": city.state,
+      "@id": `https://areazine.com/states/${stateSlug}`,
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": city.lat,
+      "longitude": city.lng,
+    },
     ...(census && {
-      "description": `${city.name}, ${city.stateCode} has a population of ${fmt(census.population)} (${city.countyName}) with a median household income of ${fmtMoney(census.medianHouseholdIncome)}.`,
+      "description": `${city.name}, ${city.stateCode}: population ${fmt(census.population)}, median household income ${fmtMoney(census.medianHouseholdIncome)}, median home value ${fmtMoney(census.medianHomeValue)}. Located in ${city.countyName}, ${city.state}.`,
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Population", "value": census.population, "unitText": "people" },
+        { "@type": "PropertyValue", "name": "Median Household Income", "value": census.medianHouseholdIncome, "unitCode": "USD" },
+        { "@type": "PropertyValue", "name": "Median Home Value", "value": census.medianHomeValue, "unitCode": "USD" },
+        { "@type": "PropertyValue", "name": "Median Rent", "value": census.medianRent, "unitCode": "USD" },
+        { "@type": "PropertyValue", "name": "Poverty Rate", "value": census.povertyRate, "unitText": "%" },
+        { "@type": "PropertyValue", "name": "Median Age", "value": census.medianAge, "unitText": "years" },
+        ...(crimeData ? [
+          { "@type": "PropertyValue", "name": "Violent Crime Rate", "value": crimeData.violentCrimeRate, "unitText": "per 100,000 residents" },
+          { "@type": "PropertyValue", "name": "Property Crime Rate", "value": crimeData.propertyCrimeRate, "unitText": "per 100,000 residents" },
+        ] : []),
+      ].filter(p => p.value != null),
     }),
   })} />
 
+  {/* Structured Data — Dataset */}
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": `${city.name}, ${city.stateCode} City Data Report`,
+    "description": `Demographics, economics, health, crime, and hospital data for ${city.name}, ${city.stateCode}. Sources: U.S. Census Bureau ACS, CDC PLACES, CMS Hospital Compare, FBI Crime Data Explorer.`,
+    "url": `https://areazine.com/cities/${city.slug}`,
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "isAccessibleForFree": true,
+    "creator": { "@type": "Organization", "name": "Areazine", "url": "https://areazine.com" },
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "text/html",
+      "contentUrl": `https://areazine.com/cities/${city.slug}`,
+    },
+    "temporalCoverage": historyData?.years ? `${historyData.years[0]}/${historyData.years[historyData.years.length - 1]}` : "2023",
+    "spatialCoverage": {
+      "@type": "Place",
+      "name": `${city.name}, ${city.stateCode}`,
+      "geo": { "@type": "GeoCoordinates", "latitude": city.lat, "longitude": city.lng },
+    },
+    "variableMeasured": [
+      "Population", "Median Household Income", "Median Home Value", "Poverty Rate",
+      "Violent Crime Rate", "Property Crime Rate", "Health Indicators", "Hospital Ratings",
+    ],
+  })} />
+
+  {/* Structured Data — BreadcrumbList */}
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

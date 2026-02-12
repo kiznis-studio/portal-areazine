@@ -231,5 +231,93 @@
       5.3,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00113262",
+    "stationName": "FREEPORT WASTE WTP",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.6,
+        "highTemp": 27.9,
+        "lowTemp": 11.3,
+        "precip": 1.6
+      },
+      "feb": {
+        "avgTemp": 23.7,
+        "highTemp": 32.6,
+        "lowTemp": 14.8,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 35.4,
+        "highTemp": 44.9,
+        "lowTemp": 25.8,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 47.3,
+        "highTemp": 58.2,
+        "lowTemp": 36.4,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 59.1,
+        "highTemp": 69.9,
+        "lowTemp": 48.4,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 69,
+        "highTemp": 79.3,
+        "lowTemp": 58.6,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 72.4,
+        "highTemp": 82.4,
+        "lowTemp": 62.3,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 70.3,
+        "highTemp": 80.7,
+        "lowTemp": 59.9,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 62.6,
+        "highTemp": 74.3,
+        "lowTemp": 51,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 50.4,
+        "highTemp": 61.5,
+        "lowTemp": 39.3,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 37.1,
+        "highTemp": 46,
+        "lowTemp": 28.2,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 25.6,
+        "highTemp": 33.3,
+        "lowTemp": 17.9,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 47.7,
+      "highTemp": 57.6,
+      "lowTemp": 37.8,
+      "totalPrecip": 38.6,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

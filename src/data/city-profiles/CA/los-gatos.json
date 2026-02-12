@@ -287,5 +287,92 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00045123",
+    "stationName": "LOS GATOS",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49,
+        "highTemp": 58.5,
+        "lowTemp": 39.5,
+        "precip": 5
+      },
+      "feb": {
+        "avgTemp": 51.6,
+        "highTemp": 61.9,
+        "lowTemp": 41.3,
+        "precip": 4.9
+      },
+      "mar": {
+        "avgTemp": 54.7,
+        "highTemp": 66.3,
+        "lowTemp": 43.1,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 57.7,
+        "highTemp": 70.3,
+        "lowTemp": 45.1,
+        "precip": 1.4
+      },
+      "may": {
+        "avgTemp": 62.4,
+        "highTemp": 75.5,
+        "lowTemp": 49.4,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 67.1,
+        "highTemp": 81.7,
+        "lowTemp": 52.5,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 70.4,
+        "highTemp": 84.9,
+        "lowTemp": 55.9
+      },
+      "aug": {
+        "avgTemp": 70.2,
+        "highTemp": 84.5,
+        "lowTemp": 55.8,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 68.2,
+        "highTemp": 82.7,
+        "lowTemp": 53.8,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.2,
+        "highTemp": 75.5,
+        "lowTemp": 48.9,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 53.6,
+        "highTemp": 64.6,
+        "lowTemp": 42.7,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 48.6,
+        "highTemp": 57.7,
+        "lowTemp": 39.5,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 59.6,
+      "highTemp": 72,
+      "lowTemp": 47.3,
+      "totalPrecip": 22.3,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

@@ -216,5 +216,93 @@
       3.2,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00210355",
+    "stationName": "AUSTIN WASTE WTP FACILITY",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 13.7,
+        "highTemp": 21.9,
+        "lowTemp": 5.4,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 17.8,
+        "highTemp": 26.4,
+        "lowTemp": 9.1,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 31,
+        "highTemp": 39.2,
+        "lowTemp": 22.7,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 45,
+        "highTemp": 54.9,
+        "lowTemp": 35.2,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 57.5,
+        "highTemp": 67.5,
+        "lowTemp": 47.5,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 67.9,
+        "highTemp": 77.6,
+        "lowTemp": 58.2,
+        "precip": 5.1
+      },
+      "jul": {
+        "avgTemp": 71,
+        "highTemp": 80.8,
+        "lowTemp": 61.2,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 68.7,
+        "highTemp": 78.7,
+        "lowTemp": 58.7,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 61.1,
+        "highTemp": 72.2,
+        "lowTemp": 50,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 47.9,
+        "highTemp": 58.3,
+        "lowTemp": 37.5,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 33.1,
+        "highTemp": 41.5,
+        "lowTemp": 24.7,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 20.5,
+        "highTemp": 27.9,
+        "lowTemp": 13,
+        "precip": 1.3
+      }
+    },
+    "annual": {
+      "avgTemp": 44.6,
+      "highTemp": 53.9,
+      "lowTemp": 35.3,
+      "totalPrecip": 36.3,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

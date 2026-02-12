@@ -279,5 +279,92 @@
       5.8,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00040232",
+    "stationName": "ANTIOCH PUMPING PLT #3",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48,
+        "highTemp": 55.7,
+        "lowTemp": 40.3,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 52.3,
+        "highTemp": 60.8,
+        "lowTemp": 43.9,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 56.5,
+        "highTemp": 66.5,
+        "lowTemp": 46.6,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 60.8,
+        "highTemp": 72.1,
+        "lowTemp": 49.5,
+        "precip": 0.9
+      },
+      "may": {
+        "avgTemp": 66.6,
+        "highTemp": 79,
+        "lowTemp": 54.3,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 72.6,
+        "highTemp": 86.3,
+        "lowTemp": 59,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 76,
+        "highTemp": 91.4,
+        "lowTemp": 60.6
+      },
+      "aug": {
+        "avgTemp": 75.2,
+        "highTemp": 90.2,
+        "lowTemp": 60.3,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 72.7,
+        "highTemp": 86.7,
+        "lowTemp": 58.7,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 65.9,
+        "highTemp": 77.5,
+        "lowTemp": 54.2,
+        "precip": 0.4
+      },
+      "nov": {
+        "avgTemp": 55.4,
+        "highTemp": 64.6,
+        "lowTemp": 46.2,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 48.1,
+        "highTemp": 55.8,
+        "lowTemp": 40.4,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 62.5,
+      "highTemp": 73.9,
+      "lowTemp": 51.2,
+      "totalPrecip": 12.7,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00516395",
+    "stationName": "MOANALUA 770",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 2.4
+      },
+      "may": {
+        "precip": 1.8
+      },
+      "jun": {
+        "precip": 1.5
+      },
+      "jul": {
+        "precip": 1.7
+      },
+      "aug": {
+        "precip": 1.9
+      },
+      "sep": {
+        "precip": 2.3
+      },
+      "oct": {
+        "precip": 2.6
+      },
+      "nov": {
+        "precip": 3.7
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 31.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

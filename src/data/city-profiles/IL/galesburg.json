@@ -231,5 +231,93 @@
       4.9,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00113320",
+    "stationName": "GALESBURG",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.9,
+        "highTemp": 30,
+        "lowTemp": 13.8,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 26,
+        "highTemp": 34.7,
+        "lowTemp": 17.3,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 38,
+        "highTemp": 48,
+        "lowTemp": 28.1,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 50.6,
+        "highTemp": 61.3,
+        "lowTemp": 39.9,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 61.8,
+        "highTemp": 72,
+        "lowTemp": 51.7,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 71.6,
+        "highTemp": 81.2,
+        "lowTemp": 62,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 74.7,
+        "highTemp": 84,
+        "lowTemp": 65.4,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 72.8,
+        "highTemp": 82.3,
+        "lowTemp": 63.4,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 65.5,
+        "highTemp": 76.2,
+        "lowTemp": 54.7,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 52.8,
+        "highTemp": 63,
+        "lowTemp": 42.5,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 39,
+        "highTemp": 48,
+        "lowTemp": 29.9,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 27.8,
+        "highTemp": 35.4,
+        "lowTemp": 20.2,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 59.7,
+      "lowTemp": 40.7,
+      "totalPrecip": 39,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

@@ -295,5 +295,93 @@
       6,
       6
     ]
+  },
+  "climate": {
+    "station": "USC00302129",
+    "stationName": "DOBBS FERRY-ARDSLEY HCN",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.4,
+        "highTemp": 39.8,
+        "lowTemp": 23.1,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 33.7,
+        "highTemp": 42.9,
+        "lowTemp": 24.5,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 40.9,
+        "highTemp": 50.7,
+        "lowTemp": 31,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 51.4,
+        "highTemp": 62.8,
+        "lowTemp": 40.1,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 61.3,
+        "highTemp": 73,
+        "lowTemp": 49.5,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 69.8,
+        "highTemp": 80.8,
+        "lowTemp": 58.8,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 75,
+        "highTemp": 85.6,
+        "lowTemp": 64.4,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 73.5,
+        "highTemp": 83.9,
+        "lowTemp": 63.2,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 66.5,
+        "highTemp": 76.9,
+        "lowTemp": 56.1,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 55.3,
+        "highTemp": 65.4,
+        "lowTemp": 45.1,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 45.2,
+        "highTemp": 54.4,
+        "lowTemp": 36,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 36.6,
+        "highTemp": 44.5,
+        "lowTemp": 28.6,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 53.4,
+      "highTemp": 63.4,
+      "lowTemp": 43.4,
+      "totalPrecip": 51.3,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

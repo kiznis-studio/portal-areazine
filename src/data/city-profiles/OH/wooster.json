@@ -231,5 +231,93 @@
       3.3,
       3.3
     ]
+  },
+  "climate": {
+    "station": "USC00339312",
+    "stationName": "WOOSTER EXP STATION HCN",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.7,
+        "highTemp": 35.1,
+        "lowTemp": 18.2,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 29.1,
+        "highTemp": 38.4,
+        "lowTemp": 19.8,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 37.8,
+        "highTemp": 48.1,
+        "lowTemp": 27.4,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 49.5,
+        "highTemp": 61.3,
+        "lowTemp": 37.7,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 59.9,
+        "highTemp": 71.8,
+        "lowTemp": 48,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 68.6,
+        "highTemp": 80.1,
+        "lowTemp": 57,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 72.1,
+        "highTemp": 83.6,
+        "lowTemp": 60.5,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 70.5,
+        "highTemp": 82.3,
+        "lowTemp": 58.8,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 75.8,
+        "lowTemp": 51.5,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 52.1,
+        "highTemp": 63.6,
+        "lowTemp": 40.5,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 41.1,
+        "highTemp": 50.6,
+        "lowTemp": 31.5,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 31.9,
+        "highTemp": 39.8,
+        "lowTemp": 24,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 60.9,
+      "lowTemp": 39.6,
+      "totalPrecip": 42,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

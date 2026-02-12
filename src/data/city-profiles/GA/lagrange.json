@@ -231,5 +231,81 @@
       4.8,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00094949",
+    "stationName": "LA GRANGE 1N",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.1,
+        "highTemp": 56.2,
+        "lowTemp": 33.9
+      },
+      "feb": {
+        "avgTemp": 48.6,
+        "highTemp": 60.2,
+        "lowTemp": 37
+      },
+      "mar": {
+        "avgTemp": 55.5,
+        "highTemp": 69,
+        "lowTemp": 42
+      },
+      "apr": {
+        "avgTemp": 62.5,
+        "highTemp": 76.2,
+        "lowTemp": 48.7
+      },
+      "may": {
+        "avgTemp": 70.2,
+        "highTemp": 82.8,
+        "lowTemp": 57.6
+      },
+      "jun": {
+        "avgTemp": 77.1,
+        "highTemp": 88.3,
+        "lowTemp": 66
+      },
+      "jul": {
+        "avgTemp": 79.8,
+        "highTemp": 90.7,
+        "lowTemp": 68.9
+      },
+      "aug": {
+        "avgTemp": 79.1,
+        "highTemp": 89.9,
+        "lowTemp": 68.4
+      },
+      "sep": {
+        "avgTemp": 73.5,
+        "highTemp": 84.7,
+        "lowTemp": 62.3
+      },
+      "oct": {
+        "avgTemp": 63.6,
+        "highTemp": 75.6,
+        "lowTemp": 51.5
+      },
+      "nov": {
+        "avgTemp": 53.2,
+        "highTemp": 66.2,
+        "lowTemp": 40.3
+      },
+      "dec": {
+        "avgTemp": 46.5,
+        "highTemp": 57.6,
+        "lowTemp": 35.4
+      }
+    },
+    "annual": {
+      "avgTemp": 62.9,
+      "highTemp": 74.8,
+      "lowTemp": 51,
+      "totalPrecip": 0,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

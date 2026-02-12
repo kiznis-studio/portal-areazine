@@ -222,5 +222,54 @@
       11.1,
       10.5
     ]
+  },
+  "climate": {
+    "station": "US1CAMA0008",
+    "stationName": "CHOWCHILLA 0.3 E",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 1
+      },
+      "may": {
+        "precip": 0.6
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.5
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 12.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

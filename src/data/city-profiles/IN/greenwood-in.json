@@ -231,5 +231,54 @@
       3.4,
       3
     ]
+  },
+  "climate": {
+    "station": "US1INJH0022",
+    "stationName": "GREENWOOD 4.6 SW",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 5
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 5.2
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

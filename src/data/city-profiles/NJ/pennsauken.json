@@ -255,5 +255,93 @@
       7.2,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00286864",
+    "stationName": "PENNSAUKEN 1N",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.6,
+        "highTemp": 40.2,
+        "lowTemp": 25.1,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 34.6,
+        "highTemp": 43.1,
+        "lowTemp": 26.1,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 42.2,
+        "highTemp": 51.5,
+        "lowTemp": 33,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 53,
+        "highTemp": 63.5,
+        "lowTemp": 42.5,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 62.6,
+        "highTemp": 72.8,
+        "lowTemp": 52.4,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 72,
+        "highTemp": 81.8,
+        "lowTemp": 62.3,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 77.4,
+        "highTemp": 86.8,
+        "lowTemp": 68,
+        "precip": 5
+      },
+      "aug": {
+        "avgTemp": 75.2,
+        "highTemp": 84.6,
+        "lowTemp": 65.9,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 68.3,
+        "highTemp": 77.9,
+        "lowTemp": 58.8,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 56.2,
+        "highTemp": 65.8,
+        "lowTemp": 46.5,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 45.6,
+        "highTemp": 54.7,
+        "lowTemp": 36.5,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 37.5,
+        "highTemp": 45.2,
+        "lowTemp": 29.9,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 54.8,
+      "highTemp": 64,
+      "lowTemp": 45.6,
+      "totalPrecip": 48.2,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

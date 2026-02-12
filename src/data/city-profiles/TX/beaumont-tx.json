@@ -247,5 +247,93 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00410611",
+    "stationName": "BEAUMONT CITY",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.9,
+        "highTemp": 62.6,
+        "lowTemp": 43.3,
+        "precip": 5.4
+      },
+      "feb": {
+        "avgTemp": 56.6,
+        "highTemp": 65.8,
+        "lowTemp": 47.4,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 62.9,
+        "highTemp": 72.1,
+        "lowTemp": 53.7,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 68.9,
+        "highTemp": 78.3,
+        "lowTemp": 59.4,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 76.6,
+        "highTemp": 85.2,
+        "lowTemp": 68.1,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 82.3,
+        "highTemp": 90.4,
+        "lowTemp": 74.1,
+        "precip": 7
+      },
+      "jul": {
+        "avgTemp": 83.7,
+        "highTemp": 92,
+        "lowTemp": 75.5,
+        "precip": 6.5
+      },
+      "aug": {
+        "avgTemp": 84.1,
+        "highTemp": 92.8,
+        "lowTemp": 75.3,
+        "precip": 7.2
+      },
+      "sep": {
+        "avgTemp": 79.3,
+        "highTemp": 88.6,
+        "lowTemp": 70.1,
+        "precip": 7.4
+      },
+      "oct": {
+        "avgTemp": 71,
+        "highTemp": 81.5,
+        "lowTemp": 60.6,
+        "precip": 5.4
+      },
+      "nov": {
+        "avgTemp": 61.3,
+        "highTemp": 71.4,
+        "lowTemp": 51.2,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 54.7,
+        "highTemp": 64.2,
+        "lowTemp": 45.1,
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "avgTemp": 69.5,
+      "highTemp": 78.7,
+      "lowTemp": 60.3,
+      "totalPrecip": 65.1,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

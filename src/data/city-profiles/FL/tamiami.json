@@ -303,5 +303,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00085667",
+    "stationName": "MIAMI NWSFO",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 67.5,
+        "highTemp": 76.5,
+        "lowTemp": 58.5,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 69.5,
+        "highTemp": 78.4,
+        "lowTemp": 60.6,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 72,
+        "highTemp": 80.9,
+        "lowTemp": 63.2,
+        "precip": 2.3
+      },
+      "apr": {
+        "avgTemp": 75.9,
+        "highTemp": 84.5,
+        "lowTemp": 67.4,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 79.4,
+        "highTemp": 87.4,
+        "lowTemp": 71.4,
+        "precip": 6.4
+      },
+      "jun": {
+        "avgTemp": 82.3,
+        "highTemp": 89.7,
+        "lowTemp": 75,
+        "precip": 10.4
+      },
+      "jul": {
+        "avgTemp": 83.5,
+        "highTemp": 91.1,
+        "lowTemp": 76,
+        "precip": 8.7
+      },
+      "aug": {
+        "avgTemp": 83.7,
+        "highTemp": 91.3,
+        "lowTemp": 76.2,
+        "precip": 10.8
+      },
+      "sep": {
+        "avgTemp": 82.8,
+        "highTemp": 89.8,
+        "lowTemp": 75.8,
+        "precip": 9.3
+      },
+      "oct": {
+        "avgTemp": 79.6,
+        "highTemp": 86.7,
+        "lowTemp": 72.5,
+        "precip": 8.4
+      },
+      "nov": {
+        "avgTemp": 74,
+        "highTemp": 81.6,
+        "lowTemp": 66.3,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 70.1,
+        "highTemp": 78.3,
+        "lowTemp": 62,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 76.7,
+      "highTemp": 84.7,
+      "lowTemp": 68.7,
+      "totalPrecip": 69.7,
+      "hotMonths": 10,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,54 @@
       5.4,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1TNBR0004",
+    "stationName": "CLEVELAND 3.0 ESE",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.1
+      },
+      "feb": {
+        "precip": 5.2
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 5.2
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 4.7
+      },
+      "dec": {
+        "precip": 5.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 58,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

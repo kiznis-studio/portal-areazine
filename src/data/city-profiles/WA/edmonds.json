@@ -247,5 +247,54 @@
       4.4,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1WAKP0001",
+    "stationName": "KINGSTON 2.7 SSE",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.9
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 1.9
+      },
+      "jun": {
+        "precip": 1.7
+      },
+      "jul": {
+        "precip": 0.8
+      },
+      "aug": {
+        "precip": 1
+      },
+      "sep": {
+        "precip": 1.6
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 4.8
+      },
+      "dec": {
+        "precip": 6.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

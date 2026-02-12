@@ -239,5 +239,93 @@
       3.9,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00410518",
+    "stationName": "BARDWELL DAM",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.1,
+        "highTemp": 56.4,
+        "lowTemp": 35.8,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 50.2,
+        "highTemp": 60.9,
+        "lowTemp": 39.5,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 57,
+        "highTemp": 67.6,
+        "lowTemp": 46.4,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 64.6,
+        "highTemp": 74.9,
+        "lowTemp": 54.2,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 72.8,
+        "highTemp": 82.2,
+        "lowTemp": 63.4,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 80.8,
+        "highTemp": 89.9,
+        "lowTemp": 71.6,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 84.1,
+        "highTemp": 94.1,
+        "lowTemp": 74.1,
+        "precip": 1.9
+      },
+      "aug": {
+        "avgTemp": 84.4,
+        "highTemp": 95.2,
+        "lowTemp": 73.6,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 77.9,
+        "highTemp": 88.5,
+        "lowTemp": 67.3,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 66.9,
+        "highTemp": 78.6,
+        "lowTemp": 55.1,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 56.1,
+        "highTemp": 66.9,
+        "lowTemp": 45.4,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 48.4,
+        "highTemp": 58.8,
+        "lowTemp": 37.9,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 65.8,
+      "highTemp": 76.2,
+      "lowTemp": 55.4,
+      "totalPrecip": 40.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

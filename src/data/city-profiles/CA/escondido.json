@@ -303,5 +303,93 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00042863",
+    "stationName": "ESCONDIDO #2",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 56.8,
+        "highTemp": 68.8,
+        "lowTemp": 44.8,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 57.3,
+        "highTemp": 68.7,
+        "lowTemp": 45.9,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 59.9,
+        "highTemp": 71,
+        "lowTemp": 48.9,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 63,
+        "highTemp": 74.2,
+        "lowTemp": 51.8,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 66.6,
+        "highTemp": 76.7,
+        "lowTemp": 56.4,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 71.1,
+        "highTemp": 81.9,
+        "lowTemp": 60.2,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 75.8,
+        "highTemp": 87.2,
+        "lowTemp": 64.4,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 77.2,
+        "highTemp": 89,
+        "lowTemp": 65.3,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 75,
+        "highTemp": 86.9,
+        "lowTemp": 63.1,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 69.1,
+        "highTemp": 80.8,
+        "lowTemp": 57.3,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 61.9,
+        "highTemp": 74.6,
+        "lowTemp": 49.1,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 55.9,
+        "highTemp": 68,
+        "lowTemp": 43.8,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 65.8,
+      "highTemp": 77.3,
+      "lowTemp": 54.3,
+      "totalPrecip": 14.7,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.8,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00232809",
+    "stationName": "FARMINGTON HCN",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.7,
+        "highTemp": 42.8,
+        "lowTemp": 22.6,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 36.8,
+        "highTemp": 47.9,
+        "lowTemp": 25.8,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 46,
+        "highTemp": 57.8,
+        "lowTemp": 34.3,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 56.5,
+        "highTemp": 68.7,
+        "lowTemp": 44.3,
+        "precip": 5.3
+      },
+      "may": {
+        "avgTemp": 65.5,
+        "highTemp": 77,
+        "lowTemp": 54.1,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 73.7,
+        "highTemp": 84.8,
+        "lowTemp": 62.7,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 77.7,
+        "highTemp": 88.5,
+        "lowTemp": 66.9,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 76.3,
+        "highTemp": 87.7,
+        "lowTemp": 64.9,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 68.5,
+        "highTemp": 80.7,
+        "lowTemp": 56.2,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 57.4,
+        "highTemp": 70,
+        "lowTemp": 44.8,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 45.6,
+        "highTemp": 56.7,
+        "lowTemp": 34.4,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 36.4,
+        "highTemp": 46.4,
+        "lowTemp": 26.4,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 56.1,
+      "highTemp": 67.4,
+      "lowTemp": 44.8,
+      "totalPrecip": 45.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

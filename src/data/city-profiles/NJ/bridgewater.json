@@ -231,5 +231,93 @@
       5,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00288194",
+    "stationName": "SOMERVILLE 4 NW",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29,
+        "highTemp": 38.7,
+        "lowTemp": 19.4,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 30.4,
+        "highTemp": 41.3,
+        "lowTemp": 19.5,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 38.4,
+        "highTemp": 49.5,
+        "lowTemp": 27.3,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 49.2,
+        "highTemp": 62.1,
+        "lowTemp": 36.3,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 58.9,
+        "highTemp": 71.7,
+        "lowTemp": 46.2,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 68.4,
+        "highTemp": 80.5,
+        "lowTemp": 56.3,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 73.7,
+        "highTemp": 85.5,
+        "lowTemp": 61.8,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 71.7,
+        "highTemp": 83.4,
+        "lowTemp": 60,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 65,
+        "highTemp": 76.7,
+        "lowTemp": 53.2,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 52.7,
+        "highTemp": 64.4,
+        "lowTemp": 41,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 42.3,
+        "highTemp": 53.5,
+        "lowTemp": 31.1,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 33.9,
+        "highTemp": 43.3,
+        "lowTemp": 24.4,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 51.1,
+      "highTemp": 62.6,
+      "lowTemp": 39.7,
+      "totalPrecip": 46.8,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

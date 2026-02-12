@@ -239,5 +239,54 @@
       4.2,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1FLCY0002",
+    "stationName": "ORANGE PARK 4.8 SSW",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 2.9
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 8.1
+      },
+      "jul": {
+        "precip": 6.6
+      },
+      "aug": {
+        "precip": 6.9
+      },
+      "sep": {
+        "precip": 6.5
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 2.2
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

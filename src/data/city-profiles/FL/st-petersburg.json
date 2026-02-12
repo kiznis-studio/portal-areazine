@@ -303,5 +303,54 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLPN0060",
+    "stationName": "ST. PETERSBURG 4.5 NW",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 2.6
+      },
+      "apr": {
+        "precip": 2.2
+      },
+      "may": {
+        "precip": 3.3
+      },
+      "jun": {
+        "precip": 7.5
+      },
+      "jul": {
+        "precip": 9.3
+      },
+      "aug": {
+        "precip": 9.8
+      },
+      "sep": {
+        "precip": 8.4
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 56.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

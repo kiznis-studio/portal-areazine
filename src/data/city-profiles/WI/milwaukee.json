@@ -279,5 +279,54 @@
       4.7,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1WIMW0001",
+    "stationName": "SHOREWOOD 0.6 NW",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.7
+      },
+      "feb": {
+        "precip": 1.5
+      },
+      "mar": {
+        "precip": 2
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 2
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 35.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -295,5 +295,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLHB0005",
+    "stationName": "CITRUS PARK 1.3 ENE",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 8.3
+      },
+      "jul": {
+        "precip": 11.5
+      },
+      "aug": {
+        "precip": 9.6
+      },
+      "sep": {
+        "precip": 7.4
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 58.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

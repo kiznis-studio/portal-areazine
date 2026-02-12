@@ -247,5 +247,93 @@
       5.2,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USW00014735",
+    "stationName": "ALBANY AP HCN 72518",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.4,
+        "highTemp": 32.8,
+        "lowTemp": 15.9,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 26.8,
+        "highTemp": 36,
+        "lowTemp": 17.6,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 35.7,
+        "highTemp": 45.3,
+        "lowTemp": 26.1,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 48.1,
+        "highTemp": 59.2,
+        "lowTemp": 36.9,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 59.6,
+        "highTemp": 71.2,
+        "lowTemp": 48.1,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 68.4,
+        "highTemp": 79.4,
+        "lowTemp": 57.4,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 73.1,
+        "highTemp": 83.9,
+        "lowTemp": 62.4,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 71.4,
+        "highTemp": 82,
+        "lowTemp": 60.7,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 63.5,
+        "highTemp": 74.4,
+        "lowTemp": 52.6,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 51.4,
+        "highTemp": 61.6,
+        "lowTemp": 41.1,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 40.5,
+        "highTemp": 49.3,
+        "lowTemp": 31.6,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 30.4,
+        "highTemp": 38.2,
+        "lowTemp": 22.7,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 49.4,
+      "highTemp": 59.4,
+      "lowTemp": 39.4,
+      "totalPrecip": 40.9,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

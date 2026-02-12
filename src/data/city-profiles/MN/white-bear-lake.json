@@ -247,5 +247,54 @@
       4.7,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1MNRM0002",
+    "stationName": "NORTH SAINT PAUL 1.0 NNW",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.7
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 33.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

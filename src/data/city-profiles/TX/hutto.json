@@ -255,5 +255,54 @@
       4.3,
       4
     ]
+  },
+  "climate": {
+    "station": "US1TXWM0222",
+    "stationName": "HUTTO 0.8 WNW",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 2.7
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 2.4
+      },
+      "aug": {
+        "precip": 2.8
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

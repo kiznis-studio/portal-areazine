@@ -222,5 +222,93 @@
       10.8,
       10.1
     ]
+  },
+  "climate": {
+    "station": "USC00221707",
+    "stationName": "CLARKSDALE HCN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.2,
+        "highTemp": 50.3,
+        "lowTemp": 32,
+        "precip": 5.5
+      },
+      "feb": {
+        "avgTemp": 45.3,
+        "highTemp": 55.4,
+        "lowTemp": 35.3,
+        "precip": 5.6
+      },
+      "mar": {
+        "avgTemp": 52.9,
+        "highTemp": 63.5,
+        "lowTemp": 42.4,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 62.2,
+        "highTemp": 72.9,
+        "lowTemp": 51.6,
+        "precip": 6.2
+      },
+      "may": {
+        "avgTemp": 71.5,
+        "highTemp": 81.4,
+        "lowTemp": 61.5,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 78.7,
+        "highTemp": 88.2,
+        "lowTemp": 69.1,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 81.1,
+        "highTemp": 90.4,
+        "lowTemp": 71.8,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 80.5,
+        "highTemp": 90.7,
+        "lowTemp": 70.3,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 75,
+        "highTemp": 86.2,
+        "lowTemp": 63.8,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 64,
+        "highTemp": 75.9,
+        "lowTemp": 52.1,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 52.2,
+        "highTemp": 63,
+        "lowTemp": 41.4,
+        "precip": 4.3
+      },
+      "dec": {
+        "avgTemp": 44.1,
+        "highTemp": 53.3,
+        "lowTemp": 34.8,
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "avgTemp": 62.4,
+      "highTemp": 72.6,
+      "lowTemp": 52.2,
+      "totalPrecip": 56.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

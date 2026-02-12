@@ -239,5 +239,93 @@
       4.1,
       4
     ]
+  },
+  "climate": {
+    "station": "USW00014605",
+    "stationName": "AUGUSTA STATE AP",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 20.4,
+        "highTemp": 28.8,
+        "lowTemp": 12.1,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 23.2,
+        "highTemp": 31.9,
+        "lowTemp": 14.4,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 32,
+        "highTemp": 40.6,
+        "lowTemp": 23.4,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 43.8,
+        "highTemp": 53.5,
+        "lowTemp": 34.2,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 55.3,
+        "highTemp": 65.8,
+        "lowTemp": 44.7,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 64.2,
+        "highTemp": 74.4,
+        "lowTemp": 54.1,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 70.1,
+        "highTemp": 79.9,
+        "lowTemp": 60.3,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 68.9,
+        "highTemp": 78.9,
+        "lowTemp": 58.8,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 61,
+        "highTemp": 70.9,
+        "lowTemp": 51,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 49.2,
+        "highTemp": 57.9,
+        "lowTemp": 40.4,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 38,
+        "highTemp": 45.7,
+        "lowTemp": 30.3,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 27.2,
+        "highTemp": 34.7,
+        "lowTemp": 19.8,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 46.1,
+      "highTemp": 55.3,
+      "lowTemp": 37,
+      "totalPrecip": 41.8,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

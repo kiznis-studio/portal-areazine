@@ -303,5 +303,93 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00040192",
+    "stationName": "ANAHEIM",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 59.9,
+        "highTemp": 71,
+        "lowTemp": 48.9,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 60.2,
+        "highTemp": 71,
+        "lowTemp": 49.3,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 62.6,
+        "highTemp": 73.7,
+        "lowTemp": 51.4,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 65.3,
+        "highTemp": 76.6,
+        "lowTemp": 54.1,
+        "precip": 0.7
+      },
+      "may": {
+        "avgTemp": 68.1,
+        "highTemp": 78,
+        "lowTemp": 58.2,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 71.7,
+        "highTemp": 81.7,
+        "lowTemp": 61.7,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 76.2,
+        "highTemp": 86.8,
+        "lowTemp": 65.6,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 77.4,
+        "highTemp": 88.8,
+        "lowTemp": 66,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 75.9,
+        "highTemp": 87.8,
+        "lowTemp": 64.1,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 71.3,
+        "highTemp": 83.4,
+        "lowTemp": 59.3,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 64.9,
+        "highTemp": 76.8,
+        "lowTemp": 53,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 59.4,
+        "highTemp": 70.6,
+        "lowTemp": 48.2,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 67.7,
+      "highTemp": 78.8,
+      "lowTemp": 56.7,
+      "totalPrecip": 13.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

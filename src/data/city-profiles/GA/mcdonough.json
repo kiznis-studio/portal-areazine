@@ -231,5 +231,93 @@
       5.3,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00095666",
+    "stationName": "MCDONOUGH 5 ENE",
+    "distanceMi": 6.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 43.4,
+        "highTemp": 55,
+        "lowTemp": 31.7,
+        "precip": 5.3
+      },
+      "feb": {
+        "avgTemp": 46.1,
+        "highTemp": 58.8,
+        "lowTemp": 33.5,
+        "precip": 4.5
+      },
+      "mar": {
+        "avgTemp": 53.6,
+        "highTemp": 67,
+        "lowTemp": 40.3,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 61.5,
+        "highTemp": 75.6,
+        "lowTemp": 47.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 69.8,
+        "highTemp": 83.1,
+        "lowTemp": 56.4,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 77.2,
+        "highTemp": 89,
+        "lowTemp": 65.4,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 80.4,
+        "highTemp": 91.8,
+        "lowTemp": 69.1,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 79.7,
+        "highTemp": 90.9,
+        "lowTemp": 68.4,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 73.4,
+        "highTemp": 85.2,
+        "lowTemp": 61.7,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 62.1,
+        "highTemp": 74.7,
+        "lowTemp": 49.6,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 51.5,
+        "highTemp": 64.2,
+        "lowTemp": 38.8,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 45.2,
+        "highTemp": 56.2,
+        "lowTemp": 34.2,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 62,
+      "highTemp": 74.3,
+      "lowTemp": 49.7,
+      "totalPrecip": 51.2,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

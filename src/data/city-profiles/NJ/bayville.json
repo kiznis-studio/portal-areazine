@@ -255,5 +255,54 @@
       5.7,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1NJOC0056",
+    "stationName": "BERKELEY TWP 2.7 SSE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.7
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 5.2
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

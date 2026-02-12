@@ -303,5 +303,93 @@
       4.3,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00003966",
+    "stationName": "ST LOUIS SPRT OF S L AP",
+    "distanceMi": 5.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.5,
+        "highTemp": 41,
+        "lowTemp": 22,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 36.1,
+        "highTemp": 46.5,
+        "lowTemp": 25.8,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 45.9,
+        "highTemp": 57.4,
+        "lowTemp": 34.4,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 56.4,
+        "highTemp": 68.4,
+        "lowTemp": 44.3,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 66,
+        "highTemp": 77.2,
+        "lowTemp": 54.9,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 74.8,
+        "highTemp": 85.7,
+        "lowTemp": 63.9,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 78.7,
+        "highTemp": 89.5,
+        "lowTemp": 68,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 76.9,
+        "highTemp": 88.1,
+        "lowTemp": 65.7,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 68.7,
+        "highTemp": 80.9,
+        "lowTemp": 56.5,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 57.3,
+        "highTemp": 69.5,
+        "lowTemp": 45.1,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 45.3,
+        "highTemp": 56.2,
+        "lowTemp": 34.4,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 35.7,
+        "highTemp": 45.1,
+        "lowTemp": 26.4,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 56.1,
+      "highTemp": 67.1,
+      "lowTemp": 45.1,
+      "totalPrecip": 39.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

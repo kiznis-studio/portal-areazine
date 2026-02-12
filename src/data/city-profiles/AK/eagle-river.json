@@ -247,5 +247,93 @@
       4.9,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00502645",
+    "stationName": "EAGLE RVR GAKONA CIRCLE",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 14.7,
+        "highTemp": 20.3,
+        "lowTemp": 9.2,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 20.1,
+        "highTemp": 26.9,
+        "lowTemp": 13.4,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 24.9,
+        "highTemp": 33.4,
+        "lowTemp": 16.4,
+        "precip": 0.9
+      },
+      "apr": {
+        "avgTemp": 37.5,
+        "highTemp": 46.2,
+        "lowTemp": 28.8,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 48,
+        "highTemp": 58,
+        "lowTemp": 38,
+        "precip": 0.9
+      },
+      "jun": {
+        "avgTemp": 55.1,
+        "highTemp": 64.4,
+        "lowTemp": 45.8,
+        "precip": 1.1
+      },
+      "jul": {
+        "avgTemp": 58.5,
+        "highTemp": 66.7,
+        "lowTemp": 50.3,
+        "precip": 2.1
+      },
+      "aug": {
+        "avgTemp": 55.6,
+        "highTemp": 63.2,
+        "lowTemp": 48,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 46.9,
+        "highTemp": 53.5,
+        "lowTemp": 40.4,
+        "precip": 2.7
+      },
+      "oct": {
+        "avgTemp": 34.1,
+        "highTemp": 39.9,
+        "lowTemp": 28.4,
+        "precip": 1.7
+      },
+      "nov": {
+        "avgTemp": 20.6,
+        "highTemp": 25.5,
+        "lowTemp": 15.7,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 16.8,
+        "highTemp": 22,
+        "lowTemp": 11.6,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 36.1,
+      "highTemp": 43.3,
+      "lowTemp": 28.8,
+      "totalPrecip": 17.7,
+      "hotMonths": 0,
+      "coldMonths": 7
+    }
   }
 }

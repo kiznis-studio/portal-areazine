@@ -239,5 +239,54 @@
       6.7,
       6.8
     ]
+  },
+  "climate": {
+    "station": "US1ORLA0017",
+    "stationName": "SPRINGFIELD 2.9 W",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.5
+      },
+      "feb": {
+        "precip": 4.5
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 2.8
+      },
+      "jun": {
+        "precip": 1.5
+      },
+      "jul": {
+        "precip": 0.4
+      },
+      "aug": {
+        "precip": 0.4
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 6.2
+      },
+      "dec": {
+        "precip": 6.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

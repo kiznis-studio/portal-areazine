@@ -231,5 +231,93 @@
       3.7,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00213567",
+    "stationName": "HASTINGS DAM 2",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 14.9,
+        "highTemp": 24.1,
+        "lowTemp": 5.7,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 18.8,
+        "highTemp": 29,
+        "lowTemp": 8.7,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 31.4,
+        "highTemp": 41.1,
+        "lowTemp": 21.8,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 46.1,
+        "highTemp": 56.4,
+        "lowTemp": 35.7,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 58.2,
+        "highTemp": 68.6,
+        "lowTemp": 47.8,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 68.7,
+        "highTemp": 78.8,
+        "lowTemp": 58.6,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 73.1,
+        "highTemp": 83,
+        "lowTemp": 63.3,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 71.1,
+        "highTemp": 80.9,
+        "lowTemp": 61.3,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 63.2,
+        "highTemp": 73.4,
+        "lowTemp": 53.1,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 49.7,
+        "highTemp": 59.4,
+        "lowTemp": 40,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 34.8,
+        "highTemp": 43,
+        "lowTemp": 26.6,
+        "precip": 1.7
+      },
+      "dec": {
+        "avgTemp": 21.7,
+        "highTemp": 29.7,
+        "lowTemp": 13.7,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 46,
+      "highTemp": 55.6,
+      "lowTemp": 36.4,
+      "totalPrecip": 33.2,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

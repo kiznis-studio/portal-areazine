@@ -231,5 +231,54 @@
       9.6,
       9.4
     ]
+  },
+  "climate": {
+    "station": "US1NMMK0006",
+    "stationName": "GALLUP 1.0 SSE",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.3
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 1.1
+      },
+      "apr": {
+        "precip": 0.7
+      },
+      "may": {
+        "precip": 0.9
+      },
+      "jun": {
+        "precip": 0.4
+      },
+      "jul": {
+        "precip": 1.8
+      },
+      "aug": {
+        "precip": 2.4
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 1
+      }
+    },
+    "annual": {
+      "totalPrecip": 14,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

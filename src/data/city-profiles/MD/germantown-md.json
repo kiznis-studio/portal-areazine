@@ -271,5 +271,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1MDMG0008",
+    "stationName": "GAITHERSBURG 2 WNW",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,54 @@
       4.1,
       4.1
     ]
+  },
+  "climate": {
+    "station": "US1GAGW0008",
+    "stationName": "SUWANEE 1.5 W",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.8
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 5.1
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 4.5
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

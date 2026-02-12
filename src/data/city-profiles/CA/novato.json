@@ -247,5 +247,52 @@
       5.8,
       6.1
     ]
+  },
+  "climate": {
+    "station": "US1CAMR0037",
+    "stationName": "NOVATO 2.7 WNW",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.4
+      },
+      "feb": {
+        "precip": 6
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 1.7
+      },
+      "may": {
+        "precip": 1.2
+      },
+      "jun": {
+        "precip": 0.3
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1.6
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 6.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 31.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

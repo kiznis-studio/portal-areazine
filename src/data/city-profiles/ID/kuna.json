@@ -247,5 +247,54 @@
       3.2,
       3.1
     ]
+  },
+  "climate": {
+    "station": "US1IDAD0007",
+    "stationName": "KUNA 1.5 SSE",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.4
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.2
+      },
+      "apr": {
+        "precip": 1.1
+      },
+      "may": {
+        "precip": 1.6
+      },
+      "jun": {
+        "precip": 1.1
+      },
+      "jul": {
+        "precip": 0.3
+      },
+      "aug": {
+        "precip": 0.2
+      },
+      "sep": {
+        "precip": 0.5
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1.2
+      },
+      "dec": {
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 11.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

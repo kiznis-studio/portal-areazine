@@ -153,5 +153,54 @@
       4.1,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00156094",
+    "stationName": "OWENSBORO 3E",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3.5
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.6
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 3
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 3.9
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00411490",
+    "stationName": "CARROLLTON",
+    "distanceMi": 4.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 2.3
+      },
+      "aug": {
+        "precip": 1.7
+      },
+      "sep": {
+        "precip": 3
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 40,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

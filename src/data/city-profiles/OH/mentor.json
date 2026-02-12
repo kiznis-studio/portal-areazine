@@ -231,5 +231,93 @@
       4.4,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00334260",
+    "stationName": "KIRTLAND-HOLDEN 2",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.4,
+        "highTemp": 33.6,
+        "lowTemp": 19.2,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 28.1,
+        "highTemp": 36.3,
+        "lowTemp": 20,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 36.4,
+        "highTemp": 44.8,
+        "lowTemp": 28,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 48,
+        "highTemp": 57.6,
+        "lowTemp": 38.3,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 58.9,
+        "highTemp": 68.7,
+        "lowTemp": 49.1,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 67.7,
+        "highTemp": 77.4,
+        "lowTemp": 58,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 72,
+        "highTemp": 81.6,
+        "lowTemp": 62.4,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 70.3,
+        "highTemp": 79.9,
+        "lowTemp": 60.8,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 64.4,
+        "highTemp": 74.1,
+        "lowTemp": 54.8,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 53.2,
+        "highTemp": 61.7,
+        "lowTemp": 44.7,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 42,
+        "highTemp": 49.3,
+        "lowTemp": 34.7,
+        "precip": 4.1
+      },
+      "dec": {
+        "avgTemp": 31.9,
+        "highTemp": 38.5,
+        "lowTemp": 25.4,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 49.9,
+      "highTemp": 58.6,
+      "lowTemp": 41.3,
+      "totalPrecip": 48.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

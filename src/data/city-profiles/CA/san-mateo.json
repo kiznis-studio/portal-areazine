@@ -263,5 +263,54 @@
       4.5,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1CASM0032",
+    "stationName": "SAN MATEO 0.8 NE",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 1.3
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 2
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 19.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -263,5 +263,54 @@
       3.2,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USC00146168",
+    "stationName": "OVERLAND PARK S OF 87TH",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.4
+      },
+      "feb": {
+        "precip": 1.7
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

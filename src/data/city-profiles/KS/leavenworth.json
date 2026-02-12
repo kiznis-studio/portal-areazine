@@ -222,5 +222,93 @@
       4.2,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00144588",
+    "stationName": "LEAVENWORTH HCN",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30,
+        "highTemp": 39.3,
+        "lowTemp": 20.7,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 34.6,
+        "highTemp": 44.8,
+        "lowTemp": 24.3,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 45,
+        "highTemp": 56.6,
+        "lowTemp": 33.5,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 55.6,
+        "highTemp": 67,
+        "lowTemp": 44.2,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 66.1,
+        "highTemp": 76.9,
+        "lowTemp": 55.3,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 75.4,
+        "highTemp": 86.2,
+        "lowTemp": 64.6,
+        "precip": 5.5
+      },
+      "jul": {
+        "avgTemp": 79.9,
+        "highTemp": 90.5,
+        "lowTemp": 69.2,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 78.3,
+        "highTemp": 88.7,
+        "lowTemp": 68,
+        "precip": 5.3
+      },
+      "sep": {
+        "avgTemp": 69.4,
+        "highTemp": 80.5,
+        "lowTemp": 58.3,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 57.2,
+        "highTemp": 68,
+        "lowTemp": 46.4,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 44.2,
+        "highTemp": 54.1,
+        "lowTemp": 34.2,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 33.9,
+        "highTemp": 42.9,
+        "lowTemp": 24.9,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 55.8,
+      "highTemp": 66.3,
+      "lowTemp": 45.3,
+      "totalPrecip": 41.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

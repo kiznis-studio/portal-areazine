@@ -303,5 +303,54 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1CASD0110",
+    "stationName": "LA MESA 0.9 SW",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 1.8
+      },
+      "apr": {
+        "precip": 0.7
+      },
+      "may": {
+        "precip": 0.3
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 0.9
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 12,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

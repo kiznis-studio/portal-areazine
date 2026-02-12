@@ -263,5 +263,93 @@
       4.1,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00383145",
+    "stationName": "FOUNTAIN INN 2 SW",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.6,
+        "highTemp": 53.3,
+        "lowTemp": 29.8,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 45.1,
+        "highTemp": 57,
+        "lowTemp": 33.1,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 51.6,
+        "highTemp": 64.8,
+        "lowTemp": 38.4,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 60.1,
+        "highTemp": 73.3,
+        "lowTemp": 46.8,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 67.9,
+        "highTemp": 79.6,
+        "lowTemp": 56.1,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 75.5,
+        "highTemp": 86.6,
+        "lowTemp": 64.3,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 79.1,
+        "highTemp": 90,
+        "lowTemp": 68.1,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 77.8,
+        "highTemp": 88.4,
+        "lowTemp": 67.2,
+        "precip": 4.9
+      },
+      "sep": {
+        "avgTemp": 72,
+        "highTemp": 82.6,
+        "lowTemp": 61.3,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 61.1,
+        "highTemp": 73.5,
+        "lowTemp": 48.6,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 50.7,
+        "highTemp": 63.5,
+        "lowTemp": 37.8,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 44.1,
+        "highTemp": 55.7,
+        "lowTemp": 32.5,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 60.6,
+      "highTemp": 72.4,
+      "lowTemp": 48.7,
+      "totalPrecip": 50.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

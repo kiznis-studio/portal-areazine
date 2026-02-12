@@ -255,5 +255,93 @@
       5.7,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00288816",
+    "stationName": "TOMS RIVER HCN",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.6,
+        "highTemp": 41.6,
+        "lowTemp": 21.7,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 33.2,
+        "highTemp": 44.5,
+        "lowTemp": 21.9,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 39.7,
+        "highTemp": 51,
+        "lowTemp": 28.3,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 50,
+        "highTemp": 61.7,
+        "lowTemp": 38.4,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 60.1,
+        "highTemp": 71.3,
+        "lowTemp": 48.9,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 68.9,
+        "highTemp": 79.8,
+        "lowTemp": 58,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 74.8,
+        "highTemp": 85.5,
+        "lowTemp": 64.2,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 83.7,
+        "lowTemp": 62.2,
+        "precip": 5
+      },
+      "sep": {
+        "avgTemp": 65.4,
+        "highTemp": 77.4,
+        "lowTemp": 53.4,
+        "precip": 4.7
+      },
+      "oct": {
+        "avgTemp": 54.2,
+        "highTemp": 66.7,
+        "lowTemp": 41.7,
+        "precip": 4.5
+      },
+      "nov": {
+        "avgTemp": 44.1,
+        "highTemp": 55.9,
+        "lowTemp": 32.4,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 36.7,
+        "highTemp": 46.8,
+        "lowTemp": 26.6,
+        "precip": 5.8
+      }
+    },
+    "annual": {
+      "avgTemp": 52.6,
+      "highTemp": 63.8,
+      "lowTemp": 41.5,
+      "totalPrecip": 52,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

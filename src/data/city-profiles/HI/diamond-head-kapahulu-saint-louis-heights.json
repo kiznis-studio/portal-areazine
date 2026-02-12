@@ -271,5 +271,93 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00519397",
+    "stationName": "WAIKIKI 717.2",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 73.3,
+        "highTemp": 80.5,
+        "lowTemp": 66,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 73.5,
+        "highTemp": 80.8,
+        "lowTemp": 66.3,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 74.5,
+        "highTemp": 81.2,
+        "lowTemp": 67.8,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 76.3,
+        "highTemp": 83,
+        "lowTemp": 69.7,
+        "precip": 1.2
+      },
+      "may": {
+        "avgTemp": 77.9,
+        "highTemp": 84.7,
+        "lowTemp": 71.2,
+        "precip": 1
+      },
+      "jun": {
+        "avgTemp": 79.9,
+        "highTemp": 86.5,
+        "lowTemp": 73.4,
+        "precip": 0.6
+      },
+      "jul": {
+        "avgTemp": 80.8,
+        "highTemp": 87.1,
+        "lowTemp": 74.5,
+        "precip": 0.7
+      },
+      "aug": {
+        "avgTemp": 81.5,
+        "highTemp": 88.2,
+        "lowTemp": 74.8,
+        "precip": 0.7
+      },
+      "sep": {
+        "avgTemp": 81,
+        "highTemp": 88,
+        "lowTemp": 74.1,
+        "precip": 1
+      },
+      "oct": {
+        "avgTemp": 79.9,
+        "highTemp": 86.8,
+        "lowTemp": 73.1,
+        "precip": 2.2
+      },
+      "nov": {
+        "avgTemp": 77.6,
+        "highTemp": 83.8,
+        "lowTemp": 71.5,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 75.2,
+        "highTemp": 81.6,
+        "lowTemp": 68.8,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 77.6,
+      "highTemp": 84.4,
+      "lowTemp": 70.9,
+      "totalPrecip": 20.6,
+      "hotMonths": 12,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,54 @@
       3.5,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USC00403379",
+    "stationName": "GALLATIN 2W",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 5
+      },
+      "may": {
+        "precip": 5.8
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 3.9
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

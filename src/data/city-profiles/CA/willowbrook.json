@@ -303,5 +303,91 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00003167",
+    "stationName": "HAWTHORNE MUNI AP",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 58.3,
+        "highTemp": 67.3,
+        "lowTemp": 49.2,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 58.7,
+        "highTemp": 66.8,
+        "lowTemp": 50.6,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 60.3,
+        "highTemp": 67.8,
+        "lowTemp": 52.7,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 62.3,
+        "highTemp": 69.7,
+        "lowTemp": 54.8,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 64.6,
+        "highTemp": 70.7,
+        "lowTemp": 58.4,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 67.3,
+        "highTemp": 73.1,
+        "lowTemp": 61.5
+      },
+      "jul": {
+        "avgTemp": 70.9,
+        "highTemp": 77.2,
+        "lowTemp": 64.7,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 72,
+        "highTemp": 78.7,
+        "lowTemp": 65.3
+      },
+      "sep": {
+        "avgTemp": 71.5,
+        "highTemp": 78.5,
+        "lowTemp": 64.5,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 68.1,
+        "highTemp": 76,
+        "lowTemp": 60.3,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 62.6,
+        "highTemp": 71.7,
+        "lowTemp": 53.6,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 57.6,
+        "highTemp": 66.4,
+        "lowTemp": 48.8,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 64.5,
+      "highTemp": 72,
+      "lowTemp": 57,
+      "totalPrecip": 11.9,
+      "hotMonths": 3,
+      "coldMonths": 0
+    }
   }
 }

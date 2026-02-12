@@ -231,5 +231,93 @@
       6.6,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00410569",
+    "stationName": "BAY CITY WTR WKS",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53,
+        "highTemp": 63.2,
+        "lowTemp": 42.7,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 56.9,
+        "highTemp": 66.6,
+        "lowTemp": 47.1,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 62.5,
+        "highTemp": 72.2,
+        "lowTemp": 52.9,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 68.3,
+        "highTemp": 77.6,
+        "lowTemp": 58.9,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 74.8,
+        "highTemp": 83.5,
+        "lowTemp": 66.1,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 80.1,
+        "highTemp": 88.8,
+        "lowTemp": 71.5,
+        "precip": 5.7
+      },
+      "jul": {
+        "avgTemp": 81.7,
+        "highTemp": 90.6,
+        "lowTemp": 72.8,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 82.1,
+        "highTemp": 91.4,
+        "lowTemp": 72.8,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 78.3,
+        "highTemp": 88.1,
+        "lowTemp": 68.6,
+        "precip": 5.8
+      },
+      "oct": {
+        "avgTemp": 70.9,
+        "highTemp": 81.4,
+        "lowTemp": 60.3,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 61.8,
+        "highTemp": 72.2,
+        "lowTemp": 51.4,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 55.2,
+        "highTemp": 65.3,
+        "lowTemp": 45.1,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 68.8,
+      "highTemp": 78.4,
+      "lowTemp": 59.2,
+      "totalPrecip": 49,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

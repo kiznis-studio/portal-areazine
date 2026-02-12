@@ -287,5 +287,93 @@
       5.5,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00121326",
+    "stationName": "CASTLETON 2 S",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.8,
+        "highTemp": 35.7,
+        "lowTemp": 19.8,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 31.6,
+        "highTemp": 40.6,
+        "lowTemp": 22.7,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 41.7,
+        "highTemp": 51.3,
+        "lowTemp": 32.1,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 53.1,
+        "highTemp": 64.3,
+        "lowTemp": 42,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 62.9,
+        "highTemp": 73.8,
+        "lowTemp": 52.1,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 71.8,
+        "highTemp": 81.9,
+        "lowTemp": 61.7,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 74.9,
+        "highTemp": 84.8,
+        "lowTemp": 65.1,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 73.1,
+        "highTemp": 82.9,
+        "lowTemp": 63.3,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 66.3,
+        "highTemp": 76.7,
+        "lowTemp": 55.9,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 54.5,
+        "highTemp": 64.6,
+        "lowTemp": 44.5,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 42.6,
+        "highTemp": 51.5,
+        "lowTemp": 33.7,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 32.6,
+        "highTemp": 39.9,
+        "lowTemp": 25.2,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 52.7,
+      "highTemp": 62.3,
+      "lowTemp": 43.2,
+      "totalPrecip": 47.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

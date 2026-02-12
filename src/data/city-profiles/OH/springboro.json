@@ -231,5 +231,93 @@
       3,
       3.1
     ]
+  },
+  "climate": {
+    "station": "USW00053859",
+    "stationName": "DAYTON WRIGHT BROS AP",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.6,
+        "highTemp": 39.1,
+        "lowTemp": 22,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 33.8,
+        "highTemp": 43,
+        "lowTemp": 24.6,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 42.6,
+        "highTemp": 52.6,
+        "lowTemp": 32.7,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 53.9,
+        "highTemp": 65.2,
+        "lowTemp": 42.6,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 64,
+        "highTemp": 74.8,
+        "lowTemp": 53.1,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 72.2,
+        "highTemp": 82.8,
+        "lowTemp": 61.6,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 75.4,
+        "highTemp": 85.9,
+        "lowTemp": 65,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 74.2,
+        "highTemp": 85.1,
+        "lowTemp": 63.3,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 67.4,
+        "highTemp": 78.8,
+        "lowTemp": 56.1,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 55.8,
+        "highTemp": 66.8,
+        "lowTemp": 44.8,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 44.3,
+        "highTemp": 53.8,
+        "lowTemp": 34.8,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 35.1,
+        "highTemp": 42.9,
+        "lowTemp": 27.3,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 54.1,
+      "highTemp": 64.2,
+      "lowTemp": 44,
+      "totalPrecip": 40.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

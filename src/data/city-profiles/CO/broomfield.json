@@ -231,5 +231,54 @@
       3.2,
       3.2
     ]
+  },
+  "climate": {
+    "station": "US1COBO0002",
+    "stationName": "BROOMFIELD 1.2 NE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.8
+      },
+      "mar": {
+        "precip": 1.7
+      },
+      "apr": {
+        "precip": 2.4
+      },
+      "may": {
+        "precip": 2.8
+      },
+      "jun": {
+        "precip": 1.7
+      },
+      "jul": {
+        "precip": 2.2
+      },
+      "aug": {
+        "precip": 1.6
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 0.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,92 @@
       5.3,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00049781",
+    "stationName": "WOODLAND 1 WNW",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.9,
+        "highTemp": 56.2,
+        "lowTemp": 37.6,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 51.2,
+        "highTemp": 61.7,
+        "lowTemp": 40.7,
+        "precip": 4.2
+      },
+      "mar": {
+        "avgTemp": 55.7,
+        "highTemp": 67.5,
+        "lowTemp": 43.9,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 60.4,
+        "highTemp": 74,
+        "lowTemp": 46.9,
+        "precip": 1.3
+      },
+      "may": {
+        "avgTemp": 67,
+        "highTemp": 81.9,
+        "lowTemp": 52.2,
+        "precip": 0.7
+      },
+      "jun": {
+        "avgTemp": 73.2,
+        "highTemp": 89.6,
+        "lowTemp": 56.8,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 76.5,
+        "highTemp": 94.9,
+        "lowTemp": 58.2
+      },
+      "aug": {
+        "avgTemp": 75.8,
+        "highTemp": 94.3,
+        "lowTemp": 57.3,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 73.1,
+        "highTemp": 90.3,
+        "lowTemp": 55.8,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 65,
+        "highTemp": 79.7,
+        "lowTemp": 50.4,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 54,
+        "highTemp": 65.4,
+        "lowTemp": 42.6,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 47,
+        "highTemp": 56.4,
+        "lowTemp": 37.5,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 62.2,
+      "highTemp": 76,
+      "lowTemp": 48.3,
+      "totalPrecip": 20.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

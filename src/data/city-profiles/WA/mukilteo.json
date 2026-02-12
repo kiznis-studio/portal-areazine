@@ -247,5 +247,93 @@
       4.4,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USW00024222",
+    "stationName": "EVERETT SNOHOMISH AP",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.2,
+        "highTemp": 45.8,
+        "lowTemp": 36.6,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 42.4,
+        "highTemp": 47.9,
+        "lowTemp": 36.9,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 45.3,
+        "highTemp": 51.6,
+        "lowTemp": 39,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 49.3,
+        "highTemp": 56.1,
+        "lowTemp": 42.6,
+        "precip": 2.7
+      },
+      "may": {
+        "avgTemp": 55,
+        "highTemp": 62.5,
+        "lowTemp": 47.6,
+        "precip": 2.1
+      },
+      "jun": {
+        "avgTemp": 58.9,
+        "highTemp": 66.4,
+        "lowTemp": 51.4,
+        "precip": 1.9
+      },
+      "jul": {
+        "avgTemp": 63.5,
+        "highTemp": 72.3,
+        "lowTemp": 54.7,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 64.2,
+        "highTemp": 73,
+        "lowTemp": 55.4,
+        "precip": 1
+      },
+      "sep": {
+        "avgTemp": 60,
+        "highTemp": 67.7,
+        "lowTemp": 52.3,
+        "precip": 1.7
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 57.7,
+        "lowTemp": 46,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 44.8,
+        "highTemp": 49.7,
+        "lowTemp": 39.9,
+        "precip": 5
+      },
+      "dec": {
+        "avgTemp": 40.3,
+        "highTemp": 44.6,
+        "lowTemp": 36,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 51.4,
+      "highTemp": 57.9,
+      "lowTemp": 44.9,
+      "totalPrecip": 33.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

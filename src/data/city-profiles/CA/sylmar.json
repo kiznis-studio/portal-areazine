@@ -303,5 +303,54 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00046602",
+    "stationName": "PACOIMA DAM FC33A-E",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 1
+      },
+      "may": {
+        "precip": 0.6
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

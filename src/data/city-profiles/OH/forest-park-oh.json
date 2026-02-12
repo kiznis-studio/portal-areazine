@@ -287,5 +287,54 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "US1OHHM0013",
+    "stationName": "CINCINNATI 8.9 NW",
+    "distanceMi": 4.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 3.1
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.2,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00237263",
+    "stationName": "ROLLA MISSOURI S&T HCN",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.7,
+        "highTemp": 40.9,
+        "lowTemp": 22.4,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 36.1,
+        "highTemp": 46.1,
+        "lowTemp": 26.2,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 45.4,
+        "highTemp": 56,
+        "lowTemp": 34.8,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 56.3,
+        "highTemp": 67.2,
+        "lowTemp": 45.4,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 65.8,
+        "highTemp": 75.9,
+        "lowTemp": 55.7,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 74.3,
+        "highTemp": 84.1,
+        "lowTemp": 64.6,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 78.8,
+        "highTemp": 88.9,
+        "lowTemp": 68.7,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 77.6,
+        "highTemp": 88.1,
+        "lowTemp": 67.1,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 69.6,
+        "highTemp": 80.4,
+        "lowTemp": 58.9,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 58.2,
+        "highTemp": 69.1,
+        "lowTemp": 47.3,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 46,
+        "highTemp": 55.7,
+        "lowTemp": 36.4,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 36,
+        "highTemp": 44.8,
+        "lowTemp": 27.2,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 56.3,
+      "highTemp": 66.4,
+      "lowTemp": 46.2,
+      "totalPrecip": 47.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

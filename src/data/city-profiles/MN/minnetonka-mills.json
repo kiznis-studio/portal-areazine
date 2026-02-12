@@ -287,5 +287,54 @@
       4.3,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1MNHN0088",
+    "stationName": "GOLDEN VALLEY 0.8 WSW",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.7
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 3
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 32.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

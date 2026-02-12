@@ -303,5 +303,54 @@
       7.1,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CASR0009",
+    "stationName": "APPLE VALLEY 2.6 SE",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.6
+      },
+      "feb": {
+        "precip": 1.6
+      },
+      "mar": {
+        "precip": 0.9
+      },
+      "apr": {
+        "precip": 0.5
+      },
+      "may": {
+        "precip": 0.2
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.3
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.4
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 7.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

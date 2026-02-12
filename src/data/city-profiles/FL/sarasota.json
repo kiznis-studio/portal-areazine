@@ -255,5 +255,93 @@
       3.4,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USW00012871",
+    "stationName": "SARASOTA BRADENTON AP",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62.4,
+        "highTemp": 72.5,
+        "lowTemp": 52.3,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 64.8,
+        "highTemp": 74.9,
+        "lowTemp": 54.6,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 68.1,
+        "highTemp": 78.2,
+        "lowTemp": 58.1,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 72.6,
+        "highTemp": 82.5,
+        "lowTemp": 62.7,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 77.8,
+        "highTemp": 87.5,
+        "lowTemp": 68.2,
+        "precip": 2.6
+      },
+      "jun": {
+        "avgTemp": 81.8,
+        "highTemp": 90,
+        "lowTemp": 73.6,
+        "precip": 7.1
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 91.1,
+        "lowTemp": 75.2,
+        "precip": 7.4
+      },
+      "aug": {
+        "avgTemp": 83.4,
+        "highTemp": 91.5,
+        "lowTemp": 75.3,
+        "precip": 9.1
+      },
+      "sep": {
+        "avgTemp": 82.2,
+        "highTemp": 90.2,
+        "lowTemp": 74.1,
+        "precip": 6
+      },
+      "oct": {
+        "avgTemp": 77.3,
+        "highTemp": 86.3,
+        "lowTemp": 68.3,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 70.1,
+        "highTemp": 80,
+        "lowTemp": 60.1,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 65.2,
+        "highTemp": 75.2,
+        "lowTemp": 55.2,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 74.1,
+      "highTemp": 83.3,
+      "lowTemp": 64.8,
+      "totalPrecip": 49.2,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

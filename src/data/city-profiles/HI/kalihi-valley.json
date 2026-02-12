@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00512960",
+    "stationName": "KALIHI RSCH SITE 777",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 9.1
+      },
+      "feb": {
+        "precip": 8.1
+      },
+      "mar": {
+        "precip": 12.6
+      },
+      "apr": {
+        "precip": 9.4
+      },
+      "may": {
+        "precip": 8.2
+      },
+      "jun": {
+        "precip": 7.7
+      },
+      "jul": {
+        "precip": 9.1
+      },
+      "aug": {
+        "precip": 8.6
+      },
+      "sep": {
+        "precip": 9.4
+      },
+      "oct": {
+        "precip": 10.5
+      },
+      "nov": {
+        "precip": 11.3
+      },
+      "dec": {
+        "precip": 10.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 114.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

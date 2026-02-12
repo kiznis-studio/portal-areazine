@@ -222,5 +222,93 @@
       3.4,
       3
     ]
+  },
+  "climate": {
+    "station": "USW00004839",
+    "stationName": "HOLLAND TULIP CITY AP",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.9,
+        "highTemp": 31.8,
+        "lowTemp": 19.9,
+        "precip": 1.9
+      },
+      "feb": {
+        "avgTemp": 27.4,
+        "highTemp": 34.3,
+        "lowTemp": 20.5,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 36,
+        "highTemp": 44.4,
+        "lowTemp": 27.6,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 47.1,
+        "highTemp": 56.8,
+        "lowTemp": 37.4,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 58.3,
+        "highTemp": 68.6,
+        "lowTemp": 47.9,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 67.9,
+        "highTemp": 78.1,
+        "lowTemp": 57.7,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 71.6,
+        "highTemp": 81.7,
+        "lowTemp": 61.6,
+        "precip": 2.8
+      },
+      "aug": {
+        "avgTemp": 70,
+        "highTemp": 80.2,
+        "lowTemp": 59.9,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 62.9,
+        "highTemp": 73.5,
+        "lowTemp": 52.4,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 51.7,
+        "highTemp": 60.8,
+        "lowTemp": 42.6,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 40.7,
+        "highTemp": 47.6,
+        "lowTemp": 33.8,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 31.5,
+        "highTemp": 36.9,
+        "lowTemp": 26.2,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 49.3,
+      "highTemp": 57.9,
+      "lowTemp": 40.6,
+      "totalPrecip": 35,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

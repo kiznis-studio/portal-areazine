@@ -247,5 +247,93 @@
       4.9,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00046943",
+    "stationName": "PISMO BEACH",
+    "distanceMi": 5.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.5,
+        "highTemp": 64.8,
+        "lowTemp": 44.2,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 54.5,
+        "highTemp": 65.1,
+        "lowTemp": 44,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 56.9,
+        "highTemp": 67.5,
+        "lowTemp": 46.2,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 59,
+        "highTemp": 69.7,
+        "lowTemp": 48.2,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 60.9,
+        "highTemp": 72.3,
+        "lowTemp": 49.5,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 61,
+        "highTemp": 70.5,
+        "lowTemp": 51.4,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 62.1,
+        "highTemp": 70.3,
+        "lowTemp": 53.9,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 63.1,
+        "highTemp": 71.4,
+        "lowTemp": 54.8,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 62.7,
+        "highTemp": 71.9,
+        "lowTemp": 53.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.5,
+        "highTemp": 72.5,
+        "lowTemp": 52.6,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 57.7,
+        "highTemp": 69,
+        "lowTemp": 46.4,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 54.3,
+        "highTemp": 65,
+        "lowTemp": 43.7,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 59.1,
+      "highTemp": 69.2,
+      "lowTemp": 49,
+      "totalPrecip": 18,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,93 @@
       5.1,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00046926",
+    "stationName": "PINNACLES NM",
+    "distanceMi": 8.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.3,
+        "highTemp": 62.6,
+        "lowTemp": 34,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 49.6,
+        "highTemp": 63.7,
+        "lowTemp": 35.6,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 52.6,
+        "highTemp": 67.5,
+        "lowTemp": 37.7,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 55.8,
+        "highTemp": 72.3,
+        "lowTemp": 39.4,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 61.5,
+        "highTemp": 80,
+        "lowTemp": 43.1,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 67.7,
+        "highTemp": 88.8,
+        "lowTemp": 46.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 73.2,
+        "highTemp": 95.9,
+        "lowTemp": 50.4,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 95.8,
+        "lowTemp": 50.3,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 69.9,
+        "highTemp": 91.7,
+        "lowTemp": 48.1,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.6,
+        "highTemp": 82.5,
+        "lowTemp": 42.7,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 53.5,
+        "highTemp": 70.4,
+        "lowTemp": 36.7,
+        "precip": 1.3
+      },
+      "dec": {
+        "avgTemp": 47.7,
+        "highTemp": 62,
+        "lowTemp": 33.4,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 59.6,
+      "highTemp": 77.8,
+      "lowTemp": 41.5,
+      "totalPrecip": 16.7,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

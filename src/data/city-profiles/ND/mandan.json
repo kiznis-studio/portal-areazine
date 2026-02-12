@@ -216,5 +216,93 @@
       2,
       1.4
     ]
+  },
+  "climate": {
+    "station": "USC00325479",
+    "stationName": "MANDAN EXP STN HCN",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 12.6,
+        "highTemp": 22.5,
+        "lowTemp": 2.7,
+        "precip": 0.4
+      },
+      "feb": {
+        "avgTemp": 16.7,
+        "highTemp": 27.1,
+        "lowTemp": 6.4,
+        "precip": 0.4
+      },
+      "mar": {
+        "avgTemp": 29,
+        "highTemp": 39.6,
+        "lowTemp": 18.3,
+        "precip": 0.6
+      },
+      "apr": {
+        "avgTemp": 42.3,
+        "highTemp": 54.1,
+        "lowTemp": 30.4,
+        "precip": 1.3
+      },
+      "may": {
+        "avgTemp": 54.5,
+        "highTemp": 66.5,
+        "lowTemp": 42.6,
+        "precip": 2.6
+      },
+      "jun": {
+        "avgTemp": 64.5,
+        "highTemp": 76,
+        "lowTemp": 53,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 70.3,
+        "highTemp": 82.6,
+        "lowTemp": 58,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 68.7,
+        "highTemp": 81.8,
+        "lowTemp": 55.5,
+        "precip": 2.2
+      },
+      "sep": {
+        "avgTemp": 59,
+        "highTemp": 72.1,
+        "lowTemp": 45.8,
+        "precip": 1.6
+      },
+      "oct": {
+        "avgTemp": 44.1,
+        "highTemp": 56.1,
+        "lowTemp": 32.1,
+        "precip": 1.5
+      },
+      "nov": {
+        "avgTemp": 29.5,
+        "highTemp": 39.9,
+        "lowTemp": 19.1,
+        "precip": 0.6
+      },
+      "dec": {
+        "avgTemp": 17.9,
+        "highTemp": 27.4,
+        "lowTemp": 8.4,
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "avgTemp": 42.4,
+      "highTemp": 53.8,
+      "lowTemp": 31,
+      "totalPrecip": 18.3,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

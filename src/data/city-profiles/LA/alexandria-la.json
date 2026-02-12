@@ -239,5 +239,93 @@
       5.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00160098",
+    "stationName": "ALEXANDRIA HCN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.5,
+        "highTemp": 58.5,
+        "lowTemp": 38.5,
+        "precip": 6.1
+      },
+      "feb": {
+        "avgTemp": 52.2,
+        "highTemp": 62.6,
+        "lowTemp": 41.8,
+        "precip": 5.1
+      },
+      "mar": {
+        "avgTemp": 59.2,
+        "highTemp": 69.6,
+        "lowTemp": 48.8,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 65.8,
+        "highTemp": 76.3,
+        "lowTemp": 55.4,
+        "precip": 5.4
+      },
+      "may": {
+        "avgTemp": 73.8,
+        "highTemp": 83.3,
+        "lowTemp": 64.3,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 80.2,
+        "highTemp": 89.3,
+        "lowTemp": 71,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 82.6,
+        "highTemp": 91.7,
+        "lowTemp": 73.6,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 82.7,
+        "highTemp": 92.4,
+        "lowTemp": 73.1,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 78.1,
+        "highTemp": 88.1,
+        "lowTemp": 68,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 67.8,
+        "highTemp": 79,
+        "lowTemp": 56.6,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 57.3,
+        "highTemp": 68.2,
+        "lowTemp": 46.4,
+        "precip": 5.5
+      },
+      "dec": {
+        "avgTemp": 50.5,
+        "highTemp": 60.5,
+        "lowTemp": 40.4,
+        "precip": 6
+      }
+    },
+    "annual": {
+      "avgTemp": 66.6,
+      "highTemp": 76.6,
+      "lowTemp": 56.5,
+      "totalPrecip": 61,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,93 @@
       4.7,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00200228",
+    "stationName": "ANN ARBOR SE",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24,
+        "highTemp": 31.7,
+        "lowTemp": 16.3,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 25.5,
+        "highTemp": 34.8,
+        "lowTemp": 16.3,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 35,
+        "highTemp": 45.1,
+        "lowTemp": 24.9,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 46.2,
+        "highTemp": 58.2,
+        "lowTemp": 34.2,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 57.9,
+        "highTemp": 70.4,
+        "lowTemp": 45.5,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 67.6,
+        "highTemp": 79.7,
+        "lowTemp": 55.5,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 71.5,
+        "highTemp": 84,
+        "lowTemp": 59,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 69.7,
+        "highTemp": 81.5,
+        "lowTemp": 57.9,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 62.4,
+        "highTemp": 75.1,
+        "lowTemp": 49.7,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 50.5,
+        "highTemp": 62,
+        "lowTemp": 39,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 38.8,
+        "highTemp": 48,
+        "lowTemp": 29.6,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 29.2,
+        "highTemp": 36.2,
+        "lowTemp": 22.2,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 48.2,
+      "highTemp": 58.9,
+      "lowTemp": 37.5,
+      "totalPrecip": 37.8,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

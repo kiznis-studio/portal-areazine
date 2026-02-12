@@ -263,5 +263,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "US1TXHRR228",
+    "stationName": "KATY 5.2 E",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 5.9
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 7.6
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4.6
+      },
+      "dec": {
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 56.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

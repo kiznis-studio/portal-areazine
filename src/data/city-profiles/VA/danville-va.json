@@ -231,5 +231,93 @@
       5.8,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00442245",
+    "stationName": "DANVILLE 2 SE HCN",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.1,
+        "highTemp": 49.7,
+        "lowTemp": 26.5,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 41.1,
+        "highTemp": 53.6,
+        "lowTemp": 28.5,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 48.1,
+        "highTemp": 61.6,
+        "lowTemp": 34.6,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 58,
+        "highTemp": 72.4,
+        "lowTemp": 43.6,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 66.7,
+        "highTemp": 79.8,
+        "lowTemp": 53.6,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 74.9,
+        "highTemp": 87,
+        "lowTemp": 62.7,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 79.2,
+        "highTemp": 90.8,
+        "lowTemp": 67.6,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 77.5,
+        "highTemp": 89,
+        "lowTemp": 66.1,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 70.8,
+        "highTemp": 82.7,
+        "lowTemp": 58.9,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 59.3,
+        "highTemp": 72.4,
+        "lowTemp": 46.1,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 48.4,
+        "highTemp": 61.6,
+        "lowTemp": 35.1,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 41,
+        "highTemp": 52.6,
+        "lowTemp": 29.5,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 58.6,
+      "highTemp": 71.1,
+      "lowTemp": 46.1,
+      "totalPrecip": 47.1,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

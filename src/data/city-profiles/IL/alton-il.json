@@ -263,5 +263,93 @@
       5.2,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00110137",
+    "stationName": "ALTON - MELVIN PRICE L&D",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.3,
+        "highTemp": 39,
+        "lowTemp": 21.7,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 34.5,
+        "highTemp": 43.7,
+        "lowTemp": 25.2,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 44.1,
+        "highTemp": 53.5,
+        "lowTemp": 34.7,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 55.6,
+        "highTemp": 66.1,
+        "lowTemp": 45.2,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 65.6,
+        "highTemp": 75,
+        "lowTemp": 56.1,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 74.6,
+        "highTemp": 83.7,
+        "lowTemp": 65.6,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 78.3,
+        "highTemp": 87.3,
+        "lowTemp": 69.3,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 76.6,
+        "highTemp": 86,
+        "lowTemp": 67.3,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 70,
+        "highTemp": 80.1,
+        "lowTemp": 59.8,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 57.9,
+        "highTemp": 67.9,
+        "lowTemp": 48,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 45.4,
+        "highTemp": 54.3,
+        "lowTemp": 36.5,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 35.3,
+        "highTemp": 43.5,
+        "lowTemp": 27.1,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 55.7,
+      "highTemp": 65,
+      "lowTemp": 46.4,
+      "totalPrecip": 41.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

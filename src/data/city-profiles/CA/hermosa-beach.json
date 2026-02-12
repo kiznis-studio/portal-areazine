@@ -303,5 +303,93 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00047326",
+    "stationName": "REDONDO BEACH",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57,
+        "highTemp": 66.6,
+        "lowTemp": 47.3,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 56.7,
+        "highTemp": 65.9,
+        "lowTemp": 47.5,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 58,
+        "highTemp": 66,
+        "lowTemp": 49.9,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 59.6,
+        "highTemp": 67.5,
+        "lowTemp": 51.6,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 62.6,
+        "highTemp": 69.5,
+        "lowTemp": 55.7,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 65.3,
+        "highTemp": 72.1,
+        "lowTemp": 58.4,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 69,
+        "highTemp": 75.6,
+        "lowTemp": 62.4,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 69.7,
+        "highTemp": 76.5,
+        "lowTemp": 62.9,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 69,
+        "highTemp": 76.1,
+        "lowTemp": 61.8,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 65.6,
+        "highTemp": 74,
+        "lowTemp": 57.1,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 60.9,
+        "highTemp": 70.6,
+        "lowTemp": 51.1,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 56.6,
+        "highTemp": 66.4,
+        "lowTemp": 46.8,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 62.5,
+      "highTemp": 70.6,
+      "lowTemp": 54.4,
+      "totalPrecip": 13.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

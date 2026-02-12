@@ -138,5 +138,93 @@
       3.6,
       3.1
     ]
+  },
+  "climate": {
+    "station": "USC00110993",
+    "stationName": "BROOKPORT DAM 52",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.1,
+        "highTemp": 43,
+        "lowTemp": 25.1,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 37.8,
+        "highTemp": 47.6,
+        "lowTemp": 27.9,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 46.9,
+        "highTemp": 57.6,
+        "lowTemp": 36.2,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 57.6,
+        "highTemp": 69,
+        "lowTemp": 46.2,
+        "precip": 5.1
+      },
+      "may": {
+        "avgTemp": 66.7,
+        "highTemp": 77.4,
+        "lowTemp": 56,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 75,
+        "highTemp": 85.4,
+        "lowTemp": 64.5,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 78.4,
+        "highTemp": 88.6,
+        "lowTemp": 68.2,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 77.2,
+        "highTemp": 88,
+        "lowTemp": 66.4,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 70.3,
+        "highTemp": 82,
+        "lowTemp": 58.6,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 58.8,
+        "highTemp": 70.9,
+        "lowTemp": 46.8,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 46.6,
+        "highTemp": 57.2,
+        "lowTemp": 36,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 37.9,
+        "highTemp": 46.7,
+        "lowTemp": 29,
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "avgTemp": 57.3,
+      "highTemp": 67.8,
+      "lowTemp": 46.7,
+      "totalPrecip": 49.2,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

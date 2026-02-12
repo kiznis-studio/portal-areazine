@@ -239,5 +239,93 @@
       6.4,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00023027",
+    "stationName": "FLORENCE",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 55,
+        "highTemp": 67.7,
+        "lowTemp": 42.2,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 57.4,
+        "highTemp": 70.8,
+        "lowTemp": 43.9,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 63.8,
+        "highTemp": 78.5,
+        "lowTemp": 49.1,
+        "precip": 1.2
+      },
+      "apr": {
+        "avgTemp": 69.6,
+        "highTemp": 85.9,
+        "lowTemp": 53.3,
+        "precip": 0.3
+      },
+      "may": {
+        "avgTemp": 77.5,
+        "highTemp": 94.1,
+        "lowTemp": 60.9,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 86.7,
+        "highTemp": 103,
+        "lowTemp": 70.4,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 91.6,
+        "highTemp": 104.9,
+        "lowTemp": 78.3,
+        "precip": 1.2
+      },
+      "aug": {
+        "avgTemp": 90.4,
+        "highTemp": 103.2,
+        "lowTemp": 77.7,
+        "precip": 1.1
+      },
+      "sep": {
+        "avgTemp": 85.4,
+        "highTemp": 99.1,
+        "lowTemp": 71.8,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 74.3,
+        "highTemp": 89,
+        "lowTemp": 59.6,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 62.7,
+        "highTemp": 77.2,
+        "lowTemp": 48.2,
+        "precip": 0.5
+      },
+      "dec": {
+        "avgTemp": 54.1,
+        "highTemp": 66.8,
+        "lowTemp": 41.3,
+        "precip": 1
+      }
+    },
+    "annual": {
+      "avgTemp": 72.4,
+      "highTemp": 86.7,
+      "lowTemp": 58.1,
+      "totalPrecip": 8.8,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

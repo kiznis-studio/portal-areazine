@@ -161,5 +161,93 @@
       3.4,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00361354",
+    "stationName": "CHAMBERSBURG 1 ESE HCN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.2,
+        "highTemp": 37.4,
+        "lowTemp": 22.9,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 32.7,
+        "highTemp": 40.9,
+        "lowTemp": 24.6,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 41.1,
+        "highTemp": 50.4,
+        "lowTemp": 31.9,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 52.4,
+        "highTemp": 63.2,
+        "lowTemp": 41.6,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 62.1,
+        "highTemp": 72.6,
+        "lowTemp": 51.5,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 70.7,
+        "highTemp": 80.8,
+        "lowTemp": 60.6,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 74.8,
+        "highTemp": 84.9,
+        "lowTemp": 64.7,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 72.9,
+        "highTemp": 82.9,
+        "lowTemp": 63,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 65.7,
+        "highTemp": 75.6,
+        "lowTemp": 55.7,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 54.3,
+        "highTemp": 64,
+        "lowTemp": 44.6,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 43.5,
+        "highTemp": 52.1,
+        "lowTemp": 34.9,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 34.4,
+        "highTemp": 41.4,
+        "lowTemp": 27.4,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 52.9,
+      "highTemp": 62.2,
+      "lowTemp": 43.6,
+      "totalPrecip": 43.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

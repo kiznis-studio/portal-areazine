@@ -303,5 +303,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00087020",
+    "stationName": "PERRINE 4W HCN",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 65.5,
+        "highTemp": 76.1,
+        "lowTemp": 54.9,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 67.4,
+        "highTemp": 78.1,
+        "lowTemp": 56.6,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 69.7,
+        "highTemp": 80.2,
+        "lowTemp": 59.2,
+        "precip": 2.3
+      },
+      "apr": {
+        "avgTemp": 73.4,
+        "highTemp": 83.8,
+        "lowTemp": 63.1,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 77,
+        "highTemp": 86.3,
+        "lowTemp": 67.6,
+        "precip": 5.6
+      },
+      "jun": {
+        "avgTemp": 80.4,
+        "highTemp": 88.9,
+        "lowTemp": 71.8,
+        "precip": 10.1
+      },
+      "jul": {
+        "avgTemp": 81.3,
+        "highTemp": 90,
+        "lowTemp": 72.5,
+        "precip": 7.8
+      },
+      "aug": {
+        "avgTemp": 81.8,
+        "highTemp": 90.4,
+        "lowTemp": 73.1,
+        "precip": 10.2
+      },
+      "sep": {
+        "avgTemp": 80.7,
+        "highTemp": 89,
+        "lowTemp": 72.5,
+        "precip": 10.1
+      },
+      "oct": {
+        "avgTemp": 77.5,
+        "highTemp": 85.9,
+        "lowTemp": 69.1,
+        "precip": 7.6
+      },
+      "nov": {
+        "avgTemp": 72.2,
+        "highTemp": 81.4,
+        "lowTemp": 62.9,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 68.1,
+        "highTemp": 78,
+        "lowTemp": 58.3,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 74.6,
+      "highTemp": 84,
+      "lowTemp": 65.1,
+      "totalPrecip": 66.6,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,54 @@
       4.3,
       4
     ]
+  },
+  "climate": {
+    "station": "US1TXWM0013",
+    "stationName": "LEANDER 1.6 NW",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.1
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 3.5
+      },
+      "jul": {
+        "precip": 2.1
+      },
+      "aug": {
+        "precip": 2.6
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

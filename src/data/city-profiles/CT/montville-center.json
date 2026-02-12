@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USC00065910",
+    "stationName": "NORWICH PUBLIC UTILITY PLT",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.5,
+        "highTemp": 37.7,
+        "lowTemp": 21.2,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 31.7,
+        "highTemp": 40.5,
+        "lowTemp": 22.9,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 38.6,
+        "highTemp": 47.8,
+        "lowTemp": 29.4,
+        "precip": 5.1
+      },
+      "apr": {
+        "avgTemp": 49.2,
+        "highTemp": 59.3,
+        "lowTemp": 39.1,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 59.4,
+        "highTemp": 69.9,
+        "lowTemp": 48.9,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 68.4,
+        "highTemp": 78.4,
+        "lowTemp": 58.5,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 74.4,
+        "highTemp": 84.1,
+        "lowTemp": 64.8,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 72.6,
+        "highTemp": 82.6,
+        "lowTemp": 62.7,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 65.2,
+        "highTemp": 75.5,
+        "lowTemp": 54.9,
+        "precip": 4.8
+      },
+      "oct": {
+        "avgTemp": 53.8,
+        "highTemp": 63.9,
+        "lowTemp": 43.6,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 43.6,
+        "highTemp": 53,
+        "lowTemp": 34.3,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 35.1,
+        "highTemp": 43.2,
+        "lowTemp": 27,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 51.8,
+      "highTemp": 61.3,
+      "lowTemp": 42.3,
+      "totalPrecip": 52.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

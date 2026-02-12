@@ -247,5 +247,54 @@
       5.7,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1FLCH0017",
+    "stationName": "PUNTA GORDA 1.6 NNW",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.4
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 8.7
+      },
+      "jul": {
+        "precip": 8.3
+      },
+      "aug": {
+        "precip": 9.1
+      },
+      "sep": {
+        "precip": 8.4
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00405431",
+    "stationName": "LOOKOUT MTN-POINT PARK",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.2,
+        "highTemp": 45.6,
+        "lowTemp": 28.7,
+        "precip": 5.5
+      },
+      "feb": {
+        "avgTemp": 40.4,
+        "highTemp": 49.4,
+        "lowTemp": 31.4,
+        "precip": 6
+      },
+      "mar": {
+        "avgTemp": 48.4,
+        "highTemp": 58.3,
+        "lowTemp": 38.6,
+        "precip": 5.6
+      },
+      "apr": {
+        "avgTemp": 57.6,
+        "highTemp": 67.7,
+        "lowTemp": 47.4,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 65.5,
+        "highTemp": 74.2,
+        "lowTemp": 56.8,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 72.6,
+        "highTemp": 80.5,
+        "lowTemp": 64.7,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 83.8,
+        "lowTemp": 67.4,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 74.5,
+        "highTemp": 82.4,
+        "lowTemp": 66.6,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 69.5,
+        "highTemp": 77.6,
+        "lowTemp": 61.3,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 59,
+        "highTemp": 67.4,
+        "lowTemp": 50.6,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 48.3,
+        "highTemp": 56.8,
+        "lowTemp": 39.8,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 40.5,
+        "highTemp": 48.5,
+        "lowTemp": 32.4,
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "avgTemp": 57.4,
+      "highTemp": 66,
+      "lowTemp": 48.8,
+      "totalPrecip": 58.6,
+      "hotMonths": 3,
+      "coldMonths": 1
+    }
   }
 }

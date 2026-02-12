@@ -247,5 +247,54 @@
       5.1,
       5
     ]
+  },
+  "climate": {
+    "station": "US1CAMT0041",
+    "stationName": "MARINA 0.8 SSE",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 1.2
+      },
+      "may": {
+        "precip": 0.6
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       6.9,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USC00093538",
+    "stationName": "FT STEWART 74780",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.9,
+        "highTemp": 62.7,
+        "lowTemp": 41.1,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 55,
+        "highTemp": 66.5,
+        "lowTemp": 43.5,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 60.9,
+        "highTemp": 72.6,
+        "lowTemp": 49.1,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 67.3,
+        "highTemp": 79.2,
+        "lowTemp": 55.4,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 74.2,
+        "highTemp": 85.2,
+        "lowTemp": 63.2,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 79.8,
+        "highTemp": 89.4,
+        "lowTemp": 70.2,
+        "precip": 6.7
+      },
+      "jul": {
+        "avgTemp": 82.2,
+        "highTemp": 91.6,
+        "lowTemp": 72.9,
+        "precip": 5.7
+      },
+      "aug": {
+        "avgTemp": 81.6,
+        "highTemp": 90.3,
+        "lowTemp": 72.9,
+        "precip": 6.6
+      },
+      "sep": {
+        "avgTemp": 77.8,
+        "highTemp": 86.6,
+        "lowTemp": 69,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 69.2,
+        "highTemp": 79.5,
+        "lowTemp": 59,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 59.8,
+        "highTemp": 70.9,
+        "lowTemp": 48.7,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 54.1,
+        "highTemp": 64.9,
+        "lowTemp": 43.4,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 67.8,
+      "highTemp": 78.3,
+      "lowTemp": 57.4,
+      "totalPrecip": 51,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,93 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USW00092809",
+    "stationName": "HOLLYWOOD NORTH PERRY AP",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 68.1,
+        "highTemp": 76.9,
+        "lowTemp": 59.4,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 70.2,
+        "highTemp": 78.9,
+        "lowTemp": 61.5,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 72.7,
+        "highTemp": 81.3,
+        "lowTemp": 64.1,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 76.4,
+        "highTemp": 84.5,
+        "lowTemp": 68.3,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 80,
+        "highTemp": 87.3,
+        "lowTemp": 72.7,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 83,
+        "highTemp": 90,
+        "lowTemp": 75.9,
+        "precip": 8.7
+      },
+      "jul": {
+        "avgTemp": 84.4,
+        "highTemp": 91.7,
+        "lowTemp": 77.1,
+        "precip": 6.8
+      },
+      "aug": {
+        "avgTemp": 84.6,
+        "highTemp": 91.8,
+        "lowTemp": 77.5,
+        "precip": 8.5
+      },
+      "sep": {
+        "avgTemp": 83.2,
+        "highTemp": 89.8,
+        "lowTemp": 76.5,
+        "precip": 8
+      },
+      "oct": {
+        "avgTemp": 80.1,
+        "highTemp": 86.8,
+        "lowTemp": 73.4,
+        "precip": 7.7
+      },
+      "nov": {
+        "avgTemp": 74.7,
+        "highTemp": 82.2,
+        "lowTemp": 67.1,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 70.7,
+        "highTemp": 78.6,
+        "lowTemp": 62.9,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 77.3,
+      "highTemp": 85,
+      "lowTemp": 69.7,
+      "totalPrecip": 62.1,
+      "hotMonths": 11,
+      "coldMonths": 0
+    }
   }
 }

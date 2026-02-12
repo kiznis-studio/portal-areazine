@@ -255,5 +255,93 @@
       2.3,
       2.4
     ]
+  },
+  "climate": {
+    "station": "USC00470273",
+    "stationName": "UW ARBORETUM - MADISON",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.4,
+        "highTemp": 27.7,
+        "lowTemp": 11.1,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 22.8,
+        "highTemp": 31.5,
+        "lowTemp": 14,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 34.4,
+        "highTemp": 44,
+        "lowTemp": 24.7,
+        "precip": 2.3
+      },
+      "apr": {
+        "avgTemp": 46.5,
+        "highTemp": 57.4,
+        "lowTemp": 35.7,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 58.3,
+        "highTemp": 69.2,
+        "lowTemp": 47.4,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 67.7,
+        "highTemp": 78.4,
+        "lowTemp": 57.1,
+        "precip": 5.7
+      },
+      "jul": {
+        "avgTemp": 71.8,
+        "highTemp": 82.2,
+        "lowTemp": 61.4,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 70,
+        "highTemp": 80.6,
+        "lowTemp": 59.4,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 62.3,
+        "highTemp": 73.9,
+        "lowTemp": 50.7,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 50.2,
+        "highTemp": 61.1,
+        "lowTemp": 39.4,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 37.3,
+        "highTemp": 46.1,
+        "lowTemp": 28.5,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 25.4,
+        "highTemp": 33,
+        "lowTemp": 17.8,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 47.2,
+      "highTemp": 57.1,
+      "lowTemp": 37.3,
+      "totalPrecip": 40.1,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

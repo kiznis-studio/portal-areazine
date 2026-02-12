@@ -263,5 +263,93 @@
       5.3,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00194502",
+    "stationName": "MARBLEHEAD",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27,
+        "highTemp": 36.1,
+        "lowTemp": 17.9,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 28.7,
+        "highTemp": 37.9,
+        "lowTemp": 19.6,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 35.3,
+        "highTemp": 44.3,
+        "lowTemp": 26.3,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 45.4,
+        "highTemp": 55.1,
+        "lowTemp": 35.6,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 55.1,
+        "highTemp": 65.2,
+        "lowTemp": 45,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 64.3,
+        "highTemp": 74.2,
+        "lowTemp": 54.4,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 70.5,
+        "highTemp": 80.3,
+        "lowTemp": 60.7,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 69.3,
+        "highTemp": 79,
+        "lowTemp": 59.6,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 62.6,
+        "highTemp": 72.3,
+        "lowTemp": 53,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 51.8,
+        "highTemp": 61.2,
+        "lowTemp": 42.3,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 41.8,
+        "highTemp": 50.7,
+        "lowTemp": 32.9,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 33,
+        "highTemp": 41.6,
+        "lowTemp": 24.3,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 48.7,
+      "highTemp": 58.2,
+      "lowTemp": 39.3,
+      "totalPrecip": 48.2,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

@@ -247,5 +247,54 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1NJMS0059",
+    "stationName": "MADISON 0.8 WSW",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 50,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,54 @@
       6.4,
       6.3
     ]
+  },
+  "climate": {
+    "station": "US1MICT0002",
+    "stationName": "HASLETT 1.2 N",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.1
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 3.6
+      },
+      "jul": {
+        "precip": 3.2
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 3.1
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1TXDA0063",
+    "stationName": "DESOTO 2.2 ENE",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 2
+      },
+      "aug": {
+        "precip": 2.4
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

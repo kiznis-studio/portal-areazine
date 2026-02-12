@@ -239,5 +239,93 @@
       3.2,
       3.1
     ]
+  },
+  "climate": {
+    "station": "USC00472425",
+    "stationName": "EAU CLAIRE 3SW",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 16.2,
+        "highTemp": 24.5,
+        "lowTemp": 7.9,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 20.2,
+        "highTemp": 28.7,
+        "lowTemp": 11.7,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 32.8,
+        "highTemp": 41.6,
+        "lowTemp": 23.9,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 46.2,
+        "highTemp": 56.4,
+        "lowTemp": 35.9,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 59,
+        "highTemp": 69.3,
+        "lowTemp": 48.6,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 68,
+        "highTemp": 77.8,
+        "lowTemp": 58.2,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 72.2,
+        "highTemp": 82.3,
+        "lowTemp": 62.1,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 70.5,
+        "highTemp": 79.9,
+        "lowTemp": 61,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 61.7,
+        "highTemp": 71.8,
+        "lowTemp": 51.7,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 48.9,
+        "highTemp": 58.2,
+        "lowTemp": 39.7,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 34.3,
+        "highTemp": 41.8,
+        "lowTemp": 26.9,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 22.3,
+        "highTemp": 29.7,
+        "lowTemp": 14.8,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 46,
+      "highTemp": 55.2,
+      "lowTemp": 36.9,
+      "totalPrecip": 32.7,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

@@ -231,5 +231,54 @@
       4.2,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1INPT0098",
+    "stationName": "VALPARAISO 0.9 NNW",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

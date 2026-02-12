@@ -231,5 +231,54 @@
       3.7,
       3.6
     ]
+  },
+  "climate": {
+    "station": "US1MDBL0039",
+    "stationName": "CATONSVILLE 1.2 NW",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 6.4
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

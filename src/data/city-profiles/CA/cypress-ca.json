@@ -303,5 +303,93 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USW00003166",
+    "stationName": "FULLERTON MUNI AP",
+    "distanceMi": 5.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.6,
+        "highTemp": 68.8,
+        "lowTemp": 46.4,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 58.6,
+        "highTemp": 69,
+        "lowTemp": 48.3,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 61.2,
+        "highTemp": 71,
+        "lowTemp": 51.5,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 64,
+        "highTemp": 74.2,
+        "lowTemp": 53.8,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 66.9,
+        "highTemp": 75.7,
+        "lowTemp": 58.1,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 70.8,
+        "highTemp": 79,
+        "lowTemp": 62.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 75.2,
+        "highTemp": 84.4,
+        "lowTemp": 66.1,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 76.5,
+        "highTemp": 86.7,
+        "lowTemp": 66.4,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 75,
+        "highTemp": 85.4,
+        "lowTemp": 64.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 69.3,
+        "highTemp": 80.3,
+        "lowTemp": 58.3,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 62.4,
+        "highTemp": 74,
+        "lowTemp": 50.7,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 56.9,
+        "highTemp": 68.1,
+        "lowTemp": 45.6,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 66.2,
+      "highTemp": 76.4,
+      "lowTemp": 56,
+      "totalPrecip": 11.8,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -287,5 +287,54 @@
       5.5,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00124286",
+    "stationName": "INDIANAPOLIS ZOO",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 2.6
+      },
+      "sep": {
+        "precip": 3.1
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

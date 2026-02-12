@@ -255,5 +255,93 @@
       6,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USW00023273",
+    "stationName": "SANTA MARIA PUBLIC AP 72394",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.8,
+        "highTemp": 64.7,
+        "lowTemp": 41,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 53.6,
+        "highTemp": 64.8,
+        "lowTemp": 42.5,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 55.3,
+        "highTemp": 66.3,
+        "lowTemp": 44.3,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 56.7,
+        "highTemp": 68.1,
+        "lowTemp": 45.4,
+        "precip": 0.9
+      },
+      "may": {
+        "avgTemp": 59,
+        "highTemp": 69.3,
+        "lowTemp": 48.7,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 61.5,
+        "highTemp": 71.3,
+        "lowTemp": 51.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 64.1,
+        "highTemp": 73.3,
+        "lowTemp": 54.9,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 64.5,
+        "highTemp": 73.8,
+        "lowTemp": 55.1,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 64.3,
+        "highTemp": 75,
+        "lowTemp": 53.7,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.2,
+        "highTemp": 74.6,
+        "lowTemp": 49.8,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 57.1,
+        "highTemp": 70,
+        "lowTemp": 44.3,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 52.2,
+        "highTemp": 64.3,
+        "lowTemp": 40.1,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 58.6,
+      "highTemp": 69.6,
+      "lowTemp": 47.6,
+      "totalPrecip": 13.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

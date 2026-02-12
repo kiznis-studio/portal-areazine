@@ -239,5 +239,93 @@
       3.2,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USC00448084",
+    "stationName": "WFO STERLING",
+    "distanceMi": 3.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.4,
+        "highTemp": 41.9,
+        "lowTemp": 24.9,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 35.7,
+        "highTemp": 45.3,
+        "lowTemp": 26.1,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 43.4,
+        "highTemp": 53.8,
+        "lowTemp": 33.1,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 54.5,
+        "highTemp": 66,
+        "lowTemp": 43,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 63.8,
+        "highTemp": 74.3,
+        "lowTemp": 53.3,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 72.6,
+        "highTemp": 82.7,
+        "lowTemp": 62.5,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 77.2,
+        "highTemp": 87.2,
+        "lowTemp": 67.3,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 75.7,
+        "highTemp": 85.9,
+        "lowTemp": 65.5,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 68.5,
+        "highTemp": 79.2,
+        "lowTemp": 57.9,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 56.6,
+        "highTemp": 67.7,
+        "lowTemp": 45.4,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 45.6,
+        "highTemp": 56,
+        "lowTemp": 35.2,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 37.4,
+        "highTemp": 46.1,
+        "lowTemp": 28.6,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 55.4,
+      "highTemp": 65.5,
+      "lowTemp": 45.2,
+      "totalPrecip": 45.1,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -303,5 +303,54 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1CASD0040",
+    "stationName": "EL CAJON 2.3 S",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 2
+      },
+      "apr": {
+        "precip": 1
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 13.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

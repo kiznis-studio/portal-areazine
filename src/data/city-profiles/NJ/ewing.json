@@ -247,5 +247,93 @@
       6.1,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USC00288880",
+    "stationName": "TRENTON STATE COLLEGE",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.3,
+        "highTemp": 39.9,
+        "lowTemp": 22.7,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 33.3,
+        "highTemp": 42.9,
+        "lowTemp": 23.7,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 41.1,
+        "highTemp": 51.2,
+        "lowTemp": 31,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 51.9,
+        "highTemp": 63.2,
+        "lowTemp": 40.5,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 61.2,
+        "highTemp": 72.6,
+        "lowTemp": 49.9,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 70.5,
+        "highTemp": 81.6,
+        "lowTemp": 59.3,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 75.8,
+        "highTemp": 86.5,
+        "lowTemp": 65,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 84,
+        "lowTemp": 63.2,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 66.9,
+        "highTemp": 77.7,
+        "lowTemp": 56,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 66.1,
+        "lowTemp": 44.4,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 44.8,
+        "highTemp": 55,
+        "lowTemp": 34.5,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 35.4,
+        "highTemp": 44.5,
+        "lowTemp": 26.3,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 53.4,
+      "highTemp": 63.8,
+      "lowTemp": 43,
+      "totalPrecip": 47.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

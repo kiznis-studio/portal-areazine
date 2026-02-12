@@ -279,5 +279,93 @@
       4.7,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00477964",
+    "stationName": "SOUTH MILWAUKEE WWTP",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.2,
+        "highTemp": 30.4,
+        "lowTemp": 15.9,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 25.7,
+        "highTemp": 33.2,
+        "lowTemp": 18.1,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 35,
+        "highTemp": 42.4,
+        "lowTemp": 27.5,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 45,
+        "highTemp": 52.8,
+        "lowTemp": 37.3,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 55.7,
+        "highTemp": 64.1,
+        "lowTemp": 47.3,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 65.9,
+        "highTemp": 74.5,
+        "lowTemp": 57.3,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 72.6,
+        "highTemp": 80.2,
+        "lowTemp": 64.9,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 71.7,
+        "highTemp": 79.3,
+        "lowTemp": 64.2,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 64.5,
+        "highTemp": 73,
+        "lowTemp": 56,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 52.3,
+        "highTemp": 60.7,
+        "lowTemp": 43.9,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 40.2,
+        "highTemp": 47.8,
+        "lowTemp": 32.6,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 29,
+        "highTemp": 35.8,
+        "lowTemp": 22.1,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 48.4,
+      "highTemp": 56.2,
+      "lowTemp": 40.6,
+      "totalPrecip": 36.6,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

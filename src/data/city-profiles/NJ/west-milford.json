@@ -239,5 +239,54 @@
       7.8,
       7.8
     ]
+  },
+  "climate": {
+    "station": "USC00283516",
+    "stationName": "GREENWOOD LAKE",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 5.2
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

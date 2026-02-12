@@ -239,5 +239,93 @@
       4.1,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00097600",
+    "stationName": "ROME HCN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.1,
+        "highTemp": 52,
+        "lowTemp": 30.2,
+        "precip": 5
+      },
+      "feb": {
+        "avgTemp": 44.4,
+        "highTemp": 56.1,
+        "lowTemp": 32.8,
+        "precip": 4.8
+      },
+      "mar": {
+        "avgTemp": 51.9,
+        "highTemp": 64.8,
+        "lowTemp": 39,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 60,
+        "highTemp": 73.7,
+        "lowTemp": 46.4,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 68,
+        "highTemp": 80.6,
+        "lowTemp": 55.3,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 75.3,
+        "highTemp": 86.5,
+        "lowTemp": 64.1,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 78.8,
+        "highTemp": 89.7,
+        "lowTemp": 67.9,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 77.9,
+        "highTemp": 88.9,
+        "lowTemp": 67,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 72.2,
+        "highTemp": 83.8,
+        "lowTemp": 60.5,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 61.1,
+        "highTemp": 73.8,
+        "lowTemp": 48.4,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 50.3,
+        "highTemp": 63,
+        "lowTemp": 37.7,
+        "precip": 4.3
+      },
+      "dec": {
+        "avgTemp": 43.7,
+        "highTemp": 54.3,
+        "lowTemp": 33.1,
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "avgTemp": 60.4,
+      "highTemp": 72.3,
+      "lowTemp": 48.5,
+      "totalPrecip": 55.2,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       8.1,
       8.8
     ]
+  },
+  "climate": {
+    "station": "USW00094194",
+    "stationName": "REXBURG MADISON CO AP",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 20.3,
+        "highTemp": 27.8,
+        "lowTemp": 12.9,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 24.1,
+        "highTemp": 32.2,
+        "lowTemp": 16,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 35.1,
+        "highTemp": 45.1,
+        "lowTemp": 25,
+        "precip": 0.9
+      },
+      "apr": {
+        "avgTemp": 43.9,
+        "highTemp": 55.5,
+        "lowTemp": 32.2,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 52.9,
+        "highTemp": 65.9,
+        "lowTemp": 39.8,
+        "precip": 1.7
+      },
+      "jun": {
+        "avgTemp": 60.3,
+        "highTemp": 74.2,
+        "lowTemp": 46.3,
+        "precip": 1.4
+      },
+      "jul": {
+        "avgTemp": 68.2,
+        "highTemp": 84.8,
+        "lowTemp": 51.6,
+        "precip": 0.4
+      },
+      "aug": {
+        "avgTemp": 66.9,
+        "highTemp": 84.2,
+        "lowTemp": 49.7,
+        "precip": 0.8
+      },
+      "sep": {
+        "avgTemp": 57.4,
+        "highTemp": 73.1,
+        "lowTemp": 41.6,
+        "precip": 0.8
+      },
+      "oct": {
+        "avgTemp": 44.8,
+        "highTemp": 57.3,
+        "lowTemp": 32.2,
+        "precip": 1
+      },
+      "nov": {
+        "avgTemp": 32.1,
+        "highTemp": 41.3,
+        "lowTemp": 22.9,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 21.8,
+        "highTemp": 29.3,
+        "lowTemp": 14.3,
+        "precip": 1
+      }
+    },
+    "annual": {
+      "avgTemp": 44,
+      "highTemp": 55.9,
+      "lowTemp": 32,
+      "totalPrecip": 12.1,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

@@ -239,5 +239,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00318292",
+    "stationName": "STATESVILLE 2 NNE HCN",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.6,
+        "highTemp": 48.8,
+        "lowTemp": 26.4,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 40.6,
+        "highTemp": 52.9,
+        "lowTemp": 28.4,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 47.6,
+        "highTemp": 60.5,
+        "lowTemp": 34.7,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 56.9,
+        "highTemp": 70.1,
+        "lowTemp": 43.7,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 65.5,
+        "highTemp": 77.4,
+        "lowTemp": 53.6,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 73.3,
+        "highTemp": 84.1,
+        "lowTemp": 62.5,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 77,
+        "highTemp": 87.3,
+        "lowTemp": 66.8,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 75.4,
+        "highTemp": 85.5,
+        "lowTemp": 65.2,
+        "precip": 4.9
+      },
+      "sep": {
+        "avgTemp": 69.2,
+        "highTemp": 79.7,
+        "lowTemp": 58.8,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 58.3,
+        "highTemp": 70.8,
+        "lowTemp": 45.8,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 47.1,
+        "highTemp": 60,
+        "lowTemp": 34.3,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 40.2,
+        "highTemp": 51.6,
+        "lowTemp": 28.9,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 57.4,
+      "highTemp": 69.1,
+      "lowTemp": 45.8,
+      "totalPrecip": 46.7,
+      "hotMonths": 3,
+      "coldMonths": 1
+    }
   }
 }

@@ -247,5 +247,93 @@
       7.1,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00460580",
+    "stationName": "BECKLEY VA HOSPITAL",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.5,
+        "highTemp": 39.6,
+        "lowTemp": 19.3,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 32.1,
+        "highTemp": 43.2,
+        "lowTemp": 20.9,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 39.1,
+        "highTemp": 51.4,
+        "lowTemp": 26.8,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 49.7,
+        "highTemp": 63.4,
+        "lowTemp": 35.9,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 58.3,
+        "highTemp": 70.9,
+        "lowTemp": 45.7,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 65.1,
+        "highTemp": 76.1,
+        "lowTemp": 54.1,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 68.6,
+        "highTemp": 79.1,
+        "lowTemp": 58.1,
+        "precip": 5.4
+      },
+      "aug": {
+        "avgTemp": 67.3,
+        "highTemp": 78.1,
+        "lowTemp": 56.6,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 61.7,
+        "highTemp": 73.2,
+        "lowTemp": 50.2,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 50.9,
+        "highTemp": 63.1,
+        "lowTemp": 38.8,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 40.7,
+        "highTemp": 52.9,
+        "lowTemp": 28.6,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 33.3,
+        "highTemp": 43.3,
+        "lowTemp": 23.3,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 49.7,
+      "highTemp": 61.2,
+      "lowTemp": 38.2,
+      "totalPrecip": 43.5,
+      "hotMonths": 0,
+      "coldMonths": 4
+    }
   }
 }

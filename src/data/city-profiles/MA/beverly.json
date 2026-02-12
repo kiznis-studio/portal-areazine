@@ -263,5 +263,54 @@
       5.3,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1MAES0002",
+    "stationName": "BEVERLY 2.8 NW",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 3.3
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 46,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

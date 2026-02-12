@@ -255,5 +255,54 @@
       6.5,
       6.3
     ]
+  },
+  "climate": {
+    "station": "US1SCLX0035",
+    "stationName": "LEXINGTON 2.9 NE",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 3.8
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

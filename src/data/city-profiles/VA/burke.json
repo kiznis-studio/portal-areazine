@@ -255,5 +255,54 @@
       4,
       3.9
     ]
+  },
+  "climate": {
+    "station": "US1VAFX0061",
+    "stationName": "VIENNA 0.8 S",
+    "distanceMi": 6.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

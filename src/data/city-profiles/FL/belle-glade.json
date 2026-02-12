@@ -303,5 +303,93 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00080611",
+    "stationName": "BELLE GLADE HCN",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 63.9,
+        "highTemp": 75.9,
+        "lowTemp": 51.8,
+        "precip": 2.3
+      },
+      "feb": {
+        "avgTemp": 65.9,
+        "highTemp": 78.7,
+        "lowTemp": 53.1,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 69.3,
+        "highTemp": 81.7,
+        "lowTemp": 56.9,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 73.2,
+        "highTemp": 86,
+        "lowTemp": 60.5,
+        "precip": 2.1
+      },
+      "may": {
+        "avgTemp": 77.5,
+        "highTemp": 89.2,
+        "lowTemp": 65.9,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 80.9,
+        "highTemp": 91.1,
+        "lowTemp": 70.7,
+        "precip": 9.5
+      },
+      "jul": {
+        "avgTemp": 82.4,
+        "highTemp": 92.3,
+        "lowTemp": 72.4,
+        "precip": 7
+      },
+      "aug": {
+        "avgTemp": 82.5,
+        "highTemp": 92.3,
+        "lowTemp": 72.7,
+        "precip": 8.6
+      },
+      "sep": {
+        "avgTemp": 81.4,
+        "highTemp": 90.8,
+        "lowTemp": 72,
+        "precip": 7.3
+      },
+      "oct": {
+        "avgTemp": 77.3,
+        "highTemp": 87.3,
+        "lowTemp": 67.3,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 70.8,
+        "highTemp": 81.4,
+        "lowTemp": 60.1,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 66.7,
+        "highTemp": 77.9,
+        "lowTemp": 55.6,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 74.3,
+      "highTemp": 85.4,
+      "lowTemp": 63.3,
+      "totalPrecip": 55.3,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

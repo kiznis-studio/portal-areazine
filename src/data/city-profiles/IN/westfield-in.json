@@ -255,5 +255,54 @@
       2.7,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USC00126340",
+    "stationName": "NOBLESVILLE 3 W",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       5.7,
       6
     ]
+  },
+  "climate": {
+    "station": "USC00334942",
+    "stationName": "MARION 2 N",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.9,
+        "highTemp": 34,
+        "lowTemp": 17.9,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 28.6,
+        "highTemp": 37.1,
+        "lowTemp": 20.1,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 37.6,
+        "highTemp": 47.5,
+        "lowTemp": 27.7,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 49.5,
+        "highTemp": 60.9,
+        "lowTemp": 38.2,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 60.6,
+        "highTemp": 71.7,
+        "lowTemp": 49.6,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 69.9,
+        "highTemp": 80.3,
+        "lowTemp": 59.6,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 73.1,
+        "highTemp": 83.7,
+        "lowTemp": 62.6,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 71.3,
+        "highTemp": 82,
+        "lowTemp": 60.5,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 64.5,
+        "highTemp": 76.2,
+        "lowTemp": 52.9,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 53.1,
+        "highTemp": 64.1,
+        "lowTemp": 42.1,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 41.3,
+        "highTemp": 50.3,
+        "lowTemp": 32.4,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 38.8,
+        "lowTemp": 24,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 50.6,
+      "highTemp": 60.5,
+      "lowTemp": 40.6,
+      "totalPrecip": 39.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

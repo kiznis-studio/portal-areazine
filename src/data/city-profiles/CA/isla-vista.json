@@ -255,5 +255,93 @@
       6,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USW00053152",
+    "stationName": "SANTA BARBARA 11 W 74505",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.2,
+        "highTemp": 63.5,
+        "lowTemp": 42.8,
+        "precip": 4.7
+      },
+      "feb": {
+        "avgTemp": 53.1,
+        "highTemp": 62.1,
+        "lowTemp": 44.2,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 55.5,
+        "highTemp": 64.6,
+        "lowTemp": 46.4,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 56.6,
+        "highTemp": 65.4,
+        "lowTemp": 47.8,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 59.3,
+        "highTemp": 67.7,
+        "lowTemp": 51,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 60.9,
+        "highTemp": 67.8,
+        "lowTemp": 53.9,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 63.9,
+        "highTemp": 71,
+        "lowTemp": 56.9,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 64.1,
+        "highTemp": 71.6,
+        "lowTemp": 56.5,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 63.8,
+        "highTemp": 71.3,
+        "lowTemp": 56.4,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 61.5,
+        "highTemp": 71.6,
+        "lowTemp": 51.4,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 56.6,
+        "highTemp": 67.5,
+        "lowTemp": 45.7,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 52.5,
+        "highTemp": 63,
+        "lowTemp": 42,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 58.4,
+      "highTemp": 67.3,
+      "lowTemp": 49.6,
+      "totalPrecip": 18.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

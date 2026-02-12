@@ -255,5 +255,93 @@
       8.3,
       8.3
     ]
+  },
+  "climate": {
+    "station": "USW00093104",
+    "stationName": "CHINA LAKE NAF 74612",
+    "distanceMi": 4.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.5,
+        "highTemp": 60.1,
+        "lowTemp": 30.8,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 50,
+        "highTemp": 64.6,
+        "lowTemp": 35.4,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 56.9,
+        "highTemp": 71.9,
+        "lowTemp": 41.8,
+        "precip": 0.6
+      },
+      "apr": {
+        "avgTemp": 63.1,
+        "highTemp": 78.7,
+        "lowTemp": 47.4,
+        "precip": 0.2
+      },
+      "may": {
+        "avgTemp": 71.8,
+        "highTemp": 88.2,
+        "lowTemp": 55.5,
+        "precip": 0.1
+      },
+      "jun": {
+        "avgTemp": 81.1,
+        "highTemp": 98.5,
+        "lowTemp": 63.7,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 87.5,
+        "highTemp": 104.6,
+        "lowTemp": 70.4,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 85.9,
+        "highTemp": 103.3,
+        "lowTemp": 68.6,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 77.8,
+        "highTemp": 95.2,
+        "lowTemp": 60.5,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 65.6,
+        "highTemp": 82.7,
+        "lowTemp": 48.5,
+        "precip": 0.3
+      },
+      "nov": {
+        "avgTemp": 53.1,
+        "highTemp": 69.4,
+        "lowTemp": 36.8,
+        "precip": 0.4
+      },
+      "dec": {
+        "avgTemp": 44.9,
+        "highTemp": 59.5,
+        "lowTemp": 30.3,
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "avgTemp": 65.3,
+      "highTemp": 81.4,
+      "lowTemp": 49.1,
+      "totalPrecip": 4.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

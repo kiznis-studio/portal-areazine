@@ -239,5 +239,93 @@
       6,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00013154",
+    "stationName": "GADSDEN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.8,
+        "highTemp": 52.8,
+        "lowTemp": 32.8,
+        "precip": 5.7
+      },
+      "feb": {
+        "avgTemp": 46.7,
+        "highTemp": 57.3,
+        "lowTemp": 36.2,
+        "precip": 5.2
+      },
+      "mar": {
+        "avgTemp": 54.7,
+        "highTemp": 66,
+        "lowTemp": 43.3,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 62.7,
+        "highTemp": 74.9,
+        "lowTemp": 50.4,
+        "precip": 5.1
+      },
+      "may": {
+        "avgTemp": 70.7,
+        "highTemp": 82,
+        "lowTemp": 59.4,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 77.9,
+        "highTemp": 87.8,
+        "lowTemp": 67.9,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 81,
+        "highTemp": 90.9,
+        "lowTemp": 71.2,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 80.4,
+        "highTemp": 90.3,
+        "lowTemp": 70.4,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 74.8,
+        "highTemp": 85.3,
+        "lowTemp": 64.3,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 64,
+        "highTemp": 75.4,
+        "lowTemp": 52.5,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 52.7,
+        "highTemp": 64,
+        "lowTemp": 41.3,
+        "precip": 4.3
+      },
+      "dec": {
+        "avgTemp": 45.6,
+        "highTemp": 55.6,
+        "lowTemp": 35.7,
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "avgTemp": 62.8,
+      "highTemp": 73.5,
+      "lowTemp": 52.1,
+      "totalPrecip": 57.8,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

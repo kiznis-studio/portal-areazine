@@ -239,5 +239,54 @@
       4.3,
       4
     ]
+  },
+  "climate": {
+    "station": "US1NCDS0007",
+    "stationName": "THOMASVILLE 3.5 SSW",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 3.2
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 5.8
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

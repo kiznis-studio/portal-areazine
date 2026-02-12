@@ -231,5 +231,93 @@
       4.2,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00450872",
+    "stationName": "BREMERTON",
+    "distanceMi": 5.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.1,
+        "highTemp": 46.6,
+        "lowTemp": 35.6,
+        "precip": 9.3
+      },
+      "feb": {
+        "avgTemp": 42.3,
+        "highTemp": 49.4,
+        "lowTemp": 35.1,
+        "precip": 5.8
+      },
+      "mar": {
+        "avgTemp": 45.7,
+        "highTemp": 53.7,
+        "lowTemp": 37.7,
+        "precip": 6.4
+      },
+      "apr": {
+        "avgTemp": 50,
+        "highTemp": 59,
+        "lowTemp": 41,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 56.2,
+        "highTemp": 65.8,
+        "lowTemp": 46.5,
+        "precip": 2.4
+      },
+      "jun": {
+        "avgTemp": 60.7,
+        "highTemp": 70.2,
+        "lowTemp": 51.1,
+        "precip": 1.6
+      },
+      "jul": {
+        "avgTemp": 65.6,
+        "highTemp": 76.5,
+        "lowTemp": 54.6,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 66.2,
+        "highTemp": 77.3,
+        "lowTemp": 55.1,
+        "precip": 1.1
+      },
+      "sep": {
+        "avgTemp": 61.5,
+        "highTemp": 71.9,
+        "lowTemp": 51.1,
+        "precip": 1.8
+      },
+      "oct": {
+        "avgTemp": 52.6,
+        "highTemp": 60.6,
+        "lowTemp": 44.7,
+        "precip": 5.1
+      },
+      "nov": {
+        "avgTemp": 45,
+        "highTemp": 51.2,
+        "lowTemp": 38.7,
+        "precip": 8.8
+      },
+      "dec": {
+        "avgTemp": 40.3,
+        "highTemp": 45.6,
+        "lowTemp": 35,
+        "precip": 9.9
+      }
+    },
+    "annual": {
+      "avgTemp": 52.3,
+      "highTemp": 60.7,
+      "lowTemp": 43.9,
+      "totalPrecip": 56.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -295,5 +295,93 @@
       6.7,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USC00193890",
+    "stationName": "JAMAICA PLAIN",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.2,
+        "highTemp": 37,
+        "lowTemp": 19.4,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 30.3,
+        "highTemp": 39.6,
+        "lowTemp": 21,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 37.5,
+        "highTemp": 46.6,
+        "lowTemp": 28.4,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 48.5,
+        "highTemp": 58.8,
+        "lowTemp": 38.1,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 58.8,
+        "highTemp": 69.4,
+        "lowTemp": 48.2,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 68.4,
+        "highTemp": 78.8,
+        "lowTemp": 57.9,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 74.4,
+        "highTemp": 84.7,
+        "lowTemp": 64,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 72.8,
+        "highTemp": 83.1,
+        "lowTemp": 62.5,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 65.2,
+        "highTemp": 75.5,
+        "lowTemp": 54.9,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 53.3,
+        "highTemp": 63.7,
+        "lowTemp": 43,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 43.4,
+        "highTemp": 52.6,
+        "lowTemp": 34.2,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 34,
+        "highTemp": 42.4,
+        "lowTemp": 25.7,
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "avgTemp": 51.2,
+      "highTemp": 61,
+      "lowTemp": 41.4,
+      "totalPrecip": 49.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -239,5 +239,93 @@
       5.2,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00118186",
+    "stationName": "SPRINGFIELD #2",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.2,
+        "highTemp": 35.8,
+        "lowTemp": 18.6,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 31.4,
+        "highTemp": 41.1,
+        "lowTemp": 21.6,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 41.5,
+        "highTemp": 52.3,
+        "lowTemp": 30.7,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 52.8,
+        "highTemp": 64.5,
+        "lowTemp": 41.1,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 63.2,
+        "highTemp": 73.5,
+        "lowTemp": 53,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 72.7,
+        "highTemp": 82.7,
+        "lowTemp": 62.6,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 75.7,
+        "highTemp": 85.5,
+        "lowTemp": 65.9,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 73.8,
+        "highTemp": 83.9,
+        "lowTemp": 63.7,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 66.7,
+        "highTemp": 77.9,
+        "lowTemp": 55.5,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 55,
+        "highTemp": 66.3,
+        "lowTemp": 43.7,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 42.7,
+        "highTemp": 52.7,
+        "lowTemp": 32.8,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 32.5,
+        "highTemp": 41.3,
+        "lowTemp": 23.8,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 52.9,
+      "highTemp": 63.1,
+      "lowTemp": 42.8,
+      "totalPrecip": 40.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

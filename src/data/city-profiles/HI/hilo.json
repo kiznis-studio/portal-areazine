@@ -247,5 +247,93 @@
       6.4,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USW00021504",
+    "stationName": "HILO INTL AP GSN 91285",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 71.4,
+        "highTemp": 78.7,
+        "lowTemp": 64.1,
+        "precip": 7.9
+      },
+      "feb": {
+        "avgTemp": 71.2,
+        "highTemp": 78.4,
+        "lowTemp": 64.1,
+        "precip": 10.2
+      },
+      "mar": {
+        "avgTemp": 71.9,
+        "highTemp": 78.5,
+        "lowTemp": 65.2,
+        "precip": 12.7
+      },
+      "apr": {
+        "avgTemp": 72.5,
+        "highTemp": 79,
+        "lowTemp": 66.1,
+        "precip": 9.4
+      },
+      "may": {
+        "avgTemp": 74,
+        "highTemp": 80.7,
+        "lowTemp": 67.3,
+        "precip": 7
+      },
+      "jun": {
+        "avgTemp": 75.2,
+        "highTemp": 81.8,
+        "lowTemp": 68.7,
+        "precip": 7.3
+      },
+      "jul": {
+        "avgTemp": 76.3,
+        "highTemp": 82.8,
+        "lowTemp": 69.9,
+        "precip": 9.2
+      },
+      "aug": {
+        "avgTemp": 76.6,
+        "highTemp": 82.9,
+        "lowTemp": 70.4,
+        "precip": 11.3
+      },
+      "sep": {
+        "avgTemp": 76.5,
+        "highTemp": 83.3,
+        "lowTemp": 69.8,
+        "precip": 8.7
+      },
+      "oct": {
+        "avgTemp": 75.7,
+        "highTemp": 82.4,
+        "lowTemp": 69,
+        "precip": 10.2
+      },
+      "nov": {
+        "avgTemp": 74,
+        "highTemp": 80.3,
+        "lowTemp": 67.6,
+        "precip": 14.4
+      },
+      "dec": {
+        "avgTemp": 72.2,
+        "highTemp": 78.8,
+        "lowTemp": 65.7,
+        "precip": 12.1
+      }
+    },
+    "annual": {
+      "avgTemp": 74,
+      "highTemp": 80.6,
+      "lowTemp": 67.3,
+      "totalPrecip": 120.4,
+      "hotMonths": 12,
+      "coldMonths": 0
+    }
   }
 }

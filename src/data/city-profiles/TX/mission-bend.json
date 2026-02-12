@@ -263,5 +263,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "US1TXHRR122",
+    "stationName": "MISSION BEND 0.8 N",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 5
+      },
+      "sep": {
+        "precip": 6.3
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

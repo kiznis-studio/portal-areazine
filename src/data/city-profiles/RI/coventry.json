@@ -231,5 +231,93 @@
       4.6,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00371875",
+    "stationName": "COVENTRY 2",
+    "distanceMi": 6.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.4,
+        "highTemp": 36.4,
+        "lowTemp": 18.4,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 29.4,
+        "highTemp": 38.5,
+        "lowTemp": 20.3,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 36.3,
+        "highTemp": 47,
+        "lowTemp": 25.6,
+        "precip": 5
+      },
+      "apr": {
+        "avgTemp": 48.4,
+        "highTemp": 60.5,
+        "lowTemp": 36.3,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 59.2,
+        "highTemp": 71,
+        "lowTemp": 47.4,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 68.3,
+        "highTemp": 79.6,
+        "lowTemp": 56.9,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 74.3,
+        "highTemp": 85,
+        "lowTemp": 63.6,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 72,
+        "highTemp": 82,
+        "lowTemp": 61.9,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 64.1,
+        "highTemp": 74.3,
+        "lowTemp": 53.9,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 52.3,
+        "highTemp": 62.3,
+        "lowTemp": 42.2,
+        "precip": 5.3
+      },
+      "nov": {
+        "avgTemp": 41.8,
+        "highTemp": 51.5,
+        "lowTemp": 32.1,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 33.1,
+        "highTemp": 41.8,
+        "lowTemp": 24.3,
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "avgTemp": 50.5,
+      "highTemp": 60.8,
+      "lowTemp": 40.2,
+      "totalPrecip": 52,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

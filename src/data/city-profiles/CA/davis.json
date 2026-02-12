@@ -239,5 +239,52 @@
       5.3,
       5.3
     ]
+  },
+  "climate": {
+    "station": "US1CAYL0001",
+    "stationName": "DAVIS 1.2 SE",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.3
+      },
+      "feb": {
+        "precip": 4.1
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 1.4
+      },
+      "may": {
+        "precip": 0.8
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 2.2
+      },
+      "dec": {
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 21.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

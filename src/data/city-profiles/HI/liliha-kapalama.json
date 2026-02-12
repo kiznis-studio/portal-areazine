@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00516933",
+    "stationName": "NUUANU RSCH 5 775",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6
+      },
+      "feb": {
+        "precip": 5.8
+      },
+      "mar": {
+        "precip": 7.1
+      },
+      "apr": {
+        "precip": 6.1
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 5.7
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 7.4
+      },
+      "oct": {
+        "precip": 6.5
+      },
+      "nov": {
+        "precip": 8.6
+      },
+      "dec": {
+        "precip": 8.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 75.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,93 @@
       4.8,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00302151",
+    "stationName": "MOLLOY CERCOM",
+    "distanceMi": 8.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.4,
+        "highTemp": 38.6,
+        "lowTemp": 26.3,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 33.4,
+        "highTemp": 39.5,
+        "lowTemp": 27.3,
+        "precip": 4.6
+      },
+      "mar": {
+        "avgTemp": 39.7,
+        "highTemp": 46,
+        "lowTemp": 33.4,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 49.4,
+        "highTemp": 55.6,
+        "lowTemp": 43.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 57.9,
+        "highTemp": 64.1,
+        "lowTemp": 51.7,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 68.3,
+        "highTemp": 74.1,
+        "lowTemp": 62.5,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 74.6,
+        "highTemp": 79.6,
+        "lowTemp": 69.7,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 74.7,
+        "highTemp": 80.2,
+        "lowTemp": 69.2,
+        "precip": 5.8
+      },
+      "sep": {
+        "avgTemp": 67,
+        "highTemp": 73.2,
+        "lowTemp": 60.7,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 56.1,
+        "highTemp": 62.6,
+        "lowTemp": 49.5,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 46.3,
+        "highTemp": 52.6,
+        "lowTemp": 39.9,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 37.7,
+        "highTemp": 43.7,
+        "lowTemp": 31.6,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 53.1,
+      "highTemp": 59.2,
+      "lowTemp": 47.1,
+      "totalPrecip": 49.9,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

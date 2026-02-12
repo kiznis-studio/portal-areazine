@@ -239,5 +239,54 @@
       4,
       3.8
     ]
+  },
+  "climate": {
+    "station": "US1MDAA0004",
+    "stationName": "SEVERN 2.0 W",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 4.5
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

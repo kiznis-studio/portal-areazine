@@ -153,5 +153,54 @@
       4.6,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1PABT0015",
+    "stationName": "FOX RUN 1.6 NNE",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

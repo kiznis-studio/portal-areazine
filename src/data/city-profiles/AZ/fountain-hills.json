@@ -303,5 +303,93 @@
       4.7,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00023190",
+    "stationName": "FOUNTAIN HILLS",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.2,
+        "highTemp": 63.9,
+        "lowTemp": 44.5,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 56.8,
+        "highTemp": 67.4,
+        "lowTemp": 46.2,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 62.3,
+        "highTemp": 73.9,
+        "lowTemp": 50.7,
+        "precip": 1.3
+      },
+      "apr": {
+        "avgTemp": 69.2,
+        "highTemp": 82,
+        "lowTemp": 56.4,
+        "precip": 0.3
+      },
+      "may": {
+        "avgTemp": 77.8,
+        "highTemp": 91,
+        "lowTemp": 64.5,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 86.7,
+        "highTemp": 100.6,
+        "lowTemp": 72.8,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 91.6,
+        "highTemp": 103,
+        "lowTemp": 80.3,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 90.9,
+        "highTemp": 101.9,
+        "lowTemp": 79.8,
+        "precip": 1.3
+      },
+      "sep": {
+        "avgTemp": 85.4,
+        "highTemp": 97.1,
+        "lowTemp": 73.7,
+        "precip": 0.8
+      },
+      "oct": {
+        "avgTemp": 74.6,
+        "highTemp": 86.6,
+        "lowTemp": 62.6,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 62.5,
+        "highTemp": 73.7,
+        "lowTemp": 51.3,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 53.5,
+        "highTemp": 63,
+        "lowTemp": 43.9,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 72.1,
+      "highTemp": 83.7,
+      "lowTemp": 60.6,
+      "totalPrecip": 10,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

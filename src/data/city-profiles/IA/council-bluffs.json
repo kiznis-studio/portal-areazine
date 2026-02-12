@@ -239,5 +239,54 @@
       3.5,
       3.8
     ]
+  },
+  "climate": {
+    "station": "US1IAPT0002",
+    "stationName": "COUNCIL BLUFFS 3.4 NNE",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 1.1
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.5
+      },
+      "dec": {
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

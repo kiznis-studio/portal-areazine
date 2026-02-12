@@ -216,5 +216,54 @@
       4.7,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ILDP0042",
+    "stationName": "CAROL STREAM 0.3 SSE",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

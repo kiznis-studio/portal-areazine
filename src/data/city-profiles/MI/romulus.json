@@ -303,5 +303,93 @@
       9,
       8.7
     ]
+  },
+  "climate": {
+    "station": "USW00094847",
+    "stationName": "DETROIT METRO AP 72537",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.8,
+        "highTemp": 32.3,
+        "lowTemp": 19.2,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 28,
+        "highTemp": 35.2,
+        "lowTemp": 20.8,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 37.2,
+        "highTemp": 45.9,
+        "lowTemp": 28.6,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 48.9,
+        "highTemp": 58.7,
+        "lowTemp": 39.1,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 60.3,
+        "highTemp": 70.3,
+        "lowTemp": 50.2,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 69.9,
+        "highTemp": 79.7,
+        "lowTemp": 60.2,
+        "precip": 3.3
+      },
+      "jul": {
+        "avgTemp": 74.1,
+        "highTemp": 83.7,
+        "lowTemp": 64.4,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 72.3,
+        "highTemp": 81.4,
+        "lowTemp": 63.2,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 64.9,
+        "highTemp": 74.4,
+        "lowTemp": 55.5,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 53,
+        "highTemp": 62,
+        "lowTemp": 44,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 41.2,
+        "highTemp": 48.6,
+        "lowTemp": 33.9,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 31.3,
+        "highTemp": 37.2,
+        "lowTemp": 25.3,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 50.6,
+      "highTemp": 59.1,
+      "lowTemp": 42,
+      "totalPrecip": 34.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

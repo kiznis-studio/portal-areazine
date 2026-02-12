@@ -263,5 +263,54 @@
       4.1,
       4
     ]
+  },
+  "climate": {
+    "station": "US1FLVL0006",
+    "stationName": "EDGEWATER 2.4 N",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 2.9
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 7.1
+      },
+      "jul": {
+        "precip": 6.4
+      },
+      "aug": {
+        "precip": 6.9
+      },
+      "sep": {
+        "precip": 6.8
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

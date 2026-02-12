@@ -231,5 +231,93 @@
       3.8,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00219004",
+    "stationName": "WILLMAR WWTP",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 11.7,
+        "highTemp": 20.5,
+        "lowTemp": 2.9,
+        "precip": 0.7
+      },
+      "feb": {
+        "avgTemp": 15.8,
+        "highTemp": 25.7,
+        "lowTemp": 6,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 29.1,
+        "highTemp": 38.2,
+        "lowTemp": 20.1,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 43.8,
+        "highTemp": 54,
+        "lowTemp": 33.6,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 57.4,
+        "highTemp": 67.6,
+        "lowTemp": 47.1,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 67.9,
+        "highTemp": 77.9,
+        "lowTemp": 57.8,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 71.7,
+        "highTemp": 81.5,
+        "lowTemp": 61.9,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 69.1,
+        "highTemp": 79.4,
+        "lowTemp": 58.9,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 61.1,
+        "highTemp": 72.1,
+        "lowTemp": 50.1,
+        "precip": 2.6
+      },
+      "oct": {
+        "avgTemp": 46.9,
+        "highTemp": 57.4,
+        "lowTemp": 36.5,
+        "precip": 2.4
+      },
+      "nov": {
+        "avgTemp": 31.8,
+        "highTemp": 40.1,
+        "lowTemp": 23.5,
+        "precip": 1.4
+      },
+      "dec": {
+        "avgTemp": 18.3,
+        "highTemp": 26.4,
+        "lowTemp": 10.1,
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "avgTemp": 43.7,
+      "highTemp": 53.4,
+      "lowTemp": 34,
+      "totalPrecip": 28.6,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

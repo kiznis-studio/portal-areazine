@@ -247,5 +247,93 @@
       4.9,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USW00026409",
+    "stationName": "ANCHORAGE MERRILL FLD",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 15.4,
+        "highTemp": 22.6,
+        "lowTemp": 8.2,
+        "precip": 0.5
+      },
+      "feb": {
+        "avgTemp": 20.2,
+        "highTemp": 28,
+        "lowTemp": 12.4,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 25.6,
+        "highTemp": 34.4,
+        "lowTemp": 16.9,
+        "precip": 0.5
+      },
+      "apr": {
+        "avgTemp": 38.8,
+        "highTemp": 47.1,
+        "lowTemp": 30.4,
+        "precip": 0.3
+      },
+      "may": {
+        "avgTemp": 49.7,
+        "highTemp": 58.4,
+        "lowTemp": 41.1,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 57.7,
+        "highTemp": 65.7,
+        "lowTemp": 49.7,
+        "precip": 1
+      },
+      "jul": {
+        "avgTemp": 61.1,
+        "highTemp": 68.4,
+        "lowTemp": 53.9,
+        "precip": 1.7
+      },
+      "aug": {
+        "avgTemp": 58.5,
+        "highTemp": 65.7,
+        "lowTemp": 51.3,
+        "precip": 2.5
+      },
+      "sep": {
+        "avgTemp": 49.8,
+        "highTemp": 56.8,
+        "lowTemp": 42.8,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 36.4,
+        "highTemp": 42.5,
+        "lowTemp": 30.3,
+        "precip": 1.6
+      },
+      "nov": {
+        "avgTemp": 22.6,
+        "highTemp": 29,
+        "lowTemp": 16.3,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 18,
+        "highTemp": 24.7,
+        "lowTemp": 11.3,
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "avgTemp": 37.8,
+      "highTemp": 45.3,
+      "lowTemp": 30.4,
+      "totalPrecip": 14.2,
+      "hotMonths": 0,
+      "coldMonths": 7
+    }
   }
 }

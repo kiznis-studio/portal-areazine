@@ -303,5 +303,93 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00083163",
+    "stationName": "FT LAUDERDALE HCN",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 66.7,
+        "highTemp": 75.6,
+        "lowTemp": 57.7,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 68.5,
+        "highTemp": 77.2,
+        "lowTemp": 59.8,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 70.8,
+        "highTemp": 79.3,
+        "lowTemp": 62.3,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 74.9,
+        "highTemp": 82.8,
+        "lowTemp": 67.1,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 78.5,
+        "highTemp": 85.9,
+        "lowTemp": 71.2,
+        "precip": 6.6
+      },
+      "jun": {
+        "avgTemp": 81.8,
+        "highTemp": 88.8,
+        "lowTemp": 74.7,
+        "precip": 9.4
+      },
+      "jul": {
+        "avgTemp": 83,
+        "highTemp": 90.2,
+        "lowTemp": 75.7,
+        "precip": 7.6
+      },
+      "aug": {
+        "avgTemp": 83.3,
+        "highTemp": 90.5,
+        "lowTemp": 76.1,
+        "precip": 8.3
+      },
+      "sep": {
+        "avgTemp": 82.2,
+        "highTemp": 89,
+        "lowTemp": 75.4,
+        "precip": 10
+      },
+      "oct": {
+        "avgTemp": 79,
+        "highTemp": 85.9,
+        "lowTemp": 72.1,
+        "precip": 7.3
+      },
+      "nov": {
+        "avgTemp": 73.2,
+        "highTemp": 80.9,
+        "lowTemp": 65.6,
+        "precip": 4.7
+      },
+      "dec": {
+        "avgTemp": 69.3,
+        "highTemp": 77.4,
+        "lowTemp": 61.1,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 75.9,
+      "highTemp": 83.6,
+      "lowTemp": 68.2,
+      "totalPrecip": 69,
+      "hotMonths": 9,
+      "coldMonths": 0
+    }
   }
 }

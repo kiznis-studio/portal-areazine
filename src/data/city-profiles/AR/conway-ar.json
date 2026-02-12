@@ -239,5 +239,54 @@
       3.2,
       3.3
     ]
+  },
+  "climate": {
+    "station": "US1ARFK0011",
+    "stationName": "CONWAY 2.8 SSE",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 4.2
+      },
+      "mar": {
+        "precip": 5.1
+      },
+      "apr": {
+        "precip": 5.6
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 3.5
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 4.5
+      },
+      "nov": {
+        "precip": 4.9
+      },
+      "dec": {
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

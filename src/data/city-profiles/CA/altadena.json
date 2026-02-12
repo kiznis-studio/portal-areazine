@@ -303,5 +303,54 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CALA0005",
+    "stationName": "ALTADENA 0.7 ESE",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.4
+      },
+      "feb": {
+        "precip": 5.8
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 1.2
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.3
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 20.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,93 @@
       5.1,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00003810",
+    "stationName": "HICKORY FAA AP 72301",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.7,
+        "highTemp": 49.1,
+        "lowTemp": 30.2,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 43,
+        "highTemp": 53.2,
+        "lowTemp": 32.8,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 50.1,
+        "highTemp": 60.7,
+        "lowTemp": 39.5,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 58.8,
+        "highTemp": 70,
+        "lowTemp": 47.7,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 66.8,
+        "highTemp": 77.4,
+        "lowTemp": 56.2,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 74.3,
+        "highTemp": 84.3,
+        "lowTemp": 64.4,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 77.7,
+        "highTemp": 87.4,
+        "lowTemp": 68.1,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 76.4,
+        "highTemp": 85.7,
+        "lowTemp": 67,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 70.4,
+        "highTemp": 79.8,
+        "lowTemp": 60.9,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 59.6,
+        "highTemp": 70.2,
+        "lowTemp": 48.9,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 49.3,
+        "highTemp": 59.9,
+        "lowTemp": 38.7,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 42.2,
+        "highTemp": 51.5,
+        "lowTemp": 32.8,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 59,
+      "highTemp": 69.1,
+      "lowTemp": 48.9,
+      "totalPrecip": 47.3,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

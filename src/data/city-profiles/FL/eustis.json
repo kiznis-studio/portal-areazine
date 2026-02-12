@@ -255,5 +255,93 @@
       5.5,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00085076",
+    "stationName": "LISBON",
+    "distanceMi": 6.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 56.5,
+        "highTemp": 67,
+        "lowTemp": 45.9,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 59.6,
+        "highTemp": 70.4,
+        "lowTemp": 48.8,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 64.1,
+        "highTemp": 75.4,
+        "lowTemp": 52.8,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 69.6,
+        "highTemp": 80.5,
+        "lowTemp": 58.7,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 75.5,
+        "highTemp": 85.7,
+        "lowTemp": 65.2,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 79.6,
+        "highTemp": 88.5,
+        "lowTemp": 70.7,
+        "precip": 7.5
+      },
+      "jul": {
+        "avgTemp": 81.1,
+        "highTemp": 89.5,
+        "lowTemp": 72.7,
+        "precip": 6.5
+      },
+      "aug": {
+        "avgTemp": 81.1,
+        "highTemp": 89.5,
+        "lowTemp": 72.8,
+        "precip": 7.5
+      },
+      "sep": {
+        "avgTemp": 78.9,
+        "highTemp": 86.9,
+        "lowTemp": 71,
+        "precip": 6.3
+      },
+      "oct": {
+        "avgTemp": 72.5,
+        "highTemp": 81.2,
+        "lowTemp": 63.8,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 64.2,
+        "highTemp": 74,
+        "lowTemp": 54.3,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 59.1,
+        "highTemp": 69.1,
+        "lowTemp": 49.1,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 70.2,
+      "highTemp": 79.8,
+      "lowTemp": 60.5,
+      "totalPrecip": 50,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

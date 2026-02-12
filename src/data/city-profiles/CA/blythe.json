@@ -303,5 +303,92 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00040924",
+    "stationName": "BLYTHE HCN",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.8,
+        "highTemp": 69.2,
+        "lowTemp": 40.4,
+        "precip": 0.6
+      },
+      "feb": {
+        "avgTemp": 58.3,
+        "highTemp": 73.3,
+        "lowTemp": 43.3,
+        "precip": 0.6
+      },
+      "mar": {
+        "avgTemp": 64.5,
+        "highTemp": 80.5,
+        "lowTemp": 48.5,
+        "precip": 0.4
+      },
+      "apr": {
+        "avgTemp": 71.7,
+        "highTemp": 88.5,
+        "lowTemp": 55,
+        "precip": 0.1
+      },
+      "may": {
+        "avgTemp": 80.5,
+        "highTemp": 97.8,
+        "lowTemp": 63.2,
+        "precip": 0.1
+      },
+      "jun": {
+        "avgTemp": 88.3,
+        "highTemp": 105.8,
+        "lowTemp": 70.8
+      },
+      "jul": {
+        "avgTemp": 93.9,
+        "highTemp": 109.7,
+        "lowTemp": 78.1,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 93.4,
+        "highTemp": 108.5,
+        "lowTemp": 78.3,
+        "precip": 0.4
+      },
+      "sep": {
+        "avgTemp": 87.4,
+        "highTemp": 103.8,
+        "lowTemp": 71,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 73.8,
+        "highTemp": 90.9,
+        "lowTemp": 56.7,
+        "precip": 0.2
+      },
+      "nov": {
+        "avgTemp": 62.6,
+        "highTemp": 77.9,
+        "lowTemp": 47.3,
+        "precip": 0.2
+      },
+      "dec": {
+        "avgTemp": 52.1,
+        "highTemp": 66,
+        "lowTemp": 38.2,
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "avgTemp": 73.4,
+      "highTemp": 89.3,
+      "lowTemp": 57.6,
+      "totalPrecip": 3.7,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

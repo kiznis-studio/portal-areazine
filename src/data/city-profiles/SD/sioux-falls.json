@@ -247,5 +247,93 @@
       2.4,
       2.3
     ]
+  },
+  "climate": {
+    "station": "USW00014944",
+    "stationName": "SIOUX FALLS 72651",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 17.9,
+        "highTemp": 27.2,
+        "lowTemp": 8.5,
+        "precip": 0.6
+      },
+      "feb": {
+        "avgTemp": 22.3,
+        "highTemp": 32,
+        "lowTemp": 12.6,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 34.7,
+        "highTemp": 45,
+        "lowTemp": 24.3,
+        "precip": 1.6
+      },
+      "apr": {
+        "avgTemp": 47.2,
+        "highTemp": 59,
+        "lowTemp": 35.5,
+        "precip": 3
+      },
+      "may": {
+        "avgTemp": 59.1,
+        "highTemp": 70.8,
+        "lowTemp": 47.5,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 69.9,
+        "highTemp": 80.9,
+        "lowTemp": 58.8,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 74.4,
+        "highTemp": 85.3,
+        "lowTemp": 63.4,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 72,
+        "highTemp": 82.8,
+        "lowTemp": 61.1,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 63.8,
+        "highTemp": 75.6,
+        "lowTemp": 51.9,
+        "precip": 2.7
+      },
+      "oct": {
+        "avgTemp": 49.6,
+        "highTemp": 61.1,
+        "lowTemp": 38.1,
+        "precip": 2.4
+      },
+      "nov": {
+        "avgTemp": 34.8,
+        "highTemp": 45,
+        "lowTemp": 24.5,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 22.5,
+        "highTemp": 31.6,
+        "lowTemp": 13.4,
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "avgTemp": 47.4,
+      "highTemp": 58,
+      "lowTemp": 36.6,
+      "totalPrecip": 27.8,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

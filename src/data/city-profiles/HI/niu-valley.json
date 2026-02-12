@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00517540",
+    "stationName": "PAIKO DRIVE 723.4",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 1.6
+      },
+      "may": {
+        "precip": 1.1
+      },
+      "jun": {
+        "precip": 0.9
+      },
+      "jul": {
+        "precip": 1.1
+      },
+      "aug": {
+        "precip": 1.1
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 2.2
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 24.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

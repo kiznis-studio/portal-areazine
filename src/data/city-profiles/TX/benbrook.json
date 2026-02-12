@@ -303,5 +303,93 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00410691",
+    "stationName": "BENBROOK DAM",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46,
+        "highTemp": 58.8,
+        "lowTemp": 33.3,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 50,
+        "highTemp": 62.9,
+        "lowTemp": 37,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 57.4,
+        "highTemp": 70,
+        "lowTemp": 44.7,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 64.9,
+        "highTemp": 77.5,
+        "lowTemp": 52.3,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 73.3,
+        "highTemp": 84.7,
+        "lowTemp": 61.9,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 81.3,
+        "highTemp": 92.7,
+        "lowTemp": 69.9,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 85.1,
+        "highTemp": 97.1,
+        "lowTemp": 73.1,
+        "precip": 1.9
+      },
+      "aug": {
+        "avgTemp": 85.1,
+        "highTemp": 97.5,
+        "lowTemp": 72.7,
+        "precip": 2.5
+      },
+      "sep": {
+        "avgTemp": 77.8,
+        "highTemp": 90.3,
+        "lowTemp": 65.2,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 67.4,
+        "highTemp": 80.6,
+        "lowTemp": 54.1,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 56.2,
+        "highTemp": 68.6,
+        "lowTemp": 43.8,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 48.2,
+        "highTemp": 60.3,
+        "lowTemp": 36,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 66.1,
+      "highTemp": 78.4,
+      "lowTemp": 53.7,
+      "totalPrecip": 36.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

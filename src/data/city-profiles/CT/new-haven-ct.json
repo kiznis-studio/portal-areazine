@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USW00014758",
+    "stationName": "NEW HAVEN TWEED AP",
+    "distanceMi": 3.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.5,
+        "highTemp": 38.1,
+        "lowTemp": 23,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 32,
+        "highTemp": 40.2,
+        "lowTemp": 23.9,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 38.5,
+        "highTemp": 47,
+        "lowTemp": 30.1,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 48.5,
+        "highTemp": 57.8,
+        "lowTemp": 39.3,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 58.5,
+        "highTemp": 67.7,
+        "lowTemp": 49.4,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 67.9,
+        "highTemp": 76.4,
+        "lowTemp": 59.3,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 73.9,
+        "highTemp": 82.1,
+        "lowTemp": 65.7,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 72.9,
+        "highTemp": 81,
+        "lowTemp": 64.7,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 66,
+        "highTemp": 74.7,
+        "lowTemp": 57.3,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 54.7,
+        "highTemp": 63.8,
+        "lowTemp": 45.5,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 44.7,
+        "highTemp": 53.4,
+        "lowTemp": 35.9,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 36.3,
+        "highTemp": 43.7,
+        "lowTemp": 28.9,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 52,
+      "highTemp": 60.5,
+      "lowTemp": 43.6,
+      "totalPrecip": 41.8,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

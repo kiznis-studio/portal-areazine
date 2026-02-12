@@ -216,5 +216,54 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1ILMCH043",
+    "stationName": "ALGONQUIN 0.7 N",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.9
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

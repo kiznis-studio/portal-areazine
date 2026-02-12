@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00518815",
+    "stationName": "UNIV OF HAWAII 713",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 1.5
+      },
+      "jun": {
+        "precip": 1.5
+      },
+      "jul": {
+        "precip": 1.9
+      },
+      "aug": {
+        "precip": 1.5
+      },
+      "sep": {
+        "precip": 2.5
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.9
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

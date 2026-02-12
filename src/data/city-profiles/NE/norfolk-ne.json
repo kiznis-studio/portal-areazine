@@ -231,5 +231,54 @@
       2.6,
       2.5
     ]
+  },
+  "climate": {
+    "station": "US10madi001",
+    "stationName": "NORFOLK 1.7 NE",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.5
+      },
+      "feb": {
+        "precip": 0.6
+      },
+      "mar": {
+        "precip": 1.5
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.1
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 2.2
+      },
+      "oct": {
+        "precip": 2.3
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 26.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

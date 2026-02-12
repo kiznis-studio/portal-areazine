@@ -222,5 +222,93 @@
       5.3,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00212721",
+    "stationName": "FARIBAULT",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 14,
+        "highTemp": 23.2,
+        "lowTemp": 4.8,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 18,
+        "highTemp": 28,
+        "lowTemp": 7.9,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 30.4,
+        "highTemp": 40.4,
+        "lowTemp": 20.4,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 44.2,
+        "highTemp": 55.5,
+        "lowTemp": 32.9,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 56.7,
+        "highTemp": 68.2,
+        "lowTemp": 45.2,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 67.8,
+        "highTemp": 78.4,
+        "lowTemp": 57.2,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 71.3,
+        "highTemp": 82,
+        "lowTemp": 60.6,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 68.9,
+        "highTemp": 79.9,
+        "lowTemp": 57.9,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 61.2,
+        "highTemp": 72.7,
+        "lowTemp": 49.7,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 47.3,
+        "highTemp": 58.9,
+        "lowTemp": 35.7,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 33.1,
+        "highTemp": 42.4,
+        "lowTemp": 23.8,
+        "precip": 1.7
+      },
+      "dec": {
+        "avgTemp": 20.7,
+        "highTemp": 28.9,
+        "lowTemp": 12.6,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 44.5,
+      "highTemp": 54.9,
+      "lowTemp": 34.1,
+      "totalPrecip": 35.5,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

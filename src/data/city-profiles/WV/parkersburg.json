@@ -231,5 +231,93 @@
       5.2,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USW00013867",
+    "stationName": "PARKERSBURG",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.2,
+        "highTemp": 40.4,
+        "lowTemp": 24,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 35,
+        "highTemp": 44.2,
+        "lowTemp": 25.9,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 43.1,
+        "highTemp": 53.8,
+        "lowTemp": 32.5,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 54.6,
+        "highTemp": 66.8,
+        "lowTemp": 42.4,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 64,
+        "highTemp": 75.5,
+        "lowTemp": 52.6,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 72.4,
+        "highTemp": 83,
+        "lowTemp": 61.8,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 76.2,
+        "highTemp": 86.6,
+        "lowTemp": 65.9,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 75,
+        "highTemp": 85.7,
+        "lowTemp": 64.3,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 68.5,
+        "highTemp": 79.8,
+        "lowTemp": 57.1,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 56.2,
+        "highTemp": 67.6,
+        "lowTemp": 44.8,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 45.2,
+        "highTemp": 55,
+        "lowTemp": 35.3,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 36.7,
+        "highTemp": 44.5,
+        "lowTemp": 28.9,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 54.9,
+      "highTemp": 65.2,
+      "lowTemp": 44.6,
+      "totalPrecip": 44.2,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

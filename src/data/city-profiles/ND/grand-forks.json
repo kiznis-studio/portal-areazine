@@ -231,5 +231,93 @@
       3.3,
       2.6
     ]
+  },
+  "climate": {
+    "station": "USC00323621",
+    "stationName": "GRAND FORKS UNIV (NWS) HCN",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 7,
+        "highTemp": 15.3,
+        "lowTemp": -1.3,
+        "precip": 0.5
+      },
+      "feb": {
+        "avgTemp": 11.4,
+        "highTemp": 20.4,
+        "lowTemp": 2.5,
+        "precip": 0.6
+      },
+      "mar": {
+        "avgTemp": 25.4,
+        "highTemp": 34,
+        "lowTemp": 16.7,
+        "precip": 0.9
+      },
+      "apr": {
+        "avgTemp": 41.5,
+        "highTemp": 52,
+        "lowTemp": 31,
+        "precip": 1.2
+      },
+      "may": {
+        "avgTemp": 55,
+        "highTemp": 66.5,
+        "lowTemp": 43.5,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 65.4,
+        "highTemp": 75.9,
+        "lowTemp": 54.8,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 69.5,
+        "highTemp": 80.1,
+        "lowTemp": 58.8,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 67.8,
+        "highTemp": 79.2,
+        "lowTemp": 56.5,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 58.5,
+        "highTemp": 69.7,
+        "lowTemp": 47.4,
+        "precip": 2.4
+      },
+      "oct": {
+        "avgTemp": 43.9,
+        "highTemp": 53.3,
+        "lowTemp": 34.5,
+        "precip": 2
+      },
+      "nov": {
+        "avgTemp": 27.3,
+        "highTemp": 35,
+        "lowTemp": 19.6,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 13.4,
+        "highTemp": 21,
+        "lowTemp": 5.8,
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "avgTemp": 40.5,
+      "highTemp": 50.2,
+      "lowTemp": 30.8,
+      "totalPrecip": 22.8,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

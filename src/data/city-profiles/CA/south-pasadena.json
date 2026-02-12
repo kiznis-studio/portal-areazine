@@ -303,5 +303,93 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00046719",
+    "stationName": "PASADENA HCN",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 56.8,
+        "highTemp": 68.1,
+        "lowTemp": 45.5,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 57.7,
+        "highTemp": 69.3,
+        "lowTemp": 46.1,
+        "precip": 5.2
+      },
+      "mar": {
+        "avgTemp": 60.5,
+        "highTemp": 72.6,
+        "lowTemp": 48.4,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 63.4,
+        "highTemp": 76.2,
+        "lowTemp": 50.6,
+        "precip": 1.1
+      },
+      "may": {
+        "avgTemp": 66.1,
+        "highTemp": 78.3,
+        "lowTemp": 53.9,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 70.7,
+        "highTemp": 83.7,
+        "lowTemp": 57.8,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 89.1,
+        "lowTemp": 62,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 77.2,
+        "highTemp": 91.3,
+        "lowTemp": 63.2,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 75.8,
+        "highTemp": 89.9,
+        "lowTemp": 61.6,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 69.7,
+        "highTemp": 83,
+        "lowTemp": 56.3,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 62.1,
+        "highTemp": 74.7,
+        "lowTemp": 49.6,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 56,
+        "highTemp": 67.2,
+        "lowTemp": 44.7,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 66,
+      "highTemp": 78.6,
+      "lowTemp": 53.3,
+      "totalPrecip": 20,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

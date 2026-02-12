@@ -216,5 +216,93 @@
       6.6,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00180700",
+    "stationName": "BELTSVILLE HCN",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34,
+        "highTemp": 42.7,
+        "lowTemp": 25.3,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 36.3,
+        "highTemp": 45.5,
+        "lowTemp": 27,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 43.7,
+        "highTemp": 53.4,
+        "lowTemp": 34.1,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 54.5,
+        "highTemp": 65.3,
+        "lowTemp": 43.8,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 63.9,
+        "highTemp": 74.2,
+        "lowTemp": 53.6,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 73,
+        "highTemp": 83,
+        "lowTemp": 63,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 77.4,
+        "highTemp": 87.1,
+        "lowTemp": 67.6,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 75.8,
+        "highTemp": 85.6,
+        "lowTemp": 66.1,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 69.3,
+        "highTemp": 79.2,
+        "lowTemp": 59.4,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 57.3,
+        "highTemp": 67.8,
+        "lowTemp": 46.8,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 46.7,
+        "highTemp": 56.7,
+        "lowTemp": 36.7,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 38.3,
+        "highTemp": 46.8,
+        "lowTemp": 29.8,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 55.9,
+      "highTemp": 65.6,
+      "lowTemp": 46.1,
+      "totalPrecip": 44,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -295,5 +295,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLHB0017",
+    "stationName": "SUN CITY CENTER 1.0 NE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 3.4
+      },
+      "jun": {
+        "precip": 7.6
+      },
+      "jul": {
+        "precip": 8.6
+      },
+      "aug": {
+        "precip": 10
+      },
+      "sep": {
+        "precip": 7.3
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,54 @@
       6,
       6
     ]
+  },
+  "climate": {
+    "station": "US1VAHR0008",
+    "stationName": "LAUREL 0.8 N",
+    "distanceMi": 6.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

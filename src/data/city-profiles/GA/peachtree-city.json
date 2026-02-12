@@ -231,5 +231,93 @@
       3.9,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USW00053819",
+    "stationName": "ATLANTA 72215",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.9,
+        "highTemp": 55.7,
+        "lowTemp": 34.1,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 48.7,
+        "highTemp": 60.3,
+        "lowTemp": 37.1,
+        "precip": 4.6
+      },
+      "mar": {
+        "avgTemp": 55.3,
+        "highTemp": 67.9,
+        "lowTemp": 42.8,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 62.4,
+        "highTemp": 75.4,
+        "lowTemp": 49.4,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 70.4,
+        "highTemp": 82.6,
+        "lowTemp": 58.2,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 77.5,
+        "highTemp": 88.2,
+        "lowTemp": 66.9,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 80.8,
+        "highTemp": 91,
+        "lowTemp": 70.5,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 79.8,
+        "highTemp": 89.9,
+        "lowTemp": 69.7,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 74.1,
+        "highTemp": 85.1,
+        "lowTemp": 63.1,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 63.6,
+        "highTemp": 75.9,
+        "lowTemp": 51.3,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 53.2,
+        "highTemp": 65.8,
+        "lowTemp": 40.6,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 47.2,
+        "highTemp": 58.1,
+        "lowTemp": 36.3,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 63.2,
+      "highTemp": 74.7,
+      "lowTemp": 51.7,
+      "totalPrecip": 49.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

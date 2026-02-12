@@ -239,5 +239,93 @@
       9.2,
       8.7
     ]
+  },
+  "climate": {
+    "station": "USW00024213",
+    "stationName": "EUREKA WFO WOODLEY ISLAND GSN HCN 72594",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.9,
+        "highTemp": 55.1,
+        "lowTemp": 40.8,
+        "precip": 6.7
+      },
+      "feb": {
+        "avgTemp": 48.4,
+        "highTemp": 55.4,
+        "lowTemp": 41.3,
+        "precip": 5.6
+      },
+      "mar": {
+        "avgTemp": 49.2,
+        "highTemp": 56.1,
+        "lowTemp": 42.4,
+        "precip": 5.8
+      },
+      "apr": {
+        "avgTemp": 50.8,
+        "highTemp": 57.4,
+        "lowTemp": 44.2,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 53.7,
+        "highTemp": 59.6,
+        "lowTemp": 47.7,
+        "precip": 1.7
+      },
+      "jun": {
+        "avgTemp": 56,
+        "highTemp": 61.9,
+        "lowTemp": 50.1,
+        "precip": 0.7
+      },
+      "jul": {
+        "avgTemp": 57.7,
+        "highTemp": 63.1,
+        "lowTemp": 52.4,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 58.5,
+        "highTemp": 64,
+        "lowTemp": 53,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 57.2,
+        "highTemp": 63.9,
+        "lowTemp": 50.5,
+        "precip": 0.7
+      },
+      "oct": {
+        "avgTemp": 54.3,
+        "highTemp": 61.9,
+        "lowTemp": 46.8,
+        "precip": 2.3
+      },
+      "nov": {
+        "avgTemp": 50.5,
+        "highTemp": 57.8,
+        "lowTemp": 43.2,
+        "precip": 4.9
+      },
+      "dec": {
+        "avgTemp": 47.4,
+        "highTemp": 54.7,
+        "lowTemp": 40,
+        "precip": 8.1
+      }
+    },
+    "annual": {
+      "avgTemp": 52.6,
+      "highTemp": 59.2,
+      "lowTemp": 46,
+      "totalPrecip": 40.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

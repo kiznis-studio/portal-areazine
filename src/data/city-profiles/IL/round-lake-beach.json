@@ -271,5 +271,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1ILLK0009",
+    "stationName": "LAKE VILLA 1.1 SSW",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.8
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

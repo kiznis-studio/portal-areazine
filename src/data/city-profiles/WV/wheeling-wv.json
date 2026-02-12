@@ -231,5 +231,93 @@
       5.3,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00469482",
+    "stationName": "WHEELING",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.2,
+        "highTemp": 38.7,
+        "lowTemp": 21.7,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 32.5,
+        "highTemp": 41.8,
+        "lowTemp": 23.1,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 40.5,
+        "highTemp": 51.2,
+        "lowTemp": 29.8,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 52.1,
+        "highTemp": 64.5,
+        "lowTemp": 39.6,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 62,
+        "highTemp": 73.9,
+        "lowTemp": 50.1,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 70.4,
+        "highTemp": 81.4,
+        "lowTemp": 59.3,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 74.4,
+        "highTemp": 85,
+        "lowTemp": 63.8,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 84.6,
+        "lowTemp": 62.7,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 67.4,
+        "highTemp": 78.7,
+        "lowTemp": 56.1,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 66.4,
+        "lowTemp": 44,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 43.7,
+        "highTemp": 53.7,
+        "lowTemp": 33.7,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 35.1,
+        "highTemp": 43.2,
+        "lowTemp": 26.9,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 53.1,
+      "highTemp": 63.6,
+      "lowTemp": 42.6,
+      "totalPrecip": 41.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

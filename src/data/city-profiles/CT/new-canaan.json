@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTFR0003",
+    "stationName": "NEW CANAAN 1.9 ENE",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 5
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

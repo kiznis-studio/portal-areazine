@@ -303,5 +303,93 @@
       3.6,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00421759",
+    "stationName": "COTTONWOOD WEIR",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.4,
+        "highTemp": 38.1,
+        "lowTemp": 22.8,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 35.6,
+        "highTemp": 44.1,
+        "lowTemp": 27,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 44.1,
+        "highTemp": 53.9,
+        "lowTemp": 34.2,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 50.1,
+        "highTemp": 60.7,
+        "lowTemp": 39.5,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 59.4,
+        "highTemp": 70.6,
+        "lowTemp": 48.2,
+        "precip": 2.8
+      },
+      "jun": {
+        "avgTemp": 69.6,
+        "highTemp": 81.9,
+        "lowTemp": 57.3,
+        "precip": 1.4
+      },
+      "jul": {
+        "avgTemp": 79.1,
+        "highTemp": 90.7,
+        "lowTemp": 67.5,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 77.3,
+        "highTemp": 88.6,
+        "lowTemp": 65.9,
+        "precip": 0.9
+      },
+      "sep": {
+        "avgTemp": 67.6,
+        "highTemp": 78.7,
+        "lowTemp": 56.4,
+        "precip": 1.6
+      },
+      "oct": {
+        "avgTemp": 53.8,
+        "highTemp": 64.2,
+        "lowTemp": 43.4,
+        "precip": 2.1
+      },
+      "nov": {
+        "avgTemp": 40.3,
+        "highTemp": 49.1,
+        "lowTemp": 31.5,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 30.7,
+        "highTemp": 38.3,
+        "lowTemp": 23.1,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 53.2,
+      "highTemp": 63.2,
+      "lowTemp": 43.1,
+      "totalPrecip": 24.4,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

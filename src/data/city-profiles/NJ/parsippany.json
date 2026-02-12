@@ -247,5 +247,54 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1NJMS0071",
+    "stationName": "DENVILLE TWP 1.5 ESE",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,81 @@
       6.3,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USC00166657",
+    "stationName": "NEW IBERIA ACADIANA AP",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.3,
+        "highTemp": 63.7,
+        "lowTemp": 42.9
+      },
+      "feb": {
+        "avgTemp": 57,
+        "highTemp": 67.3,
+        "lowTemp": 46.7
+      },
+      "mar": {
+        "avgTemp": 63.6,
+        "highTemp": 73.8,
+        "lowTemp": 53.3
+      },
+      "apr": {
+        "avgTemp": 69.7,
+        "highTemp": 79.8,
+        "lowTemp": 59.6
+      },
+      "may": {
+        "avgTemp": 76.6,
+        "highTemp": 86.1,
+        "lowTemp": 67
+      },
+      "jun": {
+        "avgTemp": 81.6,
+        "highTemp": 90.3,
+        "lowTemp": 73
+      },
+      "jul": {
+        "avgTemp": 83.5,
+        "highTemp": 92.4,
+        "lowTemp": 74.5
+      },
+      "aug": {
+        "avgTemp": 83.9,
+        "highTemp": 93.2,
+        "lowTemp": 74.6
+      },
+      "sep": {
+        "avgTemp": 80.3,
+        "highTemp": 89.9,
+        "lowTemp": 70.8
+      },
+      "oct": {
+        "avgTemp": 71.8,
+        "highTemp": 83.4,
+        "lowTemp": 60.2
+      },
+      "nov": {
+        "avgTemp": 61.6,
+        "highTemp": 72.8,
+        "lowTemp": 50.4
+      },
+      "dec": {
+        "avgTemp": 55.5,
+        "highTemp": 65.7,
+        "lowTemp": 45.4
+      }
+    },
+    "annual": {
+      "avgTemp": 69.9,
+      "highTemp": 79.9,
+      "lowTemp": 59.9,
+      "totalPrecip": 0,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

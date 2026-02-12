@@ -263,5 +263,93 @@
       3.2,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USW00093909",
+    "stationName": "OLATHE JOHNSON CO AP 72447",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.8,
+        "highTemp": 39.4,
+        "lowTemp": 20.1,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 34.1,
+        "highTemp": 44.1,
+        "lowTemp": 24.1,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 44.9,
+        "highTemp": 56,
+        "lowTemp": 33.8,
+        "precip": 2.3
+      },
+      "apr": {
+        "avgTemp": 54.8,
+        "highTemp": 66,
+        "lowTemp": 43.6,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 64.9,
+        "highTemp": 75.4,
+        "lowTemp": 54.4,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 74.5,
+        "highTemp": 84.7,
+        "lowTemp": 64.3,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 78.8,
+        "highTemp": 89.4,
+        "lowTemp": 68.2,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 77.4,
+        "highTemp": 88.2,
+        "lowTemp": 66.5,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 68.6,
+        "highTemp": 79.7,
+        "lowTemp": 57.5,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 56.5,
+        "highTemp": 67.5,
+        "lowTemp": 45.5,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 43.8,
+        "highTemp": 54,
+        "lowTemp": 33.6,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 33.6,
+        "highTemp": 43,
+        "lowTemp": 24.2,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 55.1,
+      "highTemp": 65.6,
+      "lowTemp": 44.7,
+      "totalPrecip": 37.7,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

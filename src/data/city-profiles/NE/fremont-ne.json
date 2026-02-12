@@ -231,5 +231,54 @@
       4.1,
       3.1
     ]
+  },
+  "climate": {
+    "station": "US1NEDD0003",
+    "stationName": "FREMONT 0.6 S",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 1
+      },
+      "mar": {
+        "precip": 1.7
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 2.4
+      },
+      "nov": {
+        "precip": 1.3
+      },
+      "dec": {
+        "precip": 1.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 32.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

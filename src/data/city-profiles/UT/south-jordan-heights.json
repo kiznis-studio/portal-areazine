@@ -303,5 +303,54 @@
       3.6,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1UTSL0083",
+    "stationName": "SANDY 1.1 NNE",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.7
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 2.7
+      },
+      "jun": {
+        "precip": 1.3
+      },
+      "jul": {
+        "precip": 0.8
+      },
+      "aug": {
+        "precip": 1
+      },
+      "sep": {
+        "precip": 1.3
+      },
+      "oct": {
+        "precip": 1.8
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 21.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

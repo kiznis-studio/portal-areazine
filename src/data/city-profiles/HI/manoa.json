@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00516122",
+    "stationName": "MANOA 712.1",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.9
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 7.3
+      },
+      "apr": {
+        "precip": 5
+      },
+      "may": {
+        "precip": 3.3
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 5.1
+      },
+      "oct": {
+        "precip": 5.3
+      },
+      "nov": {
+        "precip": 6.9
+      },
+      "dec": {
+        "precip": 6.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 63.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

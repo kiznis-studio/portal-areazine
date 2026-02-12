@@ -153,5 +153,93 @@
       6,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USC00153994",
+    "stationName": "HOPKINSVILLE HCN",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.5,
+        "highTemp": 43.8,
+        "lowTemp": 27.2,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 39.6,
+        "highTemp": 48.4,
+        "lowTemp": 30.7,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 48,
+        "highTemp": 58.1,
+        "lowTemp": 37.8,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 58.1,
+        "highTemp": 69.1,
+        "lowTemp": 47.1,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 67.4,
+        "highTemp": 77.2,
+        "lowTemp": 57.7,
+        "precip": 5.4
+      },
+      "jun": {
+        "avgTemp": 75.5,
+        "highTemp": 84.8,
+        "lowTemp": 66.2,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 79.1,
+        "highTemp": 88.2,
+        "lowTemp": 70,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 77.9,
+        "highTemp": 87.5,
+        "lowTemp": 68.2,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 71.4,
+        "highTemp": 81.9,
+        "lowTemp": 60.8,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 59.7,
+        "highTemp": 70.9,
+        "lowTemp": 48.6,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 48.1,
+        "highTemp": 58,
+        "lowTemp": 38.2,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 39.2,
+        "highTemp": 47,
+        "lowTemp": 31.4,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 58.3,
+      "highTemp": 67.9,
+      "lowTemp": 48.7,
+      "totalPrecip": 51.9,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

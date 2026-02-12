@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTFR0023",
+    "stationName": "SHELTON 1.3 W",
+    "distanceMi": 4.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 5.2
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

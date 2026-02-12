@@ -303,5 +303,93 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USW00012885",
+    "stationName": "FT LAUDERDALE EXECUTIVE AP",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 67.7,
+        "highTemp": 76.2,
+        "lowTemp": 59.1,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 69.6,
+        "highTemp": 78,
+        "lowTemp": 61.2,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 72.3,
+        "highTemp": 80.7,
+        "lowTemp": 63.8,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 76.1,
+        "highTemp": 83.9,
+        "lowTemp": 68.3,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 79.6,
+        "highTemp": 86.9,
+        "lowTemp": 72.3,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 82.4,
+        "highTemp": 89.2,
+        "lowTemp": 75.5,
+        "precip": 6.6
+      },
+      "jul": {
+        "avgTemp": 83.8,
+        "highTemp": 91.1,
+        "lowTemp": 76.4,
+        "precip": 6.2
+      },
+      "aug": {
+        "avgTemp": 84.1,
+        "highTemp": 91.4,
+        "lowTemp": 76.8,
+        "precip": 7.5
+      },
+      "sep": {
+        "avgTemp": 82.6,
+        "highTemp": 89.4,
+        "lowTemp": 75.9,
+        "precip": 8.1
+      },
+      "oct": {
+        "avgTemp": 79.7,
+        "highTemp": 86.3,
+        "lowTemp": 73.1,
+        "precip": 5.8
+      },
+      "nov": {
+        "avgTemp": 73.9,
+        "highTemp": 81,
+        "lowTemp": 66.8,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 70.3,
+        "highTemp": 77.8,
+        "lowTemp": 62.7,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 76.8,
+      "highTemp": 84.3,
+      "lowTemp": 69.3,
+      "totalPrecip": 56.6,
+      "hotMonths": 10,
+      "coldMonths": 0
+    }
   }
 }

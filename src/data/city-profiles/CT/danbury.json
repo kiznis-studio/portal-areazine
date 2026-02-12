@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USC00061762",
+    "stationName": "DANBURY",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28,
+        "highTemp": 35.5,
+        "lowTemp": 20.5,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 30.3,
+        "highTemp": 38.8,
+        "lowTemp": 21.9,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 38.4,
+        "highTemp": 47.7,
+        "lowTemp": 29.1,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 49.9,
+        "highTemp": 60.5,
+        "lowTemp": 39.4,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 60.4,
+        "highTemp": 71.5,
+        "lowTemp": 49.3,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 69.4,
+        "highTemp": 80.1,
+        "lowTemp": 58.7,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 74.5,
+        "highTemp": 84.9,
+        "lowTemp": 64.1,
+        "precip": 5
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 82.2,
+        "lowTemp": 62.6,
+        "precip": 4.9
+      },
+      "sep": {
+        "avgTemp": 64.7,
+        "highTemp": 74.7,
+        "lowTemp": 54.7,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 52.8,
+        "highTemp": 62.5,
+        "lowTemp": 43.2,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 42.2,
+        "highTemp": 50.4,
+        "lowTemp": 33.9,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 33.2,
+        "highTemp": 40.1,
+        "lowTemp": 26.2,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 51.4,
+      "highTemp": 60.7,
+      "lowTemp": 42,
+      "totalPrecip": 53,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -239,5 +239,93 @@
       5.9,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00049473",
+    "stationName": "WATSONVILLE WTR WKS",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51,
+        "highTemp": 62,
+        "lowTemp": 39.9,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 52.4,
+        "highTemp": 63.4,
+        "lowTemp": 41.5,
+        "precip": 4.5
+      },
+      "mar": {
+        "avgTemp": 54.3,
+        "highTemp": 65.1,
+        "lowTemp": 43.4,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 56.4,
+        "highTemp": 67.5,
+        "lowTemp": 45.3,
+        "precip": 1.6
+      },
+      "may": {
+        "avgTemp": 59,
+        "highTemp": 69,
+        "lowTemp": 48.9,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 61.4,
+        "highTemp": 71.2,
+        "lowTemp": 51.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 62.6,
+        "highTemp": 71.1,
+        "lowTemp": 54.1,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 63.4,
+        "highTemp": 72.4,
+        "lowTemp": 54.5,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 63.5,
+        "highTemp": 74.2,
+        "lowTemp": 52.8,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 61.2,
+        "highTemp": 73.7,
+        "lowTemp": 48.7,
+        "precip": 1
+      },
+      "nov": {
+        "avgTemp": 55.5,
+        "highTemp": 67.8,
+        "lowTemp": 43.2,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 50.6,
+        "highTemp": 61.8,
+        "lowTemp": 39.3,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 57.6,
+      "highTemp": 68.3,
+      "lowTemp": 46.9,
+      "totalPrecip": 22.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

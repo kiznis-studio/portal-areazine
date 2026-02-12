@@ -231,5 +231,81 @@
       5.4,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00383754",
+    "stationName": "GREENWOOD HCN",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44,
+        "highTemp": 54.9,
+        "lowTemp": 33.2
+      },
+      "feb": {
+        "avgTemp": 47,
+        "highTemp": 58.9,
+        "lowTemp": 35
+      },
+      "mar": {
+        "avgTemp": 54.2,
+        "highTemp": 67.2,
+        "lowTemp": 41.1
+      },
+      "apr": {
+        "avgTemp": 62.6,
+        "highTemp": 75.8,
+        "lowTemp": 49.3
+      },
+      "may": {
+        "avgTemp": 70.4,
+        "highTemp": 82.5,
+        "lowTemp": 58.4
+      },
+      "jun": {
+        "avgTemp": 77.7,
+        "highTemp": 89,
+        "lowTemp": 66.5
+      },
+      "jul": {
+        "avgTemp": 81.2,
+        "highTemp": 92.1,
+        "lowTemp": 70.4
+      },
+      "aug": {
+        "avgTemp": 79.8,
+        "highTemp": 90.1,
+        "lowTemp": 69.5
+      },
+      "sep": {
+        "avgTemp": 73.8,
+        "highTemp": 84.8,
+        "lowTemp": 62.8
+      },
+      "oct": {
+        "avgTemp": 63.3,
+        "highTemp": 75,
+        "lowTemp": 51.6
+      },
+      "nov": {
+        "avgTemp": 53,
+        "highTemp": 65.2,
+        "lowTemp": 40.8
+      },
+      "dec": {
+        "avgTemp": 46.2,
+        "highTemp": 57.5,
+        "lowTemp": 34.8
+      }
+    },
+    "annual": {
+      "avgTemp": 62.8,
+      "highTemp": 74.4,
+      "lowTemp": 51.1,
+      "totalPrecip": 0,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

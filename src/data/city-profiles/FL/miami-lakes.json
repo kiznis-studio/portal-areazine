@@ -303,5 +303,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USW00012882",
+    "stationName": "MIAMI OPA LOCKA AP",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 67.8,
+        "highTemp": 76.7,
+        "lowTemp": 58.9,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 70,
+        "highTemp": 78.8,
+        "lowTemp": 61.2,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 72.6,
+        "highTemp": 81.2,
+        "lowTemp": 64,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 76.1,
+        "highTemp": 84.2,
+        "lowTemp": 68.1,
+        "precip": 2.9
+      },
+      "may": {
+        "avgTemp": 79.7,
+        "highTemp": 87.2,
+        "lowTemp": 72.1,
+        "precip": 6.1
+      },
+      "jun": {
+        "avgTemp": 82.6,
+        "highTemp": 89.7,
+        "lowTemp": 75.5,
+        "precip": 8.9
+      },
+      "jul": {
+        "avgTemp": 83.6,
+        "highTemp": 90.8,
+        "lowTemp": 76.4,
+        "precip": 8.1
+      },
+      "aug": {
+        "avgTemp": 84,
+        "highTemp": 91.1,
+        "lowTemp": 76.8,
+        "precip": 8.1
+      },
+      "sep": {
+        "avgTemp": 82.8,
+        "highTemp": 89.5,
+        "lowTemp": 76,
+        "precip": 8.7
+      },
+      "oct": {
+        "avgTemp": 79.8,
+        "highTemp": 86.4,
+        "lowTemp": 73.1,
+        "precip": 7.8
+      },
+      "nov": {
+        "avgTemp": 74,
+        "highTemp": 81.6,
+        "lowTemp": 66.5,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 70.4,
+        "highTemp": 78.5,
+        "lowTemp": 62.3,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 76.9,
+      "highTemp": 84.6,
+      "lowTemp": 69.2,
+      "totalPrecip": 62.7,
+      "hotMonths": 10,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,54 @@
       5.2,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1NYAB0023",
+    "stationName": "ALBANY 0.7 SW",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

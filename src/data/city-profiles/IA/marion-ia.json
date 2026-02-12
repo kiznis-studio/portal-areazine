@@ -239,5 +239,93 @@
       3.8,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00131319",
+    "stationName": "CEDAR RAPIDS #1",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.3,
+        "highTemp": 30,
+        "lowTemp": 12.5,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 25.9,
+        "highTemp": 35.1,
+        "lowTemp": 16.6,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 38.2,
+        "highTemp": 48.9,
+        "lowTemp": 27.5,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 50.9,
+        "highTemp": 63.3,
+        "lowTemp": 38.4,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 61.7,
+        "highTemp": 73.8,
+        "lowTemp": 49.6,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 71,
+        "highTemp": 82.3,
+        "lowTemp": 59.6,
+        "precip": 5.7
+      },
+      "jul": {
+        "avgTemp": 74.4,
+        "highTemp": 85.5,
+        "lowTemp": 63.3,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 72.3,
+        "highTemp": 83.4,
+        "lowTemp": 61.2,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 65.2,
+        "highTemp": 77.3,
+        "lowTemp": 53,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 52.8,
+        "highTemp": 64.1,
+        "lowTemp": 41.5,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 38.7,
+        "highTemp": 48.1,
+        "lowTemp": 29.3,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 26.7,
+        "highTemp": 34.7,
+        "lowTemp": 18.6,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 49.9,
+      "highTemp": 60.5,
+      "lowTemp": 39.3,
+      "totalPrecip": 38.8,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

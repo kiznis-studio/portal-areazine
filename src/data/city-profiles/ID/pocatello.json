@@ -231,5 +231,93 @@
       5.1,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00107210",
+    "stationName": "POCATELLO CITY",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.6,
+        "highTemp": 36.3,
+        "lowTemp": 20.9,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 31.3,
+        "highTemp": 40.6,
+        "lowTemp": 22.1,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 41.5,
+        "highTemp": 52.1,
+        "lowTemp": 30.9,
+        "precip": 1.3
+      },
+      "apr": {
+        "avgTemp": 48.7,
+        "highTemp": 60.8,
+        "lowTemp": 36.7,
+        "precip": 1.4
+      },
+      "may": {
+        "avgTemp": 57.4,
+        "highTemp": 70.5,
+        "lowTemp": 44.3,
+        "precip": 1.5
+      },
+      "jun": {
+        "avgTemp": 66,
+        "highTemp": 80,
+        "lowTemp": 51.9,
+        "precip": 1.2
+      },
+      "jul": {
+        "avgTemp": 74.8,
+        "highTemp": 90.7,
+        "lowTemp": 59,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 72.7,
+        "highTemp": 88.6,
+        "lowTemp": 56.9,
+        "precip": 0.9
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 78.4,
+        "lowTemp": 48.7,
+        "precip": 1
+      },
+      "oct": {
+        "avgTemp": 50.8,
+        "highTemp": 63.2,
+        "lowTemp": 38.4,
+        "precip": 1
+      },
+      "nov": {
+        "avgTemp": 37.9,
+        "highTemp": 47.3,
+        "lowTemp": 28.5,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 28.5,
+        "highTemp": 36.1,
+        "lowTemp": 21,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 62.1,
+      "lowTemp": 38.3,
+      "totalPrecip": 13.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

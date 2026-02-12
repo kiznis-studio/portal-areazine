@@ -255,5 +255,54 @@
       3.1,
       2.8
     ]
+  },
+  "climate": {
+    "station": "US1MOFSA183",
+    "stationName": "STN PETERS 1.3 NNE",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.5
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 4.8
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

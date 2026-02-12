@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTNH0022",
+    "stationName": "PROSPECT 0.5 SW",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 5.4
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

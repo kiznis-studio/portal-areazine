@@ -222,5 +222,54 @@
       6.1,
       6.2
     ]
+  },
+  "climate": {
+    "station": "US1ALRS0001",
+    "stationName": "PHENIX CITY 2.2 NNW",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.9
+      },
+      "feb": {
+        "precip": 4.9
+      },
+      "mar": {
+        "precip": 5.9
+      },
+      "apr": {
+        "precip": 4.9
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 5.4
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

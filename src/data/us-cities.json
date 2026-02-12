@@ -1,5 +1,18 @@
 [
   {
+    "name": "New York City",
+    "stateCode": "NY",
+    "state": "New York",
+    "stateFIPS": "36",
+    "countyFIPS": "061",
+    "countyName": "New York County",
+    "population": 8622467,
+    "lat": 40.7128,
+    "lng": -74.006,
+    "slug": "new-york-city",
+    "tier": 1
+  },
+  {
     "name": "Los Angeles",
     "stateCode": "CA",
     "state": "California",

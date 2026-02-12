@@ -239,5 +239,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00053848",
+    "stationName": "CHACTAW NOLF MILTON",
+    "distanceMi": 9.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.1,
+        "highTemp": 63.2,
+        "lowTemp": 41,
+        "precip": 4.7
+      },
+      "feb": {
+        "avgTemp": 55.6,
+        "highTemp": 67.1,
+        "lowTemp": 44.1,
+        "precip": 4.7
+      },
+      "mar": {
+        "avgTemp": 61.5,
+        "highTemp": 72.9,
+        "lowTemp": 50.1,
+        "precip": 5.1
+      },
+      "apr": {
+        "avgTemp": 67.3,
+        "highTemp": 78.7,
+        "lowTemp": 55.8,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 74.3,
+        "highTemp": 84.8,
+        "lowTemp": 63.8,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 80.5,
+        "highTemp": 89.3,
+        "lowTemp": 71.7,
+        "precip": 6.1
+      },
+      "jul": {
+        "avgTemp": 82.3,
+        "highTemp": 91,
+        "lowTemp": 73.5,
+        "precip": 7.3
+      },
+      "aug": {
+        "avgTemp": 81.9,
+        "highTemp": 90.4,
+        "lowTemp": 73.4,
+        "precip": 8.6
+      },
+      "sep": {
+        "avgTemp": 78.7,
+        "highTemp": 88.1,
+        "lowTemp": 69.3,
+        "precip": 5.6
+      },
+      "oct": {
+        "avgTemp": 69,
+        "highTemp": 80.2,
+        "lowTemp": 57.8,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 59.7,
+        "highTemp": 71.1,
+        "lowTemp": 48.2,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 54,
+        "highTemp": 64.2,
+        "lowTemp": 43.8,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 68.1,
+      "highTemp": 78.4,
+      "lowTemp": 57.7,
+      "totalPrecip": 63.8,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

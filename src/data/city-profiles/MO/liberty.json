@@ -239,5 +239,54 @@
       4,
       3.9
     ]
+  },
+  "climate": {
+    "station": "US1MOCY0002",
+    "stationName": "PLEASANT VALLEY 0.8 NW",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.3
+      },
+      "feb": {
+        "precip": 1.6
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 2.1
+      },
+      "dec": {
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

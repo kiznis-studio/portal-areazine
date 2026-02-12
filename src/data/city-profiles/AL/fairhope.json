@@ -239,5 +239,54 @@
       3.4,
       3.2
     ]
+  },
+  "climate": {
+    "station": "US1ALBW0040",
+    "stationName": "FAIRHOPE 1.5 WSW",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.6
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 5.4
+      },
+      "apr": {
+        "precip": 5.5
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 6.8
+      },
+      "jul": {
+        "precip": 7.6
+      },
+      "aug": {
+        "precip": 7.1
+      },
+      "sep": {
+        "precip": 6.8
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 4.6
+      },
+      "dec": {
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 68.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       7.1,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CASR0029",
+    "stationName": "RIALTO 2.1 N",
+    "distanceMi": 4.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 4.2
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 0.9
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0.3
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 1.2
+      },
+      "dec": {
+        "precip": 3
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

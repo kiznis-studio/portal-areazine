@@ -239,5 +239,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "US1COEP0291",
+    "stationName": "COLORADO SPRINGS 8.2 SE",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.4
+      },
+      "feb": {
+        "precip": 0.4
+      },
+      "mar": {
+        "precip": 0.8
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 2
+      },
+      "jun": {
+        "precip": 2.1
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 0.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

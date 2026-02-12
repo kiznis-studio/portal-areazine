@@ -225,5 +225,54 @@
       8.6,
       8.4
     ]
+  },
+  "climate": {
+    "station": "US1PAPH0004",
+    "stationName": "PHILADELPHIA 4.7 NE",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 5.4
+      },
+      "aug": {
+        "precip": 5
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

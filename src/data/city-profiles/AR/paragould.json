@@ -231,5 +231,93 @@
       7.5,
       7.5
     ]
+  },
+  "climate": {
+    "station": "USC00035563",
+    "stationName": "PARAGOULD 1S",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37,
+        "highTemp": 45.7,
+        "lowTemp": 28.2,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 40.9,
+        "highTemp": 50.4,
+        "lowTemp": 31.4,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 49.6,
+        "highTemp": 59.5,
+        "lowTemp": 39.7,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 59.8,
+        "highTemp": 70.2,
+        "lowTemp": 49.3,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 69.1,
+        "highTemp": 78.9,
+        "lowTemp": 59.3,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 77.5,
+        "highTemp": 87.3,
+        "lowTemp": 67.8,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 80.4,
+        "highTemp": 89.8,
+        "lowTemp": 71,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 79,
+        "highTemp": 88.9,
+        "lowTemp": 69.1,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 72.3,
+        "highTemp": 83.1,
+        "lowTemp": 61.5,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 61.1,
+        "highTemp": 72.6,
+        "lowTemp": 49.6,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 49,
+        "highTemp": 59,
+        "lowTemp": 39,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 40.2,
+        "highTemp": 48.7,
+        "lowTemp": 31.7,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 59.7,
+      "highTemp": 69.5,
+      "lowTemp": 49.8,
+      "totalPrecip": 51.6,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

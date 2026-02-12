@@ -303,5 +303,93 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USW00023188",
+    "stationName": "SAN DIEGO LINDBERGH FLD GSN 72290",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 58.4,
+        "highTemp": 66.4,
+        "lowTemp": 50.3,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 59,
+        "highTemp": 66.2,
+        "lowTemp": 51.8,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 60.7,
+        "highTemp": 67,
+        "lowTemp": 54.5,
+        "precip": 1.5
+      },
+      "apr": {
+        "avgTemp": 62.9,
+        "highTemp": 68.8,
+        "lowTemp": 57.1,
+        "precip": 0.7
+      },
+      "may": {
+        "avgTemp": 64.8,
+        "highTemp": 69.5,
+        "lowTemp": 60,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 67.2,
+        "highTemp": 71.7,
+        "lowTemp": 62.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 70.7,
+        "highTemp": 75.3,
+        "lowTemp": 66.1,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 77.3,
+        "lowTemp": 67.5,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 71.7,
+        "highTemp": 77.2,
+        "lowTemp": 66.2,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 68.1,
+        "highTemp": 74.6,
+        "lowTemp": 61.5,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 62.7,
+        "highTemp": 70.7,
+        "lowTemp": 54.8,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 57.9,
+        "highTemp": 66,
+        "lowTemp": 49.8,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 64.7,
+      "highTemp": 70.9,
+      "lowTemp": 58.5,
+      "totalPrecip": 10,
+      "hotMonths": 3,
+      "coldMonths": 0
+    }
   }
 }

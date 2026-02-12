@@ -255,5 +255,93 @@
       4.5,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00130241",
+    "stationName": "ANKENY",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 20.6,
+        "highTemp": 29.5,
+        "lowTemp": 11.7,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 25.1,
+        "highTemp": 34.2,
+        "lowTemp": 16,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 37.4,
+        "highTemp": 47.4,
+        "lowTemp": 27.4,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 49.5,
+        "highTemp": 61,
+        "lowTemp": 38.1,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 61.1,
+        "highTemp": 71.9,
+        "lowTemp": 50.3,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 71.3,
+        "highTemp": 81.8,
+        "lowTemp": 60.8,
+        "precip": 5.4
+      },
+      "jul": {
+        "avgTemp": 75.2,
+        "highTemp": 85.7,
+        "lowTemp": 64.7,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 72.7,
+        "highTemp": 83.7,
+        "lowTemp": 61.7,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 65,
+        "highTemp": 77.1,
+        "lowTemp": 52.9,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 52,
+        "highTemp": 63.6,
+        "lowTemp": 40.5,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 38.4,
+        "highTemp": 47.8,
+        "lowTemp": 28.9,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 26.3,
+        "highTemp": 34.7,
+        "lowTemp": 18,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 59.9,
+      "lowTemp": 39.2,
+      "totalPrecip": 37.2,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

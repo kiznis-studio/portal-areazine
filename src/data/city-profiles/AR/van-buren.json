@@ -222,5 +222,54 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1ARCF0005",
+    "stationName": "VAN BUREN 2.1 NNW",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 4.9
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.4,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00084366",
+    "stationName": "JACKSONVILLE BEACH",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.1,
+        "highTemp": 64.8,
+        "lowTemp": 49.3,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 59.8,
+        "highTemp": 67.6,
+        "lowTemp": 52,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 64.6,
+        "highTemp": 72.4,
+        "lowTemp": 56.9,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 70.2,
+        "highTemp": 77.3,
+        "lowTemp": 63.2,
+        "precip": 3
+      },
+      "may": {
+        "avgTemp": 76.6,
+        "highTemp": 83.1,
+        "lowTemp": 70.1,
+        "precip": 2.9
+      },
+      "jun": {
+        "avgTemp": 81,
+        "highTemp": 87,
+        "lowTemp": 75.1,
+        "precip": 6.8
+      },
+      "jul": {
+        "avgTemp": 82.9,
+        "highTemp": 89.3,
+        "lowTemp": 76.6,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 82.8,
+        "highTemp": 88.6,
+        "lowTemp": 77,
+        "precip": 7.5
+      },
+      "sep": {
+        "avgTemp": 80.8,
+        "highTemp": 85.9,
+        "lowTemp": 75.6,
+        "precip": 7.2
+      },
+      "oct": {
+        "avgTemp": 74.7,
+        "highTemp": 80.4,
+        "lowTemp": 69,
+        "precip": 5.1
+      },
+      "nov": {
+        "avgTemp": 66.3,
+        "highTemp": 73,
+        "lowTemp": 59.7,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 60.1,
+        "highTemp": 67.2,
+        "lowTemp": 53.1,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 71.4,
+      "highTemp": 78.1,
+      "lowTemp": 64.8,
+      "totalPrecip": 52.4,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

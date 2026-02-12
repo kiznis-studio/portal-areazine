@@ -231,5 +231,54 @@
       3.3,
       2.9
     ]
+  },
+  "climate": {
+    "station": "US1TXKR0020",
+    "stationName": "KERRVILLE 1.1 SSW",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.8
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 2.4
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 2.9
+      },
+      "jul": {
+        "precip": 2.1
+      },
+      "aug": {
+        "precip": 2.3
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 2.2
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 31.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

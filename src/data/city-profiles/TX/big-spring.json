@@ -222,5 +222,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00410784",
+    "stationName": "BIG SPRING FLD STN",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.7
+      },
+      "feb": {
+        "precip": 0.7
+      },
+      "mar": {
+        "precip": 1
+      },
+      "apr": {
+        "precip": 1.3
+      },
+      "may": {
+        "precip": 2.6
+      },
+      "jun": {
+        "precip": 2.5
+      },
+      "jul": {
+        "precip": 1.8
+      },
+      "aug": {
+        "precip": 2.1
+      },
+      "sep": {
+        "precip": 2.6
+      },
+      "oct": {
+        "precip": 1.8
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

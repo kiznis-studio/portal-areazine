@@ -279,5 +279,93 @@
       4.7,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00479046",
+    "stationName": "WEST ALLIS",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.8,
+        "highTemp": 30.8,
+        "lowTemp": 14.7,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 25.5,
+        "highTemp": 33.9,
+        "lowTemp": 17.1,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 35.9,
+        "highTemp": 45.1,
+        "lowTemp": 26.6,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 46.6,
+        "highTemp": 56.8,
+        "lowTemp": 36.5,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 58.7,
+        "highTemp": 69.8,
+        "lowTemp": 47.6,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 69,
+        "highTemp": 79.9,
+        "lowTemp": 58.1,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 73.9,
+        "highTemp": 84.7,
+        "lowTemp": 63.1,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 83,
+        "lowTemp": 61.9,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 65.4,
+        "highTemp": 76.5,
+        "lowTemp": 54.3,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 52,
+        "highTemp": 61.9,
+        "lowTemp": 42,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 38.9,
+        "highTemp": 47.5,
+        "lowTemp": 30.2,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 28.4,
+        "highTemp": 36.2,
+        "lowTemp": 20.6,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 49.1,
+      "highTemp": 58.8,
+      "lowTemp": 39.4,
+      "totalPrecip": 39.3,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

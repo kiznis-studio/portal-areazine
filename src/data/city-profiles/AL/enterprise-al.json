@@ -231,5 +231,93 @@
       4.5,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00012675",
+    "stationName": "ENTERPRISE 4 W",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.3,
+        "highTemp": 61,
+        "lowTemp": 37.6,
+        "precip": 5.5
+      },
+      "feb": {
+        "avgTemp": 53.1,
+        "highTemp": 64.9,
+        "lowTemp": 41.3,
+        "precip": 4.7
+      },
+      "mar": {
+        "avgTemp": 59.6,
+        "highTemp": 71.9,
+        "lowTemp": 47.2,
+        "precip": 5
+      },
+      "apr": {
+        "avgTemp": 65.6,
+        "highTemp": 78.2,
+        "lowTemp": 53.1,
+        "precip": 4.5
+      },
+      "may": {
+        "avgTemp": 73.7,
+        "highTemp": 85.7,
+        "lowTemp": 61.6,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 79.2,
+        "highTemp": 90.1,
+        "lowTemp": 68.4,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 81.1,
+        "highTemp": 91.5,
+        "lowTemp": 70.8,
+        "precip": 7
+      },
+      "aug": {
+        "avgTemp": 80.8,
+        "highTemp": 91.1,
+        "lowTemp": 70.5,
+        "precip": 5.6
+      },
+      "sep": {
+        "avgTemp": 77.1,
+        "highTemp": 88,
+        "lowTemp": 66.1,
+        "precip": 4.8
+      },
+      "oct": {
+        "avgTemp": 68.4,
+        "highTemp": 80.5,
+        "lowTemp": 56.3,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 58.2,
+        "highTemp": 70.6,
+        "lowTemp": 45.9,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 51.5,
+        "highTemp": 62.9,
+        "lowTemp": 40.2,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 66.5,
+      "highTemp": 78,
+      "lowTemp": 54.9,
+      "totalPrecip": 58,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

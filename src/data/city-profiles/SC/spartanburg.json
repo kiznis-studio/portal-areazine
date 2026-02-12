@@ -239,5 +239,93 @@
       4.7,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00388188",
+    "stationName": "SPARTANBURG 3 SSE",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.8,
+        "highTemp": 54.1,
+        "lowTemp": 31.5,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 46.1,
+        "highTemp": 58.5,
+        "lowTemp": 33.8,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 52.9,
+        "highTemp": 66,
+        "lowTemp": 39.8,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 61.1,
+        "highTemp": 74.8,
+        "lowTemp": 47.3,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 68.5,
+        "highTemp": 81,
+        "lowTemp": 56,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 75.8,
+        "highTemp": 87,
+        "lowTemp": 64.6,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 79.3,
+        "highTemp": 90.1,
+        "lowTemp": 68.6,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 78.1,
+        "highTemp": 88.3,
+        "lowTemp": 67.8,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 72.5,
+        "highTemp": 83.4,
+        "lowTemp": 61.6,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 61.7,
+        "highTemp": 74.4,
+        "lowTemp": 49,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 51.1,
+        "highTemp": 63.8,
+        "lowTemp": 38.4,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 44.7,
+        "highTemp": 55.8,
+        "lowTemp": 33.6,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 61.2,
+      "highTemp": 73.1,
+      "lowTemp": 49.3,
+      "totalPrecip": 50.3,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

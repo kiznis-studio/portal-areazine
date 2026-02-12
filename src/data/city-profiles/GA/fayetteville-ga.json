@@ -231,5 +231,54 @@
       3.9,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1GAFY0028",
+    "stationName": "FAYETTEVILLE 2.1 NNE",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.1
+      },
+      "feb": {
+        "precip": 5
+      },
+      "mar": {
+        "precip": 5.2
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,54 @@
       3.9,
       3.9
     ]
+  },
+  "climate": {
+    "station": "US1COJF0001",
+    "stationName": "DENVER 11.0 SSW",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.5
+      },
+      "apr": {
+        "precip": 2.5
+      },
+      "may": {
+        "precip": 2.8
+      },
+      "jun": {
+        "precip": 1.9
+      },
+      "jul": {
+        "precip": 2
+      },
+      "aug": {
+        "precip": 2
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1.3
+      },
+      "nov": {
+        "precip": 0.9
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

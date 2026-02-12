@@ -255,5 +255,54 @@
       4.5,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1IAPK0083",
+    "stationName": "ALTOONA 1.5 SSE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 1.1
+      },
+      "mar": {
+        "precip": 2.2
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 5.9
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 2
+      },
+      "dec": {
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

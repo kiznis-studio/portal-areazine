@@ -255,5 +255,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "US1MDBL0038",
+    "stationName": "PIKESVILLE 1.8 SW",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

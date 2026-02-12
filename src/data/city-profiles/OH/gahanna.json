@@ -279,5 +279,93 @@
       4.7,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USW00014821",
+    "stationName": "COLUMBUS PORT COLUMBUS INTL AP 72428",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.6,
+        "highTemp": 37.1,
+        "lowTemp": 22,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 32.5,
+        "highTemp": 40.8,
+        "lowTemp": 24.2,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 41.6,
+        "highTemp": 51.1,
+        "lowTemp": 32,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 53.2,
+        "highTemp": 64.1,
+        "lowTemp": 42.2,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 63.3,
+        "highTemp": 74.1,
+        "lowTemp": 52.4,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 71.9,
+        "highTemp": 82.2,
+        "lowTemp": 61.6,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 75.4,
+        "highTemp": 85.4,
+        "lowTemp": 65.4,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 74,
+        "highTemp": 84.1,
+        "lowTemp": 63.9,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 67.2,
+        "highTemp": 77.8,
+        "lowTemp": 56.5,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 65.5,
+        "lowTemp": 44.8,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 43.6,
+        "highTemp": 52.3,
+        "lowTemp": 35,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 34.5,
+        "highTemp": 41.5,
+        "lowTemp": 27.4,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 53.5,
+      "highTemp": 63,
+      "lowTemp": 43.9,
+      "totalPrecip": 41.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

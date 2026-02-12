@@ -303,5 +303,54 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1ILCK0014",
+    "stationName": "CHICAGO 5.5 ESE",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

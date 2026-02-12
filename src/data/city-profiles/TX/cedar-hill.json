@@ -303,5 +303,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1TXDA0050",
+    "stationName": "CEDAR HILL 1.4 N",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 2.2
+      },
+      "aug": {
+        "precip": 2.6
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 4.7
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

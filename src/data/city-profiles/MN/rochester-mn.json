@@ -239,5 +239,54 @@
       3.4,
       3.6
     ]
+  },
+  "climate": {
+    "station": "US1MNOL0018",
+    "stationName": "ROCHESTER 2.6 NE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1
+      },
+      "feb": {
+        "precip": 1.1
+      },
+      "mar": {
+        "precip": 2.1
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 5.4
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.8
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 2.5
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,81 @@
       4.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00098974",
+    "stationName": "VALDOSTA 2 S",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.2,
+        "highTemp": 62.7,
+        "lowTemp": 39.6
+      },
+      "feb": {
+        "avgTemp": 54.5,
+        "highTemp": 66.4,
+        "lowTemp": 42.6
+      },
+      "mar": {
+        "avgTemp": 60.4,
+        "highTemp": 72.6,
+        "lowTemp": 48.1
+      },
+      "apr": {
+        "avgTemp": 66.4,
+        "highTemp": 78.5,
+        "lowTemp": 54.3
+      },
+      "may": {
+        "avgTemp": 73.6,
+        "highTemp": 85.1,
+        "lowTemp": 62
+      },
+      "jun": {
+        "avgTemp": 79.3,
+        "highTemp": 89.3,
+        "lowTemp": 69.3
+      },
+      "jul": {
+        "avgTemp": 81.2,
+        "highTemp": 91,
+        "lowTemp": 71.4
+      },
+      "aug": {
+        "avgTemp": 81,
+        "highTemp": 90.4,
+        "lowTemp": 71.6
+      },
+      "sep": {
+        "avgTemp": 77.5,
+        "highTemp": 87.2,
+        "lowTemp": 67.8
+      },
+      "oct": {
+        "avgTemp": 69,
+        "highTemp": 80,
+        "lowTemp": 58.1
+      },
+      "nov": {
+        "avgTemp": 59.8,
+        "highTemp": 71.8,
+        "lowTemp": 47.9
+      },
+      "dec": {
+        "avgTemp": 53.7,
+        "highTemp": 65.2,
+        "lowTemp": 42.3
+      }
+    },
+    "annual": {
+      "avgTemp": 67.3,
+      "highTemp": 78.4,
+      "lowTemp": 56.3,
+      "totalPrecip": 0,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

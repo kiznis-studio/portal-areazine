@@ -247,5 +247,93 @@
       3.5,
       3.4
     ]
+  },
+  "climate": {
+    "station": "USC00106305",
+    "stationName": "NAMPA SUGAR FACTORY HCN",
+    "distanceMi": 4.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.2,
+        "highTemp": 39.5,
+        "lowTemp": 23,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 36.6,
+        "highTemp": 47.2,
+        "lowTemp": 26,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 44.5,
+        "highTemp": 57.4,
+        "lowTemp": 31.6,
+        "precip": 1.3
+      },
+      "apr": {
+        "avgTemp": 50.3,
+        "highTemp": 64.5,
+        "lowTemp": 36.1,
+        "precip": 1.1
+      },
+      "may": {
+        "avgTemp": 58.9,
+        "highTemp": 73.9,
+        "lowTemp": 44,
+        "precip": 1.4
+      },
+      "jun": {
+        "avgTemp": 66.9,
+        "highTemp": 82.8,
+        "lowTemp": 51,
+        "precip": 0.7
+      },
+      "jul": {
+        "avgTemp": 75.3,
+        "highTemp": 93.3,
+        "lowTemp": 57.3,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 91.6,
+        "lowTemp": 55.5,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 63.8,
+        "highTemp": 81,
+        "lowTemp": 46.5,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 51.5,
+        "highTemp": 66.6,
+        "lowTemp": 36.5,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 39.5,
+        "highTemp": 50.7,
+        "lowTemp": 28.4,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 40,
+        "lowTemp": 22.8,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 52,
+      "highTemp": 65.7,
+      "lowTemp": 38.2,
+      "totalPrecip": 11.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

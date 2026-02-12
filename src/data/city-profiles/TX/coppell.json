@@ -303,5 +303,93 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00413691",
+    "stationName": "GRAPEVINE DAM",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.9,
+        "highTemp": 55.7,
+        "lowTemp": 34.1,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 49.3,
+        "highTemp": 60.3,
+        "lowTemp": 38.3,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 56.6,
+        "highTemp": 67.7,
+        "lowTemp": 45.4,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 64.4,
+        "highTemp": 75.3,
+        "lowTemp": 53.5,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 72.7,
+        "highTemp": 82.5,
+        "lowTemp": 62.8,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 80.9,
+        "highTemp": 90.8,
+        "lowTemp": 71.1,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 84.7,
+        "highTemp": 95.3,
+        "lowTemp": 74.1,
+        "precip": 2.3
+      },
+      "aug": {
+        "avgTemp": 84.8,
+        "highTemp": 95.7,
+        "lowTemp": 73.9,
+        "precip": 2.1
+      },
+      "sep": {
+        "avgTemp": 77.7,
+        "highTemp": 88.6,
+        "lowTemp": 66.7,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 66.7,
+        "highTemp": 78.4,
+        "lowTemp": 55.1,
+        "precip": 4.5
+      },
+      "nov": {
+        "avgTemp": 55.5,
+        "highTemp": 66.3,
+        "lowTemp": 44.7,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 47,
+        "highTemp": 57.7,
+        "lowTemp": 36.3,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 65.4,
+      "highTemp": 76.2,
+      "lowTemp": 54.7,
+      "totalPrecip": 39,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

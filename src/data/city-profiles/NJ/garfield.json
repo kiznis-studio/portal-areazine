@@ -263,5 +263,93 @@
       5.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USW00094741",
+    "stationName": "TETERBORO AP",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.8,
+        "highTemp": 39.9,
+        "lowTemp": 25.7,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 34.9,
+        "highTemp": 42.8,
+        "lowTemp": 27,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 42.3,
+        "highTemp": 50.6,
+        "lowTemp": 34,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 53.1,
+        "highTemp": 62.5,
+        "lowTemp": 43.7,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 63.2,
+        "highTemp": 73.1,
+        "lowTemp": 53.3,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 72.5,
+        "highTemp": 82,
+        "lowTemp": 63.1,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 78,
+        "highTemp": 87,
+        "lowTemp": 68.9,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 76.2,
+        "highTemp": 85.1,
+        "lowTemp": 67.3,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 69.2,
+        "highTemp": 78.4,
+        "lowTemp": 59.9,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 57.4,
+        "highTemp": 66.8,
+        "lowTemp": 47.9,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 46.9,
+        "highTemp": 55.5,
+        "lowTemp": 38.3,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 37.9,
+        "highTemp": 44.9,
+        "lowTemp": 30.8,
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "avgTemp": 55.4,
+      "highTemp": 64.1,
+      "lowTemp": 46.7,
+      "totalPrecip": 46.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

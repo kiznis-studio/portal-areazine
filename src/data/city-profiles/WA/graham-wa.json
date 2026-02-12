@@ -263,5 +263,93 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00455224",
+    "stationName": "MCMILLIN RSVR HCN",
+    "distanceMi": 6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.7,
+        "highTemp": 46.1,
+        "lowTemp": 33.3,
+        "precip": 6.1
+      },
+      "feb": {
+        "avgTemp": 40.6,
+        "highTemp": 48,
+        "lowTemp": 33.1,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 44,
+        "highTemp": 52.4,
+        "lowTemp": 35.7,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 48,
+        "highTemp": 57.3,
+        "lowTemp": 38.7,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 54.4,
+        "highTemp": 64.3,
+        "lowTemp": 44.5,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 59,
+        "highTemp": 69,
+        "lowTemp": 49,
+        "precip": 2.3
+      },
+      "jul": {
+        "avgTemp": 64,
+        "highTemp": 75.7,
+        "lowTemp": 52.4,
+        "precip": 0.9
+      },
+      "aug": {
+        "avgTemp": 64.5,
+        "highTemp": 76.5,
+        "lowTemp": 52.6,
+        "precip": 0.9
+      },
+      "sep": {
+        "avgTemp": 58.9,
+        "highTemp": 69.6,
+        "lowTemp": 48.2,
+        "precip": 1.8
+      },
+      "oct": {
+        "avgTemp": 50.4,
+        "highTemp": 59.1,
+        "lowTemp": 41.7,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 43.2,
+        "highTemp": 50.3,
+        "lowTemp": 36.1,
+        "precip": 7.1
+      },
+      "dec": {
+        "avgTemp": 39,
+        "highTemp": 45,
+        "lowTemp": 32.9,
+        "precip": 6
+      }
+    },
+    "annual": {
+      "avgTemp": 50.5,
+      "highTemp": 59.4,
+      "lowTemp": 41.5,
+      "totalPrecip": 45.2,
+      "hotMonths": 0,
+      "coldMonths": 2
+    }
   }
 }

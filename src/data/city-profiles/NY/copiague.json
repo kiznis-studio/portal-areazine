@@ -303,5 +303,54 @@
       4.8,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1NYSF0092",
+    "stationName": "AMITYVILLE 0.6 NNE",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 3.9
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

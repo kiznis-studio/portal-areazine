@@ -231,5 +231,54 @@
       7.4,
       7.7
     ]
+  },
+  "climate": {
+    "station": "US1ORKL0016",
+    "stationName": "KLAMATH FALLS 0.5 NNW",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.9
+      },
+      "feb": {
+        "precip": 1.5
+      },
+      "mar": {
+        "precip": 1.7
+      },
+      "apr": {
+        "precip": 1.4
+      },
+      "may": {
+        "precip": 1.2
+      },
+      "jun": {
+        "precip": 0.9
+      },
+      "jul": {
+        "precip": 0.4
+      },
+      "aug": {
+        "precip": 0.5
+      },
+      "sep": {
+        "precip": 0.4
+      },
+      "oct": {
+        "precip": 1.1
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 15.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

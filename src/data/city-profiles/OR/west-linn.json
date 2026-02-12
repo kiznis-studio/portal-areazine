@@ -247,5 +247,93 @@
       5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00356334",
+    "stationName": "OREGON CITY",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.5,
+        "highTemp": 48.3,
+        "lowTemp": 36.7,
+        "precip": 6.5
+      },
+      "feb": {
+        "avgTemp": 45,
+        "highTemp": 52.5,
+        "lowTemp": 37.5,
+        "precip": 4.5
+      },
+      "mar": {
+        "avgTemp": 48.9,
+        "highTemp": 58,
+        "lowTemp": 39.8,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 53.4,
+        "highTemp": 63.5,
+        "lowTemp": 43.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 59.7,
+        "highTemp": 70.9,
+        "lowTemp": 48.4,
+        "precip": 2.5
+      },
+      "jun": {
+        "avgTemp": 64.6,
+        "highTemp": 76.2,
+        "lowTemp": 52.9,
+        "precip": 1.8
+      },
+      "jul": {
+        "avgTemp": 70.5,
+        "highTemp": 83.9,
+        "lowTemp": 57,
+        "precip": 0.5
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 84.1,
+        "lowTemp": 57.5,
+        "precip": 0.6
+      },
+      "sep": {
+        "avgTemp": 65.4,
+        "highTemp": 77.9,
+        "lowTemp": 52.9,
+        "precip": 1.6
+      },
+      "oct": {
+        "avgTemp": 55.7,
+        "highTemp": 64.9,
+        "lowTemp": 46.5,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 47,
+        "highTemp": 53.4,
+        "lowTemp": 40.5,
+        "precip": 6.7
+      },
+      "dec": {
+        "avgTemp": 41.8,
+        "highTemp": 47.3,
+        "lowTemp": 36.3,
+        "precip": 7.2
+      }
+    },
+    "annual": {
+      "avgTemp": 55.4,
+      "highTemp": 65.1,
+      "lowTemp": 45.8,
+      "totalPrecip": 44.7,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

@@ -279,5 +279,81 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00085603",
+    "stationName": "MELBOURNE BEACH A1A",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62.1,
+        "highTemp": 70.5,
+        "lowTemp": 53.6
+      },
+      "feb": {
+        "avgTemp": 63.9,
+        "highTemp": 71.9,
+        "lowTemp": 55.9
+      },
+      "mar": {
+        "avgTemp": 67.4,
+        "highTemp": 75.5,
+        "lowTemp": 59.3
+      },
+      "apr": {
+        "avgTemp": 72.4,
+        "highTemp": 80.1,
+        "lowTemp": 64.6
+      },
+      "may": {
+        "avgTemp": 76.5,
+        "highTemp": 83.7,
+        "lowTemp": 69.3
+      },
+      "jun": {
+        "avgTemp": 80.2,
+        "highTemp": 87.4,
+        "lowTemp": 72.9
+      },
+      "jul": {
+        "avgTemp": 81.8,
+        "highTemp": 89.5,
+        "lowTemp": 74.1
+      },
+      "aug": {
+        "avgTemp": 82.1,
+        "highTemp": 89.5,
+        "lowTemp": 74.6
+      },
+      "sep": {
+        "avgTemp": 81.1,
+        "highTemp": 87.7,
+        "lowTemp": 74.5
+      },
+      "oct": {
+        "avgTemp": 77,
+        "highTemp": 83.5,
+        "lowTemp": 70.5
+      },
+      "nov": {
+        "avgTemp": 70.5,
+        "highTemp": 77.5,
+        "lowTemp": 63.5
+      },
+      "dec": {
+        "avgTemp": 65,
+        "highTemp": 72.3,
+        "lowTemp": 57.7
+      }
+    },
+    "annual": {
+      "avgTemp": 73.3,
+      "highTemp": 80.8,
+      "lowTemp": 65.9,
+      "totalPrecip": 0,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

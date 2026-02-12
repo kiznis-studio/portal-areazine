@@ -231,5 +231,54 @@
       5.3,
       6.1
     ]
+  },
+  "climate": {
+    "station": "US1IDLT0001",
+    "stationName": "MOSCOW 1.7 N",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 2
+      },
+      "may": {
+        "precip": 2
+      },
+      "jun": {
+        "precip": 1.6
+      },
+      "jul": {
+        "precip": 0.5
+      },
+      "aug": {
+        "precip": 0.5
+      },
+      "sep": {
+        "precip": 0.8
+      },
+      "oct": {
+        "precip": 1.4
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 22.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

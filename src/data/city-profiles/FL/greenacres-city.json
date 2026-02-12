@@ -303,5 +303,54 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1FLPB0012",
+    "stationName": "ABERDEEN 4.2 NNW",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 6.4
+      },
+      "jun": {
+        "precip": 10.3
+      },
+      "jul": {
+        "precip": 6.3
+      },
+      "aug": {
+        "precip": 10.4
+      },
+      "sep": {
+        "precip": 8
+      },
+      "oct": {
+        "precip": 5.5
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 66.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,93 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00044647",
+    "stationName": "LAGUNA BEACH",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 56.3,
+        "highTemp": 68.4,
+        "lowTemp": 44.2,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 56.3,
+        "highTemp": 67.8,
+        "lowTemp": 44.8,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 58.6,
+        "highTemp": 69.3,
+        "lowTemp": 47.9,
+        "precip": 1.6
+      },
+      "apr": {
+        "avgTemp": 61.3,
+        "highTemp": 72.5,
+        "lowTemp": 50.1,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 64.5,
+        "highTemp": 74.5,
+        "lowTemp": 54.5,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 66.9,
+        "highTemp": 76,
+        "lowTemp": 57.8,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 69.8,
+        "highTemp": 79.5,
+        "lowTemp": 60.1,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 71.2,
+        "highTemp": 81.2,
+        "lowTemp": 61.2,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 69.7,
+        "highTemp": 81,
+        "lowTemp": 58.5,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 66.2,
+        "highTemp": 77.2,
+        "lowTemp": 55.1,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 60.3,
+        "highTemp": 72.2,
+        "lowTemp": 48.5,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 55.6,
+        "highTemp": 67.3,
+        "lowTemp": 43.8,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 63.1,
+      "highTemp": 73.9,
+      "lowTemp": 52.2,
+      "totalPrecip": 12.7,
+      "hotMonths": 1,
+      "coldMonths": 0
+    }
   }
 }

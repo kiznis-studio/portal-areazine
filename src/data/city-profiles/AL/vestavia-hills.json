@@ -287,5 +287,54 @@
       5.4,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00011225",
+    "stationName": "CAHABA PUMP HOUSE",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.2
+      },
+      "feb": {
+        "precip": 5.5
+      },
+      "mar": {
+        "precip": 5.2
+      },
+      "apr": {
+        "precip": 5
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 4.8
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 56,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1ILCK0107",
+    "stationName": "EVANSTON 1.4 N",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

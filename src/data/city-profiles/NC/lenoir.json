@@ -231,5 +231,93 @@
       5.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00314938",
+    "stationName": "LENOIR HCN",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.2,
+        "highTemp": 49.1,
+        "lowTemp": 27.3,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 41.3,
+        "highTemp": 52.9,
+        "lowTemp": 29.7,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 48.2,
+        "highTemp": 60.2,
+        "lowTemp": 36.2,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 57.5,
+        "highTemp": 70.1,
+        "lowTemp": 45,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 65.6,
+        "highTemp": 77.4,
+        "lowTemp": 53.9,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 73.5,
+        "highTemp": 84.3,
+        "lowTemp": 62.7,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 77.1,
+        "highTemp": 87.5,
+        "lowTemp": 66.7,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 75.7,
+        "highTemp": 86,
+        "lowTemp": 65.4,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 69.6,
+        "highTemp": 80.4,
+        "lowTemp": 58.9,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 58.7,
+        "highTemp": 71.1,
+        "lowTemp": 46.3,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 48.3,
+        "highTemp": 60.9,
+        "lowTemp": 35.7,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 40.8,
+        "highTemp": 52.1,
+        "lowTemp": 29.6,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 57.9,
+      "highTemp": 69.3,
+      "lowTemp": 46.4,
+      "totalPrecip": 49.6,
+      "hotMonths": 3,
+      "coldMonths": 1
+    }
   }
 }

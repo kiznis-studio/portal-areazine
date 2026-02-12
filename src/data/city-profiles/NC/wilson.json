@@ -231,5 +231,93 @@
       6.6,
       6
     ]
+  },
+  "climate": {
+    "station": "USC00319476",
+    "stationName": "WILSON 3 SW HCN",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.4,
+        "highTemp": 52.1,
+        "lowTemp": 32.7,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 44.8,
+        "highTemp": 55.4,
+        "lowTemp": 34.3,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 51.6,
+        "highTemp": 62.9,
+        "lowTemp": 40.4,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 60.8,
+        "highTemp": 72.5,
+        "lowTemp": 49.2,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 69,
+        "highTemp": 79.7,
+        "lowTemp": 58.3,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 76.8,
+        "highTemp": 86.8,
+        "lowTemp": 66.9,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 80.6,
+        "highTemp": 90.2,
+        "lowTemp": 71.1,
+        "precip": 5.8
+      },
+      "aug": {
+        "avgTemp": 79,
+        "highTemp": 88.2,
+        "lowTemp": 69.7,
+        "precip": 5.3
+      },
+      "sep": {
+        "avgTemp": 73.4,
+        "highTemp": 82.7,
+        "lowTemp": 64,
+        "precip": 6.1
+      },
+      "oct": {
+        "avgTemp": 62.5,
+        "highTemp": 73.4,
+        "lowTemp": 51.6,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 52.3,
+        "highTemp": 63.5,
+        "lowTemp": 41.1,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 45.5,
+        "highTemp": 55.5,
+        "lowTemp": 35.4,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 61.6,
+      "highTemp": 71.9,
+      "lowTemp": 51.2,
+      "totalPrecip": 50.4,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

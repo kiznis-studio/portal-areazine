@@ -239,5 +239,93 @@
       5.6,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USW00003950",
+    "stationName": "LAWTON MUNI AP",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40.5,
+        "highTemp": 53.7,
+        "lowTemp": 27.4,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 44.9,
+        "highTemp": 58,
+        "lowTemp": 31.9,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 53.7,
+        "highTemp": 66.8,
+        "lowTemp": 40.5,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 61.7,
+        "highTemp": 74.8,
+        "lowTemp": 48.5,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 71,
+        "highTemp": 83.2,
+        "lowTemp": 58.9,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 80,
+        "highTemp": 92,
+        "lowTemp": 68.1,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 84.4,
+        "highTemp": 97.2,
+        "lowTemp": 71.5,
+        "precip": 2
+      },
+      "aug": {
+        "avgTemp": 83.6,
+        "highTemp": 96.4,
+        "lowTemp": 70.7,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 75.1,
+        "highTemp": 87.6,
+        "lowTemp": 62.6,
+        "precip": 2.8
+      },
+      "oct": {
+        "avgTemp": 63.4,
+        "highTemp": 76.5,
+        "lowTemp": 50.3,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 51.2,
+        "highTemp": 64.1,
+        "lowTemp": 38.2,
+        "precip": 1.5
+      },
+      "dec": {
+        "avgTemp": 41.7,
+        "highTemp": 54.3,
+        "lowTemp": 29.1,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 62.6,
+      "highTemp": 75.4,
+      "lowTemp": 49.8,
+      "totalPrecip": 27.5,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

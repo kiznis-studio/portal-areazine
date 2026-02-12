@@ -279,5 +279,93 @@
       4.9,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USW00014733",
+    "stationName": "BUFFALO HCN 72528",
+    "distanceMi": 5.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.5,
+        "highTemp": 32.1,
+        "lowTemp": 19,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 26.4,
+        "highTemp": 33.3,
+        "lowTemp": 19.5,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 34.1,
+        "highTemp": 41.8,
+        "lowTemp": 26.4,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 45.6,
+        "highTemp": 54.7,
+        "lowTemp": 36.5,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 57.9,
+        "highTemp": 67.4,
+        "lowTemp": 48.3,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 66.9,
+        "highTemp": 75.6,
+        "lowTemp": 58.1,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 71.7,
+        "highTemp": 80.2,
+        "lowTemp": 63.1,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 70.4,
+        "highTemp": 79,
+        "lowTemp": 61.7,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 63.4,
+        "highTemp": 72.3,
+        "lowTemp": 54.5,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 51.7,
+        "highTemp": 59.6,
+        "lowTemp": 43.9,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 41,
+        "highTemp": 47.8,
+        "lowTemp": 34.2,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 37.2,
+        "lowTemp": 25.6,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 48.8,
+      "highTemp": 56.8,
+      "lowTemp": 40.9,
+      "totalPrecip": 40.8,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

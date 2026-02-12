@@ -239,5 +239,54 @@
       5.9,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1COPU0065",
+    "stationName": "PUEBLO WEST 3.4 SSW",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.4
+      },
+      "feb": {
+        "precip": 0.5
+      },
+      "mar": {
+        "precip": 1
+      },
+      "apr": {
+        "precip": 1.7
+      },
+      "may": {
+        "precip": 1.7
+      },
+      "jun": {
+        "precip": 1.5
+      },
+      "jul": {
+        "precip": 2.6
+      },
+      "aug": {
+        "precip": 2.3
+      },
+      "sep": {
+        "precip": 1
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 0.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 14.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

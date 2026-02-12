@@ -216,5 +216,54 @@
       4.7,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ILDP0085",
+    "stationName": "VILLA PARK 1.0 NW",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 40,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

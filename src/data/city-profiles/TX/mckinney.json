@@ -295,5 +295,54 @@
       4.2,
       4.1
     ]
+  },
+  "climate": {
+    "station": "US1TXCLL026",
+    "stationName": "MCKINNEY 1.6 ESE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 2.6
+      },
+      "aug": {
+        "precip": 2.5
+      },
+      "sep": {
+        "precip": 3.1
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

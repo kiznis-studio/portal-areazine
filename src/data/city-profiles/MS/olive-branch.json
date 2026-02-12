@@ -216,5 +216,93 @@
       4.4,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00226527",
+    "stationName": "OLIVE BRANCH",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40.4,
+        "highTemp": 50.2,
+        "lowTemp": 30.6,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 44.3,
+        "highTemp": 54.6,
+        "lowTemp": 34,
+        "precip": 5.1
+      },
+      "mar": {
+        "avgTemp": 52.4,
+        "highTemp": 63.6,
+        "lowTemp": 41.2,
+        "precip": 6.1
+      },
+      "apr": {
+        "avgTemp": 61.5,
+        "highTemp": 73,
+        "lowTemp": 50.1,
+        "precip": 6
+      },
+      "may": {
+        "avgTemp": 70.7,
+        "highTemp": 81.7,
+        "lowTemp": 59.7,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 78.4,
+        "highTemp": 88.8,
+        "lowTemp": 68.1,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 81.5,
+        "highTemp": 91.3,
+        "lowTemp": 71.6,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 80.8,
+        "highTemp": 91.6,
+        "lowTemp": 69.9,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 73.9,
+        "highTemp": 85.2,
+        "lowTemp": 62.6,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 62.9,
+        "highTemp": 75.3,
+        "lowTemp": 50.4,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 51.2,
+        "highTemp": 62.9,
+        "lowTemp": 39.5,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 43.3,
+        "highTemp": 53,
+        "lowTemp": 33.6,
+        "precip": 6
+      }
+    },
+    "annual": {
+      "avgTemp": 61.8,
+      "highTemp": 72.6,
+      "lowTemp": 50.9,
+      "totalPrecip": 59.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

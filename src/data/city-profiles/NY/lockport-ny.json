@@ -239,5 +239,93 @@
       5.8,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00304844",
+    "stationName": "LOCKPORT 4E HCN",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.4,
+        "highTemp": 32.7,
+        "lowTemp": 18.1,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 27.1,
+        "highTemp": 35,
+        "lowTemp": 19.2,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 34.9,
+        "highTemp": 44.2,
+        "lowTemp": 25.5,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 45.8,
+        "highTemp": 55.9,
+        "lowTemp": 35.7,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 58.5,
+        "highTemp": 69.4,
+        "lowTemp": 47.6,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 67.7,
+        "highTemp": 78.1,
+        "lowTemp": 57.2,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 71.8,
+        "highTemp": 82.3,
+        "lowTemp": 61.3,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 70.4,
+        "highTemp": 80,
+        "lowTemp": 60.8,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 63.8,
+        "highTemp": 73.8,
+        "lowTemp": 53.7,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 51.7,
+        "highTemp": 60.9,
+        "lowTemp": 42.6,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 41.2,
+        "highTemp": 48.8,
+        "lowTemp": 33.7,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 31.1,
+        "highTemp": 38.3,
+        "lowTemp": 23.8,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 49.1,
+      "highTemp": 58.3,
+      "lowTemp": 39.9,
+      "totalPrecip": 38,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -295,5 +295,54 @@
       6,
       6
     ]
+  },
+  "climate": {
+    "station": "US1NYWC0011",
+    "stationName": "PEEKSKILL 0.4 N",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 4.5
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

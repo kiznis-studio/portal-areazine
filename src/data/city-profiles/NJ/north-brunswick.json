@@ -263,5 +263,54 @@
       6.3,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1NJSM0012",
+    "stationName": "FRANKLIN TWP 3.8 ENE",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

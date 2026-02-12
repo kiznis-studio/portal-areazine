@@ -303,5 +303,54 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CALA0064",
+    "stationName": "LOS ANGELES 2.6 NW",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 0.9
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 0.9
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 15.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

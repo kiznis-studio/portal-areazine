@@ -247,5 +247,54 @@
       5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1ORMT0024",
+    "stationName": "RALEIGH HILLS 2.1 ESE",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.4
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 5.5
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 2.7
+      },
+      "jun": {
+        "precip": 1.7
+      },
+      "jul": {
+        "precip": 0.5
+      },
+      "aug": {
+        "precip": 0.5
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 6.3
+      },
+      "dec": {
+        "precip": 7.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 45.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

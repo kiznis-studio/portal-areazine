@@ -279,5 +279,54 @@
       6.7,
       6.3
     ]
+  },
+  "climate": {
+    "station": "US1INLK0063",
+    "stationName": "GARY 4.8 ENE",
+    "distanceMi": 5.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

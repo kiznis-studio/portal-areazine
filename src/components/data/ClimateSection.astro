@@ -1,0 +1,77 @@
+---
+interface Props {
+  climate: {
+    station: string;
+    stationName: string;
+    distanceMi: number;
+    source: string;
+    monthly: Record<string, { avgTemp: number; highTemp: number; lowTemp: number; precip: number }>;
+    annual: { avgTemp: number; highTemp: number; lowTemp: number; totalPrecip: number; hotMonths: number; coldMonths: number };
+  };
+}
+
+const { climate } = Astro.props;
+const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+const monthLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+// Find temperature range for bar scaling
+const allTemps = months.map(m => climate.monthly[m]).filter(d => d && d.lowTemp != null && d.highTemp != null);
+const minTemp = allTemps.length > 0 ? Math.min(...allTemps.map(m => m.lowTemp)) : 0;
+const maxTemp = allTemps.length > 0 ? Math.max(...allTemps.map(m => m.highTemp)) : 100;
+const tempRange = maxTemp - minTemp || 1;
+---
+
+<section class="mb-12">
+  <div class="flex items-baseline gap-3 mb-4">
+    <h2 class="text-xs font-bold uppercase tracking-wider text-[var(--color-muted)]">Climate</h2>
+    <span class="text-xs text-[var(--color-muted)] opacity-60">NOAA 1991-2020 Normals</span>
+  </div>
+
+  {/* Annual Summary */}
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6">
+    <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
+      <div class="text-xs text-[var(--color-muted)] mb-1">Avg Temperature</div>
+      <div class="text-xl font-black tabular-nums">{climate.annual.avgTemp != null ? `${climate.annual.avgTemp.toFixed(0)}°F` : '—'}</div>
+    </div>
+    <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
+      <div class="text-xs text-[var(--color-muted)] mb-1">Annual Rainfall</div>
+      <div class="text-xl font-black tabular-nums">{climate.annual.totalPrecip != null ? `${climate.annual.totalPrecip.toFixed(1)}"` : '—'}</div>
+    </div>
+    <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
+      <div class="text-xs text-[var(--color-muted)] mb-1">Hot Months (>80°F)</div>
+      <div class="text-xl font-black tabular-nums">{climate.annual.hotMonths ?? '—'}</div>
+    </div>
+    <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
+      <div class="text-xs text-[var(--color-muted)] mb-1">Cold Months (<40°F)</div>
+      <div class="text-xl font-black tabular-nums">{climate.annual.coldMonths ?? '—'}</div>
+    </div>
+  </div>
+
+  {/* Monthly Temperature Chart (CSS bars) */}
+  <div class="overflow-x-auto">
+    <div class="grid grid-cols-12 gap-1 min-w-[600px]">
+      {months.map((m, i) => {
+        const data = climate.monthly[m];
+        if (!data || data.highTemp == null || data.lowTemp == null) return null;
+        const lowPct = ((data.lowTemp - minTemp) / tempRange) * 100;
+        const highPct = ((data.highTemp - minTemp) / tempRange) * 100;
+        const barBottom = lowPct;
+        const barHeight = highPct - lowPct;
+        return (
+          <div class="flex flex-col items-center text-center">
+            <div class="text-xs text-[var(--color-muted)] mb-1 tabular-nums">{data.highTemp.toFixed(0)}°</div>
+            <div class="relative w-full h-24 bg-[var(--color-card)] rounded border border-[var(--color-border)]">
+              <div
+                class="absolute left-1 right-1 rounded"
+                style={`bottom: ${barBottom}%; height: ${barHeight}%; background: linear-gradient(to top, var(--color-data-blue), var(--color-data-red));`}
+              />
+            </div>
+            <div class="text-xs text-[var(--color-muted)] mt-1 tabular-nums">{data.lowTemp.toFixed(0)}°</div>
+            <div class="text-xs font-medium mt-0.5">{monthLabels[i]}</div>
+            <div class="text-xs text-[var(--color-muted)] tabular-nums">{(data.precip || 0).toFixed(1)}"</div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>

@@ -231,5 +231,54 @@
       4.3,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1WYAB0001",
+    "stationName": "LARAMIE .73 ENE",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.6
+      },
+      "mar": {
+        "precip": 1
+      },
+      "apr": {
+        "precip": 1.7
+      },
+      "may": {
+        "precip": 1.9
+      },
+      "jun": {
+        "precip": 1.7
+      },
+      "jul": {
+        "precip": 1.8
+      },
+      "aug": {
+        "precip": 1.3
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1.3
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 14.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

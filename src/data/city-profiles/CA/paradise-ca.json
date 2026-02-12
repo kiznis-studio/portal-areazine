@@ -239,5 +239,93 @@
       7.1,
       7.1
     ]
+  },
+  "climate": {
+    "station": "USC00046685",
+    "stationName": "PARADISE",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.4,
+        "highTemp": 54.3,
+        "lowTemp": 40.5,
+        "precip": 10.2
+      },
+      "feb": {
+        "avgTemp": 49.1,
+        "highTemp": 56.3,
+        "lowTemp": 42,
+        "precip": 10.1
+      },
+      "mar": {
+        "avgTemp": 52.5,
+        "highTemp": 60.5,
+        "lowTemp": 44.5,
+        "precip": 8.3
+      },
+      "apr": {
+        "avgTemp": 56.8,
+        "highTemp": 66,
+        "lowTemp": 47.6,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 64.3,
+        "highTemp": 74.9,
+        "lowTemp": 53.6,
+        "precip": 2.4
+      },
+      "jun": {
+        "avgTemp": 72.5,
+        "highTemp": 84.2,
+        "lowTemp": 60.9,
+        "precip": 0.8
+      },
+      "jul": {
+        "avgTemp": 79.2,
+        "highTemp": 91.3,
+        "lowTemp": 67,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 77.8,
+        "highTemp": 90.2,
+        "lowTemp": 65.5,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 73.7,
+        "highTemp": 85.5,
+        "lowTemp": 61.8,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 64.4,
+        "highTemp": 74.4,
+        "lowTemp": 54.3,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 53,
+        "highTemp": 60.8,
+        "lowTemp": 45.3,
+        "precip": 5.5
+      },
+      "dec": {
+        "avgTemp": 46.7,
+        "highTemp": 53.6,
+        "lowTemp": 39.9,
+        "precip": 11.2
+      }
+    },
+    "annual": {
+      "avgTemp": 61.5,
+      "highTemp": 71,
+      "lowTemp": 51.9,
+      "totalPrecip": 56.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

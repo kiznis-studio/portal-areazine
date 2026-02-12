@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USW00054767",
+    "stationName": "WILLIMANTIC WINDHAM AP",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.1,
+        "highTemp": 36.2,
+        "lowTemp": 18.1,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 29.1,
+        "highTemp": 38.8,
+        "lowTemp": 19.4,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 37,
+        "highTemp": 47,
+        "lowTemp": 27,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 48,
+        "highTemp": 59.2,
+        "lowTemp": 36.7,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 58.5,
+        "highTemp": 70,
+        "lowTemp": 46.9,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 67,
+        "highTemp": 77.9,
+        "lowTemp": 56.1,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 72.4,
+        "highTemp": 82.8,
+        "lowTemp": 61.9,
+        "precip": 2.7
+      },
+      "aug": {
+        "avgTemp": 70.6,
+        "highTemp": 81,
+        "lowTemp": 60.3,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 63.3,
+        "highTemp": 74.3,
+        "lowTemp": 52.4,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 51.8,
+        "highTemp": 62.8,
+        "lowTemp": 40.8,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 41.5,
+        "highTemp": 51.6,
+        "lowTemp": 31.4,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 32.6,
+        "highTemp": 41.3,
+        "lowTemp": 23.8,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 49.9,
+      "highTemp": 60.2,
+      "lowTemp": 39.6,
+      "totalPrecip": 43.5,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

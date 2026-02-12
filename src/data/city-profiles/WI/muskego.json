@@ -255,5 +255,54 @@
       2.6,
       2.6
     ]
+  },
+  "climate": {
+    "station": "US1WIWK0016",
+    "stationName": "MUSKEGO 1.0 W",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.8
+      },
+      "feb": {
+        "precip": 1.7
+      },
+      "mar": {
+        "precip": 2
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 35.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

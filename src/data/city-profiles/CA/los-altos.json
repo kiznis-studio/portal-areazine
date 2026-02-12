@@ -287,5 +287,52 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1CASC0001",
+    "stationName": "MOUNTAIN VIEW 1.2 S",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 1.1
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

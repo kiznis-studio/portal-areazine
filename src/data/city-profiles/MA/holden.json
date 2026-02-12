@@ -279,5 +279,93 @@
       5.6,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USW00094746",
+    "stationName": "WORCESTER RGNL AP 72510",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.7,
+        "highTemp": 32.3,
+        "lowTemp": 17.1,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 27,
+        "highTemp": 35.1,
+        "lowTemp": 18.9,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 34.5,
+        "highTemp": 43,
+        "lowTemp": 26,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 46.1,
+        "highTemp": 55.7,
+        "lowTemp": 36.5,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 56.7,
+        "highTemp": 66.6,
+        "lowTemp": 46.8,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 65.2,
+        "highTemp": 74.5,
+        "lowTemp": 55.9,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 70.8,
+        "highTemp": 79.8,
+        "lowTemp": 61.7,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 69.3,
+        "highTemp": 78.1,
+        "lowTemp": 60.5,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 61.9,
+        "highTemp": 70.7,
+        "lowTemp": 53.2,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 50.6,
+        "highTemp": 58.9,
+        "lowTemp": 42.2,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 40.2,
+        "highTemp": 47.9,
+        "lowTemp": 32.5,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 30.5,
+        "highTemp": 37.5,
+        "lowTemp": 23.4,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 48.1,
+      "highTemp": 56.7,
+      "lowTemp": 39.6,
+      "totalPrecip": 48.2,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

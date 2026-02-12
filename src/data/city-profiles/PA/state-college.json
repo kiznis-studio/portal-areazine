@@ -153,5 +153,93 @@
       4,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00368449",
+    "stationName": "STATE COLLEGE HCN",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.2,
+        "highTemp": 33.9,
+        "lowTemp": 20.5,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 29.1,
+        "highTemp": 36.8,
+        "lowTemp": 21.5,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 37,
+        "highTemp": 45.6,
+        "lowTemp": 28.3,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 49.3,
+        "highTemp": 59.2,
+        "lowTemp": 39.4,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 59.8,
+        "highTemp": 69.4,
+        "lowTemp": 50.3,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 68.1,
+        "highTemp": 77,
+        "lowTemp": 59.3,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 72.2,
+        "highTemp": 81.1,
+        "lowTemp": 63.3,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 70.4,
+        "highTemp": 79.3,
+        "lowTemp": 61.6,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 63.2,
+        "highTemp": 72.3,
+        "lowTemp": 54.1,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 60.7,
+        "lowTemp": 43,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 41.2,
+        "highTemp": 48.8,
+        "lowTemp": 33.5,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 32.2,
+        "highTemp": 38.4,
+        "lowTemp": 26,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 50.1,
+      "highTemp": 58.5,
+      "lowTemp": 41.7,
+      "totalPrecip": 41.7,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

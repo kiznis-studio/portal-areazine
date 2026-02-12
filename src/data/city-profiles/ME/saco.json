@@ -231,5 +231,54 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "US1MEYK0028",
+    "stationName": "BIDDEFORD 1.5 NNE",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.7
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 5.7
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

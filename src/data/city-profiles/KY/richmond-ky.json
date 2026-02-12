@@ -153,5 +153,54 @@
       5.4,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00156810",
+    "stationName": "RICHMOND STATE POLICE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.8
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 5
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 2.7
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

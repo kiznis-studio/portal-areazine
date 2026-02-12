@@ -239,5 +239,54 @@
       3.4,
       3.2
     ]
+  },
+  "climate": {
+    "station": "US1ALBW0009",
+    "stationName": "FOLEY 0.5 ESE",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.4
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 5.6
+      },
+      "apr": {
+        "precip": 6
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 6.7
+      },
+      "jul": {
+        "precip": 8.9
+      },
+      "aug": {
+        "precip": 8
+      },
+      "sep": {
+        "precip": 6.3
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 5.3
+      },
+      "dec": {
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 71.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -263,5 +263,54 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "US1ILKN0005",
+    "stationName": "BATAVIA 0.7 WSW",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.1
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 39,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

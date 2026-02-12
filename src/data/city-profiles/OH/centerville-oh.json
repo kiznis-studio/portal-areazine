@@ -263,5 +263,54 @@
       5.8,
       5.8
     ]
+  },
+  "climate": {
+    "station": "US1OHMY0039",
+    "stationName": "CENTERVILLE 3.9 S",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 3.2
+      },
+      "sep": {
+        "precip": 3.1
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

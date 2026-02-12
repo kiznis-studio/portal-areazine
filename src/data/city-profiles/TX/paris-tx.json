@@ -231,5 +231,93 @@
       3.9,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00416794",
+    "stationName": "PARIS HCN",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 43.4,
+        "highTemp": 53.5,
+        "lowTemp": 33.2,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 47.8,
+        "highTemp": 58.5,
+        "lowTemp": 37,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 55.7,
+        "highTemp": 66.5,
+        "lowTemp": 44.9,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 63.9,
+        "highTemp": 75,
+        "lowTemp": 52.8,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 72.7,
+        "highTemp": 82.7,
+        "lowTemp": 62.7,
+        "precip": 5.6
+      },
+      "jun": {
+        "avgTemp": 81.1,
+        "highTemp": 91.2,
+        "lowTemp": 71,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 85.3,
+        "highTemp": 95.8,
+        "lowTemp": 74.8,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 85.1,
+        "highTemp": 96.2,
+        "lowTemp": 74.1,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 77.6,
+        "highTemp": 88.7,
+        "lowTemp": 66.5,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 66.4,
+        "highTemp": 78.2,
+        "lowTemp": 54.7,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 54.6,
+        "highTemp": 65.2,
+        "lowTemp": 44,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 45.8,
+        "highTemp": 55.8,
+        "lowTemp": 35.8,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 65,
+      "highTemp": 75.6,
+      "lowTemp": 54.3,
+      "totalPrecip": 49,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

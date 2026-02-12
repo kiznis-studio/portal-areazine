@@ -247,5 +247,93 @@
       3.8,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USW00014937",
+    "stationName": "IOWA CITY MUNI AP",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.8,
+        "highTemp": 30.9,
+        "lowTemp": 14.6,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 27,
+        "highTemp": 35.5,
+        "lowTemp": 18.5,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 39.5,
+        "highTemp": 49.5,
+        "lowTemp": 29.5,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 51.4,
+        "highTemp": 62.6,
+        "lowTemp": 40.1,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 62.6,
+        "highTemp": 73.4,
+        "lowTemp": 51.7,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 72.4,
+        "highTemp": 82.6,
+        "lowTemp": 62.1,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 75.8,
+        "highTemp": 85.8,
+        "lowTemp": 65.8,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 73.5,
+        "highTemp": 83.8,
+        "lowTemp": 63.3,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 65.8,
+        "highTemp": 77.5,
+        "lowTemp": 54.2,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 53.1,
+        "highTemp": 64.1,
+        "lowTemp": 42.1,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 39.8,
+        "highTemp": 49.2,
+        "lowTemp": 30.4,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 28.2,
+        "highTemp": 36.3,
+        "lowTemp": 20.1,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 51,
+      "highTemp": 60.9,
+      "lowTemp": 41,
+      "totalPrecip": 35.7,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

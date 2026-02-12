@@ -138,5 +138,54 @@
       4.5,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USC00154369",
+    "stationName": "KEENE 1 WSW",
+    "distanceMi": 6.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.9
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 4.8
+      },
+      "may": {
+        "precip": 5.7
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 5.3
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

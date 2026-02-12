@@ -239,5 +239,93 @@
       2.8,
       2.4
     ]
+  },
+  "climate": {
+    "station": "USC00477725",
+    "stationName": "SHEBOYGAN",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.5,
+        "highTemp": 30.3,
+        "lowTemp": 14.7,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 25.3,
+        "highTemp": 33.3,
+        "lowTemp": 17.3,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 34.2,
+        "highTemp": 42.2,
+        "lowTemp": 26.2,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 44,
+        "highTemp": 52.2,
+        "lowTemp": 35.8,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 54.6,
+        "highTemp": 63.2,
+        "lowTemp": 46,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 65.1,
+        "highTemp": 74.3,
+        "lowTemp": 55.9,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 72.3,
+        "highTemp": 81.9,
+        "lowTemp": 62.6,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 71,
+        "highTemp": 80.1,
+        "lowTemp": 61.9,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 63.7,
+        "highTemp": 72.4,
+        "lowTemp": 55,
+        "precip": 2.7
+      },
+      "oct": {
+        "avgTemp": 50.9,
+        "highTemp": 59.3,
+        "lowTemp": 42.4,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 38.8,
+        "highTemp": 46.5,
+        "lowTemp": 31.1,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 28.5,
+        "highTemp": 35.6,
+        "lowTemp": 21.5,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 47.6,
+      "highTemp": 55.9,
+      "lowTemp": 39.2,
+      "totalPrecip": 34.8,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

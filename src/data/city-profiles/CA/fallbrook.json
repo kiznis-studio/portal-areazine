@@ -303,5 +303,93 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USW00053151",
+    "stationName": "FALLBROOK 5 NE 74502",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.4,
+        "highTemp": 67.5,
+        "lowTemp": 47.4,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 56.6,
+        "highTemp": 66.7,
+        "lowTemp": 46.4,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 59,
+        "highTemp": 70.1,
+        "lowTemp": 47.9,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 61.3,
+        "highTemp": 72.1,
+        "lowTemp": 50.5,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 64.1,
+        "highTemp": 75.2,
+        "lowTemp": 52.9,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 68.3,
+        "highTemp": 80.8,
+        "lowTemp": 55.9,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 73.6,
+        "highTemp": 87.2,
+        "lowTemp": 60,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 75.5,
+        "highTemp": 89.3,
+        "lowTemp": 61.8,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 74.8,
+        "highTemp": 87.8,
+        "lowTemp": 61.7,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 70.6,
+        "highTemp": 83.1,
+        "lowTemp": 58,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 63.1,
+        "highTemp": 74.3,
+        "lowTemp": 51.9,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 56.6,
+        "highTemp": 67.1,
+        "lowTemp": 46.1,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 65.1,
+      "highTemp": 76.8,
+      "lowTemp": 53.4,
+      "totalPrecip": 15.3,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

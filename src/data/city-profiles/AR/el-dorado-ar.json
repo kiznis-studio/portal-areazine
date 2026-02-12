@@ -231,5 +231,93 @@
       3.7,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USW00093992",
+    "stationName": "EL DORADO S AR RGNL AP",
+    "distanceMi": 8.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.7,
+        "highTemp": 55.9,
+        "lowTemp": 33.6,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 48.5,
+        "highTemp": 60.2,
+        "lowTemp": 36.8,
+        "precip": 4.5
+      },
+      "mar": {
+        "avgTemp": 56.3,
+        "highTemp": 68.7,
+        "lowTemp": 44,
+        "precip": 5.1
+      },
+      "apr": {
+        "avgTemp": 63.9,
+        "highTemp": 76.4,
+        "lowTemp": 51.3,
+        "precip": 5.4
+      },
+      "may": {
+        "avgTemp": 72,
+        "highTemp": 83.5,
+        "lowTemp": 60.5,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 79.3,
+        "highTemp": 90.5,
+        "lowTemp": 68,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 82.4,
+        "highTemp": 93.6,
+        "lowTemp": 71.3,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 81.8,
+        "highTemp": 93.5,
+        "lowTemp": 70.2,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 75.8,
+        "highTemp": 88.2,
+        "lowTemp": 63.4,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 64.6,
+        "highTemp": 77.6,
+        "lowTemp": 51.5,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 53.8,
+        "highTemp": 66,
+        "lowTemp": 41.6,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 46.8,
+        "highTemp": 58,
+        "lowTemp": 35.6,
+        "precip": 5.6
+      }
+    },
+    "annual": {
+      "avgTemp": 64.2,
+      "highTemp": 76,
+      "lowTemp": 52.3,
+      "totalPrecip": 52.1,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

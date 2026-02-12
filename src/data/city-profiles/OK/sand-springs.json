@@ -295,5 +295,54 @@
       5.3,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1OKTL0039",
+    "stationName": "TULSA 6.3 WSW",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.9
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

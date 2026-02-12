@@ -231,5 +231,93 @@
       4.4,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00336389",
+    "stationName": "PAINESVILLE 4 NW",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.2,
+        "highTemp": 36.8,
+        "lowTemp": 23.7,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 31.4,
+        "highTemp": 38.7,
+        "lowTemp": 24.1,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 38.2,
+        "highTemp": 46.1,
+        "lowTemp": 30.2,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 49.2,
+        "highTemp": 58.1,
+        "lowTemp": 40.4,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 60.3,
+        "highTemp": 69.1,
+        "lowTemp": 51.4,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 69.8,
+        "highTemp": 78.1,
+        "lowTemp": 61.5,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 74.6,
+        "highTemp": 82.3,
+        "lowTemp": 66.9,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 73.7,
+        "highTemp": 81.6,
+        "lowTemp": 65.7,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 67.8,
+        "highTemp": 76.2,
+        "lowTemp": 59.4,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 57,
+        "highTemp": 64.9,
+        "lowTemp": 49.1,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 45.7,
+        "highTemp": 52.6,
+        "lowTemp": 38.8,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 36.2,
+        "highTemp": 42,
+        "lowTemp": 30.3,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 52.8,
+      "highTemp": 60.5,
+      "lowTemp": 45.1,
+      "totalPrecip": 40.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

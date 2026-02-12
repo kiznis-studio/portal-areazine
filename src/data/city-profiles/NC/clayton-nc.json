@@ -231,5 +231,93 @@
       3.7,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00311820",
+    "stationName": "CLAYTON WTP",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40.7,
+        "highTemp": 52,
+        "lowTemp": 29.5,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 43.2,
+        "highTemp": 55.6,
+        "lowTemp": 30.8,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 50.2,
+        "highTemp": 63.2,
+        "lowTemp": 37.2,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 59.2,
+        "highTemp": 72.7,
+        "lowTemp": 45.8,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 67.7,
+        "highTemp": 79.2,
+        "lowTemp": 56.2,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 75.1,
+        "highTemp": 85.7,
+        "lowTemp": 64.6,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 79,
+        "highTemp": 89,
+        "lowTemp": 69,
+        "precip": 6.1
+      },
+      "aug": {
+        "avgTemp": 77.5,
+        "highTemp": 87.4,
+        "lowTemp": 67.6,
+        "precip": 5.9
+      },
+      "sep": {
+        "avgTemp": 71.8,
+        "highTemp": 82,
+        "lowTemp": 61.6,
+        "precip": 5.9
+      },
+      "oct": {
+        "avgTemp": 60.6,
+        "highTemp": 72.5,
+        "lowTemp": 48.7,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 50.5,
+        "highTemp": 62.9,
+        "lowTemp": 38,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 43.6,
+        "highTemp": 55.1,
+        "lowTemp": 32.2,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 59.9,
+      "highTemp": 71.4,
+      "lowTemp": 48.4,
+      "totalPrecip": 52.2,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

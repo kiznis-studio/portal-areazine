@@ -231,5 +231,81 @@
       9.5,
       8.9
     ]
+  },
+  "climate": {
+    "station": "USC00223605",
+    "stationName": "GREENVILLE HCN",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 43.9,
+        "highTemp": 53.5,
+        "lowTemp": 34.4
+      },
+      "feb": {
+        "avgTemp": 47.4,
+        "highTemp": 56.9,
+        "lowTemp": 37.8
+      },
+      "mar": {
+        "avgTemp": 55.1,
+        "highTemp": 65.5,
+        "lowTemp": 44.7
+      },
+      "apr": {
+        "avgTemp": 63.6,
+        "highTemp": 73.9,
+        "lowTemp": 53.2
+      },
+      "may": {
+        "avgTemp": 72.8,
+        "highTemp": 82.8,
+        "lowTemp": 62.8
+      },
+      "jun": {
+        "avgTemp": 79.7,
+        "highTemp": 89.1,
+        "lowTemp": 70.2
+      },
+      "jul": {
+        "avgTemp": 82.2,
+        "highTemp": 91.4,
+        "lowTemp": 73
+      },
+      "aug": {
+        "avgTemp": 81.2,
+        "highTemp": 91.1,
+        "lowTemp": 71.3
+      },
+      "sep": {
+        "avgTemp": 76,
+        "highTemp": 87.4,
+        "lowTemp": 64.6
+      },
+      "oct": {
+        "avgTemp": 65.6,
+        "highTemp": 77.7,
+        "lowTemp": 53.4
+      },
+      "nov": {
+        "avgTemp": 53.9,
+        "highTemp": 64.9,
+        "lowTemp": 42.9
+      },
+      "dec": {
+        "avgTemp": 46.3,
+        "highTemp": 56.1,
+        "lowTemp": 36.5
+      }
+    },
+    "annual": {
+      "avgTemp": 64,
+      "highTemp": 74.2,
+      "lowTemp": 53.7,
+      "totalPrecip": 0,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

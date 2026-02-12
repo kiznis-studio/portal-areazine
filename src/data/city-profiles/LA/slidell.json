@@ -239,5 +239,54 @@
       5.2,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1LAST0010",
+    "stationName": "SLIDELL 0.2 SE",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.5
+      },
+      "feb": {
+        "precip": 4.3
+      },
+      "mar": {
+        "precip": 5.2
+      },
+      "apr": {
+        "precip": 5.3
+      },
+      "may": {
+        "precip": 5.9
+      },
+      "jun": {
+        "precip": 6.4
+      },
+      "jul": {
+        "precip": 7.5
+      },
+      "aug": {
+        "precip": 7
+      },
+      "sep": {
+        "precip": 5.1
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 65.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

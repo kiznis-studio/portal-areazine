@@ -303,5 +303,54 @@
       4.7,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1AZMR0289",
+    "stationName": "GLENDALE 12.2 N",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.2
+      },
+      "feb": {
+        "precip": 1.3
+      },
+      "mar": {
+        "precip": 1.3
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.2
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.9
+      },
+      "aug": {
+        "precip": 0.9
+      },
+      "sep": {
+        "precip": 0.9
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 9.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

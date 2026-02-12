@@ -231,5 +231,93 @@
       5.2,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00410144",
+    "stationName": "ALICE HCN",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.6,
+        "highTemp": 68.1,
+        "lowTemp": 47,
+        "precip": 1.3
+      },
+      "feb": {
+        "avgTemp": 62.5,
+        "highTemp": 73.2,
+        "lowTemp": 51.9,
+        "precip": 1.4
+      },
+      "mar": {
+        "avgTemp": 68.2,
+        "highTemp": 79,
+        "lowTemp": 57.5,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 74.7,
+        "highTemp": 85.9,
+        "lowTemp": 63.5,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 80.4,
+        "highTemp": 90.3,
+        "lowTemp": 70.5,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 85.4,
+        "highTemp": 95.5,
+        "lowTemp": 75.3,
+        "precip": 2.3
+      },
+      "jul": {
+        "avgTemp": 86.7,
+        "highTemp": 97.1,
+        "lowTemp": 76.3,
+        "precip": 2.5
+      },
+      "aug": {
+        "avgTemp": 86.8,
+        "highTemp": 97.4,
+        "lowTemp": 76.2,
+        "precip": 2.6
+      },
+      "sep": {
+        "avgTemp": 82.7,
+        "highTemp": 92.6,
+        "lowTemp": 72.9,
+        "precip": 5.3
+      },
+      "oct": {
+        "avgTemp": 75.8,
+        "highTemp": 86.6,
+        "lowTemp": 65.1,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 66.7,
+        "highTemp": 77.1,
+        "lowTemp": 56.4,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 60.2,
+        "highTemp": 70.7,
+        "lowTemp": 49.7,
+        "precip": 1.3
+      }
+    },
+    "annual": {
+      "avgTemp": 74,
+      "highTemp": 84.5,
+      "lowTemp": 63.5,
+      "totalPrecip": 27.2,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

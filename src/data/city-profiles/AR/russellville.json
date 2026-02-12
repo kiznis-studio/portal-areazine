@@ -231,5 +231,93 @@
       4.8,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USW00053920",
+    "stationName": "RUSSELLVILLE MUNI AP",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40,
+        "highTemp": 50.3,
+        "lowTemp": 29.7,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 44,
+        "highTemp": 55,
+        "lowTemp": 33,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 52.5,
+        "highTemp": 64.3,
+        "lowTemp": 40.8,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 61,
+        "highTemp": 72.9,
+        "lowTemp": 49.1,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 69.6,
+        "highTemp": 80.3,
+        "lowTemp": 59,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 77.9,
+        "highTemp": 88.2,
+        "lowTemp": 67.6,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 81.8,
+        "highTemp": 92.5,
+        "lowTemp": 71.1,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 81.1,
+        "highTemp": 92.4,
+        "lowTemp": 69.9,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 73.6,
+        "highTemp": 85.6,
+        "lowTemp": 61.7,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 62.1,
+        "highTemp": 74.4,
+        "lowTemp": 49.8,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 50.5,
+        "highTemp": 61.8,
+        "lowTemp": 39.2,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 42.1,
+        "highTemp": 52.2,
+        "lowTemp": 32,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 61.4,
+      "highTemp": 72.5,
+      "lowTemp": 50.2,
+      "totalPrecip": 46.6,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

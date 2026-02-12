@@ -247,5 +247,54 @@
       5.8,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1FLES0026",
+    "stationName": "PENSACOLA 1.9 NE",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.6
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 5.4
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 7.2
+      },
+      "jul": {
+        "precip": 7.6
+      },
+      "aug": {
+        "precip": 8.4
+      },
+      "sep": {
+        "precip": 6.5
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 4.5
+      },
+      "dec": {
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 69.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

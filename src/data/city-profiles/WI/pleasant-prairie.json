@@ -239,5 +239,54 @@
       5.3,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1WIKN0011",
+    "stationName": "PLEASANT PRAIRIE 3.8 NW",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

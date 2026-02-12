@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USW00014752",
+    "stationName": "HARTFORD BRAINARD FLD",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.6,
+        "highTemp": 36.8,
+        "lowTemp": 20.3,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 30.8,
+        "highTemp": 39.5,
+        "lowTemp": 22.1,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 38.6,
+        "highTemp": 47.6,
+        "lowTemp": 29.6,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 50,
+        "highTemp": 60.1,
+        "lowTemp": 40,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 60.5,
+        "highTemp": 70.9,
+        "lowTemp": 50.1,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 69.7,
+        "highTemp": 79.6,
+        "lowTemp": 59.8,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 75.2,
+        "highTemp": 84.6,
+        "lowTemp": 65.7,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 83,
+        "lowTemp": 64.2,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 65.8,
+        "highTemp": 75.6,
+        "lowTemp": 56,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 54,
+        "highTemp": 63.7,
+        "lowTemp": 44.3,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 43.3,
+        "highTemp": 52.1,
+        "lowTemp": 34.6,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 33.8,
+        "highTemp": 41.7,
+        "lowTemp": 25.9,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 52,
+      "highTemp": 61.3,
+      "lowTemp": 42.7,
+      "totalPrecip": 42.9,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

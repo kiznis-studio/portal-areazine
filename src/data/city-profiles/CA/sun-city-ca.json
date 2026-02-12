@@ -303,5 +303,54 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "US1CARV0043",
+    "stationName": "MURRIETA 3.6 NNE",
+    "distanceMi": 7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 1.2
+      },
+      "may": {
+        "precip": 0.3
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.3
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 13.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

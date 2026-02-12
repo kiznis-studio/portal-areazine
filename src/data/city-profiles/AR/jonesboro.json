@@ -239,5 +239,93 @@
       5.9,
       6
     ]
+  },
+  "climate": {
+    "station": "USC00033734",
+    "stationName": "JONESBORO 2 NE",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.1,
+        "highTemp": 45.6,
+        "lowTemp": 26.7,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 40.4,
+        "highTemp": 50.5,
+        "lowTemp": 30.2,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 49,
+        "highTemp": 60,
+        "lowTemp": 38,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 59.2,
+        "highTemp": 70.7,
+        "lowTemp": 47.7,
+        "precip": 5.4
+      },
+      "may": {
+        "avgTemp": 68.2,
+        "highTemp": 79.2,
+        "lowTemp": 57.2,
+        "precip": 5.7
+      },
+      "jun": {
+        "avgTemp": 76.6,
+        "highTemp": 87.2,
+        "lowTemp": 66.1,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 79.7,
+        "highTemp": 89.7,
+        "lowTemp": 69.6,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 78.5,
+        "highTemp": 89,
+        "lowTemp": 68,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 71.5,
+        "highTemp": 83,
+        "lowTemp": 60,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 60.3,
+        "highTemp": 72.4,
+        "lowTemp": 48.1,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 48,
+        "highTemp": 58.8,
+        "lowTemp": 37.2,
+        "precip": 4.9
+      },
+      "dec": {
+        "avgTemp": 39.3,
+        "highTemp": 48.6,
+        "lowTemp": 30.1,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 58.9,
+      "highTemp": 69.6,
+      "lowTemp": 48.2,
+      "totalPrecip": 52.1,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

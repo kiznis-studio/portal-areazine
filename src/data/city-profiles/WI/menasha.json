@@ -239,5 +239,54 @@
       2.4,
       2.2
     ]
+  },
+  "climate": {
+    "station": "US1WIWN0009",
+    "stationName": "NEENAH 1.1 ENE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.5
+      },
+      "feb": {
+        "precip": 1.4
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 2
+      },
+      "dec": {
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

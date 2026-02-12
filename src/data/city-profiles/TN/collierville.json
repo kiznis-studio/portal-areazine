@@ -271,5 +271,93 @@
       7.3,
       7.1
     ]
+  },
+  "climate": {
+    "station": "USC00401950",
+    "stationName": "COLLIERVILLE",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.6,
+        "highTemp": 50,
+        "lowTemp": 29.1,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 43.5,
+        "highTemp": 54.7,
+        "lowTemp": 32.4,
+        "precip": 5
+      },
+      "mar": {
+        "avgTemp": 52.1,
+        "highTemp": 63.8,
+        "lowTemp": 40.4,
+        "precip": 5.6
+      },
+      "apr": {
+        "avgTemp": 61.1,
+        "highTemp": 73.4,
+        "lowTemp": 48.7,
+        "precip": 5.7
+      },
+      "may": {
+        "avgTemp": 70.2,
+        "highTemp": 81.8,
+        "lowTemp": 58.6,
+        "precip": 5.8
+      },
+      "jun": {
+        "avgTemp": 77.4,
+        "highTemp": 88.2,
+        "lowTemp": 66.7,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 80.9,
+        "highTemp": 91.4,
+        "lowTemp": 70.3,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 79.5,
+        "highTemp": 90.6,
+        "lowTemp": 68.4,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 72.9,
+        "highTemp": 84.9,
+        "lowTemp": 60.8,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 61.8,
+        "highTemp": 75.2,
+        "lowTemp": 48.5,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 50.9,
+        "highTemp": 63.2,
+        "lowTemp": 38.7,
+        "precip": 4.3
+      },
+      "dec": {
+        "avgTemp": 43.2,
+        "highTemp": 53.5,
+        "lowTemp": 32.8,
+        "precip": 5.8
+      }
+    },
+    "annual": {
+      "avgTemp": 61.1,
+      "highTemp": 72.6,
+      "lowTemp": 49.6,
+      "totalPrecip": 57,
+      "hotMonths": 5,
+      "coldMonths": 1
+    }
   }
 }

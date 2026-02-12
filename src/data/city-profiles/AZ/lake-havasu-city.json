@@ -255,5 +255,93 @@
       7.5,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00024761",
+    "stationName": "LAKE HAVASU CITY",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.9,
+        "highTemp": 65.2,
+        "lowTemp": 42.7,
+        "precip": 0.8
+      },
+      "feb": {
+        "avgTemp": 58.1,
+        "highTemp": 70.4,
+        "lowTemp": 45.8,
+        "precip": 0.6
+      },
+      "mar": {
+        "avgTemp": 64.8,
+        "highTemp": 78.1,
+        "lowTemp": 51.4,
+        "precip": 0.5
+      },
+      "apr": {
+        "avgTemp": 71.7,
+        "highTemp": 85.8,
+        "lowTemp": 57.7,
+        "precip": 0.2
+      },
+      "may": {
+        "avgTemp": 81.1,
+        "highTemp": 95.2,
+        "lowTemp": 66.9,
+        "precip": 0
+      },
+      "jun": {
+        "avgTemp": 90.3,
+        "highTemp": 105.1,
+        "lowTemp": 75.5,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 96,
+        "highTemp": 109.3,
+        "lowTemp": 82.7,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 95.2,
+        "highTemp": 108.1,
+        "lowTemp": 82.3,
+        "precip": 0.4
+      },
+      "sep": {
+        "avgTemp": 88.2,
+        "highTemp": 101.9,
+        "lowTemp": 74.5,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 75.3,
+        "highTemp": 89.1,
+        "lowTemp": 61.6,
+        "precip": 0.3
+      },
+      "nov": {
+        "avgTemp": 62.4,
+        "highTemp": 74.9,
+        "lowTemp": 50,
+        "precip": 0.3
+      },
+      "dec": {
+        "avgTemp": 52.8,
+        "highTemp": 63.8,
+        "lowTemp": 41.8,
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "avgTemp": 74.2,
+      "highTemp": 87.2,
+      "lowTemp": 61.1,
+      "totalPrecip": 4.3,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

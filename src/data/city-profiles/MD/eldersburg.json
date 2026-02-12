@@ -231,5 +231,54 @@
       3.1,
       3.2
     ]
+  },
+  "climate": {
+    "station": "US1MDCR0019",
+    "stationName": "ELDERSBURG 0.9 E",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.8
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 46,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

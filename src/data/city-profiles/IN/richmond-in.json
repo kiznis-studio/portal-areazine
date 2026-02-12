@@ -231,5 +231,93 @@
       4.5,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00127370",
+    "stationName": "RICHMOND WTR WKS",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.9,
+        "highTemp": 36.2,
+        "lowTemp": 19.6,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 31.2,
+        "highTemp": 40.3,
+        "lowTemp": 22.2,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 40.8,
+        "highTemp": 50.8,
+        "lowTemp": 30.8,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 52.2,
+        "highTemp": 63.8,
+        "lowTemp": 40.7,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 62.6,
+        "highTemp": 73.7,
+        "lowTemp": 51.5,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 71.1,
+        "highTemp": 82,
+        "lowTemp": 60.2,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 74.2,
+        "highTemp": 84.8,
+        "lowTemp": 63.5,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 72.7,
+        "highTemp": 83.6,
+        "lowTemp": 61.8,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 65.9,
+        "highTemp": 77.6,
+        "lowTemp": 54.2,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 54.2,
+        "highTemp": 65.5,
+        "lowTemp": 42.9,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 42.2,
+        "highTemp": 51.7,
+        "lowTemp": 32.7,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 32.6,
+        "highTemp": 40.4,
+        "lowTemp": 24.7,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 52.3,
+      "highTemp": 62.5,
+      "lowTemp": 42.1,
+      "totalPrecip": 42.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

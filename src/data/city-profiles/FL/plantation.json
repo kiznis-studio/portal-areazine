@@ -303,5 +303,54 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "US1FLBW0076",
+    "stationName": "PLANTATION 3.4 E",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 6
+      },
+      "jun": {
+        "precip": 8.6
+      },
+      "jul": {
+        "precip": 8.4
+      },
+      "aug": {
+        "precip": 8.7
+      },
+      "sep": {
+        "precip": 9.2
+      },
+      "oct": {
+        "precip": 8
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 67.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

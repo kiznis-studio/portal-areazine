@@ -231,5 +231,93 @@
       4.7,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00304174",
+    "stationName": "ITHACA CORNELL UNIV HCN",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.8,
+        "highTemp": 31,
+        "lowTemp": 14.6,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 24.1,
+        "highTemp": 33.1,
+        "lowTemp": 15.1,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 31.3,
+        "highTemp": 40.8,
+        "lowTemp": 21.8,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 43.7,
+        "highTemp": 54.5,
+        "lowTemp": 32.9,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 55.6,
+        "highTemp": 67.3,
+        "lowTemp": 44,
+        "precip": 3.2
+      },
+      "jun": {
+        "avgTemp": 64.6,
+        "highTemp": 75.7,
+        "lowTemp": 53.4,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 68.9,
+        "highTemp": 79.9,
+        "lowTemp": 57.9,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 67.4,
+        "highTemp": 78.5,
+        "lowTemp": 56.3,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 60.2,
+        "highTemp": 71.6,
+        "lowTemp": 48.8,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 49,
+        "highTemp": 59,
+        "lowTemp": 38.9,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 38.6,
+        "highTemp": 46.8,
+        "lowTemp": 30.4,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 29.1,
+        "highTemp": 36.2,
+        "lowTemp": 22,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 46.3,
+      "highTemp": 56.2,
+      "lowTemp": 36.3,
+      "totalPrecip": 38.3,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

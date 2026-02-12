@@ -247,5 +247,52 @@
       4.2,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00047370",
+    "stationName": "REPRESA",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.3
+      },
+      "feb": {
+        "precip": 4.2
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 1.8
+      },
+      "may": {
+        "precip": 1
+      },
+      "jun": {
+        "precip": 0.3
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 20.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

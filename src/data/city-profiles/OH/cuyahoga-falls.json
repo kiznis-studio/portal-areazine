@@ -255,5 +255,93 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00338062",
+    "stationName": "STOW 4 SE",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.9,
+        "highTemp": 33.4,
+        "lowTemp": 18.3,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 27.7,
+        "highTemp": 36.4,
+        "lowTemp": 19,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 35.7,
+        "highTemp": 46,
+        "lowTemp": 25.3,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 48.2,
+        "highTemp": 59.7,
+        "lowTemp": 36.6,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 58.8,
+        "highTemp": 70.4,
+        "lowTemp": 47.1,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 67.4,
+        "highTemp": 78.4,
+        "lowTemp": 56.4,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 71.3,
+        "highTemp": 82.3,
+        "lowTemp": 60.3,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 70,
+        "highTemp": 81.1,
+        "lowTemp": 58.8,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 63.3,
+        "highTemp": 74.4,
+        "lowTemp": 52.2,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 51.1,
+        "highTemp": 61.2,
+        "lowTemp": 41,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 40.3,
+        "highTemp": 48.7,
+        "lowTemp": 31.9,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 38.5,
+        "lowTemp": 24.3,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 49.3,
+      "highTemp": 59.2,
+      "lowTemp": 39.3,
+      "totalPrecip": 41.7,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

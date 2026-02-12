@@ -239,5 +239,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1ILCP0012",
+    "stationName": "URBANA 0.1 SSE",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.4
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.2,
       3.4
     ]
+  },
+  "climate": {
+    "station": "USC00125117",
+    "stationName": "LOGANSPORT CICOTT ST",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.4,
+        "highTemp": 33,
+        "lowTemp": 17.8,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 28.7,
+        "highTemp": 37.1,
+        "lowTemp": 20.3,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 38.7,
+        "highTemp": 48.2,
+        "lowTemp": 29.1,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 50.2,
+        "highTemp": 61.3,
+        "lowTemp": 39.1,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 61.1,
+        "highTemp": 72.2,
+        "lowTemp": 50,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 70.6,
+        "highTemp": 81.4,
+        "lowTemp": 59.8,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 73.9,
+        "highTemp": 84.4,
+        "lowTemp": 63.4,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 72.3,
+        "highTemp": 83,
+        "lowTemp": 61.6,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 65.7,
+        "highTemp": 77.5,
+        "lowTemp": 54,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 53.3,
+        "highTemp": 64.1,
+        "lowTemp": 42.5,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 41.3,
+        "highTemp": 50.1,
+        "lowTemp": 32.4,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 30.9,
+        "highTemp": 38.3,
+        "lowTemp": 23.6,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 51,
+      "highTemp": 60.9,
+      "lowTemp": 41.1,
+      "totalPrecip": 41.4,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

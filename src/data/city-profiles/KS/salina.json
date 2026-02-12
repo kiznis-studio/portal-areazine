@@ -231,5 +231,54 @@
       3.6,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00147159",
+    "stationName": "SALINA WX",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.9
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 2.1
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 2.8
+      },
+      "oct": {
+        "precip": 2.3
+      },
+      "nov": {
+        "precip": 1.4
+      },
+      "dec": {
+        "precip": 1.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 32.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

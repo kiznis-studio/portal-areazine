@@ -231,5 +231,93 @@
       6.9,
       6.8
     ]
+  },
+  "climate": {
+    "station": "USC00111436",
+    "stationName": "CHARLESTON HCN",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.3,
+        "highTemp": 37.9,
+        "lowTemp": 20.7,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 33.9,
+        "highTemp": 43.3,
+        "lowTemp": 24.6,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 44,
+        "highTemp": 54.3,
+        "lowTemp": 33.6,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 55.7,
+        "highTemp": 67.3,
+        "lowTemp": 44.1,
+        "precip": 5.1
+      },
+      "may": {
+        "avgTemp": 65.6,
+        "highTemp": 77.1,
+        "lowTemp": 54.1,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 74.2,
+        "highTemp": 85.5,
+        "lowTemp": 63,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 77.2,
+        "highTemp": 88.1,
+        "lowTemp": 66.2,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 75.5,
+        "highTemp": 86.6,
+        "lowTemp": 64.4,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 69,
+        "highTemp": 81.2,
+        "lowTemp": 56.8,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 57.3,
+        "highTemp": 68.9,
+        "lowTemp": 45.6,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 44.6,
+        "highTemp": 54.4,
+        "lowTemp": 34.9,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 34.3,
+        "highTemp": 42.4,
+        "lowTemp": 26.1,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 55,
+      "highTemp": 65.6,
+      "lowTemp": 44.5,
+      "totalPrecip": 43.6,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

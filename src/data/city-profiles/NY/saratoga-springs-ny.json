@@ -231,5 +231,54 @@
       3.5,
       3.1
     ]
+  },
+  "climate": {
+    "station": "US1NYSR0004",
+    "stationName": "SARATOGA SPRINGS 0.5 S",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,54 @@
       4.9,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00047933",
+    "stationName": "SANTA MARGARITA BOOST",
+    "distanceMi": 8.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7.4
+      },
+      "feb": {
+        "precip": 6.8
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 1.8
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1.6
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 31.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

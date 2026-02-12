@@ -271,5 +271,54 @@
       6.5,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1TXEP0047",
+    "stationName": "FMSP MCKELLIGON",
+    "distanceMi": 5.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.5
+      },
+      "mar": {
+        "precip": 0.5
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.6
+      },
+      "jun": {
+        "precip": 0.5
+      },
+      "jul": {
+        "precip": 1.7
+      },
+      "aug": {
+        "precip": 1.7
+      },
+      "sep": {
+        "precip": 2
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 10.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

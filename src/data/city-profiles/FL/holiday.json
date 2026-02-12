@@ -271,5 +271,93 @@
       5.3,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00088824",
+    "stationName": "TARPON SPGS SEWAGE PLT HCN",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 60,
+        "highTemp": 69.3,
+        "lowTemp": 50.7,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 62.9,
+        "highTemp": 72,
+        "lowTemp": 53.8,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 66.8,
+        "highTemp": 76,
+        "lowTemp": 57.6,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 72.2,
+        "highTemp": 81.1,
+        "lowTemp": 63.2,
+        "precip": 2.7
+      },
+      "may": {
+        "avgTemp": 77.6,
+        "highTemp": 86.2,
+        "lowTemp": 69.1,
+        "precip": 2.4
+      },
+      "jun": {
+        "avgTemp": 82,
+        "highTemp": 89.7,
+        "lowTemp": 74.4,
+        "precip": 7.1
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 90.6,
+        "lowTemp": 75.6,
+        "precip": 9.1
+      },
+      "aug": {
+        "avgTemp": 83.3,
+        "highTemp": 90.8,
+        "lowTemp": 75.7,
+        "precip": 9.7
+      },
+      "sep": {
+        "avgTemp": 81.3,
+        "highTemp": 88.9,
+        "lowTemp": 73.6,
+        "precip": 7
+      },
+      "oct": {
+        "avgTemp": 75.6,
+        "highTemp": 83.8,
+        "lowTemp": 67.3,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 67.5,
+        "highTemp": 76.3,
+        "lowTemp": 58.6,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 62.4,
+        "highTemp": 71.4,
+        "lowTemp": 53.5,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 72.9,
+      "highTemp": 81.3,
+      "lowTemp": 64.4,
+      "totalPrecip": 54.4,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

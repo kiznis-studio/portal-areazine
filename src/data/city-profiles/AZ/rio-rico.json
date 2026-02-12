@@ -222,5 +222,93 @@
       9.8,
       10.5
     ]
+  },
+  "climate": {
+    "station": "USC00025924",
+    "stationName": "NOGALES 6 N",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.8,
+        "highTemp": 65.3,
+        "lowTemp": 28.3,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 48.8,
+        "highTemp": 67.2,
+        "lowTemp": 30.5,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 53.9,
+        "highTemp": 72.8,
+        "lowTemp": 35,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 59.4,
+        "highTemp": 79.4,
+        "lowTemp": 39.5,
+        "precip": 0.4
+      },
+      "may": {
+        "avgTemp": 66.9,
+        "highTemp": 87.4,
+        "lowTemp": 46.3,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 76.4,
+        "highTemp": 96.5,
+        "lowTemp": 56.3,
+        "precip": 0.7
+      },
+      "jul": {
+        "avgTemp": 79.8,
+        "highTemp": 94.4,
+        "lowTemp": 65.3,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 78.2,
+        "highTemp": 92.3,
+        "lowTemp": 64,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 74,
+        "highTemp": 90.5,
+        "lowTemp": 57.5,
+        "precip": 2.2
+      },
+      "oct": {
+        "avgTemp": 64.1,
+        "highTemp": 83.5,
+        "lowTemp": 44.6,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 53.9,
+        "highTemp": 73.4,
+        "lowTemp": 34.4,
+        "precip": 0.6
+      },
+      "dec": {
+        "avgTemp": 46.3,
+        "highTemp": 64.6,
+        "lowTemp": 28,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 62.4,
+      "highTemp": 80.6,
+      "lowTemp": 44.1,
+      "totalPrecip": 16.2,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

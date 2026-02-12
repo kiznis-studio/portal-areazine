@@ -231,5 +231,93 @@
       11.1,
       11.1
     ]
+  },
+  "climate": {
+    "station": "USC00446656",
+    "stationName": "PETERSBURG",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.7,
+        "highTemp": 49.1,
+        "lowTemp": 28.3,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 40.7,
+        "highTemp": 52.2,
+        "lowTemp": 29.1,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 48.1,
+        "highTemp": 60.1,
+        "lowTemp": 36.1,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 58,
+        "highTemp": 70.4,
+        "lowTemp": 45.6,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 66.6,
+        "highTemp": 78.2,
+        "lowTemp": 55,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 74.8,
+        "highTemp": 85.5,
+        "lowTemp": 64.2,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 79.2,
+        "highTemp": 89.3,
+        "lowTemp": 69,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 77.4,
+        "highTemp": 87.4,
+        "lowTemp": 67.3,
+        "precip": 5.3
+      },
+      "sep": {
+        "avgTemp": 71.1,
+        "highTemp": 81.5,
+        "lowTemp": 60.8,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 59.8,
+        "highTemp": 71.6,
+        "lowTemp": 48,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 49.4,
+        "highTemp": 61.5,
+        "lowTemp": 37.3,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 41.6,
+        "highTemp": 52.6,
+        "lowTemp": 30.6,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 58.8,
+      "highTemp": 70,
+      "lowTemp": 47.6,
+      "totalPrecip": 47,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

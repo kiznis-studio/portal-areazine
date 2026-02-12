@@ -303,5 +303,54 @@
       3.6,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1UTSL0086",
+    "stationName": "HOLLADAY 0.7 WNW",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 2.9
+      },
+      "may": {
+        "precip": 2.6
+      },
+      "jun": {
+        "precip": 1.4
+      },
+      "jul": {
+        "precip": 0.8
+      },
+      "aug": {
+        "precip": 0.9
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 2
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 22.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

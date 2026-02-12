@@ -263,5 +263,54 @@
       7.6,
       7.5
     ]
+  },
+  "climate": {
+    "station": "US1TXHDL021",
+    "stationName": "MCALLEN 2.4 NE",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1
+      },
+      "feb": {
+        "precip": 1
+      },
+      "mar": {
+        "precip": 2
+      },
+      "apr": {
+        "precip": 1.5
+      },
+      "may": {
+        "precip": 1.9
+      },
+      "jun": {
+        "precip": 2.6
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 2.3
+      },
+      "sep": {
+        "precip": 4.8
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 27.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

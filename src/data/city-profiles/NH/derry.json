@@ -247,5 +247,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00279278",
+    "stationName": "W HAMPSTEAD",
+    "distanceMi": 6.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.1,
+        "highTemp": 33.5,
+        "lowTemp": 14.7,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 26.5,
+        "highTemp": 36.8,
+        "lowTemp": 16.2,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 34.3,
+        "highTemp": 44.6,
+        "lowTemp": 24,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 45.7,
+        "highTemp": 57.4,
+        "lowTemp": 34.1,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 56.1,
+        "highTemp": 67.9,
+        "lowTemp": 44.2,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 65.3,
+        "highTemp": 76.4,
+        "lowTemp": 54.3,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 71,
+        "highTemp": 82,
+        "lowTemp": 60,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 69.1,
+        "highTemp": 80.4,
+        "lowTemp": 57.8,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 61.7,
+        "highTemp": 72.7,
+        "lowTemp": 50.7,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 49.9,
+        "highTemp": 60.6,
+        "lowTemp": 39.1,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 39.6,
+        "highTemp": 49,
+        "lowTemp": 30.2,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 29.8,
+        "highTemp": 38.5,
+        "lowTemp": 21.2,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 47.8,
+      "highTemp": 58.3,
+      "lowTemp": 37.2,
+      "totalPrecip": 46.7,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

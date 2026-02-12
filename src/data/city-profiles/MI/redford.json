@@ -303,5 +303,54 @@
       9,
       8.7
     ]
+  },
+  "climate": {
+    "station": "US1MIWY0043",
+    "stationName": "DEARBORN HEIGHTS 1.8 NW",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 3.6
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 35.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

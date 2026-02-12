@@ -231,5 +231,93 @@
       6.9,
       6.8
     ]
+  },
+  "climate": {
+    "station": "USC00115430",
+    "stationName": "MATTOON",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.5,
+        "highTemp": 34.8,
+        "lowTemp": 20.2,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 31.5,
+        "highTemp": 39.6,
+        "lowTemp": 23.4,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 42.1,
+        "highTemp": 51.3,
+        "lowTemp": 32.9,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 53.8,
+        "highTemp": 64.4,
+        "lowTemp": 43.3,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 64.1,
+        "highTemp": 74.3,
+        "lowTemp": 54,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 73.3,
+        "highTemp": 82.8,
+        "lowTemp": 63.8,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 76.4,
+        "highTemp": 86.1,
+        "lowTemp": 66.6,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 74.8,
+        "highTemp": 84.5,
+        "lowTemp": 65.1,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 67.9,
+        "highTemp": 79.2,
+        "lowTemp": 56.6,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 56.5,
+        "highTemp": 66.4,
+        "lowTemp": 46.6,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 42.7,
+        "highTemp": 51.2,
+        "lowTemp": 34.2,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 32.5,
+        "highTemp": 39.7,
+        "lowTemp": 25.4,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 53.6,
+      "highTemp": 62.9,
+      "lowTemp": 44.3,
+      "totalPrecip": 41.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

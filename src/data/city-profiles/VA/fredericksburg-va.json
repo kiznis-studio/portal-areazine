@@ -231,5 +231,93 @@
       5.1,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00443204",
+    "stationName": "FREDERICKSBURG SEWAGE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.5,
+        "highTemp": 45.9,
+        "lowTemp": 25.1,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 38.1,
+        "highTemp": 49.3,
+        "lowTemp": 26.9,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 45.3,
+        "highTemp": 57,
+        "lowTemp": 33.5,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 56.1,
+        "highTemp": 68.5,
+        "lowTemp": 43.6,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 64.6,
+        "highTemp": 76.1,
+        "lowTemp": 53.2,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 73.6,
+        "highTemp": 84.3,
+        "lowTemp": 62.9,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 78.1,
+        "highTemp": 88.5,
+        "lowTemp": 67.6,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 76.3,
+        "highTemp": 86.6,
+        "lowTemp": 65.9,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 69.6,
+        "highTemp": 80.3,
+        "lowTemp": 58.9,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 58.1,
+        "highTemp": 70,
+        "lowTemp": 46.2,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 47.1,
+        "highTemp": 58.9,
+        "lowTemp": 35.2,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 39.2,
+        "highTemp": 50,
+        "lowTemp": 28.3,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 56.8,
+      "highTemp": 67.9,
+      "lowTemp": 45.6,
+      "totalPrecip": 43.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

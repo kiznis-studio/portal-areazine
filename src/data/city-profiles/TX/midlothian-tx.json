@@ -239,5 +239,54 @@
       3.9,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00415897",
+    "stationName": "MIDLOTHIAN",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 2.8
+      },
+      "aug": {
+        "precip": 2.5
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -161,5 +161,54 @@
       4.7,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00150904",
+    "stationName": "BOWLING GREEN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.3
+      },
+      "feb": {
+        "precip": 4.5
+      },
+      "mar": {
+        "precip": 5.1
+      },
+      "apr": {
+        "precip": 5
+      },
+      "may": {
+        "precip": 5.4
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

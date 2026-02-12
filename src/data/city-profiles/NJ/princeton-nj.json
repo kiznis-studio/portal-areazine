@@ -247,5 +247,54 @@
       6.1,
       6.1
     ]
+  },
+  "climate": {
+    "station": "US1NJMC0044",
+    "stationName": "PRINCETON 2.3 E",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

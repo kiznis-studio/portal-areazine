@@ -255,5 +255,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00428119",
+    "stationName": "SPANISH FK PWR HOUSE HCN",
+    "distanceMi": 5.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.1,
+        "highTemp": 38.3,
+        "lowTemp": 22,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 35.4,
+        "highTemp": 45.1,
+        "lowTemp": 25.7,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 44.7,
+        "highTemp": 56.6,
+        "lowTemp": 32.7,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 51.1,
+        "highTemp": 64.2,
+        "lowTemp": 37.9,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 60,
+        "highTemp": 74.3,
+        "lowTemp": 45.6,
+        "precip": 2.1
+      },
+      "jun": {
+        "avgTemp": 69.5,
+        "highTemp": 85.7,
+        "lowTemp": 53.3,
+        "precip": 1
+      },
+      "jul": {
+        "avgTemp": 77.1,
+        "highTemp": 93.1,
+        "lowTemp": 61.1,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 75.2,
+        "highTemp": 90.7,
+        "lowTemp": 59.7,
+        "precip": 0.7
+      },
+      "sep": {
+        "avgTemp": 66,
+        "highTemp": 81.1,
+        "lowTemp": 50.9,
+        "precip": 1.4
+      },
+      "oct": {
+        "avgTemp": 53.7,
+        "highTemp": 66.8,
+        "lowTemp": 40.5,
+        "precip": 1.8
+      },
+      "nov": {
+        "avgTemp": 40.9,
+        "highTemp": 50.8,
+        "lowTemp": 31,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 30.6,
+        "highTemp": 38.4,
+        "lowTemp": 22.7,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 52.9,
+      "highTemp": 65.4,
+      "lowTemp": 40.3,
+      "totalPrecip": 20.3,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

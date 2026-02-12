@@ -239,5 +239,93 @@
       6.4,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00025270",
+    "stationName": "MARICOPA 4 N",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.8,
+        "highTemp": 69,
+        "lowTemp": 36.7,
+        "precip": 0.8
+      },
+      "feb": {
+        "avgTemp": 56.4,
+        "highTemp": 72.9,
+        "lowTemp": 39.8,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 62.3,
+        "highTemp": 80.2,
+        "lowTemp": 44.5,
+        "precip": 0.9
+      },
+      "apr": {
+        "avgTemp": 69.5,
+        "highTemp": 88.2,
+        "lowTemp": 50.8,
+        "precip": 0.2
+      },
+      "may": {
+        "avgTemp": 78.4,
+        "highTemp": 97.4,
+        "lowTemp": 59.4,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 87.8,
+        "highTemp": 107.1,
+        "lowTemp": 68.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 93.3,
+        "highTemp": 108.9,
+        "lowTemp": 77.8,
+        "precip": 0.7
+      },
+      "aug": {
+        "avgTemp": 92.3,
+        "highTemp": 107.3,
+        "lowTemp": 77.2,
+        "precip": 1
+      },
+      "sep": {
+        "avgTemp": 85.7,
+        "highTemp": 102.3,
+        "lowTemp": 69.1,
+        "precip": 0.7
+      },
+      "oct": {
+        "avgTemp": 72.9,
+        "highTemp": 91.2,
+        "lowTemp": 54.6,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 60.4,
+        "highTemp": 78.1,
+        "lowTemp": 42.7,
+        "precip": 0.5
+      },
+      "dec": {
+        "avgTemp": 51.4,
+        "highTemp": 67.5,
+        "lowTemp": 35.3,
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "avgTemp": 71.9,
+      "highTemp": 89.2,
+      "lowTemp": 54.7,
+      "totalPrecip": 7.2,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

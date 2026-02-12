@@ -247,5 +247,93 @@
       4.2,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00148171",
+    "stationName": "TOPEKA - NWS",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.3,
+        "highTemp": 39.9,
+        "lowTemp": 18.7,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 34,
+        "highTemp": 45,
+        "lowTemp": 22.9,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 44.4,
+        "highTemp": 56.2,
+        "lowTemp": 32.6,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 54.8,
+        "highTemp": 66.5,
+        "lowTemp": 43,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 65.1,
+        "highTemp": 75.7,
+        "lowTemp": 54.6,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 74.7,
+        "highTemp": 85,
+        "lowTemp": 64.3,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 78.3,
+        "highTemp": 88.5,
+        "lowTemp": 68.1,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 76.5,
+        "highTemp": 87.4,
+        "lowTemp": 65.5,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 68.5,
+        "highTemp": 80.3,
+        "lowTemp": 56.7,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 56.6,
+        "highTemp": 68.8,
+        "lowTemp": 44.3,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 43.6,
+        "highTemp": 55,
+        "lowTemp": 32.2,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 33.1,
+        "highTemp": 43.3,
+        "lowTemp": 22.9,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 54.9,
+      "highTemp": 66,
+      "lowTemp": 43.8,
+      "totalPrecip": 37.1,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

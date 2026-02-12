@@ -231,5 +231,54 @@
       3.9,
       3.9
     ]
+  },
+  "climate": {
+    "station": "US1VAHR0006",
+    "stationName": "GLEN ALLEN 4.6 W",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 48,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       7.5,
       6.8
     ]
+  },
+  "climate": {
+    "station": "USW00014840",
+    "stationName": "MUSKEGON CO AP 72636",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.6,
+        "highTemp": 32.5,
+        "lowTemp": 20.7,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 27.7,
+        "highTemp": 34.5,
+        "lowTemp": 20.8,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 35.7,
+        "highTemp": 44.3,
+        "lowTemp": 27.1,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 46.8,
+        "highTemp": 56.6,
+        "lowTemp": 36.9,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 57.9,
+        "highTemp": 68.4,
+        "lowTemp": 47.5,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 67.4,
+        "highTemp": 77.7,
+        "lowTemp": 57.2,
+        "precip": 3.1
+      },
+      "jul": {
+        "avgTemp": 71.9,
+        "highTemp": 81.6,
+        "lowTemp": 62.2,
+        "precip": 2.8
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 80.2,
+        "lowTemp": 61.3,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 63.5,
+        "highTemp": 73.4,
+        "lowTemp": 53.5,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 60.6,
+        "lowTemp": 43.2,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 41,
+        "highTemp": 47.8,
+        "lowTemp": 34.1,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 31.9,
+        "highTemp": 37.4,
+        "lowTemp": 26.3,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 49.4,
+      "highTemp": 57.9,
+      "lowTemp": 40.9,
+      "totalPrecip": 35.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -239,5 +239,93 @@
       4.3,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00087982",
+    "stationName": "SANFORD",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 59.6,
+        "highTemp": 70.1,
+        "lowTemp": 49.2,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 62.1,
+        "highTemp": 72.8,
+        "lowTemp": 51.5,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 66.4,
+        "highTemp": 77.2,
+        "lowTemp": 55.6,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 71.5,
+        "highTemp": 82.1,
+        "lowTemp": 60.9,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 76.9,
+        "highTemp": 87.1,
+        "lowTemp": 66.8,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 81.3,
+        "highTemp": 90.3,
+        "lowTemp": 72.3,
+        "precip": 8.2
+      },
+      "jul": {
+        "avgTemp": 83,
+        "highTemp": 91.8,
+        "lowTemp": 74.2,
+        "precip": 8.2
+      },
+      "aug": {
+        "avgTemp": 83,
+        "highTemp": 91.6,
+        "lowTemp": 74.5,
+        "precip": 8.1
+      },
+      "sep": {
+        "avgTemp": 81.2,
+        "highTemp": 89,
+        "lowTemp": 73.4,
+        "precip": 6.4
+      },
+      "oct": {
+        "avgTemp": 75.5,
+        "highTemp": 83.9,
+        "lowTemp": 67.1,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 68.1,
+        "highTemp": 77.3,
+        "lowTemp": 58.8,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 62.6,
+        "highTemp": 72.3,
+        "lowTemp": 52.9,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 72.6,
+      "highTemp": 82.1,
+      "lowTemp": 63.1,
+      "totalPrecip": 54.1,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

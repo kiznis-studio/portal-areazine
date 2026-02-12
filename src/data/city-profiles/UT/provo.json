@@ -255,5 +255,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00427064",
+    "stationName": "PROVO BYU",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.5,
+        "highTemp": 41.2,
+        "lowTemp": 23.8,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 37.5,
+        "highTemp": 47.6,
+        "lowTemp": 27.5,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 46.5,
+        "highTemp": 58.4,
+        "lowTemp": 34.6,
+        "precip": 1.6
+      },
+      "apr": {
+        "avgTemp": 52.7,
+        "highTemp": 65.6,
+        "lowTemp": 39.7,
+        "precip": 1.9
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 75.7,
+        "lowTemp": 47.4,
+        "precip": 2
+      },
+      "jun": {
+        "avgTemp": 71.1,
+        "highTemp": 87.2,
+        "lowTemp": 55,
+        "precip": 0.9
+      },
+      "jul": {
+        "avgTemp": 78.8,
+        "highTemp": 95.2,
+        "lowTemp": 62.3,
+        "precip": 0.5
+      },
+      "aug": {
+        "avgTemp": 77,
+        "highTemp": 92.9,
+        "lowTemp": 61,
+        "precip": 0.7
+      },
+      "sep": {
+        "avgTemp": 67.5,
+        "highTemp": 83.1,
+        "lowTemp": 52,
+        "precip": 1.2
+      },
+      "oct": {
+        "avgTemp": 54.7,
+        "highTemp": 68.5,
+        "lowTemp": 40.9,
+        "precip": 1.6
+      },
+      "nov": {
+        "avgTemp": 42.4,
+        "highTemp": 53.2,
+        "lowTemp": 31.6,
+        "precip": 1.4
+      },
+      "dec": {
+        "avgTemp": 32.9,
+        "highTemp": 41.4,
+        "lowTemp": 24.4,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 54.6,
+      "highTemp": 67.5,
+      "lowTemp": 41.7,
+      "totalPrecip": 17.2,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

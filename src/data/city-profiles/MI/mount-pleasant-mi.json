@@ -231,5 +231,93 @@
       7.2,
       6.8
     ]
+  },
+  "climate": {
+    "station": "USC00205662",
+    "stationName": "CENTRAL MICHIGAN UNIV HCN",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.7,
+        "highTemp": 29.5,
+        "lowTemp": 15.9,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 24.4,
+        "highTemp": 32.3,
+        "lowTemp": 16.5,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 33.1,
+        "highTemp": 42.7,
+        "lowTemp": 23.6,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 45.1,
+        "highTemp": 56.2,
+        "lowTemp": 34,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 57.6,
+        "highTemp": 69.4,
+        "lowTemp": 45.8,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 68,
+        "highTemp": 79.5,
+        "lowTemp": 56.5,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 72.2,
+        "highTemp": 83.7,
+        "lowTemp": 60.7,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 70.2,
+        "highTemp": 81.5,
+        "lowTemp": 59,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 62.6,
+        "highTemp": 74,
+        "lowTemp": 51.3,
+        "precip": 2.8
+      },
+      "oct": {
+        "avgTemp": 50.3,
+        "highTemp": 60.2,
+        "lowTemp": 40.5,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 38.3,
+        "highTemp": 45.8,
+        "lowTemp": 30.9,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 28.6,
+        "highTemp": 34.8,
+        "lowTemp": 22.4,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 47.8,
+      "highTemp": 57.5,
+      "lowTemp": 38.1,
+      "totalPrecip": 35.5,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

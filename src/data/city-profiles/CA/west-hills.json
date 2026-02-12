@@ -303,5 +303,92 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00049785",
+    "stationName": "WOODLAND HILLS PIERCE COLLEGE",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 56.4,
+        "highTemp": 69.8,
+        "lowTemp": 43.1,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 56.8,
+        "highTemp": 70,
+        "lowTemp": 43.6,
+        "precip": 4.6
+      },
+      "mar": {
+        "avgTemp": 59.9,
+        "highTemp": 74,
+        "lowTemp": 45.9,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 63.1,
+        "highTemp": 78,
+        "lowTemp": 48.1,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 67.3,
+        "highTemp": 82,
+        "lowTemp": 52.6,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 72.7,
+        "highTemp": 88.5,
+        "lowTemp": 56.9,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 78,
+        "highTemp": 95.1,
+        "lowTemp": 60.8,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 79.1,
+        "highTemp": 97.4,
+        "lowTemp": 60.8
+      },
+      "sep": {
+        "avgTemp": 76.2,
+        "highTemp": 93.9,
+        "lowTemp": 58.5,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 69,
+        "highTemp": 85.2,
+        "lowTemp": 52.9,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 61.2,
+        "highTemp": 76.4,
+        "lowTemp": 46,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 55.5,
+        "highTemp": 68.9,
+        "lowTemp": 42,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 66.3,
+      "highTemp": 81.6,
+      "lowTemp": 50.9,
+      "totalPrecip": 16.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

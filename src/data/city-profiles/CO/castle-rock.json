@@ -255,5 +255,54 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "US1CODG0062",
+    "stationName": "CASTLE ROCK 1.7 SSW",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.7
+      },
+      "feb": {
+        "precip": 0.8
+      },
+      "mar": {
+        "precip": 1.5
+      },
+      "apr": {
+        "precip": 2.3
+      },
+      "may": {
+        "precip": 2.3
+      },
+      "jun": {
+        "precip": 1.9
+      },
+      "jul": {
+        "precip": 2.8
+      },
+      "aug": {
+        "precip": 2.4
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 0.9
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 19,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

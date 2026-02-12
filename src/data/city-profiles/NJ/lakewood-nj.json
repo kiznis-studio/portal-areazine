@@ -255,5 +255,54 @@
       5.7,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1NJMN0064",
+    "stationName": "HOWELL TWP 3.7 SSW",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.7
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 5.1
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 52,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,93 @@
       5.3,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USW00014768",
+    "stationName": "ROCHESTER GTR INTL AP HCN 72529",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.2,
+        "highTemp": 33.4,
+        "lowTemp": 19,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 27.4,
+        "highTemp": 35.2,
+        "lowTemp": 19.6,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 35.2,
+        "highTemp": 43.6,
+        "lowTemp": 26.8,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 46.8,
+        "highTemp": 56.6,
+        "lowTemp": 37.1,
+        "precip": 3
+      },
+      "may": {
+        "avgTemp": 58.8,
+        "highTemp": 69.4,
+        "lowTemp": 48.2,
+        "precip": 2.9
+      },
+      "jun": {
+        "avgTemp": 67.6,
+        "highTemp": 77.9,
+        "lowTemp": 57.4,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 72.3,
+        "highTemp": 82.5,
+        "lowTemp": 62.2,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 70.7,
+        "highTemp": 80.5,
+        "lowTemp": 61,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 73.6,
+        "lowTemp": 53.6,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 52.2,
+        "highTemp": 61.2,
+        "lowTemp": 43.3,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 41.5,
+        "highTemp": 49.1,
+        "lowTemp": 34,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 32,
+        "highTemp": 38.5,
+        "lowTemp": 25.4,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 58.5,
+      "lowTemp": 40.6,
+      "totalPrecip": 35.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -255,5 +255,92 @@
       5.8,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USC00042934",
+    "stationName": "FAIRFIELD",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.5,
+        "highTemp": 56.6,
+        "lowTemp": 40.4,
+        "precip": 4.7
+      },
+      "feb": {
+        "avgTemp": 52.2,
+        "highTemp": 61.6,
+        "lowTemp": 42.9,
+        "precip": 5
+      },
+      "mar": {
+        "avgTemp": 55.9,
+        "highTemp": 66.4,
+        "lowTemp": 45.4,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 59.6,
+        "highTemp": 71.3,
+        "lowTemp": 47.9,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 65,
+        "highTemp": 77.8,
+        "lowTemp": 52.2,
+        "precip": 0.7
+      },
+      "jun": {
+        "avgTemp": 70.8,
+        "highTemp": 85.4,
+        "lowTemp": 56.1,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 73.8,
+        "highTemp": 89.6,
+        "lowTemp": 57.9
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 89.2,
+        "lowTemp": 58,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 71.7,
+        "highTemp": 86.9,
+        "lowTemp": 56.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 65.2,
+        "highTemp": 78.2,
+        "lowTemp": 52.3,
+        "precip": 1.1
+      },
+      "nov": {
+        "avgTemp": 55.4,
+        "highTemp": 65.6,
+        "lowTemp": 45.2,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 48.4,
+        "highTemp": 56.7,
+        "lowTemp": 40.1,
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "avgTemp": 61.7,
+      "highTemp": 73.8,
+      "lowTemp": 49.6,
+      "totalPrecip": 24.6,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       2.1,
       2
     ]
+  },
+  "climate": {
+    "station": "USC00401039",
+    "stationName": "BRENTWOOD",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.1,
+        "highTemp": 47.9,
+        "lowTemp": 26.2,
+        "precip": 4.7
+      },
+      "feb": {
+        "avgTemp": 40.5,
+        "highTemp": 52.9,
+        "lowTemp": 28.1,
+        "precip": 4.7
+      },
+      "mar": {
+        "avgTemp": 48,
+        "highTemp": 61.4,
+        "lowTemp": 34.6,
+        "precip": 5.5
+      },
+      "apr": {
+        "avgTemp": 57.4,
+        "highTemp": 71,
+        "lowTemp": 43.7,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 65.9,
+        "highTemp": 79.1,
+        "lowTemp": 52.6,
+        "precip": 5.7
+      },
+      "jun": {
+        "avgTemp": 74.6,
+        "highTemp": 86.6,
+        "lowTemp": 62.6,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 77.9,
+        "highTemp": 89.5,
+        "lowTemp": 66.2,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 76.5,
+        "highTemp": 88.8,
+        "lowTemp": 64.2,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 70.2,
+        "highTemp": 83.6,
+        "lowTemp": 56.9,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 59.2,
+        "highTemp": 73,
+        "lowTemp": 45.3,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 47.4,
+        "highTemp": 60.9,
+        "lowTemp": 33.9,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 40.2,
+        "highTemp": 51.1,
+        "lowTemp": 29.2,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 57.9,
+      "highTemp": 70.5,
+      "lowTemp": 45.3,
+      "totalPrecip": 54.5,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

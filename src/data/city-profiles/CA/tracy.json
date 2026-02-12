@@ -279,5 +279,92 @@
       7.2,
       7.4
     ]
+  },
+  "climate": {
+    "station": "USC00048999",
+    "stationName": "TRACY CARBONA",
+    "distanceMi": 5.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.8,
+        "highTemp": 57.2,
+        "lowTemp": 36.4,
+        "precip": 2.3
+      },
+      "feb": {
+        "avgTemp": 50.5,
+        "highTemp": 62.1,
+        "lowTemp": 38.9,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 54.8,
+        "highTemp": 68,
+        "lowTemp": 41.6,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 59.2,
+        "highTemp": 73.4,
+        "lowTemp": 45,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 65.4,
+        "highTemp": 80.4,
+        "lowTemp": 50.3,
+        "precip": 0.7
+      },
+      "jun": {
+        "avgTemp": 71.6,
+        "highTemp": 88.3,
+        "lowTemp": 54.9,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 74.9,
+        "highTemp": 93.2,
+        "lowTemp": 56.6
+      },
+      "aug": {
+        "avgTemp": 73.9,
+        "highTemp": 92.1,
+        "lowTemp": 55.6,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 71,
+        "highTemp": 88.5,
+        "lowTemp": 53.5,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 63.5,
+        "highTemp": 78.9,
+        "lowTemp": 48.1,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 53.7,
+        "highTemp": 66.7,
+        "lowTemp": 40.7,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 46.4,
+        "highTemp": 56.3,
+        "lowTemp": 36.4,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 61,
+      "highTemp": 75.4,
+      "lowTemp": 46.5,
+      "totalPrecip": 12.7,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

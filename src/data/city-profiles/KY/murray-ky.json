@@ -153,5 +153,93 @@
       4.7,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00155694",
+    "stationName": "MURRAY",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.5,
+        "highTemp": 45.6,
+        "lowTemp": 27.4,
+        "precip": 4.2
+      },
+      "feb": {
+        "avgTemp": 40.5,
+        "highTemp": 50.4,
+        "lowTemp": 30.7,
+        "precip": 5.2
+      },
+      "mar": {
+        "avgTemp": 49.4,
+        "highTemp": 60.6,
+        "lowTemp": 38.2,
+        "precip": 5.5
+      },
+      "apr": {
+        "avgTemp": 59.4,
+        "highTemp": 71.4,
+        "lowTemp": 47.5,
+        "precip": 5.6
+      },
+      "may": {
+        "avgTemp": 68,
+        "highTemp": 78.9,
+        "lowTemp": 57,
+        "precip": 5.8
+      },
+      "jun": {
+        "avgTemp": 75.8,
+        "highTemp": 86.3,
+        "lowTemp": 65.4,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 79.2,
+        "highTemp": 89.3,
+        "lowTemp": 69,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 78.1,
+        "highTemp": 88.8,
+        "lowTemp": 67.4,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 71.4,
+        "highTemp": 82.6,
+        "lowTemp": 60.3,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 59.8,
+        "highTemp": 71.2,
+        "lowTemp": 48.4,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 48,
+        "highTemp": 58.4,
+        "lowTemp": 37.6,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 39.6,
+        "highTemp": 48.4,
+        "lowTemp": 30.7,
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "avgTemp": 58.8,
+      "highTemp": 69.3,
+      "lowTemp": 48.3,
+      "totalPrecip": 58,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

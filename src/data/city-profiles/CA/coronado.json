@@ -303,5 +303,93 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USW00093112",
+    "stationName": "NORTH ISLAND NAS",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.6,
+        "highTemp": 66.3,
+        "lowTemp": 49,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 58.4,
+        "highTemp": 66.3,
+        "lowTemp": 50.5,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 60,
+        "highTemp": 67,
+        "lowTemp": 52.9,
+        "precip": 1.5
+      },
+      "apr": {
+        "avgTemp": 61.8,
+        "highTemp": 68.1,
+        "lowTemp": 55.4,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 64.2,
+        "highTemp": 69.3,
+        "lowTemp": 59.1,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 66.3,
+        "highTemp": 70.9,
+        "lowTemp": 61.7,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 69.7,
+        "highTemp": 74.4,
+        "lowTemp": 65.1,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 71.6,
+        "highTemp": 76.7,
+        "lowTemp": 66.5,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 70.9,
+        "highTemp": 76.6,
+        "lowTemp": 65.1,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 67.3,
+        "highTemp": 74.5,
+        "lowTemp": 60.2,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 62,
+        "highTemp": 70.5,
+        "lowTemp": 53.6,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 57.2,
+        "highTemp": 65.8,
+        "lowTemp": 48.5,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 63.9,
+      "highTemp": 70.5,
+      "lowTemp": 57.3,
+      "totalPrecip": 9.5,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

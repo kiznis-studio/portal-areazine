@@ -216,5 +216,93 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00115493",
+    "stationName": "MC HENRY -WG STRATTON L&D",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.7,
+        "highTemp": 30.6,
+        "lowTemp": 12.9,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 25.4,
+        "highTemp": 34.6,
+        "lowTemp": 16.2,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 35.9,
+        "highTemp": 46,
+        "lowTemp": 25.9,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 47.7,
+        "highTemp": 58.8,
+        "lowTemp": 36.6,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 58.8,
+        "highTemp": 70.4,
+        "lowTemp": 47.2,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 68.6,
+        "highTemp": 80.2,
+        "lowTemp": 57,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 72.8,
+        "highTemp": 84.2,
+        "lowTemp": 61.5,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 71,
+        "highTemp": 82.3,
+        "lowTemp": 59.7,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 75.7,
+        "lowTemp": 51.4,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 51.3,
+        "highTemp": 63,
+        "lowTemp": 39.6,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 38.7,
+        "highTemp": 48.1,
+        "lowTemp": 29.4,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 27.6,
+        "highTemp": 35.9,
+        "lowTemp": 19.3,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 48.6,
+      "highTemp": 59.2,
+      "lowTemp": 38.1,
+      "totalPrecip": 37,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

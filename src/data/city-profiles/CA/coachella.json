@@ -303,5 +303,92 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00044259",
+    "stationName": "INDIO FIRE STN HCN",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 58.6,
+        "highTemp": 70.3,
+        "lowTemp": 46.8,
+        "precip": 0.7
+      },
+      "feb": {
+        "avgTemp": 62.2,
+        "highTemp": 73.3,
+        "lowTemp": 51,
+        "precip": 0.6
+      },
+      "mar": {
+        "avgTemp": 68.5,
+        "highTemp": 79.9,
+        "lowTemp": 57.2,
+        "precip": 0.3
+      },
+      "apr": {
+        "avgTemp": 74.5,
+        "highTemp": 85.8,
+        "lowTemp": 63.1,
+        "precip": 0.1
+      },
+      "may": {
+        "avgTemp": 81.2,
+        "highTemp": 93.1,
+        "lowTemp": 69.3,
+        "precip": 0
+      },
+      "jun": {
+        "avgTemp": 89.2,
+        "highTemp": 101.7,
+        "lowTemp": 76.6
+      },
+      "jul": {
+        "avgTemp": 94.1,
+        "highTemp": 105.8,
+        "lowTemp": 82.5,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 93.8,
+        "highTemp": 105.2,
+        "lowTemp": 82.5,
+        "precip": 0.3
+      },
+      "sep": {
+        "avgTemp": 88.7,
+        "highTemp": 100.8,
+        "lowTemp": 76.5,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 78.1,
+        "highTemp": 90.5,
+        "lowTemp": 65.8,
+        "precip": 0.2
+      },
+      "nov": {
+        "avgTemp": 65.5,
+        "highTemp": 78,
+        "lowTemp": 53,
+        "precip": 0.2
+      },
+      "dec": {
+        "avgTemp": 57,
+        "highTemp": 68.8,
+        "lowTemp": 45.3,
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "avgTemp": 76,
+      "highTemp": 87.8,
+      "lowTemp": 64.1,
+      "totalPrecip": 3.1,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

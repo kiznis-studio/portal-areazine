@@ -216,5 +216,54 @@
       6.6,
       6.3
     ]
+  },
+  "climate": {
+    "station": "US1MDPG0043",
+    "stationName": "SUITLAND 2.1 SE",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

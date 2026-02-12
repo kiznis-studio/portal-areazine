@@ -231,5 +231,93 @@
       8.1,
       7.8
     ]
+  },
+  "climate": {
+    "station": "USC00353445",
+    "stationName": "GRANTS PASS HCN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.5,
+        "highTemp": 47.6,
+        "lowTemp": 35.3,
+        "precip": 5.1
+      },
+      "feb": {
+        "avgTemp": 44.8,
+        "highTemp": 53.9,
+        "lowTemp": 35.6,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 48.2,
+        "highTemp": 59.6,
+        "lowTemp": 36.9,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 52.6,
+        "highTemp": 65.4,
+        "lowTemp": 39.8,
+        "precip": 2.3
+      },
+      "may": {
+        "avgTemp": 59.9,
+        "highTemp": 74.1,
+        "lowTemp": 45.7,
+        "precip": 1.4
+      },
+      "jun": {
+        "avgTemp": 65.9,
+        "highTemp": 81.2,
+        "lowTemp": 50.5,
+        "precip": 0.7
+      },
+      "jul": {
+        "avgTemp": 73.4,
+        "highTemp": 90.5,
+        "lowTemp": 56.3,
+        "precip": 0.4
+      },
+      "aug": {
+        "avgTemp": 72.7,
+        "highTemp": 90.6,
+        "lowTemp": 54.9,
+        "precip": 0.3
+      },
+      "sep": {
+        "avgTemp": 66.1,
+        "highTemp": 83.9,
+        "lowTemp": 48.3,
+        "precip": 0.6
+      },
+      "oct": {
+        "avgTemp": 55.5,
+        "highTemp": 69.8,
+        "lowTemp": 41.1,
+        "precip": 2.1
+      },
+      "nov": {
+        "avgTemp": 46.1,
+        "highTemp": 53.8,
+        "lowTemp": 38.5,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 40.4,
+        "highTemp": 45.7,
+        "lowTemp": 35.1,
+        "precip": 6.6
+      }
+    },
+    "annual": {
+      "avgTemp": 55.6,
+      "highTemp": 68,
+      "lowTemp": 43.2,
+      "totalPrecip": 31.6,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

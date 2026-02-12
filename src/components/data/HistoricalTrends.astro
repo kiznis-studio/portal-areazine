@@ -33,7 +33,7 @@ const metrics = [
   { key: 'medianHomeValue', label: 'Median Home Value', values: history.medianHomeValue, format: fmtMoney, invert: false },
   { key: 'povertyRate', label: 'Poverty Rate', values: history.povertyRate, format: fmtPct, invert: true },
   { key: 'unemploymentRate', label: 'Unemployment', values: history.unemploymentRate, format: fmtPct, invert: true },
-].filter(m => m.values.some(v => v != null));
+].filter(m => m.values?.some(v => v != null));
 
 const firstYear = history.years[0];
 const lastYear = history.years[history.years.length - 1];

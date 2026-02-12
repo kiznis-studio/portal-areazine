@@ -255,5 +255,92 @@
       5.8,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USC00045378",
+    "stationName": "MARTINEZ WTP",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.6,
+        "highTemp": 56.1,
+        "lowTemp": 35,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 49.1,
+        "highTemp": 60.9,
+        "lowTemp": 37.4,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 53,
+        "highTemp": 65.9,
+        "lowTemp": 40.2,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 56.8,
+        "highTemp": 71.1,
+        "lowTemp": 42.5,
+        "precip": 1.3
+      },
+      "may": {
+        "avgTemp": 62,
+        "highTemp": 78,
+        "lowTemp": 45.9,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 67.4,
+        "highTemp": 85,
+        "lowTemp": 49.8,
+        "precip": 0.3
+      },
+      "jul": {
+        "avgTemp": 69.8,
+        "highTemp": 88.4,
+        "lowTemp": 51.2
+      },
+      "aug": {
+        "avgTemp": 68.9,
+        "highTemp": 87.4,
+        "lowTemp": 50.5,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 66.9,
+        "highTemp": 84.2,
+        "lowTemp": 49.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 60.8,
+        "highTemp": 76.1,
+        "lowTemp": 45.5,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 51.9,
+        "highTemp": 64.4,
+        "lowTemp": 39.3,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 45.6,
+        "highTemp": 56.5,
+        "lowTemp": 34.8,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 58.2,
+      "highTemp": 72.8,
+      "lowTemp": 43.5,
+      "totalPrecip": 19.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

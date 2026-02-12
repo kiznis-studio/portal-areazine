@@ -239,5 +239,93 @@
       6.4,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00202395",
+    "stationName": "EAST LANSING 4 S",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.7,
+        "highTemp": 31.8,
+        "lowTemp": 17.5,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 26.6,
+        "highTemp": 34.4,
+        "lowTemp": 18.8,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 36,
+        "highTemp": 44.9,
+        "lowTemp": 27.2,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 47.5,
+        "highTemp": 57.7,
+        "lowTemp": 37.3,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 59.3,
+        "highTemp": 70.2,
+        "lowTemp": 48.4,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 68.5,
+        "highTemp": 79.4,
+        "lowTemp": 57.6,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 72.1,
+        "highTemp": 83,
+        "lowTemp": 61.2,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 70.6,
+        "highTemp": 81.4,
+        "lowTemp": 59.8,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 75.5,
+        "lowTemp": 51.8,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 51.5,
+        "highTemp": 61.6,
+        "lowTemp": 41.5,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 40.2,
+        "highTemp": 48.2,
+        "lowTemp": 32.2,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 30.3,
+        "highTemp": 37.1,
+        "lowTemp": 23.5,
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "avgTemp": 49.2,
+      "highTemp": 58.8,
+      "lowTemp": 39.7,
+      "totalPrecip": 34.6,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

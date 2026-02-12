@@ -303,5 +303,93 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USW00094290",
+    "stationName": "SEATTLE SAND PT WSFO",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.3,
+        "highTemp": 47.4,
+        "lowTemp": 37.2,
+        "precip": 5.1
+      },
+      "feb": {
+        "avgTemp": 43.4,
+        "highTemp": 49.8,
+        "lowTemp": 37,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 46.6,
+        "highTemp": 53.9,
+        "lowTemp": 39.2,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 50.8,
+        "highTemp": 58.8,
+        "lowTemp": 42.8,
+        "precip": 3
+      },
+      "may": {
+        "avgTemp": 56.8,
+        "highTemp": 65.3,
+        "lowTemp": 48.3,
+        "precip": 2.2
+      },
+      "jun": {
+        "avgTemp": 61.4,
+        "highTemp": 70.2,
+        "lowTemp": 52.7,
+        "precip": 1.6
+      },
+      "jul": {
+        "avgTemp": 66.5,
+        "highTemp": 76.5,
+        "lowTemp": 56.5,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 67.1,
+        "highTemp": 77,
+        "lowTemp": 57.1,
+        "precip": 1
+      },
+      "sep": {
+        "avgTemp": 62.3,
+        "highTemp": 71.3,
+        "lowTemp": 53.2,
+        "precip": 1.7
+      },
+      "oct": {
+        "avgTemp": 53.6,
+        "highTemp": 60.5,
+        "lowTemp": 46.7,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 46.4,
+        "highTemp": 51.9,
+        "lowTemp": 40.9,
+        "precip": 5.9
+      },
+      "dec": {
+        "avgTemp": 41.8,
+        "highTemp": 46.5,
+        "lowTemp": 37,
+        "precip": 5.6
+      }
+    },
+    "annual": {
+      "avgTemp": 53.2,
+      "highTemp": 60.8,
+      "lowTemp": 45.7,
+      "totalPrecip": 38,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

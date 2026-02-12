@@ -247,5 +247,93 @@
       5.6,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USW00093807",
+    "stationName": "WINSTON SALEM RYNLDS AP 72319",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.8,
+        "highTemp": 48.8,
+        "lowTemp": 30.7,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 43,
+        "highTemp": 52.8,
+        "lowTemp": 33.2,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 50.4,
+        "highTemp": 60.8,
+        "lowTemp": 40.1,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 59.4,
+        "highTemp": 70.6,
+        "lowTemp": 48.3,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 67.5,
+        "highTemp": 77.9,
+        "lowTemp": 57,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 75.1,
+        "highTemp": 84.9,
+        "lowTemp": 65.4,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 78.6,
+        "highTemp": 88,
+        "lowTemp": 69.2,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 77,
+        "highTemp": 86.1,
+        "lowTemp": 67.9,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 70.6,
+        "highTemp": 80.1,
+        "lowTemp": 61.2,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 59.9,
+        "highTemp": 70.6,
+        "lowTemp": 49.3,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 49.6,
+        "highTemp": 60.1,
+        "lowTemp": 39.1,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 42.6,
+        "highTemp": 51.7,
+        "lowTemp": 33.6,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 59.5,
+      "highTemp": 69.4,
+      "lowTemp": 49.6,
+      "totalPrecip": 43.3,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

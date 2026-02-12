@@ -1,14 +1,14 @@
 ---
-import Base from '../../layouts/Base.astro';
-import Breadcrumb from '../../components/ui/Breadcrumb.astro';
-import SectionHeader from '../../components/ui/SectionHeader.astro';
-import StatCard from '../../components/data/StatCard.astro';
-import RankRow from '../../components/data/RankRow.astro';
-import { CITIES, US_STATES, getCitiesByState } from '../../data/cities';
-import { fmt, fmtMoney, fmtCompact } from '../../lib/format';
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/ui/Breadcrumb.astro';
+import SectionHeader from '../../../components/ui/SectionHeader.astro';
+import StatCard from '../../../components/data/StatCard.astro';
+import RankRow from '../../../components/data/RankRow.astro';
+import { CITIES, US_STATES, getCitiesByState } from '../../../data/cities';
+import { fmt, fmtMoney, fmtCompact } from '../../../lib/format';
 
 // Load state profiles
-const stateProfileMods = import.meta.glob('../../data/state-profiles/*.json', { eager: true }) as Record<string, { default: any }>;
+const stateProfileMods = import.meta.glob('../../../data/state-profiles/*.json', { eager: true }) as Record<string, { default: any }>;
 const stateProfiles: Record<string, any> = {};
 for (const [path, mod] of Object.entries(stateProfileMods)) {
   const code = path.split('/').pop()?.replace('.json', '') || '';
@@ -16,7 +16,7 @@ for (const [path, mod] of Object.entries(stateProfileMods)) {
 }
 
 export function getStaticPaths() {
-  const states = import.meta.glob('../../data/state-profiles/*.json', { eager: true });
+  const states = import.meta.glob('../../../data/state-profiles/*.json', { eager: true });
   const statesList: { code: string; name: string; slug: string }[] = [];
 
   for (const path of Object.keys(states)) {
@@ -39,14 +39,35 @@ const { stateCode, stateName } = Astro.props;
 const profile = stateProfiles[stateCode];
 const cities = getCitiesByState(stateCode).sort((a, b) => b.population - a.population);
 
+// Load city profiles for crime ranking
+const profileModules = import.meta.glob('../../../data/city-profiles/**/*.json', { eager: true }) as Record<string, { default: any }>;
+const cityProfiles: Record<string, any> = {};
+for (const [p, mod] of Object.entries(profileModules)) {
+  const slug = p.split('/').pop()?.replace('.json', '') || '';
+  cityProfiles[slug] = mod.default ?? mod;
+}
+
 const stateSlug = stateName.toLowerCase().replace(/\s+/g, '-');
+const crimeData = profile?.crime;
 const pageTitle = `${stateName} City Data — ${profile?.cityCount || 0} Cities`;
-const pageDesc = `Explore ${profile?.cityCount || 0} cities in ${stateName}. Population, income, health data, and hospital ratings from official U.S. government sources.`;
+const pageDesc = `Explore ${profile?.cityCount || 0} cities in ${stateName}. Population, income, crime, health data, and hospital ratings from official U.S. government sources.`;
 
 // Max values for ranking bars
 const maxPop = profile?.rankings?.byPopulation?.[0]?.value || 1;
 const maxIncome = profile?.rankings?.byIncome?.[0]?.value || 1;
 const maxHomeVal = profile?.rankings?.byHomeValue?.[0]?.value || 1;
+
+// Build safety rankings (lowest violent crime = safest)
+const citiesWithCrime = cities
+  .filter(c => cityProfiles[c.slug]?.crime?.violentCrimeRate > 0)
+  .map(c => ({
+    name: c.name,
+    slug: c.slug,
+    violentCrime: cityProfiles[c.slug].crime.violentCrimeRate,
+    propertyCrime: cityProfiles[c.slug].crime.propertyCrimeRate,
+  }));
+const safestCities = [...citiesWithCrime].sort((a, b) => a.violentCrime - b.violentCrime).slice(0, 10);
+const maxSafeCrime = safestCities[safestCities.length - 1]?.violentCrime || 1;
 ---
 
 <Base title={pageTitle} description={pageDesc}>
@@ -101,6 +122,60 @@ const maxHomeVal = profile?.rankings?.byHomeValue?.[0]?.value || 1;
       </section>
     )}
 
+    {/* State Crime Stats */}
+    {crimeData && (
+      <section class="mb-12">
+        <SectionHeader title="Public Safety" badge={`${crimeData.year} data`} />
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6">
+          <StatCard
+            label="Violent Crime"
+            value={Math.round(crimeData.violentCrimeRate).toString()}
+            subtitle="per 100k residents"
+            accentColor="var(--color-data-red)"
+          />
+          <StatCard
+            label="Property Crime"
+            value={Math.round(crimeData.propertyCrimeRate).toString()}
+            subtitle="per 100k residents"
+            accentColor="var(--color-data-amber)"
+          />
+          <StatCard
+            label="Assault"
+            value={Math.round(crimeData.assaultRate).toString()}
+            subtitle="per 100k"
+            accentColor="var(--color-data-slate)"
+          />
+          <StatCard
+            label="Burglary"
+            value={Math.round(crimeData.burglaryRate).toString()}
+            subtitle="per 100k"
+            accentColor="var(--color-data-slate)"
+          />
+        </div>
+
+        {safestCities.length > 0 && (
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <h3 class="text-xs font-bold uppercase tracking-wider text-[var(--color-muted)] mb-3">
+                Safest Cities in {stateName}
+              </h3>
+              <div class="data-table">
+                {safestCities.map((c, i) => (
+                  <RankRow
+                    rank={i + 1}
+                    label={c.name}
+                    value={Math.round(c.violentCrime) + '/100k'}
+                    href={`/cities/${c.slug}`}
+                    barPct={100 - (c.violentCrime / maxSafeCrime) * 80}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+      </section>
+    )}
+
     {/* Rankings */}
     {profile?.rankings && (
       <div class="grid md:grid-cols-3 gap-6 mb-12">
@@ -150,6 +225,32 @@ const maxHomeVal = profile?.rankings?.byHomeValue?.[0]?.value || 1;
         </section>
       </div>
     )}
+
+    {/* City Rankings */}
+    <section class="mb-12">
+      <SectionHeader title={`${stateName} City Rankings`} count={10} />
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+        {[
+          { slug: 'safest-cities', label: `Safest Cities in ${stateName}` },
+          { slug: 'most-dangerous-cities', label: `Most Dangerous Cities in ${stateName}` },
+          { slug: 'most-affordable-cities', label: `Most Affordable Cities in ${stateName}` },
+          { slug: 'most-expensive-cities', label: `Most Expensive Cities in ${stateName}` },
+          { slug: 'highest-income-cities', label: `Highest Income Cities in ${stateName}` },
+          { slug: 'largest-cities', label: `Largest Cities in ${stateName}` },
+          { slug: 'fastest-growing-cities', label: `Fastest Growing Cities in ${stateName}` },
+          { slug: 'most-educated-cities', label: `Most Educated Cities in ${stateName}` },
+          { slug: 'lowest-unemployment', label: `Lowest Unemployment in ${stateName}` },
+          { slug: 'youngest-cities', label: `Youngest Cities in ${stateName}` },
+        ].map(r => (
+          <a
+            href={`/states/${stateSlug}/${r.slug}`}
+            class="text-sm py-3 px-4 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] hover:bg-[var(--color-card)] transition-colors"
+          >
+            <span class="font-medium">{r.label}</span>
+          </a>
+        ))}
+      </div>
+    </section>
 
     {/* All Cities */}
     <section class="mb-12">

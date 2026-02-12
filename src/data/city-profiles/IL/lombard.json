@@ -216,5 +216,54 @@
       4.7,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ILDP0040",
+    "stationName": "LOMBARD 1.0 NNW",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.8
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

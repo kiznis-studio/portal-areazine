@@ -263,5 +263,54 @@
       8.6,
       8.5
     ]
+  },
+  "climate": {
+    "station": "US1CAFR0002",
+    "stationName": "CLOVIS 2.9 N",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 1.3
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1.3
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 14.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

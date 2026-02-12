@@ -231,5 +231,54 @@
       5.9,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1TXGV0076",
+    "stationName": "DICKINSON 1.7 ENE",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.5
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 5.4
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.8
+      },
+      "sep": {
+        "precip": 8.6
+      },
+      "oct": {
+        "precip": 5.9
+      },
+      "nov": {
+        "precip": 5
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 58.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

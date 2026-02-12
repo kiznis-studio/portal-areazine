@@ -216,5 +216,93 @@
       6.6,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00185111",
+    "stationName": "LAUREL 3 W HCN",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.4,
+        "highTemp": 42.7,
+        "lowTemp": 26.1,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 37,
+        "highTemp": 46.1,
+        "lowTemp": 28,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 44.8,
+        "highTemp": 54.8,
+        "lowTemp": 34.8,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 55.9,
+        "highTemp": 67,
+        "lowTemp": 44.9,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 65.4,
+        "highTemp": 75.5,
+        "lowTemp": 55.3,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 74.4,
+        "highTemp": 84.2,
+        "lowTemp": 64.5,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 79,
+        "highTemp": 88.6,
+        "lowTemp": 69.4,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 77.5,
+        "highTemp": 87.1,
+        "lowTemp": 67.9,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 70.6,
+        "highTemp": 80,
+        "lowTemp": 61.2,
+        "precip": 4.7
+      },
+      "oct": {
+        "avgTemp": 59.1,
+        "highTemp": 68.5,
+        "lowTemp": 49.7,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 47.8,
+        "highTemp": 57.1,
+        "lowTemp": 38.6,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 39.2,
+        "highTemp": 47,
+        "lowTemp": 31.4,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 57.1,
+      "highTemp": 66.6,
+      "lowTemp": 47.7,
+      "totalPrecip": 47.5,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

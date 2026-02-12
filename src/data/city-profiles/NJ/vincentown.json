@@ -247,5 +247,93 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "USW00093780",
+    "stationName": "MT HOLLY S JERSEY AP",
+    "distanceMi": 5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.8,
+        "highTemp": 41,
+        "lowTemp": 24.6,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 34.8,
+        "highTemp": 44,
+        "lowTemp": 25.7,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 42.5,
+        "highTemp": 52,
+        "lowTemp": 32.9,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 52.6,
+        "highTemp": 63.5,
+        "lowTemp": 41.6,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 62.2,
+        "highTemp": 73.3,
+        "lowTemp": 51.1,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 71.5,
+        "highTemp": 81.9,
+        "lowTemp": 61,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 76.6,
+        "highTemp": 87,
+        "lowTemp": 66.2,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 74.4,
+        "highTemp": 84.8,
+        "lowTemp": 64,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 67.2,
+        "highTemp": 77.9,
+        "lowTemp": 56.5,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 55.9,
+        "highTemp": 66.3,
+        "lowTemp": 45.6,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 45.7,
+        "highTemp": 55.6,
+        "lowTemp": 35.9,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 37.4,
+        "highTemp": 45.6,
+        "lowTemp": 29.1,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 54.5,
+      "highTemp": 64.4,
+      "lowTemp": 44.5,
+      "totalPrecip": 42.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

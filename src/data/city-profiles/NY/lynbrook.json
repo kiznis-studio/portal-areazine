@@ -295,5 +295,93 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00306138",
+    "stationName": "OCEANSIDE",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.6,
+        "highTemp": 39.3,
+        "lowTemp": 26,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 34.2,
+        "highTemp": 41.8,
+        "lowTemp": 26.7,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 40.4,
+        "highTemp": 48.2,
+        "lowTemp": 32.7,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 50.2,
+        "highTemp": 59,
+        "lowTemp": 41.4,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 59.3,
+        "highTemp": 67.4,
+        "lowTemp": 51.2,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 68.4,
+        "highTemp": 76.1,
+        "lowTemp": 60.8,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 74.5,
+        "highTemp": 81.8,
+        "lowTemp": 67.1,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 74,
+        "highTemp": 81.5,
+        "lowTemp": 66.5,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 67.4,
+        "highTemp": 75.3,
+        "lowTemp": 59.5,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 56.2,
+        "highTemp": 64,
+        "lowTemp": 48.4,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 46.1,
+        "highTemp": 53.7,
+        "lowTemp": 38.5,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 37.8,
+        "highTemp": 44.4,
+        "lowTemp": 31.3,
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "avgTemp": 53.4,
+      "highTemp": 61,
+      "lowTemp": 45.8,
+      "totalPrecip": 48.8,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

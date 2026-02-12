@@ -231,5 +231,93 @@
       3.6,
       3.1
     ]
+  },
+  "climate": {
+    "station": "USW00014745",
+    "stationName": "CONCORD MUNI AP 72605",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.3,
+        "highTemp": 31.6,
+        "lowTemp": 12.9,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 24.7,
+        "highTemp": 34.8,
+        "lowTemp": 14.7,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 33.4,
+        "highTemp": 43.6,
+        "lowTemp": 23.3,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 45.4,
+        "highTemp": 57.5,
+        "lowTemp": 33.3,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 56.7,
+        "highTemp": 69.3,
+        "lowTemp": 44.1,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 65.8,
+        "highTemp": 77.8,
+        "lowTemp": 53.7,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 71.1,
+        "highTemp": 83,
+        "lowTemp": 59.2,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 69.5,
+        "highTemp": 81.7,
+        "lowTemp": 57.2,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 61.4,
+        "highTemp": 73.7,
+        "lowTemp": 49,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 49.3,
+        "highTemp": 60.9,
+        "lowTemp": 37.8,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 38.6,
+        "highTemp": 48.4,
+        "lowTemp": 28.7,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 28.3,
+        "highTemp": 37.1,
+        "lowTemp": 19.5,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 47.2,
+      "highTemp": 58.3,
+      "lowTemp": 36.1,
+      "totalPrecip": 41.9,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

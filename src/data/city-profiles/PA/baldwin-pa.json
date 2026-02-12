@@ -225,5 +225,93 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USW00014762",
+    "stationName": "PITTSBURGH ALLEGHENY CO AP",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.5,
+        "highTemp": 36.6,
+        "lowTemp": 22.3,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 32.1,
+        "highTemp": 39.9,
+        "lowTemp": 24.3,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 40.4,
+        "highTemp": 49.4,
+        "lowTemp": 31.3,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 52.1,
+        "highTemp": 62.5,
+        "lowTemp": 41.8,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 61.8,
+        "highTemp": 71.9,
+        "lowTemp": 51.8,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 69.5,
+        "highTemp": 79.1,
+        "lowTemp": 59.9,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 73.6,
+        "highTemp": 83,
+        "lowTemp": 64.1,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 72.1,
+        "highTemp": 81.3,
+        "lowTemp": 62.8,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 65.4,
+        "highTemp": 74.8,
+        "lowTemp": 55.9,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 54.2,
+        "highTemp": 63.3,
+        "lowTemp": 45.1,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 43.2,
+        "highTemp": 51.1,
+        "lowTemp": 35.3,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 34.4,
+        "highTemp": 41,
+        "lowTemp": 27.7,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 52.4,
+      "highTemp": 61.2,
+      "lowTemp": 43.5,
+      "totalPrecip": 41.3,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

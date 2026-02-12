@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00510248",
+    "stationName": "CAMPBELL IND PK 702.5",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.2
+      },
+      "apr": {
+        "precip": 0.7
+      },
+      "may": {
+        "precip": 0.9
+      },
+      "jun": {
+        "precip": 0.4
+      },
+      "jul": {
+        "precip": 0.6
+      },
+      "aug": {
+        "precip": 1
+      },
+      "sep": {
+        "precip": 0.8
+      },
+      "oct": {
+        "precip": 1.8
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 17,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

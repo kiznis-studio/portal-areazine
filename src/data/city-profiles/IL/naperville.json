@@ -216,5 +216,54 @@
       4.7,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ILDP0027",
+    "stationName": "NAPERVILLE 2.1 ESE",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

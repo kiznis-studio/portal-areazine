@@ -12,5 +12,12 @@
   "avgRobberyRate": 69.7,
   "avgBurglaryRate": 275.5,
   "avgLarcenyRate": 1419.5,
-  "avgMotorVehicleTheftRate": 290.2
+  "avgMotorVehicleTheftRate": 290.2,
+  "costOfLiving": {
+    "nationalAvgRpp": 100,
+    "msaAvgRpp": 94.5,
+    "msaCount": 381,
+    "year": "2023",
+    "source": "BEA Regional Price Parities via FRED"
+  }
 }

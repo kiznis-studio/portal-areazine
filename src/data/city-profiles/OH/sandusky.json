@@ -231,5 +231,93 @@
       6.1,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USW00014846",
+    "stationName": "SANDUSKY",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.1,
+        "highTemp": 34.4,
+        "lowTemp": 21.8,
+        "precip": 1.9
+      },
+      "feb": {
+        "avgTemp": 30.2,
+        "highTemp": 37,
+        "lowTemp": 23.4,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 38,
+        "highTemp": 45,
+        "lowTemp": 30.9,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 49.3,
+        "highTemp": 57.3,
+        "lowTemp": 41.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 60.8,
+        "highTemp": 68.5,
+        "lowTemp": 53.2,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 70.8,
+        "highTemp": 78.1,
+        "lowTemp": 63.4,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 74.7,
+        "highTemp": 82.3,
+        "lowTemp": 67.2,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 73.2,
+        "highTemp": 80.5,
+        "lowTemp": 65.8,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 66.7,
+        "highTemp": 74.5,
+        "lowTemp": 58.9,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 55.3,
+        "highTemp": 63,
+        "lowTemp": 47.6,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 43.5,
+        "highTemp": 50.1,
+        "lowTemp": 36.8,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 33.6,
+        "highTemp": 39.3,
+        "lowTemp": 27.8,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 52,
+      "highTemp": 59.2,
+      "lowTemp": 44.8,
+      "totalPrecip": 34.2,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.3,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00144972",
+    "stationName": "MANHATTAN HCN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.1,
+        "highTemp": 39.6,
+        "lowTemp": 18.7,
+        "precip": 0.6
+      },
+      "feb": {
+        "avgTemp": 33.6,
+        "highTemp": 45.1,
+        "lowTemp": 22.1,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 43.9,
+        "highTemp": 56.3,
+        "lowTemp": 31.5,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 54.3,
+        "highTemp": 66.4,
+        "lowTemp": 42.2,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 65,
+        "highTemp": 75.9,
+        "lowTemp": 54.1,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 75.1,
+        "highTemp": 85.8,
+        "lowTemp": 64.3,
+        "precip": 5.5
+      },
+      "jul": {
+        "avgTemp": 80,
+        "highTemp": 90.8,
+        "lowTemp": 69.3,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 77.7,
+        "highTemp": 89,
+        "lowTemp": 66.4,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 69.2,
+        "highTemp": 81.3,
+        "lowTemp": 57.1,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 56.6,
+        "highTemp": 69.1,
+        "lowTemp": 44.1,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 43.2,
+        "highTemp": 54.6,
+        "lowTemp": 31.8,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 32.7,
+        "highTemp": 43,
+        "lowTemp": 22.5,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 55,
+      "highTemp": 66.4,
+      "lowTemp": 43.7,
+      "totalPrecip": 35.7,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

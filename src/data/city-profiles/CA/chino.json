@@ -303,5 +303,93 @@
       7.1,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00003179",
+    "stationName": "CHINO AP",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 55.6,
+        "highTemp": 69.5,
+        "lowTemp": 41.7,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 56.4,
+        "highTemp": 69.8,
+        "lowTemp": 42.9,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 59.1,
+        "highTemp": 72.5,
+        "lowTemp": 45.8,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 62.8,
+        "highTemp": 77,
+        "lowTemp": 48.7,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 67.7,
+        "highTemp": 81.1,
+        "lowTemp": 54.3,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 73,
+        "highTemp": 87.6,
+        "lowTemp": 58.5,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 78.3,
+        "highTemp": 93.7,
+        "lowTemp": 62.9,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 79.8,
+        "highTemp": 96.3,
+        "lowTemp": 63.2,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 76.5,
+        "highTemp": 92.7,
+        "lowTemp": 60.4,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 68.9,
+        "highTemp": 84.5,
+        "lowTemp": 53.3,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 60.7,
+        "highTemp": 76.3,
+        "lowTemp": 45.1,
+        "precip": 0.6
+      },
+      "dec": {
+        "avgTemp": 54.6,
+        "highTemp": 68.7,
+        "lowTemp": 40.4,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 66.1,
+      "highTemp": 80.8,
+      "lowTemp": 51.4,
+      "totalPrecip": 10.1,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

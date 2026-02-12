@@ -279,5 +279,52 @@
       7.2,
       7.4
     ]
+  },
+  "climate": {
+    "station": "US1CASJ0005",
+    "stationName": "LODI 1.0 NNW",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 1.4
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

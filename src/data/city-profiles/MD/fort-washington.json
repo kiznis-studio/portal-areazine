@@ -216,5 +216,54 @@
       6.6,
       6.3
     ]
+  },
+  "climate": {
+    "station": "US1VAFX0063",
+    "stationName": "ALEXANDRIA 5.6 SSW",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 5.2
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

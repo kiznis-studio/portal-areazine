@@ -239,5 +239,93 @@
       6,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USC00128723",
+    "stationName": "TERRE HAUTE INDIANA STATE",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.5,
+        "highTemp": 39.9,
+        "lowTemp": 19.2,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 33.9,
+        "highTemp": 45,
+        "lowTemp": 22.8,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 44.2,
+        "highTemp": 55.7,
+        "lowTemp": 32.7,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 56.2,
+        "highTemp": 68.8,
+        "lowTemp": 43.6,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 66.3,
+        "highTemp": 78.2,
+        "lowTemp": 54.5,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 75,
+        "highTemp": 87,
+        "lowTemp": 62.9,
+        "precip": 5.1
+      },
+      "jul": {
+        "avgTemp": 78.4,
+        "highTemp": 90.4,
+        "lowTemp": 66.4,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 76.8,
+        "highTemp": 89.3,
+        "lowTemp": 64.4,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 69.6,
+        "highTemp": 83.5,
+        "lowTemp": 55.7,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 56.9,
+        "highTemp": 70.5,
+        "lowTemp": 43.2,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 44.7,
+        "highTemp": 56.4,
+        "lowTemp": 33,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 34.7,
+        "highTemp": 44.6,
+        "lowTemp": 24.8,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 55.5,
+      "highTemp": 67.4,
+      "lowTemp": 43.6,
+      "totalPrecip": 44.7,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

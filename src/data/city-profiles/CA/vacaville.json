@@ -255,5 +255,93 @@
       5.8,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USW00093241",
+    "stationName": "VACAVILLE NUT TREE AP",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.7,
+        "highTemp": 57.6,
+        "lowTemp": 37.7,
+        "precip": 5.3
+      },
+      "feb": {
+        "avgTemp": 51.5,
+        "highTemp": 62.6,
+        "lowTemp": 40.3,
+        "precip": 5.1
+      },
+      "mar": {
+        "avgTemp": 55.3,
+        "highTemp": 67.7,
+        "lowTemp": 43,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 59.3,
+        "highTemp": 72.8,
+        "lowTemp": 45.8,
+        "precip": 1.3
+      },
+      "may": {
+        "avgTemp": 66.1,
+        "highTemp": 81,
+        "lowTemp": 51.1,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 73,
+        "highTemp": 89.5,
+        "lowTemp": 56.4,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 77,
+        "highTemp": 95,
+        "lowTemp": 59,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 75.9,
+        "highTemp": 93.8,
+        "lowTemp": 57.9,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 73.1,
+        "highTemp": 90.6,
+        "lowTemp": 55.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 64.5,
+        "highTemp": 79.9,
+        "lowTemp": 49.1,
+        "precip": 1.1
+      },
+      "nov": {
+        "avgTemp": 54,
+        "highTemp": 66.5,
+        "lowTemp": 41.5,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 47.5,
+        "highTemp": 57.8,
+        "lowTemp": 37.1,
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "avgTemp": 62.1,
+      "highTemp": 76.2,
+      "lowTemp": 47.9,
+      "totalPrecip": 25,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

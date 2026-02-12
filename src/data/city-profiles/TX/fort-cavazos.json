@@ -255,5 +255,54 @@
       6.9,
       6.5
     ]
+  },
+  "climate": {
+    "station": "US1TXBEL025",
+    "stationName": "KILLEEN 2.9 SSW",
+    "distanceMi": 5.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.5
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 3.4
+      },
+      "jul": {
+        "precip": 2.2
+      },
+      "aug": {
+        "precip": 2.5
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 36.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

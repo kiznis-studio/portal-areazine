@@ -231,5 +231,93 @@
       3.3,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USC00478171",
+    "stationName": "STEVENS PT",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 15.3,
+        "highTemp": 23.6,
+        "lowTemp": 7.1,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 18.7,
+        "highTemp": 28.1,
+        "lowTemp": 9.3,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 30.4,
+        "highTemp": 40,
+        "lowTemp": 20.8,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 43.1,
+        "highTemp": 53.6,
+        "lowTemp": 32.7,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 55.9,
+        "highTemp": 66.5,
+        "lowTemp": 45.2,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 65.7,
+        "highTemp": 75.8,
+        "lowTemp": 55.6,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 69.8,
+        "highTemp": 79.7,
+        "lowTemp": 59.8,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 67.9,
+        "highTemp": 77.8,
+        "lowTemp": 57.9,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 59.8,
+        "highTemp": 70.2,
+        "lowTemp": 49.5,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 47.1,
+        "highTemp": 56.9,
+        "lowTemp": 37.3,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 33.7,
+        "highTemp": 41.7,
+        "lowTemp": 25.6,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 21.6,
+        "highTemp": 29,
+        "lowTemp": 14.2,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 44.1,
+      "highTemp": 53.6,
+      "lowTemp": 34.6,
+      "totalPrecip": 33.9,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

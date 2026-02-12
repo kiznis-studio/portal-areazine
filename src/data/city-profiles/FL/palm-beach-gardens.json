@@ -303,5 +303,93 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00086764",
+    "stationName": "PALM BEACH GARDENS",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 64.5,
+        "highTemp": 73.5,
+        "lowTemp": 55.5,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 66.1,
+        "highTemp": 75.2,
+        "lowTemp": 57,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 68.8,
+        "highTemp": 77.2,
+        "lowTemp": 60.4,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 72.9,
+        "highTemp": 81.4,
+        "lowTemp": 64.4,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 76.5,
+        "highTemp": 84.1,
+        "lowTemp": 68.9,
+        "precip": 6.4
+      },
+      "jun": {
+        "avgTemp": 80.6,
+        "highTemp": 87.8,
+        "lowTemp": 73.4,
+        "precip": 9.2
+      },
+      "jul": {
+        "avgTemp": 82.1,
+        "highTemp": 89.2,
+        "lowTemp": 75,
+        "precip": 7.2
+      },
+      "aug": {
+        "avgTemp": 82.4,
+        "highTemp": 89.4,
+        "lowTemp": 75.3,
+        "precip": 8.3
+      },
+      "sep": {
+        "avgTemp": 81.5,
+        "highTemp": 88,
+        "lowTemp": 74.9,
+        "precip": 8.4
+      },
+      "oct": {
+        "avgTemp": 77.6,
+        "highTemp": 84.5,
+        "lowTemp": 70.6,
+        "precip": 6
+      },
+      "nov": {
+        "avgTemp": 72.2,
+        "highTemp": 79.8,
+        "lowTemp": 64.5,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 67.5,
+        "highTemp": 75.3,
+        "lowTemp": 59.6,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 74.4,
+      "highTemp": 82.1,
+      "lowTemp": 66.6,
+      "totalPrecip": 66.2,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

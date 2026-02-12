@@ -303,5 +303,93 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00111497",
+    "stationName": "CHICAGO BOTANIC GARDEN",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.3,
+        "highTemp": 32.3,
+        "lowTemp": 16.3,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 27.5,
+        "highTemp": 36,
+        "lowTemp": 19.1,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 37,
+        "highTemp": 45.8,
+        "lowTemp": 28.2,
+        "precip": 2.3
+      },
+      "apr": {
+        "avgTemp": 47.2,
+        "highTemp": 56.8,
+        "lowTemp": 37.6,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 57.9,
+        "highTemp": 68.2,
+        "lowTemp": 47.6,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 67.9,
+        "highTemp": 78.4,
+        "lowTemp": 57.3,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 73.4,
+        "highTemp": 83.5,
+        "lowTemp": 63.4,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 72.2,
+        "highTemp": 82,
+        "lowTemp": 62.3,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 64.9,
+        "highTemp": 75.2,
+        "lowTemp": 54.7,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 52.7,
+        "highTemp": 62.8,
+        "lowTemp": 42.7,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 40.8,
+        "highTemp": 49,
+        "lowTemp": 32.5,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 29.9,
+        "highTemp": 37.5,
+        "lowTemp": 22.3,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 49.6,
+      "highTemp": 59,
+      "lowTemp": 40.3,
+      "totalPrecip": 39.5,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

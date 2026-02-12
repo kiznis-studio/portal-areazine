@@ -222,5 +222,93 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00448062",
+    "stationName": "STAUNTON WTP HCN",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.6,
+        "highTemp": 42.4,
+        "lowTemp": 24.7,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 36.2,
+        "highTemp": 45.8,
+        "lowTemp": 26.6,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 43.3,
+        "highTemp": 53.8,
+        "lowTemp": 32.8,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 53.6,
+        "highTemp": 64.7,
+        "lowTemp": 42.5,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 62.1,
+        "highTemp": 72.7,
+        "lowTemp": 51.6,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 70.1,
+        "highTemp": 80.3,
+        "lowTemp": 59.9,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 73.9,
+        "highTemp": 84.1,
+        "lowTemp": 63.8,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 82.7,
+        "lowTemp": 62.2,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 66.2,
+        "highTemp": 76.7,
+        "lowTemp": 55.7,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 55.3,
+        "highTemp": 66.4,
+        "lowTemp": 44.2,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 45.3,
+        "highTemp": 55.2,
+        "lowTemp": 35.5,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 37.1,
+        "highTemp": 45.8,
+        "lowTemp": 28.4,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 54.1,
+      "highTemp": 64.2,
+      "lowTemp": 44,
+      "totalPrecip": 40.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

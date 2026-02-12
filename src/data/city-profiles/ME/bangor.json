@@ -247,5 +247,93 @@
       4.3,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USW00014606",
+    "stationName": "BANGOR INTL AP 72607",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 18.5,
+        "highTemp": 28.1,
+        "lowTemp": 9,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 21,
+        "highTemp": 31.2,
+        "lowTemp": 10.9,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 30.6,
+        "highTemp": 40.1,
+        "lowTemp": 21.1,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 42.8,
+        "highTemp": 53.2,
+        "lowTemp": 32.4,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 54.5,
+        "highTemp": 65.7,
+        "lowTemp": 43.3,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 63.6,
+        "highTemp": 74.7,
+        "lowTemp": 52.6,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 69.5,
+        "highTemp": 80.4,
+        "lowTemp": 58.6,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 68.2,
+        "highTemp": 79.4,
+        "lowTemp": 57,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 59.9,
+        "highTemp": 71,
+        "lowTemp": 48.8,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 48.2,
+        "highTemp": 58.2,
+        "lowTemp": 38.2,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 37.3,
+        "highTemp": 45.8,
+        "lowTemp": 28.8,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 25.9,
+        "highTemp": 34.5,
+        "lowTemp": 17.3,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 45,
+      "highTemp": 55.2,
+      "lowTemp": 34.8,
+      "totalPrecip": 41.8,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

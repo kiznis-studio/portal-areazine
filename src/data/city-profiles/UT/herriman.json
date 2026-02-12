@@ -303,5 +303,81 @@
       3.6,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00422235",
+    "stationName": "DRAPER-POINT OF MTN",
+    "distanceMi": 7.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.7,
+        "highTemp": 40,
+        "lowTemp": 25.3
+      },
+      "feb": {
+        "avgTemp": 36.7,
+        "highTemp": 44.9,
+        "lowTemp": 28.5
+      },
+      "mar": {
+        "avgTemp": 45.5,
+        "highTemp": 55.5,
+        "lowTemp": 35.5
+      },
+      "apr": {
+        "avgTemp": 51.2,
+        "highTemp": 62.1,
+        "lowTemp": 40.4
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 74.1,
+        "lowTemp": 49
+      },
+      "jun": {
+        "avgTemp": 71.5,
+        "highTemp": 85.1,
+        "lowTemp": 57.8
+      },
+      "jul": {
+        "avgTemp": 79.5,
+        "highTemp": 93.5,
+        "lowTemp": 65.5
+      },
+      "aug": {
+        "avgTemp": 78,
+        "highTemp": 91.5,
+        "lowTemp": 64.5
+      },
+      "sep": {
+        "avgTemp": 67.7,
+        "highTemp": 81.4,
+        "lowTemp": 53.9
+      },
+      "oct": {
+        "avgTemp": 54.3,
+        "highTemp": 66.5,
+        "lowTemp": 42.1
+      },
+      "nov": {
+        "avgTemp": 41.9,
+        "highTemp": 51.2,
+        "lowTemp": 32.5
+      },
+      "dec": {
+        "avgTemp": 33,
+        "highTemp": 40.5,
+        "lowTemp": 25.6
+      }
+    },
+    "annual": {
+      "avgTemp": 54.5,
+      "highTemp": 65.5,
+      "lowTemp": 43.4,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

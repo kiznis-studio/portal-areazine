@@ -231,5 +231,93 @@
       7.8,
       7.5
     ]
+  },
+  "climate": {
+    "station": "USW00013735",
+    "stationName": "MILLVILLE MUNI AP",
+    "distanceMi": 5.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33,
+        "highTemp": 42.2,
+        "lowTemp": 23.8,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 34.6,
+        "highTemp": 44.6,
+        "lowTemp": 24.6,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 41.8,
+        "highTemp": 52.3,
+        "lowTemp": 31.4,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 52.1,
+        "highTemp": 63.7,
+        "lowTemp": 40.6,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 61.7,
+        "highTemp": 72.9,
+        "lowTemp": 50.4,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 70.9,
+        "highTemp": 81.6,
+        "lowTemp": 60.2,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 76.2,
+        "highTemp": 86.1,
+        "lowTemp": 66.2,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 74.3,
+        "highTemp": 84.3,
+        "lowTemp": 64.4,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 67.6,
+        "highTemp": 78,
+        "lowTemp": 57.2,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 55.9,
+        "highTemp": 66.9,
+        "lowTemp": 45,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 45.5,
+        "highTemp": 56.1,
+        "lowTemp": 34.9,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 37.3,
+        "highTemp": 46.7,
+        "lowTemp": 27.9,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 54.2,
+      "highTemp": 64.6,
+      "lowTemp": 43.9,
+      "totalPrecip": 43.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

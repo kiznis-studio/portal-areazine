@@ -263,5 +263,54 @@
       4.4,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1COBO0266",
+    "stationName": "LAFAYETTE 0.8 WSW",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.7
+      },
+      "mar": {
+        "precip": 1.6
+      },
+      "apr": {
+        "precip": 2
+      },
+      "may": {
+        "precip": 2.6
+      },
+      "jun": {
+        "precip": 1.7
+      },
+      "jul": {
+        "precip": 2.1
+      },
+      "aug": {
+        "precip": 1.4
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 1.4
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 0.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

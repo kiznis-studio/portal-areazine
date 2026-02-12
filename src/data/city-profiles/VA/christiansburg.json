@@ -239,5 +239,93 @@
       3.3,
       3.3
     ]
+  },
+  "climate": {
+    "station": "USC00441692",
+    "stationName": "CHRISTIANSBURG",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.5,
+        "highTemp": 41.5,
+        "lowTemp": 23.4,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 35.3,
+        "highTemp": 44.8,
+        "lowTemp": 25.8,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 42.3,
+        "highTemp": 52.7,
+        "lowTemp": 31.9,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 52.3,
+        "highTemp": 63.6,
+        "lowTemp": 41,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 60.4,
+        "highTemp": 71.3,
+        "lowTemp": 49.6,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 68,
+        "highTemp": 78.1,
+        "lowTemp": 57.9,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 71.7,
+        "highTemp": 81.6,
+        "lowTemp": 61.8,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 70.5,
+        "highTemp": 80.7,
+        "lowTemp": 60.3,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 64.5,
+        "highTemp": 75.1,
+        "lowTemp": 53.9,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 53.9,
+        "highTemp": 65,
+        "lowTemp": 42.8,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 44,
+        "highTemp": 54.8,
+        "lowTemp": 33.3,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 36.2,
+        "highTemp": 45,
+        "lowTemp": 27.4,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 52.6,
+      "highTemp": 62.9,
+      "lowTemp": 42.4,
+      "totalPrecip": 42.1,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

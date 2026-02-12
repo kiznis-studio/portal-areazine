@@ -303,5 +303,92 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00046635",
+    "stationName": "PALM SPRINGS",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 58.9,
+        "highTemp": 70.6,
+        "lowTemp": 47.2,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 61.3,
+        "highTemp": 73.3,
+        "lowTemp": 49.2,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 67,
+        "highTemp": 80.4,
+        "lowTemp": 53.5,
+        "precip": 0.6
+      },
+      "apr": {
+        "avgTemp": 73.1,
+        "highTemp": 87.7,
+        "lowTemp": 58.6,
+        "precip": 0.1
+      },
+      "may": {
+        "avgTemp": 79.6,
+        "highTemp": 94.3,
+        "lowTemp": 64.8,
+        "precip": 0
+      },
+      "jun": {
+        "avgTemp": 87.5,
+        "highTemp": 103.1,
+        "lowTemp": 71.9
+      },
+      "jul": {
+        "avgTemp": 93.2,
+        "highTemp": 107.8,
+        "lowTemp": 78.5,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 93.2,
+        "highTemp": 107.5,
+        "lowTemp": 78.8,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 87.6,
+        "highTemp": 102.1,
+        "lowTemp": 73.2,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 77.5,
+        "highTemp": 91.2,
+        "lowTemp": 63.7,
+        "precip": 0.2
+      },
+      "nov": {
+        "avgTemp": 66.1,
+        "highTemp": 78.4,
+        "lowTemp": 53.7,
+        "precip": 0.3
+      },
+      "dec": {
+        "avgTemp": 56.9,
+        "highTemp": 68.6,
+        "lowTemp": 45.3,
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "avgTemp": 75.2,
+      "highTemp": 88.8,
+      "lowTemp": 61.5,
+      "totalPrecip": 5.2,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

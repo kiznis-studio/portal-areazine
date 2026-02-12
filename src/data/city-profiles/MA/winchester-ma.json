@@ -303,5 +303,54 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1MAMD0007",
+    "stationName": "WINCHESTER 0.7 SE",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 3.5
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       4.5,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00346659",
+    "stationName": "OKLAHOMA CITY",
+    "distanceMi": 6.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.3
+      },
+      "feb": {
+        "precip": 1.6
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 5.5
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 3.3
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

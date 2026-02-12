@@ -295,5 +295,52 @@
       6.3,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1CASA0012",
+    "stationName": "SACRAMENTO 2.0 SE",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.8
+      },
+      "mar": {
+        "precip": 3
+      },
+      "apr": {
+        "precip": 1.5
+      },
+      "may": {
+        "precip": 0.9
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 20.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

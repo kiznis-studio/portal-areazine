@@ -303,5 +303,93 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00455525",
+    "stationName": "MONROE",
+    "distanceMi": 8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38,
+        "highTemp": 44,
+        "lowTemp": 32.1,
+        "precip": 6.5
+      },
+      "feb": {
+        "avgTemp": 39.8,
+        "highTemp": 47.6,
+        "lowTemp": 32.1,
+        "precip": 4.5
+      },
+      "mar": {
+        "avgTemp": 43.4,
+        "highTemp": 52,
+        "lowTemp": 34.8,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 48,
+        "highTemp": 57.4,
+        "lowTemp": 38.6,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 53.9,
+        "highTemp": 63.9,
+        "lowTemp": 44,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 58.3,
+        "highTemp": 68,
+        "lowTemp": 48.6,
+        "precip": 2.7
+      },
+      "jul": {
+        "avgTemp": 63,
+        "highTemp": 74.2,
+        "lowTemp": 51.8,
+        "precip": 1.2
+      },
+      "aug": {
+        "avgTemp": 63.1,
+        "highTemp": 74.7,
+        "lowTemp": 51.5,
+        "precip": 1.3
+      },
+      "sep": {
+        "avgTemp": 58.1,
+        "highTemp": 68.7,
+        "lowTemp": 47.6,
+        "precip": 2.7
+      },
+      "oct": {
+        "avgTemp": 49.5,
+        "highTemp": 57.7,
+        "lowTemp": 41.2,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 41.9,
+        "highTemp": 48.5,
+        "lowTemp": 35.3,
+        "precip": 7.2
+      },
+      "dec": {
+        "avgTemp": 37.1,
+        "highTemp": 42.7,
+        "lowTemp": 31.5,
+        "precip": 6.8
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 58.3,
+      "lowTemp": 40.8,
+      "totalPrecip": 50.8,
+      "hotMonths": 0,
+      "coldMonths": 3
+    }
   }
 }

@@ -239,5 +239,92 @@
       13.1,
       12.5
     ]
+  },
+  "climate": {
+    "station": "USC00042713",
+    "stationName": "EL CENTRO 2 SSW",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.2,
+        "highTemp": 71,
+        "lowTemp": 43.4,
+        "precip": 0.4
+      },
+      "feb": {
+        "avgTemp": 60.3,
+        "highTemp": 74,
+        "lowTemp": 46.7,
+        "precip": 0.4
+      },
+      "mar": {
+        "avgTemp": 65.9,
+        "highTemp": 80.3,
+        "lowTemp": 51.6,
+        "precip": 0.3
+      },
+      "apr": {
+        "avgTemp": 71.5,
+        "highTemp": 86.4,
+        "lowTemp": 56.7,
+        "precip": 0.1
+      },
+      "may": {
+        "avgTemp": 78.6,
+        "highTemp": 93.8,
+        "lowTemp": 63.3,
+        "precip": 0
+      },
+      "jun": {
+        "avgTemp": 86.8,
+        "highTemp": 102.9,
+        "lowTemp": 70.7
+      },
+      "jul": {
+        "avgTemp": 92.5,
+        "highTemp": 106.9,
+        "lowTemp": 78,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 93,
+        "highTemp": 106.7,
+        "lowTemp": 79.3,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 87.6,
+        "highTemp": 102.2,
+        "lowTemp": 73,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 76.7,
+        "highTemp": 91.7,
+        "lowTemp": 61.7,
+        "precip": 0.2
+      },
+      "nov": {
+        "avgTemp": 64.9,
+        "highTemp": 79.2,
+        "lowTemp": 50.7,
+        "precip": 0.2
+      },
+      "dec": {
+        "avgTemp": 56.2,
+        "highTemp": 69.6,
+        "lowTemp": 42.8,
+        "precip": 0.4
+      }
+    },
+    "annual": {
+      "avgTemp": 74.3,
+      "highTemp": 88.7,
+      "lowTemp": 59.8,
+      "totalPrecip": 2.6,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

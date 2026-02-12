@@ -303,5 +303,54 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1WAKG0033",
+    "stationName": "SHERIDAN BEACH 3.7 S",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.4
+      },
+      "feb": {
+        "precip": 4.2
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 2.9
+      },
+      "may": {
+        "precip": 2.1
+      },
+      "jun": {
+        "precip": 1.8
+      },
+      "jul": {
+        "precip": 1
+      },
+      "aug": {
+        "precip": 1.1
+      },
+      "sep": {
+        "precip": 1.8
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 6.3
+      },
+      "dec": {
+        "precip": 5.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

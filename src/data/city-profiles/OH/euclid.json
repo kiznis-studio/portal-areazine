@@ -303,5 +303,54 @@
       7.2,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1OHLK0009",
+    "stationName": "WILLOUGHBY 2.9 SW",
+    "distanceMi": 4.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 44,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       7.1,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CASR0072",
+    "stationName": "TWENTYNINE PALMS 0.3 NNE",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 1.1
+      },
+      "mar": {
+        "precip": 0.5
+      },
+      "apr": {
+        "precip": 0.2
+      },
+      "may": {
+        "precip": 0
+      },
+      "jun": {
+        "precip": 0
+      },
+      "jul": {
+        "precip": 0.3
+      },
+      "aug": {
+        "precip": 0.4
+      },
+      "sep": {
+        "precip": 0.3
+      },
+      "oct": {
+        "precip": 0.2
+      },
+      "nov": {
+        "precip": 0.2
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 4.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

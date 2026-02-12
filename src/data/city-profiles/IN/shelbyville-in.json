@@ -231,5 +231,93 @@
       3.3,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00127999",
+    "stationName": "SHELBYVILLE SEWAGE PLT",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28,
+        "highTemp": 36.2,
+        "lowTemp": 19.8,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 31.4,
+        "highTemp": 40.4,
+        "lowTemp": 22.4,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 41.1,
+        "highTemp": 51.2,
+        "lowTemp": 30.9,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 52.6,
+        "highTemp": 63.7,
+        "lowTemp": 41.4,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 63.1,
+        "highTemp": 73.5,
+        "lowTemp": 52.7,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 71.7,
+        "highTemp": 82,
+        "lowTemp": 61.4,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 74.4,
+        "highTemp": 84.8,
+        "lowTemp": 64,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 72.9,
+        "highTemp": 83.8,
+        "lowTemp": 61.9,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 66.7,
+        "highTemp": 78.7,
+        "lowTemp": 54.7,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 54.9,
+        "highTemp": 66.4,
+        "lowTemp": 43.4,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 42.9,
+        "highTemp": 52.4,
+        "lowTemp": 33.3,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 32.9,
+        "highTemp": 40.7,
+        "lowTemp": 25.2,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 52.7,
+      "highTemp": 62.8,
+      "lowTemp": 42.6,
+      "totalPrecip": 44.1,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

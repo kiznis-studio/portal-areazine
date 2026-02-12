@@ -177,5 +177,54 @@
       5.9,
       5.7
     ]
+  },
+  "climate": {
+    "station": "US1PALZ0006",
+    "stationName": "WEST HAZLETON 3.2 NNE",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 5
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

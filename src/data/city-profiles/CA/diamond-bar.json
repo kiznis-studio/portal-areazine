@@ -303,5 +303,54 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CALA0023",
+    "stationName": "DIAMOND BAR 1.9 NNE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 3.9
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 0.8
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 16.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

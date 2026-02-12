@@ -247,5 +247,54 @@
       7.2,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1OHMH0011",
+    "stationName": "CANFIELD 0.5 N",
+    "distanceMi": 5.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 42,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

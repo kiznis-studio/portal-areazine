@@ -247,5 +247,93 @@
       8.5,
       8.3
     ]
+  },
+  "climate": {
+    "station": "USC00201150",
+    "stationName": "BURTON 4N",
+    "distanceMi": 4.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.1,
+        "highTemp": 31.3,
+        "lowTemp": 14.9,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 24.1,
+        "highTemp": 34.2,
+        "lowTemp": 14,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 33.5,
+        "highTemp": 44.1,
+        "lowTemp": 22.9,
+        "precip": 2.3
+      },
+      "apr": {
+        "avgTemp": 44.5,
+        "highTemp": 57.2,
+        "lowTemp": 31.8,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 56.7,
+        "highTemp": 69.5,
+        "lowTemp": 43.8,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 66.3,
+        "highTemp": 79,
+        "lowTemp": 53.6,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 70.7,
+        "highTemp": 83.5,
+        "lowTemp": 57.8,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 68.7,
+        "highTemp": 81.1,
+        "lowTemp": 56.4,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 61.4,
+        "highTemp": 74.4,
+        "lowTemp": 48.4,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 50,
+        "highTemp": 61.1,
+        "lowTemp": 38.8,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 38.5,
+        "highTemp": 48,
+        "lowTemp": 29.1,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 28.5,
+        "highTemp": 35.7,
+        "lowTemp": 21.4,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 47.2,
+      "highTemp": 58.3,
+      "lowTemp": 36.1,
+      "totalPrecip": 34.5,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

@@ -255,5 +255,81 @@
       5.7,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USC00419649",
+    "stationName": "WFO BROWNSVILLE",
+    "distanceMi": 5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 60.5,
+        "highTemp": 70.4,
+        "lowTemp": 50.5
+      },
+      "feb": {
+        "avgTemp": 64.9,
+        "highTemp": 74.6,
+        "lowTemp": 55.1
+      },
+      "mar": {
+        "avgTemp": 69.4,
+        "highTemp": 78.2,
+        "lowTemp": 60.5
+      },
+      "apr": {
+        "avgTemp": 75.7,
+        "highTemp": 84.6,
+        "lowTemp": 66.8
+      },
+      "may": {
+        "avgTemp": 80.1,
+        "highTemp": 87.2,
+        "lowTemp": 72.9
+      },
+      "jun": {
+        "avgTemp": 83.7,
+        "highTemp": 91.7,
+        "lowTemp": 75.7
+      },
+      "jul": {
+        "avgTemp": 84.2,
+        "highTemp": 91.9,
+        "lowTemp": 76.4
+      },
+      "aug": {
+        "avgTemp": 85.7,
+        "highTemp": 94.3,
+        "lowTemp": 77
+      },
+      "sep": {
+        "avgTemp": 81.5,
+        "highTemp": 89.7,
+        "lowTemp": 73.2
+      },
+      "oct": {
+        "avgTemp": 76.3,
+        "highTemp": 85.3,
+        "lowTemp": 67.3
+      },
+      "nov": {
+        "avgTemp": 68.2,
+        "highTemp": 77.6,
+        "lowTemp": 58.7
+      },
+      "dec": {
+        "avgTemp": 62.2,
+        "highTemp": 71.8,
+        "lowTemp": 52.6
+      }
+    },
+    "annual": {
+      "avgTemp": 74.4,
+      "highTemp": 83.1,
+      "lowTemp": 65.6,
+      "totalPrecip": 0,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

@@ -263,5 +263,54 @@
       5.7,
       5.7
     ]
+  },
+  "climate": {
+    "station": "US1WASP0016",
+    "stationName": "SPOKANE 5.7 SSE",
+    "distanceMi": 5.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 2
+      },
+      "may": {
+        "precip": 1.9
+      },
+      "jun": {
+        "precip": 1.8
+      },
+      "jul": {
+        "precip": 0.7
+      },
+      "aug": {
+        "precip": 0.6
+      },
+      "sep": {
+        "precip": 0.9
+      },
+      "oct": {
+        "precip": 1.9
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 23.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

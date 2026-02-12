@@ -263,5 +263,54 @@
       6.2,
       6
     ]
+  },
+  "climate": {
+    "station": "USC00198793",
+    "stationName": "WARE",
+    "distanceMi": 8.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00014702",
+    "stationName": "BEDFORD HANSCOM FLD 74490",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.5,
+        "highTemp": 36.8,
+        "lowTemp": 18.2,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 29.3,
+        "highTemp": 39.4,
+        "lowTemp": 19.3,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 37.3,
+        "highTemp": 47.5,
+        "lowTemp": 27.2,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 48.5,
+        "highTemp": 59.9,
+        "lowTemp": 37.1,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 58.6,
+        "highTemp": 70.4,
+        "lowTemp": 46.7,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 67.8,
+        "highTemp": 79.4,
+        "lowTemp": 56.2,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 73.6,
+        "highTemp": 85.1,
+        "lowTemp": 62,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 71.9,
+        "highTemp": 83.6,
+        "lowTemp": 60.3,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 63.7,
+        "highTemp": 75.7,
+        "lowTemp": 51.8,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 52.2,
+        "highTemp": 63.6,
+        "lowTemp": 40.8,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 42.4,
+        "highTemp": 52.4,
+        "lowTemp": 32.4,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 33,
+        "highTemp": 42,
+        "lowTemp": 24,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 50.5,
+      "highTemp": 61.3,
+      "lowTemp": 39.7,
+      "totalPrecip": 42.6,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

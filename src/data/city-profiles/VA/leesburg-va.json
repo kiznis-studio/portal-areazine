@@ -239,5 +239,93 @@
       3.2,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USC00444909",
+    "stationName": "PURCELLVILLE HCN",
+    "distanceMi": 8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.8,
+        "highTemp": 41,
+        "lowTemp": 24.5,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 35,
+        "highTemp": 44,
+        "lowTemp": 25.9,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 42.5,
+        "highTemp": 52.6,
+        "lowTemp": 32.3,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 53.4,
+        "highTemp": 64.5,
+        "lowTemp": 42.2,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 62.2,
+        "highTemp": 72.9,
+        "lowTemp": 51.6,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 71.2,
+        "highTemp": 81.4,
+        "lowTemp": 61.1,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 76,
+        "highTemp": 86.4,
+        "lowTemp": 65.5,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 74.3,
+        "highTemp": 84.7,
+        "lowTemp": 63.9,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 66.9,
+        "highTemp": 77.8,
+        "lowTemp": 56.1,
+        "precip": 4.8
+      },
+      "oct": {
+        "avgTemp": 55.3,
+        "highTemp": 66.3,
+        "lowTemp": 44.3,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 44.7,
+        "highTemp": 54.9,
+        "lowTemp": 34.5,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 36.5,
+        "highTemp": 44.7,
+        "lowTemp": 28.4,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 54.2,
+      "highTemp": 64.3,
+      "lowTemp": 44.2,
+      "totalPrecip": 44,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -255,5 +255,93 @@
       8,
       7.2
     ]
+  },
+  "climate": {
+    "station": "USC00223671",
+    "stationName": "GULFPORT NAVAL CTR",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.3,
+        "highTemp": 60.9,
+        "lowTemp": 43.7,
+        "precip": 5.8
+      },
+      "feb": {
+        "avgTemp": 55.5,
+        "highTemp": 64.4,
+        "lowTemp": 46.6,
+        "precip": 4.9
+      },
+      "mar": {
+        "avgTemp": 61.3,
+        "highTemp": 69.8,
+        "lowTemp": 52.8,
+        "precip": 5.5
+      },
+      "apr": {
+        "avgTemp": 67.8,
+        "highTemp": 76,
+        "lowTemp": 59.7,
+        "precip": 5.6
+      },
+      "may": {
+        "avgTemp": 75,
+        "highTemp": 82.7,
+        "lowTemp": 67.4,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 80.1,
+        "highTemp": 87.3,
+        "lowTemp": 72.9,
+        "precip": 7.4
+      },
+      "jul": {
+        "avgTemp": 82.6,
+        "highTemp": 90.2,
+        "lowTemp": 75.1,
+        "precip": 8
+      },
+      "aug": {
+        "avgTemp": 82.5,
+        "highTemp": 89.9,
+        "lowTemp": 75,
+        "precip": 7
+      },
+      "sep": {
+        "avgTemp": 78.8,
+        "highTemp": 86.8,
+        "lowTemp": 70.8,
+        "precip": 5.9
+      },
+      "oct": {
+        "avgTemp": 70.1,
+        "highTemp": 79.3,
+        "lowTemp": 60.8,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 60.1,
+        "highTemp": 69.7,
+        "lowTemp": 50.6,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 54.5,
+        "highTemp": 63,
+        "lowTemp": 46,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 68.4,
+      "highTemp": 76.7,
+      "lowTemp": 60.1,
+      "totalPrecip": 68.3,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       3.3,
       3.4
     ]
+  },
+  "climate": {
+    "station": "USC00421259",
+    "stationName": "CEDAR CITY",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32,
+        "highTemp": 42.3,
+        "lowTemp": 21.8,
+        "precip": 0.8
+      },
+      "feb": {
+        "avgTemp": 34.5,
+        "highTemp": 45.2,
+        "lowTemp": 23.7,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 41.7,
+        "highTemp": 53.6,
+        "lowTemp": 29.8,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 47.6,
+        "highTemp": 60.5,
+        "lowTemp": 34.8,
+        "precip": 1.2
+      },
+      "may": {
+        "avgTemp": 57,
+        "highTemp": 70.1,
+        "lowTemp": 44,
+        "precip": 1
+      },
+      "jun": {
+        "avgTemp": 67.7,
+        "highTemp": 81.5,
+        "lowTemp": 53.9,
+        "precip": 0.5
+      },
+      "jul": {
+        "avgTemp": 74.6,
+        "highTemp": 87.5,
+        "lowTemp": 61.6,
+        "precip": 1.3
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 85.5,
+        "lowTemp": 60.5,
+        "precip": 1.3
+      },
+      "sep": {
+        "avgTemp": 64.6,
+        "highTemp": 77.1,
+        "lowTemp": 52.1,
+        "precip": 0.9
+      },
+      "oct": {
+        "avgTemp": 52.2,
+        "highTemp": 65.3,
+        "lowTemp": 39.1,
+        "precip": 1.3
+      },
+      "nov": {
+        "avgTemp": 40.3,
+        "highTemp": 52.1,
+        "lowTemp": 28.6,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 31.2,
+        "highTemp": 41.2,
+        "lowTemp": 21.1,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 51.4,
+      "highTemp": 63.5,
+      "lowTemp": 39.3,
+      "totalPrecip": 13,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

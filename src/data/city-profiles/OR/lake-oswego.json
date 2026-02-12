@@ -247,5 +247,54 @@
       5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1ORCC0088",
+    "stationName": "WEST LINN 0.7 NW",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7
+      },
+      "feb": {
+        "precip": 5
+      },
+      "mar": {
+        "precip": 6
+      },
+      "apr": {
+        "precip": 4.6
+      },
+      "may": {
+        "precip": 3
+      },
+      "jun": {
+        "precip": 1.9
+      },
+      "jul": {
+        "precip": 0.5
+      },
+      "aug": {
+        "precip": 0.5
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 7.6
+      },
+      "dec": {
+        "precip": 7.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

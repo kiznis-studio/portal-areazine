@@ -295,5 +295,54 @@
       6.7,
       6.2
     ]
+  },
+  "climate": {
+    "station": "US1MASF0010",
+    "stationName": "CHELSEA 0.8 N",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

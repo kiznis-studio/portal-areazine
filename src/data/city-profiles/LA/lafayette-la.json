@@ -247,5 +247,93 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "USW00013976",
+    "stationName": "LAFAYETTE RGNL AP HCN",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.8,
+        "highTemp": 62.2,
+        "lowTemp": 43.5,
+        "precip": 5.9
+      },
+      "feb": {
+        "avgTemp": 56.8,
+        "highTemp": 66.1,
+        "lowTemp": 47.4,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 62.9,
+        "highTemp": 72.6,
+        "lowTemp": 53.3,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 69.2,
+        "highTemp": 79,
+        "lowTemp": 59.3,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 76.5,
+        "highTemp": 85.9,
+        "lowTemp": 67.2,
+        "precip": 5.4
+      },
+      "jun": {
+        "avgTemp": 81.6,
+        "highTemp": 90.2,
+        "lowTemp": 73.1,
+        "precip": 7.1
+      },
+      "jul": {
+        "avgTemp": 83.3,
+        "highTemp": 91.5,
+        "lowTemp": 75.1,
+        "precip": 6.3
+      },
+      "aug": {
+        "avgTemp": 83.5,
+        "highTemp": 92.3,
+        "lowTemp": 74.7,
+        "precip": 6.3
+      },
+      "sep": {
+        "avgTemp": 79.7,
+        "highTemp": 89,
+        "lowTemp": 70.4,
+        "precip": 5
+      },
+      "oct": {
+        "avgTemp": 70.7,
+        "highTemp": 81.3,
+        "lowTemp": 60.1,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 60.8,
+        "highTemp": 71.5,
+        "lowTemp": 50.2,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 54.9,
+        "highTemp": 64.4,
+        "lowTemp": 45.3,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 69.4,
+      "highTemp": 78.8,
+      "lowTemp": 60,
+      "totalPrecip": 62.9,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

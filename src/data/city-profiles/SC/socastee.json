@@ -255,5 +255,54 @@
       5.6,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1SCHR0046",
+    "stationName": "MYRTLE BEACH 5.0 WNW",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.5
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 5.6
+      },
+      "jul": {
+        "precip": 6
+      },
+      "aug": {
+        "precip": 6.8
+      },
+      "sep": {
+        "precip": 7.5
+      },
+      "oct": {
+        "precip": 4.7
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,54 @@
       4.9,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1AZYV0001",
+    "stationName": "PRESCOTT VALLEY 1.1 ESE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.6
+      },
+      "feb": {
+        "precip": 1.7
+      },
+      "mar": {
+        "precip": 1.3
+      },
+      "apr": {
+        "precip": 0.4
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 3.1
+      },
+      "aug": {
+        "precip": 2.1
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 15.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,93 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00332599",
+    "stationName": "ELYRIA 3 E",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.9,
+        "highTemp": 36.3,
+        "lowTemp": 21.5,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 31.2,
+        "highTemp": 39.6,
+        "lowTemp": 22.8,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 39.6,
+        "highTemp": 49,
+        "lowTemp": 30.2,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 51.4,
+        "highTemp": 62.8,
+        "lowTemp": 39.9,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 62,
+        "highTemp": 73.3,
+        "lowTemp": 50.8,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 70.6,
+        "highTemp": 81,
+        "lowTemp": 60.2,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 74.8,
+        "highTemp": 84.9,
+        "lowTemp": 64.7,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 72.9,
+        "highTemp": 83,
+        "lowTemp": 62.9,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 66.6,
+        "highTemp": 77,
+        "lowTemp": 56.2,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 55.5,
+        "highTemp": 65.3,
+        "lowTemp": 45.6,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 44,
+        "highTemp": 52.3,
+        "lowTemp": 35.6,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 34.1,
+        "highTemp": 40.8,
+        "lowTemp": 27.4,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 52.6,
+      "highTemp": 62.1,
+      "lowTemp": 43.2,
+      "totalPrecip": 41.9,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTFR0050",
+    "stationName": "DARIEN 2.8 NW",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 5.2
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 3.7
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

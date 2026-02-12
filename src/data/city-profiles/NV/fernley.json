@@ -222,5 +222,54 @@
       7.1,
       6.2
     ]
+  },
+  "climate": {
+    "station": "US1NVLY0014",
+    "stationName": "FERNLEY 2.6 WNW",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.2
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 0.8
+      },
+      "apr": {
+        "precip": 0.5
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.4
+      },
+      "jul": {
+        "precip": 0.5
+      },
+      "aug": {
+        "precip": 0.2
+      },
+      "sep": {
+        "precip": 0.5
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 7.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

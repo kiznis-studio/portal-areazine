@@ -303,5 +303,93 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00047813",
+    "stationName": "SAN JACINTO",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.9,
+        "highTemp": 65.8,
+        "lowTemp": 40.1,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 53.7,
+        "highTemp": 65.8,
+        "lowTemp": 41.7,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 57.6,
+        "highTemp": 70.2,
+        "lowTemp": 45,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 61.2,
+        "highTemp": 74.4,
+        "lowTemp": 47.9,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 66.8,
+        "highTemp": 80.4,
+        "lowTemp": 53.3,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 73.2,
+        "highTemp": 88.7,
+        "lowTemp": 57.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 79.3,
+        "highTemp": 95.1,
+        "lowTemp": 63.6,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 80.4,
+        "highTemp": 96.5,
+        "lowTemp": 64.3,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 76.3,
+        "highTemp": 91.8,
+        "lowTemp": 60.7,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 67.5,
+        "highTemp": 82.3,
+        "lowTemp": 52.7,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 58.5,
+        "highTemp": 72.7,
+        "lowTemp": 44.4,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 52,
+        "highTemp": 65,
+        "lowTemp": 39,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 65,
+      "highTemp": 79.1,
+      "lowTemp": 50.9,
+      "totalPrecip": 12.4,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

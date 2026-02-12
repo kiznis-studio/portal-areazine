@@ -231,5 +231,54 @@
       6.1,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USC00126023",
+    "stationName": "MUNCIE",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

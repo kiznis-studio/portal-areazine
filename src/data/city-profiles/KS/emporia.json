@@ -231,5 +231,54 @@
       2.7,
       2.5
     ]
+  },
+  "climate": {
+    "station": "US1KSLY0002",
+    "stationName": "EMPORIA 0.9 W",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.7
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 36.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

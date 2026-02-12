@@ -287,5 +287,52 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1CASC0003",
+    "stationName": "SUNNYVALE 1.9 SE",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 1.1
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 1.4
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 15.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

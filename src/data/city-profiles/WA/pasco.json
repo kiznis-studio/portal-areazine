@@ -231,5 +231,93 @@
       5.7,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00454154",
+    "stationName": "KENNEWICK HCN",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.5,
+        "highTemp": 41.7,
+        "lowTemp": 29.2,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 39.5,
+        "highTemp": 48.1,
+        "lowTemp": 30.9,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 47,
+        "highTemp": 58.1,
+        "lowTemp": 35.9,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 54.3,
+        "highTemp": 66.3,
+        "lowTemp": 42.4,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 62.7,
+        "highTemp": 75.3,
+        "lowTemp": 50.1,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 69.2,
+        "highTemp": 82,
+        "lowTemp": 56.4,
+        "precip": 0.6
+      },
+      "jul": {
+        "avgTemp": 76.8,
+        "highTemp": 91.3,
+        "lowTemp": 62.3,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 75.8,
+        "highTemp": 90.3,
+        "lowTemp": 61.3,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 66.8,
+        "highTemp": 80.5,
+        "lowTemp": 53.2,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 54.5,
+        "highTemp": 65.9,
+        "lowTemp": 43.1,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 42.9,
+        "highTemp": 50.9,
+        "lowTemp": 34.9,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 35.6,
+        "highTemp": 41.5,
+        "lowTemp": 29.6,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 55.1,
+      "highTemp": 66,
+      "lowTemp": 44.1,
+      "totalPrecip": 8,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

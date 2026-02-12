@@ -255,5 +255,54 @@
       5.5,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1FLLK0005",
+    "stationName": "MOUNT PLYMOUTH 0.2 WSW",
+    "distanceMi": 8.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 9.2
+      },
+      "jul": {
+        "precip": 7.6
+      },
+      "aug": {
+        "precip": 9.9
+      },
+      "sep": {
+        "precip": 6.4
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 2.1
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 58.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

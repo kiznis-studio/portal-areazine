@@ -153,5 +153,54 @@
       6.4,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USC00152500",
+    "stationName": "ELIZABETHTOWN KSP#4",
+    "distanceMi": 11,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 4.9
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

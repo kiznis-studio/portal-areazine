@@ -263,5 +263,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USW00012876",
+    "stationName": "WINTER HAVEN GILBERT AP",
+    "distanceMi": 8.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62.2,
+        "highTemp": 72.5,
+        "lowTemp": 51.9,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 65.1,
+        "highTemp": 75.6,
+        "lowTemp": 54.6,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 69.1,
+        "highTemp": 79.7,
+        "lowTemp": 58.5,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 73.8,
+        "highTemp": 84.6,
+        "lowTemp": 63.1,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 79.3,
+        "highTemp": 89.7,
+        "lowTemp": 69,
+        "precip": 2.7
+      },
+      "jun": {
+        "avgTemp": 83,
+        "highTemp": 92.2,
+        "lowTemp": 73.8,
+        "precip": 7.4
+      },
+      "jul": {
+        "avgTemp": 84.1,
+        "highTemp": 92.9,
+        "lowTemp": 75.4,
+        "precip": 7.4
+      },
+      "aug": {
+        "avgTemp": 84.1,
+        "highTemp": 92.7,
+        "lowTemp": 75.6,
+        "precip": 6.5
+      },
+      "sep": {
+        "avgTemp": 82.5,
+        "highTemp": 90.8,
+        "lowTemp": 74.1,
+        "precip": 5.3
+      },
+      "oct": {
+        "avgTemp": 77.1,
+        "highTemp": 86.1,
+        "lowTemp": 68,
+        "precip": 2.2
+      },
+      "nov": {
+        "avgTemp": 69.8,
+        "highTemp": 79.5,
+        "lowTemp": 60,
+        "precip": 1.5
+      },
+      "dec": {
+        "avgTemp": 64.6,
+        "highTemp": 74.4,
+        "lowTemp": 54.8,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 74.6,
+      "highTemp": 84.2,
+      "lowTemp": 64.9,
+      "totalPrecip": 46.1,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

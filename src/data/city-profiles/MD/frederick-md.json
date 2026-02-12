@@ -231,5 +231,93 @@
       3.7,
       3.4
     ]
+  },
+  "climate": {
+    "station": "USC00183348",
+    "stationName": "FREDERICK POLICE BRKS",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.8,
+        "highTemp": 43.1,
+        "lowTemp": 26.5,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 38.2,
+        "highTemp": 47.8,
+        "lowTemp": 28.5,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 45.5,
+        "highTemp": 55.3,
+        "lowTemp": 35.6,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 56.7,
+        "highTemp": 68.6,
+        "lowTemp": 44.7,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 66.2,
+        "highTemp": 77.4,
+        "lowTemp": 55,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 74.2,
+        "highTemp": 85.2,
+        "lowTemp": 63.3,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 78.5,
+        "highTemp": 88.6,
+        "lowTemp": 68.4,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 76.5,
+        "highTemp": 86.7,
+        "lowTemp": 66.4,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 69.7,
+        "highTemp": 80,
+        "lowTemp": 59.3,
+        "precip": 5.8
+      },
+      "oct": {
+        "avgTemp": 58,
+        "highTemp": 68.8,
+        "lowTemp": 47.2,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 47.1,
+        "highTemp": 56.3,
+        "lowTemp": 37.8,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 38.9,
+        "highTemp": 47.1,
+        "lowTemp": 30.7,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 57,
+      "highTemp": 67.1,
+      "lowTemp": 46.9,
+      "totalPrecip": 43.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -303,5 +303,93 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USW00024233",
+    "stationName": "SEATTLE TACOMA INTL AP 72793",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.8,
+        "highTemp": 48,
+        "lowTemp": 37.7,
+        "precip": 5.8
+      },
+      "feb": {
+        "avgTemp": 44,
+        "highTemp": 50.3,
+        "lowTemp": 37.7,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 47.1,
+        "highTemp": 54.2,
+        "lowTemp": 39.9,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 51.3,
+        "highTemp": 59.3,
+        "lowTemp": 43.3,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 57.5,
+        "highTemp": 66.3,
+        "lowTemp": 48.7,
+        "precip": 1.9
+      },
+      "jun": {
+        "avgTemp": 62,
+        "highTemp": 71.1,
+        "lowTemp": 53,
+        "precip": 1.5
+      },
+      "jul": {
+        "avgTemp": 67.1,
+        "highTemp": 77.4,
+        "lowTemp": 56.8,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 67.4,
+        "highTemp": 77.6,
+        "lowTemp": 57.2,
+        "precip": 1
+      },
+      "sep": {
+        "avgTemp": 62.6,
+        "highTemp": 71.6,
+        "lowTemp": 53.6,
+        "precip": 1.6
+      },
+      "oct": {
+        "avgTemp": 53.8,
+        "highTemp": 60.5,
+        "lowTemp": 47,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 46.5,
+        "highTemp": 52.1,
+        "lowTemp": 40.9,
+        "precip": 6.3
+      },
+      "dec": {
+        "avgTemp": 42,
+        "highTemp": 47,
+        "lowTemp": 37.1,
+        "precip": 5.7
+      }
+    },
+    "annual": {
+      "avgTemp": 53.7,
+      "highTemp": 61.3,
+      "lowTemp": 46.1,
+      "totalPrecip": 39.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

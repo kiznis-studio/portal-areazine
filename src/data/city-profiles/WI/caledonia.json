@@ -239,5 +239,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00094818",
+    "stationName": "RACINE BATTEN AP",
+    "distanceMi": 6.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.3,
+        "highTemp": 30.5,
+        "lowTemp": 16,
+        "precip": 1.3
+      },
+      "feb": {
+        "avgTemp": 26,
+        "highTemp": 33.6,
+        "lowTemp": 18.5,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 35.4,
+        "highTemp": 43.3,
+        "lowTemp": 27.5,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 45.3,
+        "highTemp": 53.9,
+        "lowTemp": 36.6,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 56,
+        "highTemp": 65.6,
+        "lowTemp": 46.4,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 66.4,
+        "highTemp": 76,
+        "lowTemp": 56.9,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 72.2,
+        "highTemp": 81.4,
+        "lowTemp": 63.1,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 71.1,
+        "highTemp": 79.5,
+        "lowTemp": 62.7,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 64,
+        "highTemp": 72.8,
+        "lowTemp": 55.1,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 52.1,
+        "highTemp": 60.7,
+        "lowTemp": 43.4,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 39.7,
+        "highTemp": 47.3,
+        "lowTemp": 32.2,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 28.9,
+        "highTemp": 35.5,
+        "lowTemp": 22.2,
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "avgTemp": 48.4,
+      "highTemp": 56.7,
+      "lowTemp": 40.1,
+      "totalPrecip": 31.9,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

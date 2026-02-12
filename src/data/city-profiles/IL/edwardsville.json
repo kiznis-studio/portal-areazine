@@ -263,5 +263,54 @@
       5.2,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00112679",
+    "stationName": "EDWARDSVILLE 2 W",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 5.5
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 46,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

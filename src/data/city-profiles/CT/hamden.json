@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USC00065077",
+    "stationName": "MT CARMEL",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29,
+        "highTemp": 37.7,
+        "lowTemp": 20.2,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 31.3,
+        "highTemp": 40.6,
+        "lowTemp": 22,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 38.3,
+        "highTemp": 48.1,
+        "lowTemp": 28.4,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 49.3,
+        "highTemp": 60.5,
+        "lowTemp": 38.1,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 59.5,
+        "highTemp": 70.7,
+        "lowTemp": 48.3,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 68.6,
+        "highTemp": 79.3,
+        "lowTemp": 57.8,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 74.2,
+        "highTemp": 84.7,
+        "lowTemp": 63.8,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 72.8,
+        "highTemp": 83.5,
+        "lowTemp": 62.1,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 65.7,
+        "highTemp": 76.4,
+        "lowTemp": 55,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 53.9,
+        "highTemp": 64.4,
+        "lowTemp": 43.4,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 43.1,
+        "highTemp": 52.5,
+        "lowTemp": 33.8,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 34.4,
+        "highTemp": 42.3,
+        "lowTemp": 26.5,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 51.7,
+      "highTemp": 61.7,
+      "lowTemp": 41.6,
+      "totalPrecip": 50.5,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

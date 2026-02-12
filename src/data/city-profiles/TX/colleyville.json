@@ -303,5 +303,54 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1TXTN0062",
+    "stationName": "NORTH RICHLAND HILLS 1.9 NE",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.4
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 3.9
+      },
+      "jul": {
+        "precip": 2.3
+      },
+      "aug": {
+        "precip": 2.7
+      },
+      "sep": {
+        "precip": 3.1
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

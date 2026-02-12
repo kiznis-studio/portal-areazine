@@ -271,5 +271,54 @@
       6.5,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1TXEP0080",
+    "stationName": "EL PASO 8.8 SE",
+    "distanceMi": 8.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.5
+      },
+      "feb": {
+        "precip": 0.4
+      },
+      "mar": {
+        "precip": 0.3
+      },
+      "apr": {
+        "precip": 0.2
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.7
+      },
+      "jul": {
+        "precip": 1.7
+      },
+      "aug": {
+        "precip": 1.7
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 9.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

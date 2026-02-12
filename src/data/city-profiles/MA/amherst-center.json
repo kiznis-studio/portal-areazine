@@ -231,5 +231,93 @@
       5.3,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00190120",
+    "stationName": "AMHERST HCN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.9,
+        "highTemp": 34,
+        "lowTemp": 13.8,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 26.2,
+        "highTemp": 37,
+        "lowTemp": 15.3,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 34.7,
+        "highTemp": 45.2,
+        "lowTemp": 24.1,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 46.3,
+        "highTemp": 58.2,
+        "lowTemp": 34.4,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 57.5,
+        "highTemp": 69.5,
+        "lowTemp": 45.4,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 66.5,
+        "highTemp": 78,
+        "lowTemp": 55,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 71.7,
+        "highTemp": 83.1,
+        "lowTemp": 60.2,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 69.9,
+        "highTemp": 81.5,
+        "lowTemp": 58.3,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 62.3,
+        "highTemp": 74.4,
+        "lowTemp": 50.3,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 50.2,
+        "highTemp": 61.9,
+        "lowTemp": 38.6,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 39.4,
+        "highTemp": 49.7,
+        "lowTemp": 29.1,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 30,
+        "highTemp": 39.2,
+        "lowTemp": 20.8,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 48.2,
+      "highTemp": 59.3,
+      "lowTemp": 37.1,
+      "totalPrecip": 46.6,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

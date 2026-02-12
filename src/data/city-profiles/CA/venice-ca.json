@@ -303,5 +303,93 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00093197",
+    "stationName": "SANTA MONICA MUNI AP",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.3,
+        "highTemp": 66,
+        "lowTemp": 48.7,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 57.3,
+        "highTemp": 65.6,
+        "lowTemp": 49,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 58.7,
+        "highTemp": 66.4,
+        "lowTemp": 51,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 60.4,
+        "highTemp": 68.1,
+        "lowTemp": 52.8,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 62.7,
+        "highTemp": 68.9,
+        "lowTemp": 56.6,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 65.5,
+        "highTemp": 71.4,
+        "lowTemp": 59.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 69,
+        "highTemp": 75.1,
+        "lowTemp": 62.9,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 69.8,
+        "highTemp": 76.5,
+        "lowTemp": 63.2,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 69.2,
+        "highTemp": 76.1,
+        "lowTemp": 62.3,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 66.1,
+        "highTemp": 74,
+        "lowTemp": 58.1,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 61,
+        "highTemp": 70.1,
+        "lowTemp": 52,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 57,
+        "highTemp": 66.2,
+        "lowTemp": 47.7,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 62.8,
+      "highTemp": 70.4,
+      "lowTemp": 55.3,
+      "totalPrecip": 13.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -263,5 +263,92 @@
       4.5,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00047339",
+    "stationName": "REDWOOD CITY",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.7,
+        "highTemp": 58.9,
+        "lowTemp": 40.5,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 52.2,
+        "highTemp": 61.9,
+        "lowTemp": 42.5,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 54.9,
+        "highTemp": 65.3,
+        "lowTemp": 44.6,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 57.5,
+        "highTemp": 68.5,
+        "lowTemp": 46.5,
+        "precip": 1.2
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 72.9,
+        "lowTemp": 50.4,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 66.2,
+        "highTemp": 78.8,
+        "lowTemp": 53.6,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 68.8,
+        "highTemp": 81,
+        "lowTemp": 56.6
+      },
+      "aug": {
+        "avgTemp": 68.7,
+        "highTemp": 80.8,
+        "lowTemp": 56.5,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 66.8,
+        "highTemp": 79.3,
+        "lowTemp": 54.3,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.2,
+        "highTemp": 74.6,
+        "lowTemp": 49.8,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 54.3,
+        "highTemp": 64.7,
+        "lowTemp": 43.9,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 49.4,
+        "highTemp": 58.6,
+        "lowTemp": 40.2,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 59.4,
+      "highTemp": 70.4,
+      "lowTemp": 48.3,
+      "totalPrecip": 19.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

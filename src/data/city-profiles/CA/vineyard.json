@@ -295,5 +295,92 @@
       6.3,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USW00023271",
+    "stationName": "SACRAMENTO 5 ESE",
+    "distanceMi": 7.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.8,
+        "highTemp": 56.5,
+        "lowTemp": 41.1,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 52.9,
+        "highTemp": 62.2,
+        "lowTemp": 43.7,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 57.2,
+        "highTemp": 67.8,
+        "lowTemp": 46.7,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 61.4,
+        "highTemp": 73.5,
+        "lowTemp": 49.3,
+        "precip": 1.4
+      },
+      "may": {
+        "avgTemp": 67.7,
+        "highTemp": 81.3,
+        "lowTemp": 54,
+        "precip": 0.9
+      },
+      "jun": {
+        "avgTemp": 73.9,
+        "highTemp": 89,
+        "lowTemp": 58.7,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 77.9,
+        "highTemp": 94.4,
+        "lowTemp": 61.4
+      },
+      "aug": {
+        "avgTemp": 77.3,
+        "highTemp": 93.5,
+        "lowTemp": 61,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 74,
+        "highTemp": 89.3,
+        "lowTemp": 58.8,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 65.9,
+        "highTemp": 78.9,
+        "lowTemp": 52.9,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 55.3,
+        "highTemp": 65.3,
+        "lowTemp": 45.3,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 48.5,
+        "highTemp": 56.4,
+        "lowTemp": 40.7,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 63.4,
+      "highTemp": 75.7,
+      "lowTemp": 51.1,
+      "totalPrecip": 19.2,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

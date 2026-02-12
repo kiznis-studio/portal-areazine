@@ -231,5 +231,93 @@
       5.1,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00445700",
+    "stationName": "MONTICELLO",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35,
+        "highTemp": 44.1,
+        "lowTemp": 25.9,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 37.5,
+        "highTemp": 47.3,
+        "lowTemp": 27.7,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 45.1,
+        "highTemp": 55.4,
+        "lowTemp": 34.9,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 55.4,
+        "highTemp": 66.2,
+        "lowTemp": 44.6,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 63.8,
+        "highTemp": 73.3,
+        "lowTemp": 54.3,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 72.2,
+        "highTemp": 81.2,
+        "lowTemp": 63.3,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 76.1,
+        "highTemp": 85.3,
+        "lowTemp": 66.9,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 74.4,
+        "highTemp": 83.3,
+        "lowTemp": 65.4,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 67,
+        "highTemp": 75.8,
+        "lowTemp": 58.1,
+        "precip": 4.8
+      },
+      "oct": {
+        "avgTemp": 56.8,
+        "highTemp": 66.1,
+        "lowTemp": 47.6,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 46.7,
+        "highTemp": 56.5,
+        "lowTemp": 37,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 38.6,
+        "highTemp": 47.2,
+        "lowTemp": 30.1,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 55.7,
+      "highTemp": 65.1,
+      "lowTemp": 46.3,
+      "totalPrecip": 47,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

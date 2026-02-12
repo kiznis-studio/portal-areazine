@@ -231,5 +231,54 @@
       3.7,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USC00091585",
+    "stationName": "CANTON",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.1
+      },
+      "feb": {
+        "precip": 5
+      },
+      "mar": {
+        "precip": 5.4
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 5.1
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

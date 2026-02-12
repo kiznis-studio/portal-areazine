@@ -239,5 +239,81 @@
       3,
       3.3
     ]
+  },
+  "climate": {
+    "station": "USC00217377",
+    "stationName": "ST PAUL",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 15.4,
+        "highTemp": 22.7,
+        "lowTemp": 8.1
+      },
+      "feb": {
+        "avgTemp": 19.6,
+        "highTemp": 28,
+        "lowTemp": 11.3
+      },
+      "mar": {
+        "avgTemp": 31.9,
+        "highTemp": 40.6,
+        "lowTemp": 23.2
+      },
+      "apr": {
+        "avgTemp": 45.7,
+        "highTemp": 55.6,
+        "lowTemp": 35.9
+      },
+      "may": {
+        "avgTemp": 58.3,
+        "highTemp": 68.5,
+        "lowTemp": 48.2
+      },
+      "jun": {
+        "avgTemp": 68.1,
+        "highTemp": 77.8,
+        "lowTemp": 58.5
+      },
+      "jul": {
+        "avgTemp": 72.5,
+        "highTemp": 82.1,
+        "lowTemp": 62.9
+      },
+      "aug": {
+        "avgTemp": 70.4,
+        "highTemp": 80,
+        "lowTemp": 60.8
+      },
+      "sep": {
+        "avgTemp": 62.2,
+        "highTemp": 71.9,
+        "lowTemp": 52.6
+      },
+      "oct": {
+        "avgTemp": 48.2,
+        "highTemp": 57.3,
+        "lowTemp": 39.2
+      },
+      "nov": {
+        "avgTemp": 33.8,
+        "highTemp": 41,
+        "lowTemp": 26.5
+      },
+      "dec": {
+        "avgTemp": 21.4,
+        "highTemp": 28.3,
+        "lowTemp": 14.5
+      }
+    },
+    "annual": {
+      "avgTemp": 45.6,
+      "highTemp": 54.5,
+      "lowTemp": 36.8,
+      "totalPrecip": 0,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

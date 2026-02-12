@@ -216,5 +216,93 @@
       9.3,
       9
     ]
+  },
+  "climate": {
+    "station": "USC00167767",
+    "stationName": "RESERVE",
+    "distanceMi": 6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.6,
+        "highTemp": 62.3,
+        "lowTemp": 42.9,
+        "precip": 5.9
+      },
+      "feb": {
+        "avgTemp": 56.7,
+        "highTemp": 66.7,
+        "lowTemp": 46.6,
+        "precip": 4.4
+      },
+      "mar": {
+        "avgTemp": 62.2,
+        "highTemp": 72.4,
+        "lowTemp": 52.1,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 68.5,
+        "highTemp": 78.8,
+        "lowTemp": 58.3,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 75.5,
+        "highTemp": 84.9,
+        "lowTemp": 66.2,
+        "precip": 5.9
+      },
+      "jun": {
+        "avgTemp": 80.9,
+        "highTemp": 89.3,
+        "lowTemp": 72.6,
+        "precip": 8.6
+      },
+      "jul": {
+        "avgTemp": 83.2,
+        "highTemp": 91.6,
+        "lowTemp": 74.7,
+        "precip": 7.1
+      },
+      "aug": {
+        "avgTemp": 83.2,
+        "highTemp": 91.6,
+        "lowTemp": 74.7,
+        "precip": 5.7
+      },
+      "sep": {
+        "avgTemp": 79.7,
+        "highTemp": 88.3,
+        "lowTemp": 71,
+        "precip": 5.8
+      },
+      "oct": {
+        "avgTemp": 71,
+        "highTemp": 81.1,
+        "lowTemp": 60.8,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 60.9,
+        "highTemp": 71.2,
+        "lowTemp": 50.6,
+        "precip": 4.3
+      },
+      "dec": {
+        "avgTemp": 55.1,
+        "highTemp": 64.7,
+        "lowTemp": 45.5,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 69.1,
+      "highTemp": 78.6,
+      "lowTemp": 59.7,
+      "totalPrecip": 67.2,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

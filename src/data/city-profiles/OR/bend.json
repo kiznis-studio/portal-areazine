@@ -231,5 +231,93 @@
       5.2,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00350694",
+    "stationName": "BEND HCN",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.6,
+        "highTemp": 42.5,
+        "lowTemp": 24.6,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 35,
+        "highTemp": 45.7,
+        "lowTemp": 24.3,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 39.7,
+        "highTemp": 51.7,
+        "lowTemp": 27.6,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 44.1,
+        "highTemp": 57.7,
+        "lowTemp": 30.5,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 51.6,
+        "highTemp": 66.3,
+        "lowTemp": 37,
+        "precip": 1
+      },
+      "jun": {
+        "avgTemp": 57.8,
+        "highTemp": 73.7,
+        "lowTemp": 42,
+        "precip": 0.7
+      },
+      "jul": {
+        "avgTemp": 66.2,
+        "highTemp": 83.8,
+        "lowTemp": 48.6,
+        "precip": 0.4
+      },
+      "aug": {
+        "avgTemp": 65.5,
+        "highTemp": 83.3,
+        "lowTemp": 47.8,
+        "precip": 0.4
+      },
+      "sep": {
+        "avgTemp": 58.5,
+        "highTemp": 75.8,
+        "lowTemp": 41.3,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 48.3,
+        "highTemp": 63,
+        "lowTemp": 33.7,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 38.6,
+        "highTemp": 49.1,
+        "lowTemp": 28.2,
+        "precip": 1.3
+      },
+      "dec": {
+        "avgTemp": 32.1,
+        "highTemp": 41,
+        "lowTemp": 23.3,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 47.6,
+      "highTemp": 61.1,
+      "lowTemp": 34.1,
+      "totalPrecip": 10.8,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

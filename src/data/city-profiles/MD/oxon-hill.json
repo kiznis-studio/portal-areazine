@@ -216,5 +216,93 @@
       6.6,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00186800",
+    "stationName": "OXON HILL",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.5,
+        "highTemp": 43.7,
+        "lowTemp": 27.4,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 37.9,
+        "highTemp": 47.5,
+        "lowTemp": 28.3,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 45.4,
+        "highTemp": 55.8,
+        "lowTemp": 35,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 56.1,
+        "highTemp": 67.4,
+        "lowTemp": 44.7,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 65.2,
+        "highTemp": 75.7,
+        "lowTemp": 54.7,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 74.1,
+        "highTemp": 84.4,
+        "lowTemp": 63.8,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 78.4,
+        "highTemp": 88,
+        "lowTemp": 68.8,
+        "precip": 5
+      },
+      "aug": {
+        "avgTemp": 76.9,
+        "highTemp": 86.5,
+        "lowTemp": 67.3,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 70.3,
+        "highTemp": 80.1,
+        "lowTemp": 60.5,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 58.3,
+        "highTemp": 68.3,
+        "lowTemp": 48.2,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 47.8,
+        "highTemp": 57.2,
+        "lowTemp": 38.5,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 39.5,
+        "highTemp": 47.8,
+        "lowTemp": 31.3,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 57.1,
+      "highTemp": 66.9,
+      "lowTemp": 47.4,
+      "totalPrecip": 47.1,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

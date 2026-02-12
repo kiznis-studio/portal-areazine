@@ -303,5 +303,54 @@
       5.4,
       5.6
     ]
+  },
+  "climate": {
+    "station": "US1CASF0004",
+    "stationName": "SAN FRANCISCO 1.1 SW",
+    "distanceMi": 3.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 1.8
+      },
+      "may": {
+        "precip": 0.8
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1.1
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 25.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

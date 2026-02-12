@@ -247,5 +247,93 @@
       5.1,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00045795",
+    "stationName": "MONTEREY",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.4,
+        "highTemp": 60.2,
+        "lowTemp": 44.7,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 53.1,
+        "highTemp": 61.1,
+        "lowTemp": 45.2,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 54.3,
+        "highTemp": 62.7,
+        "lowTemp": 45.9,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 55,
+        "highTemp": 63.3,
+        "lowTemp": 46.7,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 56.3,
+        "highTemp": 63.7,
+        "lowTemp": 48.8,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 58.4,
+        "highTemp": 66.1,
+        "lowTemp": 50.6,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 60,
+        "highTemp": 67.2,
+        "lowTemp": 52.8,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 61.2,
+        "highTemp": 68.7,
+        "lowTemp": 53.6,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 62.1,
+        "highTemp": 70.9,
+        "lowTemp": 53.4,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 61.1,
+        "highTemp": 70.8,
+        "lowTemp": 51.5,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 55.9,
+        "highTemp": 64.4,
+        "lowTemp": 47.5,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 51.5,
+        "highTemp": 58.7,
+        "lowTemp": 44.2,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 56.8,
+      "highTemp": 64.8,
+      "lowTemp": 48.7,
+      "totalPrecip": 20.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

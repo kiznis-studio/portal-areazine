@@ -239,5 +239,52 @@
       2.9,
       3.3
     ]
+  },
+  "climate": {
+    "station": "US10hall016",
+    "stationName": "GRAND ISLAND 0.8 NNE",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.3
+      },
+      "feb": {
+        "precip": 0.4
+      },
+      "mar": {
+        "precip": 1.1
+      },
+      "apr": {
+        "precip": 2.7
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 2.1
+      },
+      "oct": {
+        "precip": 2.3
+      },
+      "nov": {
+        "precip": 1.2
+      },
+      "dec": {}
+    },
+    "annual": {
+      "totalPrecip": 26.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

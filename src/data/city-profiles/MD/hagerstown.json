@@ -231,5 +231,54 @@
       5,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1MDWH0003",
+    "stationName": "HAGERSTOWN 1.0 ENE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 3.7
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

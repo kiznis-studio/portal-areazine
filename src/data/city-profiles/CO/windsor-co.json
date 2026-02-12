@@ -239,5 +239,54 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1COLR0630",
+    "stationName": "FORT COLLINS 9.6 SE",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.4
+      },
+      "feb": {
+        "precip": 0.5
+      },
+      "mar": {
+        "precip": 1.2
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 3
+      },
+      "jun": {
+        "precip": 1.8
+      },
+      "jul": {
+        "precip": 1.7
+      },
+      "aug": {
+        "precip": 1.6
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 16,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

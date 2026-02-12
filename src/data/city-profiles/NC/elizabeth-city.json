@@ -231,5 +231,93 @@
       5.6,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00312719",
+    "stationName": "ELIZABETH CITY HCN",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 43.4,
+        "highTemp": 53.2,
+        "lowTemp": 33.6,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 45.4,
+        "highTemp": 56.2,
+        "lowTemp": 34.7,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 52.1,
+        "highTemp": 63.2,
+        "lowTemp": 41.1,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 61.3,
+        "highTemp": 72.2,
+        "lowTemp": 50.4,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 68.9,
+        "highTemp": 78.9,
+        "lowTemp": 58.9,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 77.1,
+        "highTemp": 85.8,
+        "lowTemp": 68.4,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 80.7,
+        "highTemp": 88.9,
+        "lowTemp": 72.5,
+        "precip": 5.9
+      },
+      "aug": {
+        "avgTemp": 79.1,
+        "highTemp": 87.3,
+        "lowTemp": 70.9,
+        "precip": 5.9
+      },
+      "sep": {
+        "avgTemp": 74.1,
+        "highTemp": 82.2,
+        "lowTemp": 66,
+        "precip": 5.3
+      },
+      "oct": {
+        "avgTemp": 64.4,
+        "highTemp": 74.1,
+        "lowTemp": 54.7,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 53.8,
+        "highTemp": 64,
+        "lowTemp": 43.7,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 47,
+        "highTemp": 56.4,
+        "lowTemp": 37.6,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 62.3,
+      "highTemp": 71.9,
+      "lowTemp": 52.7,
+      "totalPrecip": 51.3,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

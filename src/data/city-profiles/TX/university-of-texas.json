@@ -279,5 +279,93 @@
       4.2,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USW00013958",
+    "stationName": "AUSTIN-CAMP MABRY 72254",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.2,
+        "highTemp": 62.5,
+        "lowTemp": 41.8,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 56.1,
+        "highTemp": 66.5,
+        "lowTemp": 45.8,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 62.8,
+        "highTemp": 73.3,
+        "lowTemp": 52.2,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 69.6,
+        "highTemp": 80.3,
+        "lowTemp": 58.9,
+        "precip": 2.4
+      },
+      "may": {
+        "avgTemp": 76.8,
+        "highTemp": 86.9,
+        "lowTemp": 66.8,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 83,
+        "highTemp": 93.2,
+        "lowTemp": 72.9,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 85.8,
+        "highTemp": 96.6,
+        "lowTemp": 75,
+        "precip": 2
+      },
+      "aug": {
+        "avgTemp": 86.5,
+        "highTemp": 97.8,
+        "lowTemp": 75.1,
+        "precip": 2.7
+      },
+      "sep": {
+        "avgTemp": 80.8,
+        "highTemp": 91.4,
+        "lowTemp": 70.1,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 71.6,
+        "highTemp": 82.5,
+        "lowTemp": 60.8,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 61,
+        "highTemp": 71.5,
+        "lowTemp": 50.5,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 53.6,
+        "highTemp": 63.9,
+        "lowTemp": 43.4,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 70,
+      "highTemp": 80.5,
+      "lowTemp": 59.4,
+      "totalPrecip": 36.2,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

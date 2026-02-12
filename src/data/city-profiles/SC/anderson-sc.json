@@ -231,5 +231,93 @@
       5.5,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00380165",
+    "stationName": "ANDERSON HCN",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.8,
+        "highTemp": 53.2,
+        "lowTemp": 32.5,
+        "precip": 4.6
+      },
+      "feb": {
+        "avgTemp": 46.1,
+        "highTemp": 56.9,
+        "lowTemp": 35.3,
+        "precip": 4.4
+      },
+      "mar": {
+        "avgTemp": 52.8,
+        "highTemp": 64.5,
+        "lowTemp": 41.1,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 61.3,
+        "highTemp": 73.2,
+        "lowTemp": 49.3,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 69.7,
+        "highTemp": 80.5,
+        "lowTemp": 58.8,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 77.3,
+        "highTemp": 87.6,
+        "lowTemp": 67,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 80.7,
+        "highTemp": 90.7,
+        "lowTemp": 70.7,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 79.6,
+        "highTemp": 89.4,
+        "lowTemp": 69.7,
+        "precip": 4.8
+      },
+      "sep": {
+        "avgTemp": 73.6,
+        "highTemp": 83.5,
+        "lowTemp": 63.6,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 62.6,
+        "highTemp": 73.7,
+        "lowTemp": 51.5,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 52.1,
+        "highTemp": 63.5,
+        "lowTemp": 40.8,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 45.3,
+        "highTemp": 55.3,
+        "lowTemp": 35.2,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 62,
+      "highTemp": 72.7,
+      "lowTemp": 51.3,
+      "totalPrecip": 50.4,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

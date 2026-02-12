@@ -303,5 +303,54 @@
       4.9,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1CAAL0003",
+    "stationName": "CASTRO VALLEY 0.4 NNE",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4
+      },
+      "feb": {
+        "precip": 3.9
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 1.8
+      },
+      "may": {
+        "precip": 0.8
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 2.2
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 21.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

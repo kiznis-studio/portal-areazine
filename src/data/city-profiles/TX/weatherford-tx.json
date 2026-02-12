@@ -231,5 +231,93 @@
       3.9,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00419532",
+    "stationName": "WEATHERFORD HCN",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44,
+        "highTemp": 56.2,
+        "lowTemp": 31.8,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 47.8,
+        "highTemp": 60,
+        "lowTemp": 35.5,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 55.7,
+        "highTemp": 67.9,
+        "lowTemp": 43.5,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 63.6,
+        "highTemp": 75.8,
+        "lowTemp": 51.4,
+        "precip": 2.7
+      },
+      "may": {
+        "avgTemp": 71.8,
+        "highTemp": 82.4,
+        "lowTemp": 61.2,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 79.7,
+        "highTemp": 90,
+        "lowTemp": 69.4,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 83.7,
+        "highTemp": 94.6,
+        "lowTemp": 72.9,
+        "precip": 1.9
+      },
+      "aug": {
+        "avgTemp": 83.3,
+        "highTemp": 94.7,
+        "lowTemp": 72,
+        "precip": 2.6
+      },
+      "sep": {
+        "avgTemp": 75.8,
+        "highTemp": 87.7,
+        "lowTemp": 64,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 65.1,
+        "highTemp": 77.8,
+        "lowTemp": 52.5,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 54.3,
+        "highTemp": 66.2,
+        "lowTemp": 42.4,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 45.8,
+        "highTemp": 57.9,
+        "lowTemp": 33.7,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 64.2,
+      "highTemp": 75.9,
+      "lowTemp": 52.5,
+      "totalPrecip": 35.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

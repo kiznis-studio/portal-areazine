@@ -239,5 +239,54 @@
       3.4,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00338332",
+    "stationName": "TIPP CITY",
+    "distanceMi": 6.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 2.8
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

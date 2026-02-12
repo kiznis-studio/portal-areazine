@@ -222,5 +222,93 @@
       4.8,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USW00014836",
+    "stationName": "LANSING CAPITAL CITY AP 72539",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.9,
+        "highTemp": 30.6,
+        "lowTemp": 17.2,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 25.9,
+        "highTemp": 33.5,
+        "lowTemp": 18.3,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 35.2,
+        "highTemp": 44.4,
+        "lowTemp": 26,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 47,
+        "highTemp": 57.6,
+        "lowTemp": 36.4,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 58.4,
+        "highTemp": 69.4,
+        "lowTemp": 47.5,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 68,
+        "highTemp": 78.9,
+        "lowTemp": 57.1,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 71.8,
+        "highTemp": 82.8,
+        "lowTemp": 60.9,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 70,
+        "highTemp": 80.6,
+        "lowTemp": 59.5,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 62.5,
+        "highTemp": 73.6,
+        "lowTemp": 51.5,
+        "precip": 2.8
+      },
+      "oct": {
+        "avgTemp": 50.8,
+        "highTemp": 60.5,
+        "lowTemp": 41.2,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 39.5,
+        "highTemp": 47,
+        "lowTemp": 31.9,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 29.5,
+        "highTemp": 35.7,
+        "lowTemp": 23.3,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 48.5,
+      "highTemp": 57.9,
+      "lowTemp": 39.2,
+      "totalPrecip": 33.5,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

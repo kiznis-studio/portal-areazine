@@ -216,5 +216,54 @@
       7,
       7.1
     ]
+  },
+  "climate": {
+    "station": "US1ILDK0006",
+    "stationName": "DE KALB 0.3 ENE",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.7
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 37,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

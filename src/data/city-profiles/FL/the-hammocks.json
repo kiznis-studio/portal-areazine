@@ -303,5 +303,54 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1FLMD0022",
+    "stationName": "HAMMOCKS 0.5 SSE",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.9
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 2.9
+      },
+      "may": {
+        "precip": 6
+      },
+      "jun": {
+        "precip": 8.7
+      },
+      "jul": {
+        "precip": 9.2
+      },
+      "aug": {
+        "precip": 9.3
+      },
+      "sep": {
+        "precip": 10.2
+      },
+      "oct": {
+        "precip": 6.5
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 64.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

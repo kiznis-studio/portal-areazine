@@ -239,5 +239,54 @@
       5.2,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1WACK0038",
+    "stationName": "VANCOUVER 5.4 N",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.4
+      },
+      "feb": {
+        "precip": 4.5
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 2.8
+      },
+      "jun": {
+        "precip": 1.9
+      },
+      "jul": {
+        "precip": 0.6
+      },
+      "aug": {
+        "precip": 0.6
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 6.3
+      },
+      "dec": {
+        "precip": 7.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

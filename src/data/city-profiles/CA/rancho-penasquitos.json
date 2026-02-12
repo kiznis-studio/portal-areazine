@@ -303,5 +303,54 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1CASD0022",
+    "stationName": "POWAY 1.4SW",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 1
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 13.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

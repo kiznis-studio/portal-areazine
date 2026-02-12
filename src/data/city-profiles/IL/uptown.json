@@ -303,5 +303,54 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1ILCK0232",
+    "stationName": "ROGERS PARK 0.6 ESE",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.1
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 40,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

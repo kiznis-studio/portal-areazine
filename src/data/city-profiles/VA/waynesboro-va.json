@@ -216,5 +216,93 @@
       4.7,
       3.8
     ]
+  },
+  "climate": {
+    "station": "USC00448941",
+    "stationName": "WAYNESBORO WTP",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.8,
+        "highTemp": 44.2,
+        "lowTemp": 23.4,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 36.2,
+        "highTemp": 47.6,
+        "lowTemp": 24.9,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 43.4,
+        "highTemp": 55.4,
+        "lowTemp": 31.3,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 53,
+        "highTemp": 66.3,
+        "lowTemp": 39.8,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 62.1,
+        "highTemp": 74.2,
+        "lowTemp": 50,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 70.4,
+        "highTemp": 82.1,
+        "lowTemp": 58.6,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 74.5,
+        "highTemp": 85.7,
+        "lowTemp": 63.3,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 84.6,
+        "lowTemp": 61.4,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 66,
+        "highTemp": 77.5,
+        "lowTemp": 54.5,
+        "precip": 5.5
+      },
+      "oct": {
+        "avgTemp": 55.1,
+        "highTemp": 67.7,
+        "lowTemp": 42.6,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 44.5,
+        "highTemp": 56.4,
+        "lowTemp": 32.7,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 37,
+        "highTemp": 47.1,
+        "lowTemp": 26.8,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 54.1,
+      "highTemp": 65.7,
+      "lowTemp": 42.4,
+      "totalPrecip": 45.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

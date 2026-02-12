@@ -271,5 +271,93 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00187705",
+    "stationName": "ROCKVILLE 1 NE",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.5,
+        "highTemp": 42.2,
+        "lowTemp": 26.9,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 36.7,
+        "highTemp": 45,
+        "lowTemp": 28.4,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 44.8,
+        "highTemp": 53.7,
+        "lowTemp": 35.9,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 55.7,
+        "highTemp": 65.9,
+        "lowTemp": 45.6,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 64.6,
+        "highTemp": 74.3,
+        "lowTemp": 54.9,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 72.9,
+        "highTemp": 82.2,
+        "lowTemp": 63.6,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 78,
+        "highTemp": 87.1,
+        "lowTemp": 68.8,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 75.9,
+        "highTemp": 84.9,
+        "lowTemp": 67,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 68.7,
+        "highTemp": 77.5,
+        "lowTemp": 60,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 57,
+        "highTemp": 65.9,
+        "lowTemp": 48,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 46.9,
+        "highTemp": 55.7,
+        "lowTemp": 38.2,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 38.5,
+        "highTemp": 46,
+        "lowTemp": 30.9,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 56.2,
+      "highTemp": 65,
+      "lowTemp": 47.3,
+      "totalPrecip": 41.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

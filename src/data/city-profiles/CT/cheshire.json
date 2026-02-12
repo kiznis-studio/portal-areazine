@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTNH0014",
+    "stationName": "PROSPECT 1.9 ENE",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 5.4
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

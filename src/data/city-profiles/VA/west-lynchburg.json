@@ -231,5 +231,93 @@
       5.4,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00445117",
+    "stationName": "LYNCHBURG #2",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.5,
+        "highTemp": 46.4,
+        "lowTemp": 24.5,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 38,
+        "highTemp": 49.7,
+        "lowTemp": 26.3,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 45.2,
+        "highTemp": 58,
+        "lowTemp": 32.5,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 54.6,
+        "highTemp": 68,
+        "lowTemp": 41.3,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 63.1,
+        "highTemp": 74.8,
+        "lowTemp": 51.4,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 71,
+        "highTemp": 82,
+        "lowTemp": 59.9,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 74.9,
+        "highTemp": 85.3,
+        "lowTemp": 64.5,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 73.5,
+        "highTemp": 83.9,
+        "lowTemp": 63.2,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 66.9,
+        "highTemp": 77.8,
+        "lowTemp": 56.1,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 56.2,
+        "highTemp": 68.8,
+        "lowTemp": 43.6,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 45.7,
+        "highTemp": 58.8,
+        "lowTemp": 32.6,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 38.3,
+        "highTemp": 49.1,
+        "lowTemp": 27.6,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 55.2,
+      "highTemp": 66.9,
+      "lowTemp": 43.6,
+      "totalPrecip": 43.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

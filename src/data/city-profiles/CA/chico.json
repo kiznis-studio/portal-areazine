@@ -239,5 +239,54 @@
       7.1,
       7.1
     ]
+  },
+  "climate": {
+    "station": "US1CABT0009",
+    "stationName": "CHICO 2.9 W",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.6
+      },
+      "feb": {
+        "precip": 4.9
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 2.2
+      },
+      "may": {
+        "precip": 1.4
+      },
+      "jun": {
+        "precip": 0.7
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.3
+      },
+      "oct": {
+        "precip": 1.8
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 28.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

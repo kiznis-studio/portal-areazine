@@ -239,5 +239,93 @@
       5.9,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USW00012907",
+    "stationName": "LAREDO AFB 72252",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.5,
+        "highTemp": 68.4,
+        "lowTemp": 46.5,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 62.5,
+        "highTemp": 74.4,
+        "lowTemp": 50.6,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 69.2,
+        "highTemp": 80.9,
+        "lowTemp": 57.5,
+        "precip": 1.6
+      },
+      "apr": {
+        "avgTemp": 76.1,
+        "highTemp": 88.1,
+        "lowTemp": 64.1,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 82.1,
+        "highTemp": 93.2,
+        "lowTemp": 70.9,
+        "precip": 2.8
+      },
+      "jun": {
+        "avgTemp": 87,
+        "highTemp": 98.7,
+        "lowTemp": 75.3,
+        "precip": 2.5
+      },
+      "jul": {
+        "avgTemp": 88.1,
+        "highTemp": 99.9,
+        "lowTemp": 76.3,
+        "precip": 2.1
+      },
+      "aug": {
+        "avgTemp": 88.9,
+        "highTemp": 100.9,
+        "lowTemp": 76.8,
+        "precip": 1.7
+      },
+      "sep": {
+        "avgTemp": 83,
+        "highTemp": 93.5,
+        "lowTemp": 72.4,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 76.3,
+        "highTemp": 87.1,
+        "lowTemp": 65.4,
+        "precip": 1.8
+      },
+      "nov": {
+        "avgTemp": 66.3,
+        "highTemp": 77,
+        "lowTemp": 55.6,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 58.6,
+        "highTemp": 69,
+        "lowTemp": 48.1,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 74.6,
+      "highTemp": 85.9,
+      "lowTemp": 63.3,
+      "totalPrecip": 21.4,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

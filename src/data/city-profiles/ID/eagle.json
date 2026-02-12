@@ -247,5 +247,54 @@
       3.2,
       3.1
     ]
+  },
+  "climate": {
+    "station": "US1IDAD0002",
+    "stationName": "BOISE 5.3 NW",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.8
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 1.7
+      },
+      "apr": {
+        "precip": 1.4
+      },
+      "may": {
+        "precip": 1.7
+      },
+      "jun": {
+        "precip": 1
+      },
+      "jul": {
+        "precip": 0.3
+      },
+      "aug": {
+        "precip": 0.3
+      },
+      "sep": {
+        "precip": 0.4
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 1.4
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 14.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

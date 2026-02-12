@@ -239,5 +239,54 @@
       5.1,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1VAHMC004",
+    "stationName": "HAMPTON 7.2 W",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 5.5
+      },
+      "sep": {
+        "precip": 5.2
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.2,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00340292",
+    "stationName": "ARDMORE HCN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.6,
+        "highTemp": 53.7,
+        "lowTemp": 31.5,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 47.6,
+        "highTemp": 58.7,
+        "lowTemp": 36.5,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 55.8,
+        "highTemp": 66.8,
+        "lowTemp": 44.9,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 64.2,
+        "highTemp": 75,
+        "lowTemp": 53.5,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 72.1,
+        "highTemp": 82.1,
+        "lowTemp": 62.2,
+        "precip": 5.7
+      },
+      "jun": {
+        "avgTemp": 80.3,
+        "highTemp": 89.8,
+        "lowTemp": 70.8,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 84.9,
+        "highTemp": 95.3,
+        "lowTemp": 74.5,
+        "precip": 2.5
+      },
+      "aug": {
+        "avgTemp": 84.5,
+        "highTemp": 95,
+        "lowTemp": 74,
+        "precip": 2.7
+      },
+      "sep": {
+        "avgTemp": 76.9,
+        "highTemp": 87,
+        "lowTemp": 66.8,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 65.8,
+        "highTemp": 77.2,
+        "lowTemp": 54.5,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 54.3,
+        "highTemp": 65.2,
+        "lowTemp": 43.3,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 45,
+        "highTemp": 55.4,
+        "lowTemp": 34.6,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 64.5,
+      "highTemp": 75.1,
+      "lowTemp": 53.9,
+      "totalPrecip": 38.1,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTMD0025",
+    "stationName": "MIDDLEFIELD 0.6 SE",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 3.7
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

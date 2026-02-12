@@ -231,5 +231,54 @@
       3.9,
       3.5
     ]
+  },
+  "climate": {
+    "station": "US1KSCR0001",
+    "stationName": "PITTSBURG 0.7 WSW",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 5.2
+      },
+      "may": {
+        "precip": 7.7
+      },
+      "jun": {
+        "precip": 6.5
+      },
+      "jul": {
+        "precip": 5
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

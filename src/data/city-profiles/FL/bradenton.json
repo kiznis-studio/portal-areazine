@@ -247,5 +247,93 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00080945",
+    "stationName": "BRADENTON 5 ESE",
+    "distanceMi": 5.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62.1,
+        "highTemp": 72,
+        "lowTemp": 52.2,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 64.9,
+        "highTemp": 75,
+        "lowTemp": 54.8,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 68.4,
+        "highTemp": 78.4,
+        "lowTemp": 58.4,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 73,
+        "highTemp": 83,
+        "lowTemp": 63,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 78.4,
+        "highTemp": 88.2,
+        "lowTemp": 68.5,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 82.4,
+        "highTemp": 91.1,
+        "lowTemp": 73.7,
+        "precip": 9
+      },
+      "jul": {
+        "avgTemp": 83.6,
+        "highTemp": 92,
+        "lowTemp": 75.2,
+        "precip": 8.9
+      },
+      "aug": {
+        "avgTemp": 83.7,
+        "highTemp": 91.8,
+        "lowTemp": 75.5,
+        "precip": 10.1
+      },
+      "sep": {
+        "avgTemp": 82.1,
+        "highTemp": 90,
+        "lowTemp": 74.2,
+        "precip": 7.4
+      },
+      "oct": {
+        "avgTemp": 76.7,
+        "highTemp": 85.2,
+        "lowTemp": 68.3,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 69.3,
+        "highTemp": 78.6,
+        "lowTemp": 60.1,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 64.5,
+        "highTemp": 74,
+        "lowTemp": 55,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 74.1,
+      "highTemp": 83.3,
+      "lowTemp": 64.9,
+      "totalPrecip": 56.3,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

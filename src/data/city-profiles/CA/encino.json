@@ -303,5 +303,92 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00023130",
+    "stationName": "VAN NUYS AP",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.2,
+        "highTemp": 68.2,
+        "lowTemp": 46.1,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 57.4,
+        "highTemp": 68.4,
+        "lowTemp": 46.4,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 60.6,
+        "highTemp": 72.1,
+        "lowTemp": 49.2,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 63.4,
+        "highTemp": 75.3,
+        "lowTemp": 51.5,
+        "precip": 0.7
+      },
+      "may": {
+        "avgTemp": 67.5,
+        "highTemp": 78.9,
+        "lowTemp": 56.1,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 72,
+        "highTemp": 84.2,
+        "lowTemp": 59.8,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 77.8,
+        "highTemp": 91.2,
+        "lowTemp": 64.3
+      },
+      "aug": {
+        "avgTemp": 79,
+        "highTemp": 93.1,
+        "lowTemp": 64.9,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 76.6,
+        "highTemp": 90.4,
+        "lowTemp": 62.7,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 69.8,
+        "highTemp": 82.9,
+        "lowTemp": 56.6,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 62.2,
+        "highTemp": 75,
+        "lowTemp": 49.3,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 56.1,
+        "highTemp": 67.4,
+        "lowTemp": 44.9,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 66.6,
+      "highTemp": 78.9,
+      "lowTemp": 54.3,
+      "totalPrecip": 13.6,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

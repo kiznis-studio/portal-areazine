@@ -303,5 +303,93 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USW00012844",
+    "stationName": "WEST PALM BEACH INTL AP 72203",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 66.3,
+        "highTemp": 74.7,
+        "lowTemp": 57.9,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 68.4,
+        "highTemp": 76.7,
+        "lowTemp": 60.1,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 71.1,
+        "highTemp": 79.2,
+        "lowTemp": 63,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 74.9,
+        "highTemp": 82.2,
+        "lowTemp": 67.5,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 78.7,
+        "highTemp": 85.7,
+        "lowTemp": 71.7,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 81.7,
+        "highTemp": 88.3,
+        "lowTemp": 75,
+        "precip": 8.5
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 90,
+        "lowTemp": 76.1,
+        "precip": 5.6
+      },
+      "aug": {
+        "avgTemp": 83.2,
+        "highTemp": 89.9,
+        "lowTemp": 76.5,
+        "precip": 8.7
+      },
+      "sep": {
+        "avgTemp": 81.9,
+        "highTemp": 88,
+        "lowTemp": 75.8,
+        "precip": 8
+      },
+      "oct": {
+        "avgTemp": 78.7,
+        "highTemp": 84.7,
+        "lowTemp": 72.6,
+        "precip": 5.9
+      },
+      "nov": {
+        "avgTemp": 73,
+        "highTemp": 80,
+        "lowTemp": 66.1,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 69,
+        "highTemp": 76.5,
+        "lowTemp": 61.5,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 75.8,
+      "highTemp": 83,
+      "lowTemp": 68.6,
+      "totalPrecip": 61.8,
+      "hotMonths": 9,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,93 @@
       5.8,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USW00003855",
+    "stationName": "PENSACOLA FOREST SHERMAN NAS",
+    "distanceMi": 7.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.6,
+        "highTemp": 61.1,
+        "lowTemp": 42.2,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 54.7,
+        "highTemp": 64.3,
+        "lowTemp": 45,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 59.9,
+        "highTemp": 69.3,
+        "lowTemp": 50.4,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 66,
+        "highTemp": 75.1,
+        "lowTemp": 56.9,
+        "precip": 5
+      },
+      "may": {
+        "avgTemp": 73.6,
+        "highTemp": 82.4,
+        "lowTemp": 64.8,
+        "precip": 3.2
+      },
+      "jun": {
+        "avgTemp": 79.6,
+        "highTemp": 87.4,
+        "lowTemp": 71.7,
+        "precip": 6.3
+      },
+      "jul": {
+        "avgTemp": 81.6,
+        "highTemp": 89.3,
+        "lowTemp": 73.9,
+        "precip": 6.4
+      },
+      "aug": {
+        "avgTemp": 81.2,
+        "highTemp": 89,
+        "lowTemp": 73.4,
+        "precip": 5.7
+      },
+      "sep": {
+        "avgTemp": 78.1,
+        "highTemp": 86.4,
+        "lowTemp": 69.7,
+        "precip": 6.8
+      },
+      "oct": {
+        "avgTemp": 69.4,
+        "highTemp": 79.3,
+        "lowTemp": 59.6,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 59.8,
+        "highTemp": 70.2,
+        "lowTemp": 49.3,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 54.2,
+        "highTemp": 64,
+        "lowTemp": 44.5,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 67.5,
+      "highTemp": 76.5,
+      "lowTemp": 58.5,
+      "totalPrecip": 57.8,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLPN0036",
+    "stationName": "DUNEDIN 2.8 ESE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 2.1
+      },
+      "jun": {
+        "precip": 7.8
+      },
+      "jul": {
+        "precip": 10.2
+      },
+      "aug": {
+        "precip": 8.8
+      },
+      "sep": {
+        "precip": 7.5
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

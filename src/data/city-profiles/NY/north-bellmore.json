@@ -295,5 +295,93 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00308946",
+    "stationName": "WANTAGH CEDAR CREEK",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.7,
+        "highTemp": 41.8,
+        "lowTemp": 27.5,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 36.2,
+        "highTemp": 43.6,
+        "lowTemp": 28.8,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 42.3,
+        "highTemp": 49.9,
+        "lowTemp": 34.7,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 51.3,
+        "highTemp": 59.6,
+        "lowTemp": 43,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 61.2,
+        "highTemp": 69.6,
+        "lowTemp": 52.9,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 71,
+        "highTemp": 79.4,
+        "lowTemp": 62.6,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 76.9,
+        "highTemp": 85.1,
+        "lowTemp": 68.7,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 75.6,
+        "highTemp": 83.6,
+        "lowTemp": 67.7,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 69.1,
+        "highTemp": 77.6,
+        "lowTemp": 60.7,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 58.3,
+        "highTemp": 66.8,
+        "lowTemp": 49.8,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 47.8,
+        "highTemp": 55.7,
+        "lowTemp": 39.9,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 39.9,
+        "highTemp": 46.9,
+        "lowTemp": 32.9,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 55.4,
+      "highTemp": 63.3,
+      "lowTemp": 47.4,
+      "totalPrecip": 42.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

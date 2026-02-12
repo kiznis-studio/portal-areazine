@@ -303,5 +303,54 @@
       7.6,
       7.4
     ]
+  },
+  "climate": {
+    "station": "US1NVCK0029",
+    "stationName": "HENDERSON 4.7 NE",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.7
+      },
+      "feb": {
+        "precip": 1.3
+      },
+      "mar": {
+        "precip": 0.6
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.2
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.6
+      },
+      "aug": {
+        "precip": 0.7
+      },
+      "sep": {
+        "precip": 0.6
+      },
+      "oct": {
+        "precip": 0.5
+      },
+      "nov": {
+        "precip": 0.4
+      },
+      "dec": {
+        "precip": 0.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 6.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

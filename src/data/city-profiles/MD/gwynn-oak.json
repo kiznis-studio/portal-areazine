@@ -303,5 +303,81 @@
       6.9,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00182308",
+    "stationName": "CYLBURN",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.5,
+        "highTemp": 42.4,
+        "lowTemp": 26.6
+      },
+      "feb": {
+        "avgTemp": 37.3,
+        "highTemp": 46.3,
+        "lowTemp": 28.3
+      },
+      "mar": {
+        "avgTemp": 44,
+        "highTemp": 53.8,
+        "lowTemp": 34.2
+      },
+      "apr": {
+        "avgTemp": 55.2,
+        "highTemp": 65.5,
+        "lowTemp": 44.9
+      },
+      "may": {
+        "avgTemp": 63.9,
+        "highTemp": 73.2,
+        "lowTemp": 54.5
+      },
+      "jun": {
+        "avgTemp": 72.9,
+        "highTemp": 82,
+        "lowTemp": 63.9
+      },
+      "jul": {
+        "avgTemp": 77.9,
+        "highTemp": 86.5,
+        "lowTemp": 69.3
+      },
+      "aug": {
+        "avgTemp": 75.4,
+        "highTemp": 83.9,
+        "lowTemp": 67
+      },
+      "sep": {
+        "avgTemp": 68.3,
+        "highTemp": 76.8,
+        "lowTemp": 59.8
+      },
+      "oct": {
+        "avgTemp": 57.4,
+        "highTemp": 66.3,
+        "lowTemp": 48.5
+      },
+      "nov": {
+        "avgTemp": 47.5,
+        "highTemp": 56.4,
+        "lowTemp": 38.7
+      },
+      "dec": {
+        "avgTemp": 38.9,
+        "highTemp": 46.4,
+        "lowTemp": 31.5
+      }
+    },
+    "annual": {
+      "avgTemp": 56.1,
+      "highTemp": 65,
+      "lowTemp": 47.3,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

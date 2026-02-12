@@ -239,5 +239,93 @@
       4.4,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USW00064775",
+    "stationName": "ROME GRIFFISS AIRFIELD",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.5,
+        "highTemp": 30.1,
+        "lowTemp": 12.9,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 22.5,
+        "highTemp": 31.8,
+        "lowTemp": 13.2,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 31.7,
+        "highTemp": 41,
+        "lowTemp": 22.5,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 44.5,
+        "highTemp": 54.9,
+        "lowTemp": 34.1,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 56.8,
+        "highTemp": 68.9,
+        "lowTemp": 44.7,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 65.3,
+        "highTemp": 76.2,
+        "lowTemp": 54.5,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 70.2,
+        "highTemp": 80.9,
+        "lowTemp": 59.5,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 68.7,
+        "highTemp": 79.3,
+        "lowTemp": 58.1,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 61.4,
+        "highTemp": 72,
+        "lowTemp": 50.9,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 49.7,
+        "highTemp": 58.9,
+        "lowTemp": 40.5,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 39,
+        "highTemp": 46.8,
+        "lowTemp": 31.2,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 28.3,
+        "highTemp": 35.7,
+        "lowTemp": 20.9,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 46.6,
+      "highTemp": 56.4,
+      "lowTemp": 36.9,
+      "totalPrecip": 44,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

@@ -231,5 +231,93 @@
       2.1,
       2
     ]
+  },
+  "climate": {
+    "station": "USC00403280",
+    "stationName": "FRANKLIN SEWAGE PLT",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.9,
+        "highTemp": 49.1,
+        "lowTemp": 28.6,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 42.3,
+        "highTemp": 53.4,
+        "lowTemp": 31.1,
+        "precip": 4.8
+      },
+      "mar": {
+        "avgTemp": 50,
+        "highTemp": 62.2,
+        "lowTemp": 37.8,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 59,
+        "highTemp": 71.9,
+        "lowTemp": 46.2,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 67.4,
+        "highTemp": 79.5,
+        "lowTemp": 55.4,
+        "precip": 5.4
+      },
+      "jun": {
+        "avgTemp": 75.8,
+        "highTemp": 87.3,
+        "lowTemp": 64.3,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 79.7,
+        "highTemp": 90.8,
+        "lowTemp": 68.5,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 78.5,
+        "highTemp": 90.2,
+        "lowTemp": 66.9,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 72.3,
+        "highTemp": 84.8,
+        "lowTemp": 59.8,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 60.5,
+        "highTemp": 73.8,
+        "lowTemp": 47.2,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 49.4,
+        "highTemp": 61.6,
+        "lowTemp": 37.1,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 42.1,
+        "highTemp": 52.5,
+        "lowTemp": 31.8,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 59.7,
+      "highTemp": 71.4,
+      "lowTemp": 47.9,
+      "totalPrecip": 54,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

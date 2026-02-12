@@ -271,5 +271,54 @@
       5.4,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1GAFT0037",
+    "stationName": "ATLANTA 3.2 S",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.3
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       4.8,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1NYSF0016",
+    "stationName": "NORTHPORT 1.6 NNE",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 45.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

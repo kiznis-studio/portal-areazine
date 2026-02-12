@@ -231,5 +231,93 @@
       5.4,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USW00024110",
+    "stationName": "MOSES LAKE GRANT CO AP",
+    "distanceMi": 5.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.1,
+        "highTemp": 36.4,
+        "lowTemp": 23.8,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 35.3,
+        "highTemp": 44.1,
+        "lowTemp": 26.6,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 43.3,
+        "highTemp": 54.9,
+        "lowTemp": 31.7,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 50.5,
+        "highTemp": 63.7,
+        "lowTemp": 37.3,
+        "precip": 0.7
+      },
+      "may": {
+        "avgTemp": 59.5,
+        "highTemp": 73.7,
+        "lowTemp": 45.4,
+        "precip": 0.7
+      },
+      "jun": {
+        "avgTemp": 66.2,
+        "highTemp": 80.4,
+        "lowTemp": 52,
+        "precip": 0.7
+      },
+      "jul": {
+        "avgTemp": 73.4,
+        "highTemp": 89.7,
+        "lowTemp": 57.2,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 72.2,
+        "highTemp": 88.3,
+        "lowTemp": 56.1,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 62.8,
+        "highTemp": 78.7,
+        "lowTemp": 47,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 49.9,
+        "highTemp": 62.8,
+        "lowTemp": 36.9,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 37.6,
+        "highTemp": 46.3,
+        "lowTemp": 28.8,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 29.9,
+        "highTemp": 36.2,
+        "lowTemp": 23.5,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 50.9,
+      "highTemp": 62.9,
+      "lowTemp": 38.9,
+      "totalPrecip": 8,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

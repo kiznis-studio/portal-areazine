@@ -216,5 +216,54 @@
       5.9,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1NMSN0069",
+    "stationName": "RIO RANCHO 2.3 SW",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.5
+      },
+      "mar": {
+        "precip": 0.6
+      },
+      "apr": {
+        "precip": 0.6
+      },
+      "may": {
+        "precip": 0.6
+      },
+      "jun": {
+        "precip": 0.5
+      },
+      "jul": {
+        "precip": 1.8
+      },
+      "aug": {
+        "precip": 1.8
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 0.6
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 11,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

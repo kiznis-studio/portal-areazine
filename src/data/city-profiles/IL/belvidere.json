@@ -216,5 +216,54 @@
       7.7,
       7.8
     ]
+  },
+  "climate": {
+    "station": "USC00110583",
+    "stationName": "BELVIDERE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.7
+      },
+      "feb": {
+        "precip": 1.7
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 5.9
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

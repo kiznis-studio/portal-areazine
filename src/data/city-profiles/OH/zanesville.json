@@ -231,5 +231,93 @@
       4.6,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USW00093824",
+    "stationName": "ZANESVILLE MUNI AP",
+    "distanceMi": 6.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.1,
+        "highTemp": 38.4,
+        "lowTemp": 21.7,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 32.9,
+        "highTemp": 42,
+        "lowTemp": 23.8,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 41.6,
+        "highTemp": 52,
+        "lowTemp": 31.3,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 52.8,
+        "highTemp": 64.6,
+        "lowTemp": 41,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 62.3,
+        "highTemp": 73.8,
+        "lowTemp": 50.9,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 70.5,
+        "highTemp": 81.4,
+        "lowTemp": 59.6,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 74.2,
+        "highTemp": 84.8,
+        "lowTemp": 63.6,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 72.7,
+        "highTemp": 83.7,
+        "lowTemp": 61.7,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 65.9,
+        "highTemp": 77.5,
+        "lowTemp": 54.4,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 54.3,
+        "highTemp": 65.6,
+        "lowTemp": 43.1,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 43.4,
+        "highTemp": 53.2,
+        "lowTemp": 33.7,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 34.7,
+        "highTemp": 42.5,
+        "lowTemp": 26.8,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 53,
+      "highTemp": 63.3,
+      "lowTemp": 42.6,
+      "totalPrecip": 38.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

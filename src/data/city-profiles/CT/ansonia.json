@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USC00060128",
+    "stationName": "ANSONIA 1 NE",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.2,
+        "highTemp": 36,
+        "lowTemp": 18.4,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 28.5,
+        "highTemp": 38.1,
+        "lowTemp": 18.9,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 37.1,
+        "highTemp": 46.8,
+        "lowTemp": 27.4,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 47.9,
+        "highTemp": 58.2,
+        "lowTemp": 37.5,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 58.1,
+        "highTemp": 69,
+        "lowTemp": 47.2,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 67.6,
+        "highTemp": 77.3,
+        "lowTemp": 57.9,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 72.6,
+        "highTemp": 82,
+        "lowTemp": 63.1,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 72.1,
+        "highTemp": 82,
+        "lowTemp": 62.1,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 64.3,
+        "highTemp": 75,
+        "lowTemp": 53.6,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 52.3,
+        "highTemp": 63.3,
+        "lowTemp": 41.2,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 41.8,
+        "highTemp": 51.6,
+        "lowTemp": 32,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 32.3,
+        "highTemp": 41.2,
+        "lowTemp": 23.3,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 60,
+      "lowTemp": 40.2,
+      "totalPrecip": 52,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

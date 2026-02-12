@@ -231,5 +231,93 @@
       4.4,
       3.8
     ]
+  },
+  "climate": {
+    "station": "USC00210075",
+    "stationName": "ALBERT LEA 3SE HCN",
+    "distanceMi": 4.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 14.2,
+        "highTemp": 22.5,
+        "lowTemp": 5.9,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 18.5,
+        "highTemp": 27.1,
+        "lowTemp": 9.8,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 31.2,
+        "highTemp": 39.6,
+        "lowTemp": 22.8,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 45.3,
+        "highTemp": 55.1,
+        "lowTemp": 35.5,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 58.1,
+        "highTemp": 68,
+        "lowTemp": 48.1,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 68.7,
+        "highTemp": 78.3,
+        "lowTemp": 59,
+        "precip": 5.4
+      },
+      "jul": {
+        "avgTemp": 72,
+        "highTemp": 81.6,
+        "lowTemp": 62.5,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 69.6,
+        "highTemp": 79.2,
+        "lowTemp": 59.9,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 62,
+        "highTemp": 73,
+        "lowTemp": 51.1,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 48.3,
+        "highTemp": 58.9,
+        "lowTemp": 37.7,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 33.7,
+        "highTemp": 42.1,
+        "lowTemp": 25.3,
+        "precip": 1.5
+      },
+      "dec": {
+        "avgTemp": 20.9,
+        "highTemp": 28.3,
+        "lowTemp": 13.4,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 45.2,
+      "highTemp": 54.5,
+      "lowTemp": 35.9,
+      "totalPrecip": 35.7,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

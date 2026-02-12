@@ -263,5 +263,54 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "US1NVWH0002",
+    "stationName": "RENO 1.4 NNE",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.4
+      },
+      "feb": {
+        "precip": 1.3
+      },
+      "mar": {
+        "precip": 1.2
+      },
+      "apr": {
+        "precip": 0.6
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.5
+      },
+      "jul": {
+        "precip": 0.4
+      },
+      "aug": {
+        "precip": 0.3
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 9.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

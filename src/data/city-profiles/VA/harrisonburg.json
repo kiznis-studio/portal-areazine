@@ -231,5 +231,54 @@
       6.7,
       7
     ]
+  },
+  "climate": {
+    "station": "US1VARH0004",
+    "stationName": "HARRISONBURG 0.8 NW",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

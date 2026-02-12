@@ -303,5 +303,93 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00047470",
+    "stationName": "RIVERSIDE FIRE STN 3",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 56.4,
+        "highTemp": 69.8,
+        "lowTemp": 43,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 56.9,
+        "highTemp": 69.7,
+        "lowTemp": 44.1,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 59.6,
+        "highTemp": 73.1,
+        "lowTemp": 46.2,
+        "precip": 1.6
+      },
+      "apr": {
+        "avgTemp": 63.9,
+        "highTemp": 78.2,
+        "lowTemp": 49.7,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 68,
+        "highTemp": 81.4,
+        "lowTemp": 54.7,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 74.1,
+        "highTemp": 88.9,
+        "lowTemp": 59.2,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 79.5,
+        "highTemp": 95.3,
+        "lowTemp": 63.7,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 80.7,
+        "highTemp": 96.8,
+        "lowTemp": 64.5,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 77.4,
+        "highTemp": 93,
+        "lowTemp": 61.8,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 69.4,
+        "highTemp": 84.3,
+        "lowTemp": 54.5,
+        "precip": 0.4
+      },
+      "nov": {
+        "avgTemp": 61.4,
+        "highTemp": 76.3,
+        "lowTemp": 46.5,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 55.6,
+        "highTemp": 69.1,
+        "lowTemp": 42.1,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 66.9,
+      "highTemp": 81.3,
+      "lowTemp": 52.5,
+      "totalPrecip": 10.1,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

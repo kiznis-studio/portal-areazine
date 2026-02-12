@@ -247,5 +247,93 @@
       3.9,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00470045",
+    "stationName": "AFTON - JANESVILLE WWTP",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.9,
+        "highTemp": 28.3,
+        "lowTemp": 11.6,
+        "precip": 1.6
+      },
+      "feb": {
+        "avgTemp": 23.5,
+        "highTemp": 32.4,
+        "lowTemp": 14.7,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 35,
+        "highTemp": 44.6,
+        "lowTemp": 25.4,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 47,
+        "highTemp": 57.9,
+        "lowTemp": 36.1,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 58.9,
+        "highTemp": 69.9,
+        "lowTemp": 48,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 68.9,
+        "highTemp": 79.9,
+        "lowTemp": 58,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 72.6,
+        "highTemp": 83.4,
+        "lowTemp": 61.7,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 70.6,
+        "highTemp": 81.7,
+        "lowTemp": 59.5,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 63,
+        "highTemp": 75.1,
+        "lowTemp": 51,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 50.6,
+        "highTemp": 61.7,
+        "lowTemp": 39.5,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 37.4,
+        "highTemp": 46.3,
+        "lowTemp": 28.5,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 25.8,
+        "highTemp": 33.5,
+        "lowTemp": 18.1,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 47.8,
+      "highTemp": 57.9,
+      "lowTemp": 37.7,
+      "totalPrecip": 37.4,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

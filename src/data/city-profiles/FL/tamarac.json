@@ -303,5 +303,81 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00081858",
+    "stationName": "CORAL SPRINGS",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 67.1,
+        "highTemp": 76.1,
+        "lowTemp": 58.1
+      },
+      "feb": {
+        "avgTemp": 69,
+        "highTemp": 78.1,
+        "lowTemp": 59.9
+      },
+      "mar": {
+        "avgTemp": 71.4,
+        "highTemp": 80.6,
+        "lowTemp": 62.1
+      },
+      "apr": {
+        "avgTemp": 75.3,
+        "highTemp": 84.4,
+        "lowTemp": 66.3
+      },
+      "may": {
+        "avgTemp": 79,
+        "highTemp": 87.2,
+        "lowTemp": 70.8
+      },
+      "jun": {
+        "avgTemp": 82.1,
+        "highTemp": 89.5,
+        "lowTemp": 74.7
+      },
+      "jul": {
+        "avgTemp": 83.2,
+        "highTemp": 90.9,
+        "lowTemp": 75.6
+      },
+      "aug": {
+        "avgTemp": 83.4,
+        "highTemp": 91,
+        "lowTemp": 75.8
+      },
+      "sep": {
+        "avgTemp": 82.5,
+        "highTemp": 89.5,
+        "lowTemp": 75.4
+      },
+      "oct": {
+        "avgTemp": 79.2,
+        "highTemp": 86,
+        "lowTemp": 72.5
+      },
+      "nov": {
+        "avgTemp": 73.4,
+        "highTemp": 81,
+        "lowTemp": 65.8
+      },
+      "dec": {
+        "avgTemp": 69.3,
+        "highTemp": 77.6,
+        "lowTemp": 61
+      }
+    },
+    "annual": {
+      "avgTemp": 76.2,
+      "highTemp": 84.3,
+      "lowTemp": 68.2,
+      "totalPrecip": 0,
+      "hotMonths": 9,
+      "coldMonths": 0
+    }
   }
 }

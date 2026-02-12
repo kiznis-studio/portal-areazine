@@ -231,5 +231,54 @@
       3.9,
       3.6
     ]
+  },
+  "climate": {
+    "station": "US1SDBK0007",
+    "stationName": "BROOKINGS 0.2 SSW",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.5
+      },
+      "feb": {
+        "precip": 0.6
+      },
+      "mar": {
+        "precip": 1.2
+      },
+      "apr": {
+        "precip": 1.6
+      },
+      "may": {
+        "precip": 3.3
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 3.2
+      },
+      "sep": {
+        "precip": 2.7
+      },
+      "oct": {
+        "precip": 2
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 24.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

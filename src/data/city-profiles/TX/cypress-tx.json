@@ -303,5 +303,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00412206",
+    "stationName": "CYPRESS",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 5.4
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 4.5
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

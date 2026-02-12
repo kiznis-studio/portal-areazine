@@ -279,5 +279,54 @@
       4.7,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00331779",
+    "stationName": "COLUMBUS-PARSONS AVE",
+    "distanceMi": 6.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.1
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

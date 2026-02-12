@@ -231,5 +231,54 @@
       3.4,
       3.3
     ]
+  },
+  "climate": {
+    "station": "USC00276550",
+    "stationName": "OTTER BROOK LAKE",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

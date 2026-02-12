@@ -231,5 +231,93 @@
       6.8,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00188000",
+    "stationName": "SALISBURY HCN",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.4,
+        "highTemp": 47.4,
+        "lowTemp": 29.3,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 40.4,
+        "highTemp": 50.4,
+        "lowTemp": 30.4,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 47.3,
+        "highTemp": 57.8,
+        "lowTemp": 36.7,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 57.5,
+        "highTemp": 68.9,
+        "lowTemp": 46.2,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 66,
+        "highTemp": 77,
+        "lowTemp": 55.1,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 74.6,
+        "highTemp": 84.5,
+        "lowTemp": 64.6,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 79.2,
+        "highTemp": 88.6,
+        "lowTemp": 69.7,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 77,
+        "highTemp": 86.3,
+        "lowTemp": 67.6,
+        "precip": 5.3
+      },
+      "sep": {
+        "avgTemp": 71.2,
+        "highTemp": 80.9,
+        "lowTemp": 61.5,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 60.3,
+        "highTemp": 70.7,
+        "lowTemp": 50,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 50.2,
+        "highTemp": 60.1,
+        "lowTemp": 40.4,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 42.3,
+        "highTemp": 51.7,
+        "lowTemp": 32.9,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 58.7,
+      "highTemp": 68.7,
+      "lowTemp": 48.7,
+      "totalPrecip": 48,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

@@ -239,5 +239,54 @@
       3.3,
       3.3
     ]
+  },
+  "climate": {
+    "station": "US1VAMN0006",
+    "stationName": "BLACKSBURG 0.4 N",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

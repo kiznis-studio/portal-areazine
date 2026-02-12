@@ -247,5 +247,54 @@
       5,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ILWL0131",
+    "stationName": "HOMER GLEN 0.7 NNE",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

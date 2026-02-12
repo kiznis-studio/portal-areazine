@@ -295,5 +295,81 @@
       5.8,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00028590",
+    "stationName": "TOHONO CHUL",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.6,
+        "highTemp": 66.6,
+        "lowTemp": 36.6
+      },
+      "feb": {
+        "avgTemp": 54.5,
+        "highTemp": 69.6,
+        "lowTemp": 39.4
+      },
+      "mar": {
+        "avgTemp": 60.1,
+        "highTemp": 76.6,
+        "lowTemp": 43.5
+      },
+      "apr": {
+        "avgTemp": 67,
+        "highTemp": 83.9,
+        "lowTemp": 50.1
+      },
+      "may": {
+        "avgTemp": 75.6,
+        "highTemp": 92,
+        "lowTemp": 59.1
+      },
+      "jun": {
+        "avgTemp": 85.1,
+        "highTemp": 101.8,
+        "lowTemp": 68.3
+      },
+      "jul": {
+        "avgTemp": 87.6,
+        "highTemp": 101.2,
+        "lowTemp": 74
+      },
+      "aug": {
+        "avgTemp": 85.5,
+        "highTemp": 99.5,
+        "lowTemp": 71.5
+      },
+      "sep": {
+        "avgTemp": 81.3,
+        "highTemp": 95.8,
+        "lowTemp": 66.8
+      },
+      "oct": {
+        "avgTemp": 71.7,
+        "highTemp": 87.6,
+        "lowTemp": 55.8
+      },
+      "nov": {
+        "avgTemp": 60.2,
+        "highTemp": 76.2,
+        "lowTemp": 44.2
+      },
+      "dec": {
+        "avgTemp": 51.8,
+        "highTemp": 66.7,
+        "lowTemp": 36.9
+      }
+    },
+    "annual": {
+      "avgTemp": 69.3,
+      "highTemp": 84.8,
+      "lowTemp": 53.9,
+      "totalPrecip": 0,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

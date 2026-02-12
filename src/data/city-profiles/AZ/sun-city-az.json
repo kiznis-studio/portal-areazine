@@ -303,5 +303,93 @@
       4.7,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00029634",
+    "stationName": "YOUNGTOWN",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.3,
+        "highTemp": 65.4,
+        "lowTemp": 41.1,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 56.4,
+        "highTemp": 68.9,
+        "lowTemp": 43.8,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 62.7,
+        "highTemp": 76.5,
+        "lowTemp": 48.9,
+        "precip": 1
+      },
+      "apr": {
+        "avgTemp": 69.5,
+        "highTemp": 84.1,
+        "lowTemp": 54.8,
+        "precip": 0.3
+      },
+      "may": {
+        "avgTemp": 78.3,
+        "highTemp": 92.9,
+        "lowTemp": 63.6,
+        "precip": 0.1
+      },
+      "jun": {
+        "avgTemp": 87.2,
+        "highTemp": 102.2,
+        "lowTemp": 72.2,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 92.3,
+        "highTemp": 104.9,
+        "lowTemp": 79.7,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 91.4,
+        "highTemp": 103.6,
+        "lowTemp": 79.2,
+        "precip": 1
+      },
+      "sep": {
+        "avgTemp": 85.4,
+        "highTemp": 98.4,
+        "lowTemp": 72.5,
+        "precip": 0.7
+      },
+      "oct": {
+        "avgTemp": 73.2,
+        "highTemp": 87,
+        "lowTemp": 59.5,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 60.8,
+        "highTemp": 73.9,
+        "lowTemp": 47.7,
+        "precip": 0.6
+      },
+      "dec": {
+        "avgTemp": 52,
+        "highTemp": 63.8,
+        "lowTemp": 40.2,
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "avgTemp": 71.9,
+      "highTemp": 85.1,
+      "lowTemp": 58.6,
+      "totalPrecip": 8.3,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

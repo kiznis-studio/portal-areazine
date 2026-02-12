@@ -263,5 +263,54 @@
       5.3,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1MAES0024",
+    "stationName": "NEWBURYPORT 0.8 SW",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 4.7
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.4
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

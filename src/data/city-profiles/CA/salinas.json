@@ -247,5 +247,93 @@
       5.1,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00047668",
+    "stationName": "SALINAS #2",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.3,
+        "highTemp": 63.4,
+        "lowTemp": 41.2,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 53.2,
+        "highTemp": 64.1,
+        "lowTemp": 42.2,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 54.9,
+        "highTemp": 66.2,
+        "lowTemp": 43.7,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 56.2,
+        "highTemp": 67.3,
+        "lowTemp": 45,
+        "precip": 1.1
+      },
+      "may": {
+        "avgTemp": 58.4,
+        "highTemp": 68.3,
+        "lowTemp": 48.6,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 60.7,
+        "highTemp": 70.2,
+        "lowTemp": 51.2,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 62.4,
+        "highTemp": 70.9,
+        "lowTemp": 53.9,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 63.4,
+        "highTemp": 72.5,
+        "lowTemp": 54.2,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 74.7,
+        "lowTemp": 52.5,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 61.5,
+        "highTemp": 74.2,
+        "lowTemp": 48.8,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 55.8,
+        "highTemp": 68.1,
+        "lowTemp": 43.4,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 51.3,
+        "highTemp": 62.4,
+        "lowTemp": 40.2,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 57.8,
+      "highTemp": 68.5,
+      "lowTemp": 47.1,
+      "totalPrecip": 15.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

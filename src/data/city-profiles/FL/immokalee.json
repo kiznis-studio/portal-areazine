@@ -239,5 +239,93 @@
       4.3,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00084210",
+    "stationName": "IMMOKALEE",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 63.9,
+        "highTemp": 75.5,
+        "lowTemp": 52.2,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 66.4,
+        "highTemp": 78.1,
+        "lowTemp": 54.6,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 69.2,
+        "highTemp": 81.2,
+        "lowTemp": 57.2,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 73.5,
+        "highTemp": 85.4,
+        "lowTemp": 61.6,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 78.1,
+        "highTemp": 89.5,
+        "lowTemp": 66.7,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 81.8,
+        "highTemp": 91.3,
+        "lowTemp": 72.3,
+        "precip": 7.9
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 92.3,
+        "lowTemp": 73.9,
+        "precip": 6.8
+      },
+      "aug": {
+        "avgTemp": 83.2,
+        "highTemp": 92,
+        "lowTemp": 74.5,
+        "precip": 7.4
+      },
+      "sep": {
+        "avgTemp": 82.2,
+        "highTemp": 90.3,
+        "lowTemp": 74,
+        "precip": 6
+      },
+      "oct": {
+        "avgTemp": 77.7,
+        "highTemp": 86.9,
+        "lowTemp": 68.5,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 70.8,
+        "highTemp": 81.3,
+        "lowTemp": 60.2,
+        "precip": 1.5
+      },
+      "dec": {
+        "avgTemp": 66.5,
+        "highTemp": 77.6,
+        "lowTemp": 55.3,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 74.7,
+      "highTemp": 85.1,
+      "lowTemp": 64.3,
+      "totalPrecip": 48.2,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

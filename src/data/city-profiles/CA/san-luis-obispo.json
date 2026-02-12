@@ -247,5 +247,93 @@
       4.9,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00047851",
+    "stationName": "SAN LUIS OBISPO POLY HCN",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.4,
+        "highTemp": 64.9,
+        "lowTemp": 44,
+        "precip": 5.1
+      },
+      "feb": {
+        "avgTemp": 54.8,
+        "highTemp": 65.2,
+        "lowTemp": 44.4,
+        "precip": 4.9
+      },
+      "mar": {
+        "avgTemp": 56.7,
+        "highTemp": 67.3,
+        "lowTemp": 46.1,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 58,
+        "highTemp": 69.3,
+        "lowTemp": 46.8,
+        "precip": 1.4
+      },
+      "may": {
+        "avgTemp": 60.6,
+        "highTemp": 71.9,
+        "lowTemp": 49.3,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 63.8,
+        "highTemp": 75.7,
+        "lowTemp": 51.8,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 66.3,
+        "highTemp": 78.3,
+        "lowTemp": 54.2,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 67.3,
+        "highTemp": 79.7,
+        "lowTemp": 54.8,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 67,
+        "highTemp": 80.1,
+        "lowTemp": 53.8,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 64.7,
+        "highTemp": 77.8,
+        "lowTemp": 51.5,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 59.1,
+        "highTemp": 70.8,
+        "lowTemp": 47.4,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 54,
+        "highTemp": 64.4,
+        "lowTemp": 43.7,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 60.6,
+      "highTemp": 72.1,
+      "lowTemp": 49,
+      "totalPrecip": 22.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

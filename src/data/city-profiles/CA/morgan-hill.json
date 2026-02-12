@@ -287,5 +287,52 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1CASC0045",
+    "stationName": "MORGAN HILL 1.4 SW",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.3
+      },
+      "feb": {
+        "precip": 5.4
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 1.4
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 2.2
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 25.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

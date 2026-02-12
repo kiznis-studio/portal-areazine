@@ -303,5 +303,54 @@
       7.1,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CASR0034",
+    "stationName": "RANCHO CUCAMONGA 1.6 W",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 5.2
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 0.8
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

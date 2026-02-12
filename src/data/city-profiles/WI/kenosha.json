@@ -239,5 +239,93 @@
       5.3,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00474174",
+    "stationName": "KENOSHA",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24,
+        "highTemp": 30.8,
+        "lowTemp": 17.1,
+        "precip": 1.9
+      },
+      "feb": {
+        "avgTemp": 27.1,
+        "highTemp": 34.1,
+        "lowTemp": 20.1,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 35.8,
+        "highTemp": 43.1,
+        "lowTemp": 28.5,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 45,
+        "highTemp": 52.7,
+        "lowTemp": 37.4,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 55.1,
+        "highTemp": 63.6,
+        "lowTemp": 46.7,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 65.1,
+        "highTemp": 73.3,
+        "lowTemp": 56.9,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 71.9,
+        "highTemp": 79.7,
+        "lowTemp": 64.1,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 71.1,
+        "highTemp": 78.5,
+        "lowTemp": 63.8,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 64,
+        "highTemp": 71.9,
+        "lowTemp": 56.1,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 52.4,
+        "highTemp": 60.3,
+        "lowTemp": 44.5,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 40.1,
+        "highTemp": 47.3,
+        "lowTemp": 32.9,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 29.3,
+        "highTemp": 35.9,
+        "lowTemp": 22.8,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 48.4,
+      "highTemp": 55.9,
+      "lowTemp": 40.9,
+      "totalPrecip": 37.5,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

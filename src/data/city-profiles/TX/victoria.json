@@ -239,5 +239,54 @@
       5.1,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00419365",
+    "stationName": "VICTORIA CP&L",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 2.5
+      },
+      "aug": {
+        "precip": 3.2
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       3.4,
       3.1
     ]
+  },
+  "climate": {
+    "station": "USW00024013",
+    "stationName": "MINOT INTL AP",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 13.8,
+        "highTemp": 23.3,
+        "lowTemp": 4.4,
+        "precip": 0.3
+      },
+      "feb": {
+        "avgTemp": 17.3,
+        "highTemp": 27,
+        "lowTemp": 7.7,
+        "precip": 0.3
+      },
+      "mar": {
+        "avgTemp": 29.2,
+        "highTemp": 39.5,
+        "lowTemp": 19,
+        "precip": 0.5
+      },
+      "apr": {
+        "avgTemp": 43.5,
+        "highTemp": 55.8,
+        "lowTemp": 31.2,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 56.1,
+        "highTemp": 68.9,
+        "lowTemp": 43.3,
+        "precip": 2.7
+      },
+      "jun": {
+        "avgTemp": 65.6,
+        "highTemp": 77.5,
+        "lowTemp": 53.6,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 71.2,
+        "highTemp": 83.8,
+        "lowTemp": 58.5,
+        "precip": 2.5
+      },
+      "aug": {
+        "avgTemp": 70.1,
+        "highTemp": 83.7,
+        "lowTemp": 56.4,
+        "precip": 2.1
+      },
+      "sep": {
+        "avgTemp": 60.1,
+        "highTemp": 73.1,
+        "lowTemp": 47.1,
+        "precip": 1.6
+      },
+      "oct": {
+        "avgTemp": 45.6,
+        "highTemp": 56.8,
+        "lowTemp": 34.3,
+        "precip": 1.2
+      },
+      "nov": {
+        "avgTemp": 30.2,
+        "highTemp": 39.7,
+        "lowTemp": 20.6,
+        "precip": 0.6
+      },
+      "dec": {
+        "avgTemp": 18.3,
+        "highTemp": 27.2,
+        "lowTemp": 9.3,
+        "precip": 0.3
+      }
+    },
+    "annual": {
+      "avgTemp": 43.4,
+      "highTemp": 54.7,
+      "lowTemp": 32.1,
+      "totalPrecip": 16.8,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

@@ -303,5 +303,54 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1FLPB0061",
+    "stationName": "DELRAY BEACH 1.6 WSW",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 4.9
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 5.8
+      },
+      "jun": {
+        "precip": 8.5
+      },
+      "jul": {
+        "precip": 6.5
+      },
+      "aug": {
+        "precip": 7.7
+      },
+      "sep": {
+        "precip": 8
+      },
+      "oct": {
+        "precip": 7
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 65.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

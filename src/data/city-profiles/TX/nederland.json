@@ -247,5 +247,93 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USW00012917",
+    "stationName": "PORT ARTHUR SE TX AP 72241",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.7,
+        "highTemp": 63.5,
+        "lowTemp": 43.8,
+        "precip": 5.3
+      },
+      "feb": {
+        "avgTemp": 57.5,
+        "highTemp": 67.3,
+        "lowTemp": 47.8,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 63.3,
+        "highTemp": 73.2,
+        "lowTemp": 53.4,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 69.3,
+        "highTemp": 79,
+        "lowTemp": 59.6,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 76.5,
+        "highTemp": 85.7,
+        "lowTemp": 67.3,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 82,
+        "highTemp": 90.9,
+        "lowTemp": 73.1,
+        "precip": 6.7
+      },
+      "jul": {
+        "avgTemp": 83.6,
+        "highTemp": 92.6,
+        "lowTemp": 74.6,
+        "precip": 6.9
+      },
+      "aug": {
+        "avgTemp": 83.8,
+        "highTemp": 93.1,
+        "lowTemp": 74.4,
+        "precip": 6.9
+      },
+      "sep": {
+        "avgTemp": 80,
+        "highTemp": 89.5,
+        "lowTemp": 70.6,
+        "precip": 6.7
+      },
+      "oct": {
+        "avgTemp": 71.6,
+        "highTemp": 82.1,
+        "lowTemp": 61.1,
+        "precip": 5.5
+      },
+      "nov": {
+        "avgTemp": 61.9,
+        "highTemp": 72.3,
+        "lowTemp": 51.5,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 55.6,
+        "highTemp": 65.5,
+        "lowTemp": 45.8,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 69.9,
+      "highTemp": 79.6,
+      "lowTemp": 60.3,
+      "totalPrecip": 62.2,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

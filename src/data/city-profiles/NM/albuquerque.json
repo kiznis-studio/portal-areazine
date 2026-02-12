@@ -263,5 +263,54 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1NMBR0284",
+    "stationName": "ALBUQUERQUE 4.3 SSW",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.4
+      },
+      "feb": {
+        "precip": 0.5
+      },
+      "mar": {
+        "precip": 0.5
+      },
+      "apr": {
+        "precip": 0.6
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.6
+      },
+      "jul": {
+        "precip": 1.8
+      },
+      "aug": {
+        "precip": 1.9
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 1.1
+      },
+      "nov": {
+        "precip": 0.6
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 10.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

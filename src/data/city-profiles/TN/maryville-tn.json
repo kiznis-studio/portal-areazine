@@ -231,5 +231,54 @@
       4.1,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1TNBT0029",
+    "stationName": "MARYVILLE 3.4 ESE",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.3
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 5.1
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 5.8
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

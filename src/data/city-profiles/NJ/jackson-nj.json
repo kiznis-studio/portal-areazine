@@ -255,5 +255,93 @@
       7.2,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00284229",
+    "stationName": "INDIAN MILLS 2 W HCN",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.7,
+        "highTemp": 42,
+        "lowTemp": 23.5,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 34.7,
+        "highTemp": 45,
+        "lowTemp": 24.4,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 41.9,
+        "highTemp": 52.9,
+        "lowTemp": 30.9,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 52.7,
+        "highTemp": 65.2,
+        "lowTemp": 40.2,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 62.1,
+        "highTemp": 74.3,
+        "lowTemp": 49.9,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 70.4,
+        "highTemp": 82.2,
+        "lowTemp": 58.7,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 75.5,
+        "highTemp": 86.7,
+        "lowTemp": 64.4,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 84.8,
+        "lowTemp": 62.4,
+        "precip": 5.3
+      },
+      "sep": {
+        "avgTemp": 66.9,
+        "highTemp": 78.3,
+        "lowTemp": 55.4,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 55.7,
+        "highTemp": 67.4,
+        "lowTemp": 44,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 45.3,
+        "highTemp": 56.3,
+        "lowTemp": 34.3,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 37.2,
+        "highTemp": 46.6,
+        "lowTemp": 27.8,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 54.1,
+      "highTemp": 65.1,
+      "lowTemp": 43,
+      "totalPrecip": 50.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

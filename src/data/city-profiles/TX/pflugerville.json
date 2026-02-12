@@ -279,5 +279,54 @@
       4.2,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1TXTV0035",
+    "stationName": "PFLUGERVILLE 0.6 ENE",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 2.7
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 2.1
+      },
+      "aug": {
+        "precip": 2.8
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 38,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

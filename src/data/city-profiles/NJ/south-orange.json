@@ -287,5 +287,54 @@
       8.5,
       8.3
     ]
+  },
+  "climate": {
+    "station": "US1NJES0018",
+    "stationName": "MAPLEWOOD TWP 0.9 SE",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.1,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00168067",
+    "stationName": "RUSTON LA TECH",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.1,
+        "highTemp": 57.3,
+        "lowTemp": 35,
+        "precip": 5.6
+      },
+      "feb": {
+        "avgTemp": 49.9,
+        "highTemp": 61.1,
+        "lowTemp": 38.6,
+        "precip": 5.2
+      },
+      "mar": {
+        "avgTemp": 57.1,
+        "highTemp": 68.9,
+        "lowTemp": 45.2,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 64.2,
+        "highTemp": 76.4,
+        "lowTemp": 52.1,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 72.1,
+        "highTemp": 82.9,
+        "lowTemp": 61.3,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 79.2,
+        "highTemp": 89.4,
+        "lowTemp": 68.9,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 82,
+        "highTemp": 92.2,
+        "lowTemp": 71.8,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 81.8,
+        "highTemp": 92.6,
+        "lowTemp": 71,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 76.4,
+        "highTemp": 87.8,
+        "lowTemp": 65,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 65.5,
+        "highTemp": 78.1,
+        "lowTemp": 53,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 55.6,
+        "highTemp": 67.5,
+        "lowTemp": 43.8,
+        "precip": 4.3
+      },
+      "dec": {
+        "avgTemp": 47.9,
+        "highTemp": 58.3,
+        "lowTemp": 37.5,
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "avgTemp": 64.8,
+      "highTemp": 76,
+      "lowTemp": 53.6,
+      "totalPrecip": 55.8,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

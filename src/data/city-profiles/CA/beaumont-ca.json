@@ -303,5 +303,54 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "US1CARV0018",
+    "stationName": "BEAUMONT 2.5 NW",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 2.2
+      },
+      "apr": {
+        "precip": 0.9
+      },
+      "may": {
+        "precip": 0.6
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.2
+      },
+      "aug": {
+        "precip": 0.3
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 15,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

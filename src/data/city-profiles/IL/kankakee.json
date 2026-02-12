@@ -239,5 +239,93 @@
       5.2,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00114603",
+    "stationName": "KANKAKEE METRO WASTEWATER",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.4,
+        "highTemp": 32.5,
+        "lowTemp": 16.3,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 28.2,
+        "highTemp": 36.8,
+        "lowTemp": 19.7,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 39,
+        "highTemp": 48.6,
+        "lowTemp": 29.4,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 50.3,
+        "highTemp": 61.2,
+        "lowTemp": 39.4,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 61.8,
+        "highTemp": 72.5,
+        "lowTemp": 51,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 71.5,
+        "highTemp": 81.9,
+        "lowTemp": 61,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 74.8,
+        "highTemp": 84.8,
+        "lowTemp": 64.8,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 73.1,
+        "highTemp": 83.2,
+        "lowTemp": 63,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 66.5,
+        "highTemp": 77.9,
+        "lowTemp": 55.1,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 54.1,
+        "highTemp": 65.1,
+        "lowTemp": 43.1,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 41,
+        "highTemp": 49.9,
+        "lowTemp": 32.1,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 30,
+        "highTemp": 37.8,
+        "lowTemp": 22.1,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 51.2,
+      "highTemp": 61,
+      "lowTemp": 41.4,
+      "totalPrecip": 41.9,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

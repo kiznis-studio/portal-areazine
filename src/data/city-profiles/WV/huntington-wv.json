@@ -239,5 +239,54 @@
       6,
       5.8
     ]
+  },
+  "climate": {
+    "station": "US1WVCB0008",
+    "stationName": "HUNTINGTON 0.6 WSW",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 5.3
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,93 @@
       4.6,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00055984",
+    "stationName": "NORTHGLENN",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.5,
+        "highTemp": 48,
+        "lowTemp": 19,
+        "precip": 0.5
+      },
+      "feb": {
+        "avgTemp": 34.9,
+        "highTemp": 49.6,
+        "lowTemp": 20.3,
+        "precip": 0.5
+      },
+      "mar": {
+        "avgTemp": 43,
+        "highTemp": 57.7,
+        "lowTemp": 28.4,
+        "precip": 1.2
+      },
+      "apr": {
+        "avgTemp": 49.5,
+        "highTemp": 63.9,
+        "lowTemp": 35.1,
+        "precip": 1.9
+      },
+      "may": {
+        "avgTemp": 58.4,
+        "highTemp": 72.3,
+        "lowTemp": 44.4,
+        "precip": 2.4
+      },
+      "jun": {
+        "avgTemp": 69.4,
+        "highTemp": 85.3,
+        "lowTemp": 53.4,
+        "precip": 1.5
+      },
+      "jul": {
+        "avgTemp": 75,
+        "highTemp": 91.1,
+        "lowTemp": 58.9,
+        "precip": 1.7
+      },
+      "aug": {
+        "avgTemp": 73.1,
+        "highTemp": 88.9,
+        "lowTemp": 57.2,
+        "precip": 1.3
+      },
+      "sep": {
+        "avgTemp": 65.2,
+        "highTemp": 81.5,
+        "lowTemp": 48.9,
+        "precip": 1.2
+      },
+      "oct": {
+        "avgTemp": 52,
+        "highTemp": 67.2,
+        "lowTemp": 36.8,
+        "precip": 1.1
+      },
+      "nov": {
+        "avgTemp": 41.3,
+        "highTemp": 55.8,
+        "lowTemp": 26.8,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 33.3,
+        "highTemp": 47.5,
+        "lowTemp": 19.1,
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "avgTemp": 52.4,
+      "highTemp": 67.4,
+      "lowTemp": 37.4,
+      "totalPrecip": 14.5,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

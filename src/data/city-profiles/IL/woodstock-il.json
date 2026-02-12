@@ -216,5 +216,54 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1ILMCH013",
+    "stationName": "BULL VALLEY 2.5 WNW",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.8
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

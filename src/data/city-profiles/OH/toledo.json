@@ -255,5 +255,54 @@
       6.8,
       6.8
     ]
+  },
+  "climate": {
+    "station": "US1OHLS0001",
+    "stationName": "TOLEDO 2.4 ENE",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.5
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 2.6
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 3.7
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

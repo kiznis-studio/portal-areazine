@@ -239,5 +239,54 @@
       4,
       3.9
     ]
+  },
+  "climate": {
+    "station": "US1MOCY0016",
+    "stationName": "GLADSTONE 2.6 N",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.4
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 5.9
+      },
+      "jun": {
+        "precip": 5.6
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 5.1
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

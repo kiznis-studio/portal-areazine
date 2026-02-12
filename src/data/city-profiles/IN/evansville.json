@@ -239,5 +239,93 @@
       4.7,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00122731",
+    "stationName": "EVANSVILLE MUSEUM",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.9,
+        "highTemp": 42.3,
+        "lowTemp": 27.4,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 39.4,
+        "highTemp": 48,
+        "lowTemp": 30.8,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 48.4,
+        "highTemp": 58,
+        "lowTemp": 38.8,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 59.5,
+        "highTemp": 69.9,
+        "lowTemp": 49.1,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 68.1,
+        "highTemp": 78,
+        "lowTemp": 58.1,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 76.7,
+        "highTemp": 86.5,
+        "lowTemp": 67,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 80,
+        "highTemp": 89,
+        "lowTemp": 71,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 79.3,
+        "highTemp": 88.8,
+        "lowTemp": 69.8,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 72.7,
+        "highTemp": 83.5,
+        "lowTemp": 62,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 61.6,
+        "highTemp": 72.3,
+        "lowTemp": 50.9,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 49,
+        "highTemp": 57.6,
+        "lowTemp": 40.4,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 39.7,
+        "highTemp": 46.8,
+        "lowTemp": 32.7,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 59.1,
+      "highTemp": 68.4,
+      "lowTemp": 49.8,
+      "totalPrecip": 47.9,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

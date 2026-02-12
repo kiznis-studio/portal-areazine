@@ -239,5 +239,54 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1WIRC0003",
+    "stationName": "RACINE 2.3 WSW",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.6
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

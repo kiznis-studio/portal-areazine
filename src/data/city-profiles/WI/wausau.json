@@ -239,5 +239,54 @@
       3.1,
       2.9
     ]
+  },
+  "climate": {
+    "station": "USC00478969",
+    "stationName": "WAUSAU WSAW TV",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.2
+      },
+      "feb": {
+        "precip": 1.1
+      },
+      "mar": {
+        "precip": 1.8
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

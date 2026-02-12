@@ -1,0 +1,125 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
+import StatCard from '../../components/data/StatCard.astro';
+import { fmt, fmtMoney, fmtPct, fmtCompact } from '../../lib/format';
+import { SITE_NAME } from '../../lib/config';
+import { loadZctaData } from '../../lib/zcta';
+
+export function getStaticPaths() {
+  const raw = loadZctaData();
+  const entries = Object.entries(raw).filter(([_, z]: [string, any]) => z.population > 0);
+
+  return entries.map(([key, z]: [string, any]) => {
+    const codeNum = parseInt(key);
+    const nearby = entries
+      .filter(([k]: [string, any]) => {
+        const n = parseInt(k);
+        return Math.abs(n - codeNum) <= 10 && n !== codeNum;
+      })
+      .sort(([ka]: [string, any], [kb]: [string, any]) => Math.abs(parseInt(ka) - codeNum) - Math.abs(parseInt(kb) - codeNum))
+      .slice(0, 8)
+      .map(([_, nz]: [string, any]) => ({ zip: nz.zip, population: nz.population }));
+
+    return {
+      params: { code: key },
+      props: { zip: z, nearby },
+    };
+  });
+}
+
+const { zip, nearby } = Astro.props as any;
+const code = zip.zip;
+const stateCode = zip.stateCode || '';
+
+const pageTitle = `ZIP Code ${code} — Demographics & Data | ${SITE_NAME}`;
+const pageDesc = `${code} zip code data: population ${fmtCompact(zip.population)}, median income ${fmtMoney(zip.medianIncome)}, home value ${fmtMoney(zip.medianHomeValue)}. Census data from official U.S. government sources.`;
+
+// Use || instead of ternary to avoid Astro compiler getStaticPaths duplication bug
+const fmtAge = (zip.medianAge || 0).toFixed(1);
+const fmtPoverty = fmtPct(Math.round((zip.povertyRate || 0) * 10) / 10);
+const fmtUnemploy = fmtPct(Math.round((zip.unemploymentRate || 0) * 10) / 10);
+const fmtEducation = fmtPct(Math.round((zip.bachelorOrHigher || 0) * 10) / 10);
+---
+
+<Base title={pageTitle} description={pageDesc}>
+  <div class="container py-8 md:py-12">
+
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'ZIP Codes', href: '/zip' },
+      { label: code },
+    ]} />
+
+    <header class="mb-10">
+      <div class="flex items-baseline gap-3 mb-2">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-black tracking-tight tabular-nums">{code}</h1>
+        {stateCode && (
+          <span class="text-base md:text-lg text-[var(--color-muted)] font-medium px-2 py-0.5 bg-[var(--color-card)] rounded">{stateCode}</span>
+        )}
+      </div>
+      <p class="text-base text-[var(--color-muted)] max-w-2xl">
+        ZIP Code Tabulation Area — Census demographic and economic data from official U.S. government sources.
+      </p>
+    </header>
+
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-12">
+      <StatCard label="Population" value={fmt(zip.population)} accentColor="var(--color-data-blue)" />
+      <StatCard label="Median Income" value={fmtMoney(zip.medianIncome)} accentColor="var(--color-data-teal)" />
+      <StatCard label="Home Value" value={fmtMoney(zip.medianHomeValue)} accentColor="var(--color-data-amber)" />
+      <StatCard label="Median Rent" value={fmtMoney(zip.medianRent)} accentColor="var(--color-data-violet)" />
+    </section>
+
+    <section class="mb-12">
+      <SectionHeader title="Demographics" />
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+        <StatCard label="Median Age" value={fmtAge} accentColor="var(--color-data-slate)" />
+        <StatCard label="Poverty Rate" value={fmtPoverty} accentColor="var(--color-data-red)" />
+        <StatCard label="Unemployment" value={fmtUnemploy} accentColor="var(--color-data-amber)" />
+        <StatCard label="College Educated" value={fmtEducation} accentColor="var(--color-data-blue)" />
+      </div>
+    </section>
+
+    {nearby.length > 0 && (
+      <section class="mb-12">
+        <SectionHeader title="Nearby ZIP Codes" count={nearby.length} />
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
+          {nearby.map((z: any) => (
+            <a
+              href={`/zip/${z.zip}`}
+              class="text-sm py-2 px-3 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] hover:bg-[var(--color-card)] transition-colors flex justify-between items-center"
+            >
+              <span class="font-mono font-medium">{z.zip}</span>
+              <span class="text-xs text-[var(--color-muted)] tabular-nums flex-shrink-0 ml-2">{fmtCompact(z.population)}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <details class="pt-8 border-t border-[var(--color-border)] group">
+      <summary class="cursor-pointer text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] select-none flex items-center gap-2">
+        <svg class="w-4 h-4 transition-transform group-open:rotate-90" viewBox="0 0 16 16" fill="none">
+          <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Data Sources
+      </summary>
+      <div class="mt-4">
+        <p class="text-sm text-[var(--color-muted)] max-w-2xl leading-relaxed">
+          Data from the <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Census Bureau American Community Survey</a> (2022 5-year estimates) by ZIP Code Tabulation Area (ZCTA).
+        </p>
+      </div>
+    </details>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
+      { "@type": "ListItem", "position": 2, "name": "ZIP Codes", "item": "https://areazine.com/zip/" },
+      { "@type": "ListItem", "position": 3, "name": code },
+    ],
+  })} />
+</Base>

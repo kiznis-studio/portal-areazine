@@ -303,5 +303,93 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USW00012873",
+    "stationName": "ST PETERSBURG INTL AP",
+    "distanceMi": 6.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 61.6,
+        "highTemp": 70.6,
+        "lowTemp": 52.5,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 64.2,
+        "highTemp": 73.3,
+        "lowTemp": 55.1,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 68.1,
+        "highTemp": 77,
+        "lowTemp": 59.2,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 73,
+        "highTemp": 81.8,
+        "lowTemp": 64.2,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 78.4,
+        "highTemp": 87.1,
+        "lowTemp": 69.8,
+        "precip": 2.7
+      },
+      "jun": {
+        "avgTemp": 82.1,
+        "highTemp": 89.6,
+        "lowTemp": 74.6,
+        "precip": 8.9
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 90.3,
+        "lowTemp": 75.9,
+        "precip": 9.7
+      },
+      "aug": {
+        "avgTemp": 83.5,
+        "highTemp": 90.6,
+        "lowTemp": 76.3,
+        "precip": 8.8
+      },
+      "sep": {
+        "avgTemp": 82.1,
+        "highTemp": 88.9,
+        "lowTemp": 75.2,
+        "precip": 6.4
+      },
+      "oct": {
+        "avgTemp": 76.9,
+        "highTemp": 84.2,
+        "lowTemp": 69.7,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 69,
+        "highTemp": 77.2,
+        "lowTemp": 60.9,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 64.4,
+        "highTemp": 72.8,
+        "lowTemp": 56,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 73.9,
+      "highTemp": 82,
+      "lowTemp": 65.8,
+      "totalPrecip": 53.5,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,54 @@
       3.3,
       3.2
     ]
+  },
+  "climate": {
+    "station": "US1KSEL0064",
+    "stationName": "HAYS 0.3 WSW",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.8
+      },
+      "mar": {
+        "precip": 1.4
+      },
+      "apr": {
+        "precip": 2.1
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 3.2
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 2.1
+      },
+      "oct": {
+        "precip": 1.8
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 24.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -279,5 +279,93 @@
       4.7,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00338951",
+    "stationName": "WESTERVILLE",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.9,
+        "highTemp": 37.7,
+        "lowTemp": 22,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 33,
+        "highTemp": 42,
+        "lowTemp": 24,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 42.3,
+        "highTemp": 52.6,
+        "lowTemp": 31.9,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 54.1,
+        "highTemp": 66.3,
+        "lowTemp": 41.9,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 63.9,
+        "highTemp": 75.5,
+        "lowTemp": 52.4,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 72.2,
+        "highTemp": 83.2,
+        "lowTemp": 61.1,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 75.4,
+        "highTemp": 85.9,
+        "lowTemp": 64.9,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 73.8,
+        "highTemp": 84.6,
+        "lowTemp": 63.1,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 67.6,
+        "highTemp": 79.1,
+        "lowTemp": 56,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 56,
+        "highTemp": 67.3,
+        "lowTemp": 44.7,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 44.2,
+        "highTemp": 53.4,
+        "lowTemp": 34.9,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 34.6,
+        "highTemp": 42.1,
+        "lowTemp": 27,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 53.9,
+      "highTemp": 64.1,
+      "lowTemp": 43.7,
+      "totalPrecip": 42.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

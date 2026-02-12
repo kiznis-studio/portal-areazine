@@ -287,5 +287,54 @@
       5.4,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ALJF0057",
+    "stationName": "MOUNTAIN BROOK 1.7 N",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.3
+      },
+      "feb": {
+        "precip": 5.4
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 6
+      },
+      "jul": {
+        "precip": 5
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 4.5
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 58.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       2.9,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00233601",
+    "stationName": "HANNIBAL WTR WKS",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.3,
+        "highTemp": 34.6,
+        "lowTemp": 17.9,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 30.6,
+        "highTemp": 39.6,
+        "lowTemp": 21.6,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 41.7,
+        "highTemp": 51.4,
+        "lowTemp": 32,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 53.2,
+        "highTemp": 63.7,
+        "lowTemp": 42.8,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 63.6,
+        "highTemp": 73.3,
+        "lowTemp": 54,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 72.8,
+        "highTemp": 82.1,
+        "lowTemp": 63.5,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 76.5,
+        "highTemp": 85.7,
+        "lowTemp": 67.3,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 74.8,
+        "highTemp": 84.4,
+        "lowTemp": 65.2,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 67.4,
+        "highTemp": 77.9,
+        "lowTemp": 56.9,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 55.3,
+        "highTemp": 65.7,
+        "lowTemp": 44.9,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 42.5,
+        "highTemp": 51.5,
+        "lowTemp": 33.5,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 39.3,
+        "lowTemp": 23.4,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 53,
+      "highTemp": 62.4,
+      "lowTemp": 43.6,
+      "totalPrecip": 41.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

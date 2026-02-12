@@ -231,5 +231,52 @@
       8.4,
       8.9
     ]
+  },
+  "climate": {
+    "station": "US1CAKG0003",
+    "stationName": "LEMOORE 0.3 SW",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.9
+      },
+      "feb": {
+        "precip": 1.5
+      },
+      "mar": {
+        "precip": 1.5
+      },
+      "apr": {
+        "precip": 0.7
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {},
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.5
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 9.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

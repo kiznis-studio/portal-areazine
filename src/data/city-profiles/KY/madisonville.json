@@ -153,5 +153,93 @@
       7.7,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00155067",
+    "stationName": "MADISONVILLE",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.5,
+        "highTemp": 44.8,
+        "lowTemp": 28.3,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 40.7,
+        "highTemp": 49.9,
+        "lowTemp": 31.6,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 49.7,
+        "highTemp": 60,
+        "lowTemp": 39.4,
+        "precip": 5.3
+      },
+      "apr": {
+        "avgTemp": 60.4,
+        "highTemp": 71.5,
+        "lowTemp": 49.4,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 69.1,
+        "highTemp": 79.1,
+        "lowTemp": 59,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 76.5,
+        "highTemp": 86.3,
+        "lowTemp": 66.7,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 79.6,
+        "highTemp": 89.3,
+        "lowTemp": 69.9,
+        "precip": 5
+      },
+      "aug": {
+        "avgTemp": 78.5,
+        "highTemp": 88.7,
+        "lowTemp": 68.3,
+        "precip": 2.7
+      },
+      "sep": {
+        "avgTemp": 72.2,
+        "highTemp": 83.1,
+        "lowTemp": 61.3,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 61,
+        "highTemp": 71.9,
+        "lowTemp": 50.1,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 49.2,
+        "highTemp": 58.4,
+        "lowTemp": 39.9,
+        "precip": 4.1
+      },
+      "dec": {
+        "avgTemp": 40.1,
+        "highTemp": 48,
+        "lowTemp": 32.2,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 59.5,
+      "highTemp": 69.3,
+      "lowTemp": 49.7,
+      "totalPrecip": 52.2,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

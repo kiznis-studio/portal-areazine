@@ -255,5 +255,81 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00350595",
+    "stationName": "BEAVERTON 2 SSW",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.5,
+        "highTemp": 48.7,
+        "lowTemp": 34.3
+      },
+      "feb": {
+        "avgTemp": 43.6,
+        "highTemp": 52.7,
+        "lowTemp": 34.5
+      },
+      "mar": {
+        "avgTemp": 47.5,
+        "highTemp": 58.1,
+        "lowTemp": 37
+      },
+      "apr": {
+        "avgTemp": 51.8,
+        "highTemp": 63.8,
+        "lowTemp": 39.8
+      },
+      "may": {
+        "avgTemp": 57.9,
+        "highTemp": 70.2,
+        "lowTemp": 45.7
+      },
+      "jun": {
+        "avgTemp": 62.4,
+        "highTemp": 74.9,
+        "lowTemp": 50
+      },
+      "jul": {
+        "avgTemp": 68.3,
+        "highTemp": 82.3,
+        "lowTemp": 54.2
+      },
+      "aug": {
+        "avgTemp": 68,
+        "highTemp": 82.3,
+        "lowTemp": 53.6
+      },
+      "sep": {
+        "avgTemp": 63.5,
+        "highTemp": 77.2,
+        "lowTemp": 49.7
+      },
+      "oct": {
+        "avgTemp": 53.8,
+        "highTemp": 64.8,
+        "lowTemp": 42.9
+      },
+      "nov": {
+        "avgTemp": 45.8,
+        "highTemp": 53.6,
+        "lowTemp": 37.9
+      },
+      "dec": {
+        "avgTemp": 40.7,
+        "highTemp": 47.5,
+        "lowTemp": 33.9
+      }
+    },
+    "annual": {
+      "avgTemp": 53.7,
+      "highTemp": 64.7,
+      "lowTemp": 42.8,
+      "totalPrecip": 0,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -185,5 +185,93 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00366194",
+    "stationName": "NESHAMINY FALLS",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.4,
+        "highTemp": 39.4,
+        "lowTemp": 21.5,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 32.4,
+        "highTemp": 42.2,
+        "lowTemp": 22.6,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 40,
+        "highTemp": 50.5,
+        "lowTemp": 29.4,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 51,
+        "highTemp": 62.5,
+        "lowTemp": 39.5,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 60.9,
+        "highTemp": 72.3,
+        "lowTemp": 49.5,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 70.5,
+        "highTemp": 81.1,
+        "lowTemp": 59.8,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 75.5,
+        "highTemp": 85.8,
+        "lowTemp": 65.2,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 73.8,
+        "highTemp": 84,
+        "lowTemp": 63.5,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 66.6,
+        "highTemp": 77.4,
+        "lowTemp": 55.7,
+        "precip": 4.7
+      },
+      "oct": {
+        "avgTemp": 54.6,
+        "highTemp": 65.6,
+        "lowTemp": 43.5,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 43.9,
+        "highTemp": 54.6,
+        "lowTemp": 33.2,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 35.4,
+        "highTemp": 44.4,
+        "lowTemp": 26.5,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 52.9,
+      "highTemp": 63.3,
+      "lowTemp": 42.5,
+      "totalPrecip": 50.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

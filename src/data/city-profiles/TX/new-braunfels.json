@@ -231,5 +231,54 @@
       3.6,
       3.5
     ]
+  },
+  "climate": {
+    "station": "US1TXCML040",
+    "stationName": "NEW BRAUNFELS 0.1 ENE",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 2.4
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 2.6
+      },
+      "aug": {
+        "precip": 2.5
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 35.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

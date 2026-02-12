@@ -255,5 +255,93 @@
       4.5,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00012894",
+    "stationName": "FT MYERS SW FL RGNL AP",
+    "distanceMi": 7.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 64.6,
+        "highTemp": 74.7,
+        "lowTemp": 54.4,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 66.7,
+        "highTemp": 77.6,
+        "lowTemp": 55.9,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 69.5,
+        "highTemp": 80.2,
+        "lowTemp": 58.8,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 74,
+        "highTemp": 84.6,
+        "lowTemp": 63.5,
+        "precip": 1.9
+      },
+      "may": {
+        "avgTemp": 78,
+        "highTemp": 88.3,
+        "lowTemp": 67.7,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 81.7,
+        "highTemp": 90.3,
+        "lowTemp": 73,
+        "precip": 10.3
+      },
+      "jul": {
+        "avgTemp": 82.7,
+        "highTemp": 90.6,
+        "lowTemp": 74.8,
+        "precip": 8.6
+      },
+      "aug": {
+        "avgTemp": 83.6,
+        "highTemp": 91.4,
+        "lowTemp": 75.7,
+        "precip": 8.8
+      },
+      "sep": {
+        "avgTemp": 82.3,
+        "highTemp": 89.9,
+        "lowTemp": 74.8,
+        "precip": 8.5
+      },
+      "oct": {
+        "avgTemp": 77.8,
+        "highTemp": 86.1,
+        "lowTemp": 69.5,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 71.9,
+        "highTemp": 81,
+        "lowTemp": 62.8,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 67.2,
+        "highTemp": 76.8,
+        "lowTemp": 57.6,
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "avgTemp": 75,
+      "highTemp": 84.3,
+      "lowTemp": 65.7,
+      "totalPrecip": 53.5,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

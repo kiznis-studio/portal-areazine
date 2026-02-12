@@ -231,5 +231,93 @@
       2.7,
       2.6
     ]
+  },
+  "climate": {
+    "station": "USC00123527",
+    "stationName": "GREENFIELD HCN",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.7,
+        "highTemp": 34.8,
+        "lowTemp": 18.5,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 30.2,
+        "highTemp": 39,
+        "lowTemp": 21.5,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 39.8,
+        "highTemp": 49.6,
+        "lowTemp": 29.9,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 51.6,
+        "highTemp": 62.3,
+        "lowTemp": 40.8,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 62.3,
+        "highTemp": 72.5,
+        "lowTemp": 52.1,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 71.2,
+        "highTemp": 81.2,
+        "lowTemp": 61.2,
+        "precip": 5.7
+      },
+      "jul": {
+        "avgTemp": 74.2,
+        "highTemp": 84.3,
+        "lowTemp": 64.1,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 72.7,
+        "highTemp": 83.1,
+        "lowTemp": 62.3,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 66.2,
+        "highTemp": 77.6,
+        "lowTemp": 54.8,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 54,
+        "highTemp": 65.1,
+        "lowTemp": 42.9,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 41.9,
+        "highTemp": 51.1,
+        "lowTemp": 32.6,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 31.7,
+        "highTemp": 39.3,
+        "lowTemp": 24.1,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 51.9,
+      "highTemp": 61.7,
+      "lowTemp": 42.1,
+      "totalPrecip": 47.9,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

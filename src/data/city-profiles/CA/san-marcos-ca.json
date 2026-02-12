@@ -303,5 +303,54 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1CASD0001",
+    "stationName": "SAN MARCOS 2.5 ENE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 2.2
+      },
+      "apr": {
+        "precip": 1.3
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 0.9
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 14,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

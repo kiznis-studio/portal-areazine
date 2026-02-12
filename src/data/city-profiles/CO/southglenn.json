@@ -247,5 +247,54 @@
       4.5,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1COAR0214",
+    "stationName": "CENTENNIAL 2.0 SW",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.7
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.7
+      },
+      "apr": {
+        "precip": 2.3
+      },
+      "may": {
+        "precip": 2.4
+      },
+      "jun": {
+        "precip": 1.8
+      },
+      "jul": {
+        "precip": 2.1
+      },
+      "aug": {
+        "precip": 2
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 1.4
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,93 @@
       3.5,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USC00406803",
+    "stationName": "OLD HICKORY DAM",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.1,
+        "highTemp": 47,
+        "lowTemp": 27.2,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 40.7,
+        "highTemp": 51.4,
+        "lowTemp": 30,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 48.6,
+        "highTemp": 60.5,
+        "lowTemp": 36.8,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 58.2,
+        "highTemp": 71.3,
+        "lowTemp": 45,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 66.9,
+        "highTemp": 78.9,
+        "lowTemp": 54.9,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 75.1,
+        "highTemp": 86.1,
+        "lowTemp": 64.1,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 78.5,
+        "highTemp": 89.9,
+        "lowTemp": 67,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 78.6,
+        "highTemp": 90.2,
+        "lowTemp": 67,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 71.6,
+        "highTemp": 83.4,
+        "lowTemp": 59.8,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 59.7,
+        "highTemp": 72.1,
+        "lowTemp": 47.2,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 47.9,
+        "highTemp": 60.1,
+        "lowTemp": 35.7,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 39.5,
+        "highTemp": 50.2,
+        "lowTemp": 28.8,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 58.5,
+      "highTemp": 70.1,
+      "lowTemp": 47,
+      "totalPrecip": 48,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

@@ -303,5 +303,92 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00093134",
+    "stationName": "LOS ANGELES DWTN USC CAMPUS",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 58.4,
+        "highTemp": 68,
+        "lowTemp": 48.9,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 59,
+        "highTemp": 68,
+        "lowTemp": 50,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 61.1,
+        "highTemp": 69.9,
+        "lowTemp": 52.4,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 63.6,
+        "highTemp": 72.4,
+        "lowTemp": 54.8,
+        "precip": 0.7
+      },
+      "may": {
+        "avgTemp": 65.9,
+        "highTemp": 73.7,
+        "lowTemp": 58.1,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 69.3,
+        "highTemp": 77.2,
+        "lowTemp": 61.4,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 73.3,
+        "highTemp": 82,
+        "lowTemp": 64.7,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 74.7,
+        "highTemp": 84,
+        "lowTemp": 65.4
+      },
+      "sep": {
+        "avgTemp": 73.6,
+        "highTemp": 83,
+        "lowTemp": 64.2,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 69.3,
+        "highTemp": 78.6,
+        "lowTemp": 59.9,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 63,
+        "highTemp": 72.9,
+        "lowTemp": 53.1,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 57.8,
+        "highTemp": 67.4,
+        "lowTemp": 48.2,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 65.8,
+      "highTemp": 74.8,
+      "lowTemp": 56.8,
+      "totalPrecip": 14.2,
+      "hotMonths": 3,
+      "coldMonths": 0
+    }
   }
 }

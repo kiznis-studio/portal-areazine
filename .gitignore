@@ -27,3 +27,8 @@ pnpm-debug.log*
 *.tmp
 *.temp
 keys/
+
+# Data fetch logs and caches
+*.log
+.cache/
+scripts/.cache/

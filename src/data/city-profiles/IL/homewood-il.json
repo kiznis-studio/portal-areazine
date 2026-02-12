@@ -303,5 +303,54 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1ILCK0064",
+    "stationName": "HOMEWOOD 0.1 ESE",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

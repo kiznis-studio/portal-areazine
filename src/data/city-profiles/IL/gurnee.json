@@ -271,5 +271,81 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00119029",
+    "stationName": "WAUKEGAN",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.7,
+        "highTemp": 29.8,
+        "lowTemp": 15.6
+      },
+      "feb": {
+        "avgTemp": 25.8,
+        "highTemp": 33.7,
+        "lowTemp": 17.8
+      },
+      "mar": {
+        "avgTemp": 35.8,
+        "highTemp": 44.1,
+        "lowTemp": 27.4
+      },
+      "apr": {
+        "avgTemp": 45.3,
+        "highTemp": 55.3,
+        "lowTemp": 35.3
+      },
+      "may": {
+        "avgTemp": 57.4,
+        "highTemp": 67.4,
+        "lowTemp": 47.4
+      },
+      "jun": {
+        "avgTemp": 66.6,
+        "highTemp": 76.3,
+        "lowTemp": 56.9
+      },
+      "jul": {
+        "avgTemp": 72.4,
+        "highTemp": 81.7,
+        "lowTemp": 63
+      },
+      "aug": {
+        "avgTemp": 70.7,
+        "highTemp": 79.9,
+        "lowTemp": 61.5
+      },
+      "sep": {
+        "avgTemp": 63.8,
+        "highTemp": 73.9,
+        "lowTemp": 53.8
+      },
+      "oct": {
+        "avgTemp": 52.1,
+        "highTemp": 61.2,
+        "lowTemp": 42.9
+      },
+      "nov": {
+        "avgTemp": 39.5,
+        "highTemp": 47.7,
+        "lowTemp": 31.4
+      },
+      "dec": {
+        "avgTemp": 28.6,
+        "highTemp": 35.5,
+        "lowTemp": 21.7
+      }
+    },
+    "annual": {
+      "avgTemp": 48.4,
+      "highTemp": 57.2,
+      "lowTemp": 39.6,
+      "totalPrecip": 0,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

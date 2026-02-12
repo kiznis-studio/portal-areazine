@@ -153,5 +153,54 @@
       4.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "US1KYFR0006",
+    "stationName": "FRANKFORT 1.9 N",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.8
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 5.4
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

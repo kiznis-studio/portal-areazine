@@ -231,5 +231,93 @@
       5.9,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USW00012975",
+    "stationName": "HOUSTON CLOVER FLD",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 55.3,
+        "highTemp": 64.6,
+        "lowTemp": 46,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 59.2,
+        "highTemp": 68.3,
+        "lowTemp": 50.1,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 64.7,
+        "highTemp": 74,
+        "lowTemp": 55.4,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 70.5,
+        "highTemp": 79.5,
+        "lowTemp": 61.5,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 77.7,
+        "highTemp": 86,
+        "lowTemp": 69.5,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 83.3,
+        "highTemp": 91.4,
+        "lowTemp": 75.3,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 84.7,
+        "highTemp": 93.3,
+        "lowTemp": 76.2,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 85.1,
+        "highTemp": 94,
+        "lowTemp": 76.2,
+        "precip": 5.6
+      },
+      "sep": {
+        "avgTemp": 81.1,
+        "highTemp": 89.9,
+        "lowTemp": 72.3,
+        "precip": 5.4
+      },
+      "oct": {
+        "avgTemp": 73.1,
+        "highTemp": 82.9,
+        "lowTemp": 63.3,
+        "precip": 5.8
+      },
+      "nov": {
+        "avgTemp": 63.5,
+        "highTemp": 73.3,
+        "lowTemp": 53.7,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 57.2,
+        "highTemp": 66.4,
+        "lowTemp": 47.9,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 71.3,
+      "highTemp": 80.3,
+      "lowTemp": 62.3,
+      "totalPrecip": 53.2,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

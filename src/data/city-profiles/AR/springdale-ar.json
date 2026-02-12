@@ -247,5 +247,93 @@
       4.3,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00032444",
+    "stationName": "FAYETTEVILLE EXP STN HCN",
+    "distanceMi": 6.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.7,
+        "highTemp": 46.5,
+        "lowTemp": 26.9,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 40.6,
+        "highTemp": 51.2,
+        "lowTemp": 30,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 48.5,
+        "highTemp": 59.1,
+        "lowTemp": 37.9,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 58.1,
+        "highTemp": 69,
+        "lowTemp": 47.2,
+        "precip": 4.5
+      },
+      "may": {
+        "avgTemp": 66,
+        "highTemp": 75.9,
+        "lowTemp": 56.2,
+        "precip": 6
+      },
+      "jun": {
+        "avgTemp": 74.8,
+        "highTemp": 84.1,
+        "lowTemp": 65.5,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 79.1,
+        "highTemp": 88.7,
+        "lowTemp": 69.4,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 78.1,
+        "highTemp": 88.6,
+        "lowTemp": 67.7,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 70.6,
+        "highTemp": 81.4,
+        "lowTemp": 59.8,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 59.4,
+        "highTemp": 70.9,
+        "lowTemp": 47.9,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 48.1,
+        "highTemp": 58.6,
+        "lowTemp": 37.7,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 39.7,
+        "highTemp": 49.6,
+        "lowTemp": 29.8,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 58.3,
+      "highTemp": 68.6,
+      "lowTemp": 48,
+      "totalPrecip": 46.3,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

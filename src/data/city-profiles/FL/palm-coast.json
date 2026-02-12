@@ -231,5 +231,54 @@
       3.8,
       3.6
     ]
+  },
+  "climate": {
+    "station": "US1FLFL0040",
+    "stationName": "PALM COAST 0.8 NNW",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 2.2
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 6.7
+      },
+      "jul": {
+        "precip": 6
+      },
+      "aug": {
+        "precip": 6.4
+      },
+      "sep": {
+        "precip": 7.5
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

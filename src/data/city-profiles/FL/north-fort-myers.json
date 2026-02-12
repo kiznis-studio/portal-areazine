@@ -255,5 +255,93 @@
       4.5,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00012835",
+    "stationName": "FT MYERS PAGE FLD AP HCN",
+    "distanceMi": 5.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 64.7,
+        "highTemp": 75,
+        "lowTemp": 54.3,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 67.3,
+        "highTemp": 78,
+        "lowTemp": 56.6,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 70.3,
+        "highTemp": 81.1,
+        "lowTemp": 59.6,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 74.8,
+        "highTemp": 85.3,
+        "lowTemp": 64.3,
+        "precip": 2.4
+      },
+      "may": {
+        "avgTemp": 79.3,
+        "highTemp": 89.5,
+        "lowTemp": 69.1,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 82.3,
+        "highTemp": 91,
+        "lowTemp": 73.6,
+        "precip": 9.7
+      },
+      "jul": {
+        "avgTemp": 83.2,
+        "highTemp": 91.6,
+        "lowTemp": 74.7,
+        "precip": 9.4
+      },
+      "aug": {
+        "avgTemp": 83.4,
+        "highTemp": 91.7,
+        "lowTemp": 75.1,
+        "precip": 10.4
+      },
+      "sep": {
+        "avgTemp": 82.2,
+        "highTemp": 90,
+        "lowTemp": 74.3,
+        "precip": 9
+      },
+      "oct": {
+        "avgTemp": 78,
+        "highTemp": 86.6,
+        "lowTemp": 69.4,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 71.5,
+        "highTemp": 81.3,
+        "lowTemp": 61.8,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 67.3,
+        "highTemp": 77.3,
+        "lowTemp": 57.3,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 75.4,
+      "highTemp": 84.9,
+      "lowTemp": 65.8,
+      "totalPrecip": 57.5,
+      "hotMonths": 9,
+      "coldMonths": 0
+    }
   }
 }

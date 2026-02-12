@@ -231,5 +231,93 @@
       4.5,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00409155",
+    "stationName": "TULLAHOMA HCN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.5,
+        "highTemp": 48.2,
+        "lowTemp": 28.9,
+        "precip": 5.3
+      },
+      "feb": {
+        "avgTemp": 42.2,
+        "highTemp": 52.5,
+        "lowTemp": 31.8,
+        "precip": 5.8
+      },
+      "mar": {
+        "avgTemp": 49.7,
+        "highTemp": 60.8,
+        "lowTemp": 38.6,
+        "precip": 6
+      },
+      "apr": {
+        "avgTemp": 58.6,
+        "highTemp": 70.4,
+        "lowTemp": 46.8,
+        "precip": 5.4
+      },
+      "may": {
+        "avgTemp": 66.6,
+        "highTemp": 77.5,
+        "lowTemp": 55.6,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 74.1,
+        "highTemp": 84.3,
+        "lowTemp": 63.8,
+        "precip": 5.4
+      },
+      "jul": {
+        "avgTemp": 77.5,
+        "highTemp": 87.3,
+        "lowTemp": 67.8,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 76.6,
+        "highTemp": 86.9,
+        "lowTemp": 66.4,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 70.5,
+        "highTemp": 81.5,
+        "lowTemp": 59.6,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 59.6,
+        "highTemp": 71.4,
+        "lowTemp": 47.8,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 48.5,
+        "highTemp": 60,
+        "lowTemp": 37.1,
+        "precip": 4.7
+      },
+      "dec": {
+        "avgTemp": 41.4,
+        "highTemp": 51.2,
+        "lowTemp": 31.7,
+        "precip": 6.4
+      }
+    },
+    "annual": {
+      "avgTemp": 58.7,
+      "highTemp": 69.3,
+      "lowTemp": 48,
+      "totalPrecip": 60.7,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

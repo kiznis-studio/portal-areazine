@@ -231,5 +231,54 @@
       7.3,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USC00223888",
+    "stationName": "HATTIESBURG 3SW",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.1
+      },
+      "feb": {
+        "precip": 5.3
+      },
+      "mar": {
+        "precip": 5.5
+      },
+      "apr": {
+        "precip": 5.7
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 5.5
+      },
+      "jul": {
+        "precip": 6
+      },
+      "aug": {
+        "precip": 5.4
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 61.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

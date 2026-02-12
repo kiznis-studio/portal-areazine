@@ -239,5 +239,93 @@
       5.7,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00346130",
+    "stationName": "MUSKOGEE HCN",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.5,
+        "highTemp": 49.2,
+        "lowTemp": 25.8,
+        "precip": 1.9
+      },
+      "feb": {
+        "avgTemp": 41.9,
+        "highTemp": 54.1,
+        "lowTemp": 29.7,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 51.2,
+        "highTemp": 63.2,
+        "lowTemp": 39.2,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 59.9,
+        "highTemp": 71.9,
+        "lowTemp": 47.9,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 69,
+        "highTemp": 79.3,
+        "lowTemp": 58.7,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 77.5,
+        "highTemp": 87.7,
+        "lowTemp": 67.2,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 82.3,
+        "highTemp": 93,
+        "lowTemp": 71.5,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 81.2,
+        "highTemp": 92.8,
+        "lowTemp": 69.7,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 73.2,
+        "highTemp": 84.8,
+        "lowTemp": 61.6,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 61.5,
+        "highTemp": 74,
+        "lowTemp": 49.1,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 49.8,
+        "highTemp": 61.7,
+        "lowTemp": 37.9,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 40.6,
+        "highTemp": 51.5,
+        "lowTemp": 29.6,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 60.5,
+      "highTemp": 71.9,
+      "lowTemp": 49,
+      "totalPrecip": 43.2,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

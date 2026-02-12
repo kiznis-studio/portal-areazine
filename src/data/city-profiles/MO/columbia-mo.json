@@ -247,5 +247,54 @@
       3.9,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1MOBN0050",
+    "stationName": "COLUMBIA 0.6 W",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.1
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 4.9
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

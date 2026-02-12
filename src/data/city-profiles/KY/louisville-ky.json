@@ -185,5 +185,93 @@
       5,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00154955",
+    "stationName": "LOUISVILLE MCALPINE",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.6,
+        "highTemp": 43.3,
+        "lowTemp": 25.9,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 38.4,
+        "highTemp": 47.6,
+        "lowTemp": 29.2,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 46.6,
+        "highTemp": 56.6,
+        "lowTemp": 36.6,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 58.1,
+        "highTemp": 68.9,
+        "lowTemp": 47.2,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 67.6,
+        "highTemp": 76.9,
+        "lowTemp": 58.4,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 75.6,
+        "highTemp": 85.4,
+        "lowTemp": 65.8,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 79.3,
+        "highTemp": 88.9,
+        "lowTemp": 69.7,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 78.4,
+        "highTemp": 88,
+        "lowTemp": 68.8,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 71.6,
+        "highTemp": 81.8,
+        "lowTemp": 61.5,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 60,
+        "highTemp": 70.3,
+        "lowTemp": 49.7,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 47.4,
+        "highTemp": 56.8,
+        "lowTemp": 38,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 38.9,
+        "highTemp": 47.1,
+        "lowTemp": 30.8,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 58,
+      "highTemp": 67.6,
+      "lowTemp": 48.5,
+      "totalPrecip": 48,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

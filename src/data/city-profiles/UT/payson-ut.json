@@ -255,5 +255,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00427686",
+    "stationName": "SANTAQUIN CHLORINATOR",
+    "distanceMi": 6.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.6,
+        "highTemp": 37.4,
+        "lowTemp": 19.8,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 33,
+        "highTemp": 42.3,
+        "lowTemp": 23.8,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 41.6,
+        "highTemp": 52.2,
+        "lowTemp": 31.1,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 47.7,
+        "highTemp": 58.9,
+        "lowTemp": 36.4,
+        "precip": 2.2
+      },
+      "may": {
+        "avgTemp": 56.8,
+        "highTemp": 69.2,
+        "lowTemp": 44.4,
+        "precip": 1.9
+      },
+      "jun": {
+        "avgTemp": 67.2,
+        "highTemp": 80.9,
+        "lowTemp": 53.4,
+        "precip": 0.9
+      },
+      "jul": {
+        "avgTemp": 76.3,
+        "highTemp": 90,
+        "lowTemp": 62.5,
+        "precip": 0.7
+      },
+      "aug": {
+        "avgTemp": 74.5,
+        "highTemp": 88.2,
+        "lowTemp": 60.8,
+        "precip": 0.8
+      },
+      "sep": {
+        "avgTemp": 64.5,
+        "highTemp": 78.1,
+        "lowTemp": 50.8,
+        "precip": 1.2
+      },
+      "oct": {
+        "avgTemp": 51,
+        "highTemp": 63.7,
+        "lowTemp": 38.4,
+        "precip": 1.8
+      },
+      "nov": {
+        "avgTemp": 38.5,
+        "highTemp": 48.7,
+        "lowTemp": 28.3,
+        "precip": 1.5
+      },
+      "dec": {
+        "avgTemp": 28.9,
+        "highTemp": 37.6,
+        "lowTemp": 20.1,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 50.7,
+      "highTemp": 62.3,
+      "lowTemp": 39.2,
+      "totalPrecip": 18.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

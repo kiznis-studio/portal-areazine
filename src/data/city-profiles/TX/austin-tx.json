@@ -279,5 +279,81 @@
       4.2,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00410431",
+    "stationName": "AUSTIN 6S",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.1,
+        "highTemp": 59.2,
+        "lowTemp": 37
+      },
+      "feb": {
+        "avgTemp": 52.6,
+        "highTemp": 64.3,
+        "lowTemp": 41
+      },
+      "mar": {
+        "avgTemp": 60.3,
+        "highTemp": 72.9,
+        "lowTemp": 47.8
+      },
+      "apr": {
+        "avgTemp": 66.9,
+        "highTemp": 79.4,
+        "lowTemp": 54.4
+      },
+      "may": {
+        "avgTemp": 74.4,
+        "highTemp": 85.6,
+        "lowTemp": 63.3
+      },
+      "jun": {
+        "avgTemp": 81.3,
+        "highTemp": 92.9,
+        "lowTemp": 69.7
+      },
+      "jul": {
+        "avgTemp": 83.8,
+        "highTemp": 95.7,
+        "lowTemp": 71.8
+      },
+      "aug": {
+        "avgTemp": 84,
+        "highTemp": 96.5,
+        "lowTemp": 71.5
+      },
+      "sep": {
+        "avgTemp": 78.4,
+        "highTemp": 90.5,
+        "lowTemp": 66.2
+      },
+      "oct": {
+        "avgTemp": 68.4,
+        "highTemp": 81.3,
+        "lowTemp": 55.4
+      },
+      "nov": {
+        "avgTemp": 58.6,
+        "highTemp": 71.1,
+        "lowTemp": 46
+      },
+      "dec": {
+        "avgTemp": 50.6,
+        "highTemp": 62.5,
+        "lowTemp": 38.7
+      }
+    },
+    "annual": {
+      "avgTemp": 67.3,
+      "highTemp": 79.3,
+      "lowTemp": 55.2,
+      "totalPrecip": 0,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

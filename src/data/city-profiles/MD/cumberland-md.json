@@ -231,5 +231,93 @@
       6.7,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00182282",
+    "stationName": "CUMBERLAND 2 HCN",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.8,
+        "highTemp": 39.2,
+        "lowTemp": 22.5,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 33.7,
+        "highTemp": 43.4,
+        "lowTemp": 23.9,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 42.1,
+        "highTemp": 53,
+        "lowTemp": 31.2,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 53.6,
+        "highTemp": 66.3,
+        "lowTemp": 40.9,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 62.9,
+        "highTemp": 74.6,
+        "lowTemp": 51.2,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 71.3,
+        "highTemp": 82.5,
+        "lowTemp": 60.1,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 75.8,
+        "highTemp": 87.1,
+        "lowTemp": 64.4,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 74,
+        "highTemp": 85.4,
+        "lowTemp": 62.7,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 66.8,
+        "highTemp": 78.5,
+        "lowTemp": 55,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 55,
+        "highTemp": 66.8,
+        "lowTemp": 43.2,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 43.7,
+        "highTemp": 53.9,
+        "lowTemp": 33.5,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 35,
+        "highTemp": 42.9,
+        "lowTemp": 27.1,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 53.7,
+      "highTemp": 64.5,
+      "lowTemp": 43,
+      "totalPrecip": 39.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

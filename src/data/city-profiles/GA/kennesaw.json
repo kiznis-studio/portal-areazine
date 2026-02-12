@@ -239,5 +239,54 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1GACB0006",
+    "stationName": "KENNESAW 5.6 SW",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.7
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 5.4
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4.6
+      },
+      "dec": {
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

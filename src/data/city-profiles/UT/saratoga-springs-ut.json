@@ -255,5 +255,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00428973",
+    "stationName": "UTAH LAKE LEHI HCN",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.5,
+        "highTemp": 38,
+        "lowTemp": 19,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 34.1,
+        "highTemp": 43.9,
+        "lowTemp": 24.3,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 42.1,
+        "highTemp": 52.5,
+        "lowTemp": 31.7,
+        "precip": 1.1
+      },
+      "apr": {
+        "avgTemp": 48.9,
+        "highTemp": 61.8,
+        "lowTemp": 35.9,
+        "precip": 1.6
+      },
+      "may": {
+        "avgTemp": 57.6,
+        "highTemp": 71,
+        "lowTemp": 44.2,
+        "precip": 1.6
+      },
+      "jun": {
+        "avgTemp": 67.1,
+        "highTemp": 83.4,
+        "lowTemp": 50.9,
+        "precip": 0.6
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 92.2,
+        "lowTemp": 59,
+        "precip": 0.7
+      },
+      "aug": {
+        "avgTemp": 73.7,
+        "highTemp": 89.3,
+        "lowTemp": 58,
+        "precip": 1
+      },
+      "sep": {
+        "avgTemp": 63,
+        "highTemp": 79.4,
+        "lowTemp": 46.6,
+        "precip": 1.1
+      },
+      "oct": {
+        "avgTemp": 50.7,
+        "highTemp": 65.1,
+        "lowTemp": 36.2,
+        "precip": 1.2
+      },
+      "nov": {
+        "avgTemp": 37.8,
+        "highTemp": 49,
+        "lowTemp": 26.6,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 29.9,
+        "highTemp": 39.8,
+        "lowTemp": 20.1,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 50.7,
+      "highTemp": 63.8,
+      "lowTemp": 37.7,
+      "totalPrecip": 13.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

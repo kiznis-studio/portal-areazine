@@ -263,5 +263,92 @@
       4.5,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USW00023234",
+    "stationName": "SAN FRANCISCO INTL AP 72494",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.3,
+        "highTemp": 58,
+        "lowTemp": 44.5,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 53.5,
+        "highTemp": 60.8,
+        "lowTemp": 46.1,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 55.5,
+        "highTemp": 63.4,
+        "lowTemp": 47.6,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 57.3,
+        "highTemp": 65.6,
+        "lowTemp": 49.1,
+        "precip": 1.4
+      },
+      "may": {
+        "avgTemp": 59.9,
+        "highTemp": 68.3,
+        "lowTemp": 51.6,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 62.5,
+        "highTemp": 71.5,
+        "lowTemp": 53.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 64,
+        "highTemp": 72.6,
+        "lowTemp": 55.3
+      },
+      "aug": {
+        "avgTemp": 64.9,
+        "highTemp": 73.4,
+        "lowTemp": 56.4,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 65.3,
+        "highTemp": 74.8,
+        "lowTemp": 55.9,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.9,
+        "highTemp": 72.3,
+        "lowTemp": 53.4,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 56.4,
+        "highTemp": 64.3,
+        "lowTemp": 48.5,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 51.4,
+        "highTemp": 58.2,
+        "lowTemp": 44.6,
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "avgTemp": 58.7,
+      "highTemp": 66.9,
+      "lowTemp": 50.6,
+      "totalPrecip": 19.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

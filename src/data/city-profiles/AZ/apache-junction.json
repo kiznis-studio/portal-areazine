@@ -239,5 +239,54 @@
       6.4,
       5.8
     ]
+  },
+  "climate": {
+    "station": "US1AZPN0020",
+    "stationName": "APACHE JUNCTION 2.5 WSW",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.2
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 1.1
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.2
+      },
+      "jun": {
+        "precip": 0
+      },
+      "jul": {
+        "precip": 1.1
+      },
+      "aug": {
+        "precip": 1.1
+      },
+      "sep": {
+        "precip": 0.8
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 1
+      }
+    },
+    "annual": {
+      "totalPrecip": 9.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

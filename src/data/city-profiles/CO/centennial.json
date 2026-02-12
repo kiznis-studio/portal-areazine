@@ -247,5 +247,93 @@
       4.5,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USW00093067",
+    "stationName": "DENVER CENTENNIAL AP",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.8,
+        "highTemp": 44.6,
+        "lowTemp": 19,
+        "precip": 0.4
+      },
+      "feb": {
+        "avgTemp": 33,
+        "highTemp": 45.7,
+        "lowTemp": 20.3,
+        "precip": 0.4
+      },
+      "mar": {
+        "avgTemp": 40.8,
+        "highTemp": 54.3,
+        "lowTemp": 27.3,
+        "precip": 1
+      },
+      "apr": {
+        "avgTemp": 46.7,
+        "highTemp": 59.8,
+        "lowTemp": 33.7,
+        "precip": 1.9
+      },
+      "may": {
+        "avgTemp": 55.7,
+        "highTemp": 68.7,
+        "lowTemp": 42.7,
+        "precip": 2
+      },
+      "jun": {
+        "avgTemp": 66.7,
+        "highTemp": 81.2,
+        "lowTemp": 52.2,
+        "precip": 2
+      },
+      "jul": {
+        "avgTemp": 72.9,
+        "highTemp": 87.3,
+        "lowTemp": 58.6,
+        "precip": 1.8
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 84.5,
+        "lowTemp": 57,
+        "precip": 2.3
+      },
+      "sep": {
+        "avgTemp": 62.8,
+        "highTemp": 77.1,
+        "lowTemp": 48.6,
+        "precip": 1.3
+      },
+      "oct": {
+        "avgTemp": 50,
+        "highTemp": 63.9,
+        "lowTemp": 36.1,
+        "precip": 1
+      },
+      "nov": {
+        "avgTemp": 39.3,
+        "highTemp": 52.4,
+        "lowTemp": 26.2,
+        "precip": 0.5
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 44,
+        "lowTemp": 18.8,
+        "precip": 0.4
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 63.6,
+      "lowTemp": 36.7,
+      "totalPrecip": 15,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

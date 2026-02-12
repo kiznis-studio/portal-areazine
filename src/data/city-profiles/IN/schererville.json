@@ -279,5 +279,54 @@
       6.7,
       6.3
     ]
+  },
+  "climate": {
+    "station": "US1INLK0046",
+    "stationName": "ST. JOHN 0.2 WSW",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

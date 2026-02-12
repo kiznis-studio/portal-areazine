@@ -295,5 +295,54 @@
       6.3,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1CAPC0021",
+    "stationName": "ROSEVILLE 2.4 SE",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.7
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 1.5
+      },
+      "jun": {
+        "precip": 0.3
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 1.1
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 25.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTWN0004",
+    "stationName": "EAST KILLINGLY 1.3 SW",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 3.5
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 6
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

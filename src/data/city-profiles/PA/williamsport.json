@@ -161,5 +161,93 @@
       5.3,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00369735",
+    "stationName": "WILLIAMSPORT 2",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.1,
+        "highTemp": 35.6,
+        "lowTemp": 20.5,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 30.5,
+        "highTemp": 39.1,
+        "lowTemp": 21.9,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 39,
+        "highTemp": 48.9,
+        "lowTemp": 29.1,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 50.9,
+        "highTemp": 62.5,
+        "lowTemp": 39.2,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 73.5,
+        "lowTemp": 49.7,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 70.1,
+        "highTemp": 81.4,
+        "lowTemp": 58.9,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 74.4,
+        "highTemp": 85.6,
+        "lowTemp": 63.2,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 72.9,
+        "highTemp": 83.7,
+        "lowTemp": 62.2,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 65.5,
+        "highTemp": 76.3,
+        "lowTemp": 54.7,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 53.4,
+        "highTemp": 63.6,
+        "lowTemp": 43.2,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 42.1,
+        "highTemp": 50.8,
+        "lowTemp": 33.3,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 32.7,
+        "highTemp": 39.8,
+        "lowTemp": 25.7,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 51.8,
+      "highTemp": 61.7,
+      "lowTemp": 41.8,
+      "totalPrecip": 42.7,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

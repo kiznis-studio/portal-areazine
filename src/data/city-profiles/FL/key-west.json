@@ -231,5 +231,54 @@
       3.3,
       3.1
     ]
+  },
+  "climate": {
+    "station": "US1FLMN0024",
+    "stationName": "KEY WEST 0.5 SW",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.9
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 1.6
+      },
+      "apr": {
+        "precip": 2.4
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 5.3
+      },
+      "aug": {
+        "precip": 6.2
+      },
+      "sep": {
+        "precip": 8
+      },
+      "oct": {
+        "precip": 5.3
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -263,5 +263,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00084802",
+    "stationName": "LAKELAND 2",
+    "distanceMi": 5.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62.2,
+        "highTemp": 73.7,
+        "lowTemp": 50.6,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 65,
+        "highTemp": 76.7,
+        "lowTemp": 53.3,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 68.3,
+        "highTemp": 80.2,
+        "lowTemp": 56.5,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 73.2,
+        "highTemp": 85.1,
+        "lowTemp": 61.4,
+        "precip": 2.8
+      },
+      "may": {
+        "avgTemp": 78.2,
+        "highTemp": 89.5,
+        "lowTemp": 66.9,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 81.8,
+        "highTemp": 91.3,
+        "lowTemp": 72.3,
+        "precip": 8.7
+      },
+      "jul": {
+        "avgTemp": 83.2,
+        "highTemp": 92.1,
+        "lowTemp": 74.2,
+        "precip": 8.9
+      },
+      "aug": {
+        "avgTemp": 83.3,
+        "highTemp": 92.2,
+        "lowTemp": 74.4,
+        "precip": 9.1
+      },
+      "sep": {
+        "avgTemp": 81.7,
+        "highTemp": 90.3,
+        "lowTemp": 73.1,
+        "precip": 7.6
+      },
+      "oct": {
+        "avgTemp": 76.4,
+        "highTemp": 85.9,
+        "lowTemp": 66.9,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 69.2,
+        "highTemp": 79.8,
+        "lowTemp": 58.6,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 64.8,
+        "highTemp": 75.6,
+        "lowTemp": 53.9,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 73.9,
+      "highTemp": 84.4,
+      "lowTemp": 63.5,
+      "totalPrecip": 56.8,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

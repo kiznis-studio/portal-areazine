@@ -303,5 +303,93 @@
       7.6,
       7.4
     ]
+  },
+  "climate": {
+    "station": "USC00265705",
+    "stationName": "N LAS VEGAS",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.5,
+        "highTemp": 60.9,
+        "lowTemp": 38,
+        "precip": 0.6
+      },
+      "feb": {
+        "avgTemp": 53.2,
+        "highTemp": 65,
+        "lowTemp": 41.4,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 60.9,
+        "highTemp": 73.1,
+        "lowTemp": 48.7,
+        "precip": 0.5
+      },
+      "apr": {
+        "avgTemp": 67.5,
+        "highTemp": 80.3,
+        "lowTemp": 54.6,
+        "precip": 0.2
+      },
+      "may": {
+        "avgTemp": 76.7,
+        "highTemp": 89.4,
+        "lowTemp": 63.9,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 86.7,
+        "highTemp": 100.6,
+        "lowTemp": 72.8,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 92.5,
+        "highTemp": 105.7,
+        "lowTemp": 79.3,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 90.8,
+        "highTemp": 104.1,
+        "lowTemp": 77.6,
+        "precip": 0.3
+      },
+      "sep": {
+        "avgTemp": 83.1,
+        "highTemp": 96.8,
+        "lowTemp": 69.5,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 70.7,
+        "highTemp": 84,
+        "lowTemp": 57.3,
+        "precip": 0.4
+      },
+      "nov": {
+        "avgTemp": 57.2,
+        "highTemp": 69.8,
+        "lowTemp": 44.6,
+        "precip": 0.3
+      },
+      "dec": {
+        "avgTemp": 48.2,
+        "highTemp": 59.3,
+        "lowTemp": 37.1,
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "avgTemp": 69.8,
+      "highTemp": 82.4,
+      "lowTemp": 57.1,
+      "totalPrecip": 4.4,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       6,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00044710",
+    "stationName": "LAKESIDE 2 E",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 1.1
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 1.3
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 15.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

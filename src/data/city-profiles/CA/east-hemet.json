@@ -303,5 +303,54 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "US1CARV0005",
+    "stationName": "HEMET 4.1 ENE",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 1
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.2
+      },
+      "aug": {
+        "precip": 0.3
+      },
+      "sep": {
+        "precip": 0.3
+      },
+      "oct": {
+        "precip": 0.5
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 13.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

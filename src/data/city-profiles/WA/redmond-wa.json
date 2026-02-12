@@ -303,5 +303,54 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1WAKG0065",
+    "stationName": "BELLEVUE 1.8 W",
+    "distanceMi": 5.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.5
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 2.2
+      },
+      "jun": {
+        "precip": 1.9
+      },
+      "jul": {
+        "precip": 0.9
+      },
+      "aug": {
+        "precip": 1.2
+      },
+      "sep": {
+        "precip": 2.1
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 6.6
+      },
+      "dec": {
+        "precip": 7
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

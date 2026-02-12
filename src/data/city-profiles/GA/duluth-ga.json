@@ -255,5 +255,54 @@
       4.1,
       4.1
     ]
+  },
+  "climate": {
+    "station": "US1GAGW0033",
+    "stationName": "DULUTH 0.9 ENE",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.9
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

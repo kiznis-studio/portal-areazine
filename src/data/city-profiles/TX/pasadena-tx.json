@@ -303,5 +303,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1TXHRR093",
+    "stationName": "PASADENA 4.4 WNW",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 5.7
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 5.8
+      },
+      "sep": {
+        "precip": 5.9
+      },
+      "oct": {
+        "precip": 5.6
+      },
+      "nov": {
+        "precip": 4.5
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 57.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

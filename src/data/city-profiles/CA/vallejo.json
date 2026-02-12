@@ -255,5 +255,92 @@
       5.8,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USC00049219",
+    "stationName": "VALLEJO",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.7,
+        "highTemp": 57.3,
+        "lowTemp": 42,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 54.1,
+        "highTemp": 63.1,
+        "lowTemp": 45,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 57.2,
+        "highTemp": 68.4,
+        "lowTemp": 45.9,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 60,
+        "highTemp": 72.7,
+        "lowTemp": 47.2,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 64.7,
+        "highTemp": 78.4,
+        "lowTemp": 50.9,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 68.6,
+        "highTemp": 83.1,
+        "lowTemp": 54.1,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 70.6,
+        "highTemp": 85.4,
+        "lowTemp": 55.7
+      },
+      "aug": {
+        "avgTemp": 71.1,
+        "highTemp": 86,
+        "lowTemp": 56.1,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 71.3,
+        "highTemp": 86.1,
+        "lowTemp": 56.5,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 66.3,
+        "highTemp": 79,
+        "lowTemp": 53.6,
+        "precip": 1
+      },
+      "nov": {
+        "avgTemp": 56.3,
+        "highTemp": 65.5,
+        "lowTemp": 47,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 49.8,
+        "highTemp": 57.6,
+        "lowTemp": 42,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 61.6,
+      "highTemp": 73.6,
+      "lowTemp": 49.7,
+      "totalPrecip": 21.6,
+      "hotMonths": 3,
+      "coldMonths": 0
+    }
   }
 }

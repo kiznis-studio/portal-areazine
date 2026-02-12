@@ -231,5 +231,93 @@
       3.9,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USW00093914",
+    "stationName": "PALESTINE 2 NE",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47,
+        "highTemp": 58.9,
+        "lowTemp": 35.2,
+        "precip": 4.1
+      },
+      "feb": {
+        "avgTemp": 50.8,
+        "highTemp": 62.7,
+        "lowTemp": 38.9,
+        "precip": 3.9
+      },
+      "mar": {
+        "avgTemp": 57.7,
+        "highTemp": 70.1,
+        "lowTemp": 45.3,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 64.7,
+        "highTemp": 76.9,
+        "lowTemp": 52.5,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 72.8,
+        "highTemp": 83.6,
+        "lowTemp": 62.1,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 79.6,
+        "highTemp": 89.9,
+        "lowTemp": 69.3,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 93.9,
+        "lowTemp": 72.3,
+        "precip": 2.6
+      },
+      "aug": {
+        "avgTemp": 83,
+        "highTemp": 94.7,
+        "lowTemp": 71.3,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 76.9,
+        "highTemp": 89,
+        "lowTemp": 64.8,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 67.1,
+        "highTemp": 79.9,
+        "lowTemp": 54.2,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 55.8,
+        "highTemp": 68.1,
+        "lowTemp": 43.6,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 48.6,
+        "highTemp": 60.4,
+        "lowTemp": 36.8,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 65.6,
+      "highTemp": 77.3,
+      "lowTemp": 53.9,
+      "totalPrecip": 46.9,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

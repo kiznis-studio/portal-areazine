@@ -255,5 +255,54 @@
       4.1,
       4.1
     ]
+  },
+  "climate": {
+    "station": "US1GAGW0016",
+    "stationName": "LAWRENCEVILLE 4.2 SW",
+    "distanceMi": 4.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.8
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 5.1
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

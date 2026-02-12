@@ -239,5 +239,93 @@
       6.8,
       6.7
     ]
+  },
+  "climate": {
+    "station": "USW00014815",
+    "stationName": "BATTLE CREEK KELLOGG AP",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.3,
+        "highTemp": 31.3,
+        "lowTemp": 17.3,
+        "precip": 1.6
+      },
+      "feb": {
+        "avgTemp": 26.4,
+        "highTemp": 34.1,
+        "lowTemp": 18.7,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 36.3,
+        "highTemp": 45.4,
+        "lowTemp": 27.1,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 48,
+        "highTemp": 58.6,
+        "lowTemp": 37.3,
+        "precip": 2.9
+      },
+      "may": {
+        "avgTemp": 59.4,
+        "highTemp": 70.1,
+        "lowTemp": 48.7,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 68.9,
+        "highTemp": 79.4,
+        "lowTemp": 58.4,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 72.5,
+        "highTemp": 83,
+        "lowTemp": 62,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 80.9,
+        "lowTemp": 60.8,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 63.5,
+        "highTemp": 74,
+        "lowTemp": 52.9,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 51.6,
+        "highTemp": 61.2,
+        "lowTemp": 42,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 39.8,
+        "highTemp": 47.3,
+        "lowTemp": 32.2,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 30,
+        "highTemp": 36.3,
+        "lowTemp": 23.6,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 49.3,
+      "highTemp": 58.5,
+      "lowTemp": 40.1,
+      "totalPrecip": 31.6,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

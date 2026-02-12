@@ -231,5 +231,93 @@
       6.1,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00357331",
+    "stationName": "ROSEBURG KQEN HCN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 43.5,
+        "highTemp": 50.6,
+        "lowTemp": 36.4,
+        "precip": 5.3
+      },
+      "feb": {
+        "avgTemp": 45.9,
+        "highTemp": 55.1,
+        "lowTemp": 36.8,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 49.3,
+        "highTemp": 60.3,
+        "lowTemp": 38.3,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 53.4,
+        "highTemp": 65.2,
+        "lowTemp": 41.5,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 60.1,
+        "highTemp": 73.1,
+        "lowTemp": 47.1,
+        "precip": 2.1
+      },
+      "jun": {
+        "avgTemp": 65.5,
+        "highTemp": 79.1,
+        "lowTemp": 51.9,
+        "precip": 1
+      },
+      "jul": {
+        "avgTemp": 72.3,
+        "highTemp": 88.1,
+        "lowTemp": 56.6,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 72.1,
+        "highTemp": 88.5,
+        "lowTemp": 55.7,
+        "precip": 0.3
+      },
+      "sep": {
+        "avgTemp": 66.6,
+        "highTemp": 82.7,
+        "lowTemp": 50.4,
+        "precip": 0.9
+      },
+      "oct": {
+        "avgTemp": 56.7,
+        "highTemp": 69.1,
+        "lowTemp": 44.3,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 48.4,
+        "highTemp": 56.2,
+        "lowTemp": 40.6,
+        "precip": 4.8
+      },
+      "dec": {
+        "avgTemp": 42.9,
+        "highTemp": 49.2,
+        "lowTemp": 36.6,
+        "precip": 6.3
+      }
+    },
+    "annual": {
+      "avgTemp": 56.4,
+      "highTemp": 68.1,
+      "lowTemp": 44.7,
+      "totalPrecip": 33.9,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00414315",
+    "stationName": "HOUSTON DEER PARK",
+    "distanceMi": 9.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.5
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 6.5
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 5.5
+      },
+      "sep": {
+        "precip": 5.2
+      },
+      "oct": {
+        "precip": 5.3
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 57.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

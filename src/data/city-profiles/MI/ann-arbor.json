@@ -255,5 +255,54 @@
       4.7,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1MIWS0011",
+    "stationName": "ANN ARBOR 2.1 WNW",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.5
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 36,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -295,5 +295,52 @@
       6.3,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00040010",
+    "stationName": "ACAMPO 5NE",
+    "distanceMi": 5.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 2.6
+      },
+      "apr": {
+        "precip": 1.5
+      },
+      "may": {
+        "precip": 0.9
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

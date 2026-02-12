@@ -231,5 +231,93 @@
       8.4,
       8.9
     ]
+  },
+  "climate": {
+    "station": "USC00043747",
+    "stationName": "HANFORD 1 S HCN",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.6,
+        "highTemp": 55.9,
+        "lowTemp": 37.3,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 51.3,
+        "highTemp": 62.5,
+        "lowTemp": 40.2,
+        "precip": 1.4
+      },
+      "mar": {
+        "avgTemp": 57,
+        "highTemp": 69.1,
+        "lowTemp": 44.8,
+        "precip": 1.5
+      },
+      "apr": {
+        "avgTemp": 62,
+        "highTemp": 75.3,
+        "lowTemp": 48.6,
+        "precip": 0.7
+      },
+      "may": {
+        "avgTemp": 69.4,
+        "highTemp": 83.7,
+        "lowTemp": 55.1,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 76.7,
+        "highTemp": 91.9,
+        "lowTemp": 61.4,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 81.9,
+        "highTemp": 97.9,
+        "lowTemp": 66,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 80.6,
+        "highTemp": 97,
+        "lowTemp": 64.3,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 75.4,
+        "highTemp": 91.5,
+        "lowTemp": 59.3,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 65.7,
+        "highTemp": 80.5,
+        "lowTemp": 50.9,
+        "precip": 0.4
+      },
+      "nov": {
+        "avgTemp": 54.3,
+        "highTemp": 66.8,
+        "lowTemp": 41.8,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 46.2,
+        "highTemp": 56.4,
+        "lowTemp": 36,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 63.9,
+      "highTemp": 77.4,
+      "lowTemp": 50.5,
+      "totalPrecip": 8.4,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

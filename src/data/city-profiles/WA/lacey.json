@@ -239,5 +239,54 @@
       5.3,
       5
     ]
+  },
+  "climate": {
+    "station": "US1WATH0037",
+    "stationName": "OLYMPIA 2.3 ESE",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 8.1
+      },
+      "feb": {
+        "precip": 6
+      },
+      "mar": {
+        "precip": 5.7
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 2.7
+      },
+      "jun": {
+        "precip": 1.5
+      },
+      "jul": {
+        "precip": 0.6
+      },
+      "aug": {
+        "precip": 1.1
+      },
+      "sep": {
+        "precip": 2.1
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 9.4
+      },
+      "dec": {
+        "precip": 7.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

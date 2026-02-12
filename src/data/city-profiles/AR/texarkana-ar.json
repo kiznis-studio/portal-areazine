@@ -222,5 +222,93 @@
       7.7,
       7.2
     ]
+  },
+  "climate": {
+    "station": "USW00013977",
+    "stationName": "TEXARKANA WEBB FLD",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.6,
+        "highTemp": 54,
+        "lowTemp": 35.1,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 48.3,
+        "highTemp": 58.2,
+        "lowTemp": 38.4,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 56,
+        "highTemp": 66.7,
+        "lowTemp": 45.2,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 63.6,
+        "highTemp": 74.5,
+        "lowTemp": 52.7,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 71.6,
+        "highTemp": 81.6,
+        "lowTemp": 61.6,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 78.9,
+        "highTemp": 88.7,
+        "lowTemp": 69.1,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 82.5,
+        "highTemp": 92.7,
+        "lowTemp": 72.3,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 82,
+        "highTemp": 92.8,
+        "lowTemp": 71.3,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 75.4,
+        "highTemp": 86.4,
+        "lowTemp": 64.5,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 64.9,
+        "highTemp": 76,
+        "lowTemp": 53.7,
+        "precip": 4.5
+      },
+      "nov": {
+        "avgTemp": 53.9,
+        "highTemp": 64.3,
+        "lowTemp": 43.6,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 46.4,
+        "highTemp": 55.7,
+        "lowTemp": 37.2,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 64,
+      "highTemp": 74.3,
+      "lowTemp": 53.7,
+      "totalPrecip": 48.9,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,54 @@
       2.7,
       2.8
     ]
+  },
+  "climate": {
+    "station": "US1INHM0064",
+    "stationName": "CARMEL 1.5 NW",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

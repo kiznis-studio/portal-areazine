@@ -279,5 +279,93 @@
       4.7,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USW00014839",
+    "stationName": "MILWAUKEE MITCHELL AP 72640",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24,
+        "highTemp": 30.9,
+        "lowTemp": 17.2,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 27.1,
+        "highTemp": 34.2,
+        "lowTemp": 20,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 36.4,
+        "highTemp": 44.2,
+        "lowTemp": 28.7,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 46.3,
+        "highTemp": 54.7,
+        "lowTemp": 37.8,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 57.1,
+        "highTemp": 66.5,
+        "lowTemp": 47.8,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 67.6,
+        "highTemp": 76.8,
+        "lowTemp": 58.4,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 73.3,
+        "highTemp": 81.9,
+        "lowTemp": 64.7,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 72.3,
+        "highTemp": 80.3,
+        "lowTemp": 64.2,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 65,
+        "highTemp": 73.5,
+        "lowTemp": 56.4,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 53,
+        "highTemp": 61.3,
+        "lowTemp": 44.7,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 40.4,
+        "highTemp": 47.8,
+        "lowTemp": 33.1,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 29.5,
+        "highTemp": 36.1,
+        "lowTemp": 23,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 49.3,
+      "highTemp": 57.4,
+      "lowTemp": 41.3,
+      "totalPrecip": 34.7,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

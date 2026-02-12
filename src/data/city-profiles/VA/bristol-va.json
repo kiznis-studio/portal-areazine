@@ -216,5 +216,93 @@
       4.1,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00440021",
+    "stationName": "ABINGDON 3S",
+    "distanceMi": 13.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.5,
+        "highTemp": 44.9,
+        "lowTemp": 24.1,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 37.5,
+        "highTemp": 48.4,
+        "lowTemp": 26.6,
+        "precip": 3.9
+      },
+      "mar": {
+        "avgTemp": 44.9,
+        "highTemp": 57,
+        "lowTemp": 32.9,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 54.4,
+        "highTemp": 67.7,
+        "lowTemp": 41.1,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 62.8,
+        "highTemp": 75.2,
+        "lowTemp": 50.4,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 70.3,
+        "highTemp": 81.8,
+        "lowTemp": 58.8,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 73.5,
+        "highTemp": 84.7,
+        "lowTemp": 62.3,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 72.6,
+        "highTemp": 83.9,
+        "lowTemp": 61.3,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 67,
+        "highTemp": 79.1,
+        "lowTemp": 54.9,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 55.7,
+        "highTemp": 68.8,
+        "lowTemp": 42.7,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 45.1,
+        "highTemp": 57.4,
+        "lowTemp": 32.8,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 37.6,
+        "highTemp": 47.8,
+        "lowTemp": 27.3,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 54.7,
+      "highTemp": 66.4,
+      "lowTemp": 42.9,
+      "totalPrecip": 47.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -303,5 +303,91 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00046161",
+    "stationName": "NEWHALL 5NW",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.9,
+        "highTemp": 63.2,
+        "lowTemp": 46.6,
+        "precip": 4.2
+      },
+      "feb": {
+        "avgTemp": 54.7,
+        "highTemp": 64.7,
+        "lowTemp": 44.7,
+        "precip": 4.4
+      },
+      "mar": {
+        "avgTemp": 58.7,
+        "highTemp": 70.4,
+        "lowTemp": 47.1,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 61.4,
+        "highTemp": 74.2,
+        "lowTemp": 48.7,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 67.1,
+        "highTemp": 80.8,
+        "lowTemp": 53.5,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 72,
+        "highTemp": 87.4,
+        "lowTemp": 56.7,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 78.7,
+        "highTemp": 94.2,
+        "lowTemp": 63.2
+      },
+      "aug": {
+        "avgTemp": 79.9,
+        "highTemp": 95.8,
+        "lowTemp": 64.1
+      },
+      "sep": {
+        "avgTemp": 76.6,
+        "highTemp": 90.9,
+        "lowTemp": 62.4,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 68.7,
+        "highTemp": 81.1,
+        "lowTemp": 56.3,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 60.2,
+        "highTemp": 71.3,
+        "lowTemp": 49.2,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 53.4,
+        "highTemp": 62.4,
+        "lowTemp": 44.3,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 65.5,
+      "highTemp": 78,
+      "lowTemp": 53.1,
+      "totalPrecip": 16.6,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

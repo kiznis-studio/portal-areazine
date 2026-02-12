@@ -216,5 +216,54 @@
       4.7,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ILDP0127",
+    "stationName": "DOWNERS GROVE 0.4 NNE",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.6
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

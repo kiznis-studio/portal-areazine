@@ -231,5 +231,93 @@
       8.1,
       7.2
     ]
+  },
+  "climate": {
+    "station": "USC00111265",
+    "stationName": "CARBONDALE SEWAGE PLT",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.4,
+        "highTemp": 41.3,
+        "lowTemp": 23.4,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 36.4,
+        "highTemp": 46.3,
+        "lowTemp": 26.4,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 45.3,
+        "highTemp": 56.1,
+        "lowTemp": 34.5,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 56,
+        "highTemp": 67.7,
+        "lowTemp": 44.3,
+        "precip": 5.6
+      },
+      "may": {
+        "avgTemp": 65.9,
+        "highTemp": 76.6,
+        "lowTemp": 55.1,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 74.4,
+        "highTemp": 84.9,
+        "lowTemp": 63.9,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 77.9,
+        "highTemp": 88.1,
+        "lowTemp": 67.6,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 76,
+        "highTemp": 87.4,
+        "lowTemp": 64.6,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 68.6,
+        "highTemp": 81.2,
+        "lowTemp": 56,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 57,
+        "highTemp": 69.9,
+        "lowTemp": 44.1,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 45.5,
+        "highTemp": 56.2,
+        "lowTemp": 34.8,
+        "precip": 4.5
+      },
+      "dec": {
+        "avgTemp": 36.3,
+        "highTemp": 45.4,
+        "lowTemp": 27.2,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 56,
+      "highTemp": 66.8,
+      "lowTemp": 45.2,
+      "totalPrecip": 49,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

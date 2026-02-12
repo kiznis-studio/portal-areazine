@@ -231,5 +231,93 @@
       2.9,
       2.4
     ]
+  },
+  "climate": {
+    "station": "USC00334979",
+    "stationName": "MARYSVILLE",
+    "distanceMi": 6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.8,
+        "highTemp": 35,
+        "lowTemp": 20.6,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 30.9,
+        "highTemp": 38.9,
+        "lowTemp": 22.9,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 40.2,
+        "highTemp": 49.6,
+        "lowTemp": 30.8,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 52,
+        "highTemp": 63,
+        "lowTemp": 41,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 62.7,
+        "highTemp": 73.6,
+        "lowTemp": 51.8,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 71.2,
+        "highTemp": 81.7,
+        "lowTemp": 60.8,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 74.7,
+        "highTemp": 84.9,
+        "lowTemp": 64.4,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 83.5,
+        "lowTemp": 62.4,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 66.1,
+        "highTemp": 77.5,
+        "lowTemp": 54.7,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 54.4,
+        "highTemp": 65,
+        "lowTemp": 43.8,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 42.3,
+        "highTemp": 50.9,
+        "lowTemp": 33.7,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 32.9,
+        "highTemp": 39.6,
+        "lowTemp": 26.1,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 52.4,
+      "highTemp": 61.9,
+      "lowTemp": 42.7,
+      "totalPrecip": 40.6,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

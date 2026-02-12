@@ -271,5 +271,93 @@
       11.2,
       11.1
     ]
+  },
+  "climate": {
+    "station": "USC00300961",
+    "stationName": "BRONX",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.5,
+        "highTemp": 39.7,
+        "lowTemp": 27.3,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 35.6,
+        "highTemp": 42.6,
+        "lowTemp": 28.7,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 42.4,
+        "highTemp": 50.3,
+        "lowTemp": 34.6,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 52.9,
+        "highTemp": 61.4,
+        "lowTemp": 44.4,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 63.4,
+        "highTemp": 72.3,
+        "lowTemp": 54.6,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 72.6,
+        "highTemp": 80.9,
+        "lowTemp": 64.3,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 78.3,
+        "highTemp": 86.1,
+        "lowTemp": 70.6,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 76.6,
+        "highTemp": 84.1,
+        "lowTemp": 69.1,
+        "precip": 4.8
+      },
+      "sep": {
+        "avgTemp": 69.6,
+        "highTemp": 77.1,
+        "lowTemp": 62.1,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 58.2,
+        "highTemp": 65.8,
+        "lowTemp": 50.7,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 47.7,
+        "highTemp": 54.1,
+        "lowTemp": 41.3,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 38.9,
+        "highTemp": 44.8,
+        "lowTemp": 33.1,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 55.8,
+      "highTemp": 63.3,
+      "lowTemp": 48.4,
+      "totalPrecip": 50.1,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

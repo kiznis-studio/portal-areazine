@@ -231,5 +231,54 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00348110",
+    "stationName": "SHAWNEE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.6
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 5.7
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

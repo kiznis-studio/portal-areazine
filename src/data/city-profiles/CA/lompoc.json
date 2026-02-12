@@ -255,5 +255,93 @@
       6,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USC00045064",
+    "stationName": "LOMPOC",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54,
+        "highTemp": 64.7,
+        "lowTemp": 43.2,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 54.6,
+        "highTemp": 65.1,
+        "lowTemp": 44.2,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 56.6,
+        "highTemp": 67.3,
+        "lowTemp": 46,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 57.8,
+        "highTemp": 68.2,
+        "lowTemp": 47.4,
+        "precip": 0.9
+      },
+      "may": {
+        "avgTemp": 59.9,
+        "highTemp": 69.2,
+        "lowTemp": 50.6,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 61.8,
+        "highTemp": 70.7,
+        "lowTemp": 52.9,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 64,
+        "highTemp": 72.5,
+        "lowTemp": 55.5,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 64.6,
+        "highTemp": 73.3,
+        "lowTemp": 56,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 64.8,
+        "highTemp": 74.8,
+        "lowTemp": 54.9,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.6,
+        "highTemp": 74.1,
+        "lowTemp": 51.1,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 57.8,
+        "highTemp": 69.6,
+        "lowTemp": 46,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 52.7,
+        "highTemp": 63.3,
+        "lowTemp": 42.1,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 59.3,
+      "highTemp": 69.4,
+      "lowTemp": 49.2,
+      "totalPrecip": 15.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

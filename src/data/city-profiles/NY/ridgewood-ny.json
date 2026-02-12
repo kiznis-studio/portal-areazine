@@ -271,5 +271,93 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00014732",
+    "stationName": "NEW YORK LAGUARDIA AP 72503",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.4,
+        "highTemp": 40.2,
+        "lowTemp": 28.6,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 36.3,
+        "highTemp": 42.7,
+        "lowTemp": 29.9,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 43.1,
+        "highTemp": 49.9,
+        "lowTemp": 36.2,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 53.6,
+        "highTemp": 61.3,
+        "lowTemp": 46,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 63.7,
+        "highTemp": 71.8,
+        "lowTemp": 55.7,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 73.4,
+        "highTemp": 81.1,
+        "lowTemp": 65.7,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 79.2,
+        "highTemp": 86.4,
+        "lowTemp": 71.9,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 77.7,
+        "highTemp": 84.5,
+        "lowTemp": 71,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 70.8,
+        "highTemp": 77.2,
+        "lowTemp": 64.4,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 59.6,
+        "highTemp": 66,
+        "lowTemp": 53.3,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 49.1,
+        "highTemp": 55,
+        "lowTemp": 43.2,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 40,
+        "highTemp": 45.4,
+        "lowTemp": 34.7,
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "avgTemp": 56.7,
+      "highTemp": 63.5,
+      "lowTemp": 50.1,
+      "totalPrecip": 45.4,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

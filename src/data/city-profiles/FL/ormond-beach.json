@@ -263,5 +263,54 @@
       4.1,
       4
     ]
+  },
+  "climate": {
+    "station": "US1FLVL0005",
+    "stationName": "ORMOND BEACH 3.5 SE",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 2.5
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 5.9
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 6.8
+      },
+      "sep": {
+        "precip": 6.1
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

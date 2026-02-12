@@ -271,5 +271,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1ILLK0042",
+    "stationName": "GURNEE 1.6 W",
+    "distanceMi": 4.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.4
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 40,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

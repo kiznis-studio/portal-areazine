@@ -303,5 +303,93 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00454169",
+    "stationName": "KENT",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.2,
+        "highTemp": 48.4,
+        "lowTemp": 36.1,
+        "precip": 5.8
+      },
+      "feb": {
+        "avgTemp": 43.7,
+        "highTemp": 51.2,
+        "lowTemp": 36.2,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 47.4,
+        "highTemp": 55.8,
+        "lowTemp": 39,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 52.1,
+        "highTemp": 61.4,
+        "lowTemp": 42.8,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 58.4,
+        "highTemp": 68,
+        "lowTemp": 48.7,
+        "precip": 2.1
+      },
+      "jun": {
+        "avgTemp": 62.6,
+        "highTemp": 71.9,
+        "lowTemp": 53.3,
+        "precip": 1.7
+      },
+      "jul": {
+        "avgTemp": 67.8,
+        "highTemp": 78.3,
+        "lowTemp": 57.3,
+        "precip": 0.7
+      },
+      "aug": {
+        "avgTemp": 67.8,
+        "highTemp": 78.3,
+        "lowTemp": 57.3,
+        "precip": 0.9
+      },
+      "sep": {
+        "avgTemp": 62.5,
+        "highTemp": 72.5,
+        "lowTemp": 52.4,
+        "precip": 1.5
+      },
+      "oct": {
+        "avgTemp": 53.4,
+        "highTemp": 61.3,
+        "lowTemp": 45.6,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 52.7,
+        "lowTemp": 39.1,
+        "precip": 6.2
+      },
+      "dec": {
+        "avgTemp": 41.2,
+        "highTemp": 47,
+        "lowTemp": 35.4,
+        "precip": 5.8
+      }
+    },
+    "annual": {
+      "avgTemp": 53.8,
+      "highTemp": 62.2,
+      "lowTemp": 45.3,
+      "totalPrecip": 40.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

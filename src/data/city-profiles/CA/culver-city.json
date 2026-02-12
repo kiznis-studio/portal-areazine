@@ -303,5 +303,92 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00042214",
+    "stationName": "CULVER CITY",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.3,
+        "highTemp": 66.6,
+        "lowTemp": 48,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 57.5,
+        "highTemp": 66.5,
+        "lowTemp": 48.5,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 59.5,
+        "highTemp": 68.2,
+        "lowTemp": 50.8,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 61.9,
+        "highTemp": 70.8,
+        "lowTemp": 53.1,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 64.3,
+        "highTemp": 72,
+        "lowTemp": 56.6,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 67.5,
+        "highTemp": 74.7,
+        "lowTemp": 60.3,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 70.6,
+        "highTemp": 78,
+        "lowTemp": 63.1,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 71.3,
+        "highTemp": 79.1,
+        "lowTemp": 63.6
+      },
+      "sep": {
+        "avgTemp": 70.3,
+        "highTemp": 78.4,
+        "lowTemp": 62.2,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 66.9,
+        "highTemp": 75.8,
+        "lowTemp": 57.9,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 61.3,
+        "highTemp": 70.6,
+        "lowTemp": 51.9,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 56.6,
+        "highTemp": 65.9,
+        "lowTemp": 47.3,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 63.8,
+      "highTemp": 72.2,
+      "lowTemp": 55.3,
+      "totalPrecip": 14.2,
+      "hotMonths": 3,
+      "coldMonths": 0
+    }
   }
 }

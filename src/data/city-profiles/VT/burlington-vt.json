@@ -231,5 +231,93 @@
       3.9,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USW00014742",
+    "stationName": "BURLINGTON INTL AP GSN HCN 72617",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 20.9,
+        "highTemp": 28.9,
+        "lowTemp": 12.9,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 22.9,
+        "highTemp": 31.5,
+        "lowTemp": 14.3,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 32.3,
+        "highTemp": 40.9,
+        "lowTemp": 23.6,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 45.6,
+        "highTemp": 55.3,
+        "lowTemp": 35.9,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 58.4,
+        "highTemp": 69,
+        "lowTemp": 47.8,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 67.5,
+        "highTemp": 77.6,
+        "lowTemp": 57.3,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 72.4,
+        "highTemp": 82.4,
+        "lowTemp": 62.4,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 70.7,
+        "highTemp": 80.7,
+        "lowTemp": 60.7,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 62.7,
+        "highTemp": 72.6,
+        "lowTemp": 52.9,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 50.3,
+        "highTemp": 58.9,
+        "lowTemp": 41.8,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 39.3,
+        "highTemp": 46.4,
+        "lowTemp": 32.1,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 28.2,
+        "highTemp": 35,
+        "lowTemp": 21.3,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 47.6,
+      "highTemp": 56.6,
+      "lowTemp": 38.6,
+      "totalPrecip": 37.6,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

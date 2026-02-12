@@ -231,5 +231,93 @@
       4.4,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USW00014950",
+    "stationName": "OTTUMWA INDUSTRIAL AP",
+    "distanceMi": 6.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.9,
+        "highTemp": 32,
+        "lowTemp": 13.8,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 27.4,
+        "highTemp": 36.8,
+        "lowTemp": 18,
+        "precip": 1.4
+      },
+      "mar": {
+        "avgTemp": 39.6,
+        "highTemp": 50.2,
+        "lowTemp": 28.9,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 51.1,
+        "highTemp": 62.8,
+        "lowTemp": 39.4,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 62,
+        "highTemp": 72.9,
+        "lowTemp": 51,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 71.6,
+        "highTemp": 82.2,
+        "lowTemp": 61,
+        "precip": 5.4
+      },
+      "jul": {
+        "avgTemp": 75.1,
+        "highTemp": 85.7,
+        "lowTemp": 64.5,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 84,
+        "lowTemp": 62,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 65.3,
+        "highTemp": 77.3,
+        "lowTemp": 53.3,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 52.9,
+        "highTemp": 64.2,
+        "lowTemp": 41.6,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 39.6,
+        "highTemp": 49.7,
+        "lowTemp": 29.5,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 28.4,
+        "highTemp": 37.2,
+        "lowTemp": 19.7,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 50.7,
+      "highTemp": 61.3,
+      "lowTemp": 40.2,
+      "totalPrecip": 36.9,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

@@ -239,5 +239,54 @@
       3.9,
       4
     ]
+  },
+  "climate": {
+    "station": "US1TXEL0041",
+    "stationName": "WAXAHACHIE 1.7 ENE",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 2.2
+      },
+      "aug": {
+        "precip": 2.6
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

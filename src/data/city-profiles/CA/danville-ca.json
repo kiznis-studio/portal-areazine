@@ -279,5 +279,52 @@
       5.8,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1CACC0004",
+    "stationName": "WALNUT CREEK 1.7 SSE",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 1.5
+      },
+      "may": {
+        "precip": 0.6
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 2.2
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 21.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

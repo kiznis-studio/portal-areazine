@@ -231,5 +231,93 @@
       2,
       2.1
     ]
+  },
+  "climate": {
+    "station": "USC00475017",
+    "stationName": "MANITOWOC HCN",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.9,
+        "highTemp": 26.5,
+        "lowTemp": 13.4,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 22.6,
+        "highTemp": 29.4,
+        "lowTemp": 15.8,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 31.6,
+        "highTemp": 38.5,
+        "lowTemp": 24.6,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 42.2,
+        "highTemp": 50,
+        "lowTemp": 34.4,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 52.8,
+        "highTemp": 61.5,
+        "lowTemp": 44.2,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 63,
+        "highTemp": 71.6,
+        "lowTemp": 54.3,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 68.6,
+        "highTemp": 76.9,
+        "lowTemp": 60.3,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 68,
+        "highTemp": 75.7,
+        "lowTemp": 60.3,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 60.8,
+        "highTemp": 68.6,
+        "lowTemp": 53.1,
+        "precip": 2.4
+      },
+      "oct": {
+        "avgTemp": 49,
+        "highTemp": 56,
+        "lowTemp": 42,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 36.7,
+        "highTemp": 43,
+        "lowTemp": 30.4,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 25.8,
+        "highTemp": 31.8,
+        "lowTemp": 19.8,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 45.1,
+      "highTemp": 52.5,
+      "lowTemp": 37.7,
+      "totalPrecip": 31.5,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

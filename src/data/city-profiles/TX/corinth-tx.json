@@ -287,5 +287,93 @@
       4,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00412404",
+    "stationName": "DENTON 2 SE",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45,
+        "highTemp": 55.8,
+        "lowTemp": 34.1,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 48.5,
+        "highTemp": 59.6,
+        "lowTemp": 37.4,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 56.3,
+        "highTemp": 67.7,
+        "lowTemp": 44.8,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 64.2,
+        "highTemp": 75.6,
+        "lowTemp": 52.8,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 72.8,
+        "highTemp": 82.9,
+        "lowTemp": 62.7,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 81.1,
+        "highTemp": 91.1,
+        "lowTemp": 71.1,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 85.4,
+        "highTemp": 95.9,
+        "lowTemp": 74.9,
+        "precip": 2.3
+      },
+      "aug": {
+        "avgTemp": 85,
+        "highTemp": 95.8,
+        "lowTemp": 74.2,
+        "precip": 2.4
+      },
+      "sep": {
+        "avgTemp": 77.7,
+        "highTemp": 88.5,
+        "lowTemp": 66.8,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 66.7,
+        "highTemp": 78.1,
+        "lowTemp": 55.3,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 55.2,
+        "highTemp": 66.2,
+        "lowTemp": 44.1,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 46.8,
+        "highTemp": 57.4,
+        "lowTemp": 36.1,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 65.4,
+      "highTemp": 76.2,
+      "lowTemp": 54.5,
+      "totalPrecip": 38.5,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

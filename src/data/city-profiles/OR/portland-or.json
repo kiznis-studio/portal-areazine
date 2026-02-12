@@ -279,5 +279,93 @@
       5.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00356749",
+    "stationName": "PORTLAND KGW-TV",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.1,
+        "highTemp": 46.9,
+        "lowTemp": 37.3,
+        "precip": 6.4
+      },
+      "feb": {
+        "avgTemp": 44.7,
+        "highTemp": 50.5,
+        "lowTemp": 38.8,
+        "precip": 4.7
+      },
+      "mar": {
+        "avgTemp": 48.3,
+        "highTemp": 55.8,
+        "lowTemp": 40.9,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 52.5,
+        "highTemp": 60.7,
+        "lowTemp": 44.2,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 58.7,
+        "highTemp": 68,
+        "lowTemp": 49.4,
+        "precip": 2.6
+      },
+      "jun": {
+        "avgTemp": 63.1,
+        "highTemp": 72.9,
+        "lowTemp": 53.3,
+        "precip": 1.5
+      },
+      "jul": {
+        "avgTemp": 69.1,
+        "highTemp": 80.3,
+        "lowTemp": 57.9,
+        "precip": 0.4
+      },
+      "aug": {
+        "avgTemp": 69.6,
+        "highTemp": 80.6,
+        "lowTemp": 58.6,
+        "precip": 0.5
+      },
+      "sep": {
+        "avgTemp": 65,
+        "highTemp": 74.9,
+        "lowTemp": 55.1,
+        "precip": 1.6
+      },
+      "oct": {
+        "avgTemp": 55.4,
+        "highTemp": 62.9,
+        "lowTemp": 47.9,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 46.9,
+        "highTemp": 52.3,
+        "lowTemp": 41.6,
+        "precip": 6.6
+      },
+      "dec": {
+        "avgTemp": 41.6,
+        "highTemp": 45.9,
+        "lowTemp": 37.3,
+        "precip": 7.4
+      }
+    },
+    "annual": {
+      "avgTemp": 54.8,
+      "highTemp": 62.6,
+      "lowTemp": 46.9,
+      "totalPrecip": 44.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

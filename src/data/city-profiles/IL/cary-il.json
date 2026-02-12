@@ -216,5 +216,54 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1ILMCH049",
+    "stationName": "CARY 0.3 NE",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.9
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

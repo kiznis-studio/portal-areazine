@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00511925",
+    "stationName": "HONOLULU FIRE STN 703.1",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 1.1
+      },
+      "may": {
+        "precip": 1.1
+      },
+      "jun": {
+        "precip": 1
+      },
+      "jul": {
+        "precip": 0.9
+      },
+      "aug": {
+        "precip": 0.9
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 3
+      }
+    },
+    "annual": {
+      "totalPrecip": 24.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

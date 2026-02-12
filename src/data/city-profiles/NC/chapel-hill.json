@@ -231,5 +231,93 @@
       3.9,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00311677",
+    "stationName": "CHAPEL HILL 2 W HCN",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40,
+        "highTemp": 50.7,
+        "lowTemp": 29.4,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 42.8,
+        "highTemp": 54.3,
+        "lowTemp": 31.3,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 49.9,
+        "highTemp": 61.8,
+        "lowTemp": 38,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 59.2,
+        "highTemp": 71.5,
+        "lowTemp": 46.8,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 67.5,
+        "highTemp": 78.6,
+        "lowTemp": 56.3,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 75.4,
+        "highTemp": 85.7,
+        "lowTemp": 65,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 79.4,
+        "highTemp": 89.5,
+        "lowTemp": 69.3,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 77.6,
+        "highTemp": 87.5,
+        "lowTemp": 67.7,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 71.7,
+        "highTemp": 81.8,
+        "lowTemp": 61.5,
+        "precip": 5.4
+      },
+      "oct": {
+        "avgTemp": 60.3,
+        "highTemp": 72.1,
+        "lowTemp": 48.5,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 49.9,
+        "highTemp": 62,
+        "lowTemp": 37.8,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 43.1,
+        "highTemp": 53.7,
+        "lowTemp": 32.4,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 59.7,
+      "highTemp": 70.8,
+      "lowTemp": 48.7,
+      "totalPrecip": 49,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

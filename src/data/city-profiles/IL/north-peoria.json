@@ -239,5 +239,54 @@
       6.6,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00116710",
+    "stationName": "PEORIA 5NW",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.1
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.6
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

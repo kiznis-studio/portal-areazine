@@ -255,5 +255,54 @@
       5.9,
       5.3
     ]
+  },
+  "climate": {
+    "station": "US1ALMB0049",
+    "stationName": "MOBILE 1.2 WSW",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 5.1
+      },
+      "apr": {
+        "precip": 5.6
+      },
+      "may": {
+        "precip": 6.6
+      },
+      "jun": {
+        "precip": 7.3
+      },
+      "jul": {
+        "precip": 7
+      },
+      "aug": {
+        "precip": 6.5
+      },
+      "sep": {
+        "precip": 5.7
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 5.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 68.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -1,0 +1,167 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/ui/Breadcrumb.astro';
+import SectionHeader from '../../../components/ui/SectionHeader.astro';
+import RankRow from '../../../components/data/RankRow.astro';
+import { CITIES, getCitiesByState } from '../../../data/cities';
+import { fmt, fmtMoney, fmtPct, fmtCompact } from '../../../lib/format';
+import { SITE_NAME } from '../../../lib/config';
+import { RANKINGS } from '../../../lib/rankings';
+import type { RankingDef } from '../../../lib/rankings';
+
+// Load state profiles
+const stateProfileMods = import.meta.glob('../../../data/state-profiles/*.json', { eager: true }) as Record<string, { default: any }>;
+const stateProfiles: Record<string, any> = {};
+for (const [path, mod] of Object.entries(stateProfileMods)) {
+  const code = path.split('/').pop()?.replace('.json', '') || '';
+  stateProfiles[code] = mod.default ?? mod;
+}
+
+// Load city profiles
+const profileModules = import.meta.glob('../../../data/city-profiles/**/*.json', { eager: true }) as Record<string, { default: any }>;
+const cityProfiles: Record<string, any> = {};
+for (const [p, mod] of Object.entries(profileModules)) {
+  const slug = p.split('/').pop()?.replace('.json', '') || '';
+  cityProfiles[slug] = mod.default ?? mod;
+}
+
+export function getStaticPaths() {
+  const states = import.meta.glob('../../../data/state-profiles/*.json', { eager: true });
+  const paths: any[] = [];
+
+  for (const [path, mod] of Object.entries(states)) {
+    const code = path.split('/').pop()?.replace('.json', '') || '';
+    const profile = (mod as any).default ?? mod;
+    const stateSlug = profile.stateName.toLowerCase().replace(/\s+/g, '-');
+
+    for (const ranking of RANKINGS) {
+      paths.push({
+        params: { state: stateSlug, ranking: ranking.slug },
+        props: { stateCode: code, stateName: profile.stateName, rankingSlug: ranking.slug },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { stateCode, stateName, rankingSlug } = Astro.props;
+const ranking = RANKINGS.find(r => r.slug === rankingSlug)!;
+const stateSlug = stateName.toLowerCase().replace(/\s+/g, '-');
+
+// Get all cities for this state with their profiles
+const cities = getCitiesByState(stateCode);
+const rankedCities = cities
+  .map(c => {
+    const profile = cityProfiles[c.slug];
+    const value = ranking.extract(c, profile);
+    return value !== null ? { name: c.name, slug: c.slug, population: c.population, value } : null;
+  })
+  .filter((c): c is NonNullable<typeof c> => c !== null)
+  .sort((a, b) => ranking.sortDir === 'asc' ? a.value - b.value : b.value - a.value);
+
+const top = rankedCities.slice(0, 50);
+const maxVal = ranking.sortDir === 'desc'
+  ? (top[0]?.value || 1)
+  : (top[top.length - 1]?.value || 1);
+
+const pageTitle = `${ranking.titleTemplate.replace('{state}', stateName)} — ${top.length} Cities Ranked | ${SITE_NAME}`;
+const pageDesc = `${ranking.titleTemplate.replace('{state}', stateName)}: ${top.length} cities ranked. ${ranking.description} Data from official U.S. government sources.`;
+
+// Other ranking pages for this state
+const otherRankings = RANKINGS.filter(r => r.slug !== rankingSlug);
+---
+
+<Base title={pageTitle} description={pageDesc}>
+  <div class="container py-8 md:py-12">
+
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'States', href: '/states' },
+      { label: stateName, href: `/states/${stateSlug}` },
+      { label: ranking.title },
+    ]} />
+
+    {/* Hero */}
+    <header class="mb-10">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-black tracking-tight mb-2">
+        {ranking.titleTemplate.replace('{state}', stateName)}
+      </h1>
+      <p class="text-base text-[var(--color-muted)] max-w-2xl">
+        {ranking.description} {top.length} cities ranked from official Census Bureau and FBI data.
+      </p>
+    </header>
+
+    {/* Ranking Table */}
+    {top.length > 0 ? (
+      <section class="mb-12">
+        <SectionHeader title={ranking.title} count={top.length} badge={ranking.unit} />
+        <div class="data-table">
+          {top.map((c, i) => {
+            let barPct: number;
+            if (ranking.sortDir === 'desc') {
+              barPct = (c.value / maxVal) * 100;
+            } else {
+              // For ascending (lower is better), invert the bar
+              barPct = maxVal > 0 ? 100 - ((c.value / maxVal) * 80) : 50;
+            }
+            return (
+              <RankRow
+                rank={i + 1}
+                label={c.name}
+                value={ranking.format(c.value)}
+                href={`/cities/${c.slug}`}
+                barPct={barPct}
+              />
+            );
+          })}
+        </div>
+      </section>
+    ) : (
+      <p class="text-[var(--color-muted)] mb-12">Not enough data available for this ranking in {stateName}.</p>
+    )}
+
+    {/* Other Rankings */}
+    <section class="mb-12">
+      <SectionHeader title={`More ${stateName} Rankings`} count={otherRankings.length} />
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+        {otherRankings.map(r => (
+          <a
+            href={`/states/${stateSlug}/${r.slug}`}
+            class="text-sm py-3 px-4 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-muted)] hover:bg-[var(--color-card)] transition-colors"
+          >
+            <span class="font-medium">{r.titleTemplate.replace('{state}', stateName)}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {/* Data Sources */}
+    <details class="pt-8 border-t border-[var(--color-border)] group">
+      <summary class="cursor-pointer text-sm font-bold uppercase tracking-wider text-[var(--color-muted)] select-none flex items-center gap-2">
+        <svg class="w-4 h-4 transition-transform group-open:rotate-90" viewBox="0 0 16 16" fill="none">
+          <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Data Sources
+      </summary>
+      <div class="mt-4">
+        <p class="text-sm text-[var(--color-muted)] max-w-2xl leading-relaxed">
+          Population and economic data from the
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Census Bureau American Community Survey</a> (2022 5-year estimates).
+          Crime data from the <a href="https://cde.ucr.cjis.gov/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">FBI Crime Data Explorer</a>.
+        </p>
+      </div>
+    </details>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://areazine.com/" },
+      { "@type": "ListItem", "position": 2, "name": "States", "item": "https://areazine.com/states/" },
+      { "@type": "ListItem", "position": 3, "name": stateName, "item": `https://areazine.com/states/${stateSlug}/` },
+      { "@type": "ListItem", "position": 4, "name": ranking.title },
+    ],
+  })} />
+</Base>

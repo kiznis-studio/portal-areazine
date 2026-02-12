@@ -231,5 +231,81 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00234850",
+    "stationName": "LEES SUMMIT REED WR HCN",
+    "distanceMi": 8.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.5,
+        "highTemp": 36.3,
+        "lowTemp": 16.7
+      },
+      "feb": {
+        "avgTemp": 31.5,
+        "highTemp": 41.7,
+        "lowTemp": 21.4
+      },
+      "mar": {
+        "avgTemp": 42.8,
+        "highTemp": 53.1,
+        "lowTemp": 32.6
+      },
+      "apr": {
+        "avgTemp": 52.5,
+        "highTemp": 62.2,
+        "lowTemp": 42.8
+      },
+      "may": {
+        "avgTemp": 63.5,
+        "highTemp": 72.9,
+        "lowTemp": 54
+      },
+      "jun": {
+        "avgTemp": 72.3,
+        "highTemp": 81.1,
+        "lowTemp": 63.4
+      },
+      "jul": {
+        "avgTemp": 76.5,
+        "highTemp": 85.7,
+        "lowTemp": 67.4
+      },
+      "aug": {
+        "avgTemp": 74.8,
+        "highTemp": 84.5,
+        "lowTemp": 65.1
+      },
+      "sep": {
+        "avgTemp": 66.4,
+        "highTemp": 76,
+        "lowTemp": 56.8
+      },
+      "oct": {
+        "avgTemp": 55.5,
+        "highTemp": 65.8,
+        "lowTemp": 45.2
+      },
+      "nov": {
+        "avgTemp": 42.3,
+        "highTemp": 52.2,
+        "lowTemp": 32.3
+      },
+      "dec": {
+        "avgTemp": 31.9,
+        "highTemp": 41,
+        "lowTemp": 22.9
+      }
+    },
+    "annual": {
+      "avgTemp": 53,
+      "highTemp": 62.7,
+      "lowTemp": 43.4,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

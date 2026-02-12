@@ -169,5 +169,93 @@
       4,
       3.8
     ]
+  },
+  "climate": {
+    "station": "USC00369464",
+    "stationName": "W CHESTER 2 NW HCN",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.6,
+        "highTemp": 39.5,
+        "lowTemp": 19.7,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 31.9,
+        "highTemp": 42.5,
+        "lowTemp": 21.2,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 39.8,
+        "highTemp": 50.9,
+        "lowTemp": 28.7,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 50.7,
+        "highTemp": 63.2,
+        "lowTemp": 38.1,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 60.8,
+        "highTemp": 73,
+        "lowTemp": 48.6,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 70.4,
+        "highTemp": 82,
+        "lowTemp": 58.7,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 75,
+        "highTemp": 86.2,
+        "lowTemp": 63.7,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 84.4,
+        "lowTemp": 61.6,
+        "precip": 4.8
+      },
+      "sep": {
+        "avgTemp": 65.9,
+        "highTemp": 78,
+        "lowTemp": 53.7,
+        "precip": 5.7
+      },
+      "oct": {
+        "avgTemp": 53.7,
+        "highTemp": 66.1,
+        "lowTemp": 41.4,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 43.4,
+        "highTemp": 54.9,
+        "lowTemp": 31.8,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 34.8,
+        "highTemp": 44.4,
+        "lowTemp": 25.2,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 52.4,
+      "highTemp": 63.8,
+      "lowTemp": 41,
+      "totalPrecip": 51,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

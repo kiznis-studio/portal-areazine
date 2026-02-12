@@ -303,5 +303,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00237064",
+    "stationName": "RAYTOWN #2",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.5
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 5.7
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 5
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

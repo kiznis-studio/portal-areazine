@@ -239,5 +239,93 @@
       5.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USW00014794",
+    "stationName": "WESTERLY STATE AP",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32,
+        "highTemp": 39.5,
+        "lowTemp": 24.5,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 33.4,
+        "highTemp": 41.2,
+        "lowTemp": 25.7,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 39.6,
+        "highTemp": 47.2,
+        "lowTemp": 32,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 48.9,
+        "highTemp": 57.1,
+        "lowTemp": 40.7,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 58.3,
+        "highTemp": 66.6,
+        "lowTemp": 50,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 67.2,
+        "highTemp": 75,
+        "lowTemp": 59.4,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 73.8,
+        "highTemp": 81.6,
+        "lowTemp": 65.9,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 80.5,
+        "lowTemp": 64.3,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 65.7,
+        "highTemp": 74.4,
+        "lowTemp": 57.1,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 63.9,
+        "lowTemp": 46.5,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 54,
+        "lowTemp": 37.8,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 37.6,
+        "highTemp": 44.9,
+        "lowTemp": 30.3,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 52.5,
+      "highTemp": 60.5,
+      "lowTemp": 44.5,
+      "totalPrecip": 42.9,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

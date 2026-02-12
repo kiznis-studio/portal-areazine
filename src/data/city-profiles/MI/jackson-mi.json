@@ -231,5 +231,54 @@
       6.3,
       5.8
     ]
+  },
+  "climate": {
+    "station": "US1MIJC0011",
+    "stationName": "JACKSON 3.2 W",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.5
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.2
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

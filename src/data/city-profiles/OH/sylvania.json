@@ -255,5 +255,54 @@
       6.8,
       6.8
     ]
+  },
+  "climate": {
+    "station": "US1OHLS0023",
+    "stationName": "SWANTON 6.7 NNE",
+    "distanceMi": 7.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 3.4
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3
+      },
+      "oct": {
+        "precip": 2.6
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

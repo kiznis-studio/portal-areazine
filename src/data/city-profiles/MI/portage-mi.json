@@ -239,5 +239,93 @@
       6.4,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USW00094815",
+    "stationName": "KALAMAZOO BATTLE CK INTL AP",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.8,
+        "highTemp": 31.5,
+        "lowTemp": 18.1,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 27.1,
+        "highTemp": 34.7,
+        "lowTemp": 19.5,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 36.6,
+        "highTemp": 45.9,
+        "lowTemp": 27.3,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 48.5,
+        "highTemp": 59.3,
+        "lowTemp": 37.7,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 59.5,
+        "highTemp": 70.3,
+        "lowTemp": 48.7,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 68.8,
+        "highTemp": 79.5,
+        "lowTemp": 58.1,
+        "precip": 3.2
+      },
+      "jul": {
+        "avgTemp": 72.6,
+        "highTemp": 83.1,
+        "lowTemp": 62,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 81.1,
+        "lowTemp": 60.4,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 63.3,
+        "highTemp": 74.1,
+        "lowTemp": 52.5,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 51.6,
+        "highTemp": 61.3,
+        "lowTemp": 41.9,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 40.1,
+        "highTemp": 47.6,
+        "lowTemp": 32.5,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 30.4,
+        "highTemp": 36.5,
+        "lowTemp": 24.2,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 58.7,
+      "lowTemp": 40.2,
+      "totalPrecip": 33.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

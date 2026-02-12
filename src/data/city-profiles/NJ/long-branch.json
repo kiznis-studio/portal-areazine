@@ -263,5 +263,54 @@
       5.4,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1NJMN0048",
+    "stationName": "LONG BRANCH 0.5 W",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 5.1
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4.5
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 51,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

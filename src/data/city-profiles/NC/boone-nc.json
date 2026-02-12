@@ -231,5 +231,93 @@
       9.3,
       9
     ]
+  },
+  "climate": {
+    "station": "USC00310982",
+    "stationName": "BOONE 1 SE",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.5,
+        "highTemp": 41.4,
+        "lowTemp": 21.6,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 34.2,
+        "highTemp": 44.7,
+        "lowTemp": 23.8,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 40.5,
+        "highTemp": 51.7,
+        "lowTemp": 29.2,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 49.3,
+        "highTemp": 61.7,
+        "lowTemp": 36.9,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 57.6,
+        "highTemp": 69.4,
+        "lowTemp": 45.8,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 64.7,
+        "highTemp": 75.8,
+        "lowTemp": 53.7,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 68.4,
+        "highTemp": 79,
+        "lowTemp": 57.7,
+        "precip": 5.1
+      },
+      "aug": {
+        "avgTemp": 67.1,
+        "highTemp": 77.8,
+        "lowTemp": 56.3,
+        "precip": 5.6
+      },
+      "sep": {
+        "avgTemp": 61.3,
+        "highTemp": 72.2,
+        "lowTemp": 50.3,
+        "precip": 5.7
+      },
+      "oct": {
+        "avgTemp": 51.2,
+        "highTemp": 63,
+        "lowTemp": 39.3,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 41.3,
+        "highTemp": 53,
+        "lowTemp": 29.6,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 34.9,
+        "highTemp": 45,
+        "lowTemp": 24.7,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 61.2,
+      "lowTemp": 39.1,
+      "totalPrecip": 59.1,
+      "hotMonths": 0,
+      "coldMonths": 3
+    }
   }
 }

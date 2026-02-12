@@ -239,5 +239,93 @@
       6,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00083207",
+    "stationName": "FT PIERCE HCN",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62.7,
+        "highTemp": 72.4,
+        "lowTemp": 53,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 64.9,
+        "highTemp": 74.3,
+        "lowTemp": 55.4,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 67.8,
+        "highTemp": 77,
+        "lowTemp": 58.5,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 72.3,
+        "highTemp": 80.8,
+        "lowTemp": 63.9,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 76.7,
+        "highTemp": 84.4,
+        "lowTemp": 69,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 80.3,
+        "highTemp": 87.6,
+        "lowTemp": 72.9,
+        "precip": 6.2
+      },
+      "jul": {
+        "avgTemp": 81.7,
+        "highTemp": 89.2,
+        "lowTemp": 74.1,
+        "precip": 6.2
+      },
+      "aug": {
+        "avgTemp": 81.9,
+        "highTemp": 89.2,
+        "lowTemp": 74.6,
+        "precip": 7.3
+      },
+      "sep": {
+        "avgTemp": 80.8,
+        "highTemp": 87.5,
+        "lowTemp": 74,
+        "precip": 8.2
+      },
+      "oct": {
+        "avgTemp": 76.7,
+        "highTemp": 83.8,
+        "lowTemp": 69.6,
+        "precip": 5.7
+      },
+      "nov": {
+        "avgTemp": 70.3,
+        "highTemp": 78.3,
+        "lowTemp": 62.2,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 65.5,
+        "highTemp": 74.4,
+        "lowTemp": 56.5,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 73.5,
+      "highTemp": 81.6,
+      "lowTemp": 65.3,
+      "totalPrecip": 55.8,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

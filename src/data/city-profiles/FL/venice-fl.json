@@ -255,5 +255,93 @@
       3.4,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00089176",
+    "stationName": "VENICE",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62,
+        "highTemp": 72.4,
+        "lowTemp": 51.6,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 64.6,
+        "highTemp": 75,
+        "lowTemp": 54.2,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 67.7,
+        "highTemp": 77.9,
+        "lowTemp": 57.5,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 72.5,
+        "highTemp": 82.5,
+        "lowTemp": 62.5,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 77.5,
+        "highTemp": 87.3,
+        "lowTemp": 67.8,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 81.4,
+        "highTemp": 89.9,
+        "lowTemp": 72.9,
+        "precip": 7.8
+      },
+      "jul": {
+        "avgTemp": 82.9,
+        "highTemp": 91.5,
+        "lowTemp": 74.3,
+        "precip": 7.4
+      },
+      "aug": {
+        "avgTemp": 83.1,
+        "highTemp": 91.5,
+        "lowTemp": 74.7,
+        "precip": 8.3
+      },
+      "sep": {
+        "avgTemp": 81.6,
+        "highTemp": 90,
+        "lowTemp": 73.2,
+        "precip": 7.2
+      },
+      "oct": {
+        "avgTemp": 76.6,
+        "highTemp": 85.8,
+        "lowTemp": 67.5,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 69.9,
+        "highTemp": 80,
+        "lowTemp": 59.7,
+        "precip": 1.5
+      },
+      "dec": {
+        "avgTemp": 64.9,
+        "highTemp": 75,
+        "lowTemp": 54.8,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 73.7,
+      "highTemp": 83.2,
+      "lowTemp": 64.2,
+      "totalPrecip": 51.4,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

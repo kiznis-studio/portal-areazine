@@ -303,5 +303,54 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CALA0043",
+    "stationName": "PASADENA 1.8 E",
+    "distanceMi": 4.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 5.4
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 1.1
+      },
+      "may": {
+        "precip": 0.6
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 19.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

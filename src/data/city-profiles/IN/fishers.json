@@ -255,5 +255,93 @@
       2.7,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USC00121303",
+    "stationName": "CARMEL 3 E",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.6,
+        "highTemp": 34.5,
+        "lowTemp": 18.8,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 30.1,
+        "highTemp": 38.8,
+        "lowTemp": 21.4,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 39.5,
+        "highTemp": 49.2,
+        "lowTemp": 29.9,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 51.2,
+        "highTemp": 61.8,
+        "lowTemp": 40.5,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 61.5,
+        "highTemp": 72.1,
+        "lowTemp": 51,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 70.9,
+        "highTemp": 81.1,
+        "lowTemp": 60.8,
+        "precip": 5.5
+      },
+      "jul": {
+        "avgTemp": 74.2,
+        "highTemp": 84.4,
+        "lowTemp": 64.1,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 72.6,
+        "highTemp": 83,
+        "lowTemp": 62.2,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 65.8,
+        "highTemp": 77.1,
+        "lowTemp": 54.5,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 53.7,
+        "highTemp": 64.7,
+        "lowTemp": 42.7,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 41.6,
+        "highTemp": 50.8,
+        "lowTemp": 32.5,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 31.6,
+        "highTemp": 39.2,
+        "lowTemp": 24,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 51.6,
+      "highTemp": 61.4,
+      "lowTemp": 41.9,
+      "totalPrecip": 44.7,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

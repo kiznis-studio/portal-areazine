@@ -279,5 +279,93 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USW00012838",
+    "stationName": "MELBOURNE INTL AP 72204",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 61.7,
+        "highTemp": 71.8,
+        "lowTemp": 51.7,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 64,
+        "highTemp": 74,
+        "lowTemp": 54,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 67.4,
+        "highTemp": 77.1,
+        "lowTemp": 57.7,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 71.8,
+        "highTemp": 80.9,
+        "lowTemp": 62.8,
+        "precip": 2.3
+      },
+      "may": {
+        "avgTemp": 76.8,
+        "highTemp": 84.9,
+        "lowTemp": 68.6,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 80.6,
+        "highTemp": 88.1,
+        "lowTemp": 73.1,
+        "precip": 7.1
+      },
+      "jul": {
+        "avgTemp": 81.7,
+        "highTemp": 89.7,
+        "lowTemp": 73.7,
+        "precip": 6.5
+      },
+      "aug": {
+        "avgTemp": 82,
+        "highTemp": 89.3,
+        "lowTemp": 74.7,
+        "precip": 6.7
+      },
+      "sep": {
+        "avgTemp": 80.6,
+        "highTemp": 87.6,
+        "lowTemp": 73.7,
+        "precip": 7.6
+      },
+      "oct": {
+        "avgTemp": 76.3,
+        "highTemp": 83.5,
+        "lowTemp": 69,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 69,
+        "highTemp": 77.3,
+        "lowTemp": 60.8,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 64.7,
+        "highTemp": 73.9,
+        "lowTemp": 55.6,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 73.1,
+      "highTemp": 81.5,
+      "lowTemp": 64.6,
+      "totalPrecip": 50.9,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

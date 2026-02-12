@@ -303,5 +303,54 @@
       3.6,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1UTSL0104",
+    "stationName": "SALT LAKE CITY 8.3 WSW",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.3
+      },
+      "feb": {
+        "precip": 1.5
+      },
+      "mar": {
+        "precip": 1.8
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 2.3
+      },
+      "jun": {
+        "precip": 1.3
+      },
+      "jul": {
+        "precip": 0.9
+      },
+      "aug": {
+        "precip": 0.8
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 1.5
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

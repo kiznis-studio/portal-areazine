@@ -255,5 +255,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "US1MDBL0013",
+    "stationName": "JACKSONVILLE 1.5 NE",
+    "distanceMi": 5.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 4.8
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

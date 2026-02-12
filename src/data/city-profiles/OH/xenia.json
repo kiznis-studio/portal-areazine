@@ -231,5 +231,54 @@
       4.5,
       3.9
     ]
+  },
+  "climate": {
+    "station": "US1OHGR0013",
+    "stationName": "XENIA 2.1 NNE",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 3
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

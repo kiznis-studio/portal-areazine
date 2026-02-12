@@ -263,5 +263,93 @@
       5.2,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USW00023213",
+    "stationName": "SANTA ROSA SONOMA CO AP",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.7,
+        "highTemp": 57.9,
+        "lowTemp": 37.5,
+        "precip": 6.7
+      },
+      "feb": {
+        "avgTemp": 50.5,
+        "highTemp": 61.7,
+        "lowTemp": 39.4,
+        "precip": 6.7
+      },
+      "mar": {
+        "avgTemp": 53.3,
+        "highTemp": 65.1,
+        "lowTemp": 41.4,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 56.1,
+        "highTemp": 69,
+        "lowTemp": 43.2,
+        "precip": 2.1
+      },
+      "may": {
+        "avgTemp": 60.7,
+        "highTemp": 74.7,
+        "lowTemp": 46.6,
+        "precip": 1.3
+      },
+      "jun": {
+        "avgTemp": 65.9,
+        "highTemp": 81.8,
+        "lowTemp": 50.1,
+        "precip": 0.3
+      },
+      "jul": {
+        "avgTemp": 67.6,
+        "highTemp": 83.5,
+        "lowTemp": 51.7,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 68,
+        "highTemp": 84.1,
+        "lowTemp": 51.9,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 66.5,
+        "highTemp": 83.4,
+        "lowTemp": 49.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 61.3,
+        "highTemp": 77.1,
+        "lowTemp": 45.5,
+        "precip": 1.7
+      },
+      "nov": {
+        "avgTemp": 52.8,
+        "highTemp": 65.4,
+        "lowTemp": 40.1,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 47.2,
+        "highTemp": 57.5,
+        "lowTemp": 36.9,
+        "precip": 6.8
+      }
+    },
+    "annual": {
+      "avgTemp": 58.1,
+      "highTemp": 71.8,
+      "lowTemp": 44.5,
+      "totalPrecip": 34,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

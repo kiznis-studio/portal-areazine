@@ -239,5 +239,93 @@
       7.2,
       7.1
     ]
+  },
+  "climate": {
+    "station": "USW00024243",
+    "stationName": "YAKIMA AIR TERMINAL 72781",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.7,
+        "highTemp": 39.5,
+        "lowTemp": 24,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 36.6,
+        "highTemp": 47.2,
+        "lowTemp": 26.1,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 43.4,
+        "highTemp": 56.6,
+        "lowTemp": 30.2,
+        "precip": 0.6
+      },
+      "apr": {
+        "avgTemp": 49.9,
+        "highTemp": 64.7,
+        "lowTemp": 35.2,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 58.8,
+        "highTemp": 74.1,
+        "lowTemp": 43.5,
+        "precip": 0.7
+      },
+      "jun": {
+        "avgTemp": 65.1,
+        "highTemp": 80.7,
+        "lowTemp": 49.5,
+        "precip": 0.5
+      },
+      "jul": {
+        "avgTemp": 72.4,
+        "highTemp": 89.9,
+        "lowTemp": 55,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 70.9,
+        "highTemp": 88.5,
+        "lowTemp": 53.3,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 62.2,
+        "highTemp": 79.4,
+        "lowTemp": 44.9,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 49.8,
+        "highTemp": 64.4,
+        "lowTemp": 35.3,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 38,
+        "highTemp": 48.9,
+        "lowTemp": 27.2,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 30.6,
+        "highTemp": 38.2,
+        "lowTemp": 23.1,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 50.8,
+      "highTemp": 64.3,
+      "lowTemp": 37.3,
+      "totalPrecip": 7.9,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

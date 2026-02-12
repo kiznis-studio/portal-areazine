@@ -231,5 +231,54 @@
       4.2,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1KSHV0005",
+    "stationName": "NEWTON 1.0 ESE",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.9
+      },
+      "feb": {
+        "precip": 1.4
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 5.4
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.1
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 1.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 35.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "US1CALA0031",
+    "stationName": "LANCASTER 6.5 ENE",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.5
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 1.1
+      },
+      "apr": {
+        "precip": 0.5
+      },
+      "may": {
+        "precip": 0.3
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,81 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00346382",
+    "stationName": "NORMAN 2NW MESONET",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.5,
+        "highTemp": 50.5,
+        "lowTemp": 28.5
+      },
+      "feb": {
+        "avgTemp": 43.7,
+        "highTemp": 55,
+        "lowTemp": 32.3
+      },
+      "mar": {
+        "avgTemp": 52.6,
+        "highTemp": 64,
+        "lowTemp": 41.2
+      },
+      "apr": {
+        "avgTemp": 60.4,
+        "highTemp": 71.8,
+        "lowTemp": 49
+      },
+      "may": {
+        "avgTemp": 69.1,
+        "highTemp": 79.2,
+        "lowTemp": 59
+      },
+      "jun": {
+        "avgTemp": 77.9,
+        "highTemp": 87.6,
+        "lowTemp": 68.2
+      },
+      "jul": {
+        "avgTemp": 82.3,
+        "highTemp": 92.6,
+        "lowTemp": 71.9
+      },
+      "aug": {
+        "avgTemp": 82,
+        "highTemp": 93,
+        "lowTemp": 71.1
+      },
+      "sep": {
+        "avgTemp": 73.4,
+        "highTemp": 84.3,
+        "lowTemp": 62.5
+      },
+      "oct": {
+        "avgTemp": 62.1,
+        "highTemp": 73.5,
+        "lowTemp": 50.8
+      },
+      "nov": {
+        "avgTemp": 50.4,
+        "highTemp": 61.5,
+        "lowTemp": 39.4
+      },
+      "dec": {
+        "avgTemp": 41,
+        "highTemp": 51.2,
+        "lowTemp": 30.8
+      }
+    },
+    "annual": {
+      "avgTemp": 61.2,
+      "highTemp": 72,
+      "lowTemp": 50.4,
+      "totalPrecip": 0,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

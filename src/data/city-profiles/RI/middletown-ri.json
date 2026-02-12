@@ -231,5 +231,93 @@
       6.1,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USW00014787",
+    "stationName": "NEWPORT STATE AP",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.1,
+        "highTemp": 38.1,
+        "lowTemp": 24.1,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 32.4,
+        "highTemp": 39.7,
+        "lowTemp": 25.1,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 38.3,
+        "highTemp": 45.7,
+        "lowTemp": 30.8,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 47.4,
+        "highTemp": 55.5,
+        "lowTemp": 39.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 56.8,
+        "highTemp": 65,
+        "lowTemp": 48.5,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 65.8,
+        "highTemp": 73.9,
+        "lowTemp": 57.8,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 71.8,
+        "highTemp": 79.6,
+        "lowTemp": 64.1,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 71.2,
+        "highTemp": 78.8,
+        "lowTemp": 63.6,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 64.7,
+        "highTemp": 72.3,
+        "lowTemp": 57.1,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 54.5,
+        "highTemp": 62.3,
+        "lowTemp": 46.8,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 45.2,
+        "highTemp": 52.5,
+        "lowTemp": 37.9,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 36.8,
+        "highTemp": 43.8,
+        "lowTemp": 29.9,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 51.3,
+      "highTemp": 58.9,
+      "lowTemp": 43.8,
+      "totalPrecip": 42.1,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

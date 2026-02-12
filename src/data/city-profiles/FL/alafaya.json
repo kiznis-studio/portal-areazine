@@ -255,5 +255,54 @@
       5.5,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1FLOR0019",
+    "stationName": "UNION PARK 1.1 E",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 9.4
+      },
+      "jul": {
+        "precip": 7.5
+      },
+      "aug": {
+        "precip": 7.3
+      },
+      "sep": {
+        "precip": 7.8
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 2.1
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 56.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USC00067970",
+    "stationName": "STAMFORD 5 N HCN",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.1,
+        "highTemp": 38,
+        "lowTemp": 22.2,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 32.2,
+        "highTemp": 41.4,
+        "lowTemp": 23.1,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 39.8,
+        "highTemp": 49.1,
+        "lowTemp": 30.4,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 51.1,
+        "highTemp": 62,
+        "lowTemp": 40.3,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 61.1,
+        "highTemp": 72.3,
+        "lowTemp": 50,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 69.2,
+        "highTemp": 79.8,
+        "lowTemp": 58.5,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 74.6,
+        "highTemp": 84.8,
+        "lowTemp": 64.4,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 82.9,
+        "lowTemp": 63.1,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 66,
+        "highTemp": 75.7,
+        "lowTemp": 56.2,
+        "precip": 5.2
+      },
+      "oct": {
+        "avgTemp": 54.5,
+        "highTemp": 64.4,
+        "lowTemp": 44.6,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 44.1,
+        "highTemp": 53.1,
+        "lowTemp": 35.1,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 35,
+        "highTemp": 42.7,
+        "lowTemp": 27.3,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 52.6,
+      "highTemp": 62.2,
+      "lowTemp": 42.9,
+      "totalPrecip": 51.5,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

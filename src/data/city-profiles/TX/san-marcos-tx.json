@@ -239,5 +239,93 @@
       5.1,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00417983",
+    "stationName": "SAN MARCOS",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.6,
+        "highTemp": 62.3,
+        "lowTemp": 38.9,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 54.5,
+        "highTemp": 66.6,
+        "lowTemp": 42.4,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 61.3,
+        "highTemp": 73.1,
+        "lowTemp": 49.5,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 68,
+        "highTemp": 79.8,
+        "lowTemp": 56.3,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 75.5,
+        "highTemp": 86.2,
+        "lowTemp": 64.9,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 82.1,
+        "highTemp": 92.4,
+        "lowTemp": 71.7,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 84.5,
+        "highTemp": 95.7,
+        "lowTemp": 73.4,
+        "precip": 2.2
+      },
+      "aug": {
+        "avgTemp": 85.2,
+        "highTemp": 96.8,
+        "lowTemp": 73.7,
+        "precip": 2.6
+      },
+      "sep": {
+        "avgTemp": 79.5,
+        "highTemp": 90.5,
+        "lowTemp": 68.5,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 70.1,
+        "highTemp": 82.1,
+        "lowTemp": 58.1,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 59.9,
+        "highTemp": 71.5,
+        "lowTemp": 48.3,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 52.2,
+        "highTemp": 63.7,
+        "lowTemp": 40.8,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 68.6,
+      "highTemp": 80.1,
+      "lowTemp": 57.2,
+      "totalPrecip": 36.5,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

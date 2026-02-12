@@ -216,5 +216,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00092753",
+    "stationName": "DORAVILLE 2 NNE",
+    "distanceMi": 3.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.9
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 4.8
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

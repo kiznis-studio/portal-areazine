@@ -216,5 +216,54 @@
       5.2,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1NJGL0001",
+    "stationName": "PITMAN 0.1 W",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 4.9
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -263,5 +263,54 @@
       5.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1NJBG0003",
+    "stationName": "TENAFLY 1.3 W",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

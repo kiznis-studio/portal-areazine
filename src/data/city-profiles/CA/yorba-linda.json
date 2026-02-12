@@ -303,5 +303,54 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "US1CAOR0021",
+    "stationName": "ANAHEIM 4.9 ENE",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 0.7
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.6
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 13,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -287,5 +287,54 @@
       4.3,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1MNHN0078",
+    "stationName": "RICHFIELD 1.9 WNW",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.9
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.8
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

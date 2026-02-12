@@ -295,5 +295,93 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USW00012842",
+    "stationName": "TAMPA INTL AP GSN 72211",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62,
+        "highTemp": 71.3,
+        "lowTemp": 52.8,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 64.7,
+        "highTemp": 74,
+        "lowTemp": 55.5,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 68.6,
+        "highTemp": 77.8,
+        "lowTemp": 59.3,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 73.9,
+        "highTemp": 83,
+        "lowTemp": 64.8,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 79.5,
+        "highTemp": 88.3,
+        "lowTemp": 70.6,
+        "precip": 2.6
+      },
+      "jun": {
+        "avgTemp": 82.9,
+        "highTemp": 90.5,
+        "lowTemp": 75.4,
+        "precip": 7.4
+      },
+      "jul": {
+        "avgTemp": 83.8,
+        "highTemp": 91,
+        "lowTemp": 76.6,
+        "precip": 7.8
+      },
+      "aug": {
+        "avgTemp": 84,
+        "highTemp": 91.2,
+        "lowTemp": 76.8,
+        "precip": 9
+      },
+      "sep": {
+        "avgTemp": 82.7,
+        "highTemp": 90.2,
+        "lowTemp": 75.3,
+        "precip": 6.1
+      },
+      "oct": {
+        "avgTemp": 77.4,
+        "highTemp": 85.6,
+        "lowTemp": 69.2,
+        "precip": 2.3
+      },
+      "nov": {
+        "avgTemp": 69.8,
+        "highTemp": 78.9,
+        "lowTemp": 60.7,
+        "precip": 1.4
+      },
+      "dec": {
+        "avgTemp": 64.9,
+        "highTemp": 73.9,
+        "lowTemp": 55.9,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 74.5,
+      "highTemp": 83,
+      "lowTemp": 66.1,
+      "totalPrecip": 49.6,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

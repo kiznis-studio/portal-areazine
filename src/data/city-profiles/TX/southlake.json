@@ -303,5 +303,54 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1TXTN0085",
+    "stationName": "SOUTHLAKE 1.7 NE",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.4
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 2.3
+      },
+      "aug": {
+        "precip": 2.3
+      },
+      "sep": {
+        "precip": 2.9
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

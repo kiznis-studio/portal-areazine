@@ -239,5 +239,93 @@
       3.7,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USW00054794",
+    "stationName": "DURHAM 2 N 72609",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.6,
+        "highTemp": 32.4,
+        "lowTemp": 14.8,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 25.9,
+        "highTemp": 35.5,
+        "lowTemp": 16.4,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 33.8,
+        "highTemp": 43.2,
+        "lowTemp": 24.5,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 44.6,
+        "highTemp": 55.4,
+        "lowTemp": 33.8,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 55,
+        "highTemp": 65.9,
+        "lowTemp": 44.1,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 64.1,
+        "highTemp": 74.9,
+        "lowTemp": 53.3,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 69.7,
+        "highTemp": 80.5,
+        "lowTemp": 59,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 68.5,
+        "highTemp": 79.7,
+        "lowTemp": 57.3,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 60.8,
+        "highTemp": 71.7,
+        "lowTemp": 49.8,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 49.6,
+        "highTemp": 60.1,
+        "lowTemp": 39,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 39.3,
+        "highTemp": 48.2,
+        "lowTemp": 30.3,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 29.7,
+        "highTemp": 37.8,
+        "lowTemp": 21.6,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 47.1,
+      "highTemp": 57.1,
+      "lowTemp": 37,
+      "totalPrecip": 48,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

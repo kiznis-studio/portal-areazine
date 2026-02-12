@@ -231,5 +231,93 @@
       4.3,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00300321",
+    "stationName": "AUBURN HCN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.3,
+        "highTemp": 31.3,
+        "lowTemp": 15.4,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 24.7,
+        "highTemp": 33.4,
+        "lowTemp": 16,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 32.1,
+        "highTemp": 41.6,
+        "lowTemp": 22.7,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 44.6,
+        "highTemp": 55.2,
+        "lowTemp": 34,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 56.9,
+        "highTemp": 68.6,
+        "lowTemp": 45.2,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 66.2,
+        "highTemp": 76.9,
+        "lowTemp": 55.4,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 70.7,
+        "highTemp": 81.1,
+        "lowTemp": 60.4,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 69.1,
+        "highTemp": 79.7,
+        "lowTemp": 58.5,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 61.9,
+        "highTemp": 72.4,
+        "lowTemp": 51.5,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 50.3,
+        "highTemp": 59.4,
+        "lowTemp": 41.2,
+        "precip": 4.5
+      },
+      "nov": {
+        "avgTemp": 39.5,
+        "highTemp": 47.5,
+        "lowTemp": 31.6,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 29.9,
+        "highTemp": 36.8,
+        "lowTemp": 23.1,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 47.4,
+      "highTemp": 57,
+      "lowTemp": 37.9,
+      "totalPrecip": 44.4,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

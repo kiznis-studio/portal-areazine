@@ -239,5 +239,54 @@
       3.9,
       3.3
     ]
+  },
+  "climate": {
+    "station": "US1TNWL0010",
+    "stationName": "NOLENSVILLE 1.0 NNW",
+    "distanceMi": 5.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.3
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 5.1
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

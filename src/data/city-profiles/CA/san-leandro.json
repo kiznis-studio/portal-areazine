@@ -303,5 +303,52 @@
       4.9,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00049185",
+    "stationName": "UPPER SAN LEANDRO FILTERS",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.6
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 0.9
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 25.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

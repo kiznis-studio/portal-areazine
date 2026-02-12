@@ -231,5 +231,54 @@
       3.8,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1ALMS0027",
+    "stationName": "ALBERTVILLE 1.8 WNW",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.5
+      },
+      "feb": {
+        "precip": 5.4
+      },
+      "mar": {
+        "precip": 5.6
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 5.4
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 6.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 58.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

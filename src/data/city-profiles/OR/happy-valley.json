@@ -247,5 +247,54 @@
       5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1ORCC0066",
+    "stationName": "HAPPY VALLEY 1.7 ESE",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7.1
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 3.4
+      },
+      "jun": {
+        "precip": 2.3
+      },
+      "jul": {
+        "precip": 0.7
+      },
+      "aug": {
+        "precip": 0.6
+      },
+      "sep": {
+        "precip": 1.6
+      },
+      "oct": {
+        "precip": 4.7
+      },
+      "nov": {
+        "precip": 7.4
+      },
+      "dec": {
+        "precip": 7.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

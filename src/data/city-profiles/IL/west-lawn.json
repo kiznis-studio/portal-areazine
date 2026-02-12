@@ -303,5 +303,93 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USW00014819",
+    "stationName": "CHICAGO MIDWAY AP 72534",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26,
+        "highTemp": 32.7,
+        "lowTemp": 19.4,
+        "precip": 1.5
+      },
+      "feb": {
+        "avgTemp": 29.7,
+        "highTemp": 36.8,
+        "lowTemp": 22.6,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 39.6,
+        "highTemp": 47.6,
+        "lowTemp": 31.7,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 50.6,
+        "highTemp": 59.9,
+        "lowTemp": 41.4,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 61.5,
+        "highTemp": 71.1,
+        "lowTemp": 52,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 71.6,
+        "highTemp": 80.9,
+        "lowTemp": 62.3,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 76.3,
+        "highTemp": 85,
+        "lowTemp": 67.7,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 74.5,
+        "highTemp": 82.7,
+        "lowTemp": 66.4,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 67.5,
+        "highTemp": 76.3,
+        "lowTemp": 58.8,
+        "precip": 2.8
+      },
+      "oct": {
+        "avgTemp": 54.9,
+        "highTemp": 63.4,
+        "lowTemp": 46.5,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 42,
+        "highTemp": 49.1,
+        "lowTemp": 35,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 31.3,
+        "highTemp": 37.6,
+        "lowTemp": 25,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 52.1,
+      "highTemp": 60.3,
+      "lowTemp": 44.1,
+      "totalPrecip": 34.7,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

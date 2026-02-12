@@ -239,5 +239,54 @@
       4.2,
       3.8
     ]
+  },
+  "climate": {
+    "station": "US1ALMD0090",
+    "stationName": "HUNTSVILLE 3.7 ENE",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.8
+      },
+      "feb": {
+        "precip": 4.3
+      },
+      "mar": {
+        "precip": 5.5
+      },
+      "apr": {
+        "precip": 5.2
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 3.9
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 4.8
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 5.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

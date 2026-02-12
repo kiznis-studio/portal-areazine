@@ -295,5 +295,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLHB0069",
+    "stationName": "RIVERVIEW 2.1 W",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 2.4
+      },
+      "may": {
+        "precip": 3.3
+      },
+      "jun": {
+        "precip": 7.3
+      },
+      "jul": {
+        "precip": 8.6
+      },
+      "aug": {
+        "precip": 9.6
+      },
+      "sep": {
+        "precip": 7
+      },
+      "oct": {
+        "precip": 2.5
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

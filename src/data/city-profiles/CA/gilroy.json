@@ -287,5 +287,92 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00043417",
+    "stationName": "GILROY",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.4,
+        "highTemp": 60.7,
+        "lowTemp": 38.1,
+        "precip": 4.6
+      },
+      "feb": {
+        "avgTemp": 52.2,
+        "highTemp": 64,
+        "lowTemp": 40.4,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 55.3,
+        "highTemp": 68.1,
+        "lowTemp": 42.6,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 58.2,
+        "highTemp": 71.9,
+        "lowTemp": 44.5,
+        "precip": 1.3
+      },
+      "may": {
+        "avgTemp": 63.1,
+        "highTemp": 77.3,
+        "lowTemp": 49,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 67.2,
+        "highTemp": 82.8,
+        "lowTemp": 51.6,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 70.6,
+        "highTemp": 87.2,
+        "lowTemp": 54
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 87.2,
+        "lowTemp": 54.4,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 68.7,
+        "highTemp": 84.9,
+        "lowTemp": 52.5,
+        "precip": 0
+      },
+      "oct": {
+        "avgTemp": 63.4,
+        "highTemp": 78.8,
+        "lowTemp": 47.9,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 55,
+        "highTemp": 68.3,
+        "lowTemp": 41.6,
+        "precip": 1.7
+      },
+      "dec": {
+        "avgTemp": 48.7,
+        "highTemp": 60.4,
+        "lowTemp": 37,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 60.2,
+      "highTemp": 74.3,
+      "lowTemp": 46.1,
+      "totalPrecip": 19.9,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

@@ -279,5 +279,52 @@
       5.8,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1CACC0010",
+    "stationName": "LAFAYETTE 1.9 WSW",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.3
+      },
+      "feb": {
+        "precip": 5.1
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 2
+      },
+      "may": {
+        "precip": 0.8
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 26.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

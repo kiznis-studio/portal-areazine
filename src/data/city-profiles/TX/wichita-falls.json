@@ -231,5 +231,93 @@
       3.8,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USW00013966",
+    "stationName": "WICHITA FALLS MUNI AP 72351",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.4,
+        "highTemp": 54.7,
+        "lowTemp": 30,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 46.3,
+        "highTemp": 59,
+        "lowTemp": 33.6,
+        "precip": 1.4
+      },
+      "mar": {
+        "avgTemp": 54.7,
+        "highTemp": 67.9,
+        "lowTemp": 41.6,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 62.8,
+        "highTemp": 76,
+        "lowTemp": 49.6,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 71.8,
+        "highTemp": 83.9,
+        "lowTemp": 59.7,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 80.1,
+        "highTemp": 92,
+        "lowTemp": 68.3,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 84.7,
+        "highTemp": 97.2,
+        "lowTemp": 72.2,
+        "precip": 2
+      },
+      "aug": {
+        "avgTemp": 84.1,
+        "highTemp": 96.6,
+        "lowTemp": 71.5,
+        "precip": 2.5
+      },
+      "sep": {
+        "avgTemp": 76,
+        "highTemp": 88.3,
+        "lowTemp": 63.8,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 64.6,
+        "highTemp": 77.3,
+        "lowTemp": 51.9,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 52.7,
+        "highTemp": 65.2,
+        "lowTemp": 40.2,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 43.7,
+        "highTemp": 55.7,
+        "lowTemp": 31.8,
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "avgTemp": 63.7,
+      "highTemp": 76.2,
+      "lowTemp": 51.2,
+      "totalPrecip": 27.9,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

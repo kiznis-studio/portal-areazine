@@ -247,5 +247,54 @@
       3.9,
       3.9
     ]
+  },
+  "climate": {
+    "station": "US1COJF0020",
+    "stationName": "GOLDEN 1.2 NW",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.7
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.8
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 2.8
+      },
+      "jun": {
+        "precip": 2.4
+      },
+      "jul": {
+        "precip": 2.1
+      },
+      "aug": {
+        "precip": 2.1
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1.5
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 20.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

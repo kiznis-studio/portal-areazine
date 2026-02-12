@@ -279,5 +279,54 @@
       5.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1ORMT0082",
+    "stationName": "PORTLAND 5.2 ESE",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7
+      },
+      "feb": {
+        "precip": 4.5
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 3.3
+      },
+      "jun": {
+        "precip": 2.1
+      },
+      "jul": {
+        "precip": 0.5
+      },
+      "aug": {
+        "precip": 0.6
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 6.6
+      },
+      "dec": {
+        "precip": 7.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

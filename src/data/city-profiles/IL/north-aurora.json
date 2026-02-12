@@ -263,5 +263,54 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "US1ILKN0033",
+    "stationName": "NORTH AURORA 1.5 NE",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -216,5 +216,54 @@
       7.1,
       7.6
     ]
+  },
+  "climate": {
+    "station": "USC00160546",
+    "stationName": "BATON ROUGE CNTRL",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.9
+      },
+      "feb": {
+        "precip": 5
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 7.2
+      },
+      "jul": {
+        "precip": 5.4
+      },
+      "aug": {
+        "precip": 6.8
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 5.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 66,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

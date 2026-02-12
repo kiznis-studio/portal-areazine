@@ -231,5 +231,81 @@
       8.4,
       8.9
     ]
+  },
+  "climate": {
+    "station": "USC00042012",
+    "stationName": "CORCORAN IRRIG DIST",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.7,
+        "highTemp": 55.8,
+        "lowTemp": 37.6
+      },
+      "feb": {
+        "avgTemp": 51.4,
+        "highTemp": 62.6,
+        "lowTemp": 40.1
+      },
+      "mar": {
+        "avgTemp": 56.5,
+        "highTemp": 69.3,
+        "lowTemp": 43.8
+      },
+      "apr": {
+        "avgTemp": 61.8,
+        "highTemp": 76.3,
+        "lowTemp": 47.2
+      },
+      "may": {
+        "avgTemp": 69.3,
+        "highTemp": 85.2,
+        "lowTemp": 53.5
+      },
+      "jun": {
+        "avgTemp": 76.3,
+        "highTemp": 93.5,
+        "lowTemp": 59.1
+      },
+      "jul": {
+        "avgTemp": 81.3,
+        "highTemp": 98.4,
+        "lowTemp": 64.2
+      },
+      "aug": {
+        "avgTemp": 80,
+        "highTemp": 97.3,
+        "lowTemp": 62.7
+      },
+      "sep": {
+        "avgTemp": 75.4,
+        "highTemp": 92.4,
+        "lowTemp": 58.3
+      },
+      "oct": {
+        "avgTemp": 65.5,
+        "highTemp": 81.1,
+        "lowTemp": 49.9
+      },
+      "nov": {
+        "avgTemp": 53.7,
+        "highTemp": 66.3,
+        "lowTemp": 41.1
+      },
+      "dec": {
+        "avgTemp": 46.2,
+        "highTemp": 56.5,
+        "lowTemp": 36
+      }
+    },
+    "annual": {
+      "avgTemp": 63.7,
+      "highTemp": 77.9,
+      "lowTemp": 49.5,
+      "totalPrecip": 0,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

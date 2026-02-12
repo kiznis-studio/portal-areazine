@@ -222,5 +222,91 @@
       11.1,
       10.5
     ]
+  },
+  "climate": {
+    "station": "USC00045233",
+    "stationName": "MADERA",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.1,
+        "highTemp": 54.5,
+        "lowTemp": 37.6,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 50.4,
+        "highTemp": 60.8,
+        "lowTemp": 40,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 55.4,
+        "highTemp": 67.2,
+        "lowTemp": 43.6,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 60.1,
+        "highTemp": 73,
+        "lowTemp": 47.1,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 67.4,
+        "highTemp": 81.5,
+        "lowTemp": 53.3,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 74.8,
+        "highTemp": 90.2,
+        "lowTemp": 59.3,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 80,
+        "highTemp": 95.9,
+        "lowTemp": 64.1
+      },
+      "aug": {
+        "avgTemp": 78.7,
+        "highTemp": 94.6,
+        "lowTemp": 62.8
+      },
+      "sep": {
+        "avgTemp": 73.7,
+        "highTemp": 89.2,
+        "lowTemp": 58.2,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 63.6,
+        "highTemp": 78,
+        "lowTemp": 49.3,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 52.7,
+        "highTemp": 64.4,
+        "lowTemp": 40.9,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 45.3,
+        "highTemp": 54.5,
+        "lowTemp": 36.1,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 62.4,
+      "highTemp": 75.3,
+      "lowTemp": 49.4,
+      "totalPrecip": 11.3,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

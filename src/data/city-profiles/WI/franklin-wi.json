@@ -279,5 +279,93 @@
       4.7,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00473391",
+    "stationName": "HALES CORNERS/WHITNALL PARK/BO",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21,
+        "highTemp": 29.8,
+        "lowTemp": 12.2,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 23.9,
+        "highTemp": 33.3,
+        "lowTemp": 14.6,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 34,
+        "highTemp": 44.1,
+        "lowTemp": 23.9,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 45.2,
+        "highTemp": 56,
+        "lowTemp": 34.5,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 56.8,
+        "highTemp": 68.1,
+        "lowTemp": 45.5,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 66.8,
+        "highTemp": 77.7,
+        "lowTemp": 55.9,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 71.7,
+        "highTemp": 82.8,
+        "lowTemp": 60.5,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 70.1,
+        "highTemp": 81.1,
+        "lowTemp": 59.2,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 62.7,
+        "highTemp": 74.2,
+        "lowTemp": 51.3,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 50.6,
+        "highTemp": 61.5,
+        "lowTemp": 39.7,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 37.5,
+        "highTemp": 46.5,
+        "lowTemp": 28.5,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 26.7,
+        "highTemp": 35,
+        "lowTemp": 18.3,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 47.3,
+      "highTemp": 57.5,
+      "lowTemp": 37,
+      "totalPrecip": 38.6,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

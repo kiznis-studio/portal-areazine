@@ -247,5 +247,93 @@
       5.2,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00190860",
+    "stationName": "BROCKTON",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.6,
+        "highTemp": 38.7,
+        "lowTemp": 20.6,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 31.4,
+        "highTemp": 40.8,
+        "lowTemp": 22,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 38.3,
+        "highTemp": 48,
+        "lowTemp": 28.7,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 48.5,
+        "highTemp": 59,
+        "lowTemp": 38,
+        "precip": 4.5
+      },
+      "may": {
+        "avgTemp": 58.5,
+        "highTemp": 69.7,
+        "lowTemp": 47.4,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 67.7,
+        "highTemp": 78.3,
+        "lowTemp": 57.1,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 73.8,
+        "highTemp": 84.2,
+        "lowTemp": 63.4,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 82.9,
+        "lowTemp": 62,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 64.8,
+        "highTemp": 75.3,
+        "lowTemp": 54.2,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 53.5,
+        "highTemp": 64,
+        "lowTemp": 43,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 43.8,
+        "highTemp": 53.5,
+        "lowTemp": 34.2,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 35,
+        "highTemp": 43.7,
+        "lowTemp": 26.4,
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "avgTemp": 51.4,
+      "highTemp": 61.5,
+      "lowTemp": 41.4,
+      "totalPrecip": 50.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

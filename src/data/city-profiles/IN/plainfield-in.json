@@ -239,5 +239,54 @@
       2.4,
       2.5
     ]
+  },
+  "climate": {
+    "station": "US1INHS0008",
+    "stationName": "PLAINFIELD 1.1 W",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 5.5
+      },
+      "jul": {
+        "precip": 5
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

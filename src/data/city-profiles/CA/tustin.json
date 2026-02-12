@@ -303,5 +303,92 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00047888",
+    "stationName": "SANTA ANA FIRE STN",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 59,
+        "highTemp": 69.3,
+        "lowTemp": 48.7,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 59.4,
+        "highTemp": 69.3,
+        "lowTemp": 49.5,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 61.5,
+        "highTemp": 71.2,
+        "lowTemp": 51.8,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 63.7,
+        "highTemp": 73.2,
+        "lowTemp": 54.2,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 66.4,
+        "highTemp": 74.7,
+        "lowTemp": 58.1,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 69.5,
+        "highTemp": 77.7,
+        "lowTemp": 61.3,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 73.6,
+        "highTemp": 82.5,
+        "lowTemp": 64.7,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 75,
+        "highTemp": 84.6,
+        "lowTemp": 65.3
+      },
+      "sep": {
+        "avgTemp": 73.8,
+        "highTemp": 83.8,
+        "lowTemp": 63.9,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 69.4,
+        "highTemp": 79.4,
+        "lowTemp": 59.4,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 63.4,
+        "highTemp": 74,
+        "lowTemp": 52.8,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 58.2,
+        "highTemp": 68.4,
+        "lowTemp": 48.1,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 66.1,
+      "highTemp": 75.7,
+      "lowTemp": 56.5,
+      "totalPrecip": 12.6,
+      "hotMonths": 3,
+      "coldMonths": 0
+    }
   }
 }

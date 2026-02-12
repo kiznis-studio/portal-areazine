@@ -231,5 +231,54 @@
       5.2,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00357050",
+    "stationName": "REDMOND AIR CTR",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.1
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 0.6
+      },
+      "apr": {
+        "precip": 0.8
+      },
+      "may": {
+        "precip": 1
+      },
+      "jun": {
+        "precip": 0.7
+      },
+      "jul": {
+        "precip": 0.4
+      },
+      "aug": {
+        "precip": 0.4
+      },
+      "sep": {
+        "precip": 0.7
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 1.2
+      },
+      "dec": {
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 10.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

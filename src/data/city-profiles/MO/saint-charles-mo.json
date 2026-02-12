@@ -255,5 +255,93 @@
       3.1,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USC00237397",
+    "stationName": "ST CHARLES ELM PT",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.7,
+        "highTemp": 39.5,
+        "lowTemp": 21.9,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 35,
+        "highTemp": 44.7,
+        "lowTemp": 25.2,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 44.4,
+        "highTemp": 55.2,
+        "lowTemp": 33.7,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 55.4,
+        "highTemp": 66.8,
+        "lowTemp": 44,
+        "precip": 5.1
+      },
+      "may": {
+        "avgTemp": 65.5,
+        "highTemp": 76,
+        "lowTemp": 55.1,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 74.2,
+        "highTemp": 84.1,
+        "lowTemp": 64.3,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 78.2,
+        "highTemp": 88,
+        "lowTemp": 68.3,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 76.3,
+        "highTemp": 86.8,
+        "lowTemp": 65.8,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 68.8,
+        "highTemp": 80.4,
+        "lowTemp": 57.2,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 57.3,
+        "highTemp": 68.8,
+        "lowTemp": 45.7,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 45.3,
+        "highTemp": 55.3,
+        "lowTemp": 35.3,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 35.2,
+        "highTemp": 44.1,
+        "lowTemp": 26.4,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 55.5,
+      "highTemp": 65.8,
+      "lowTemp": 45.2,
+      "totalPrecip": 45.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

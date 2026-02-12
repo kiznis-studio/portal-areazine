@@ -239,5 +239,93 @@
       6.6,
       7.2
     ]
+  },
+  "climate": {
+    "station": "USC00416177",
+    "stationName": "NACOGDOCHES",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.1,
+        "highTemp": 57.7,
+        "lowTemp": 36.4,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 51,
+        "highTemp": 62.3,
+        "lowTemp": 39.7,
+        "precip": 4.2
+      },
+      "mar": {
+        "avgTemp": 57.6,
+        "highTemp": 69.3,
+        "lowTemp": 46,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 64.8,
+        "highTemp": 76.3,
+        "lowTemp": 53.3,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 73.1,
+        "highTemp": 82.8,
+        "lowTemp": 63.4,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 80.2,
+        "highTemp": 89,
+        "lowTemp": 71.4,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 83.2,
+        "highTemp": 92.6,
+        "lowTemp": 73.7,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 83.2,
+        "highTemp": 93.3,
+        "lowTemp": 73.1,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 77.4,
+        "highTemp": 87.8,
+        "lowTemp": 66.9,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 66.9,
+        "highTemp": 78.2,
+        "lowTemp": 55.6,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 56.3,
+        "highTemp": 67.8,
+        "lowTemp": 44.7,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 48.5,
+        "highTemp": 59.5,
+        "lowTemp": 37.5,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 65.8,
+      "highTemp": 76.4,
+      "lowTemp": 55.1,
+      "totalPrecip": 50,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

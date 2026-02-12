@@ -263,5 +263,54 @@
       4.1,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1SCSP0011",
+    "stationName": "LYMAN 4.1 WNW",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.4
+      },
+      "feb": {
+        "precip": 4
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

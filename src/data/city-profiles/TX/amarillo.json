@@ -247,5 +247,81 @@
       3.7,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00410213",
+    "stationName": "AMARILLO 7ENE",
+    "distanceMi": 6.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.2,
+        "highTemp": 50.7,
+        "lowTemp": 21.7
+      },
+      "feb": {
+        "avgTemp": 39.7,
+        "highTemp": 54.6,
+        "lowTemp": 24.7
+      },
+      "mar": {
+        "avgTemp": 47.4,
+        "highTemp": 62.6,
+        "lowTemp": 32.2
+      },
+      "apr": {
+        "avgTemp": 55.1,
+        "highTemp": 70.4,
+        "lowTemp": 39.7
+      },
+      "may": {
+        "avgTemp": 64.5,
+        "highTemp": 79,
+        "lowTemp": 50
+      },
+      "jun": {
+        "avgTemp": 74.3,
+        "highTemp": 88.4,
+        "lowTemp": 60.1
+      },
+      "jul": {
+        "avgTemp": 78.4,
+        "highTemp": 92,
+        "lowTemp": 64.7
+      },
+      "aug": {
+        "avgTemp": 76.9,
+        "highTemp": 90.3,
+        "lowTemp": 63.5
+      },
+      "sep": {
+        "avgTemp": 69.8,
+        "highTemp": 83.7,
+        "lowTemp": 55.9
+      },
+      "oct": {
+        "avgTemp": 57.6,
+        "highTemp": 72.5,
+        "lowTemp": 42.6
+      },
+      "nov": {
+        "avgTemp": 46,
+        "highTemp": 60.8,
+        "lowTemp": 31.1
+      },
+      "dec": {
+        "avgTemp": 36.8,
+        "highTemp": 50.8,
+        "lowTemp": 22.7
+      }
+    },
+    "annual": {
+      "avgTemp": 56.9,
+      "highTemp": 71.3,
+      "lowTemp": 42.4,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -231,5 +231,81 @@
       3.9,
       2.9
     ]
+  },
+  "climate": {
+    "station": "USC00440860",
+    "stationName": "BOSTON 4 SE",
+    "distanceMi": 7.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.2,
+        "highTemp": 43.5,
+        "lowTemp": 22.9
+      },
+      "feb": {
+        "avgTemp": 36.2,
+        "highTemp": 47.5,
+        "lowTemp": 24.9
+      },
+      "mar": {
+        "avgTemp": 43.3,
+        "highTemp": 55.2,
+        "lowTemp": 31.3
+      },
+      "apr": {
+        "avgTemp": 53.6,
+        "highTemp": 66.7,
+        "lowTemp": 40.6
+      },
+      "may": {
+        "avgTemp": 62.2,
+        "highTemp": 74.4,
+        "lowTemp": 49.9
+      },
+      "jun": {
+        "avgTemp": 70.7,
+        "highTemp": 82.2,
+        "lowTemp": 59.3
+      },
+      "jul": {
+        "avgTemp": 74.8,
+        "highTemp": 85.9,
+        "lowTemp": 63.8
+      },
+      "aug": {
+        "avgTemp": 73.2,
+        "highTemp": 84.2,
+        "lowTemp": 62.2
+      },
+      "sep": {
+        "avgTemp": 66.4,
+        "highTemp": 77.6,
+        "lowTemp": 55.2
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 67.4,
+        "lowTemp": 43
+      },
+      "nov": {
+        "avgTemp": 44.8,
+        "highTemp": 57.1,
+        "lowTemp": 32.5
+      },
+      "dec": {
+        "avgTemp": 37,
+        "highTemp": 47.6,
+        "lowTemp": 26.3
+      }
+    },
+    "annual": {
+      "avgTemp": 54.2,
+      "highTemp": 65.8,
+      "lowTemp": 42.7,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

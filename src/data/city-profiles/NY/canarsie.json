@@ -303,5 +303,93 @@
       7.3,
       7.5
     ]
+  },
+  "climate": {
+    "station": "USC00305796",
+    "stationName": "NY AVE V BROOKLYN",
+    "distanceMi": 5.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.6,
+        "highTemp": 39.7,
+        "lowTemp": 27.5,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 35.7,
+        "highTemp": 42.4,
+        "lowTemp": 29.1,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 42.5,
+        "highTemp": 49.7,
+        "lowTemp": 35.2,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 52.7,
+        "highTemp": 60.5,
+        "lowTemp": 44.8,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 62.4,
+        "highTemp": 70.5,
+        "lowTemp": 54.4,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 71.6,
+        "highTemp": 79.3,
+        "lowTemp": 64,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 77.5,
+        "highTemp": 84.8,
+        "lowTemp": 70.3,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 76.1,
+        "highTemp": 83.3,
+        "lowTemp": 68.9,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 69.5,
+        "highTemp": 76.5,
+        "lowTemp": 62.4,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 58.1,
+        "highTemp": 65,
+        "lowTemp": 51.2,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 47.9,
+        "highTemp": 54.3,
+        "lowTemp": 41.4,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 38.9,
+        "highTemp": 44.5,
+        "lowTemp": 33.2,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 55.5,
+      "highTemp": 62.5,
+      "lowTemp": 48.5,
+      "totalPrecip": 47.1,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

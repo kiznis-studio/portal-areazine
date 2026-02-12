@@ -247,5 +247,54 @@
       8.4,
       7.8
     ]
+  },
+  "climate": {
+    "station": "USC00166666",
+    "stationName": "NEW ORLEANS ALGIERS",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.6
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 5
+      },
+      "apr": {
+        "precip": 5.6
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 8.4
+      },
+      "jul": {
+        "precip": 8.3
+      },
+      "aug": {
+        "precip": 7.7
+      },
+      "sep": {
+        "precip": 5.9
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 69.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

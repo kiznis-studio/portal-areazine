@@ -247,5 +247,93 @@
       5,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00450176",
+    "stationName": "ANACORTES",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.5,
+        "highTemp": 48.1,
+        "lowTemp": 36.9,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 43.7,
+        "highTemp": 50.5,
+        "lowTemp": 36.8,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 47,
+        "highTemp": 54.4,
+        "lowTemp": 39.6,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 51.3,
+        "highTemp": 59.3,
+        "lowTemp": 43.4,
+        "precip": 2.1
+      },
+      "may": {
+        "avgTemp": 56.8,
+        "highTemp": 65.7,
+        "lowTemp": 47.9,
+        "precip": 1.9
+      },
+      "jun": {
+        "avgTemp": 60.9,
+        "highTemp": 69.9,
+        "lowTemp": 51.8,
+        "precip": 1.5
+      },
+      "jul": {
+        "avgTemp": 64.5,
+        "highTemp": 74.7,
+        "lowTemp": 54.2,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 64.7,
+        "highTemp": 75,
+        "lowTemp": 54.3,
+        "precip": 1.4
+      },
+      "sep": {
+        "avgTemp": 60.7,
+        "highTemp": 70.1,
+        "lowTemp": 51.4,
+        "precip": 1.6
+      },
+      "oct": {
+        "avgTemp": 53.4,
+        "highTemp": 61.1,
+        "lowTemp": 45.6,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 46.5,
+        "highTemp": 52.8,
+        "lowTemp": 40.3,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 41.9,
+        "highTemp": 47.3,
+        "lowTemp": 36.5,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 52.8,
+      "highTemp": 60.7,
+      "lowTemp": 44.9,
+      "totalPrecip": 29.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

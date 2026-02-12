@@ -255,5 +255,93 @@
       6.9,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00418646",
+    "stationName": "STILLHOUSE HOLLOW DAM",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.8,
+        "highTemp": 60,
+        "lowTemp": 35.7,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 51.7,
+        "highTemp": 64.3,
+        "lowTemp": 39.2,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 58.3,
+        "highTemp": 70.5,
+        "lowTemp": 46.2,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 65.9,
+        "highTemp": 77.8,
+        "lowTemp": 54,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 73.6,
+        "highTemp": 84.5,
+        "lowTemp": 62.6,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 80.4,
+        "highTemp": 91.1,
+        "lowTemp": 69.6,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 83.7,
+        "highTemp": 95.2,
+        "lowTemp": 72.1,
+        "precip": 1.9
+      },
+      "aug": {
+        "avgTemp": 83.9,
+        "highTemp": 96,
+        "lowTemp": 71.8,
+        "precip": 2.5
+      },
+      "sep": {
+        "avgTemp": 77.9,
+        "highTemp": 90,
+        "lowTemp": 65.8,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 68.3,
+        "highTemp": 80.8,
+        "lowTemp": 55.7,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 57.5,
+        "highTemp": 69.4,
+        "lowTemp": 45.6,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 49.8,
+        "highTemp": 61.4,
+        "lowTemp": 38.1,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 66.6,
+      "highTemp": 78.4,
+      "lowTemp": 54.7,
+      "totalPrecip": 37.1,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

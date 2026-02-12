@@ -239,5 +239,93 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00095404",
+    "stationName": "MABLETON 1 N",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.5,
+        "highTemp": 53.3,
+        "lowTemp": 31.7,
+        "precip": 4.9
+      },
+      "feb": {
+        "avgTemp": 46,
+        "highTemp": 57.4,
+        "lowTemp": 34.6,
+        "precip": 4.9
+      },
+      "mar": {
+        "avgTemp": 52.8,
+        "highTemp": 65.4,
+        "lowTemp": 40.2,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 60,
+        "highTemp": 71.7,
+        "lowTemp": 48.3,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 66.9,
+        "highTemp": 76.5,
+        "lowTemp": 57.4,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 73.8,
+        "highTemp": 82.4,
+        "lowTemp": 65.1,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 76.1,
+        "highTemp": 83.8,
+        "lowTemp": 68.4,
+        "precip": 7
+      },
+      "aug": {
+        "avgTemp": 75.7,
+        "highTemp": 83.6,
+        "lowTemp": 67.9,
+        "precip": 4.8
+      },
+      "sep": {
+        "avgTemp": 70.6,
+        "highTemp": 79.5,
+        "lowTemp": 61.8,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 60.9,
+        "highTemp": 70.8,
+        "lowTemp": 50.9,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 51.3,
+        "highTemp": 62.9,
+        "lowTemp": 39.8,
+        "precip": 4.5
+      },
+      "dec": {
+        "avgTemp": 45.1,
+        "highTemp": 55.4,
+        "lowTemp": 34.9,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 60.1,
+      "highTemp": 70.2,
+      "lowTemp": 50.1,
+      "totalPrecip": 56.1,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

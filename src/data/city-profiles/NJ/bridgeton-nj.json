@@ -231,5 +231,54 @@
       7.8,
       7.5
     ]
+  },
+  "climate": {
+    "station": "US1NJCD0001",
+    "stationName": "UPPER DEERFIELD TWP 1.7 SW",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.9
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

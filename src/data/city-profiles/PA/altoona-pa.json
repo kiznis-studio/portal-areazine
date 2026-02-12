@@ -169,5 +169,93 @@
       4.2,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00360140",
+    "stationName": "ALTOONA 3 W",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.3,
+        "highTemp": 33.8,
+        "lowTemp": 18.8,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 28.7,
+        "highTemp": 37.1,
+        "lowTemp": 20.4,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 36.9,
+        "highTemp": 46,
+        "lowTemp": 27.8,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 49,
+        "highTemp": 59.6,
+        "lowTemp": 38.5,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 59,
+        "highTemp": 69.5,
+        "lowTemp": 48.6,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 67.2,
+        "highTemp": 77.3,
+        "lowTemp": 57,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 71.4,
+        "highTemp": 81.4,
+        "lowTemp": 61.3,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 69.9,
+        "highTemp": 79.8,
+        "lowTemp": 60,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 62.9,
+        "highTemp": 72.6,
+        "lowTemp": 53.2,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 51.6,
+        "highTemp": 61.3,
+        "lowTemp": 42,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 40.7,
+        "highTemp": 48.8,
+        "lowTemp": 32.6,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 31.2,
+        "highTemp": 38.1,
+        "lowTemp": 24.3,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 49.6,
+      "highTemp": 58.8,
+      "lowTemp": 40.4,
+      "totalPrecip": 44.7,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

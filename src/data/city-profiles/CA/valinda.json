@@ -303,5 +303,52 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00042090",
+    "stationName": "COVINA CITY YARD FC387B",
+    "distanceMi": 4.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 4.3
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 0.7
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {},
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 16.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

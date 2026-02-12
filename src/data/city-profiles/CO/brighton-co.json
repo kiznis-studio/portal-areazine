@@ -255,5 +255,54 @@
       4.6,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1COAD0120",
+    "stationName": "BRIGHTON 2.1 NNW",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.4
+      },
+      "feb": {
+        "precip": 0.4
+      },
+      "mar": {
+        "precip": 1.1
+      },
+      "apr": {
+        "precip": 1.7
+      },
+      "may": {
+        "precip": 2.4
+      },
+      "jun": {
+        "precip": 1.4
+      },
+      "jul": {
+        "precip": 1.8
+      },
+      "aug": {
+        "precip": 1.6
+      },
+      "sep": {
+        "precip": 1.4
+      },
+      "oct": {
+        "precip": 1.1
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 0.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 14.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

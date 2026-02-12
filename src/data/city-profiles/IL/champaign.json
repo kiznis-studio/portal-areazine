@@ -239,5 +239,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1ILCP0111",
+    "stationName": "CHAMPAIGN 0.6 NNE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

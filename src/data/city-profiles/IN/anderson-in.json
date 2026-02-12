@@ -239,5 +239,54 @@
       5.5,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USC00120182",
+    "stationName": "ANDERSON WTR WKS",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 5.4
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 2.9
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       6.1,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00375215",
+    "stationName": "NEWPORT ROSE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.3,
+        "highTemp": 38.6,
+        "lowTemp": 23.9,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 32.6,
+        "highTemp": 40,
+        "lowTemp": 25.1,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 38.8,
+        "highTemp": 45.9,
+        "lowTemp": 31.7,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 47.5,
+        "highTemp": 55.2,
+        "lowTemp": 39.7,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 56.7,
+        "highTemp": 64.8,
+        "lowTemp": 48.6,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 64.7,
+        "highTemp": 71.6,
+        "lowTemp": 57.7,
+        "precip": 3.2
+      },
+      "jul": {
+        "avgTemp": 70.8,
+        "highTemp": 77.4,
+        "lowTemp": 64.3,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 71.1,
+        "highTemp": 78,
+        "lowTemp": 64.1,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 66.1,
+        "highTemp": 72.9,
+        "lowTemp": 59.2,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 55.9,
+        "highTemp": 62.7,
+        "lowTemp": 49.1,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 46.2,
+        "highTemp": 53,
+        "lowTemp": 39.5,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 37.7,
+        "highTemp": 44.2,
+        "lowTemp": 31.3,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 51.6,
+      "highTemp": 58.7,
+      "lowTemp": 44.5,
+      "totalPrecip": 47.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -231,5 +231,93 @@
       5.9,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00221880",
+    "stationName": "COLUMBUS HCN",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.8,
+        "highTemp": 55.8,
+        "lowTemp": 35.8,
+        "precip": 5.5
+      },
+      "feb": {
+        "avgTemp": 50.2,
+        "highTemp": 61.2,
+        "lowTemp": 39.2,
+        "precip": 5.7
+      },
+      "mar": {
+        "avgTemp": 58,
+        "highTemp": 69.7,
+        "lowTemp": 46.3,
+        "precip": 5.3
+      },
+      "apr": {
+        "avgTemp": 65.5,
+        "highTemp": 77.6,
+        "lowTemp": 53.3,
+        "precip": 5.8
+      },
+      "may": {
+        "avgTemp": 73.2,
+        "highTemp": 84.9,
+        "lowTemp": 61.5,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 80.2,
+        "highTemp": 90.9,
+        "lowTemp": 69.4,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 83.2,
+        "highTemp": 93.8,
+        "lowTemp": 72.7,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 82.6,
+        "highTemp": 93.4,
+        "lowTemp": 71.9,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 77,
+        "highTemp": 88.4,
+        "lowTemp": 65.6,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 66.2,
+        "highTemp": 78.3,
+        "lowTemp": 54,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 54.6,
+        "highTemp": 66.5,
+        "lowTemp": 42.7,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 48.1,
+        "highTemp": 58.1,
+        "lowTemp": 38.1,
+        "precip": 5.6
+      }
+    },
+    "annual": {
+      "avgTemp": 65.4,
+      "highTemp": 76.5,
+      "lowTemp": 54.2,
+      "totalPrecip": 56.7,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

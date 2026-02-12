@@ -231,5 +231,93 @@
       5.8,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USW00024160",
+    "stationName": "WALLA WALLA RGNL AP HCN",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.3,
+        "highTemp": 41.9,
+        "lowTemp": 30.7,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 39.7,
+        "highTemp": 46.5,
+        "lowTemp": 32.9,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 46.8,
+        "highTemp": 55.8,
+        "lowTemp": 37.8,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 52.5,
+        "highTemp": 62.5,
+        "lowTemp": 42.5,
+        "precip": 2
+      },
+      "may": {
+        "avgTemp": 60.4,
+        "highTemp": 71.4,
+        "lowTemp": 49.3,
+        "precip": 2.1
+      },
+      "jun": {
+        "avgTemp": 67,
+        "highTemp": 79,
+        "lowTemp": 55.1,
+        "precip": 1.2
+      },
+      "jul": {
+        "avgTemp": 76.3,
+        "highTemp": 90.1,
+        "lowTemp": 62.4,
+        "precip": 0.5
+      },
+      "aug": {
+        "avgTemp": 75.2,
+        "highTemp": 88.6,
+        "lowTemp": 61.7,
+        "precip": 0.4
+      },
+      "sep": {
+        "avgTemp": 66.2,
+        "highTemp": 78.5,
+        "lowTemp": 53.9,
+        "precip": 0.6
+      },
+      "oct": {
+        "avgTemp": 53.7,
+        "highTemp": 63.4,
+        "lowTemp": 43.9,
+        "precip": 1.7
+      },
+      "nov": {
+        "avgTemp": 42.4,
+        "highTemp": 49.2,
+        "lowTemp": 35.6,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 35.6,
+        "highTemp": 41,
+        "lowTemp": 30.2,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 54.3,
+      "highTemp": 64,
+      "lowTemp": 44.7,
+      "totalPrecip": 18.8,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

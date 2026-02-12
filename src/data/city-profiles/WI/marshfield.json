@@ -239,5 +239,93 @@
       4.2,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USW00094985",
+    "stationName": "MARSHFIELD MUNI AP",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 14.8,
+        "highTemp": 22.7,
+        "lowTemp": 6.8,
+        "precip": 0.7
+      },
+      "feb": {
+        "avgTemp": 18.5,
+        "highTemp": 27.1,
+        "lowTemp": 9.8,
+        "precip": 0.5
+      },
+      "mar": {
+        "avgTemp": 30.4,
+        "highTemp": 39.4,
+        "lowTemp": 21.5,
+        "precip": 1.3
+      },
+      "apr": {
+        "avgTemp": 43.6,
+        "highTemp": 53.9,
+        "lowTemp": 33.4,
+        "precip": 2.2
+      },
+      "may": {
+        "avgTemp": 56,
+        "highTemp": 67,
+        "lowTemp": 45,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 65.2,
+        "highTemp": 75.5,
+        "lowTemp": 54.9,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 69,
+        "highTemp": 79.6,
+        "lowTemp": 58.4,
+        "precip": 3
+      },
+      "aug": {
+        "avgTemp": 67.3,
+        "highTemp": 77.8,
+        "lowTemp": 56.7,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 59.3,
+        "highTemp": 70,
+        "lowTemp": 48.7,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 46.5,
+        "highTemp": 56.1,
+        "lowTemp": 36.9,
+        "precip": 2
+      },
+      "nov": {
+        "avgTemp": 33,
+        "highTemp": 40.8,
+        "lowTemp": 25.3,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 20.6,
+        "highTemp": 27.8,
+        "lowTemp": 13.5,
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "avgTemp": 43.7,
+      "highTemp": 53.1,
+      "lowTemp": 34.2,
+      "totalPrecip": 24.8,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

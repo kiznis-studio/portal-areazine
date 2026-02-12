@@ -225,5 +225,93 @@
       8.6,
       8.4
     ]
+  },
+  "climate": {
+    "station": "USW00094732",
+    "stationName": "PHILADELPHIA NE AP",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.2,
+        "highTemp": 41.8,
+        "lowTemp": 26.6,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 36.5,
+        "highTemp": 44.9,
+        "lowTemp": 28.1,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 43.9,
+        "highTemp": 53.1,
+        "lowTemp": 34.7,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 54.7,
+        "highTemp": 65.2,
+        "lowTemp": 44.2,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 64.3,
+        "highTemp": 74.5,
+        "lowTemp": 54.1,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 73.6,
+        "highTemp": 83.3,
+        "lowTemp": 63.9,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 78.8,
+        "highTemp": 88.2,
+        "lowTemp": 69.4,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 76.9,
+        "highTemp": 86.1,
+        "lowTemp": 67.7,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 69.8,
+        "highTemp": 79.3,
+        "lowTemp": 60.3,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 57.9,
+        "highTemp": 67.5,
+        "lowTemp": 48.3,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 47.5,
+        "highTemp": 56.6,
+        "lowTemp": 38.4,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 38.9,
+        "highTemp": 46.7,
+        "lowTemp": 31.2,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 56.4,
+      "highTemp": 65.6,
+      "lowTemp": 47.2,
+      "totalPrecip": 45,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

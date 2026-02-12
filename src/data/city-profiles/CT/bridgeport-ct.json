@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USW00094702",
+    "stationName": "BRIDGEPORT SIKORSKY MEM AP 72504",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.4,
+        "highTemp": 38.4,
+        "lowTemp": 24.4,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 33.1,
+        "highTemp": 40.5,
+        "lowTemp": 25.7,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 39.9,
+        "highTemp": 47.4,
+        "lowTemp": 32.3,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 50,
+        "highTemp": 58.3,
+        "lowTemp": 41.7,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 60,
+        "highTemp": 68.4,
+        "lowTemp": 51.7,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 69.6,
+        "highTemp": 77.7,
+        "lowTemp": 61.5,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 75.7,
+        "highTemp": 83.4,
+        "lowTemp": 67.9,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 74.5,
+        "highTemp": 81.9,
+        "lowTemp": 67,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 67.6,
+        "highTemp": 75.4,
+        "lowTemp": 59.8,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 56.4,
+        "highTemp": 64.4,
+        "lowTemp": 48.3,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 46,
+        "highTemp": 53.6,
+        "lowTemp": 38.4,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 37,
+        "highTemp": 43.8,
+        "lowTemp": 30.2,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 53.4,
+      "highTemp": 61.1,
+      "lowTemp": 45.7,
+      "totalPrecip": 44.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -216,5 +216,54 @@
       7,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1MDMG0042",
+    "stationName": "TAKOMA PARK 0.6 NNW",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 5.2
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

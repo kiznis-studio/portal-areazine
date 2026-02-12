@@ -303,5 +303,93 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00410337",
+    "stationName": "ARLINGTON SIX FLAGS",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.7,
+        "highTemp": 55,
+        "lowTemp": 34.3,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 48.6,
+        "highTemp": 59.4,
+        "lowTemp": 37.9,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 56.6,
+        "highTemp": 67.1,
+        "lowTemp": 46,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 64,
+        "highTemp": 74.4,
+        "lowTemp": 53.7,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 72.4,
+        "highTemp": 81.6,
+        "lowTemp": 63.2,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 80.8,
+        "highTemp": 90,
+        "lowTemp": 71.6,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 84.8,
+        "highTemp": 94.4,
+        "lowTemp": 75.1,
+        "precip": 2.5
+      },
+      "aug": {
+        "avgTemp": 84.4,
+        "highTemp": 94.5,
+        "lowTemp": 74.2,
+        "precip": 2.4
+      },
+      "sep": {
+        "avgTemp": 77.4,
+        "highTemp": 87.6,
+        "lowTemp": 67.3,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 66.2,
+        "highTemp": 77,
+        "lowTemp": 55.4,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 55,
+        "highTemp": 65,
+        "lowTemp": 45.1,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 46.8,
+        "highTemp": 57,
+        "lowTemp": 36.6,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 65.1,
+      "highTemp": 75.3,
+      "lowTemp": 55,
+      "totalPrecip": 40.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

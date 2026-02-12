@@ -247,5 +247,93 @@
       5.2,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00194711",
+    "stationName": "MIDDLEBORO",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.6,
+        "highTemp": 37.7,
+        "lowTemp": 17.4,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 29.4,
+        "highTemp": 39.6,
+        "lowTemp": 19.2,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 35.9,
+        "highTemp": 46,
+        "lowTemp": 25.9,
+        "precip": 5.8
+      },
+      "apr": {
+        "avgTemp": 46.3,
+        "highTemp": 57,
+        "lowTemp": 35.6,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 56.4,
+        "highTemp": 67.1,
+        "lowTemp": 45.6,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 65.7,
+        "highTemp": 76.4,
+        "lowTemp": 55.1,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 71.6,
+        "highTemp": 82,
+        "lowTemp": 61.3,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 70.4,
+        "highTemp": 81.2,
+        "lowTemp": 59.5,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 62.8,
+        "highTemp": 73.7,
+        "lowTemp": 51.8,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 62.9,
+        "lowTemp": 40.9,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 42.1,
+        "highTemp": 52.4,
+        "lowTemp": 31.7,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 33.6,
+        "highTemp": 43,
+        "lowTemp": 24.2,
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 59.9,
+      "lowTemp": 39,
+      "totalPrecip": 52.5,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -303,5 +303,54 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00042327",
+    "stationName": "DEEP CANYON LAB",
+    "distanceMi": 6.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 0.6
+      },
+      "apr": {
+        "precip": 0.2
+      },
+      "may": {
+        "precip": 0
+      },
+      "jun": {
+        "precip": 0
+      },
+      "jul": {
+        "precip": 0.3
+      },
+      "aug": {
+        "precip": 0.5
+      },
+      "sep": {
+        "precip": 0.4
+      },
+      "oct": {
+        "precip": 0.2
+      },
+      "nov": {
+        "precip": 0.3
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 5.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

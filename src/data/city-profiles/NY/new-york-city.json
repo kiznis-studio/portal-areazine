@@ -1,0 +1,356 @@
+{
+  "slug": "new-york-city",
+  "city": "New York City",
+  "state": "New York",
+  "stateCode": "NY",
+  "county": "New York County",
+  "lat": 40.7128,
+  "lng": -74.006,
+  "census": {
+    "population": 8622467,
+    "medianAge": 37.5,
+    "medianHouseholdIncome": 76607,
+    "medianHomeValue": 732100,
+    "medianRent": 1714,
+    "povertyRate": 17.2,
+    "unemploymentRate": 7.6,
+    "bachelorDegreeOrHigher": 40.2,
+    "publicTransitPct": 55.9,
+    "workFromHomePct": 13,
+    "demographics": {
+      "white": 30.9,
+      "black": 20.2,
+      "asian": 16.2,
+      "hispanic": 28.7,
+      "other": 4
+    },
+    "source": "Census Bureau ACS 5-Year Estimates (2022)"
+  },
+  "health": {
+    "totalPopulation": 8622467,
+    "measures": {
+      "PHLTH": {
+        "label": "Frequent Physical Distress",
+        "value": 12.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BPHIGH": {
+        "label": "High Blood Pressure",
+        "value": 30.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "LPA": {
+        "label": "Physical Inactivity",
+        "value": 26.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHD": {
+        "label": "Coronary Heart Disease",
+        "value": 5.6,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CHECKUP": {
+        "label": "Annual Checkup",
+        "value": 80.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "MHLTH": {
+        "label": "Frequent Mental Distress",
+        "value": 14.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "STROKE": {
+        "label": "Stroke",
+        "value": 3.4,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DENTAL": {
+        "label": "Dental Visit",
+        "value": 60.5,
+        "unit": "%",
+        "year": "2022"
+      },
+      "ACCESS2": {
+        "label": "Lack of Health Insurance",
+        "value": 9.3,
+        "unit": "%",
+        "year": "2023"
+      },
+      "DIABETES": {
+        "label": "Diabetes",
+        "value": 11.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "OBESITY": {
+        "label": "Obesity",
+        "value": 23.8,
+        "unit": "%",
+        "year": "2023"
+      },
+      "BINGE": {
+        "label": "Binge Drinking",
+        "value": 17.2,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CASTHMA": {
+        "label": "Current Asthma",
+        "value": 9.9,
+        "unit": "%",
+        "year": "2023"
+      },
+      "CSMOKING": {
+        "label": "Current Smoking",
+        "value": 10.7,
+        "unit": "%",
+        "year": "2023"
+      },
+      "SLEEP": {
+        "label": "Short Sleep Duration",
+        "value": 38.1,
+        "unit": "%",
+        "year": "2022"
+      }
+    },
+    "source": "CDC PLACES (aggregated from NYC neighborhoods)"
+  },
+  "hospitals": {
+    "hospitals": [
+      {
+        "name": "NEW YORK-PRESBYTERIAN HOSPITAL",
+        "city": "NEW YORK",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "NYU LANGONE HOSPITALS",
+        "city": "NEW YORK",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "HOSPITAL FOR SPECIAL SURGERY",
+        "city": "NEW YORK",
+        "rating": 5,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "VA NEW YORK HARBOR HEALTHCARE SYSTEM - BROOKLYN",
+        "city": "BROOKLYN",
+        "rating": 5,
+        "type": "Acute Care - Veterans Administration",
+        "emergency": true,
+        "ownership": "Veterans Health Administration"
+      },
+      {
+        "name": "NEW YORK-PRESBYTERIAN/QUEENS",
+        "city": "FLUSHING",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "LENOX HILL HOSPITAL",
+        "city": "NEW YORK",
+        "rating": 4,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MOUNT SINAI HOSPITAL",
+        "city": "NEW YORK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      },
+      {
+        "name": "MOUNT SINAI WEST",
+        "city": "NEW YORK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Church"
+      },
+      {
+        "name": "METROPOLITAN HOSPITAL CENTER",
+        "city": "NEW YORK",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Government - Local"
+      },
+      {
+        "name": "MONTEFIORE MEDICAL CENTER",
+        "city": "BRONX",
+        "rating": 3,
+        "type": "Acute Care Hospitals",
+        "emergency": true,
+        "ownership": "Voluntary non-profit - Private"
+      }
+    ],
+    "totalHospitals": 32,
+    "ratedHospitals": 32,
+    "averageRating": 2.3,
+    "source": "CMS Hospital Compare (2024)"
+  },
+  "crime": {
+    "year": 2022,
+    "source": "state",
+    "sourceLabel": "FBI Crime Data Explorer (UCR Summary)",
+    "violentCrimeRate": 403.9,
+    "propertyCrimeRate": 1731.3,
+    "assaultRate": 287,
+    "homicideRate": 4.1,
+    "robberyRate": 112.8,
+    "burglaryRate": 164.1,
+    "larcenyRate": 1429.9,
+    "motorVehicleTheftRate": 137.3
+  },
+  "history": {
+    "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "population": [
+      8268999,
+      8354889,
+      8426743,
+      8461961,
+      8560072,
+      8443713,
+      8419316,
+      8379552,
+      8736047,
+      8622467,
+      8516202
+    ],
+    "medianIncome": [
+      52259,
+      52737,
+      53373,
+      55191,
+      57782,
+      60762,
+      63998,
+      67046,
+      70663,
+      76607,
+      79713
+    ]
+  },
+  "fetchedAt": "2026-02-11T21:05:03.488Z",
+  "climate": {
+    "station": "USW00094728",
+    "stationName": "NEW YORK CNTRL PK TWR HCN 72506",
+    "distanceMi": 5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.7,
+        "highTemp": 39.5,
+        "lowTemp": 27.9,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 35.9,
+        "highTemp": 42.2,
+        "lowTemp": 29.5,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 42.8,
+        "highTemp": 49.9,
+        "lowTemp": 35.8,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 53.7,
+        "highTemp": 61.8,
+        "lowTemp": 45.5,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 63.2,
+        "highTemp": 71.4,
+        "lowTemp": 55,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 72,
+        "highTemp": 79.7,
+        "lowTemp": 64.4,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 77.5,
+        "highTemp": 84.9,
+        "lowTemp": 70.1,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 76.1,
+        "highTemp": 83.3,
+        "lowTemp": 68.9,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 69.2,
+        "highTemp": 76.2,
+        "lowTemp": 62.3,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 57.9,
+        "highTemp": 64.5,
+        "lowTemp": 51.4,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 48,
+        "highTemp": 54,
+        "lowTemp": 42,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 39.1,
+        "highTemp": 44.3,
+        "lowTemp": 33.8,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 55.8,
+      "highTemp": 62.6,
+      "lowTemp": 48.9,
+      "totalPrecip": 49.6,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
+  }
+}

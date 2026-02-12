@@ -239,5 +239,93 @@
       6.4,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00022807",
+    "stationName": "ELOY 4 NE",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.9,
+        "highTemp": 70.2,
+        "lowTemp": 35.6,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 55.3,
+        "highTemp": 72.4,
+        "lowTemp": 38.2,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 61.4,
+        "highTemp": 79.6,
+        "lowTemp": 43.3,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 68.7,
+        "highTemp": 88.4,
+        "lowTemp": 48.9,
+        "precip": 0.1
+      },
+      "may": {
+        "avgTemp": 76.9,
+        "highTemp": 97.1,
+        "lowTemp": 56.8,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 86.2,
+        "highTemp": 106.5,
+        "lowTemp": 65.9,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 90.8,
+        "highTemp": 107.2,
+        "lowTemp": 74.3,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 89.5,
+        "highTemp": 104.8,
+        "lowTemp": 74.1,
+        "precip": 1.6
+      },
+      "sep": {
+        "avgTemp": 84.4,
+        "highTemp": 101.2,
+        "lowTemp": 67.5,
+        "precip": 0.6
+      },
+      "oct": {
+        "avgTemp": 73.1,
+        "highTemp": 91.4,
+        "lowTemp": 54.8,
+        "precip": 0.4
+      },
+      "nov": {
+        "avgTemp": 60.4,
+        "highTemp": 78.4,
+        "lowTemp": 42.3,
+        "precip": 0.5
+      },
+      "dec": {
+        "avgTemp": 51.9,
+        "highTemp": 68.9,
+        "lowTemp": 34.8,
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "avgTemp": 71,
+      "highTemp": 88.8,
+      "lowTemp": 53,
+      "totalPrecip": 8.2,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

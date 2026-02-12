@@ -303,5 +303,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1TXDA0053",
+    "stationName": "DALLAS 2.7 WNW",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 2
+      },
+      "aug": {
+        "precip": 2.6
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

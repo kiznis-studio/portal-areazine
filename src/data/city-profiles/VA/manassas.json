@@ -231,5 +231,81 @@
       3.3,
       3.3
     ]
+  },
+  "climate": {
+    "station": "USC00445204",
+    "stationName": "MANASSAS",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.3,
+        "highTemp": 42.4,
+        "lowTemp": 24.2
+      },
+      "feb": {
+        "avgTemp": 35.7,
+        "highTemp": 45.5,
+        "lowTemp": 25.8
+      },
+      "mar": {
+        "avgTemp": 43.1,
+        "highTemp": 53.8,
+        "lowTemp": 32.4
+      },
+      "apr": {
+        "avgTemp": 54.5,
+        "highTemp": 65.9,
+        "lowTemp": 43.1
+      },
+      "may": {
+        "avgTemp": 63.9,
+        "highTemp": 74.2,
+        "lowTemp": 53.6
+      },
+      "jun": {
+        "avgTemp": 73.3,
+        "highTemp": 83,
+        "lowTemp": 63.5
+      },
+      "jul": {
+        "avgTemp": 78.1,
+        "highTemp": 87.5,
+        "lowTemp": 68.6
+      },
+      "aug": {
+        "avgTemp": 76,
+        "highTemp": 85.4,
+        "lowTemp": 66.5
+      },
+      "sep": {
+        "avgTemp": 68.3,
+        "highTemp": 78.2,
+        "lowTemp": 58.3
+      },
+      "oct": {
+        "avgTemp": 56.3,
+        "highTemp": 67,
+        "lowTemp": 45.6
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 56.4,
+        "lowTemp": 35.3
+      },
+      "dec": {
+        "avgTemp": 37.6,
+        "highTemp": 46.5,
+        "lowTemp": 28.7
+      }
+    },
+    "annual": {
+      "avgTemp": 55.5,
+      "highTemp": 65.5,
+      "lowTemp": 45.5,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

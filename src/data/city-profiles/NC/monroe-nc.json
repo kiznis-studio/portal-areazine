@@ -231,5 +231,93 @@
       4.3,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00315771",
+    "stationName": "MONROE 2 SE HCN",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.7,
+        "highTemp": 53.1,
+        "lowTemp": 30.3,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 44.7,
+        "highTemp": 56.8,
+        "lowTemp": 32.7,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 51.4,
+        "highTemp": 64.1,
+        "lowTemp": 38.6,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 60.5,
+        "highTemp": 73.5,
+        "lowTemp": 47.4,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 68.7,
+        "highTemp": 80.6,
+        "lowTemp": 56.9,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 76.4,
+        "highTemp": 87.6,
+        "lowTemp": 65.3,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 79.9,
+        "highTemp": 91.1,
+        "lowTemp": 68.8,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 78.4,
+        "highTemp": 88.9,
+        "lowTemp": 67.9,
+        "precip": 4.9
+      },
+      "sep": {
+        "avgTemp": 72.5,
+        "highTemp": 83.5,
+        "lowTemp": 61.4,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 61.7,
+        "highTemp": 74.2,
+        "lowTemp": 49.2,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 50.7,
+        "highTemp": 63.7,
+        "lowTemp": 37.6,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 44.2,
+        "highTemp": 55.5,
+        "lowTemp": 32.9,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 60.9,
+      "highTemp": 72.7,
+      "lowTemp": 49.1,
+      "totalPrecip": 47.8,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

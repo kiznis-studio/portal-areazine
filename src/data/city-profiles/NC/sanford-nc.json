@@ -231,5 +231,54 @@
       5.1,
       4
     ]
+  },
+  "climate": {
+    "station": "US1NCLE0003",
+    "stationName": "SANFORD 6.6 S",
+    "distanceMi": 6.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 3.4
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 5.3
+      },
+      "aug": {
+        "precip": 5.2
+      },
+      "sep": {
+        "precip": 5.1
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

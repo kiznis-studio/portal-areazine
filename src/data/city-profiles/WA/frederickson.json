@@ -263,5 +263,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1WAPR0006",
+    "stationName": "SUMMIT 1.1 WSW",
+    "distanceMi": 4.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.8
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 2.6
+      },
+      "jun": {
+        "precip": 1.8
+      },
+      "jul": {
+        "precip": 0.8
+      },
+      "aug": {
+        "precip": 1.2
+      },
+      "sep": {
+        "precip": 2.1
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 6.5
+      },
+      "dec": {
+        "precip": 5.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

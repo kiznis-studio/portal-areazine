@@ -247,5 +247,54 @@
       4.3,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1TXMNG031",
+    "stationName": "CONROE 0.7 E",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.8
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 3.3
+      },
+      "aug": {
+        "precip": 4.8
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 5.3
+      },
+      "nov": {
+        "precip": 4.7
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

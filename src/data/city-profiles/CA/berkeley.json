@@ -303,5 +303,93 @@
       4.9,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00040693",
+    "stationName": "BERKELEY HCN",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.1,
+        "highTemp": 58.9,
+        "lowTemp": 43.3,
+        "precip": 4.8
+      },
+      "feb": {
+        "avgTemp": 53,
+        "highTemp": 61.6,
+        "lowTemp": 44.5,
+        "precip": 5.1
+      },
+      "mar": {
+        "avgTemp": 55.2,
+        "highTemp": 64.6,
+        "lowTemp": 45.9,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 57,
+        "highTemp": 67.3,
+        "lowTemp": 46.7,
+        "precip": 1.8
+      },
+      "may": {
+        "avgTemp": 59.7,
+        "highTemp": 70,
+        "lowTemp": 49.4,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 62.9,
+        "highTemp": 74.1,
+        "lowTemp": 51.7,
+        "precip": 0.3
+      },
+      "jul": {
+        "avgTemp": 63.7,
+        "highTemp": 74.2,
+        "lowTemp": 53.2,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 64.4,
+        "highTemp": 74.7,
+        "lowTemp": 54.2,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 64.9,
+        "highTemp": 76.3,
+        "lowTemp": 53.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.5,
+        "highTemp": 73.4,
+        "lowTemp": 51.6,
+        "precip": 1.2
+      },
+      "nov": {
+        "avgTemp": 56.1,
+        "highTemp": 65.2,
+        "lowTemp": 46.9,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 50.9,
+        "highTemp": 58.6,
+        "lowTemp": 43.2,
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "avgTemp": 58.5,
+      "highTemp": 68.2,
+      "lowTemp": 48.7,
+      "totalPrecip": 26,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

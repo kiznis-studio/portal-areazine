@@ -303,5 +303,92 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00046175",
+    "stationName": "NEWPORT BEACH HARBOR HCN",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.4,
+        "highTemp": 64.5,
+        "lowTemp": 50.4,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 57.2,
+        "highTemp": 63.3,
+        "lowTemp": 51,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 58.9,
+        "highTemp": 64.7,
+        "lowTemp": 53.1,
+        "precip": 1.3
+      },
+      "apr": {
+        "avgTemp": 60.5,
+        "highTemp": 65.9,
+        "lowTemp": 55.1,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 62.5,
+        "highTemp": 66.7,
+        "lowTemp": 58.3,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 64.9,
+        "highTemp": 68.4,
+        "lowTemp": 61.5,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 68.2,
+        "highTemp": 71.8,
+        "lowTemp": 64.6,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 69.4,
+        "highTemp": 73.3,
+        "lowTemp": 65.5
+      },
+      "sep": {
+        "avgTemp": 69.1,
+        "highTemp": 74.1,
+        "lowTemp": 64.1,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 66.5,
+        "highTemp": 72.7,
+        "lowTemp": 60.2,
+        "precip": 0.3
+      },
+      "nov": {
+        "avgTemp": 61.4,
+        "highTemp": 68.4,
+        "lowTemp": 54.5,
+        "precip": 0.6
+      },
+      "dec": {
+        "avgTemp": 57,
+        "highTemp": 64.1,
+        "lowTemp": 49.8,
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "avgTemp": 62.8,
+      "highTemp": 68.2,
+      "lowTemp": 57.3,
+      "totalPrecip": 9.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

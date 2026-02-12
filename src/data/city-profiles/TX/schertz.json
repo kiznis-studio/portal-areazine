@@ -231,5 +231,81 @@
       4.2,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USW00012911",
+    "stationName": "RANDOLPH AFB",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.1,
+        "highTemp": 63.1,
+        "lowTemp": 41.1
+      },
+      "feb": {
+        "avgTemp": 56.6,
+        "highTemp": 68.1,
+        "lowTemp": 45.1
+      },
+      "mar": {
+        "avgTemp": 62,
+        "highTemp": 73,
+        "lowTemp": 51
+      },
+      "apr": {
+        "avgTemp": 69.2,
+        "highTemp": 80.1,
+        "lowTemp": 58.2
+      },
+      "may": {
+        "avgTemp": 76.2,
+        "highTemp": 86.9,
+        "lowTemp": 65.5
+      },
+      "jun": {
+        "avgTemp": 81.8,
+        "highTemp": 92.1,
+        "lowTemp": 71.4
+      },
+      "jul": {
+        "avgTemp": 84.5,
+        "highTemp": 95.7,
+        "lowTemp": 73.3
+      },
+      "aug": {
+        "avgTemp": 84.9,
+        "highTemp": 96.3,
+        "lowTemp": 73.4
+      },
+      "sep": {
+        "avgTemp": 79.3,
+        "highTemp": 90.1,
+        "lowTemp": 68.4
+      },
+      "oct": {
+        "avgTemp": 71.5,
+        "highTemp": 83.6,
+        "lowTemp": 59.4
+      },
+      "nov": {
+        "avgTemp": 60.5,
+        "highTemp": 71.9,
+        "lowTemp": 49
+      },
+      "dec": {
+        "avgTemp": 53,
+        "highTemp": 64.2,
+        "lowTemp": 41.7
+      }
+    },
+    "annual": {
+      "avgTemp": 69.3,
+      "highTemp": 80.4,
+      "lowTemp": 58.1,
+      "totalPrecip": 0,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

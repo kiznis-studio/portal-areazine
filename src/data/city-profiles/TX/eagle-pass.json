@@ -231,5 +231,93 @@
       7.1,
       7.6
     ]
+  },
+  "climate": {
+    "station": "USC00412679",
+    "stationName": "EAGLE PASS 3N HCN",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.1,
+        "highTemp": 64.5,
+        "lowTemp": 39.7,
+        "precip": 0.7
+      },
+      "feb": {
+        "avgTemp": 56.7,
+        "highTemp": 70,
+        "lowTemp": 43.4,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 64.5,
+        "highTemp": 77.6,
+        "lowTemp": 51.4,
+        "precip": 1.2
+      },
+      "apr": {
+        "avgTemp": 71,
+        "highTemp": 84.4,
+        "lowTemp": 57.7,
+        "precip": 2
+      },
+      "may": {
+        "avgTemp": 78.1,
+        "highTemp": 90.3,
+        "lowTemp": 65.9,
+        "precip": 2.8
+      },
+      "jun": {
+        "avgTemp": 83.9,
+        "highTemp": 96,
+        "lowTemp": 71.8,
+        "precip": 2.2
+      },
+      "jul": {
+        "avgTemp": 85.6,
+        "highTemp": 97.5,
+        "lowTemp": 73.8,
+        "precip": 2.1
+      },
+      "aug": {
+        "avgTemp": 86.5,
+        "highTemp": 98.6,
+        "lowTemp": 74.3,
+        "precip": 1.7
+      },
+      "sep": {
+        "avgTemp": 80.4,
+        "highTemp": 91.8,
+        "lowTemp": 69.1,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 71.4,
+        "highTemp": 83.4,
+        "lowTemp": 59.3,
+        "precip": 2.1
+      },
+      "nov": {
+        "avgTemp": 60.3,
+        "highTemp": 72.4,
+        "lowTemp": 48.3,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 52.3,
+        "highTemp": 64.8,
+        "lowTemp": 39.8,
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "avgTemp": 70.2,
+      "highTemp": 82.6,
+      "lowTemp": 57.9,
+      "totalPrecip": 20.7,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

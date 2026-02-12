@@ -231,5 +231,93 @@
       7,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00095874",
+    "stationName": "MILLEDGEVILLE HCN",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.5,
+        "highTemp": 58,
+        "lowTemp": 33,
+        "precip": 4.2
+      },
+      "feb": {
+        "avgTemp": 49,
+        "highTemp": 61.9,
+        "lowTemp": 36.1,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 55.6,
+        "highTemp": 69.4,
+        "lowTemp": 41.9,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 62.7,
+        "highTemp": 76.7,
+        "lowTemp": 48.8,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 71,
+        "highTemp": 84.1,
+        "lowTemp": 57.9,
+        "precip": 3.2
+      },
+      "jun": {
+        "avgTemp": 78.2,
+        "highTemp": 89.7,
+        "lowTemp": 66.8,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 81.8,
+        "highTemp": 93.2,
+        "lowTemp": 70.3,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 80.6,
+        "highTemp": 91.4,
+        "lowTemp": 69.8,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 75.1,
+        "highTemp": 86.3,
+        "lowTemp": 63.9,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 64.7,
+        "highTemp": 77.5,
+        "lowTemp": 52,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 54.2,
+        "highTemp": 67.8,
+        "lowTemp": 40.5,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 48.1,
+        "highTemp": 60.3,
+        "lowTemp": 35.9,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 63.9,
+      "highTemp": 76.4,
+      "lowTemp": 51.4,
+      "totalPrecip": 48.3,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

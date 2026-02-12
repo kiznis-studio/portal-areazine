@@ -231,5 +231,54 @@
       1.5,
       2
     ]
+  },
+  "climate": {
+    "station": "USC00398930",
+    "stationName": "WATERTOWN 1W",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.7
+      },
+      "mar": {
+        "precip": 1.1
+      },
+      "apr": {
+        "precip": 2.3
+      },
+      "may": {
+        "precip": 3.2
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 3
+      },
+      "sep": {
+        "precip": 2.8
+      },
+      "oct": {
+        "precip": 2.2
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 24.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

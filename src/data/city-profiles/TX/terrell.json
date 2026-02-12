@@ -222,5 +222,93 @@
       4.9,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USW00053911",
+    "stationName": "TERRELL MUNI AP",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.5,
+        "highTemp": 57.4,
+        "lowTemp": 35.7,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 50.7,
+        "highTemp": 61.7,
+        "lowTemp": 39.6,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 57.9,
+        "highTemp": 69.2,
+        "lowTemp": 46.7,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 65.1,
+        "highTemp": 76.4,
+        "lowTemp": 53.8,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 73.9,
+        "highTemp": 84.4,
+        "lowTemp": 63.4,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 81.3,
+        "highTemp": 91.6,
+        "lowTemp": 71.1,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 85,
+        "highTemp": 95.7,
+        "lowTemp": 74.3,
+        "precip": 2
+      },
+      "aug": {
+        "avgTemp": 85.2,
+        "highTemp": 96.3,
+        "lowTemp": 74,
+        "precip": 2.3
+      },
+      "sep": {
+        "avgTemp": 78.2,
+        "highTemp": 89.5,
+        "lowTemp": 67,
+        "precip": 2.7
+      },
+      "oct": {
+        "avgTemp": 67.6,
+        "highTemp": 79.3,
+        "lowTemp": 55.9,
+        "precip": 4.5
+      },
+      "nov": {
+        "avgTemp": 56.5,
+        "highTemp": 67.7,
+        "lowTemp": 45.3,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 48.3,
+        "highTemp": 59,
+        "lowTemp": 37.6,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 66.4,
+      "highTemp": 77.4,
+      "lowTemp": 55.4,
+      "totalPrecip": 38.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

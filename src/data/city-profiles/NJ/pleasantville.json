@@ -239,5 +239,81 @@
       8.3,
       8.1
     ]
+  },
+  "climate": {
+    "station": "USC00285243",
+    "stationName": "MARGATE",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.6,
+        "highTemp": 43.4,
+        "lowTemp": 29.8
+      },
+      "feb": {
+        "avgTemp": 37.8,
+        "highTemp": 45.1,
+        "lowTemp": 30.5
+      },
+      "mar": {
+        "avgTemp": 43.9,
+        "highTemp": 51.1,
+        "lowTemp": 36.6
+      },
+      "apr": {
+        "avgTemp": 53.2,
+        "highTemp": 60.9,
+        "lowTemp": 45.4
+      },
+      "may": {
+        "avgTemp": 62.1,
+        "highTemp": 69.6,
+        "lowTemp": 54.5
+      },
+      "jun": {
+        "avgTemp": 72.5,
+        "highTemp": 80.1,
+        "lowTemp": 64.8
+      },
+      "jul": {
+        "avgTemp": 78.2,
+        "highTemp": 85.4,
+        "lowTemp": 70.9
+      },
+      "aug": {
+        "avgTemp": 77,
+        "highTemp": 84.1,
+        "lowTemp": 69.9
+      },
+      "sep": {
+        "avgTemp": 71,
+        "highTemp": 78,
+        "lowTemp": 64
+      },
+      "oct": {
+        "avgTemp": 59.6,
+        "highTemp": 67.3,
+        "lowTemp": 51.8
+      },
+      "nov": {
+        "avgTemp": 49.4,
+        "highTemp": 56.5,
+        "lowTemp": 42.2
+      },
+      "dec": {
+        "avgTemp": 41.3,
+        "highTemp": 47.9,
+        "lowTemp": 34.7
+      }
+    },
+    "annual": {
+      "avgTemp": 56.9,
+      "highTemp": 64.1,
+      "lowTemp": 49.6,
+      "totalPrecip": 0,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

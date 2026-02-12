@@ -255,5 +255,93 @@
       7.5,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00021050",
+    "stationName": "BULLHEAD CITY",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.9,
+        "highTemp": 65,
+        "lowTemp": 44.8,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 58.2,
+        "highTemp": 69.8,
+        "lowTemp": 46.6,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 64.6,
+        "highTemp": 78.6,
+        "lowTemp": 50.6,
+        "precip": 0.8
+      },
+      "apr": {
+        "avgTemp": 72,
+        "highTemp": 87.4,
+        "lowTemp": 56.7,
+        "precip": 0.1
+      },
+      "may": {
+        "avgTemp": 81.1,
+        "highTemp": 96.3,
+        "lowTemp": 65.8,
+        "precip": 0.1
+      },
+      "jun": {
+        "avgTemp": 90,
+        "highTemp": 106.7,
+        "lowTemp": 73.3,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 95.9,
+        "highTemp": 110.7,
+        "lowTemp": 81.1,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 95.1,
+        "highTemp": 109.3,
+        "lowTemp": 80.8,
+        "precip": 0.5
+      },
+      "sep": {
+        "avgTemp": 87.6,
+        "highTemp": 102.7,
+        "lowTemp": 72.6,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 75.3,
+        "highTemp": 89.4,
+        "lowTemp": 61.2,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 62.4,
+        "highTemp": 74.2,
+        "lowTemp": 50.5,
+        "precip": 0.4
+      },
+      "dec": {
+        "avgTemp": 53.7,
+        "highTemp": 63.6,
+        "lowTemp": 43.9,
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "avgTemp": 74.2,
+      "highTemp": 87.8,
+      "lowTemp": 60.7,
+      "totalPrecip": 5.5,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

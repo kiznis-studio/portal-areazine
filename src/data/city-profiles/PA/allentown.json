@@ -153,5 +153,93 @@
       5.8,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USW00014737",
+    "stationName": "ALLENTOWN INTL AP HCN 72517",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.1,
+        "highTemp": 38.4,
+        "lowTemp": 21.8,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 32.4,
+        "highTemp": 41.6,
+        "lowTemp": 23.2,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 40.7,
+        "highTemp": 50.8,
+        "lowTemp": 30.5,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 51.8,
+        "highTemp": 63.4,
+        "lowTemp": 40.3,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 62,
+        "highTemp": 73.5,
+        "lowTemp": 50.6,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 70.9,
+        "highTemp": 81.9,
+        "lowTemp": 59.9,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 86.4,
+        "lowTemp": 64.7,
+        "precip": 5.3
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 84.3,
+        "lowTemp": 62.8,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 66.3,
+        "highTemp": 77.4,
+        "lowTemp": 55.2,
+        "precip": 4.8
+      },
+      "oct": {
+        "avgTemp": 54.6,
+        "highTemp": 65.5,
+        "lowTemp": 43.8,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 43.9,
+        "highTemp": 53.8,
+        "lowTemp": 34.1,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 35,
+        "highTemp": 43.1,
+        "lowTemp": 26.8,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 53.1,
+      "highTemp": 63.3,
+      "lowTemp": 42.8,
+      "totalPrecip": 47.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

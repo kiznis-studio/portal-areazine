@@ -263,5 +263,54 @@
       4.1,
       4
     ]
+  },
+  "climate": {
+    "station": "US1FLVL0051",
+    "stationName": "DE BARY 1.7 NE",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 3.1
+      },
+      "jun": {
+        "precip": 7.2
+      },
+      "jul": {
+        "precip": 8
+      },
+      "aug": {
+        "precip": 7.2
+      },
+      "sep": {
+        "precip": 7.2
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 2
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

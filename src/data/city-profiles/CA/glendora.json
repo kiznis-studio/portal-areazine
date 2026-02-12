@@ -303,5 +303,52 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00043452",
+    "stationName": "GLENDORA FC 287B",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5
+      },
+      "feb": {
+        "precip": 5.5
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 1
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {},
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 1.2
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 21.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

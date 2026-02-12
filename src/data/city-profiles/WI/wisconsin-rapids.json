@@ -239,5 +239,93 @@
       4.2,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00479335",
+    "stationName": "WISCONSIN RAPIDS",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 14.8,
+        "highTemp": 24.3,
+        "lowTemp": 5.3,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 18.4,
+        "highTemp": 29.2,
+        "lowTemp": 7.7,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 30.1,
+        "highTemp": 41.3,
+        "lowTemp": 19,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 43.4,
+        "highTemp": 55.5,
+        "lowTemp": 31.3,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 55.8,
+        "highTemp": 68.1,
+        "lowTemp": 43.5,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 65.7,
+        "highTemp": 77.6,
+        "lowTemp": 53.7,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 69.9,
+        "highTemp": 81.3,
+        "lowTemp": 58.5,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 67.8,
+        "highTemp": 79.2,
+        "lowTemp": 56.3,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 59.3,
+        "highTemp": 71.3,
+        "lowTemp": 47.2,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 46.6,
+        "highTemp": 57.6,
+        "lowTemp": 35.6,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 32.6,
+        "highTemp": 42.3,
+        "lowTemp": 23,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 20.9,
+        "highTemp": 29.5,
+        "lowTemp": 12.2,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 43.8,
+      "highTemp": 54.8,
+      "lowTemp": 32.8,
+      "totalPrecip": 33.4,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

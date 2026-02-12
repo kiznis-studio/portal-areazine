@@ -222,5 +222,54 @@
       2.6,
       2.9
     ]
+  },
+  "climate": {
+    "station": "US1VARN0003",
+    "stationName": "ROANOKE 5.5 SW",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

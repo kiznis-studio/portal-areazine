@@ -239,5 +239,52 @@
       13.1,
       12.5
     ]
+  },
+  "climate": {
+    "station": "USC00041288",
+    "stationName": "CALEXICO 2 NE",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.4
+      },
+      "feb": {
+        "precip": 0.3
+      },
+      "mar": {
+        "precip": 0.2
+      },
+      "apr": {
+        "precip": 0.1
+      },
+      "may": {
+        "precip": 0
+      },
+      "jun": {},
+      "jul": {
+        "precip": 0.2
+      },
+      "aug": {
+        "precip": 0.2
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.3
+      },
+      "nov": {
+        "precip": 0.2
+      },
+      "dec": {
+        "precip": 0.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 2.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       4.7,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00025467",
+    "stationName": "MESA",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1
+      },
+      "feb": {
+        "precip": 1.1
+      },
+      "mar": {
+        "precip": 1.1
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.2
+      },
+      "jun": {
+        "precip": 0
+      },
+      "jul": {
+        "precip": 0.8
+      },
+      "aug": {
+        "precip": 1.1
+      },
+      "sep": {
+        "precip": 0.7
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 0.6
+      },
+      "dec": {
+        "precip": 1
+      }
+    },
+    "annual": {
+      "totalPrecip": 8.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -279,5 +279,93 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00417947",
+    "stationName": "SAN ANTONIO INCARNATE WORD",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.7,
+        "highTemp": 63.2,
+        "lowTemp": 40.2,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 55.6,
+        "highTemp": 67.5,
+        "lowTemp": 43.8,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 62.4,
+        "highTemp": 73.8,
+        "lowTemp": 51,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 68.7,
+        "highTemp": 80.1,
+        "lowTemp": 57.4,
+        "precip": 2.3
+      },
+      "may": {
+        "avgTemp": 75.7,
+        "highTemp": 85.7,
+        "lowTemp": 65.7,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 81.9,
+        "highTemp": 91.7,
+        "lowTemp": 72,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 84.1,
+        "highTemp": 94,
+        "lowTemp": 74.1,
+        "precip": 2.4
+      },
+      "aug": {
+        "avgTemp": 84.7,
+        "highTemp": 95.3,
+        "lowTemp": 74.1,
+        "precip": 2.4
+      },
+      "sep": {
+        "avgTemp": 79.2,
+        "highTemp": 89.5,
+        "lowTemp": 68.8,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 70.5,
+        "highTemp": 81.7,
+        "lowTemp": 59.2,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 60.2,
+        "highTemp": 71.4,
+        "lowTemp": 49,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 52.8,
+        "highTemp": 64.2,
+        "lowTemp": 41.4,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 69,
+      "highTemp": 79.8,
+      "lowTemp": 58.1,
+      "totalPrecip": 34,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

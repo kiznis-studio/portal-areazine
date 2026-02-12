@@ -231,5 +231,81 @@
       6.7,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00356541",
+    "stationName": "PENDLETON DWTN",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.2,
+        "highTemp": 44.6,
+        "lowTemp": 27.7
+      },
+      "feb": {
+        "avgTemp": 39,
+        "highTemp": 49.1,
+        "lowTemp": 29
+      },
+      "mar": {
+        "avgTemp": 45.7,
+        "highTemp": 58,
+        "lowTemp": 33.4
+      },
+      "apr": {
+        "avgTemp": 51.5,
+        "highTemp": 64.6,
+        "lowTemp": 38.5
+      },
+      "may": {
+        "avgTemp": 59.1,
+        "highTemp": 72.9,
+        "lowTemp": 45.4
+      },
+      "jun": {
+        "avgTemp": 65.3,
+        "highTemp": 79.5,
+        "lowTemp": 51.1
+      },
+      "jul": {
+        "avgTemp": 73.2,
+        "highTemp": 90.3,
+        "lowTemp": 56.1
+      },
+      "aug": {
+        "avgTemp": 72,
+        "highTemp": 89.7,
+        "lowTemp": 54.3
+      },
+      "sep": {
+        "avgTemp": 63.4,
+        "highTemp": 80.4,
+        "lowTemp": 46.5
+      },
+      "oct": {
+        "avgTemp": 52.1,
+        "highTemp": 66.5,
+        "lowTemp": 37.6
+      },
+      "nov": {
+        "avgTemp": 42.1,
+        "highTemp": 52.4,
+        "lowTemp": 31.9
+      },
+      "dec": {
+        "avgTemp": 35.6,
+        "highTemp": 43.5,
+        "lowTemp": 27.7
+      }
+    },
+    "annual": {
+      "avgTemp": 52.9,
+      "highTemp": 66,
+      "lowTemp": 39.9,
+      "totalPrecip": 0,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

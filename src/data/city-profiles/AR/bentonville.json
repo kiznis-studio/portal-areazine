@@ -239,5 +239,93 @@
       2.8,
       3.1
     ]
+  },
+  "climate": {
+    "station": "USC00030586",
+    "stationName": "BENTONVILLE 4 S",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.2,
+        "highTemp": 46.2,
+        "lowTemp": 24.2,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 39.3,
+        "highTemp": 51.4,
+        "lowTemp": 27.2,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 47.8,
+        "highTemp": 60,
+        "lowTemp": 35.5,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 56.7,
+        "highTemp": 69.4,
+        "lowTemp": 44,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 65.3,
+        "highTemp": 76.6,
+        "lowTemp": 53.9,
+        "precip": 6.3
+      },
+      "jun": {
+        "avgTemp": 73.8,
+        "highTemp": 84.8,
+        "lowTemp": 62.9,
+        "precip": 5.5
+      },
+      "jul": {
+        "avgTemp": 78,
+        "highTemp": 89.4,
+        "lowTemp": 66.5,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 77.3,
+        "highTemp": 89.5,
+        "lowTemp": 65.2,
+        "precip": 2.7
+      },
+      "sep": {
+        "avgTemp": 69.7,
+        "highTemp": 82.2,
+        "lowTemp": 57.2,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 58.7,
+        "highTemp": 71.4,
+        "lowTemp": 45.9,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 47.4,
+        "highTemp": 59,
+        "lowTemp": 35.9,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 38.1,
+        "highTemp": 49.2,
+        "lowTemp": 26.9,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 57.3,
+      "highTemp": 69.1,
+      "lowTemp": 45.4,
+      "totalPrecip": 47.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

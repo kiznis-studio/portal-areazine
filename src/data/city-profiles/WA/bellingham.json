@@ -231,5 +231,54 @@
       4.9,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1WAWC0019",
+    "stationName": "BELLINGHAM 2.4 SW",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 2.4
+      },
+      "jun": {
+        "precip": 1.8
+      },
+      "jul": {
+        "precip": 1
+      },
+      "aug": {
+        "precip": 1.1
+      },
+      "sep": {
+        "precip": 2
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 5.8
+      },
+      "dec": {
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

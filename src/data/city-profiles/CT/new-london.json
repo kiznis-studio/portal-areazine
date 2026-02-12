@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTNL0006",
+    "stationName": "NEW LONDON 1.0 NNW",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 4.7
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

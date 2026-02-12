@@ -239,5 +239,54 @@
       5.8,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1FLIR0006",
+    "stationName": "VERO BEACH 2.4 W",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 7.6
+      },
+      "jul": {
+        "precip": 6.1
+      },
+      "aug": {
+        "precip": 8.7
+      },
+      "sep": {
+        "precip": 7.5
+      },
+      "oct": {
+        "precip": 5.4
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 57.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

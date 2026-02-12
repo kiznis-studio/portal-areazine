@@ -247,5 +247,54 @@
       4.2,
       4.1
     ]
+  },
+  "climate": {
+    "station": "US1NCWK0006",
+    "stationName": "HOLLY SPRINGS 1.1 ESE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 5.3
+      },
+      "aug": {
+        "precip": 5.5
+      },
+      "sep": {
+        "precip": 5.3
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

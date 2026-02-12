@@ -303,5 +303,92 @@
       7.1,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00049888",
+    "stationName": "YUCCA VALLEY",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.8,
+        "highTemp": 58,
+        "lowTemp": 37.6,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 49.7,
+        "highTemp": 60.8,
+        "lowTemp": 38.5,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 53.5,
+        "highTemp": 67.2,
+        "lowTemp": 39.9,
+        "precip": 0.8
+      },
+      "apr": {
+        "avgTemp": 59.9,
+        "highTemp": 73.4,
+        "lowTemp": 46.5,
+        "precip": 0.3
+      },
+      "may": {
+        "avgTemp": 67.1,
+        "highTemp": 82.1,
+        "lowTemp": 52,
+        "precip": 0.1
+      },
+      "jun": {
+        "avgTemp": 75.2,
+        "highTemp": 90.9,
+        "lowTemp": 59.4
+      },
+      "jul": {
+        "avgTemp": 81,
+        "highTemp": 96.4,
+        "lowTemp": 65.7,
+        "precip": 0.5
+      },
+      "aug": {
+        "avgTemp": 81.7,
+        "highTemp": 95.6,
+        "lowTemp": 67.8,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 74.9,
+        "highTemp": 89.4,
+        "lowTemp": 60.4,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 64.8,
+        "highTemp": 79.7,
+        "lowTemp": 49.9,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 53.6,
+        "highTemp": 66.4,
+        "lowTemp": 40.8,
+        "precip": 0.3
+      },
+      "dec": {
+        "avgTemp": 46.2,
+        "highTemp": 58.3,
+        "lowTemp": 34.1,
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "avgTemp": 63,
+      "highTemp": 76.5,
+      "lowTemp": 49.4,
+      "totalPrecip": 6.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

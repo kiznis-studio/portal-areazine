@@ -231,5 +231,54 @@
       2.2,
       2.1
     ]
+  },
+  "climate": {
+    "station": "US1TXTY0007",
+    "stationName": "ABILENE 3.3 SW",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1
+      },
+      "feb": {
+        "precip": 1.6
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 2.9
+      },
+      "jun": {
+        "precip": 3.1
+      },
+      "jul": {
+        "precip": 1.9
+      },
+      "aug": {
+        "precip": 1.8
+      },
+      "sep": {
+        "precip": 3
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 1.5
+      },
+      "dec": {
+        "precip": 1
+      }
+    },
+    "annual": {
+      "totalPrecip": 24.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

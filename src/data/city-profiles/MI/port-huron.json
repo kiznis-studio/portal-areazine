@@ -239,5 +239,93 @@
       6.7,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00206680",
+    "stationName": "PORT HURON",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.4,
+        "highTemp": 30.9,
+        "lowTemp": 19.9,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 26.9,
+        "highTemp": 33.3,
+        "lowTemp": 20.5,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 35.2,
+        "highTemp": 42.2,
+        "lowTemp": 28.3,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 46.1,
+        "highTemp": 54.2,
+        "lowTemp": 38,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 57.7,
+        "highTemp": 66.7,
+        "lowTemp": 48.8,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 67.6,
+        "highTemp": 76.4,
+        "lowTemp": 58.8,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 73.3,
+        "highTemp": 81.3,
+        "lowTemp": 65.2,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 71.8,
+        "highTemp": 79.7,
+        "lowTemp": 64,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 65,
+        "highTemp": 73.1,
+        "lowTemp": 56.8,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 53.2,
+        "highTemp": 60.5,
+        "lowTemp": 46,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 41,
+        "highTemp": 46.9,
+        "lowTemp": 35.2,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 31.2,
+        "highTemp": 36,
+        "lowTemp": 26.4,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 56.8,
+      "lowTemp": 42.3,
+      "totalPrecip": 34.9,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

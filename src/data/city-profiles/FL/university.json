@@ -295,5 +295,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLHB0051",
+    "stationName": "LUTZ 2.2 SSE",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 2.7
+      },
+      "may": {
+        "precip": 3.2
+      },
+      "jun": {
+        "precip": 8.1
+      },
+      "jul": {
+        "precip": 8.4
+      },
+      "aug": {
+        "precip": 9.9
+      },
+      "sep": {
+        "precip": 6.8
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,92 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00049087",
+    "stationName": "TUSTIN IRVINE RCH HCN",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 55.6,
+        "highTemp": 67.8,
+        "lowTemp": 43.3,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 56.9,
+        "highTemp": 69.1,
+        "lowTemp": 44.6,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 59.8,
+        "highTemp": 71.7,
+        "lowTemp": 47.8,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 61.9,
+        "highTemp": 74.2,
+        "lowTemp": 49.6,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 65.6,
+        "highTemp": 76.6,
+        "lowTemp": 54.6,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 68.9,
+        "highTemp": 79.6,
+        "lowTemp": 58.2,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 73.3,
+        "highTemp": 85.1,
+        "lowTemp": 61.4,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 75.2,
+        "highTemp": 87.3,
+        "lowTemp": 63.1
+      },
+      "sep": {
+        "avgTemp": 73.9,
+        "highTemp": 86.8,
+        "lowTemp": 61.1,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 69.2,
+        "highTemp": 83.6,
+        "lowTemp": 54.8,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 61.6,
+        "highTemp": 75.9,
+        "lowTemp": 47.3,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 56.3,
+        "highTemp": 69.9,
+        "lowTemp": 42.8,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 64.9,
+      "highTemp": 77.3,
+      "lowTemp": 52.4,
+      "totalPrecip": 14.2,
+      "hotMonths": 3,
+      "coldMonths": 0
+    }
   }
 }

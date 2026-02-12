@@ -247,5 +247,93 @@
       5.4,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00079605",
+    "stationName": "WILMINGTON PORTER RSCH HCN",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.9,
+        "highTemp": 37.9,
+        "lowTemp": 23.8,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 33,
+        "highTemp": 40.9,
+        "lowTemp": 25.2,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 40.8,
+        "highTemp": 49.2,
+        "lowTemp": 32.3,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 51.8,
+        "highTemp": 61.1,
+        "lowTemp": 42.5,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 61.5,
+        "highTemp": 70.6,
+        "lowTemp": 52.4,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 70.6,
+        "highTemp": 79.4,
+        "lowTemp": 61.8,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 84,
+        "lowTemp": 67.2,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 73.8,
+        "highTemp": 81.9,
+        "lowTemp": 65.7,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 66.8,
+        "highTemp": 75,
+        "lowTemp": 58.6,
+        "precip": 5.1
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 63.3,
+        "lowTemp": 47,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 44.7,
+        "highTemp": 52.5,
+        "lowTemp": 36.8,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 35.9,
+        "highTemp": 42.8,
+        "lowTemp": 29,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 53.4,
+      "highTemp": 61.5,
+      "lowTemp": 45.2,
+      "totalPrecip": 50.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

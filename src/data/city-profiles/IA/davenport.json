@@ -239,5 +239,54 @@
       4,
       3.7
     ]
+  },
+  "climate": {
+    "station": "US1IAST0004",
+    "stationName": "DAVENPORT 0.9 SSW",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.6
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.7
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 5.2
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 2
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

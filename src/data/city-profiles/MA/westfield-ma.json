@@ -263,5 +263,93 @@
       6.2,
       6
     ]
+  },
+  "climate": {
+    "station": "USW00014775",
+    "stationName": "WESTFIELD BARNES MUNI AP",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.1,
+        "highTemp": 34.8,
+        "lowTemp": 15.5,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 27.6,
+        "highTemp": 37.9,
+        "lowTemp": 17.3,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 36.1,
+        "highTemp": 46.6,
+        "lowTemp": 25.7,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 47.8,
+        "highTemp": 60.3,
+        "lowTemp": 35.4,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 58.9,
+        "highTemp": 71.6,
+        "lowTemp": 46.2,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 67.4,
+        "highTemp": 79.7,
+        "lowTemp": 55.1,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 72.9,
+        "highTemp": 84.9,
+        "lowTemp": 60.9,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 71,
+        "highTemp": 82.9,
+        "lowTemp": 59.1,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 63.1,
+        "highTemp": 75.3,
+        "lowTemp": 50.9,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 51.2,
+        "highTemp": 63,
+        "lowTemp": 39.4,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 40.5,
+        "highTemp": 50.8,
+        "lowTemp": 30.2,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 31,
+        "highTemp": 39.8,
+        "lowTemp": 22.1,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 49.4,
+      "highTemp": 60.6,
+      "lowTemp": 38.2,
+      "totalPrecip": 45.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

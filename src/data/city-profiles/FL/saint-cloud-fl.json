@@ -247,5 +247,93 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00084625",
+    "stationName": "KISSIMMEE 2",
+    "distanceMi": 8.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 60.1,
+        "highTemp": 71.8,
+        "lowTemp": 48.3,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 62.6,
+        "highTemp": 74.4,
+        "lowTemp": 50.7,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 66.1,
+        "highTemp": 77.9,
+        "lowTemp": 54.4,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 71.4,
+        "highTemp": 83,
+        "lowTemp": 59.7,
+        "precip": 2.4
+      },
+      "may": {
+        "avgTemp": 76.6,
+        "highTemp": 87.4,
+        "lowTemp": 65.8,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 80.9,
+        "highTemp": 90,
+        "lowTemp": 71.8,
+        "precip": 9.2
+      },
+      "jul": {
+        "avgTemp": 82.5,
+        "highTemp": 91.5,
+        "lowTemp": 73.5,
+        "precip": 7.2
+      },
+      "aug": {
+        "avgTemp": 82.7,
+        "highTemp": 91.4,
+        "lowTemp": 74.1,
+        "precip": 8.4
+      },
+      "sep": {
+        "avgTemp": 81.1,
+        "highTemp": 89.5,
+        "lowTemp": 72.8,
+        "precip": 5.9
+      },
+      "oct": {
+        "avgTemp": 75.4,
+        "highTemp": 84.6,
+        "lowTemp": 66.2,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 67.9,
+        "highTemp": 78.6,
+        "lowTemp": 57.3,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 62.5,
+        "highTemp": 73.5,
+        "lowTemp": 51.5,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 72.5,
+      "highTemp": 82.8,
+      "lowTemp": 62.2,
+      "totalPrecip": 52.8,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

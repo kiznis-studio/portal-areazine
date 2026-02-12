@@ -225,5 +225,93 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00365573",
+    "stationName": "MCKEESPORT",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.5,
+        "highTemp": 38.5,
+        "lowTemp": 20.5,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 31.7,
+        "highTemp": 41.7,
+        "lowTemp": 21.7,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 39.7,
+        "highTemp": 50.9,
+        "lowTemp": 28.5,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 50.8,
+        "highTemp": 63.9,
+        "lowTemp": 37.7,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 60.5,
+        "highTemp": 73.5,
+        "lowTemp": 47.4,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 68.9,
+        "highTemp": 81.2,
+        "lowTemp": 56.6,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 73,
+        "highTemp": 85,
+        "lowTemp": 61.1,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 71.8,
+        "highTemp": 83.4,
+        "lowTemp": 60.1,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 64.9,
+        "highTemp": 76.8,
+        "lowTemp": 53,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 53.4,
+        "highTemp": 65,
+        "lowTemp": 41.7,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 42.4,
+        "highTemp": 52.8,
+        "lowTemp": 32,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 33.9,
+        "highTemp": 42.5,
+        "lowTemp": 25.4,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 51.7,
+      "highTemp": 62.9,
+      "lowTemp": 40.5,
+      "totalPrecip": 42.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

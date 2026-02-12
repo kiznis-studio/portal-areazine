@@ -225,5 +225,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1PAAL0001",
+    "stationName": "BRIDGEVILLE 1.4 SW",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.6
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

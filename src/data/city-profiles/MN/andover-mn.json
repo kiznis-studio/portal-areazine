@@ -231,5 +231,93 @@
       4,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00210190",
+    "stationName": "ANDOVER 1N",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 12.4,
+        "highTemp": 22.4,
+        "lowTemp": 2.4,
+        "precip": 0.6
+      },
+      "feb": {
+        "avgTemp": 17.4,
+        "highTemp": 28,
+        "lowTemp": 6.7,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 29.7,
+        "highTemp": 40.7,
+        "lowTemp": 18.7,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 43.8,
+        "highTemp": 55.6,
+        "lowTemp": 32,
+        "precip": 2.9
+      },
+      "may": {
+        "avgTemp": 56.4,
+        "highTemp": 68.3,
+        "lowTemp": 44.6,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 66.2,
+        "highTemp": 77.5,
+        "lowTemp": 54.8,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 70.9,
+        "highTemp": 82.2,
+        "lowTemp": 59.6,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 68.4,
+        "highTemp": 79.5,
+        "lowTemp": 57.3,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 60,
+        "highTemp": 71.7,
+        "lowTemp": 48.4,
+        "precip": 2.5
+      },
+      "oct": {
+        "avgTemp": 46.9,
+        "highTemp": 57.7,
+        "lowTemp": 36,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 31.9,
+        "highTemp": 41,
+        "lowTemp": 22.7,
+        "precip": 1.4
+      },
+      "dec": {
+        "avgTemp": 18.8,
+        "highTemp": 26.8,
+        "lowTemp": 10.8,
+        "precip": 1
+      }
+    },
+    "annual": {
+      "avgTemp": 43.6,
+      "highTemp": 54.3,
+      "lowTemp": 32.8,
+      "totalPrecip": 28.8,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

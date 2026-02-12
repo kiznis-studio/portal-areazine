@@ -231,5 +231,93 @@
       5.4,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00388426",
+    "stationName": "SUMMERVILLE 4W HCN",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.4,
+        "highTemp": 58.2,
+        "lowTemp": 34.5,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 49.4,
+        "highTemp": 61.9,
+        "lowTemp": 37,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 55.4,
+        "highTemp": 68.5,
+        "lowTemp": 42.2,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 62.6,
+        "highTemp": 75.6,
+        "lowTemp": 49.5,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 70.7,
+        "highTemp": 82.3,
+        "lowTemp": 59.1,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 77.2,
+        "highTemp": 87.2,
+        "lowTemp": 67.2,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 80.5,
+        "highTemp": 90.1,
+        "lowTemp": 70.9,
+        "precip": 6.8
+      },
+      "aug": {
+        "avgTemp": 80.1,
+        "highTemp": 89.7,
+        "lowTemp": 70.4,
+        "precip": 6.2
+      },
+      "sep": {
+        "avgTemp": 74.8,
+        "highTemp": 84.7,
+        "lowTemp": 64.8,
+        "precip": 5.9
+      },
+      "oct": {
+        "avgTemp": 64.8,
+        "highTemp": 76.6,
+        "lowTemp": 53,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 54.9,
+        "highTemp": 67.7,
+        "lowTemp": 42.2,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 49.3,
+        "highTemp": 61.3,
+        "lowTemp": 37.4,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 63.8,
+      "highTemp": 75.3,
+      "lowTemp": 52.4,
+      "totalPrecip": 52.8,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

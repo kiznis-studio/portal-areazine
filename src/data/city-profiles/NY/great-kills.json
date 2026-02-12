@@ -239,5 +239,54 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1NJMD0043",
+    "stationName": "WOODBRIDGE TWP 1.1 ESE",
+    "distanceMi": 6.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

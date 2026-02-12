@@ -231,5 +231,54 @@
       3.7,
       3.5
     ]
+  },
+  "climate": {
+    "station": "US1TNWN0042",
+    "stationName": "MOUNT JULIET 2.9 WSW",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.3
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 5
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 54,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

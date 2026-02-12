@@ -263,5 +263,93 @@
       5.8,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00332067",
+    "stationName": "DAYTON MCD",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.2,
+        "highTemp": 36.3,
+        "lowTemp": 20.1,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 31.4,
+        "highTemp": 40.2,
+        "lowTemp": 22.6,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 40.6,
+        "highTemp": 50.7,
+        "lowTemp": 30.6,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 52.9,
+        "highTemp": 64.3,
+        "lowTemp": 41.4,
+        "precip": 4.5
+      },
+      "may": {
+        "avgTemp": 63.9,
+        "highTemp": 74.9,
+        "lowTemp": 52.9,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 73,
+        "highTemp": 83.6,
+        "lowTemp": 62.4,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 76.2,
+        "highTemp": 86.7,
+        "lowTemp": 65.7,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 74.8,
+        "highTemp": 85.8,
+        "lowTemp": 63.9,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 67.5,
+        "highTemp": 79.2,
+        "lowTemp": 55.8,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 54.8,
+        "highTemp": 66.1,
+        "lowTemp": 43.5,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 42.6,
+        "highTemp": 52,
+        "lowTemp": 33.1,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 33.2,
+        "highTemp": 40.9,
+        "lowTemp": 25.6,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 53.3,
+      "highTemp": 63.4,
+      "lowTemp": 43.1,
+      "totalPrecip": 41.6,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

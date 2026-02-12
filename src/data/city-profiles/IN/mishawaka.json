@@ -239,5 +239,54 @@
       4.8,
       5
     ]
+  },
+  "climate": {
+    "station": "US1INSJ0058",
+    "stationName": "SOUTH BEND 4.5 SE",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 40,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }
