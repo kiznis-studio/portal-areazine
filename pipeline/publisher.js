@@ -87,7 +87,61 @@ function ensureContentDir() {
 }
 
 /**
+ * Build the Astro site and deploy to Cloudflare Pages.
+ * Called after a successful git push.
+ */
+function buildAndDeploy(articleCount) {
+  const CF_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
+  const CF_ACCOUNT = process.env.CLOUDFLARE_ACCOUNT_ID;
+
+  if (!CF_TOKEN || !CF_ACCOUNT) {
+    console.warn('[publisher] No Cloudflare credentials, skipping deploy');
+    return;
+  }
+
+  console.log('[publisher] Building site...');
+  const buildStart = Date.now();
+
+  execFileSync('npm', ['run', 'build'], {
+    cwd: REPO_DIR,
+    encoding: 'utf-8',
+    timeout: 600_000,
+    env: {
+      ...process.env,
+      SKIP_OG: 'true',
+      NODE_ENV: 'production',
+      PATH: process.env.PATH,
+    },
+  });
+
+  const buildSec = ((Date.now() - buildStart) / 1000).toFixed(1);
+  console.log(`[publisher] Build completed in ${buildSec}s`);
+
+  console.log('[publisher] Deploying to Cloudflare Pages...');
+  execFileSync('npx', [
+    'wrangler', 'pages', 'deploy', 'dist',
+    '--project-name=portal-areazine',
+    '--branch=main',
+    `--commit-message=Pipeline: ${articleCount} articles`,
+    '--commit-dirty=true',
+  ], {
+    cwd: REPO_DIR,
+    encoding: 'utf-8',
+    timeout: 300_000,
+    env: {
+      ...process.env,
+      CLOUDFLARE_API_TOKEN: CF_TOKEN,
+      CLOUDFLARE_ACCOUNT_ID: CF_ACCOUNT,
+      PATH: process.env.PATH,
+    },
+  });
+
+  console.log('[publisher] Deploy complete');
+}
+
+/**
  * Publish a batch of articles.
+ * Bulletproof pattern: clean → sync → write → commit → push → build → deploy.
  */
 async function publishBatch() {
   const articles = stmts.getUnpublished.all(MAX_BATCH);
@@ -98,26 +152,41 @@ async function publishBatch() {
 
   console.log(`[publisher] Publishing ${articles.length} articles...`);
 
-  // Pull latest to avoid conflicts
+  // ── STEP 1: Clean local state ──
+  // Discard any leftover changes from failed pushes or external edits.
+  // Safe because unpublished articles are still in the DB and will be re-written.
   try {
-    git('pull', '--rebase', 'origin', 'main');
+    git('checkout', '--', '.');
+    git('clean', '-fd', 'src/content/articles/');
   } catch (err) {
-    console.warn(`[publisher] Git pull failed: ${err.message}, continuing anyway`);
+    console.warn(`[publisher] Git clean failed: ${err.message}`);
   }
 
+  // ── STEP 2: Sync with upstream ──
+  // Pulls any code changes pushed from dev VM.
+  // Always fast-forwards since we just cleaned.
+  try {
+    git('fetch', 'origin', 'main');
+    git('reset', '--hard', 'origin/main');
+  } catch (err) {
+    console.error(`[publisher] Git sync failed: ${err.message}`);
+    Sentry.captureException(err, { tags: { component: 'publisher', action: 'git-sync' } });
+    return 0;
+  }
+
+  // ── STEP 3: Write article files ──
   const contentDir = ensureContentDir();
   const filePaths = [];
 
   for (const article of articles) {
     const markdown = generateMarkdown(article);
     const filePath = join(contentDir, `${article.id}.md`);
-
     writeFileSync(filePath, markdown, 'utf-8');
     filePaths.push(filePath);
     console.log(`[publisher] Wrote: ${filePath}`);
   }
 
-  // Git add, commit, push
+  // ── STEP 4: Commit and push ──
   try {
     for (const fp of filePaths) {
       git('add', fp);
@@ -128,32 +197,41 @@ async function publishBatch() {
       : `Add ${articles.length} articles`;
 
     git('commit', '-m', commitMsg);
-    const sha = git('rev-parse', '--short', 'HEAD');
     git('push', 'origin', 'main');
-
-    console.log(`[publisher] Pushed commit ${sha} with ${articles.length} articles`);
-
-    // Submit to IndexNow for instant Bing/Yandex indexing
-    await submitIndexNow(articles);
-
-    // Mark all as published
-    const batchId = randomUUID();
-    for (const article of articles) {
-      stmts.markPublished.run({ id: article.id });
-    }
-
-    stmts.insertPublishLog.run({
-      batch_id: batchId,
-      article_count: articles.length,
-      commit_sha: sha,
-    });
-
-    return articles.length;
+    const sha = git('rev-parse', '--short', 'HEAD');
+    console.log(`[publisher] Pushed commit ${sha}`);
   } catch (err) {
     console.error(`[publisher] Git push failed: ${err.message}`);
-    Sentry.captureException(err, { tags: { component: 'publisher', action: 'git_push' } });
+    Sentry.captureException(err, { tags: { component: 'publisher', action: 'git-push' } });
     return 0;
   }
+
+  // ── STEP 5: Build and deploy ──
+  try {
+    buildAndDeploy(articles.length);
+  } catch (err) {
+    // Push succeeded, so articles are in GitHub even if deploy fails.
+    // Mark as published anyway — deploy will catch up next cycle.
+    console.error(`[publisher] Deploy failed: ${err.message}`);
+    Sentry.captureException(err, { tags: { component: 'publisher', action: 'deploy' } });
+  }
+
+  // ── STEP 6: Mark published + IndexNow ──
+  await submitIndexNow(articles);
+
+  const batchId = randomUUID();
+  const sha = git('rev-parse', '--short', 'HEAD');
+  for (const article of articles) {
+    stmts.markPublished.run({ id: article.id });
+  }
+
+  stmts.insertPublishLog.run({
+    batch_id: batchId,
+    article_count: articles.length,
+    commit_sha: sha,
+  });
+
+  return articles.length;
 }
 
 /**

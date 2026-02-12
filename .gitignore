@@ -33,5 +33,10 @@ keys/
 .cache/
 scripts/.cache/
 
+# Pipeline database (Aurora-only, not in repo)
+*.db
+*.db-wal
+*.db-shm
+
 # Generated at build time
 src/data/article-location-index.json
