@@ -214,9 +214,9 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
             </div>
           </section>
 
-          {/* Demographics */}
+          {/* Population */}
           <section>
-            <SectionHeader title="Demographics" />
+            <SectionHeader title="Population" />
             <div class="border border-[var(--color-border)] rounded-xl p-5">
               <DemographicsChart demographics={census.demographics} hispanicPct={census.hispanicPct} />
             </div>
@@ -411,7 +411,7 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
     "@context": "https://schema.org",
     "@type": "Dataset",
     "name": `${city.name}, ${city.stateCode} City Data Report`,
-    "description": `Demographics, economics, health, and hospital data for ${city.name}, ${city.stateCode}. Sources: U.S. Census Bureau ACS, CDC PLACES, CMS Hospital Compare, NOAA, BEA, NCES.`,
+    "description": `Population, economics, health, and hospital data for ${city.name}, ${city.stateCode}. Sources: U.S. Census Bureau ACS, CDC PLACES, CMS Hospital Compare, NOAA, BEA, NCES.`,
     "url": `https://areazine.com/cities/${city.slug}`,
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "isAccessibleForFree": true,

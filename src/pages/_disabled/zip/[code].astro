@@ -33,7 +33,7 @@ const { zip, nearby } = Astro.props as any;
 const code = zip.zip;
 const stateCode = zip.stateCode || '';
 
-const pageTitle = `ZIP Code ${code} — Demographics & Data | ${SITE_NAME}`;
+const pageTitle = `ZIP Code ${code} — Population & Data | ${SITE_NAME}`;
 const pageDesc = `${code} zip code data: population ${fmtCompact(zip.population)}, median income ${fmtMoney(zip.medianIncome)}, home value ${fmtMoney(zip.medianHomeValue)}. Census data from official U.S. government sources.`;
 
 // Use || instead of ternary to avoid Astro compiler getStaticPaths duplication bug
@@ -72,7 +72,7 @@ const fmtEducation = fmtPct(Math.round((zip.bachelorOrHigher || 0) * 10) / 10);
     </section>
 
     <section class="mb-12">
-      <SectionHeader title="Demographics" />
+      <SectionHeader title="Population" />
       <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
         <StatCard label="Median Age" value={fmtAge} accentColor="var(--color-data-slate)" />
         <StatCard label="Poverty Rate" value={fmtPoverty} accentColor="var(--color-data-red)" />

@@ -361,7 +361,7 @@ const natl = {
       while (body.firstChild) body.removeChild(body.firstChild);
 
       // Sections
-      addSection('Population & Demographics', [
+      addSection('Population', [
         { label: 'Population', a: fmtNum(a.pop), b: fmtNum(b.pop), aVal: a.pop, bVal: b.pop, max: Math.max(a.pop, b.pop) || 1 },
         { label: 'Median Age', a: a.age ? a.age.toString() : 'N/A', b: b.age ? b.age.toString() : 'N/A', aVal: a.age, bVal: b.age, max: 60 },
       ]);
@@ -528,15 +528,15 @@ const natl = {
 
         const title = document.createElement('div');
         title.className = 'text-sm font-medium mb-3';
-        title.textContent = city.name + ' Demographics';
+        title.textContent = city.name + ' Population';
         card.appendChild(title);
 
         const segments = [
           { label: 'White', value: city.white, color: '#60a5fa' },
           { label: 'Hispanic or Latino', value: city.hispanic, color: '#f59e0b' },
-          { label: 'African American', value: city.black, color: '#a78bfa' },
+          { label: 'Black or African American', value: city.black, color: '#a78bfa' },
           { label: 'Asian', value: city.asian, color: '#34d399' },
-          { label: 'Other / Multiethnic', value: Math.max(0, city.other), color: '#94a3b8' },
+          { label: 'Two or More Races', value: Math.max(0, city.other), color: '#94a3b8' },
         ].filter(s => s.value > 0);
 
         // Stacked bar

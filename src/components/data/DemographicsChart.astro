@@ -15,9 +15,9 @@ const DEMO_COLORS: Record<string, string> = {
 
 const DEMO_LABELS: Record<string, string> = {
   white: 'White',
-  black: 'African American',
+  black: 'Black or African American',
   asian: 'Asian',
-  other: 'Other / Multiracial',
+  other: 'Two or More Races',
 };
 
 const entries = Object.entries(demographics)
@@ -53,7 +53,7 @@ const entries = Object.entries(demographics)
         <span class="w-2.5 h-2.5 rounded-sm flex-shrink-0" style="background: var(--color-data-rose);" />
         <span class="text-[var(--color-muted)]">Hispanic or Latino</span>
         <span class="font-semibold tabular-nums">{hispanicPct}%</span>
-        <span class="text-[var(--color-muted)] opacity-60 text-[10px]">(ethnicity, any race)</span>
+        <span class="text-[var(--color-muted)] opacity-60 text-[10px]">(of any race)</span>
       </div>
     </div>
   )}
