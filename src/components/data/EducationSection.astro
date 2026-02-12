@@ -1,0 +1,85 @@
+---
+import { fmt } from '../../lib/format';
+
+interface Props {
+  education: {
+    source: string;
+    totalSchools: number;
+    elementarySchools: number;
+    middleSchools: number;
+    highSchools: number;
+    otherSchools: number;
+    charterSchools: number;
+    charterPct: number;
+    nslpSchools: number;
+    nslpPct: number;
+    virtualSchools: number;
+  };
+}
+
+const { education } = Astro.props;
+
+// Build breakdown for visual distribution
+const segments = [
+  { label: 'Elementary', count: education.elementarySchools, color: 'var(--color-data-blue)' },
+  { label: 'Middle', count: education.middleSchools, color: 'var(--color-data-teal)' },
+  { label: 'High', count: education.highSchools, color: 'var(--color-data-amber)' },
+  { label: 'Other', count: education.otherSchools, color: 'var(--color-data-violet)' },
+].filter(s => s.count > 0);
+
+const total = education.totalSchools || 1;
+---
+
+<section class="mb-12">
+  <div class="flex items-baseline gap-3 mb-4">
+    <h2 class="text-xs font-bold uppercase tracking-wider text-[var(--color-muted)]">Schools</h2>
+    <span class="text-xs text-[var(--color-muted)] opacity-60">NCES 2024-25</span>
+  </div>
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-4">
+    <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
+      <div class="text-xs text-[var(--color-muted)] mb-1">Total Schools</div>
+      <div class="text-xl font-black tabular-nums">{fmt(education.totalSchools)}</div>
+    </div>
+    <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
+      <div class="text-xs text-[var(--color-muted)] mb-1">Charter Schools</div>
+      <div class="text-xl font-black tabular-nums">{fmt(education.charterSchools)}</div>
+      {education.charterPct > 0 && (
+        <div class="text-xs text-[var(--color-muted)] tabular-nums">{education.charterPct.toFixed(0)}% of total</div>
+      )}
+    </div>
+    <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
+      <div class="text-xs text-[var(--color-muted)] mb-1">Free/Reduced Lunch</div>
+      <div class="text-xl font-black tabular-nums">{education.nslpPct.toFixed(0)}%</div>
+      <div class="text-xs text-[var(--color-muted)] tabular-nums">{fmt(education.nslpSchools)} schools</div>
+    </div>
+    <div class="p-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-card)]">
+      <div class="text-xs text-[var(--color-muted)] mb-1">Virtual Schools</div>
+      <div class="text-xl font-black tabular-nums">{education.virtualSchools}</div>
+    </div>
+  </div>
+
+  {/* School type distribution bar */}
+  {segments.length > 0 && (
+    <div class="border border-[var(--color-border)] rounded-xl p-4">
+      <div class="text-xs text-[var(--color-muted)] mb-2">School Type Distribution</div>
+      <div class="flex rounded overflow-hidden h-4 mb-3">
+        {segments.map(s => (
+          <div
+            style={`width: ${(s.count / total) * 100}%; background: ${s.color}; opacity: 0.7;`}
+            title={`${s.label}: ${s.count}`}
+          />
+        ))}
+      </div>
+      <div class="flex flex-wrap gap-x-4 gap-y-1">
+        {segments.map(s => (
+          <div class="flex items-center gap-1.5 text-xs">
+            <div class="w-2.5 h-2.5 rounded-sm" style={`background: ${s.color}; opacity: 0.7;`} />
+            <span>{s.label}</span>
+            <span class="text-[var(--color-muted)] tabular-nums">{fmt(s.count)}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+</section>

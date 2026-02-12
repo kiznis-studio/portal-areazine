@@ -14,6 +14,8 @@ import DataSourceFooter from '../../components/data/DataSourceFooter.astro';
 import CrimeSection from '../../components/data/CrimeSection.astro';
 import HistoricalTrends from '../../components/data/HistoricalTrends.astro';
 import ClimateSection from '../../components/data/ClimateSection.astro';
+import CostOfLivingSection from '../../components/data/CostOfLivingSection.astro';
+import EducationSection from '../../components/data/EducationSection.astro';
 import { CITIES, getNearbyCities } from '../../data/cities';
 import { getCategoryMeta, SITE_NAME } from '../../lib/config';
 import type { CategoryKey } from '../../lib/config';
@@ -46,6 +48,8 @@ const hospitalData = profile?.hospitals;
 const crimeData = profile?.crime;
 const historyData = profile?.history;
 const climateData = profile?.climate;
+const educationData = profile?.education;
+const costOfLivingData = profile?.costOfLiving;
 
 // Related articles from pre-computed index (see scripts/prebuild-article-index.cjs)
 const relatedArticles = (articleIndex as Record<string, any[]>)[city.slug]?.map(a => ({
@@ -318,6 +322,16 @@ const stateSlug = city.state.toLowerCase().replace(/\s+/g, '-');
     {/* Climate */}
     {climateData && climateData.annual && (
       <ClimateSection climate={climateData} />
+    )}
+
+    {/* Cost of Living */}
+    {costOfLivingData && costOfLivingData.rpp && (
+      <CostOfLivingSection costOfLiving={costOfLivingData} />
+    )}
+
+    {/* Schools */}
+    {educationData && educationData.totalSchools > 0 && (
+      <EducationSection education={educationData} />
     )}
 
     {/* Related Articles */}
