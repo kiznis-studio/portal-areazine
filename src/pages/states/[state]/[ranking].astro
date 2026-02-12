@@ -26,6 +26,7 @@ for (const [p, mod] of Object.entries(profileModules)) {
 }
 
 export function getStaticPaths() {
+  if (process.env.SKIP_STATES === 'true') return [];
   const states = import.meta.glob('../../../data/state-profiles/*.json', { eager: true });
   const paths: any[] = [];
 

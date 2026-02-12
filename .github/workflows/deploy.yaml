@@ -15,18 +15,79 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('**/package-lock.json') }}
+
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
+      - name: Detect build scope
+        id: scope
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "FULL_BUILD")
+          if [ "$CHANGED" = "FULL_BUILD" ]; then
+            echo "scope=full" >> "$GITHUB_OUTPUT"
+            echo "Build scope: full (no HEAD~1)"
+          elif echo "$CHANGED" | grep -qvE '^src/content/articles/'; then
+            echo "scope=full" >> "$GITHUB_OUTPUT"
+            echo "Build scope: full (non-article files changed)"
+          else
+            echo "scope=articles" >> "$GITHUB_OUTPUT"
+            echo "Build scope: articles-only"
+          fi
+
+      - name: Restore dist cache
+        if: steps.scope.outputs.scope == 'articles'
+        id: dist-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: dist-cached
+          key: dist-full-
+          restore-keys: dist-full-
+
+      # --- ARTICLE-ONLY BUILD (fast path) ---
+      - name: Build (articles only)
+        if: steps.scope.outputs.scope == 'articles' && steps.dist-cache.outputs.cache-hit == 'true'
+        run: npm run build
+        env:
+          CITY_TIER: '0'
+          SKIP_OG: 'true'
+          SKIP_STATES: 'true'
+
+      - name: Merge into cached dist
+        if: steps.scope.outputs.scope == 'articles' && steps.dist-cache.outputs.cache-hit == 'true'
+        run: |
+          echo "Article build pages: $(find dist -name '*.html' | wc -l)"
+          echo "Cached dist pages: $(find dist-cached -name '*.html' | wc -l)"
+          cp -r dist/* dist-cached/
+          rm -rf dist
+          mv dist-cached dist
+          echo "Merged dist pages: $(find dist -name '*.html' | wc -l)"
+
+      # --- FULL BUILD (slow path, also fallback when no cache) ---
+      - name: Build (full)
+        if: steps.scope.outputs.scope == 'full' || (steps.scope.outputs.scope == 'articles' && steps.dist-cache.outputs.cache-hit != 'true')
         run: npm run build
 
+      - name: Save dist cache
+        if: steps.scope.outputs.scope == 'full' || (steps.scope.outputs.scope == 'articles' && steps.dist-cache.outputs.cache-hit != 'true')
+        uses: actions/cache/save@v4
+        with:
+          path: dist
+          key: dist-full-${{ github.sha }}
+
+      # --- DEPLOY ---
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:

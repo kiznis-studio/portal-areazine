@@ -32,3 +32,6 @@ keys/
 *.log
 .cache/
 scripts/.cache/
+
+# Generated at build time
+src/data/article-location-index.json

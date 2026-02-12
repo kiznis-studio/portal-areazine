@@ -15,10 +15,10 @@ import CrimeSection from '../../components/data/CrimeSection.astro';
 import HistoricalTrends from '../../components/data/HistoricalTrends.astro';
 import ClimateSection from '../../components/data/ClimateSection.astro';
 import { CITIES, getNearbyCities } from '../../data/cities';
-import { getCollection } from 'astro:content';
 import { getCategoryMeta, SITE_NAME } from '../../lib/config';
 import type { CategoryKey } from '../../lib/config';
 import { fmt, fmtMoney, fmtPct, fmtCompact } from '../../lib/format';
+import articleIndex from '../../data/article-location-index.json';
 
 // Import all city profiles at build time
 const profileModules = import.meta.glob('../../data/city-profiles/**/*.json', { eager: true }) as Record<string, { default: any }>;
@@ -29,7 +29,7 @@ for (const [path, mod] of Object.entries(profileModules)) {
 }
 
 export function getStaticPaths() {
-  const maxTier = parseInt(import.meta.env.CITY_TIER || '2');
+  const maxTier = parseInt(process.env.CITY_TIER || '2');
   return CITIES
     .filter(c => c.tier <= maxTier)
     .map(city => ({
@@ -47,21 +47,11 @@ const crimeData = profile?.crime;
 const historyData = profile?.history;
 const climateData = profile?.climate;
 
-// Related articles
-const allArticles = await getCollection('articles');
-const cityTerms = [
-  city.name.toLowerCase(),
-  city.state.toLowerCase(),
-  city.stateCode.toLowerCase(),
-  city.countyName.toLowerCase().replace(' county', ''),
-];
-const relatedArticles = allArticles
-  .filter(a => {
-    const loc = (a.data.location || '').toLowerCase();
-    return cityTerms.some(term => loc.includes(term));
-  })
-  .sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime())
-  .slice(0, 6);
+// Related articles from pre-computed index (see scripts/prebuild-article-index.cjs)
+const relatedArticles = (articleIndex as Record<string, any[]>)[city.slug]?.map(a => ({
+  data: a,
+  id: a.id,
+})) || [];
 
 // Health measures sorted by severity
 const healthConcerns = health?.measures

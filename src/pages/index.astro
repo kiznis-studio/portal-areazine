@@ -41,7 +41,7 @@ const categorySections = [
 ].filter(s => s.articles.length > 0);
 
 // City data for homepage
-const maxTier = parseInt(import.meta.env.CITY_TIER || '2');
+const maxTier = parseInt(process.env.CITY_TIER || '2');
 const totalCities = CITIES.filter(c => c.tier <= maxTier).length;
 const totalPop = CITIES.filter(c => c.tier <= maxTier).reduce((s, c) => s + c.population, 0);
 const topCities = CITIES

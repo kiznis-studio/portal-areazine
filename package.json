@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "prebuild": "node scripts/prebuild-article-index.cjs",
+    "build": "npm run prebuild && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

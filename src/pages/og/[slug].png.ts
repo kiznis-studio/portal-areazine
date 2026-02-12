@@ -19,7 +19,8 @@ for (const [p, mod] of Object.entries(profileModules)) {
 }
 
 export const getStaticPaths: GetStaticPaths = () => {
-  const maxTier = parseInt(import.meta.env.CITY_TIER || '2');
+  if (process.env.SKIP_OG === 'true') return [];
+  const maxTier = parseInt(process.env.CITY_TIER || '2');
   return CITIES
     .filter(c => c.tier <= maxTier)
     .map(city => ({ params: { slug: city.slug }, props: { city } }));

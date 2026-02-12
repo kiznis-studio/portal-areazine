@@ -14,7 +14,7 @@ for (const [path, mod] of Object.entries(profileModules)) {
   profileMap[slug] = mod.default ?? mod;
 }
 
-const maxTier = parseInt(import.meta.env.CITY_TIER || '2');
+const maxTier = parseInt(process.env.CITY_TIER || '2');
 const cityProfiles = CITIES
   .filter(c => c.tier <= maxTier)
   .map(city => {
