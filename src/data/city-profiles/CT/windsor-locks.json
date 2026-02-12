@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USW00014740",
+    "stationName": "HARTFORD BRADLEY INTL AP 72508",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.1,
+        "highTemp": 35.3,
+        "lowTemp": 18.8,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 29.6,
+        "highTemp": 38.5,
+        "lowTemp": 20.7,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 37.8,
+        "highTemp": 47.3,
+        "lowTemp": 28.2,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 49.5,
+        "highTemp": 60.5,
+        "lowTemp": 38.4,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 60,
+        "highTemp": 71.7,
+        "lowTemp": 48.4,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 68.9,
+        "highTemp": 79.9,
+        "lowTemp": 57.8,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 74.3,
+        "highTemp": 85.2,
+        "lowTemp": 63.4,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 72.5,
+        "highTemp": 83.3,
+        "lowTemp": 61.7,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 64.8,
+        "highTemp": 75.7,
+        "lowTemp": 53.8,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 53,
+        "highTemp": 63.5,
+        "lowTemp": 42.4,
+        "precip": 4.5
+      },
+      "nov": {
+        "avgTemp": 42.3,
+        "highTemp": 51.5,
+        "lowTemp": 33,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 32.6,
+        "highTemp": 40.6,
+        "lowTemp": 24.6,
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "avgTemp": 51,
+      "highTemp": 61.1,
+      "lowTemp": 40.9,
+      "totalPrecip": 47.1,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

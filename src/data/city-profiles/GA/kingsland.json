@@ -222,5 +222,54 @@
       4,
       4
     ]
+  },
+  "climate": {
+    "station": "US1GACM0014",
+    "stationName": "KINGSLAND 3.1 NE",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 7.7
+      },
+      "jul": {
+        "precip": 7.2
+      },
+      "aug": {
+        "precip": 7.1
+      },
+      "sep": {
+        "precip": 7
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 56.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

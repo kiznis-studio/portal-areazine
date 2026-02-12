@@ -216,5 +216,54 @@
       6.8,
       6.8
     ]
+  },
+  "climate": {
+    "station": "US1NMDA0259",
+    "stationName": "SANTA TERESA 0.5 SSE",
+    "distanceMi": 4.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.5
+      },
+      "feb": {
+        "precip": 0.5
+      },
+      "mar": {
+        "precip": 0.3
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.7
+      },
+      "jul": {
+        "precip": 1.4
+      },
+      "aug": {
+        "precip": 1.7
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 9.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

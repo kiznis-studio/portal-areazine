@@ -303,5 +303,93 @@
       6.7,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USC00042805",
+    "stationName": "ELSINORE",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.8,
+        "highTemp": 65.7,
+        "lowTemp": 41.9,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 54.9,
+        "highTemp": 67.1,
+        "lowTemp": 42.7,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 58.7,
+        "highTemp": 71.5,
+        "lowTemp": 45.8,
+        "precip": 1.5
+      },
+      "apr": {
+        "avgTemp": 62.6,
+        "highTemp": 76.5,
+        "lowTemp": 48.7,
+        "precip": 0.5
+      },
+      "may": {
+        "avgTemp": 67.9,
+        "highTemp": 82,
+        "lowTemp": 53.8,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 74.3,
+        "highTemp": 90.2,
+        "lowTemp": 58.3,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 80.3,
+        "highTemp": 96.5,
+        "lowTemp": 64.1,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 81.3,
+        "highTemp": 97.8,
+        "lowTemp": 64.8,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 77.2,
+        "highTemp": 93.2,
+        "lowTemp": 61.2,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 68.5,
+        "highTemp": 83.1,
+        "lowTemp": 53.9,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 59.6,
+        "highTemp": 73.2,
+        "lowTemp": 45.9,
+        "precip": 0.6
+      },
+      "dec": {
+        "avgTemp": 52.6,
+        "highTemp": 65,
+        "lowTemp": 40.3,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 66,
+      "highTemp": 80.2,
+      "lowTemp": 51.8,
+      "totalPrecip": 11.8,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

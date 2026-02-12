@@ -271,5 +271,93 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00114837",
+    "stationName": "LAKE VILLA 2NE",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.2,
+        "highTemp": 29.9,
+        "lowTemp": 14.6,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 25.7,
+        "highTemp": 34,
+        "lowTemp": 17.5,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 35.7,
+        "highTemp": 44.8,
+        "lowTemp": 26.6,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 46.9,
+        "highTemp": 56.8,
+        "lowTemp": 37.1,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 58.3,
+        "highTemp": 68.8,
+        "lowTemp": 47.8,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 68.1,
+        "highTemp": 78.4,
+        "lowTemp": 57.9,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 72.7,
+        "highTemp": 82.3,
+        "lowTemp": 63.1,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 71.2,
+        "highTemp": 80.6,
+        "lowTemp": 61.8,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 63.9,
+        "highTemp": 73.4,
+        "lowTemp": 54.4,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 51.7,
+        "highTemp": 60.4,
+        "lowTemp": 43.1,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 39,
+        "highTemp": 47.1,
+        "lowTemp": 30.9,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 27.9,
+        "highTemp": 35,
+        "lowTemp": 20.8,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 48.6,
+      "highTemp": 57.6,
+      "lowTemp": 39.6,
+      "totalPrecip": 37.7,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

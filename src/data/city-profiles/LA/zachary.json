@@ -216,5 +216,54 @@
       7.1,
       7.6
     ]
+  },
+  "climate": {
+    "station": "USC00169930",
+    "stationName": "ZACHARY",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.3
+      },
+      "feb": {
+        "precip": 5.2
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 6.3
+      },
+      "jun": {
+        "precip": 6.9
+      },
+      "jul": {
+        "precip": 5.3
+      },
+      "aug": {
+        "precip": 5.2
+      },
+      "sep": {
+        "precip": 5.1
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 63.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

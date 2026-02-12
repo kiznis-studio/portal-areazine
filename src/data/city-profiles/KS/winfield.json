@@ -231,5 +231,93 @@
       5.3,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00148964",
+    "stationName": "WINFIELD 3NE",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.2,
+        "highTemp": 44.2,
+        "lowTemp": 20.2,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 36.4,
+        "highTemp": 49.2,
+        "lowTemp": 23.6,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 46,
+        "highTemp": 59.1,
+        "lowTemp": 32.9,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 55.5,
+        "highTemp": 68.4,
+        "lowTemp": 42.5,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 65.2,
+        "highTemp": 76.5,
+        "lowTemp": 53.9,
+        "precip": 6
+      },
+      "jun": {
+        "avgTemp": 74.6,
+        "highTemp": 85.7,
+        "lowTemp": 63.5,
+        "precip": 5.7
+      },
+      "jul": {
+        "avgTemp": 79.7,
+        "highTemp": 91.1,
+        "lowTemp": 68.2,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 78.1,
+        "highTemp": 90.2,
+        "lowTemp": 66,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 70,
+        "highTemp": 82.2,
+        "lowTemp": 57.8,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 57.8,
+        "highTemp": 70.8,
+        "lowTemp": 44.8,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 45.2,
+        "highTemp": 57.6,
+        "lowTemp": 32.8,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 34.8,
+        "highTemp": 46.1,
+        "lowTemp": 23.4,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 56.3,
+      "highTemp": 68.4,
+      "lowTemp": 44.1,
+      "totalPrecip": 40.7,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

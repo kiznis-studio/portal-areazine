@@ -222,5 +222,93 @@
       3.4,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00334681",
+    "stationName": "LONDON FISH HATCHERY",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.9,
+        "highTemp": 33.2,
+        "lowTemp": 18.6,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 28.6,
+        "highTemp": 36.7,
+        "lowTemp": 20.6,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 38.1,
+        "highTemp": 47.7,
+        "lowTemp": 28.5,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 49.8,
+        "highTemp": 61.1,
+        "lowTemp": 38.5,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 60.5,
+        "highTemp": 71.3,
+        "lowTemp": 49.8,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 69.5,
+        "highTemp": 79.3,
+        "lowTemp": 59.6,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 72.4,
+        "highTemp": 82.2,
+        "lowTemp": 62.6,
+        "precip": 5
+      },
+      "aug": {
+        "avgTemp": 70.7,
+        "highTemp": 80.9,
+        "lowTemp": 60.5,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 64.2,
+        "highTemp": 75.7,
+        "lowTemp": 52.8,
+        "precip": 2.9
+      },
+      "oct": {
+        "avgTemp": 52.5,
+        "highTemp": 64,
+        "lowTemp": 41.1,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 40.8,
+        "highTemp": 49.8,
+        "lowTemp": 31.8,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 31.3,
+        "highTemp": 38.5,
+        "lowTemp": 24,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 50.4,
+      "highTemp": 60,
+      "lowTemp": 40.7,
+      "totalPrecip": 42.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

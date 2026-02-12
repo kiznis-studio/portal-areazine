@@ -239,5 +239,54 @@
       3.9,
       4
     ]
+  },
+  "climate": {
+    "station": "US1TXEL0007",
+    "stationName": "PECAN HILL 2.7 WSW",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 1.9
+      },
+      "aug": {
+        "precip": 3
+      },
+      "sep": {
+        "precip": 2.8
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.7,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00502107",
+    "stationName": "COLLEGE OBSY",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": -4.7,
+        "highTemp": 2.2,
+        "lowTemp": -11.5,
+        "precip": 0.7
+      },
+      "feb": {
+        "avgTemp": 3.3,
+        "highTemp": 12,
+        "lowTemp": -5.3,
+        "precip": 0.6
+      },
+      "mar": {
+        "avgTemp": 12.2,
+        "highTemp": 23.6,
+        "lowTemp": 0.7,
+        "precip": 0.5
+      },
+      "apr": {
+        "avgTemp": 32.9,
+        "highTemp": 44,
+        "lowTemp": 21.7,
+        "precip": 0.4
+      },
+      "may": {
+        "avgTemp": 48.6,
+        "highTemp": 60.3,
+        "lowTemp": 36.8,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 59,
+        "highTemp": 70.1,
+        "lowTemp": 47.9,
+        "precip": 1.9
+      },
+      "jul": {
+        "avgTemp": 61.2,
+        "highTemp": 71.3,
+        "lowTemp": 51,
+        "precip": 2.5
+      },
+      "aug": {
+        "avgTemp": 55.3,
+        "highTemp": 65.1,
+        "lowTemp": 45.6,
+        "precip": 2.4
+      },
+      "sep": {
+        "avgTemp": 44.1,
+        "highTemp": 53.8,
+        "lowTemp": 34.5,
+        "precip": 1.6
+      },
+      "oct": {
+        "avgTemp": 25.7,
+        "highTemp": 33.2,
+        "lowTemp": 18.2,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 5.6,
+        "highTemp": 12.1,
+        "lowTemp": -0.9,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": -1.5,
+        "highTemp": 5,
+        "lowTemp": -8,
+        "precip": 0.6
+      }
+    },
+    "annual": {
+      "avgTemp": 28.5,
+      "highTemp": 37.7,
+      "lowTemp": 19.2,
+      "totalPrecip": 13.5,
+      "hotMonths": 0,
+      "coldMonths": 7
+    }
   }
 }

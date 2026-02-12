@@ -231,5 +231,93 @@
       5.5,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00336949",
+    "stationName": "RAVENNA 2 S",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.5,
+        "highTemp": 33.9,
+        "lowTemp": 17,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 27,
+        "highTemp": 37,
+        "lowTemp": 17,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 35.1,
+        "highTemp": 45.6,
+        "lowTemp": 24.6,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 47.1,
+        "highTemp": 58.5,
+        "lowTemp": 35.6,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 59,
+        "highTemp": 71.1,
+        "lowTemp": 46.9,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 68.6,
+        "highTemp": 80.8,
+        "lowTemp": 56.4,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 72.3,
+        "highTemp": 84.5,
+        "lowTemp": 60.1,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 69.6,
+        "highTemp": 81.5,
+        "lowTemp": 57.7,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 62.7,
+        "highTemp": 74.5,
+        "lowTemp": 50.9,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 51.3,
+        "highTemp": 62.5,
+        "lowTemp": 40,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 40,
+        "highTemp": 49.3,
+        "lowTemp": 30.7,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 39.3,
+        "lowTemp": 23.4,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 49.1,
+      "highTemp": 59.9,
+      "lowTemp": 38.4,
+      "totalPrecip": 43.1,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

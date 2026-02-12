@@ -231,5 +231,93 @@
       3.9,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00386209",
+    "stationName": "NEWBERRY HCN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.6,
+        "highTemp": 54.1,
+        "lowTemp": 31.1,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 46,
+        "highTemp": 58,
+        "lowTemp": 34,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 52.4,
+        "highTemp": 65.2,
+        "lowTemp": 39.5,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 61.3,
+        "highTemp": 74.1,
+        "lowTemp": 48.5,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 69.8,
+        "highTemp": 81.5,
+        "lowTemp": 58,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 77.3,
+        "highTemp": 88.2,
+        "lowTemp": 66.4,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 80.6,
+        "highTemp": 91.4,
+        "lowTemp": 69.9,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 78.9,
+        "highTemp": 89.2,
+        "lowTemp": 68.5,
+        "precip": 4.9
+      },
+      "sep": {
+        "avgTemp": 73.3,
+        "highTemp": 84.2,
+        "lowTemp": 62.4,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 62.5,
+        "highTemp": 74.7,
+        "lowTemp": 50.2,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 51.9,
+        "highTemp": 64.1,
+        "lowTemp": 39.7,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 45.4,
+        "highTemp": 56.7,
+        "lowTemp": 34.2,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 61.8,
+      "highTemp": 73.5,
+      "lowTemp": 50.2,
+      "totalPrecip": 46.7,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

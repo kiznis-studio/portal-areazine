@@ -303,5 +303,93 @@
       7.2,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USW00004853",
+    "stationName": "CLEVELAND BURKE AP",
+    "distanceMi": 9.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.4,
+        "highTemp": 35.3,
+        "lowTemp": 23.5,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 30.9,
+        "highTemp": 37.3,
+        "lowTemp": 24.5,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 38,
+        "highTemp": 44.9,
+        "lowTemp": 31.2,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 49.2,
+        "highTemp": 57.1,
+        "lowTemp": 41.3,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 60.5,
+        "highTemp": 67.9,
+        "lowTemp": 53.1,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 70,
+        "highTemp": 76.7,
+        "lowTemp": 63.3,
+        "precip": 2.8
+      },
+      "jul": {
+        "avgTemp": 74.3,
+        "highTemp": 80.7,
+        "lowTemp": 67.9,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 73.3,
+        "highTemp": 79.7,
+        "lowTemp": 67,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 66.8,
+        "highTemp": 73.5,
+        "lowTemp": 60.1,
+        "precip": 2.9
+      },
+      "oct": {
+        "avgTemp": 55.9,
+        "highTemp": 62.5,
+        "lowTemp": 49.2,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 44.5,
+        "highTemp": 50.5,
+        "lowTemp": 38.4,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 35,
+        "highTemp": 40.1,
+        "lowTemp": 29.8,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 52.3,
+      "highTemp": 58.9,
+      "lowTemp": 45.8,
+      "totalPrecip": 33.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

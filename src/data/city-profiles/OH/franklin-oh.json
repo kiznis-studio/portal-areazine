@@ -231,5 +231,93 @@
       3,
       3.1
     ]
+  },
+  "climate": {
+    "station": "USC00332928",
+    "stationName": "FRANKLIN",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.4,
+        "highTemp": 38.4,
+        "lowTemp": 20.4,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 31.9,
+        "highTemp": 42,
+        "lowTemp": 21.8,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 41.1,
+        "highTemp": 52.2,
+        "lowTemp": 30,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 52,
+        "highTemp": 64.7,
+        "lowTemp": 39.3,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 62.4,
+        "highTemp": 74.1,
+        "lowTemp": 50.6,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 71.1,
+        "highTemp": 82.4,
+        "lowTemp": 59.9,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 74.6,
+        "highTemp": 85.8,
+        "lowTemp": 63.5,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 73.1,
+        "highTemp": 85.1,
+        "lowTemp": 61.1,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 66,
+        "highTemp": 78.9,
+        "lowTemp": 53.1,
+        "precip": 2.9
+      },
+      "oct": {
+        "avgTemp": 53.9,
+        "highTemp": 66.7,
+        "lowTemp": 41.2,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 42.6,
+        "highTemp": 53.4,
+        "lowTemp": 31.9,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 34,
+        "highTemp": 42.5,
+        "lowTemp": 25.5,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 52.7,
+      "highTemp": 63.9,
+      "lowTemp": 41.5,
+      "totalPrecip": 42.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

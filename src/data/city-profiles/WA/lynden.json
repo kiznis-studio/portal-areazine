@@ -231,5 +231,54 @@
       4.9,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1WAWC0035",
+    "stationName": "LYNDEN 1.0 SW",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.8
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 4.8
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 3.4
+      },
+      "jun": {
+        "precip": 1.8
+      },
+      "jul": {
+        "precip": 1.3
+      },
+      "aug": {
+        "precip": 1.1
+      },
+      "sep": {
+        "precip": 2.3
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 6.3
+      },
+      "dec": {
+        "precip": 6.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

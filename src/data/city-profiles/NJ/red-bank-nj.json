@@ -263,5 +263,54 @@
       5.4,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1NJMN0010",
+    "stationName": "EATONTOWN 1.2 NE",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4.5
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

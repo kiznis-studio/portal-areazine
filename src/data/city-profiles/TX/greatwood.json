@@ -263,5 +263,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "US1TXFB0005",
+    "stationName": "SUGAR LAND .5 SE",
+    "distanceMi": 4.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 5.8
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

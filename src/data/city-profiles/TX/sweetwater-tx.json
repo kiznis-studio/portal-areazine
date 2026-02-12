@@ -222,5 +222,93 @@
       6.6,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USC00417743",
+    "stationName": "ROSCOE",
+    "distanceMi": 7.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 43.2,
+        "highTemp": 55.5,
+        "lowTemp": 30.8,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 47.3,
+        "highTemp": 60.3,
+        "lowTemp": 34.3,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 55.1,
+        "highTemp": 68.7,
+        "lowTemp": 41.6,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 63.8,
+        "highTemp": 77.8,
+        "lowTemp": 49.8,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 72.3,
+        "highTemp": 84.8,
+        "lowTemp": 59.9,
+        "precip": 2.8
+      },
+      "jun": {
+        "avgTemp": 79.5,
+        "highTemp": 91.1,
+        "lowTemp": 68,
+        "precip": 3.1
+      },
+      "jul": {
+        "avgTemp": 83,
+        "highTemp": 94.6,
+        "lowTemp": 71.3,
+        "precip": 1.8
+      },
+      "aug": {
+        "avgTemp": 82,
+        "highTemp": 93.5,
+        "lowTemp": 70.5,
+        "precip": 2.2
+      },
+      "sep": {
+        "avgTemp": 74.5,
+        "highTemp": 85.7,
+        "lowTemp": 63.3,
+        "precip": 2.1
+      },
+      "oct": {
+        "avgTemp": 64.5,
+        "highTemp": 76.5,
+        "lowTemp": 52.6,
+        "precip": 2.2
+      },
+      "nov": {
+        "avgTemp": 52.9,
+        "highTemp": 64.8,
+        "lowTemp": 41,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 44.9,
+        "highTemp": 56.8,
+        "lowTemp": 33,
+        "precip": 1
+      }
+    },
+    "annual": {
+      "avgTemp": 63.6,
+      "highTemp": 75.8,
+      "lowTemp": 51.3,
+      "totalPrecip": 21.3,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

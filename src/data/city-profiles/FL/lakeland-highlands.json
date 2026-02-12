@@ -263,5 +263,54 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1FLPK0018",
+    "stationName": "LAKELAND HIGHLANDS 0.3 SE",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 3
+      },
+      "jun": {
+        "precip": 8.8
+      },
+      "jul": {
+        "precip": 9.4
+      },
+      "aug": {
+        "precip": 7.8
+      },
+      "sep": {
+        "precip": 6.1
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

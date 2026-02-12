@@ -303,5 +303,54 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1FLBW0007",
+    "stationName": "POMPANO BEACH HIGHLANDS 0.7 E",
+    "distanceMi": 6.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 5.7
+      },
+      "jun": {
+        "precip": 9.7
+      },
+      "jul": {
+        "precip": 6
+      },
+      "aug": {
+        "precip": 8.4
+      },
+      "sep": {
+        "precip": 8.6
+      },
+      "oct": {
+        "precip": 6.9
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 65.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       8.8,
       7.8
     ]
+  },
+  "climate": {
+    "station": "USC00162212",
+    "stationName": "CROWLEY 2 NE",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.1,
+        "highTemp": 60.6,
+        "lowTemp": 41.6,
+        "precip": 6.4
+      },
+      "feb": {
+        "avgTemp": 54.8,
+        "highTemp": 64.4,
+        "lowTemp": 45.2,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 61.6,
+        "highTemp": 71.2,
+        "lowTemp": 52,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 68.1,
+        "highTemp": 77.5,
+        "lowTemp": 58.8,
+        "precip": 5.3
+      },
+      "may": {
+        "avgTemp": 75.6,
+        "highTemp": 84.3,
+        "lowTemp": 67,
+        "precip": 5.6
+      },
+      "jun": {
+        "avgTemp": 80.9,
+        "highTemp": 89.2,
+        "lowTemp": 72.5,
+        "precip": 6.7
+      },
+      "jul": {
+        "avgTemp": 82.4,
+        "highTemp": 90.7,
+        "lowTemp": 74.1,
+        "precip": 5.8
+      },
+      "aug": {
+        "avgTemp": 82.5,
+        "highTemp": 91.5,
+        "lowTemp": 73.5,
+        "precip": 6.2
+      },
+      "sep": {
+        "avgTemp": 78.7,
+        "highTemp": 88.1,
+        "lowTemp": 69.2,
+        "precip": 5
+      },
+      "oct": {
+        "avgTemp": 69.9,
+        "highTemp": 80.7,
+        "lowTemp": 59.1,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 59.9,
+        "highTemp": 70.4,
+        "lowTemp": 49.3,
+        "precip": 5
+      },
+      "dec": {
+        "avgTemp": 53.3,
+        "highTemp": 62.9,
+        "lowTemp": 43.7,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 68.2,
+      "highTemp": 77.6,
+      "lowTemp": 58.8,
+      "totalPrecip": 63.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

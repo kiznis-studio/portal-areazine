@@ -239,5 +239,93 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00302197",
+    "stationName": "DUNKIRK",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25,
+        "highTemp": 32.7,
+        "lowTemp": 17.3,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 25.7,
+        "highTemp": 34.4,
+        "lowTemp": 16.9,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 33.1,
+        "highTemp": 42.1,
+        "lowTemp": 24.1,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 44.3,
+        "highTemp": 54.2,
+        "lowTemp": 34.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 56.8,
+        "highTemp": 67.2,
+        "lowTemp": 46.4,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 66.9,
+        "highTemp": 76.9,
+        "lowTemp": 56.9,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 70.9,
+        "highTemp": 80.4,
+        "lowTemp": 61.3,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 69.5,
+        "highTemp": 79.1,
+        "lowTemp": 59.8,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 62.8,
+        "highTemp": 73,
+        "lowTemp": 52.5,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 52.3,
+        "highTemp": 60.9,
+        "lowTemp": 43.6,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 41.4,
+        "highTemp": 48.6,
+        "lowTemp": 34.1,
+        "precip": 4.1
+      },
+      "dec": {
+        "avgTemp": 31.9,
+        "highTemp": 38,
+        "lowTemp": 25.8,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 48.4,
+      "highTemp": 57.3,
+      "lowTemp": 39.4,
+      "totalPrecip": 47,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

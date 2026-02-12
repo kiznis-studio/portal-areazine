@@ -239,5 +239,54 @@
       5.7,
       5.9
     ]
+  },
+  "climate": {
+    "station": "US1ARGL0004",
+    "stationName": "HOT SPRINGS VILLAGE 1.2 E",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 6.1
+      },
+      "may": {
+        "precip": 6.8
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 5.6
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 59.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,54 @@
       5.2,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1WACK0029",
+    "stationName": "CAMAS 2.4 E",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7.3
+      },
+      "feb": {
+        "precip": 5.2
+      },
+      "mar": {
+        "precip": 5.7
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 3
+      },
+      "jul": {
+        "precip": 0.8
+      },
+      "aug": {
+        "precip": 0.7
+      },
+      "sep": {
+        "precip": 2.3
+      },
+      "oct": {
+        "precip": 5.4
+      },
+      "nov": {
+        "precip": 7.7
+      },
+      "dec": {
+        "precip": 7.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

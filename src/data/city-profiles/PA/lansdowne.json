@@ -169,5 +169,54 @@
       6.8,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1PAMT0048",
+    "stationName": "ARDMORE 0.5 NW",
+    "distanceMi": 5.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.7
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 5
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

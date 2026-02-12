@@ -231,5 +231,93 @@
       5.2,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00030460",
+    "stationName": "BATESVILLE L&D 1",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38,
+        "highTemp": 47.9,
+        "lowTemp": 28.2,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 41.3,
+        "highTemp": 52,
+        "lowTemp": 30.7,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 49.5,
+        "highTemp": 60.8,
+        "lowTemp": 38.1,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 59.4,
+        "highTemp": 71,
+        "lowTemp": 47.7,
+        "precip": 5.6
+      },
+      "may": {
+        "avgTemp": 68.2,
+        "highTemp": 78.8,
+        "lowTemp": 57.6,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 76.5,
+        "highTemp": 87.2,
+        "lowTemp": 65.7,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 80.2,
+        "highTemp": 90.7,
+        "lowTemp": 69.6,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 79,
+        "highTemp": 90.3,
+        "lowTemp": 67.7,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 71.9,
+        "highTemp": 83.7,
+        "lowTemp": 60.1,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 60.7,
+        "highTemp": 72.8,
+        "lowTemp": 48.6,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 49.3,
+        "highTemp": 60.3,
+        "lowTemp": 38.3,
+        "precip": 4.9
+      },
+      "dec": {
+        "avgTemp": 40.7,
+        "highTemp": 50.6,
+        "lowTemp": 30.8,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 59.6,
+      "highTemp": 70.5,
+      "lowTemp": 48.6,
+      "totalPrecip": 50.9,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

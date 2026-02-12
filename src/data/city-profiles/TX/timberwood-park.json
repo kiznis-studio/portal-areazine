@@ -279,5 +279,54 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "US1TXBXR129",
+    "stationName": "TIMBERWOOD PARK 3.0 SW",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.6
+      },
+      "apr": {
+        "precip": 2.2
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 2.4
+      },
+      "aug": {
+        "precip": 2.4
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 35.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

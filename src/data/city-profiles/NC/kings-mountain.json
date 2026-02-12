@@ -231,5 +231,54 @@
       6.4,
       5.7
     ]
+  },
+  "climate": {
+    "station": "US1NCGS0021",
+    "stationName": "GASTONIA 1.8 SSE",
+    "distanceMi": 10.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

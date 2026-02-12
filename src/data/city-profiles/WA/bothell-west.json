@@ -247,5 +247,54 @@
       4.4,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1WASN0087",
+    "stationName": "BOTHELL 5.4 N",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.7
+      },
+      "feb": {
+        "precip": 3.9
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 2.8
+      },
+      "jun": {
+        "precip": 2
+      },
+      "jul": {
+        "precip": 1.2
+      },
+      "aug": {
+        "precip": 1.3
+      },
+      "sep": {
+        "precip": 2.6
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 7.1
+      },
+      "dec": {
+        "precip": 6.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 45.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

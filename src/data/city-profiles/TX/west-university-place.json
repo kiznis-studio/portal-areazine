@@ -303,5 +303,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1TXHRR119",
+    "stationName": "WEST UNIVERSITY PLACE 0.4 WNW",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 5.6
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 5.2
+      },
+      "sep": {
+        "precip": 6.1
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 4.9
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

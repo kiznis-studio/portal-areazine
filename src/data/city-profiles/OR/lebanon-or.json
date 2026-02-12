@@ -239,5 +239,81 @@
       6.2,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00354819",
+    "stationName": "LEBANON",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.8,
+        "highTemp": 48.8,
+        "lowTemp": 36.8
+      },
+      "feb": {
+        "avgTemp": 44.7,
+        "highTemp": 52.8,
+        "lowTemp": 36.6
+      },
+      "mar": {
+        "avgTemp": 48.2,
+        "highTemp": 57.7,
+        "lowTemp": 38.8
+      },
+      "apr": {
+        "avgTemp": 51.9,
+        "highTemp": 62.1,
+        "lowTemp": 41.7
+      },
+      "may": {
+        "avgTemp": 58.3,
+        "highTemp": 69.4,
+        "lowTemp": 47.3
+      },
+      "jun": {
+        "avgTemp": 63.8,
+        "highTemp": 75.5,
+        "lowTemp": 52.1
+      },
+      "jul": {
+        "avgTemp": 70.1,
+        "highTemp": 85,
+        "lowTemp": 55.2
+      },
+      "aug": {
+        "avgTemp": 70.7,
+        "highTemp": 85.8,
+        "lowTemp": 55.5
+      },
+      "sep": {
+        "avgTemp": 64.9,
+        "highTemp": 79.1,
+        "lowTemp": 50.7
+      },
+      "oct": {
+        "avgTemp": 55,
+        "highTemp": 65.1,
+        "lowTemp": 44.9
+      },
+      "nov": {
+        "avgTemp": 46.9,
+        "highTemp": 53.8,
+        "lowTemp": 40
+      },
+      "dec": {
+        "avgTemp": 41.7,
+        "highTemp": 47.3,
+        "lowTemp": 36.2
+      }
+    },
+    "annual": {
+      "avgTemp": 54.9,
+      "highTemp": 65.2,
+      "lowTemp": 44.7,
+      "totalPrecip": 0,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

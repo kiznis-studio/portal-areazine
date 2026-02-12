@@ -247,5 +247,93 @@
       5.1,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00044555",
+    "stationName": "KING CITY",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.8,
+        "highTemp": 63.3,
+        "lowTemp": 38.3,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 52.8,
+        "highTemp": 65.3,
+        "lowTemp": 40.3,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 56.1,
+        "highTemp": 69.9,
+        "lowTemp": 42.3,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 58.9,
+        "highTemp": 73.9,
+        "lowTemp": 44,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 62.8,
+        "highTemp": 78,
+        "lowTemp": 47.7,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 66.8,
+        "highTemp": 82.8,
+        "lowTemp": 50.9,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 69.4,
+        "highTemp": 84.9,
+        "lowTemp": 53.8,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 69.4,
+        "highTemp": 85.2,
+        "lowTemp": 53.7,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 68.3,
+        "highTemp": 85.1,
+        "lowTemp": 51.5,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 63.2,
+        "highTemp": 79.9,
+        "lowTemp": 46.4,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 55.2,
+        "highTemp": 69.6,
+        "lowTemp": 40.7,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 49.6,
+        "highTemp": 62,
+        "lowTemp": 37.1,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 60.3,
+      "highTemp": 75,
+      "lowTemp": 45.6,
+      "totalPrecip": 11.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

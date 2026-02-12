@@ -231,5 +231,54 @@
       7.4,
       6.7
     ]
+  },
+  "climate": {
+    "station": "USC00047293",
+    "stationName": "RED BLUFF TRTMT PLT",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.6
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 3
+      },
+      "apr": {
+        "precip": 1.6
+      },
+      "may": {
+        "precip": 1.6
+      },
+      "jun": {
+        "precip": 0.6
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 25.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

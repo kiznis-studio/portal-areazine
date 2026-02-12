@@ -239,5 +239,93 @@
       4.4,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00199227",
+    "stationName": "W HARWICH",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.3,
+        "highTemp": 37.9,
+        "lowTemp": 24.6,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 31,
+        "highTemp": 38,
+        "lowTemp": 24,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 37.2,
+        "highTemp": 43.9,
+        "lowTemp": 30.4,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 45.4,
+        "highTemp": 52,
+        "lowTemp": 38.7,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 54.8,
+        "highTemp": 61.6,
+        "lowTemp": 48,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 64.1,
+        "highTemp": 70.6,
+        "lowTemp": 57.6,
+        "precip": 3.3
+      },
+      "jul": {
+        "avgTemp": 71.1,
+        "highTemp": 77.6,
+        "lowTemp": 64.6,
+        "precip": 2.8
+      },
+      "aug": {
+        "avgTemp": 70.6,
+        "highTemp": 77.5,
+        "lowTemp": 63.6,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 63.9,
+        "highTemp": 71.2,
+        "lowTemp": 56.6,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 54.1,
+        "highTemp": 61.5,
+        "lowTemp": 46.6,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 44.8,
+        "highTemp": 52.2,
+        "lowTemp": 37.4,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 36.5,
+        "highTemp": 43.4,
+        "lowTemp": 29.6,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 50.4,
+      "highTemp": 57.3,
+      "lowTemp": 43.5,
+      "totalPrecip": 46.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

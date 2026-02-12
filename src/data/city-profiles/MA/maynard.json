@@ -303,5 +303,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00194580",
+    "stationName": "MAYNARD 2",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26,
+        "highTemp": 37.4,
+        "lowTemp": 14.6,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 28.2,
+        "highTemp": 40.6,
+        "lowTemp": 15.9,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 36.2,
+        "highTemp": 48.5,
+        "lowTemp": 23.8,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 47.7,
+        "highTemp": 61.6,
+        "lowTemp": 33.8,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 59.2,
+        "highTemp": 73,
+        "lowTemp": 45.3,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 67.9,
+        "highTemp": 81.1,
+        "lowTemp": 54.6,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 73.5,
+        "highTemp": 86.9,
+        "lowTemp": 60.2,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 71.5,
+        "highTemp": 84.9,
+        "lowTemp": 58,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 63.5,
+        "highTemp": 77.5,
+        "lowTemp": 49.4,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 51.7,
+        "highTemp": 65.5,
+        "lowTemp": 38,
+        "precip": 5.1
+      },
+      "nov": {
+        "avgTemp": 41.2,
+        "highTemp": 53.6,
+        "lowTemp": 28.7,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 31.7,
+        "highTemp": 42.8,
+        "lowTemp": 20.6,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 49.9,
+      "highTemp": 62.8,
+      "lowTemp": 36.9,
+      "totalPrecip": 49.9,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

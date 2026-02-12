@@ -216,5 +216,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1GADK0033",
+    "stationName": "DECATUR 1.2 NE",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.8
+      },
+      "feb": {
+        "precip": 4.8
+      },
+      "mar": {
+        "precip": 5
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

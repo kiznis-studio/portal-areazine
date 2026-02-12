@@ -231,5 +231,93 @@
       5,
       3.8
     ]
+  },
+  "climate": {
+    "station": "USC00409219",
+    "stationName": "UNION CITY HCN",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.7,
+        "highTemp": 44.5,
+        "lowTemp": 26.9,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 39.4,
+        "highTemp": 49.2,
+        "lowTemp": 29.6,
+        "precip": 4.6
+      },
+      "mar": {
+        "avgTemp": 48,
+        "highTemp": 58.6,
+        "lowTemp": 37.4,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 57.9,
+        "highTemp": 69.3,
+        "lowTemp": 46.5,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 67.7,
+        "highTemp": 78.1,
+        "lowTemp": 57.3,
+        "precip": 5.6
+      },
+      "jun": {
+        "avgTemp": 75.8,
+        "highTemp": 85.9,
+        "lowTemp": 65.7,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 78.5,
+        "highTemp": 88.4,
+        "lowTemp": 68.6,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 76.9,
+        "highTemp": 88,
+        "lowTemp": 65.8,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 70.3,
+        "highTemp": 82.5,
+        "lowTemp": 58.1,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 58.9,
+        "highTemp": 71.8,
+        "lowTemp": 46,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 47.4,
+        "highTemp": 58.5,
+        "lowTemp": 36.3,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 39,
+        "highTemp": 48,
+        "lowTemp": 30,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 58,
+      "highTemp": 68.6,
+      "lowTemp": 47.4,
+      "totalPrecip": 53.8,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

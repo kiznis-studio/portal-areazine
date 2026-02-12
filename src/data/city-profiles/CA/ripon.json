@@ -279,5 +279,52 @@
       7.2,
       7.4
     ]
+  },
+  "climate": {
+    "station": "US1CASS0006",
+    "stationName": "MODESTO 4.1 NW",
+    "distanceMi": 5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.4
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 0.9
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 1.2
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 13.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

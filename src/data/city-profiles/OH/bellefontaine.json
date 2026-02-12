@@ -231,5 +231,93 @@
       3.5,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00330563",
+    "stationName": "BELLEFONTAINE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.5,
+        "highTemp": 33.5,
+        "lowTemp": 17.6,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 28.4,
+        "highTemp": 37.1,
+        "lowTemp": 19.7,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 38,
+        "highTemp": 47.5,
+        "lowTemp": 28.5,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 49.8,
+        "highTemp": 60.7,
+        "lowTemp": 38.8,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 60.9,
+        "highTemp": 71.3,
+        "lowTemp": 50.6,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 69.7,
+        "highTemp": 79.5,
+        "lowTemp": 59.9,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 72.8,
+        "highTemp": 82.6,
+        "lowTemp": 63,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 71.4,
+        "highTemp": 81.3,
+        "lowTemp": 61.5,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 65.2,
+        "highTemp": 76,
+        "lowTemp": 54.4,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 53.1,
+        "highTemp": 63.7,
+        "lowTemp": 42.5,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 41,
+        "highTemp": 49.9,
+        "lowTemp": 32.1,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 31,
+        "highTemp": 38.4,
+        "lowTemp": 23.6,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 50.6,
+      "highTemp": 60.1,
+      "lowTemp": 41,
+      "totalPrecip": 42.7,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

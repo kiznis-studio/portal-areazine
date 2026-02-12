@@ -231,5 +231,93 @@
       8.6,
       7.9
     ]
+  },
+  "climate": {
+    "station": "USC00318500",
+    "stationName": "TARBORO 1 S HCN",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40.8,
+        "highTemp": 51.4,
+        "lowTemp": 30.1,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 43.3,
+        "highTemp": 54.7,
+        "lowTemp": 31.9,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 50.1,
+        "highTemp": 61.9,
+        "lowTemp": 38.4,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 59.4,
+        "highTemp": 71.8,
+        "lowTemp": 47,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 68,
+        "highTemp": 78.8,
+        "lowTemp": 57.1,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 75.9,
+        "highTemp": 85.9,
+        "lowTemp": 65.9,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 79.8,
+        "highTemp": 89.3,
+        "lowTemp": 70.3,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 78.1,
+        "highTemp": 87.3,
+        "lowTemp": 68.9,
+        "precip": 5
+      },
+      "sep": {
+        "avgTemp": 72.5,
+        "highTemp": 82.1,
+        "lowTemp": 62.8,
+        "precip": 6.2
+      },
+      "oct": {
+        "avgTemp": 61.6,
+        "highTemp": 73,
+        "lowTemp": 50.2,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 51.3,
+        "highTemp": 63.1,
+        "lowTemp": 39.6,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 44.4,
+        "highTemp": 55.2,
+        "lowTemp": 33.6,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 60.4,
+      "highTemp": 71.2,
+      "lowTemp": 49.7,
+      "totalPrecip": 47.6,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

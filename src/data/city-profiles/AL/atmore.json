@@ -222,5 +222,93 @@
       9.2,
       9.1
     ]
+  },
+  "climate": {
+    "station": "USC00010402",
+    "stationName": "ATMORE",
+    "distanceMi": 11.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.8,
+        "highTemp": 60.6,
+        "lowTemp": 39.1,
+        "precip": 6
+      },
+      "feb": {
+        "avgTemp": 53.8,
+        "highTemp": 65.1,
+        "lowTemp": 42.5,
+        "precip": 4.8
+      },
+      "mar": {
+        "avgTemp": 60.4,
+        "highTemp": 72.2,
+        "lowTemp": 48.6,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 66.8,
+        "highTemp": 78.7,
+        "lowTemp": 54.9,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 74.8,
+        "highTemp": 86.2,
+        "lowTemp": 63.5,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 80.8,
+        "highTemp": 90.9,
+        "lowTemp": 70.7,
+        "precip": 6
+      },
+      "jul": {
+        "avgTemp": 82.7,
+        "highTemp": 92.4,
+        "lowTemp": 73,
+        "precip": 6.9
+      },
+      "aug": {
+        "avgTemp": 82.3,
+        "highTemp": 92.1,
+        "lowTemp": 72.5,
+        "precip": 5.6
+      },
+      "sep": {
+        "avgTemp": 78.3,
+        "highTemp": 88.5,
+        "lowTemp": 68.1,
+        "precip": 5.4
+      },
+      "oct": {
+        "avgTemp": 68.7,
+        "highTemp": 80.3,
+        "lowTemp": 57.1,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 58.4,
+        "highTemp": 70.2,
+        "lowTemp": 46.7,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 52.3,
+        "highTemp": 63,
+        "lowTemp": 41.6,
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "avgTemp": 67.4,
+      "highTemp": 78.4,
+      "lowTemp": 56.5,
+      "totalPrecip": 63.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

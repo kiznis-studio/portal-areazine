@@ -239,5 +239,54 @@
       2.9,
       2.7
     ]
+  },
+  "climate": {
+    "station": "US1SCJS0009",
+    "stationName": "BLUFFTON 7.2 NW",
+    "distanceMi": 7.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 3.3
+      },
+      "jun": {
+        "precip": 5.7
+      },
+      "jul": {
+        "precip": 6.1
+      },
+      "aug": {
+        "precip": 6.6
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 51,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

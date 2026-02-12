@@ -161,5 +161,93 @@
       6.3,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00368596",
+    "stationName": "E STROUDSBURG HCN",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.5,
+        "highTemp": 35.8,
+        "lowTemp": 19.3,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 30,
+        "highTemp": 39.3,
+        "lowTemp": 20.6,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 38,
+        "highTemp": 48.2,
+        "lowTemp": 27.9,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 49.5,
+        "highTemp": 61.9,
+        "lowTemp": 37.2,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 59.8,
+        "highTemp": 72.1,
+        "lowTemp": 47.4,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 67.8,
+        "highTemp": 79.6,
+        "lowTemp": 56.1,
+        "precip": 5.5
+      },
+      "jul": {
+        "avgTemp": 72.7,
+        "highTemp": 84.3,
+        "lowTemp": 61,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 70.7,
+        "highTemp": 82.3,
+        "lowTemp": 59.2,
+        "precip": 4.8
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 74.9,
+        "lowTemp": 52.3,
+        "precip": 5.3
+      },
+      "oct": {
+        "avgTemp": 51.7,
+        "highTemp": 63,
+        "lowTemp": 40.4,
+        "precip": 5.2
+      },
+      "nov": {
+        "avgTemp": 41.2,
+        "highTemp": 51,
+        "lowTemp": 31.5,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 32.5,
+        "highTemp": 40.4,
+        "lowTemp": 24.5,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 50.4,
+      "highTemp": 61.1,
+      "lowTemp": 39.8,
+      "totalPrecip": 53.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

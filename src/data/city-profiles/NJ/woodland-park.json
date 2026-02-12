@@ -239,5 +239,81 @@
       7.8,
       7.8
     ]
+  },
+  "climate": {
+    "station": "USC00284887",
+    "stationName": "LITTLE FALLS",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.5,
+        "highTemp": 39.3,
+        "lowTemp": 21.6
+      },
+      "feb": {
+        "avgTemp": 31.8,
+        "highTemp": 41,
+        "lowTemp": 22.6
+      },
+      "mar": {
+        "avgTemp": 40.6,
+        "highTemp": 50.5,
+        "lowTemp": 30.7
+      },
+      "apr": {
+        "avgTemp": 51.2,
+        "highTemp": 62.6,
+        "lowTemp": 39.9
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 72.6,
+        "lowTemp": 50.5
+      },
+      "jun": {
+        "avgTemp": 70.8,
+        "highTemp": 81.7,
+        "lowTemp": 59.9
+      },
+      "jul": {
+        "avgTemp": 75.9,
+        "highTemp": 86.5,
+        "lowTemp": 65.3
+      },
+      "aug": {
+        "avgTemp": 73.7,
+        "highTemp": 83.8,
+        "lowTemp": 63.6
+      },
+      "sep": {
+        "avgTemp": 66.3,
+        "highTemp": 76.2,
+        "lowTemp": 56.3
+      },
+      "oct": {
+        "avgTemp": 54.6,
+        "highTemp": 65.2,
+        "lowTemp": 44
+      },
+      "nov": {
+        "avgTemp": 44.6,
+        "highTemp": 54.1,
+        "lowTemp": 35
+      },
+      "dec": {
+        "avgTemp": 35.4,
+        "highTemp": 44.2,
+        "lowTemp": 26.6
+      }
+    },
+    "annual": {
+      "avgTemp": 53.1,
+      "highTemp": 63.1,
+      "lowTemp": 43,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

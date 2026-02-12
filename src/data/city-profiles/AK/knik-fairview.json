@@ -231,5 +231,93 @@
       6.8,
       5.9
     ]
+  },
+  "climate": {
+    "station": "USC00502737",
+    "stationName": "EKLUTNA WTP",
+    "distanceMi": 10.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 14.3,
+        "highTemp": 21,
+        "lowTemp": 7.6,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 20.5,
+        "highTemp": 29.1,
+        "lowTemp": 11.9,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 25.3,
+        "highTemp": 35.9,
+        "lowTemp": 14.8,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 38.8,
+        "highTemp": 50.1,
+        "lowTemp": 27.5,
+        "precip": 0.5
+      },
+      "may": {
+        "avgTemp": 49,
+        "highTemp": 61.9,
+        "lowTemp": 36.1,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 56.6,
+        "highTemp": 68.8,
+        "lowTemp": 44.4,
+        "precip": 1.5
+      },
+      "jul": {
+        "avgTemp": 60,
+        "highTemp": 70.5,
+        "lowTemp": 49.5,
+        "precip": 1.8
+      },
+      "aug": {
+        "avgTemp": 57.5,
+        "highTemp": 67.9,
+        "lowTemp": 47.1,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 48.5,
+        "highTemp": 58,
+        "lowTemp": 38.9,
+        "precip": 2.3
+      },
+      "oct": {
+        "avgTemp": 35.3,
+        "highTemp": 44.1,
+        "lowTemp": 26.6,
+        "precip": 1.6
+      },
+      "nov": {
+        "avgTemp": 21.2,
+        "highTemp": 27.7,
+        "lowTemp": 14.7,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 17.2,
+        "highTemp": 23.9,
+        "lowTemp": 10.4,
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "avgTemp": 37,
+      "highTemp": 46.6,
+      "lowTemp": 27.5,
+      "totalPrecip": 16.6,
+      "hotMonths": 0,
+      "coldMonths": 7
+    }
   }
 }

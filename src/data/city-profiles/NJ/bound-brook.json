@@ -231,5 +231,54 @@
       5,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1NJSM0039",
+    "stationName": "FRANKLIN TWP 4.6 NNW",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

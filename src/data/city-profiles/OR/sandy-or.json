@@ -247,5 +247,54 @@
       5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1ORCC0081",
+    "stationName": "BORING 0.6 WSW",
+    "distanceMi": 5.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7.2
+      },
+      "feb": {
+        "precip": 5.3
+      },
+      "mar": {
+        "precip": 6.5
+      },
+      "apr": {
+        "precip": 5.3
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 3.2
+      },
+      "jul": {
+        "precip": 0.7
+      },
+      "aug": {
+        "precip": 0.7
+      },
+      "sep": {
+        "precip": 1.9
+      },
+      "oct": {
+        "precip": 4.7
+      },
+      "nov": {
+        "precip": 7.6
+      },
+      "dec": {
+        "precip": 8.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

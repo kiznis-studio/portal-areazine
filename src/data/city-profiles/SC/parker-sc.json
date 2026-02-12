@@ -263,5 +263,54 @@
       4.1,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1SCGV0035",
+    "stationName": "GREENVILLE 5.4 WNW",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.8
+      },
+      "feb": {
+        "precip": 4.1
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 5.8
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 55,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,54 @@
       4.2,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1WAKP0047",
+    "stationName": "POULSBO 3.7 NNW",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.7
+      },
+      "feb": {
+        "precip": 3.5
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 2.2
+      },
+      "jun": {
+        "precip": 1.6
+      },
+      "jul": {
+        "precip": 0.8
+      },
+      "aug": {
+        "precip": 1
+      },
+      "sep": {
+        "precip": 1.8
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 6.3
+      },
+      "dec": {
+        "precip": 7.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

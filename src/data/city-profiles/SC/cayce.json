@@ -239,5 +239,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00013883",
+    "stationName": "COLUMBIA 72310",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.7,
+        "highTemp": 56.8,
+        "lowTemp": 34.6,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 49.1,
+        "highTemp": 60.8,
+        "lowTemp": 37.3,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 55.9,
+        "highTemp": 68.3,
+        "lowTemp": 43.6,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 64.1,
+        "highTemp": 76.7,
+        "lowTemp": 51.5,
+        "precip": 2.8
+      },
+      "may": {
+        "avgTemp": 72.2,
+        "highTemp": 83.8,
+        "lowTemp": 60.5,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 79.1,
+        "highTemp": 89.7,
+        "lowTemp": 68.6,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 82.4,
+        "highTemp": 92.7,
+        "lowTemp": 72,
+        "precip": 5.4
+      },
+      "aug": {
+        "avgTemp": 81,
+        "highTemp": 90.8,
+        "lowTemp": 71.2,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 75.5,
+        "highTemp": 85.7,
+        "lowTemp": 65.3,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 64.6,
+        "highTemp": 76.5,
+        "lowTemp": 52.7,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 54,
+        "highTemp": 66.4,
+        "lowTemp": 41.6,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 47.7,
+        "highTemp": 58.9,
+        "lowTemp": 36.5,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 64.3,
+      "highTemp": 75.6,
+      "lowTemp": 53,
+      "totalPrecip": 45.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

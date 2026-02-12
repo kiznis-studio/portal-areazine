@@ -255,5 +255,93 @@
       5.5,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USW00012819",
+    "stationName": "LEESBURG MUNI AP",
+    "distanceMi": 5.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 59.4,
+        "highTemp": 69.9,
+        "lowTemp": 48.9,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 62.6,
+        "highTemp": 73.3,
+        "lowTemp": 52,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 66.6,
+        "highTemp": 77.3,
+        "lowTemp": 56,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 72.2,
+        "highTemp": 82.7,
+        "lowTemp": 61.7,
+        "precip": 2
+      },
+      "may": {
+        "avgTemp": 77.9,
+        "highTemp": 88.1,
+        "lowTemp": 67.7,
+        "precip": 2.7
+      },
+      "jun": {
+        "avgTemp": 81.9,
+        "highTemp": 90.7,
+        "lowTemp": 73.1,
+        "precip": 7
+      },
+      "jul": {
+        "avgTemp": 83,
+        "highTemp": 91.1,
+        "lowTemp": 74.9,
+        "precip": 5.9
+      },
+      "aug": {
+        "avgTemp": 83.3,
+        "highTemp": 91.7,
+        "lowTemp": 75,
+        "precip": 6.6
+      },
+      "sep": {
+        "avgTemp": 81.4,
+        "highTemp": 89.7,
+        "lowTemp": 73.1,
+        "precip": 5.2
+      },
+      "oct": {
+        "avgTemp": 75.3,
+        "highTemp": 84.5,
+        "lowTemp": 66.1,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 67.2,
+        "highTemp": 77.3,
+        "lowTemp": 57.1,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 62.2,
+        "highTemp": 72.4,
+        "lowTemp": 52,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 72.8,
+      "highTemp": 82.4,
+      "lowTemp": 63.1,
+      "totalPrecip": 43.8,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

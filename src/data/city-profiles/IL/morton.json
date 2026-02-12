@@ -231,5 +231,54 @@
       3.9,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00115876",
+    "stationName": "MORTON",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

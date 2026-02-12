@@ -239,5 +239,93 @@
       7.1,
       7.1
     ]
+  },
+  "climate": {
+    "station": "USC00042402",
+    "stationName": "DE SABLA",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.1,
+        "highTemp": 53.1,
+        "lowTemp": 35,
+        "precip": 11.9
+      },
+      "feb": {
+        "avgTemp": 45.1,
+        "highTemp": 55.3,
+        "lowTemp": 34.9,
+        "precip": 11.8
+      },
+      "mar": {
+        "avgTemp": 48.5,
+        "highTemp": 59.8,
+        "lowTemp": 37.2,
+        "precip": 9.6
+      },
+      "apr": {
+        "avgTemp": 52.8,
+        "highTemp": 65.5,
+        "lowTemp": 40.1,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 60.3,
+        "highTemp": 73.9,
+        "lowTemp": 46.6,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 68.1,
+        "highTemp": 83.6,
+        "lowTemp": 52.6,
+        "precip": 1
+      },
+      "jul": {
+        "avgTemp": 74.7,
+        "highTemp": 91.3,
+        "lowTemp": 58,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 73.7,
+        "highTemp": 90.5,
+        "lowTemp": 56.9,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 69.4,
+        "highTemp": 85.6,
+        "lowTemp": 53.2,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 59.9,
+        "highTemp": 73.7,
+        "lowTemp": 46.2,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 48.6,
+        "highTemp": 59,
+        "lowTemp": 38.2,
+        "precip": 6.4
+      },
+      "dec": {
+        "avgTemp": 42.7,
+        "highTemp": 51.4,
+        "lowTemp": 34.1,
+        "precip": 13
+      }
+    },
+    "annual": {
+      "avgTemp": 57.3,
+      "highTemp": 70.2,
+      "lowTemp": 44.4,
+      "totalPrecip": 65.9,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

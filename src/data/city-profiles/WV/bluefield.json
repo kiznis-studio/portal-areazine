@@ -231,5 +231,93 @@
       4.2,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00460925",
+    "stationName": "BLUEFIELD",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.9,
+        "highTemp": 40.2,
+        "lowTemp": 21.7,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 34.2,
+        "highTemp": 44.3,
+        "lowTemp": 24.1,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 41.4,
+        "highTemp": 52.9,
+        "lowTemp": 29.9,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 51.6,
+        "highTemp": 64.8,
+        "lowTemp": 38.4,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 59.9,
+        "highTemp": 72.1,
+        "lowTemp": 47.6,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 67,
+        "highTemp": 78.4,
+        "lowTemp": 55.5,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 70.3,
+        "highTemp": 81,
+        "lowTemp": 59.6,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 69.5,
+        "highTemp": 80.2,
+        "lowTemp": 58.7,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 64.3,
+        "highTemp": 75.7,
+        "lowTemp": 52.8,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 52.4,
+        "highTemp": 64.1,
+        "lowTemp": 40.6,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 41.5,
+        "highTemp": 52.8,
+        "lowTemp": 30.3,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 34.7,
+        "highTemp": 43.6,
+        "lowTemp": 25.8,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 51.5,
+      "highTemp": 62.5,
+      "lowTemp": 40.4,
+      "totalPrecip": 45.6,
+      "hotMonths": 1,
+      "coldMonths": 3
+    }
   }
 }

@@ -231,5 +231,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00171131",
+    "stationName": "CAPE NEDDICK",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.2,
+        "highTemp": 32,
+        "lowTemp": 14.4,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 25.4,
+        "highTemp": 34.9,
+        "lowTemp": 15.9,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 33,
+        "highTemp": 42.4,
+        "lowTemp": 23.5,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 44.6,
+        "highTemp": 55.6,
+        "lowTemp": 33.6,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 54.9,
+        "highTemp": 65.5,
+        "lowTemp": 44.2,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 64.1,
+        "highTemp": 73.6,
+        "lowTemp": 54.5,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 69.7,
+        "highTemp": 78.9,
+        "lowTemp": 60.5,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 69,
+        "highTemp": 78.7,
+        "lowTemp": 59.2,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 61.2,
+        "highTemp": 71,
+        "lowTemp": 51.4,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 49.6,
+        "highTemp": 59.4,
+        "lowTemp": 39.8,
+        "precip": 5.4
+      },
+      "nov": {
+        "avgTemp": 39.4,
+        "highTemp": 48.2,
+        "lowTemp": 30.5,
+        "precip": 4.3
+      },
+      "dec": {
+        "avgTemp": 29.4,
+        "highTemp": 37.9,
+        "lowTemp": 20.8,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 47,
+      "highTemp": 56.5,
+      "lowTemp": 37.4,
+      "totalPrecip": 51.6,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

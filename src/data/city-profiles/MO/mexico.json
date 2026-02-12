@@ -216,5 +216,93 @@
       3.9,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00235541",
+    "stationName": "MEXICO HCN",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.4,
+        "highTemp": 37.6,
+        "lowTemp": 19.3,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 32.8,
+        "highTemp": 42.7,
+        "lowTemp": 22.9,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 43,
+        "highTemp": 54.2,
+        "lowTemp": 31.8,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 54.4,
+        "highTemp": 65.9,
+        "lowTemp": 42.9,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 64.3,
+        "highTemp": 75.1,
+        "lowTemp": 53.5,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 73.4,
+        "highTemp": 83.9,
+        "lowTemp": 62.8,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 77.6,
+        "highTemp": 87.9,
+        "lowTemp": 67.3,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 75.8,
+        "highTemp": 86.6,
+        "lowTemp": 65,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 67.9,
+        "highTemp": 79.4,
+        "lowTemp": 56.4,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 56,
+        "highTemp": 67.6,
+        "lowTemp": 44.5,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 44,
+        "highTemp": 54.3,
+        "lowTemp": 33.7,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 33,
+        "highTemp": 41.9,
+        "lowTemp": 24.1,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 54.2,
+      "highTemp": 64.8,
+      "lowTemp": 43.7,
+      "totalPrecip": 43.6,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

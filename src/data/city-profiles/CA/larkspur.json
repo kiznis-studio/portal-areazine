@@ -247,5 +247,92 @@
       5.8,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USC00044500",
+    "stationName": "KENTFIELD",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.2,
+        "highTemp": 56.6,
+        "lowTemp": 41.9,
+        "precip": 8.8
+      },
+      "feb": {
+        "avgTemp": 52.2,
+        "highTemp": 61.1,
+        "lowTemp": 43.2,
+        "precip": 8.7
+      },
+      "mar": {
+        "avgTemp": 54.8,
+        "highTemp": 65.1,
+        "lowTemp": 44.4,
+        "precip": 6
+      },
+      "apr": {
+        "avgTemp": 57.5,
+        "highTemp": 68.7,
+        "lowTemp": 46.3,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 61.5,
+        "highTemp": 73.5,
+        "lowTemp": 49.5,
+        "precip": 1.4
+      },
+      "jun": {
+        "avgTemp": 65.8,
+        "highTemp": 79.6,
+        "lowTemp": 52,
+        "precip": 0.4
+      },
+      "jul": {
+        "avgTemp": 67.9,
+        "highTemp": 82.5,
+        "lowTemp": 53.2
+      },
+      "aug": {
+        "avgTemp": 68.3,
+        "highTemp": 83,
+        "lowTemp": 53.6,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 67.4,
+        "highTemp": 82.1,
+        "lowTemp": 52.7,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.9,
+        "highTemp": 75.8,
+        "lowTemp": 50,
+        "precip": 2
+      },
+      "nov": {
+        "avgTemp": 54.5,
+        "highTemp": 63.6,
+        "lowTemp": 45.4,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 49.1,
+        "highTemp": 56.4,
+        "lowTemp": 41.7,
+        "precip": 9.8
+      }
+    },
+    "annual": {
+      "avgTemp": 59.3,
+      "highTemp": 70.7,
+      "lowTemp": 47.8,
+      "totalPrecip": 44.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       4.5,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1WAKG0070",
+    "stationName": "AUBURN 8.2 SE",
+    "distanceMi": 5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7.3
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 5.2
+      },
+      "apr": {
+        "precip": 4.6
+      },
+      "may": {
+        "precip": 3.4
+      },
+      "jun": {
+        "precip": 2.9
+      },
+      "jul": {
+        "precip": 1.2
+      },
+      "aug": {
+        "precip": 1.4
+      },
+      "sep": {
+        "precip": 2.2
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 6.5
+      },
+      "dec": {
+        "precip": 6.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 50,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,91 @@
       8.2,
       7.8
     ]
+  },
+  "climate": {
+    "station": "USC00046168",
+    "stationName": "NEWMAN",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.2,
+        "highTemp": 60.1,
+        "lowTemp": 38.2,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 53.7,
+        "highTemp": 66.6,
+        "lowTemp": 40.8,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 58.3,
+        "highTemp": 73,
+        "lowTemp": 43.6,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 63,
+        "highTemp": 79.7,
+        "lowTemp": 46.3,
+        "precip": 0.7
+      },
+      "may": {
+        "avgTemp": 70.1,
+        "highTemp": 88,
+        "lowTemp": 52.1,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 76.6,
+        "highTemp": 95.7,
+        "lowTemp": 57.5,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 80.8,
+        "highTemp": 100,
+        "lowTemp": 61.6
+      },
+      "aug": {
+        "avgTemp": 79.3,
+        "highTemp": 98.2,
+        "lowTemp": 60.4
+      },
+      "sep": {
+        "avgTemp": 76.1,
+        "highTemp": 94.9,
+        "lowTemp": 57.3,
+        "precip": 0
+      },
+      "oct": {
+        "avgTemp": 67.5,
+        "highTemp": 85.1,
+        "lowTemp": 50,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 56.5,
+        "highTemp": 70.7,
+        "lowTemp": 42.4,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 49.1,
+        "highTemp": 60.4,
+        "lowTemp": 37.8,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 65,
+      "highTemp": 81,
+      "lowTemp": 49,
+      "totalPrecip": 11.8,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

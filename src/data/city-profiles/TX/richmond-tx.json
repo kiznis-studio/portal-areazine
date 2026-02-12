@@ -263,5 +263,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00417594",
+    "stationName": "RICHMOND",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 4.9
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4.5
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,54 @@
       2.4,
       2.5
     ]
+  },
+  "climate": {
+    "station": "US1INHS0004",
+    "stationName": "BROWNSBURG 4.6 S",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 4.6
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 45.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

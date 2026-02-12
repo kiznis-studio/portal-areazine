@@ -239,5 +239,93 @@
       7.2,
       7.1
     ]
+  },
+  "climate": {
+    "station": "USC00459463",
+    "stationName": "YAKIMA #2",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.2,
+        "highTemp": 39.6,
+        "lowTemp": 26.8,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 39.2,
+        "highTemp": 47.9,
+        "lowTemp": 30.4,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 45.7,
+        "highTemp": 57.3,
+        "lowTemp": 34.2,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 52.5,
+        "highTemp": 65,
+        "lowTemp": 40,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 60.7,
+        "highTemp": 73.5,
+        "lowTemp": 47.9,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 66.7,
+        "highTemp": 79.6,
+        "lowTemp": 53.8,
+        "precip": 0.6
+      },
+      "jul": {
+        "avgTemp": 74,
+        "highTemp": 88.3,
+        "lowTemp": 59.7,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 73.3,
+        "highTemp": 87.9,
+        "lowTemp": 58.7,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 65.4,
+        "highTemp": 79.4,
+        "lowTemp": 51.4,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 52.3,
+        "highTemp": 64.4,
+        "lowTemp": 40.2,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 40.3,
+        "highTemp": 48.6,
+        "lowTemp": 32,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 31.7,
+        "highTemp": 37.8,
+        "lowTemp": 25.7,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 52.9,
+      "highTemp": 64.1,
+      "lowTemp": 41.7,
+      "totalPrecip": 8.6,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

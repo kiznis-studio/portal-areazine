@@ -209,5 +209,93 @@
       4.5,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00366370",
+    "stationName": "NORRISTOWN",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.1,
+        "highTemp": 41.7,
+        "lowTemp": 22.6,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 34.1,
+        "highTemp": 43.5,
+        "lowTemp": 24.7,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 41.8,
+        "highTemp": 52.1,
+        "lowTemp": 31.6,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 53.1,
+        "highTemp": 64.8,
+        "lowTemp": 41.5,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 63.4,
+        "highTemp": 74.8,
+        "lowTemp": 52.1,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 73,
+        "highTemp": 84,
+        "lowTemp": 62,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 77.7,
+        "highTemp": 88.8,
+        "lowTemp": 66.6,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 75.9,
+        "highTemp": 86.5,
+        "lowTemp": 65.2,
+        "precip": 5
+      },
+      "sep": {
+        "avgTemp": 68.8,
+        "highTemp": 80,
+        "lowTemp": 57.6,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 56.5,
+        "highTemp": 68.4,
+        "lowTemp": 44.6,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 56.8,
+        "lowTemp": 35.1,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 37.3,
+        "highTemp": 46.3,
+        "lowTemp": 28.3,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 55,
+      "highTemp": 65.6,
+      "lowTemp": 44.3,
+      "totalPrecip": 50.7,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

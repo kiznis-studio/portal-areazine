@@ -225,5 +225,93 @@
       8.6,
       8.4
     ]
+  },
+  "climate": {
+    "station": "USC00366886",
+    "stationName": "PHILA FRANKLIN INST",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.7,
+        "highTemp": 41.6,
+        "lowTemp": 27.8,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 37.2,
+        "highTemp": 44.9,
+        "lowTemp": 29.6,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 44.9,
+        "highTemp": 53.5,
+        "lowTemp": 36.4,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 56.1,
+        "highTemp": 65.9,
+        "lowTemp": 46.3,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 66,
+        "highTemp": 75.7,
+        "lowTemp": 56.3,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 75.4,
+        "highTemp": 84.9,
+        "lowTemp": 65.9,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 80.4,
+        "highTemp": 89.3,
+        "lowTemp": 71.4,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 78.3,
+        "highTemp": 87.2,
+        "lowTemp": 69.5,
+        "precip": 5
+      },
+      "sep": {
+        "avgTemp": 71.5,
+        "highTemp": 80.3,
+        "lowTemp": 62.7,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 59.6,
+        "highTemp": 68.1,
+        "lowTemp": 51.1,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 48.9,
+        "highTemp": 56.4,
+        "lowTemp": 41.3,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 39.9,
+        "highTemp": 46.5,
+        "lowTemp": 33.2,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 57.7,
+      "highTemp": 66.2,
+      "lowTemp": 49.3,
+      "totalPrecip": 50.9,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

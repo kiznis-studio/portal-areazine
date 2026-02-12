@@ -255,5 +255,93 @@
       6,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00168941",
+    "stationName": "TERRYTOWN 3S",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.9,
+        "highTemp": 62.9,
+        "lowTemp": 45,
+        "precip": 5.8
+      },
+      "feb": {
+        "avgTemp": 57.4,
+        "highTemp": 66.3,
+        "lowTemp": 48.6,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 63.4,
+        "highTemp": 72.8,
+        "lowTemp": 54.1,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 69.5,
+        "highTemp": 78.4,
+        "lowTemp": 60.6,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 76.7,
+        "highTemp": 85.2,
+        "lowTemp": 68.3,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 82.2,
+        "highTemp": 90,
+        "lowTemp": 74.5,
+        "precip": 6.9
+      },
+      "jul": {
+        "avgTemp": 84.1,
+        "highTemp": 91.9,
+        "lowTemp": 76.2,
+        "precip": 7.3
+      },
+      "aug": {
+        "avgTemp": 84,
+        "highTemp": 91.9,
+        "lowTemp": 76.2,
+        "precip": 6.8
+      },
+      "sep": {
+        "avgTemp": 80.8,
+        "highTemp": 88.7,
+        "lowTemp": 73,
+        "precip": 6.8
+      },
+      "oct": {
+        "avgTemp": 72.1,
+        "highTemp": 81.2,
+        "lowTemp": 63.1,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 62.3,
+        "highTemp": 71.6,
+        "lowTemp": 52.9,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 56.4,
+        "highTemp": 65.1,
+        "lowTemp": 47.7,
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "avgTemp": 70.2,
+      "highTemp": 78.8,
+      "lowTemp": 61.7,
+      "totalPrecip": 66,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,93 @@
       9,
       8.7
     ]
+  },
+  "climate": {
+    "station": "USC00203477",
+    "stationName": "GROSSE POINTE FARMS",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24,
+        "highTemp": 31.5,
+        "lowTemp": 16.6,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 25.8,
+        "highTemp": 33.9,
+        "lowTemp": 17.7,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 33.9,
+        "highTemp": 42.9,
+        "lowTemp": 25,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 45.7,
+        "highTemp": 55.5,
+        "lowTemp": 35.8,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 57.3,
+        "highTemp": 67,
+        "lowTemp": 47.5,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 67.5,
+        "highTemp": 77.2,
+        "lowTemp": 57.8,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 72.2,
+        "highTemp": 82,
+        "lowTemp": 62.4,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 70.5,
+        "highTemp": 79.8,
+        "lowTemp": 61.2,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 63.3,
+        "highTemp": 72.7,
+        "lowTemp": 53.9,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 51.4,
+        "highTemp": 60.4,
+        "lowTemp": 42.5,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 39.6,
+        "highTemp": 47.3,
+        "lowTemp": 31.9,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 30.4,
+        "highTemp": 37,
+        "lowTemp": 23.8,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 48.5,
+      "highTemp": 57.3,
+      "lowTemp": 39.7,
+      "totalPrecip": 36,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

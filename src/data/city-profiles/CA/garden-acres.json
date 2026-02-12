@@ -279,5 +279,92 @@
       7.2,
       7.4
     ]
+  },
+  "climate": {
+    "station": "USW00023237",
+    "stationName": "STOCKTON METRO AP 72492",
+    "distanceMi": 5.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48,
+        "highTemp": 57,
+        "lowTemp": 39.1,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 52.1,
+        "highTemp": 62.9,
+        "lowTemp": 41.3,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 56.4,
+        "highTemp": 68.5,
+        "lowTemp": 44.2,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 60.9,
+        "highTemp": 74.5,
+        "lowTemp": 47.4,
+        "precip": 1.1
+      },
+      "may": {
+        "avgTemp": 67.7,
+        "highTemp": 82.8,
+        "lowTemp": 52.6,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 74,
+        "highTemp": 90.4,
+        "lowTemp": 57.6,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 78.1,
+        "highTemp": 95.4,
+        "lowTemp": 60.9
+      },
+      "aug": {
+        "avgTemp": 77.3,
+        "highTemp": 94.4,
+        "lowTemp": 60.3,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 73.9,
+        "highTemp": 90.4,
+        "lowTemp": 57.5,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 65.5,
+        "highTemp": 80.3,
+        "lowTemp": 50.6,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 54.7,
+        "highTemp": 66.6,
+        "lowTemp": 42.8,
+        "precip": 1.4
+      },
+      "dec": {
+        "avgTemp": 47.7,
+        "highTemp": 57.1,
+        "lowTemp": 38.4,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 63,
+      "highTemp": 76.7,
+      "lowTemp": 49.4,
+      "totalPrecip": 13.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

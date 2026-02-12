@@ -231,5 +231,54 @@
       5.4,
       5
     ]
+  },
+  "climate": {
+    "station": "US1TNAN0008",
+    "stationName": "NORRIS 0.6 NW",
+    "distanceMi": 7.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5
+      },
+      "feb": {
+        "precip": 5
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 5.3
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 5.6
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

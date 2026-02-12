@@ -255,5 +255,93 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00195246",
+    "stationName": "NEW BEDFORD COOP HCN",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.1,
+        "highTemp": 38.1,
+        "lowTemp": 22.1,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 31.2,
+        "highTemp": 39.6,
+        "lowTemp": 22.8,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 38,
+        "highTemp": 46.8,
+        "lowTemp": 29.1,
+        "precip": 5.3
+      },
+      "apr": {
+        "avgTemp": 47.9,
+        "highTemp": 56.1,
+        "lowTemp": 39.6,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 58.6,
+        "highTemp": 67.5,
+        "lowTemp": 49.6,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 68.9,
+        "highTemp": 78.1,
+        "lowTemp": 59.8,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 84,
+        "lowTemp": 67.2,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 74,
+        "highTemp": 82.2,
+        "lowTemp": 65.8,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 67.1,
+        "highTemp": 75.3,
+        "lowTemp": 59,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 56.4,
+        "highTemp": 64.2,
+        "lowTemp": 48.5,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 45.1,
+        "highTemp": 52.7,
+        "lowTemp": 37.4,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 35.7,
+        "highTemp": 43.2,
+        "lowTemp": 28.3,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 52.4,
+      "highTemp": 60.7,
+      "lowTemp": 44.1,
+      "totalPrecip": 52.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

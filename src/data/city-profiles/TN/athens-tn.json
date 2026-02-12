@@ -216,5 +216,93 @@
       5.3,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00400284",
+    "stationName": "ATHENS",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.4,
+        "highTemp": 48.6,
+        "lowTemp": 28.2,
+        "precip": 5.6
+      },
+      "feb": {
+        "avgTemp": 41.9,
+        "highTemp": 53,
+        "lowTemp": 30.9,
+        "precip": 5.1
+      },
+      "mar": {
+        "avgTemp": 49.5,
+        "highTemp": 61.7,
+        "lowTemp": 37.3,
+        "precip": 5.5
+      },
+      "apr": {
+        "avgTemp": 58.3,
+        "highTemp": 71.3,
+        "lowTemp": 45.3,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 66.8,
+        "highTemp": 78.8,
+        "lowTemp": 54.8,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 74.4,
+        "highTemp": 85.4,
+        "lowTemp": 63.4,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 77.9,
+        "highTemp": 88.4,
+        "lowTemp": 67.5,
+        "precip": 5.5
+      },
+      "aug": {
+        "avgTemp": 77.2,
+        "highTemp": 88.1,
+        "lowTemp": 66.3,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 71.5,
+        "highTemp": 83.1,
+        "lowTemp": 59.9,
+        "precip": 5.2
+      },
+      "oct": {
+        "avgTemp": 59.9,
+        "highTemp": 72.6,
+        "lowTemp": 47.2,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 48.6,
+        "highTemp": 60.9,
+        "lowTemp": 36.2,
+        "precip": 4.9
+      },
+      "dec": {
+        "avgTemp": 41.5,
+        "highTemp": 51.6,
+        "lowTemp": 31.3,
+        "precip": 5.9
+      }
+    },
+    "annual": {
+      "avgTemp": 58.8,
+      "highTemp": 70.3,
+      "lowTemp": 47.4,
+      "totalPrecip": 60.4,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

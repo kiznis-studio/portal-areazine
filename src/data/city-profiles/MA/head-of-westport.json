@@ -255,5 +255,54 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "US1MABR0014",
+    "stationName": "DARTMOUTH 2.5 SSW",
+    "distanceMi": 6.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.7
+      },
+      "mar": {
+        "precip": 4.8
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 3.6
+      },
+      "jul": {
+        "precip": 3.1
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

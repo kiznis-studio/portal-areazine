@@ -222,5 +222,54 @@
       3.4,
       3.2
     ]
+  },
+  "climate": {
+    "station": "US1MOFSA113",
+    "stationName": "TROY 1.2 NNE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 5.4
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

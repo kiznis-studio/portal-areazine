@@ -295,5 +295,52 @@
       6.3,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1CASA0030",
+    "stationName": "LA RIVIERA 1.0 NE",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.8
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 1
+      },
+      "jun": {
+        "precip": 0.3
+      },
+      "jul": {},
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 21,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

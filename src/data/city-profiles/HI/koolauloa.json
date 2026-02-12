@@ -271,5 +271,93 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00513208",
+    "stationName": "KAPAKA FARM 904.1",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 72.5,
+        "highTemp": 78.7,
+        "lowTemp": 66.2,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 72.7,
+        "highTemp": 78.5,
+        "lowTemp": 66.8,
+        "precip": 5.3
+      },
+      "mar": {
+        "avgTemp": 72.8,
+        "highTemp": 78.4,
+        "lowTemp": 67.1,
+        "precip": 5.6
+      },
+      "apr": {
+        "avgTemp": 74.6,
+        "highTemp": 79.7,
+        "lowTemp": 69.4,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 76,
+        "highTemp": 81.7,
+        "lowTemp": 70.3,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 78.2,
+        "highTemp": 82.9,
+        "lowTemp": 73.4,
+        "precip": 2.5
+      },
+      "jul": {
+        "avgTemp": 79,
+        "highTemp": 84.1,
+        "lowTemp": 73.9,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 79.7,
+        "highTemp": 84.5,
+        "lowTemp": 74.9,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 79.8,
+        "highTemp": 85,
+        "lowTemp": 74.5,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 78.7,
+        "highTemp": 83.9,
+        "lowTemp": 73.5,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 76.4,
+        "highTemp": 81.2,
+        "lowTemp": 71.5,
+        "precip": 6
+      },
+      "dec": {
+        "avgTemp": 73.9,
+        "highTemp": 79.7,
+        "lowTemp": 68.1,
+        "precip": 5.9
+      }
+    },
+    "annual": {
+      "avgTemp": 76.2,
+      "highTemp": 81.5,
+      "lowTemp": 70.8,
+      "totalPrecip": 51,
+      "hotMonths": 12,
+      "coldMonths": 0
+    }
   }
 }

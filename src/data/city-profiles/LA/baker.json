@@ -216,5 +216,54 @@
       7.1,
       7.6
     ]
+  },
+  "climate": {
+    "station": "USC00160462",
+    "stationName": "BAKER",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.8
+      },
+      "feb": {
+        "precip": 5.3
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 5.3
+      },
+      "may": {
+        "precip": 5.9
+      },
+      "jun": {
+        "precip": 6.2
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 6.6
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 5.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 65.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

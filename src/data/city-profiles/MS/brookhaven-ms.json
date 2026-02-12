@@ -231,5 +231,93 @@
       4.3,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00221094",
+    "stationName": "BROOKHAVEN CITY HCN",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.7,
+        "highTemp": 57.2,
+        "lowTemp": 36.1,
+        "precip": 6.5
+      },
+      "feb": {
+        "avgTemp": 50.6,
+        "highTemp": 61.6,
+        "lowTemp": 39.6,
+        "precip": 5.9
+      },
+      "mar": {
+        "avgTemp": 57.3,
+        "highTemp": 68.6,
+        "lowTemp": 46,
+        "precip": 5.7
+      },
+      "apr": {
+        "avgTemp": 63.7,
+        "highTemp": 75,
+        "lowTemp": 52.3,
+        "precip": 5.8
+      },
+      "may": {
+        "avgTemp": 71.7,
+        "highTemp": 82,
+        "lowTemp": 61.3,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 78,
+        "highTemp": 87.6,
+        "lowTemp": 68.5,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 80.3,
+        "highTemp": 89.7,
+        "lowTemp": 70.8,
+        "precip": 5.7
+      },
+      "aug": {
+        "avgTemp": 80.2,
+        "highTemp": 90.1,
+        "lowTemp": 70.3,
+        "precip": 5.1
+      },
+      "sep": {
+        "avgTemp": 75.6,
+        "highTemp": 86,
+        "lowTemp": 65.2,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 65.3,
+        "highTemp": 77.5,
+        "lowTemp": 53.2,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 55,
+        "highTemp": 66.8,
+        "lowTemp": 43.2,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 48.9,
+        "highTemp": 59.4,
+        "lowTemp": 38.5,
+        "precip": 5.6
+      }
+    },
+    "annual": {
+      "avgTemp": 64.4,
+      "highTemp": 75.1,
+      "lowTemp": 53.8,
+      "totalPrecip": 61.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

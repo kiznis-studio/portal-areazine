@@ -247,5 +247,54 @@
       4.4,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1ILWM0004",
+    "stationName": "BUSH 2.0 ESE",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 5.3
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

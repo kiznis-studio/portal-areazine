@@ -231,5 +231,93 @@
       3.7,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00116910",
+    "stationName": "PONTIAC HCN",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.8,
+        "highTemp": 32.4,
+        "lowTemp": 17.2,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 28.8,
+        "highTemp": 37,
+        "lowTemp": 20.5,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 39.6,
+        "highTemp": 49.3,
+        "lowTemp": 30,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 51.7,
+        "highTemp": 62.8,
+        "lowTemp": 40.6,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 62.8,
+        "highTemp": 73.6,
+        "lowTemp": 52.1,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 72,
+        "highTemp": 82,
+        "lowTemp": 62.1,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 75,
+        "highTemp": 84.3,
+        "lowTemp": 65.7,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 73.3,
+        "highTemp": 83,
+        "lowTemp": 63.6,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 66.9,
+        "highTemp": 78.1,
+        "lowTemp": 55.7,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 54.6,
+        "highTemp": 65.3,
+        "lowTemp": 43.8,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 41.3,
+        "highTemp": 50.2,
+        "lowTemp": 32.5,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 30.3,
+        "highTemp": 37.8,
+        "lowTemp": 22.7,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 51.8,
+      "highTemp": 61.3,
+      "lowTemp": 42.2,
+      "totalPrecip": 36.9,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

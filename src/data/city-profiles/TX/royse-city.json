@@ -231,5 +231,54 @@
       3.9,
       4
     ]
+  },
+  "climate": {
+    "station": "US1TXCLL060",
+    "stationName": "LAVON 0.7 NNW",
+    "distanceMi": 7.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 2.3
+      },
+      "aug": {
+        "precip": 2.7
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

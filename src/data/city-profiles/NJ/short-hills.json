@@ -287,5 +287,93 @@
       8.5,
       8.3
     ]
+  },
+  "climate": {
+    "station": "USC00281335",
+    "stationName": "CANOE BROOK",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.7,
+        "highTemp": 39.5,
+        "lowTemp": 21.9,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 32.4,
+        "highTemp": 41.8,
+        "lowTemp": 23,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 40.2,
+        "highTemp": 49.8,
+        "lowTemp": 30.6,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 51.5,
+        "highTemp": 62.4,
+        "lowTemp": 40.5,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 61.4,
+        "highTemp": 72.3,
+        "lowTemp": 50.4,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 70.7,
+        "highTemp": 81.5,
+        "lowTemp": 59.9,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 76,
+        "highTemp": 86.3,
+        "lowTemp": 65.6,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 74.2,
+        "highTemp": 84.7,
+        "lowTemp": 63.7,
+        "precip": 4.9
+      },
+      "sep": {
+        "avgTemp": 67.1,
+        "highTemp": 77.9,
+        "lowTemp": 56.3,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 54.9,
+        "highTemp": 65.6,
+        "lowTemp": 44.1,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 44.5,
+        "highTemp": 54.2,
+        "lowTemp": 34.8,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 35.9,
+        "highTemp": 44.1,
+        "lowTemp": 27.6,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 53.3,
+      "highTemp": 63.3,
+      "lowTemp": 43.2,
+      "totalPrecip": 50.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

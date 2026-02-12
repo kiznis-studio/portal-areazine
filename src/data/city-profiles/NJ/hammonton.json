@@ -239,5 +239,93 @@
       8.3,
       8.1
     ]
+  },
+  "climate": {
+    "station": "USC00283662",
+    "stationName": "HAMMONTON 1 NE",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.8,
+        "highTemp": 41.8,
+        "lowTemp": 23.9,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 34.9,
+        "highTemp": 44.7,
+        "lowTemp": 25,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 41.5,
+        "highTemp": 52,
+        "lowTemp": 31.1,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 52.3,
+        "highTemp": 63.7,
+        "lowTemp": 41,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 62.1,
+        "highTemp": 73.2,
+        "lowTemp": 51,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 71.6,
+        "highTemp": 82.3,
+        "lowTemp": 61,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 76.9,
+        "highTemp": 87.3,
+        "lowTemp": 66.5,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 74.8,
+        "highTemp": 85.1,
+        "lowTemp": 64.4,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 68,
+        "highTemp": 78.7,
+        "lowTemp": 57.2,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 56.3,
+        "highTemp": 67.4,
+        "lowTemp": 45.3,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 56.4,
+        "lowTemp": 35.3,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 37.7,
+        "highTemp": 47,
+        "lowTemp": 28.5,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 54.6,
+      "highTemp": 65,
+      "lowTemp": 44.2,
+      "totalPrecip": 47.7,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

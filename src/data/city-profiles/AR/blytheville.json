@@ -231,5 +231,93 @@
       9.8,
       8.4
     ]
+  },
+  "climate": {
+    "station": "USC00030806",
+    "stationName": "BLYTHEVILLE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.5,
+        "highTemp": 45.3,
+        "lowTemp": 29.8,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 42,
+        "highTemp": 50.5,
+        "lowTemp": 33.5,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 50.6,
+        "highTemp": 59.6,
+        "lowTemp": 41.6,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 61,
+        "highTemp": 70.6,
+        "lowTemp": 51.4,
+        "precip": 5.4
+      },
+      "may": {
+        "avgTemp": 70.5,
+        "highTemp": 79.7,
+        "lowTemp": 61.3,
+        "precip": 5.9
+      },
+      "jun": {
+        "avgTemp": 78.8,
+        "highTemp": 88,
+        "lowTemp": 69.7,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 81.3,
+        "highTemp": 90.1,
+        "lowTemp": 72.5,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 79.9,
+        "highTemp": 89,
+        "lowTemp": 70.8,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 73.4,
+        "highTemp": 83.4,
+        "lowTemp": 63.5,
+        "precip": 2.8
+      },
+      "oct": {
+        "avgTemp": 62.2,
+        "highTemp": 72.5,
+        "lowTemp": 51.9,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 50.2,
+        "highTemp": 59.1,
+        "lowTemp": 41.4,
+        "precip": 4.3
+      },
+      "dec": {
+        "avgTemp": 41.2,
+        "highTemp": 48.9,
+        "lowTemp": 33.5,
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "avgTemp": 60.7,
+      "highTemp": 69.7,
+      "lowTemp": 51.7,
+      "totalPrecip": 51.8,
+      "hotMonths": 5,
+      "coldMonths": 1
+    }
   }
 }

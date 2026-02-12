@@ -239,5 +239,54 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1VAPW0013",
+    "stationName": "MANASSAS 5.3 SE",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 5.1
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

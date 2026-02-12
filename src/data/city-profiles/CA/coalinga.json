@@ -263,5 +263,93 @@
       8.6,
       8.5
     ]
+  },
+  "climate": {
+    "station": "USC00041864",
+    "stationName": "COALINGA",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49,
+        "highTemp": 59.7,
+        "lowTemp": 38.2,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 52.8,
+        "highTemp": 65.2,
+        "lowTemp": 40.5,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 58,
+        "highTemp": 71.5,
+        "lowTemp": 44.6,
+        "precip": 1.5
+      },
+      "apr": {
+        "avgTemp": 63.1,
+        "highTemp": 77.5,
+        "lowTemp": 48.7,
+        "precip": 0.4
+      },
+      "may": {
+        "avgTemp": 71.1,
+        "highTemp": 86.5,
+        "lowTemp": 55.7,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 78.6,
+        "highTemp": 94.8,
+        "lowTemp": 62.5,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 84.8,
+        "highTemp": 100.8,
+        "lowTemp": 68.8,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 83.5,
+        "highTemp": 100.3,
+        "lowTemp": 66.8,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 77.9,
+        "highTemp": 94.7,
+        "lowTemp": 61.1,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 67.6,
+        "highTemp": 83.3,
+        "lowTemp": 52,
+        "precip": 0.3
+      },
+      "nov": {
+        "avgTemp": 55.9,
+        "highTemp": 69.6,
+        "lowTemp": 42.2,
+        "precip": 0.5
+      },
+      "dec": {
+        "avgTemp": 48.8,
+        "highTemp": 60.2,
+        "lowTemp": 37.3,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 65.9,
+      "highTemp": 80.3,
+      "lowTemp": 51.5,
+      "totalPrecip": 8.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       5.2,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00115079",
+    "stationName": "LINCOLN HCN",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.1,
+        "highTemp": 34.5,
+        "lowTemp": 17.8,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 30.6,
+        "highTemp": 39.5,
+        "lowTemp": 21.6,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 41.4,
+        "highTemp": 51.7,
+        "lowTemp": 31.1,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 52.6,
+        "highTemp": 64.4,
+        "lowTemp": 40.8,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 63.6,
+        "highTemp": 74.8,
+        "lowTemp": 52.4,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 72.3,
+        "highTemp": 83.3,
+        "lowTemp": 61.3,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 74.6,
+        "highTemp": 85.5,
+        "lowTemp": 63.8,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 72.6,
+        "highTemp": 84,
+        "lowTemp": 61.3,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 66.3,
+        "highTemp": 79.2,
+        "lowTemp": 53.4,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 54.1,
+        "highTemp": 66.3,
+        "lowTemp": 41.8,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 41.7,
+        "highTemp": 51.4,
+        "lowTemp": 32,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 31.1,
+        "highTemp": 39.2,
+        "lowTemp": 23.1,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 52.3,
+      "highTemp": 62.8,
+      "lowTemp": 41.7,
+      "totalPrecip": 39.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

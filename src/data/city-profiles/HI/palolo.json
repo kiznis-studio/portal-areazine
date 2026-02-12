@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00517664",
+    "stationName": "PALOLO VLY 718",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 9.8
+      },
+      "feb": {
+        "precip": 8
+      },
+      "mar": {
+        "precip": 12.5
+      },
+      "apr": {
+        "precip": 9.6
+      },
+      "may": {
+        "precip": 7.9
+      },
+      "jun": {
+        "precip": 8.9
+      },
+      "jul": {
+        "precip": 10.8
+      },
+      "aug": {
+        "precip": 9.6
+      },
+      "sep": {
+        "precip": 9.4
+      },
+      "oct": {
+        "precip": 10.9
+      },
+      "nov": {
+        "precip": 12.9
+      },
+      "dec": {
+        "precip": 11.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 121.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

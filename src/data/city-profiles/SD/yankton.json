@@ -231,5 +231,93 @@
       1.6,
       1.6
     ]
+  },
+  "climate": {
+    "station": "USW00094911",
+    "stationName": "YANKTON 2 E",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 20.2,
+        "highTemp": 30,
+        "lowTemp": 10.4,
+        "precip": 0.7
+      },
+      "feb": {
+        "avgTemp": 24.6,
+        "highTemp": 34.9,
+        "lowTemp": 14.2,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 35.9,
+        "highTemp": 47.1,
+        "lowTemp": 24.6,
+        "precip": 1.6
+      },
+      "apr": {
+        "avgTemp": 47.7,
+        "highTemp": 60,
+        "lowTemp": 35.4,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 59.8,
+        "highTemp": 71.9,
+        "lowTemp": 47.7,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 70.7,
+        "highTemp": 82.4,
+        "lowTemp": 58.9,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 75.4,
+        "highTemp": 87.1,
+        "lowTemp": 63.8,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 73.1,
+        "highTemp": 84.8,
+        "lowTemp": 61.5,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 64.8,
+        "highTemp": 77.5,
+        "lowTemp": 52.1,
+        "precip": 2.9
+      },
+      "oct": {
+        "avgTemp": 50.9,
+        "highTemp": 63.3,
+        "lowTemp": 38.5,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 36.2,
+        "highTemp": 47.2,
+        "lowTemp": 25.3,
+        "precip": 1.3
+      },
+      "dec": {
+        "avgTemp": 24.5,
+        "highTemp": 34,
+        "lowTemp": 14.9,
+        "precip": 1
+      }
+    },
+    "annual": {
+      "avgTemp": 48.7,
+      "highTemp": 60,
+      "lowTemp": 37.3,
+      "totalPrecip": 28.9,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

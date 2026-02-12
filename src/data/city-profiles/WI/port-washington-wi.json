@@ -231,5 +231,54 @@
       2.6,
       2.5
     ]
+  },
+  "climate": {
+    "station": "US1WIOZ0012",
+    "stationName": "PORT WASHINGTON 0.5 S",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.8
+      },
+      "feb": {
+        "precip": 1.6
+      },
+      "mar": {
+        "precip": 2
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 3
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 2.1
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 35.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       7.3,
       7.6
     ]
+  },
+  "climate": {
+    "station": "USW00093985",
+    "stationName": "MINERAL WELLS AP",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.4,
+        "highTemp": 58,
+        "lowTemp": 32.8,
+        "precip": 1.6
+      },
+      "feb": {
+        "avgTemp": 49.7,
+        "highTemp": 62.2,
+        "lowTemp": 37.2,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 57.7,
+        "highTemp": 70.5,
+        "lowTemp": 45,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 64.9,
+        "highTemp": 77.8,
+        "lowTemp": 52,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 72.8,
+        "highTemp": 84.5,
+        "lowTemp": 61,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 79.9,
+        "highTemp": 91.7,
+        "lowTemp": 68.2,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 83.8,
+        "highTemp": 96.1,
+        "lowTemp": 71.4,
+        "precip": 2.1
+      },
+      "aug": {
+        "avgTemp": 83.5,
+        "highTemp": 96,
+        "lowTemp": 71,
+        "precip": 2.5
+      },
+      "sep": {
+        "avgTemp": 76.4,
+        "highTemp": 88.5,
+        "lowTemp": 64.3,
+        "precip": 2.7
+      },
+      "oct": {
+        "avgTemp": 66,
+        "highTemp": 78.7,
+        "lowTemp": 53.3,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 55,
+        "highTemp": 67.3,
+        "lowTemp": 42.7,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 46.5,
+        "highTemp": 58.7,
+        "lowTemp": 34.3,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 65.1,
+      "highTemp": 77.5,
+      "lowTemp": 52.8,
+      "totalPrecip": 31.9,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

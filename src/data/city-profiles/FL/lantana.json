@@ -303,5 +303,54 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1FLPB0036",
+    "stationName": "LANTANA 0.3 E",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 5.8
+      },
+      "jun": {
+        "precip": 9.1
+      },
+      "jul": {
+        "precip": 5.4
+      },
+      "aug": {
+        "precip": 8.4
+      },
+      "sep": {
+        "precip": 8.2
+      },
+      "oct": {
+        "precip": 6.6
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 63.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

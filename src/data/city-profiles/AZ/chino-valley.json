@@ -247,5 +247,81 @@
       4.9,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00021654",
+    "stationName": "CHINO VALLEY",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.9,
+        "highTemp": 53.6,
+        "lowTemp": 24.2
+      },
+      "feb": {
+        "avgTemp": 42.3,
+        "highTemp": 57.4,
+        "lowTemp": 27.2
+      },
+      "mar": {
+        "avgTemp": 48.4,
+        "highTemp": 64.7,
+        "lowTemp": 32
+      },
+      "apr": {
+        "avgTemp": 54.2,
+        "highTemp": 71.4,
+        "lowTemp": 37
+      },
+      "may": {
+        "avgTemp": 62.7,
+        "highTemp": 80.1,
+        "lowTemp": 45.3
+      },
+      "jun": {
+        "avgTemp": 72.3,
+        "highTemp": 90.8,
+        "lowTemp": 53.7
+      },
+      "jul": {
+        "avgTemp": 77.9,
+        "highTemp": 93.4,
+        "lowTemp": 62.4
+      },
+      "aug": {
+        "avgTemp": 75.7,
+        "highTemp": 91,
+        "lowTemp": 60.3
+      },
+      "sep": {
+        "avgTemp": 69.3,
+        "highTemp": 85.6,
+        "lowTemp": 53
+      },
+      "oct": {
+        "avgTemp": 58.1,
+        "highTemp": 75.6,
+        "lowTemp": 40.5
+      },
+      "nov": {
+        "avgTemp": 46.6,
+        "highTemp": 63.1,
+        "lowTemp": 30.1
+      },
+      "dec": {
+        "avgTemp": 38.1,
+        "highTemp": 52.5,
+        "lowTemp": 23.8
+      }
+    },
+    "annual": {
+      "avgTemp": 57,
+      "highTemp": 73.3,
+      "lowTemp": 40.8,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 2
+    }
   }
 }

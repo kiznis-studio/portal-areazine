@@ -231,5 +231,93 @@
       2,
       1.8
     ]
+  },
+  "climate": {
+    "station": "USC00331390",
+    "stationName": "CELINA 3 NE",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.2,
+        "highTemp": 33.7,
+        "lowTemp": 18.7,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 29.7,
+        "highTemp": 37.9,
+        "lowTemp": 21.5,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 39.3,
+        "highTemp": 48.8,
+        "lowTemp": 29.7,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 51.2,
+        "highTemp": 62.7,
+        "lowTemp": 39.7,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 62.1,
+        "highTemp": 73.1,
+        "lowTemp": 51.1,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 70.5,
+        "highTemp": 81,
+        "lowTemp": 60.1,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 73.4,
+        "highTemp": 83.7,
+        "lowTemp": 63,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 71.5,
+        "highTemp": 82.2,
+        "lowTemp": 60.9,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 65.7,
+        "highTemp": 77.3,
+        "lowTemp": 54.2,
+        "precip": 2.8
+      },
+      "oct": {
+        "avgTemp": 54.2,
+        "highTemp": 64.7,
+        "lowTemp": 43.7,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 41.6,
+        "highTemp": 50.1,
+        "lowTemp": 33.1,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 31.3,
+        "highTemp": 38.3,
+        "lowTemp": 24.3,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 51.4,
+      "highTemp": 61.1,
+      "lowTemp": 41.7,
+      "totalPrecip": 40.1,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

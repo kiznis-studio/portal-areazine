@@ -231,5 +231,54 @@
       6.6,
       6.1
     ]
+  },
+  "climate": {
+    "station": "US1GADS0003",
+    "stationName": "DOUGLASVILLE 2.8 NE",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.7
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 5
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

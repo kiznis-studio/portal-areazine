@@ -247,5 +247,54 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1TNHL0031",
+    "stationName": "CHATTANOOGA 5.1 ENE",
+    "distanceMi": 6.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.6
+      },
+      "feb": {
+        "precip": 5.4
+      },
+      "mar": {
+        "precip": 5.7
+      },
+      "apr": {
+        "precip": 5.6
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 4.9
+      },
+      "dec": {
+        "precip": 5.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 60.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       5.3,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00235671",
+    "stationName": "MOBERLY HCN",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28,
+        "highTemp": 37.1,
+        "lowTemp": 18.9,
+        "precip": 1.9
+      },
+      "feb": {
+        "avgTemp": 32.5,
+        "highTemp": 42.2,
+        "lowTemp": 22.7,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 43.8,
+        "highTemp": 53.9,
+        "lowTemp": 33.6,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 54.4,
+        "highTemp": 64.7,
+        "lowTemp": 44.1,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 64.5,
+        "highTemp": 74.2,
+        "lowTemp": 54.9,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 73.2,
+        "highTemp": 82.8,
+        "lowTemp": 63.7,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 77.3,
+        "highTemp": 87,
+        "lowTemp": 67.5,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 75.7,
+        "highTemp": 85.6,
+        "lowTemp": 65.7,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 67.8,
+        "highTemp": 78.2,
+        "lowTemp": 57.3,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 56.3,
+        "highTemp": 66.8,
+        "lowTemp": 45.9,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 43.5,
+        "highTemp": 53.2,
+        "lowTemp": 33.8,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 33.3,
+        "highTemp": 42,
+        "lowTemp": 24.7,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 54.2,
+      "highTemp": 64,
+      "lowTemp": 44.4,
+      "totalPrecip": 42.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

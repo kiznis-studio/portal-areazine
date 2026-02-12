@@ -239,5 +239,54 @@
       6.8,
       5.8
     ]
+  },
+  "climate": {
+    "station": "US1FLHL0013",
+    "stationName": "SEBRING 4.7 WNW",
+    "distanceMi": 5.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.4
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 9.1
+      },
+      "jul": {
+        "precip": 8.3
+      },
+      "aug": {
+        "precip": 8.4
+      },
+      "sep": {
+        "precip": 7.6
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,54 @@
       6.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00162002",
+    "stationName": "CONVENT 2S",
+    "distanceMi": 6.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.8
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 5.2
+      },
+      "may": {
+        "precip": 6.9
+      },
+      "jun": {
+        "precip": 7.7
+      },
+      "jul": {
+        "precip": 7.1
+      },
+      "aug": {
+        "precip": 7.3
+      },
+      "sep": {
+        "precip": 5.2
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4.5
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 67.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

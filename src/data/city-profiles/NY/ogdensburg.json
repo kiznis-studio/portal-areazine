@@ -239,5 +239,54 @@
       6.3,
       5.7
     ]
+  },
+  "climate": {
+    "station": "US1NYSL0010",
+    "stationName": "OGDENSBURG 1.6 SW",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 3.1
+      },
+      "jun": {
+        "precip": 3.2
+      },
+      "jul": {
+        "precip": 4
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,54 @@
       3.7,
       3.8
     ]
+  },
+  "climate": {
+    "station": "US1MDBL0028",
+    "stationName": "KINGSVILLE 1.2 E",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 5.2
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,92 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00047785",
+    "stationName": "SAN GABRIEL FIRE DEPT",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.4,
+        "highTemp": 68.6,
+        "lowTemp": 46.1,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 57.7,
+        "highTemp": 68.2,
+        "lowTemp": 47.1,
+        "precip": 4.2
+      },
+      "mar": {
+        "avgTemp": 60.7,
+        "highTemp": 70.9,
+        "lowTemp": 50.5,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 63.2,
+        "highTemp": 73.8,
+        "lowTemp": 52.7,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 66.6,
+        "highTemp": 75.6,
+        "lowTemp": 57.6,
+        "precip": 0.5
+      },
+      "jun": {
+        "avgTemp": 71.2,
+        "highTemp": 80.8,
+        "lowTemp": 61.5,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 75.4,
+        "highTemp": 85.5,
+        "lowTemp": 65.2,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 76.6,
+        "highTemp": 87.6,
+        "lowTemp": 65.5
+      },
+      "sep": {
+        "avgTemp": 75.1,
+        "highTemp": 86.7,
+        "lowTemp": 63.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 69,
+        "highTemp": 80.7,
+        "lowTemp": 57.4,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 62.3,
+        "highTemp": 74,
+        "lowTemp": 50.6,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 56.6,
+        "highTemp": 67.8,
+        "lowTemp": 45.3,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 66,
+      "highTemp": 76.7,
+      "lowTemp": 55.3,
+      "totalPrecip": 15.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "US1CTNH0047",
+    "stationName": "SEYMOUR 1.5 NE",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.4
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

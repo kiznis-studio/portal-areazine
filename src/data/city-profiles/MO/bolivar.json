@@ -231,5 +231,54 @@
       3.6,
       3.5
     ]
+  },
+  "climate": {
+    "station": "US1MOFSA167",
+    "stationName": "BOLIVAR 1.0 ENE",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 4.9
+      },
+      "may": {
+        "precip": 5.9
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

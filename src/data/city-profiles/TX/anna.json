@@ -295,5 +295,54 @@
       4.2,
       4.1
     ]
+  },
+  "climate": {
+    "station": "US1TXCLL057",
+    "stationName": "ANNA 0.3 SW",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 3.9
+      },
+      "jul": {
+        "precip": 2.5
+      },
+      "aug": {
+        "precip": 2.3
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 5.2
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

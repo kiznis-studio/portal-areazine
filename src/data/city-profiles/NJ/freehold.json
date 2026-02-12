@@ -263,5 +263,93 @@
       5.4,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00283181",
+    "stationName": "FREEHOLD-MARLBORO",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.3,
+        "highTemp": 41.7,
+        "lowTemp": 22.9,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 34.7,
+        "highTemp": 44.4,
+        "lowTemp": 25,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 41.4,
+        "highTemp": 51.4,
+        "lowTemp": 31.3,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 52.1,
+        "highTemp": 63,
+        "lowTemp": 41.2,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 61.3,
+        "highTemp": 72,
+        "lowTemp": 50.6,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 70.6,
+        "highTemp": 81.1,
+        "lowTemp": 60.1,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 76,
+        "highTemp": 86.5,
+        "lowTemp": 65.5,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 74,
+        "highTemp": 84.6,
+        "lowTemp": 63.4,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 67.1,
+        "highTemp": 78.1,
+        "lowTemp": 56.1,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 55.5,
+        "highTemp": 66.6,
+        "lowTemp": 44.3,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 56.2,
+        "lowTemp": 35.7,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 37.4,
+        "highTemp": 46.7,
+        "lowTemp": 28,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 54,
+      "highTemp": 64.4,
+      "lowTemp": 43.7,
+      "totalPrecip": 48.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

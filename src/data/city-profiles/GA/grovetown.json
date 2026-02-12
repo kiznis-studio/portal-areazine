@@ -216,5 +216,54 @@
       4.9,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1GACU0003",
+    "stationName": "EVANS 2.1 NNW",
+    "distanceMi": 6.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.8
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 3
+      },
+      "jun": {
+        "precip": 5.4
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 5.6
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 49,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

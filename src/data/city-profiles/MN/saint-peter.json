@@ -222,5 +222,93 @@
       1.9,
       1.6
     ]
+  },
+  "climate": {
+    "station": "USC00217405",
+    "stationName": "ST PETER HCN",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 12.5,
+        "highTemp": 21.9,
+        "lowTemp": 3.1,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 16.8,
+        "highTemp": 26.7,
+        "lowTemp": 6.9,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 30.3,
+        "highTemp": 39.9,
+        "lowTemp": 20.6,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 43.9,
+        "highTemp": 54.8,
+        "lowTemp": 32.9,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 57,
+        "highTemp": 67.8,
+        "lowTemp": 46.3,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 67.4,
+        "highTemp": 77.8,
+        "lowTemp": 57,
+        "precip": 5.1
+      },
+      "jul": {
+        "avgTemp": 71.5,
+        "highTemp": 81.9,
+        "lowTemp": 61.2,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 69.1,
+        "highTemp": 79.4,
+        "lowTemp": 58.8,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 60.4,
+        "highTemp": 72.2,
+        "lowTemp": 48.7,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 46.8,
+        "highTemp": 58.2,
+        "lowTemp": 35.4,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 32.2,
+        "highTemp": 41.8,
+        "lowTemp": 22.7,
+        "precip": 1.7
+      },
+      "dec": {
+        "avgTemp": 19.2,
+        "highTemp": 27.5,
+        "lowTemp": 10.9,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 43.9,
+      "highTemp": 54.2,
+      "lowTemp": 33.7,
+      "totalPrecip": 32.6,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

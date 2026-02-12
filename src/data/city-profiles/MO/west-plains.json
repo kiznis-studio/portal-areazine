@@ -231,5 +231,93 @@
       5.5,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00238880",
+    "stationName": "W PLAINS 72348",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.1,
+        "highTemp": 43.8,
+        "lowTemp": 22.3,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 37.5,
+        "highTemp": 49.3,
+        "lowTemp": 25.8,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 45.6,
+        "highTemp": 58.2,
+        "lowTemp": 32.9,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 55.7,
+        "highTemp": 68.5,
+        "lowTemp": 43,
+        "precip": 5.7
+      },
+      "may": {
+        "avgTemp": 64,
+        "highTemp": 75.5,
+        "lowTemp": 52.5,
+        "precip": 5.6
+      },
+      "jun": {
+        "avgTemp": 72.6,
+        "highTemp": 83.9,
+        "lowTemp": 61.3,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 77.3,
+        "highTemp": 89,
+        "lowTemp": 65.6,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 75.5,
+        "highTemp": 87.4,
+        "lowTemp": 63.5,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 68.1,
+        "highTemp": 80.2,
+        "lowTemp": 56,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 56.4,
+        "highTemp": 69,
+        "lowTemp": 43.8,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 45.3,
+        "highTemp": 56.6,
+        "lowTemp": 33.9,
+        "precip": 4.5
+      },
+      "dec": {
+        "avgTemp": 36,
+        "highTemp": 46.1,
+        "lowTemp": 25.8,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 55.6,
+      "highTemp": 67.3,
+      "lowTemp": 43.9,
+      "totalPrecip": 49.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

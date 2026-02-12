@@ -231,5 +231,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00174193",
+    "stationName": "KENNEBUNKPORT",
+    "distanceMi": 6.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.9,
+        "highTemp": 32.7,
+        "lowTemp": 13.1,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 24.7,
+        "highTemp": 34.9,
+        "lowTemp": 14.4,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 32,
+        "highTemp": 41.2,
+        "lowTemp": 22.7,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 42.1,
+        "highTemp": 52,
+        "lowTemp": 32.3,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 52.1,
+        "highTemp": 61.6,
+        "lowTemp": 42.7,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 61.5,
+        "highTemp": 70.8,
+        "lowTemp": 52.3,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 67.3,
+        "highTemp": 76.9,
+        "lowTemp": 57.8,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 66.2,
+        "highTemp": 76,
+        "lowTemp": 56.5,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 59.1,
+        "highTemp": 69.3,
+        "lowTemp": 48.9,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 48.1,
+        "highTemp": 58.6,
+        "lowTemp": 37.5,
+        "precip": 5.6
+      },
+      "nov": {
+        "avgTemp": 38.7,
+        "highTemp": 48.3,
+        "lowTemp": 29.2,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 29.4,
+        "highTemp": 38.8,
+        "lowTemp": 20,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 45.3,
+      "highTemp": 55.1,
+      "lowTemp": 35.6,
+      "totalPrecip": 52,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

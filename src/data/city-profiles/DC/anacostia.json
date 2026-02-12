@@ -216,5 +216,93 @@
       7,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USW00013743",
+    "stationName": "WASHINGTON REAGAN AP GSN 72405",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.5,
+        "highTemp": 44.8,
+        "lowTemp": 30.1,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 40,
+        "highTemp": 48.3,
+        "lowTemp": 31.8,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 47.6,
+        "highTemp": 56.5,
+        "lowTemp": 38.6,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 58.2,
+        "highTemp": 68,
+        "lowTemp": 48.4,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 67.2,
+        "highTemp": 76.5,
+        "lowTemp": 58,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 76.3,
+        "highTemp": 85.1,
+        "lowTemp": 67.5,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 81,
+        "highTemp": 89.6,
+        "lowTemp": 72.4,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 79.4,
+        "highTemp": 87.8,
+        "lowTemp": 71,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 72.4,
+        "highTemp": 80.7,
+        "lowTemp": 64.1,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 60.8,
+        "highTemp": 69.4,
+        "lowTemp": 52.2,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 49.9,
+        "highTemp": 58.2,
+        "lowTemp": 41.6,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 41.7,
+        "highTemp": 48.8,
+        "lowTemp": 34.5,
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "avgTemp": 59.3,
+      "highTemp": 67.8,
+      "lowTemp": 50.9,
+      "totalPrecip": 41.8,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

@@ -216,5 +216,93 @@
       7.1,
       7.6
     ]
+  },
+  "climate": {
+    "station": "USC00165620",
+    "stationName": "LSU BEN-HUR FARM",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.4,
+        "highTemp": 60.7,
+        "lowTemp": 40.2,
+        "precip": 5.8
+      },
+      "feb": {
+        "avgTemp": 54.2,
+        "highTemp": 64.6,
+        "lowTemp": 43.9,
+        "precip": 4.7
+      },
+      "mar": {
+        "avgTemp": 60.5,
+        "highTemp": 71.3,
+        "lowTemp": 49.8,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 66.8,
+        "highTemp": 77.6,
+        "lowTemp": 56.1,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 74.5,
+        "highTemp": 84.3,
+        "lowTemp": 64.6,
+        "precip": 5.6
+      },
+      "jun": {
+        "avgTemp": 80.1,
+        "highTemp": 89.1,
+        "lowTemp": 71.1,
+        "precip": 6.5
+      },
+      "jul": {
+        "avgTemp": 81.8,
+        "highTemp": 90.6,
+        "lowTemp": 73,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 81.6,
+        "highTemp": 90.8,
+        "lowTemp": 72.3,
+        "precip": 6.1
+      },
+      "sep": {
+        "avgTemp": 77.8,
+        "highTemp": 87.7,
+        "lowTemp": 68,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 68.7,
+        "highTemp": 80.3,
+        "lowTemp": 57.1,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 58.7,
+        "highTemp": 70.2,
+        "lowTemp": 47.3,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 52.8,
+        "highTemp": 63.2,
+        "lowTemp": 42.3,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 67.3,
+      "highTemp": 77.5,
+      "lowTemp": 57.1,
+      "totalPrecip": 60.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

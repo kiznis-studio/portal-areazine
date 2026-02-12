@@ -231,5 +231,93 @@
       2.4,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USC00146242",
+    "stationName": "PARSONS 2 NW",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.4,
+        "highTemp": 42.7,
+        "lowTemp": 22,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 36.9,
+        "highTemp": 48.1,
+        "lowTemp": 25.7,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 46.3,
+        "highTemp": 57.6,
+        "lowTemp": 35,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 55.6,
+        "highTemp": 67.1,
+        "lowTemp": 44.2,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 65.4,
+        "highTemp": 75.6,
+        "lowTemp": 55.1,
+        "precip": 6.8
+      },
+      "jun": {
+        "avgTemp": 74.8,
+        "highTemp": 85,
+        "lowTemp": 64.6,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 79.4,
+        "highTemp": 90.1,
+        "lowTemp": 68.7,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 78.2,
+        "highTemp": 89.7,
+        "lowTemp": 66.6,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 69.8,
+        "highTemp": 81.4,
+        "lowTemp": 58.2,
+        "precip": 4.8
+      },
+      "oct": {
+        "avgTemp": 57.9,
+        "highTemp": 70.1,
+        "lowTemp": 45.8,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 45.8,
+        "highTemp": 56.8,
+        "lowTemp": 34.8,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 35.9,
+        "highTemp": 46.1,
+        "lowTemp": 25.8,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 56.5,
+      "highTemp": 67.5,
+      "lowTemp": 45.5,
+      "totalPrecip": 44.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

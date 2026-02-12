@@ -231,5 +231,93 @@
       5.5,
       5.7
     ]
+  },
+  "climate": {
+    "station": "USC00092839",
+    "stationName": "DUBLIN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.7,
+        "highTemp": 58.3,
+        "lowTemp": 35.1,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 50,
+        "highTemp": 62,
+        "lowTemp": 38,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 57.3,
+        "highTemp": 70.7,
+        "lowTemp": 44,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 64.5,
+        "highTemp": 78.3,
+        "lowTemp": 50.6,
+        "precip": 2.8
+      },
+      "may": {
+        "avgTemp": 72.5,
+        "highTemp": 85.6,
+        "lowTemp": 59.4,
+        "precip": 2.6
+      },
+      "jun": {
+        "avgTemp": 79.2,
+        "highTemp": 90.7,
+        "lowTemp": 67.7,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 82.5,
+        "highTemp": 94,
+        "lowTemp": 71,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 81.3,
+        "highTemp": 92.2,
+        "lowTemp": 70.4,
+        "precip": 4.8
+      },
+      "sep": {
+        "avgTemp": 75.7,
+        "highTemp": 87,
+        "lowTemp": 64.4,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 65.4,
+        "highTemp": 77.9,
+        "lowTemp": 52.9,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 55.3,
+        "highTemp": 68.5,
+        "lowTemp": 42.1,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 48.8,
+        "highTemp": 60.6,
+        "lowTemp": 37,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 64.9,
+      "highTemp": 77.1,
+      "lowTemp": 52.7,
+      "totalPrecip": 47.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

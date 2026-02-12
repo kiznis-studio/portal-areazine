@@ -303,5 +303,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00414704",
+    "stationName": "KATY CITY",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 3.4
+      },
+      "aug": {
+        "precip": 5
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

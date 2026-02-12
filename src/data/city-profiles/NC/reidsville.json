@@ -231,5 +231,93 @@
       6.5,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00317202",
+    "stationName": "REIDSVILLE 2 NW HCN",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.3,
+        "highTemp": 48,
+        "lowTemp": 28.7,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 41.1,
+        "highTemp": 51.5,
+        "lowTemp": 30.7,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 48.2,
+        "highTemp": 59.3,
+        "lowTemp": 37.1,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 57.6,
+        "highTemp": 69.2,
+        "lowTemp": 45.9,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 65.6,
+        "highTemp": 76.4,
+        "lowTemp": 54.9,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 73.8,
+        "highTemp": 83.9,
+        "lowTemp": 63.6,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 77.5,
+        "highTemp": 87.5,
+        "lowTemp": 67.5,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 75.8,
+        "highTemp": 85.7,
+        "lowTemp": 65.9,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 69.7,
+        "highTemp": 79.9,
+        "lowTemp": 59.5,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 59.1,
+        "highTemp": 70.3,
+        "lowTemp": 47.9,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 49,
+        "highTemp": 59.8,
+        "lowTemp": 38.1,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 41.5,
+        "highTemp": 51.1,
+        "lowTemp": 32,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 58.1,
+      "highTemp": 68.6,
+      "lowTemp": 47.7,
+      "totalPrecip": 47.9,
+      "hotMonths": 3,
+      "coldMonths": 1
+    }
   }
 }

@@ -239,5 +239,93 @@
       7.6,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00368361",
+    "stationName": "SPRINGBORO 3 WNW",
+    "distanceMi": 11.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.8,
+        "highTemp": 32.2,
+        "lowTemp": 17.3,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 25.5,
+        "highTemp": 34.3,
+        "lowTemp": 16.6,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 33.5,
+        "highTemp": 43,
+        "lowTemp": 24,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 45.5,
+        "highTemp": 56.7,
+        "lowTemp": 34.2,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 56.1,
+        "highTemp": 67.9,
+        "lowTemp": 44.4,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 65.1,
+        "highTemp": 76.2,
+        "lowTemp": 54,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 68.9,
+        "highTemp": 80,
+        "lowTemp": 57.9,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 67.6,
+        "highTemp": 78.7,
+        "lowTemp": 56.5,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 61.4,
+        "highTemp": 72.8,
+        "lowTemp": 50,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 50.8,
+        "highTemp": 60.6,
+        "lowTemp": 40.9,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 40.2,
+        "highTemp": 47.9,
+        "lowTemp": 32.4,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 30.8,
+        "highTemp": 37.3,
+        "lowTemp": 24.3,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 47.5,
+      "highTemp": 57.3,
+      "lowTemp": 37.7,
+      "totalPrecip": 48.3,
+      "hotMonths": 0,
+      "coldMonths": 4
+    }
   }
 }

@@ -247,5 +247,93 @@
       8.5,
       8.3
     ]
+  },
+  "climate": {
+    "station": "USC00202851",
+    "stationName": "FLINT 7W",
+    "distanceMi": 5.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.2,
+        "highTemp": 30.4,
+        "lowTemp": 16,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 24.6,
+        "highTemp": 32.7,
+        "lowTemp": 16.4,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 33.4,
+        "highTemp": 42.9,
+        "lowTemp": 23.8,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 45.5,
+        "highTemp": 56.4,
+        "lowTemp": 34.6,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 57.2,
+        "highTemp": 68.2,
+        "lowTemp": 46.1,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 67.1,
+        "highTemp": 77.8,
+        "lowTemp": 56.4,
+        "precip": 3.1
+      },
+      "jul": {
+        "avgTemp": 71.1,
+        "highTemp": 81.9,
+        "lowTemp": 60.2,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 69.2,
+        "highTemp": 79.1,
+        "lowTemp": 59.2,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 61.7,
+        "highTemp": 72.7,
+        "lowTemp": 50.7,
+        "precip": 2.9
+      },
+      "oct": {
+        "avgTemp": 49.8,
+        "highTemp": 59.8,
+        "lowTemp": 39.8,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 38.6,
+        "highTemp": 46.8,
+        "lowTemp": 30.3,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 28.6,
+        "highTemp": 35.2,
+        "lowTemp": 22,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 47.5,
+      "highTemp": 57,
+      "lowTemp": 38,
+      "totalPrecip": 33.1,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

@@ -231,5 +231,93 @@
       5.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00443229",
+    "stationName": "FRONT ROYAL",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.6,
+        "highTemp": 43,
+        "lowTemp": 24.1,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 36.1,
+        "highTemp": 46.5,
+        "lowTemp": 25.7,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 43.4,
+        "highTemp": 54.3,
+        "lowTemp": 32.5,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 54.5,
+        "highTemp": 66.6,
+        "lowTemp": 42.5,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 62.8,
+        "highTemp": 74.3,
+        "lowTemp": 51.3,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 71.2,
+        "highTemp": 82.3,
+        "lowTemp": 60,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 75.4,
+        "highTemp": 86.7,
+        "lowTemp": 64.1,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 73.5,
+        "highTemp": 84.6,
+        "lowTemp": 62.4,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 66.7,
+        "highTemp": 77.8,
+        "lowTemp": 55.6,
+        "precip": 4.8
+      },
+      "oct": {
+        "avgTemp": 56.1,
+        "highTemp": 67.3,
+        "lowTemp": 44.9,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 45.5,
+        "highTemp": 56,
+        "lowTemp": 35.1,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 37.4,
+        "highTemp": 46.8,
+        "lowTemp": 28.1,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 54.7,
+      "highTemp": 65.5,
+      "lowTemp": 43.9,
+      "totalPrecip": 43.7,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

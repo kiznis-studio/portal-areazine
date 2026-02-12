@@ -216,5 +216,93 @@
       7,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00186350",
+    "stationName": "NATL ARBORETUM DC",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.2,
+        "highTemp": 44.7,
+        "lowTemp": 27.8,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 38.6,
+        "highTemp": 47.8,
+        "lowTemp": 29.5,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 46.2,
+        "highTemp": 55.9,
+        "lowTemp": 36.5,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 57,
+        "highTemp": 67.6,
+        "lowTemp": 46.4,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 66.7,
+        "highTemp": 76.9,
+        "lowTemp": 56.6,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 75.7,
+        "highTemp": 85.4,
+        "lowTemp": 66.1,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 80.3,
+        "highTemp": 89.8,
+        "lowTemp": 70.9,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 78.6,
+        "highTemp": 88.4,
+        "lowTemp": 68.8,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 71.6,
+        "highTemp": 81.7,
+        "lowTemp": 61.5,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 59.4,
+        "highTemp": 69.9,
+        "lowTemp": 49,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 48.6,
+        "highTemp": 58.4,
+        "lowTemp": 38.9,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 40.6,
+        "highTemp": 49.2,
+        "lowTemp": 31.9,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 58.3,
+      "highTemp": 68,
+      "lowTemp": 48.7,
+      "totalPrecip": 45.6,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

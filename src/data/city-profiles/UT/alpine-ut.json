@@ -255,5 +255,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00420061",
+    "stationName": "ALPINE",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.1,
+        "highTemp": 38.6,
+        "lowTemp": 21.6,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 34.5,
+        "highTemp": 44,
+        "lowTemp": 24.9,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 43.1,
+        "highTemp": 54.4,
+        "lowTemp": 31.8,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 48.8,
+        "highTemp": 60.9,
+        "lowTemp": 36.8,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 57.2,
+        "highTemp": 70.6,
+        "lowTemp": 43.9,
+        "precip": 2.4
+      },
+      "jun": {
+        "avgTemp": 66.8,
+        "highTemp": 82.2,
+        "lowTemp": 51.4,
+        "precip": 1
+      },
+      "jul": {
+        "avgTemp": 74,
+        "highTemp": 89.5,
+        "lowTemp": 58.5,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 87.3,
+        "lowTemp": 57.6,
+        "precip": 1
+      },
+      "sep": {
+        "avgTemp": 63.7,
+        "highTemp": 78.6,
+        "lowTemp": 48.9,
+        "precip": 1.3
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 65.1,
+        "lowTemp": 38.8,
+        "precip": 1.8
+      },
+      "nov": {
+        "avgTemp": 39.8,
+        "highTemp": 50.2,
+        "lowTemp": 29.4,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 30.2,
+        "highTemp": 38.5,
+        "lowTemp": 21.9,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 51,
+      "highTemp": 63.3,
+      "lowTemp": 38.8,
+      "totalPrecip": 21,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -231,5 +231,93 @@
       3.5,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00112348",
+    "stationName": "DIXON 1W HCN",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.3,
+        "highTemp": 29,
+        "lowTemp": 13.6,
+        "precip": 2
+      },
+      "feb": {
+        "avgTemp": 25.5,
+        "highTemp": 33.6,
+        "lowTemp": 17.3,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 37.3,
+        "highTemp": 46.3,
+        "lowTemp": 28.3,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 49.4,
+        "highTemp": 59.9,
+        "lowTemp": 38.8,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 60.9,
+        "highTemp": 71,
+        "lowTemp": 50.7,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 70.2,
+        "highTemp": 79.8,
+        "lowTemp": 60.7,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 73.5,
+        "highTemp": 82.7,
+        "lowTemp": 64.3,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 71.9,
+        "highTemp": 81.4,
+        "lowTemp": 62.4,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 64.6,
+        "highTemp": 75.3,
+        "lowTemp": 53.8,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 52.4,
+        "highTemp": 62.8,
+        "lowTemp": 42,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 39,
+        "highTemp": 47.6,
+        "lowTemp": 30.5,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 27.3,
+        "highTemp": 34.5,
+        "lowTemp": 20.1,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 49.4,
+      "highTemp": 58.7,
+      "lowTemp": 40.2,
+      "totalPrecip": 40.6,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

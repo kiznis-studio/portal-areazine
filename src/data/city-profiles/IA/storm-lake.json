@@ -231,5 +231,93 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00137979",
+    "stationName": "STORM LAKE HCN",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 17.3,
+        "highTemp": 25.8,
+        "lowTemp": 8.8,
+        "precip": 0.8
+      },
+      "feb": {
+        "avgTemp": 21.7,
+        "highTemp": 30.2,
+        "lowTemp": 13.3,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 34.2,
+        "highTemp": 43.4,
+        "lowTemp": 25.1,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 47.5,
+        "highTemp": 58.1,
+        "lowTemp": 36.9,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 59.3,
+        "highTemp": 69.1,
+        "lowTemp": 49.4,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 69.7,
+        "highTemp": 79.2,
+        "lowTemp": 60.2,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 73,
+        "highTemp": 82.3,
+        "lowTemp": 63.7,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 70.6,
+        "highTemp": 79.9,
+        "lowTemp": 61.4,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 63.3,
+        "highTemp": 74.1,
+        "lowTemp": 52.6,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 50.1,
+        "highTemp": 60.6,
+        "lowTemp": 39.6,
+        "precip": 2.4
+      },
+      "nov": {
+        "avgTemp": 35.5,
+        "highTemp": 44.3,
+        "lowTemp": 26.6,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 23.2,
+        "highTemp": 31.1,
+        "lowTemp": 15.3,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 47.1,
+      "highTemp": 56.5,
+      "lowTemp": 37.7,
+      "totalPrecip": 33.7,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

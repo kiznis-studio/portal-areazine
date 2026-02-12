@@ -216,5 +216,93 @@
       4,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00164700",
+    "stationName": "JENNINGS HCN",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.9,
+        "highTemp": 60.1,
+        "lowTemp": 41.6,
+        "precip": 6.3
+      },
+      "feb": {
+        "avgTemp": 54.5,
+        "highTemp": 63.9,
+        "lowTemp": 45.1,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 61.1,
+        "highTemp": 70.7,
+        "lowTemp": 51.5,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 67.5,
+        "highTemp": 77.1,
+        "lowTemp": 57.8,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 74.8,
+        "highTemp": 83.7,
+        "lowTemp": 65.9,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 80.3,
+        "highTemp": 88.5,
+        "lowTemp": 72,
+        "precip": 6.6
+      },
+      "jul": {
+        "avgTemp": 81.9,
+        "highTemp": 90.2,
+        "lowTemp": 73.7,
+        "precip": 5.4
+      },
+      "aug": {
+        "avgTemp": 82.1,
+        "highTemp": 91,
+        "lowTemp": 73.2,
+        "precip": 6.8
+      },
+      "sep": {
+        "avgTemp": 78.3,
+        "highTemp": 87.7,
+        "lowTemp": 69,
+        "precip": 5.8
+      },
+      "oct": {
+        "avgTemp": 69.5,
+        "highTemp": 80.4,
+        "lowTemp": 58.7,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 59.7,
+        "highTemp": 70.2,
+        "lowTemp": 49.2,
+        "precip": 4.9
+      },
+      "dec": {
+        "avgTemp": 53.1,
+        "highTemp": 62.5,
+        "lowTemp": 43.6,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 67.8,
+      "highTemp": 77.2,
+      "lowTemp": 58.4,
+      "totalPrecip": 63.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

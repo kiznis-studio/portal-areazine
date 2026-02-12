@@ -255,5 +255,93 @@
       4.3,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00418862",
+    "stationName": "TAYLOR 1NW",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.1,
+        "highTemp": 60.7,
+        "lowTemp": 37.4,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 52.6,
+        "highTemp": 64.3,
+        "lowTemp": 40.8,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 59.6,
+        "highTemp": 71.4,
+        "lowTemp": 47.9,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 66.5,
+        "highTemp": 78.4,
+        "lowTemp": 54.6,
+        "precip": 2.7
+      },
+      "may": {
+        "avgTemp": 74.4,
+        "highTemp": 85.1,
+        "lowTemp": 63.6,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 81.3,
+        "highTemp": 91.9,
+        "lowTemp": 70.7,
+        "precip": 3.2
+      },
+      "jul": {
+        "avgTemp": 84.2,
+        "highTemp": 95.4,
+        "lowTemp": 73,
+        "precip": 2.7
+      },
+      "aug": {
+        "avgTemp": 84.7,
+        "highTemp": 96.6,
+        "lowTemp": 72.7,
+        "precip": 2.7
+      },
+      "sep": {
+        "avgTemp": 78.6,
+        "highTemp": 90.7,
+        "lowTemp": 66.5,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 68.9,
+        "highTemp": 81.7,
+        "lowTemp": 56.2,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 58.4,
+        "highTemp": 70.4,
+        "lowTemp": 46.4,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 50.5,
+        "highTemp": 62.2,
+        "lowTemp": 38.8,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 67.4,
+      "highTemp": 79.1,
+      "lowTemp": 55.7,
+      "totalPrecip": 37.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

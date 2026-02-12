@@ -271,5 +271,93 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USW00022551",
+    "stationName": "EWA KALAELOA AP 91178",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 72.8,
+        "highTemp": 80.9,
+        "lowTemp": 64.7,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 73,
+        "highTemp": 80.9,
+        "lowTemp": 65.1,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 73.8,
+        "highTemp": 81.6,
+        "lowTemp": 66,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 75.7,
+        "highTemp": 83.6,
+        "lowTemp": 67.7,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 76.9,
+        "highTemp": 84.9,
+        "lowTemp": 69,
+        "precip": 1
+      },
+      "jun": {
+        "avgTemp": 79.3,
+        "highTemp": 87.3,
+        "lowTemp": 71.3,
+        "precip": 0.3
+      },
+      "jul": {
+        "avgTemp": 80.3,
+        "highTemp": 88,
+        "lowTemp": 72.5,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 81.1,
+        "highTemp": 89.1,
+        "lowTemp": 73.1,
+        "precip": 0.6
+      },
+      "sep": {
+        "avgTemp": 80.7,
+        "highTemp": 88.9,
+        "lowTemp": 72.4,
+        "precip": 0.7
+      },
+      "oct": {
+        "avgTemp": 79.5,
+        "highTemp": 87.3,
+        "lowTemp": 71.7,
+        "precip": 1.3
+      },
+      "nov": {
+        "avgTemp": 76.8,
+        "highTemp": 84.1,
+        "lowTemp": 69.4,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 74.5,
+        "highTemp": 82.1,
+        "lowTemp": 66.9,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 77,
+      "highTemp": 84.9,
+      "lowTemp": 69.1,
+      "totalPrecip": 14.1,
+      "hotMonths": 12,
+      "coldMonths": 0
+    }
   }
 }

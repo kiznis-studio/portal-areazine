@@ -247,5 +247,93 @@
       8.5,
       8.3
     ]
+  },
+  "climate": {
+    "station": "USC00204793",
+    "stationName": "LINDEN WWTP",
+    "distanceMi": 5.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 22.5,
+        "highTemp": 29.8,
+        "lowTemp": 15.2,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 23.9,
+        "highTemp": 32.5,
+        "lowTemp": 15.4,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 33,
+        "highTemp": 42.3,
+        "lowTemp": 23.7,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 44.7,
+        "highTemp": 55.3,
+        "lowTemp": 34.1,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 56.7,
+        "highTemp": 67.7,
+        "lowTemp": 45.6,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 66.1,
+        "highTemp": 76.8,
+        "lowTemp": 55.4,
+        "precip": 3.3
+      },
+      "jul": {
+        "avgTemp": 69.6,
+        "highTemp": 80.5,
+        "lowTemp": 58.7,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 68.1,
+        "highTemp": 78.7,
+        "lowTemp": 57.5,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 61.1,
+        "highTemp": 72.4,
+        "lowTemp": 49.9,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 49.5,
+        "highTemp": 59.4,
+        "lowTemp": 39.5,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 38.5,
+        "highTemp": 46.6,
+        "lowTemp": 30.4,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 27.8,
+        "highTemp": 34.4,
+        "lowTemp": 21.3,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 46.8,
+      "highTemp": 56.4,
+      "lowTemp": 37.2,
+      "totalPrecip": 34.4,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

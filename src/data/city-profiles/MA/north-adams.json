@@ -239,5 +239,93 @@
       5.3,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USW00054768",
+    "stationName": "NORTH ADAMS HARRIMAN AP",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.3,
+        "highTemp": 32.4,
+        "lowTemp": 14.3,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 25.4,
+        "highTemp": 35.3,
+        "lowTemp": 15.5,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 33.5,
+        "highTemp": 43.6,
+        "lowTemp": 23.5,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 45.2,
+        "highTemp": 56.9,
+        "lowTemp": 33.5,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 56.2,
+        "highTemp": 68.6,
+        "lowTemp": 43.9,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 64.7,
+        "highTemp": 76.4,
+        "lowTemp": 53,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 69.3,
+        "highTemp": 80.9,
+        "lowTemp": 57.7,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 67.5,
+        "highTemp": 79,
+        "lowTemp": 56.1,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 60.5,
+        "highTemp": 72.1,
+        "lowTemp": 48.8,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 49.2,
+        "highTemp": 60,
+        "lowTemp": 38.4,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 39.1,
+        "highTemp": 48.4,
+        "lowTemp": 29.7,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 29.5,
+        "highTemp": 37.6,
+        "lowTemp": 21.5,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 46.9,
+      "highTemp": 57.6,
+      "lowTemp": 36.3,
+      "totalPrecip": 42.3,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

@@ -239,5 +239,81 @@
       2.9,
       2.7
     ]
+  },
+  "climate": {
+    "station": "USC00380559",
+    "stationName": "BEAUFORT WWTP HCN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51,
+        "highTemp": 60.8,
+        "lowTemp": 41.1
+      },
+      "feb": {
+        "avgTemp": 54.1,
+        "highTemp": 64.5,
+        "lowTemp": 43.7
+      },
+      "mar": {
+        "avgTemp": 60.4,
+        "highTemp": 71.5,
+        "lowTemp": 49.4
+      },
+      "apr": {
+        "avgTemp": 66.9,
+        "highTemp": 77.4,
+        "lowTemp": 56.4
+      },
+      "may": {
+        "avgTemp": 74.6,
+        "highTemp": 83.6,
+        "lowTemp": 65.7
+      },
+      "jun": {
+        "avgTemp": 80.3,
+        "highTemp": 88.7,
+        "lowTemp": 71.8
+      },
+      "jul": {
+        "avgTemp": 83,
+        "highTemp": 91.1,
+        "lowTemp": 74.9
+      },
+      "aug": {
+        "avgTemp": 82.4,
+        "highTemp": 90.3,
+        "lowTemp": 74.5
+      },
+      "sep": {
+        "avgTemp": 77.8,
+        "highTemp": 85.9,
+        "lowTemp": 69.6
+      },
+      "oct": {
+        "avgTemp": 69.8,
+        "highTemp": 78.9,
+        "lowTemp": 60.7
+      },
+      "nov": {
+        "avgTemp": 60.4,
+        "highTemp": 70.1,
+        "lowTemp": 50.6
+      },
+      "dec": {
+        "avgTemp": 53,
+        "highTemp": 62,
+        "lowTemp": 44
+      }
+    },
+    "annual": {
+      "avgTemp": 67.8,
+      "highTemp": 77.1,
+      "lowTemp": 58.5,
+      "totalPrecip": 0,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

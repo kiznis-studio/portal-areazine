@@ -231,5 +231,93 @@
       4.5,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00338552",
+    "stationName": "URBANA WWTP HCN",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.2,
+        "highTemp": 35.4,
+        "lowTemp": 19,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 29.8,
+        "highTemp": 38.6,
+        "lowTemp": 20.9,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 38.9,
+        "highTemp": 48.8,
+        "lowTemp": 29,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 50.2,
+        "highTemp": 61.8,
+        "lowTemp": 38.7,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 60.9,
+        "highTemp": 72.3,
+        "lowTemp": 49.6,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 70.2,
+        "highTemp": 81.5,
+        "lowTemp": 59,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 73.5,
+        "highTemp": 84.8,
+        "lowTemp": 62.3,
+        "precip": 5.5
+      },
+      "aug": {
+        "avgTemp": 71.9,
+        "highTemp": 83.6,
+        "lowTemp": 60.2,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 65,
+        "highTemp": 77.2,
+        "lowTemp": 52.8,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 53,
+        "highTemp": 64.3,
+        "lowTemp": 41.7,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 41.7,
+        "highTemp": 51,
+        "lowTemp": 32.4,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 32,
+        "highTemp": 39.7,
+        "lowTemp": 24.3,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 51.2,
+      "highTemp": 61.6,
+      "lowTemp": 40.8,
+      "totalPrecip": 44,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

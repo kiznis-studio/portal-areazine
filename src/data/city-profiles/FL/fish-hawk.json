@@ -295,5 +295,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLHB0033",
+    "stationName": "BLOOMINGDALE 7.6 ESE",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.8
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 8.9
+      },
+      "jul": {
+        "precip": 9.1
+      },
+      "aug": {
+        "precip": 9.7
+      },
+      "sep": {
+        "precip": 7.3
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 2
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 57.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,54 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "US1FLBW0127",
+    "stationName": "OAKLAND PARK 0.3 SE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 8
+      },
+      "jul": {
+        "precip": 6
+      },
+      "aug": {
+        "precip": 8.1
+      },
+      "sep": {
+        "precip": 8.6
+      },
+      "oct": {
+        "precip": 6.6
+      },
+      "nov": {
+        "precip": 4.5
+      },
+      "dec": {
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 63,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

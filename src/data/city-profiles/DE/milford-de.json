@@ -247,5 +247,54 @@
       5,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1DESS0030",
+    "stationName": "MILFORD 2.6 SE",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 5.5
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

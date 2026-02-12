@@ -231,5 +231,93 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00518407",
+    "stationName": "PUUKOLII 457.1",
+    "distanceMi": 3.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 70.3,
+        "highTemp": 76.5,
+        "lowTemp": 64.1,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 70.3,
+        "highTemp": 76.8,
+        "lowTemp": 63.8,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 71.2,
+        "highTemp": 77.6,
+        "lowTemp": 64.7,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 72.5,
+        "highTemp": 79.3,
+        "lowTemp": 65.7,
+        "precip": 1.7
+      },
+      "may": {
+        "avgTemp": 74,
+        "highTemp": 80.9,
+        "lowTemp": 67.1,
+        "precip": 1.2
+      },
+      "jun": {
+        "avgTemp": 76.4,
+        "highTemp": 83.4,
+        "lowTemp": 69.4,
+        "precip": 0.6
+      },
+      "jul": {
+        "avgTemp": 77.1,
+        "highTemp": 84.1,
+        "lowTemp": 70.1,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 77.7,
+        "highTemp": 84.8,
+        "lowTemp": 70.6,
+        "precip": 0.9
+      },
+      "sep": {
+        "avgTemp": 77.5,
+        "highTemp": 84.8,
+        "lowTemp": 70.3,
+        "precip": 1.2
+      },
+      "oct": {
+        "avgTemp": 76.4,
+        "highTemp": 83.4,
+        "lowTemp": 69.5,
+        "precip": 1.9
+      },
+      "nov": {
+        "avgTemp": 74.3,
+        "highTemp": 80.4,
+        "lowTemp": 68.2,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 71.8,
+        "highTemp": 77.6,
+        "lowTemp": 66,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 74.1,
+      "highTemp": 80.8,
+      "lowTemp": 67.5,
+      "totalPrecip": 23.3,
+      "hotMonths": 12,
+      "coldMonths": 0
+    }
   }
 }

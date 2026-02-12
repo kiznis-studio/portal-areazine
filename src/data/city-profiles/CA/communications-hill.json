@@ -287,5 +287,54 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1CASC0052",
+    "stationName": "SAN JOSE 1.9 SW",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 4
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 1.1
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.8
+      },
+      "nov": {
+        "precip": 1.7
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 19,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

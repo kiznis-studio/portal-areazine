@@ -255,5 +255,54 @@
       6.5,
       6.3
     ]
+  },
+  "climate": {
+    "station": "US1SCRC0042",
+    "stationName": "COLUMBIA 3.1 E",
+    "distanceMi": 4.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 5.6
+      },
+      "aug": {
+        "precip": 5.4
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

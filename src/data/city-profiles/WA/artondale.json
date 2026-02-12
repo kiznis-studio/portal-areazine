@@ -263,5 +263,93 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USW00094274",
+    "stationName": "TACOMA NARROWS AP",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.4,
+        "highTemp": 46.3,
+        "lowTemp": 36.4,
+        "precip": 6.1
+      },
+      "feb": {
+        "avgTemp": 42.5,
+        "highTemp": 48.4,
+        "lowTemp": 36.5,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 45.8,
+        "highTemp": 53.1,
+        "lowTemp": 38.5,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 49.4,
+        "highTemp": 57.5,
+        "lowTemp": 41.4,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 55.5,
+        "highTemp": 64.5,
+        "lowTemp": 46.5,
+        "precip": 2.1
+      },
+      "jun": {
+        "avgTemp": 60.2,
+        "highTemp": 69.7,
+        "lowTemp": 50.7,
+        "precip": 1.4
+      },
+      "jul": {
+        "avgTemp": 64.7,
+        "highTemp": 75.5,
+        "lowTemp": 54,
+        "precip": 0.7
+      },
+      "aug": {
+        "avgTemp": 65,
+        "highTemp": 75.6,
+        "lowTemp": 54.3,
+        "precip": 0.9
+      },
+      "sep": {
+        "avgTemp": 60.5,
+        "highTemp": 69.6,
+        "lowTemp": 51.4,
+        "precip": 1.5
+      },
+      "oct": {
+        "avgTemp": 52.2,
+        "highTemp": 58.6,
+        "lowTemp": 45.7,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 45.1,
+        "highTemp": 50.5,
+        "lowTemp": 39.8,
+        "precip": 7.2
+      },
+      "dec": {
+        "avgTemp": 40.9,
+        "highTemp": 45.5,
+        "lowTemp": 36.2,
+        "precip": 5.8
+      }
+    },
+    "annual": {
+      "avgTemp": 51.9,
+      "highTemp": 59.6,
+      "lowTemp": 44.3,
+      "totalPrecip": 42.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

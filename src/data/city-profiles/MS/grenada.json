@@ -231,5 +231,93 @@
       4.1,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00223645",
+    "stationName": "GRENADA",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.6,
+        "highTemp": 53.8,
+        "lowTemp": 31.3,
+        "precip": 5.1
+      },
+      "feb": {
+        "avgTemp": 46.1,
+        "highTemp": 58.3,
+        "lowTemp": 33.9,
+        "precip": 5.8
+      },
+      "mar": {
+        "avgTemp": 54.3,
+        "highTemp": 67.4,
+        "lowTemp": 41.3,
+        "precip": 5.6
+      },
+      "apr": {
+        "avgTemp": 62.1,
+        "highTemp": 75.1,
+        "lowTemp": 49.2,
+        "precip": 6.4
+      },
+      "may": {
+        "avgTemp": 70.3,
+        "highTemp": 81.8,
+        "lowTemp": 58.8,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 78,
+        "highTemp": 88.8,
+        "lowTemp": 67.1,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 80.9,
+        "highTemp": 91.5,
+        "lowTemp": 70.3,
+        "precip": 5.4
+      },
+      "aug": {
+        "avgTemp": 80.1,
+        "highTemp": 91.5,
+        "lowTemp": 68.7,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 74.8,
+        "highTemp": 87.4,
+        "lowTemp": 62.2,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 63.4,
+        "highTemp": 77.2,
+        "lowTemp": 49.7,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 52.5,
+        "highTemp": 65.5,
+        "lowTemp": 39.5,
+        "precip": 4.8
+      },
+      "dec": {
+        "avgTemp": 45.4,
+        "highTemp": 56.8,
+        "lowTemp": 34,
+        "precip": 6.5
+      }
+    },
+    "annual": {
+      "avgTemp": 62.5,
+      "highTemp": 74.6,
+      "lowTemp": 50.5,
+      "totalPrecip": 61.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       8.3,
       8
     ]
+  },
+  "climate": {
+    "station": "USC00018024",
+    "stationName": "TALLADEGA HCN",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.4,
+        "highTemp": 54.2,
+        "lowTemp": 30.6,
+        "precip": 5.3
+      },
+      "feb": {
+        "avgTemp": 46,
+        "highTemp": 58.5,
+        "lowTemp": 33.6,
+        "precip": 6
+      },
+      "mar": {
+        "avgTemp": 53.1,
+        "highTemp": 66.7,
+        "lowTemp": 39.6,
+        "precip": 5.8
+      },
+      "apr": {
+        "avgTemp": 60.5,
+        "highTemp": 74.8,
+        "lowTemp": 46.3,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 68.9,
+        "highTemp": 81.9,
+        "lowTemp": 55.8,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 76.2,
+        "highTemp": 87.9,
+        "lowTemp": 64.5,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 79.5,
+        "highTemp": 90.8,
+        "lowTemp": 68.2,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 78.7,
+        "highTemp": 90.1,
+        "lowTemp": 67.2,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 73.3,
+        "highTemp": 85.6,
+        "lowTemp": 60.9,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 62.1,
+        "highTemp": 75.7,
+        "lowTemp": 48.6,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 51.5,
+        "highTemp": 64.9,
+        "lowTemp": 38.1,
+        "precip": 4.7
+      },
+      "dec": {
+        "avgTemp": 45,
+        "highTemp": 56.7,
+        "lowTemp": 33.3,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 61.4,
+      "highTemp": 74,
+      "lowTemp": 48.9,
+      "totalPrecip": 56.7,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

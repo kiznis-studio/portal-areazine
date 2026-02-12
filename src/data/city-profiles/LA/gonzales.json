@@ -222,5 +222,54 @@
       4.5,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00163695",
+    "stationName": "GONZALES",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.9
+      },
+      "feb": {
+        "precip": 4.5
+      },
+      "mar": {
+        "precip": 4.7
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 5.9
+      },
+      "jun": {
+        "precip": 7.1
+      },
+      "jul": {
+        "precip": 6.4
+      },
+      "aug": {
+        "precip": 6.4
+      },
+      "sep": {
+        "precip": 5.2
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 65.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

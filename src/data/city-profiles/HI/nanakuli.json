@@ -271,5 +271,81 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00518500",
+    "stationName": "PUU MANAWAHUA 725.6",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 67.2,
+        "highTemp": 75.2,
+        "lowTemp": 59.1
+      },
+      "feb": {
+        "avgTemp": 67.1,
+        "highTemp": 75.4,
+        "lowTemp": 58.8
+      },
+      "mar": {
+        "avgTemp": 67.1,
+        "highTemp": 75.7,
+        "lowTemp": 58.5
+      },
+      "apr": {
+        "avgTemp": 68.6,
+        "highTemp": 77.2,
+        "lowTemp": 60
+      },
+      "may": {
+        "avgTemp": 70.1,
+        "highTemp": 79.3,
+        "lowTemp": 60.9
+      },
+      "jun": {
+        "avgTemp": 72.3,
+        "highTemp": 81.1,
+        "lowTemp": 63.5
+      },
+      "jul": {
+        "avgTemp": 73.2,
+        "highTemp": 82.4,
+        "lowTemp": 64.1
+      },
+      "aug": {
+        "avgTemp": 74,
+        "highTemp": 83.3,
+        "lowTemp": 64.8
+      },
+      "sep": {
+        "avgTemp": 73.9,
+        "highTemp": 82.8,
+        "lowTemp": 65
+      },
+      "oct": {
+        "avgTemp": 73.5,
+        "highTemp": 81.6,
+        "lowTemp": 65.4
+      },
+      "nov": {
+        "avgTemp": 71.1,
+        "highTemp": 79,
+        "lowTemp": 63.2
+      },
+      "dec": {
+        "avgTemp": 68.2,
+        "highTemp": 76.4,
+        "lowTemp": 59.9
+      }
+    },
+    "annual": {
+      "avgTemp": 70.5,
+      "highTemp": 79.1,
+      "lowTemp": 61.9,
+      "totalPrecip": 0,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

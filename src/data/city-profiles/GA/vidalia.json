@@ -231,5 +231,54 @@
       6.2,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00098351",
+    "stationName": "STILLMORE",
+    "distanceMi": 19.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 3.5
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 2.9
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 5.8
+      },
+      "aug": {
+        "precip": 6.4
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 2.5
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,93 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00003159",
+    "stationName": "LANCASTER WM J FOX FLD",
+    "distanceMi": 6.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45,
+        "highTemp": 58.7,
+        "lowTemp": 31.3,
+        "precip": 1.5
+      },
+      "feb": {
+        "avgTemp": 48,
+        "highTemp": 61.5,
+        "lowTemp": 34.5,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 53.5,
+        "highTemp": 67.2,
+        "lowTemp": 39.8,
+        "precip": 1
+      },
+      "apr": {
+        "avgTemp": 58.9,
+        "highTemp": 72.9,
+        "lowTemp": 44.9,
+        "precip": 0.4
+      },
+      "may": {
+        "avgTemp": 67.5,
+        "highTemp": 81.6,
+        "lowTemp": 53.4,
+        "precip": 0.1
+      },
+      "jun": {
+        "avgTemp": 76.4,
+        "highTemp": 91.3,
+        "lowTemp": 61.5,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 82.4,
+        "highTemp": 97.6,
+        "lowTemp": 67.2,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 81.3,
+        "highTemp": 97.8,
+        "lowTemp": 64.7,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 74.2,
+        "highTemp": 91.4,
+        "lowTemp": 56.9,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.9,
+        "highTemp": 80,
+        "lowTemp": 45.8,
+        "precip": 0.3
+      },
+      "nov": {
+        "avgTemp": 51,
+        "highTemp": 67,
+        "lowTemp": 35,
+        "precip": 0.4
+      },
+      "dec": {
+        "avgTemp": 43.7,
+        "highTemp": 57.7,
+        "lowTemp": 29.7,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 62.1,
+      "highTemp": 77.1,
+      "lowTemp": 47.1,
+      "totalPrecip": 6.9,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

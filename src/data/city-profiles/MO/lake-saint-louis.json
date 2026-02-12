@@ -255,5 +255,93 @@
       3.1,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USC00238805",
+    "stationName": "WELDON SPRING NWS",
+    "distanceMi": 8.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.3,
+        "highTemp": 39.3,
+        "lowTemp": 21.2,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 34.6,
+        "highTemp": 44.8,
+        "lowTemp": 24.4,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 44.2,
+        "highTemp": 55.2,
+        "lowTemp": 33.3,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 55.4,
+        "highTemp": 67,
+        "lowTemp": 43.8,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 65,
+        "highTemp": 75.7,
+        "lowTemp": 54.2,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 73.5,
+        "highTemp": 83.7,
+        "lowTemp": 63.3,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 77.4,
+        "highTemp": 87.5,
+        "lowTemp": 67.3,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 76,
+        "highTemp": 86.7,
+        "lowTemp": 65.4,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 68.4,
+        "highTemp": 79.8,
+        "lowTemp": 57,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 56.9,
+        "highTemp": 68.3,
+        "lowTemp": 45.6,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 45.2,
+        "highTemp": 55.4,
+        "lowTemp": 34.9,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 35,
+        "highTemp": 44,
+        "lowTemp": 25.9,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 55.2,
+      "highTemp": 65.6,
+      "lowTemp": 44.7,
+      "totalPrecip": 44.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -231,5 +231,93 @@
       6.5,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00312631",
+    "stationName": "EDEN",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38,
+        "highTemp": 49.2,
+        "lowTemp": 26.7,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 40.7,
+        "highTemp": 52.9,
+        "lowTemp": 28.6,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 47.3,
+        "highTemp": 61,
+        "lowTemp": 33.6,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 57.2,
+        "highTemp": 71.2,
+        "lowTemp": 43.2,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 65.5,
+        "highTemp": 77.9,
+        "lowTemp": 53.2,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 73.3,
+        "highTemp": 85.2,
+        "lowTemp": 61.3,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 77.3,
+        "highTemp": 88.9,
+        "lowTemp": 65.7,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 75.7,
+        "highTemp": 86.5,
+        "lowTemp": 64.8,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 69.1,
+        "highTemp": 80.7,
+        "lowTemp": 57.6,
+        "precip": 4.7
+      },
+      "oct": {
+        "avgTemp": 58.5,
+        "highTemp": 71.5,
+        "lowTemp": 45.5,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 47.2,
+        "highTemp": 60.6,
+        "lowTemp": 33.7,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 40.4,
+        "highTemp": 51.7,
+        "lowTemp": 29.1,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 57.5,
+      "highTemp": 69.8,
+      "lowTemp": 45.3,
+      "totalPrecip": 47.1,
+      "hotMonths": 3,
+      "coldMonths": 1
+    }
   }
 }

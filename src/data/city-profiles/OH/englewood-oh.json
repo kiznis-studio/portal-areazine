@@ -263,5 +263,54 @@
       5.8,
       5.8
     ]
+  },
+  "climate": {
+    "station": "US1OHMY0034",
+    "stationName": "UNION 1.0 WSW",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 3.3
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

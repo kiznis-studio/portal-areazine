@@ -255,5 +255,92 @@
       8.3,
       8.3
     ]
+  },
+  "climate": {
+    "station": "USC00042346",
+    "stationName": "DELANO",
+    "distanceMi": 6.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.9,
+        "highTemp": 56,
+        "lowTemp": 37.7,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 51.9,
+        "highTemp": 62.8,
+        "lowTemp": 40.9,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 57,
+        "highTemp": 69.2,
+        "lowTemp": 44.8,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 62.1,
+        "highTemp": 75,
+        "lowTemp": 49.1,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 69.3,
+        "highTemp": 83.1,
+        "lowTemp": 55.5,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 77,
+        "highTemp": 92.2,
+        "lowTemp": 61.8,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 82.5,
+        "highTemp": 97.3,
+        "lowTemp": 67.6,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 81,
+        "highTemp": 96.5,
+        "lowTemp": 65.5
+      },
+      "sep": {
+        "avgTemp": 76.1,
+        "highTemp": 90.7,
+        "lowTemp": 61.6,
+        "precip": 0
+      },
+      "oct": {
+        "avgTemp": 66.1,
+        "highTemp": 79.6,
+        "lowTemp": 52.6,
+        "precip": 0.4
+      },
+      "nov": {
+        "avgTemp": 54.4,
+        "highTemp": 66.3,
+        "lowTemp": 42.5,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 47,
+        "highTemp": 57.2,
+        "lowTemp": 36.7,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 64.3,
+      "highTemp": 77.2,
+      "lowTemp": 51.4,
+      "totalPrecip": 7.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

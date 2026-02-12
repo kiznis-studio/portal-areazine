@@ -222,5 +222,93 @@
       2.6,
       2.9
     ]
+  },
+  "climate": {
+    "station": "USC00447278",
+    "stationName": "ROANOKE 8 N",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.5,
+        "highTemp": 46.2,
+        "lowTemp": 24.8,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 37.9,
+        "highTemp": 49.3,
+        "lowTemp": 26.6,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 45.5,
+        "highTemp": 57.8,
+        "lowTemp": 33.2,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 55.2,
+        "highTemp": 68.2,
+        "lowTemp": 42.1,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 63.5,
+        "highTemp": 75.6,
+        "lowTemp": 51.3,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 71.1,
+        "highTemp": 82.2,
+        "lowTemp": 60,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 75.1,
+        "highTemp": 86.1,
+        "lowTemp": 64,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 73.9,
+        "highTemp": 84.9,
+        "lowTemp": 62.9,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 67.6,
+        "highTemp": 78.8,
+        "lowTemp": 56.4,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 56.7,
+        "highTemp": 68.7,
+        "lowTemp": 44.7,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 46,
+        "highTemp": 57.9,
+        "lowTemp": 34.1,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 38.6,
+        "highTemp": 48.7,
+        "lowTemp": 28.5,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 55.6,
+      "highTemp": 67,
+      "lowTemp": 44,
+      "totalPrecip": 45.7,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

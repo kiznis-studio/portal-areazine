@@ -263,5 +263,54 @@
       6.2,
       6
     ]
+  },
+  "climate": {
+    "station": "US1MAHD0013",
+    "stationName": "SPRINGFIELD 4.1 W",
+    "distanceMi": 5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.5
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 3.7
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

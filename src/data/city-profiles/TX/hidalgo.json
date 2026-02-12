@@ -263,5 +263,93 @@
       7.6,
       7.5
     ]
+  },
+  "climate": {
+    "station": "USW00012959",
+    "stationName": "MCALLEN MILLER INTL AP",
+    "distanceMi": 5.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 62.8,
+        "highTemp": 72.8,
+        "lowTemp": 52.7,
+        "precip": 0.8
+      },
+      "feb": {
+        "avgTemp": 67.2,
+        "highTemp": 77.4,
+        "lowTemp": 56.9,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 72.9,
+        "highTemp": 83.2,
+        "lowTemp": 62.7,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 78.4,
+        "highTemp": 88.4,
+        "lowTemp": 68.4,
+        "precip": 1.4
+      },
+      "may": {
+        "avgTemp": 83.6,
+        "highTemp": 93.1,
+        "lowTemp": 74.1,
+        "precip": 2
+      },
+      "jun": {
+        "avgTemp": 87.7,
+        "highTemp": 97.4,
+        "lowTemp": 78,
+        "precip": 3.1
+      },
+      "jul": {
+        "avgTemp": 88.6,
+        "highTemp": 98.5,
+        "lowTemp": 78.8,
+        "precip": 2
+      },
+      "aug": {
+        "avgTemp": 89.3,
+        "highTemp": 99.6,
+        "lowTemp": 78.9,
+        "precip": 1.8
+      },
+      "sep": {
+        "avgTemp": 85,
+        "highTemp": 94.3,
+        "lowTemp": 75.6,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 79,
+        "highTemp": 89.3,
+        "lowTemp": 68.7,
+        "precip": 2.1
+      },
+      "nov": {
+        "avgTemp": 70.2,
+        "highTemp": 80.2,
+        "lowTemp": 60.1,
+        "precip": 1.2
+      },
+      "dec": {
+        "avgTemp": 64,
+        "highTemp": 73.8,
+        "lowTemp": 54.1,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 77.4,
+      "highTemp": 87.3,
+      "lowTemp": 67.4,
+      "totalPrecip": 22.2,
+      "hotMonths": 9,
+      "coldMonths": 0
+    }
   }
 }

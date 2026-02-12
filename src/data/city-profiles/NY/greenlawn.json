@@ -303,5 +303,93 @@
       4.8,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00301309",
+    "stationName": "CENTERPORT",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.2,
+        "highTemp": 37.9,
+        "lowTemp": 24.5,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 32.7,
+        "highTemp": 40,
+        "lowTemp": 25.4,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 39.3,
+        "highTemp": 47.3,
+        "lowTemp": 31.3,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 50.4,
+        "highTemp": 59.8,
+        "lowTemp": 40.9,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 60.1,
+        "highTemp": 69.6,
+        "lowTemp": 50.5,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 69.3,
+        "highTemp": 78.4,
+        "lowTemp": 60.2,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 74.5,
+        "highTemp": 83.2,
+        "lowTemp": 65.8,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 73.2,
+        "highTemp": 81.4,
+        "lowTemp": 65,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 66.7,
+        "highTemp": 74.3,
+        "lowTemp": 59,
+        "precip": 4.7
+      },
+      "oct": {
+        "avgTemp": 55.7,
+        "highTemp": 62.6,
+        "lowTemp": 48.8,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 45.5,
+        "highTemp": 52.2,
+        "lowTemp": 38.7,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 36.8,
+        "highTemp": 43.1,
+        "lowTemp": 30.5,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 53,
+      "highTemp": 60.8,
+      "lowTemp": 45.1,
+      "totalPrecip": 48.5,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

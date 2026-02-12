@@ -231,5 +231,93 @@
       3.4,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00125237",
+    "stationName": "MADISON SEWAGE PLT HCN",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33,
+        "highTemp": 42.2,
+        "lowTemp": 23.8,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 35.7,
+        "highTemp": 46.5,
+        "lowTemp": 24.8,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 44.8,
+        "highTemp": 56.6,
+        "lowTemp": 32.9,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 55.6,
+        "highTemp": 68.2,
+        "lowTemp": 43,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 65.2,
+        "highTemp": 76.6,
+        "lowTemp": 53.8,
+        "precip": 5.4
+      },
+      "jun": {
+        "avgTemp": 73.3,
+        "highTemp": 84.2,
+        "lowTemp": 62.4,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 77,
+        "highTemp": 88,
+        "lowTemp": 66.1,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 76,
+        "highTemp": 87,
+        "lowTemp": 65,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 69.6,
+        "highTemp": 81.4,
+        "lowTemp": 57.9,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 57.9,
+        "highTemp": 69.8,
+        "lowTemp": 46.1,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 46.1,
+        "highTemp": 57,
+        "lowTemp": 35.3,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 37.7,
+        "highTemp": 46.5,
+        "lowTemp": 28.9,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 56,
+      "highTemp": 67,
+      "lowTemp": 45,
+      "totalPrecip": 51,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

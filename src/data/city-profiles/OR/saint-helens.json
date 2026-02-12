@@ -216,5 +216,81 @@
       4.5,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00357466",
+    "stationName": "SAINT HELENS RFD",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38,
+        "highTemp": 43.2,
+        "lowTemp": 32.9
+      },
+      "feb": {
+        "avgTemp": 40.2,
+        "highTemp": 47.1,
+        "lowTemp": 33.2
+      },
+      "mar": {
+        "avgTemp": 44.5,
+        "highTemp": 52.9,
+        "lowTemp": 36.1
+      },
+      "apr": {
+        "avgTemp": 49.4,
+        "highTemp": 58.7,
+        "lowTemp": 40.1
+      },
+      "may": {
+        "avgTemp": 56.3,
+        "highTemp": 66.6,
+        "lowTemp": 46.1
+      },
+      "jun": {
+        "avgTemp": 61,
+        "highTemp": 71.6,
+        "lowTemp": 50.4
+      },
+      "jul": {
+        "avgTemp": 66.9,
+        "highTemp": 78.8,
+        "lowTemp": 55
+      },
+      "aug": {
+        "avgTemp": 67.1,
+        "highTemp": 79.3,
+        "lowTemp": 54.9
+      },
+      "sep": {
+        "avgTemp": 62.7,
+        "highTemp": 73.5,
+        "lowTemp": 51.9
+      },
+      "oct": {
+        "avgTemp": 52.6,
+        "highTemp": 60.5,
+        "lowTemp": 44.7
+      },
+      "nov": {
+        "avgTemp": 43.3,
+        "highTemp": 49,
+        "lowTemp": 37.7
+      },
+      "dec": {
+        "avgTemp": 37.6,
+        "highTemp": 42,
+        "lowTemp": 33.1
+      }
+    },
+    "annual": {
+      "avgTemp": 51.6,
+      "highTemp": 60.3,
+      "lowTemp": 43,
+      "totalPrecip": 0,
+      "hotMonths": 0,
+      "coldMonths": 2
+    }
   }
 }

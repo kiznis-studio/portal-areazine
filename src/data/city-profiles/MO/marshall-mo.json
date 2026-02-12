@@ -231,5 +231,54 @@
       2.7,
       2.5
     ]
+  },
+  "climate": {
+    "station": "US1MOFSA195",
+    "stationName": "MARSHALL 1.0 NNW",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.7
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 39.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

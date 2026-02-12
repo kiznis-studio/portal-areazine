@@ -239,5 +239,93 @@
       4,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00303184",
+    "stationName": "GENEVA RSCH FARM HCN",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.1,
+        "highTemp": 30.4,
+        "lowTemp": 15.8,
+        "precip": 1.8
+      },
+      "feb": {
+        "avgTemp": 24.5,
+        "highTemp": 32.2,
+        "lowTemp": 16.7,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 31.9,
+        "highTemp": 40,
+        "lowTemp": 23.9,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 44.2,
+        "highTemp": 53.7,
+        "lowTemp": 34.8,
+        "precip": 2.8
+      },
+      "may": {
+        "avgTemp": 56.5,
+        "highTemp": 66.6,
+        "lowTemp": 46.4,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 65.6,
+        "highTemp": 75.1,
+        "lowTemp": 56,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 70,
+        "highTemp": 79.4,
+        "lowTemp": 60.6,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 68.4,
+        "highTemp": 77.8,
+        "lowTemp": 59,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 61.3,
+        "highTemp": 71.2,
+        "lowTemp": 51.5,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 49.9,
+        "highTemp": 58.5,
+        "lowTemp": 41.3,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 38.9,
+        "highTemp": 46.4,
+        "lowTemp": 31.5,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 29.4,
+        "highTemp": 35.9,
+        "lowTemp": 22.9,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 47,
+      "highTemp": 55.6,
+      "lowTemp": 38.4,
+      "totalPrecip": 34.7,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

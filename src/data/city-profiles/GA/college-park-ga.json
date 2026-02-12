@@ -271,5 +271,93 @@
       5.4,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USW00013874",
+    "stationName": "ATLANTA HARTSFIELD INTL AP 72219",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.8,
+        "highTemp": 54,
+        "lowTemp": 35.6,
+        "precip": 4.6
+      },
+      "feb": {
+        "avgTemp": 48.5,
+        "highTemp": 58.2,
+        "lowTemp": 38.9,
+        "precip": 4.6
+      },
+      "mar": {
+        "avgTemp": 55.6,
+        "highTemp": 65.9,
+        "lowTemp": 45.3,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 63.2,
+        "highTemp": 73.8,
+        "lowTemp": 52.5,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 71.2,
+        "highTemp": 81.1,
+        "lowTemp": 61.3,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 77.9,
+        "highTemp": 87.1,
+        "lowTemp": 68.6,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 80.9,
+        "highTemp": 90.1,
+        "lowTemp": 71.8,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 80.2,
+        "highTemp": 89,
+        "lowTemp": 71.3,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 74.9,
+        "highTemp": 83.9,
+        "lowTemp": 65.9,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 64.7,
+        "highTemp": 74.4,
+        "lowTemp": 54.9,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 54.2,
+        "highTemp": 64.1,
+        "lowTemp": 44.2,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 47.3,
+        "highTemp": 56.2,
+        "lowTemp": 38.4,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 63.6,
+      "highTemp": 73.2,
+      "lowTemp": 54.1,
+      "totalPrecip": 50.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

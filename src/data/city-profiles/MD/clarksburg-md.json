@@ -271,5 +271,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1MDMG0029",
+    "stationName": "CLARKSBURG 2.1 NE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.3
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.8
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

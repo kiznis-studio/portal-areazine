@@ -271,5 +271,54 @@
       5.3,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1FLPS0004",
+    "stationName": "PORT RICHEY 2.0 NNE",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 3
+      },
+      "jun": {
+        "precip": 7.5
+      },
+      "jul": {
+        "precip": 9.5
+      },
+      "aug": {
+        "precip": 9.9
+      },
+      "sep": {
+        "precip": 6.5
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

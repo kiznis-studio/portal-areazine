@@ -279,5 +279,93 @@
       4.7,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USW00004804",
+    "stationName": "COLUMBUS OHIO STATE UNIV AP",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.8,
+        "highTemp": 36.3,
+        "lowTemp": 21.3,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 31.5,
+        "highTemp": 39.8,
+        "lowTemp": 23.2,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 40.5,
+        "highTemp": 50.2,
+        "lowTemp": 30.9,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 52.1,
+        "highTemp": 63.3,
+        "lowTemp": 40.9,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 62.2,
+        "highTemp": 73.3,
+        "lowTemp": 51.2,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 70.7,
+        "highTemp": 81.3,
+        "lowTemp": 60.2,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 74.2,
+        "highTemp": 84.3,
+        "lowTemp": 64,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 72.8,
+        "highTemp": 83.2,
+        "lowTemp": 62.3,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 65.7,
+        "highTemp": 77,
+        "lowTemp": 54.5,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 54.1,
+        "highTemp": 64.7,
+        "lowTemp": 43.4,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 42.5,
+        "highTemp": 51.4,
+        "lowTemp": 33.6,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 33.4,
+        "highTemp": 40.4,
+        "lowTemp": 26.3,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 52.4,
+      "highTemp": 62.1,
+      "lowTemp": 42.7,
+      "totalPrecip": 35.8,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

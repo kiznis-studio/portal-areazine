@@ -295,5 +295,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLHB0001",
+    "stationName": "PLANT CITY 6.5 NW",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 2.8
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 8.6
+      },
+      "jul": {
+        "precip": 8.3
+      },
+      "aug": {
+        "precip": 10.6
+      },
+      "sep": {
+        "precip": 7.2
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 56.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

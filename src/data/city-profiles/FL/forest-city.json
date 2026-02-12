@@ -239,5 +239,54 @@
       4.3,
       4.1
     ]
+  },
+  "climate": {
+    "station": "US1FLOR0026",
+    "stationName": "ORLANDO 4.8 NNW",
+    "distanceMi": 7.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 2.9
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 8.4
+      },
+      "jul": {
+        "precip": 8.1
+      },
+      "aug": {
+        "precip": 8.3
+      },
+      "sep": {
+        "precip": 7.8
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 1.9
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 56.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

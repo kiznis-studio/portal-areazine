@@ -255,5 +255,54 @@
       6,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00166157",
+    "stationName": "METAIRIE",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.5
+      },
+      "feb": {
+        "precip": 4.4
+      },
+      "mar": {
+        "precip": 4.9
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 8.8
+      },
+      "jul": {
+        "precip": 7.8
+      },
+      "aug": {
+        "precip": 7.6
+      },
+      "sep": {
+        "precip": 6.6
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 68.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

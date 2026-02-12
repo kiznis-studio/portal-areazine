@@ -239,5 +239,93 @@
       5.5,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00111160",
+    "stationName": "CAHOKIA",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.4,
+        "highTemp": 40.7,
+        "lowTemp": 22,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 35.8,
+        "highTemp": 46,
+        "lowTemp": 25.6,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 45.4,
+        "highTemp": 56.1,
+        "lowTemp": 34.7,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 56.5,
+        "highTemp": 67.5,
+        "lowTemp": 45.4,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 66,
+        "highTemp": 76.1,
+        "lowTemp": 56,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 74.8,
+        "highTemp": 84.8,
+        "lowTemp": 64.9,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 78.7,
+        "highTemp": 88.5,
+        "lowTemp": 68.9,
+        "precip": 5
+      },
+      "aug": {
+        "avgTemp": 77,
+        "highTemp": 87.3,
+        "lowTemp": 66.7,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 69.5,
+        "highTemp": 80.3,
+        "lowTemp": 58.6,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 57.7,
+        "highTemp": 69.5,
+        "lowTemp": 46,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 45.7,
+        "highTemp": 56.2,
+        "lowTemp": 35.3,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 35.8,
+        "highTemp": 45.1,
+        "lowTemp": 26.6,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 56.2,
+      "highTemp": 66.5,
+      "lowTemp": 45.9,
+      "totalPrecip": 42.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

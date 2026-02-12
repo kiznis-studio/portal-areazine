@@ -239,5 +239,93 @@
       4.3,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USW00012854",
+    "stationName": "ORLANDO SANFORD AP",
+    "distanceMi": 7.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 60.4,
+        "highTemp": 71.3,
+        "lowTemp": 49.6,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 63.1,
+        "highTemp": 74.2,
+        "lowTemp": 52.1,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 67.1,
+        "highTemp": 78.3,
+        "lowTemp": 55.9,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 72.3,
+        "highTemp": 83.4,
+        "lowTemp": 61.2,
+        "precip": 2.4
+      },
+      "may": {
+        "avgTemp": 77.7,
+        "highTemp": 88.5,
+        "lowTemp": 67,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 81.9,
+        "highTemp": 91,
+        "lowTemp": 72.7,
+        "precip": 8.2
+      },
+      "jul": {
+        "avgTemp": 83.6,
+        "highTemp": 92.7,
+        "lowTemp": 74.4,
+        "precip": 7.3
+      },
+      "aug": {
+        "avgTemp": 83.6,
+        "highTemp": 92.5,
+        "lowTemp": 74.6,
+        "precip": 6.8
+      },
+      "sep": {
+        "avgTemp": 81.4,
+        "highTemp": 89.7,
+        "lowTemp": 73.1,
+        "precip": 6.2
+      },
+      "oct": {
+        "avgTemp": 75.5,
+        "highTemp": 84.6,
+        "lowTemp": 66.5,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 68.2,
+        "highTemp": 78.2,
+        "lowTemp": 58.2,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 63.1,
+        "highTemp": 73.4,
+        "lowTemp": 52.7,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 73.2,
+      "highTemp": 83.2,
+      "lowTemp": 63.2,
+      "totalPrecip": 49.8,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

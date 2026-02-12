@@ -295,5 +295,93 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00305377",
+    "stationName": "MINEOLA",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.4,
+        "highTemp": 41.6,
+        "lowTemp": 27.2,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 36.2,
+        "highTemp": 44.1,
+        "lowTemp": 28.2,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 42.8,
+        "highTemp": 51.1,
+        "lowTemp": 34.5,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 52.7,
+        "highTemp": 62.1,
+        "lowTemp": 43.3,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 62.1,
+        "highTemp": 71.9,
+        "lowTemp": 52.2,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 71.2,
+        "highTemp": 80.9,
+        "lowTemp": 61.5,
+        "precip": 3.8
+      },
+      "jul": {
+        "avgTemp": 77.1,
+        "highTemp": 86.5,
+        "lowTemp": 67.7,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 75.3,
+        "highTemp": 84.5,
+        "lowTemp": 66.1,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 68.7,
+        "highTemp": 77.5,
+        "lowTemp": 59.8,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 57.9,
+        "highTemp": 66.7,
+        "lowTemp": 49.2,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 47.9,
+        "highTemp": 55.9,
+        "lowTemp": 39.8,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 39.6,
+        "highTemp": 46.5,
+        "lowTemp": 32.6,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 55.5,
+      "highTemp": 64.1,
+      "lowTemp": 46.8,
+      "totalPrecip": 45.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -231,5 +231,81 @@
       3.1,
       2.9
     ]
+  },
+  "climate": {
+    "station": "USC00188405",
+    "stationName": "SOLOMONS",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.7,
+        "highTemp": 45.3,
+        "lowTemp": 30.1
+      },
+      "feb": {
+        "avgTemp": 39.2,
+        "highTemp": 47.6,
+        "lowTemp": 30.8
+      },
+      "mar": {
+        "avgTemp": 46.3,
+        "highTemp": 54.9,
+        "lowTemp": 37.6
+      },
+      "apr": {
+        "avgTemp": 56.4,
+        "highTemp": 65.4,
+        "lowTemp": 47.4
+      },
+      "may": {
+        "avgTemp": 66,
+        "highTemp": 74.2,
+        "lowTemp": 57.9
+      },
+      "jun": {
+        "avgTemp": 75.7,
+        "highTemp": 83.8,
+        "lowTemp": 67.6
+      },
+      "jul": {
+        "avgTemp": 80.3,
+        "highTemp": 87.9,
+        "lowTemp": 72.7
+      },
+      "aug": {
+        "avgTemp": 78.7,
+        "highTemp": 86.3,
+        "lowTemp": 71
+      },
+      "sep": {
+        "avgTemp": 72.4,
+        "highTemp": 79.9,
+        "lowTemp": 65
+      },
+      "oct": {
+        "avgTemp": 61,
+        "highTemp": 68.7,
+        "lowTemp": 53.4
+      },
+      "nov": {
+        "avgTemp": 50.8,
+        "highTemp": 58.6,
+        "lowTemp": 43
+      },
+      "dec": {
+        "avgTemp": 42.3,
+        "highTemp": 50.1,
+        "lowTemp": 34.5
+      }
+    },
+    "annual": {
+      "avgTemp": 58.9,
+      "highTemp": 66.9,
+      "lowTemp": 50.9,
+      "totalPrecip": 0,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

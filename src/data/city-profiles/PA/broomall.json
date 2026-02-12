@@ -169,5 +169,54 @@
       6.8,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00369191",
+    "stationName": "VILLANOVA",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

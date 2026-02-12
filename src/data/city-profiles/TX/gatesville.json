@@ -222,5 +222,93 @@
       5.2,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00413485",
+    "stationName": "GATESVILLE",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.1,
+        "highTemp": 60.3,
+        "lowTemp": 35.8,
+        "precip": 2.3
+      },
+      "feb": {
+        "avgTemp": 51.7,
+        "highTemp": 64.4,
+        "lowTemp": 39,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 59.1,
+        "highTemp": 71.2,
+        "lowTemp": 47,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 66.1,
+        "highTemp": 78,
+        "lowTemp": 54.2,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 73.9,
+        "highTemp": 84.5,
+        "lowTemp": 63.3,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 80.4,
+        "highTemp": 90.8,
+        "lowTemp": 70,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 83.6,
+        "highTemp": 95.1,
+        "lowTemp": 72.1,
+        "precip": 3
+      },
+      "aug": {
+        "avgTemp": 84,
+        "highTemp": 96.2,
+        "lowTemp": 71.7,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 77.4,
+        "highTemp": 89.6,
+        "lowTemp": 65.2,
+        "precip": 2.9
+      },
+      "oct": {
+        "avgTemp": 67.5,
+        "highTemp": 79.8,
+        "lowTemp": 55.2,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 57.1,
+        "highTemp": 69.5,
+        "lowTemp": 44.6,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 48.7,
+        "highTemp": 60.9,
+        "lowTemp": 36.5,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 66.5,
+      "highTemp": 78.4,
+      "lowTemp": 54.6,
+      "totalPrecip": 36.9,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

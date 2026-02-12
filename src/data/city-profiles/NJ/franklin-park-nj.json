@@ -263,5 +263,54 @@
       6.3,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00280847",
+    "stationName": "BLACKWELLS MILLS",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

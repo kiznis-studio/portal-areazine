@@ -222,5 +222,93 @@
       10.5,
       10.8
     ]
+  },
+  "climate": {
+    "station": "USC00160945",
+    "stationName": "BOGALUSA",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50,
+        "highTemp": 61.3,
+        "lowTemp": 38.7,
+        "precip": 6.1
+      },
+      "feb": {
+        "avgTemp": 54.1,
+        "highTemp": 65.8,
+        "lowTemp": 42.4,
+        "precip": 4.6
+      },
+      "mar": {
+        "avgTemp": 60.2,
+        "highTemp": 72.1,
+        "lowTemp": 48.3,
+        "precip": 5.1
+      },
+      "apr": {
+        "avgTemp": 66.9,
+        "highTemp": 78.9,
+        "lowTemp": 54.8,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 74.3,
+        "highTemp": 85.4,
+        "lowTemp": 63.2,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 80.3,
+        "highTemp": 90.5,
+        "lowTemp": 70.1,
+        "precip": 7.8
+      },
+      "jul": {
+        "avgTemp": 82.3,
+        "highTemp": 92.4,
+        "lowTemp": 72.1,
+        "precip": 6.4
+      },
+      "aug": {
+        "avgTemp": 82,
+        "highTemp": 92,
+        "lowTemp": 71.9,
+        "precip": 5.8
+      },
+      "sep": {
+        "avgTemp": 78.2,
+        "highTemp": 88.8,
+        "lowTemp": 67.7,
+        "precip": 4.7
+      },
+      "oct": {
+        "avgTemp": 68.8,
+        "highTemp": 81,
+        "lowTemp": 56.7,
+        "precip": 5.3
+      },
+      "nov": {
+        "avgTemp": 58.4,
+        "highTemp": 70.8,
+        "lowTemp": 45.9,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 52.4,
+        "highTemp": 63.9,
+        "lowTemp": 40.9,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 67.3,
+      "highTemp": 78.6,
+      "lowTemp": 56.1,
+      "totalPrecip": 63.8,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

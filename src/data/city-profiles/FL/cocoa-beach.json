@@ -279,5 +279,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1FLBV0012",
+    "stationName": "CAPE CANAVERAL 0.6 ESE",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.5
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 7.7
+      },
+      "jul": {
+        "precip": 5.7
+      },
+      "aug": {
+        "precip": 7
+      },
+      "sep": {
+        "precip": 7.1
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

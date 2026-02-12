@@ -153,5 +153,93 @@
       4.9,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00153246",
+    "stationName": "GLASGOW",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.1,
+        "highTemp": 47.2,
+        "lowTemp": 29,
+        "precip": 4.1
+      },
+      "feb": {
+        "avgTemp": 41.8,
+        "highTemp": 52.4,
+        "lowTemp": 31.3,
+        "precip": 4.4
+      },
+      "mar": {
+        "avgTemp": 50.3,
+        "highTemp": 61.6,
+        "lowTemp": 39,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 59.7,
+        "highTemp": 72.8,
+        "lowTemp": 46.5,
+        "precip": 5.3
+      },
+      "may": {
+        "avgTemp": 68.5,
+        "highTemp": 80.7,
+        "lowTemp": 56.2,
+        "precip": 5.8
+      },
+      "jun": {
+        "avgTemp": 75.6,
+        "highTemp": 87.3,
+        "lowTemp": 64,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 79.1,
+        "highTemp": 90.3,
+        "lowTemp": 67.9,
+        "precip": 5
+      },
+      "aug": {
+        "avgTemp": 77.9,
+        "highTemp": 89.9,
+        "lowTemp": 65.8,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 71.3,
+        "highTemp": 83.8,
+        "lowTemp": 58.7,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 60.7,
+        "highTemp": 73.5,
+        "lowTemp": 48,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 49.5,
+        "highTemp": 60.4,
+        "lowTemp": 38.5,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 41.4,
+        "highTemp": 50.5,
+        "lowTemp": 32.3,
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "avgTemp": 59.5,
+      "highTemp": 70.9,
+      "lowTemp": 48.1,
+      "totalPrecip": 54.9,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

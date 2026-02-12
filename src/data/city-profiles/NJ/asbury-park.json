@@ -263,5 +263,93 @@
       5.4,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00284987",
+    "stationName": "LONG BRANCH-OAKHURST HCN",
+    "distanceMi": 5.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.3,
+        "highTemp": 41.8,
+        "lowTemp": 24.8,
+        "precip": 4.2
+      },
+      "feb": {
+        "avgTemp": 34.5,
+        "highTemp": 43.1,
+        "lowTemp": 25.9,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 40.8,
+        "highTemp": 49.2,
+        "lowTemp": 32.3,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 50,
+        "highTemp": 58.9,
+        "lowTemp": 41,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 59.5,
+        "highTemp": 68.3,
+        "lowTemp": 50.8,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 69.3,
+        "highTemp": 77.8,
+        "lowTemp": 60.9,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 75.1,
+        "highTemp": 83.5,
+        "lowTemp": 66.8,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 81.8,
+        "lowTemp": 65.4,
+        "precip": 6.3
+      },
+      "sep": {
+        "avgTemp": 67.6,
+        "highTemp": 76.2,
+        "lowTemp": 58.9,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 56.2,
+        "highTemp": 65.5,
+        "lowTemp": 46.9,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 46.4,
+        "highTemp": 55.6,
+        "lowTemp": 37.3,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 38.4,
+        "highTemp": 46.9,
+        "lowTemp": 30,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 53.7,
+      "highTemp": 62.4,
+      "lowTemp": 45.1,
+      "totalPrecip": 52.4,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

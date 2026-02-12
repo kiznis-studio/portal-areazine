@@ -303,5 +303,93 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00046773",
+    "stationName": "PEARBLOSSOM",
+    "distanceMi": 5.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.6,
+        "highTemp": 59.7,
+        "lowTemp": 37.5,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 50.8,
+        "highTemp": 62.8,
+        "lowTemp": 38.9,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 55.6,
+        "highTemp": 68.7,
+        "lowTemp": 42.4,
+        "precip": 1
+      },
+      "apr": {
+        "avgTemp": 60.2,
+        "highTemp": 75,
+        "lowTemp": 45.5,
+        "precip": 0.3
+      },
+      "may": {
+        "avgTemp": 68.1,
+        "highTemp": 83.6,
+        "lowTemp": 52.7,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 76.9,
+        "highTemp": 93,
+        "lowTemp": 60.7,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 98.7,
+        "lowTemp": 67.5,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 82.5,
+        "highTemp": 98,
+        "lowTemp": 67,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 76.5,
+        "highTemp": 91.4,
+        "lowTemp": 61.6,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 66.5,
+        "highTemp": 79.8,
+        "lowTemp": 53.1,
+        "precip": 0.3
+      },
+      "nov": {
+        "avgTemp": 55.2,
+        "highTemp": 67.4,
+        "lowTemp": 43,
+        "precip": 0.5
+      },
+      "dec": {
+        "avgTemp": 47.3,
+        "highTemp": 58.1,
+        "lowTemp": 36.4,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 64.3,
+      "highTemp": 78,
+      "lowTemp": 50.5,
+      "totalPrecip": 6.9,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

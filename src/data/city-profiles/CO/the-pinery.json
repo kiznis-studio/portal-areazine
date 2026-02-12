@@ -255,5 +255,54 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "US1CODG0149",
+    "stationName": "PARKER 5.2 SE",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.7
+      },
+      "mar": {
+        "precip": 1.4
+      },
+      "apr": {
+        "precip": 2.1
+      },
+      "may": {
+        "precip": 2.3
+      },
+      "jun": {
+        "precip": 2.2
+      },
+      "jul": {
+        "precip": 2.7
+      },
+      "aug": {
+        "precip": 2.6
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1.1
+      },
+      "nov": {
+        "precip": 0.8
+      },
+      "dec": {
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       3.8,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00338609",
+    "stationName": "VAN WERT 1 S",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.3,
+        "highTemp": 32.5,
+        "lowTemp": 18.2,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 28.3,
+        "highTemp": 36.1,
+        "lowTemp": 20.5,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 37.9,
+        "highTemp": 46.9,
+        "lowTemp": 28.9,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 49.8,
+        "highTemp": 60.3,
+        "lowTemp": 39.3,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 71.8,
+        "lowTemp": 51.4,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 71,
+        "highTemp": 80.9,
+        "lowTemp": 61.1,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 74.5,
+        "highTemp": 84.5,
+        "lowTemp": 64.4,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 82.6,
+        "lowTemp": 62.3,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 65.8,
+        "highTemp": 76.8,
+        "lowTemp": 54.7,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 53.7,
+        "highTemp": 63.9,
+        "lowTemp": 43.4,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 41.3,
+        "highTemp": 49.5,
+        "lowTemp": 33,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 30.8,
+        "highTemp": 37.4,
+        "lowTemp": 24.1,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 51,
+      "highTemp": 60.3,
+      "lowTemp": 41.8,
+      "totalPrecip": 40.6,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

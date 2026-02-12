@@ -222,5 +222,93 @@
       4.6,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00211630",
+    "stationName": "CLOQUET HCN",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 9.9,
+        "highTemp": 18.2,
+        "lowTemp": 1.7,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 14.3,
+        "highTemp": 24,
+        "lowTemp": 4.6,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 26.4,
+        "highTemp": 36.8,
+        "lowTemp": 16.1,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 39.1,
+        "highTemp": 50.4,
+        "lowTemp": 27.9,
+        "precip": 2.4
+      },
+      "may": {
+        "avgTemp": 51.4,
+        "highTemp": 64.3,
+        "lowTemp": 38.4,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 60.7,
+        "highTemp": 73.5,
+        "lowTemp": 47.8,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 66.3,
+        "highTemp": 78.5,
+        "lowTemp": 54,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 64.6,
+        "highTemp": 76.2,
+        "lowTemp": 53,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 56.4,
+        "highTemp": 67.2,
+        "lowTemp": 45.6,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 43,
+        "highTemp": 51.7,
+        "lowTemp": 34.3,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 28.4,
+        "highTemp": 35,
+        "lowTemp": 21.9,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 15.8,
+        "highTemp": 22.7,
+        "lowTemp": 9,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 39.7,
+      "highTemp": 49.9,
+      "lowTemp": 29.5,
+      "totalPrecip": 32.8,
+      "hotMonths": 0,
+      "coldMonths": 6
+    }
   }
 }

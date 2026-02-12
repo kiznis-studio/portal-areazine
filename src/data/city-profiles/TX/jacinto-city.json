@@ -303,5 +303,93 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00414326",
+    "stationName": "HOUSTON-PORT",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.6,
+        "highTemp": 62.8,
+        "lowTemp": 44.3,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 57.8,
+        "highTemp": 66.7,
+        "lowTemp": 48.9,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 63.5,
+        "highTemp": 73.3,
+        "lowTemp": 53.7,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 70.1,
+        "highTemp": 79.2,
+        "lowTemp": 60.9,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 77.2,
+        "highTemp": 85.7,
+        "lowTemp": 68.7,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 83.1,
+        "highTemp": 91.3,
+        "lowTemp": 74.8,
+        "precip": 7.9
+      },
+      "jul": {
+        "avgTemp": 85,
+        "highTemp": 93.2,
+        "lowTemp": 76.8,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 85.6,
+        "highTemp": 94.3,
+        "lowTemp": 76.8,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 80.8,
+        "highTemp": 89.8,
+        "lowTemp": 71.8,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 72.3,
+        "highTemp": 81.9,
+        "lowTemp": 62.7,
+        "precip": 5.4
+      },
+      "nov": {
+        "avgTemp": 62.4,
+        "highTemp": 72,
+        "lowTemp": 52.9,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 55.6,
+        "highTemp": 65.2,
+        "lowTemp": 46,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 70.6,
+      "highTemp": 79.6,
+      "lowTemp": 61.5,
+      "totalPrecip": 54.3,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

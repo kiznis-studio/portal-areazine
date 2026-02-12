@@ -247,5 +247,93 @@
       5.2,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00308600",
+    "stationName": "TROY L&D HCN",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.5,
+        "highTemp": 34.2,
+        "lowTemp": 16.9,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 27.7,
+        "highTemp": 37.1,
+        "lowTemp": 18.2,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 36.1,
+        "highTemp": 46,
+        "lowTemp": 26.2,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 48.9,
+        "highTemp": 60.2,
+        "lowTemp": 37.7,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 60.9,
+        "highTemp": 72.5,
+        "lowTemp": 49.3,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 69.7,
+        "highTemp": 80.5,
+        "lowTemp": 59,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 74.9,
+        "highTemp": 85.6,
+        "lowTemp": 64.1,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 73.1,
+        "highTemp": 84.1,
+        "lowTemp": 62.2,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 65.8,
+        "highTemp": 77.2,
+        "lowTemp": 54.4,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 53.4,
+        "highTemp": 63.7,
+        "lowTemp": 43.2,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 42.1,
+        "highTemp": 51,
+        "lowTemp": 33.2,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 32.2,
+        "highTemp": 39.7,
+        "lowTemp": 24.7,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 50.9,
+      "highTemp": 61,
+      "lowTemp": 40.8,
+      "totalPrecip": 42,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

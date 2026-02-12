@@ -231,5 +231,54 @@
       4.3,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1ALTG0011",
+    "stationName": "TALLADEGA 8.8 NW",
+    "distanceMi": 6.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.3
+      },
+      "feb": {
+        "precip": 5.6
+      },
+      "mar": {
+        "precip": 5.5
+      },
+      "apr": {
+        "precip": 4.9
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 5.3
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 57.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

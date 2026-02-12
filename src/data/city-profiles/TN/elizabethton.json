@@ -231,5 +231,93 @@
       7.2,
       6.8
     ]
+  },
+  "climate": {
+    "station": "USC00402806",
+    "stationName": "ELIZABETHTON",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.9,
+        "highTemp": 46.2,
+        "lowTemp": 25.5,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 39.2,
+        "highTemp": 50.4,
+        "lowTemp": 28.1,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 46.6,
+        "highTemp": 58.9,
+        "lowTemp": 34.2,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 55.5,
+        "highTemp": 69,
+        "lowTemp": 41.9,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 64.2,
+        "highTemp": 76.6,
+        "lowTemp": 51.8,
+        "precip": 4.4
+      },
+      "jun": {
+        "avgTemp": 71.2,
+        "highTemp": 82.9,
+        "lowTemp": 59.6,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 74.5,
+        "highTemp": 85.5,
+        "lowTemp": 63.5,
+        "precip": 5.9
+      },
+      "aug": {
+        "avgTemp": 73.7,
+        "highTemp": 85,
+        "lowTemp": 62.3,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 67.9,
+        "highTemp": 80.1,
+        "lowTemp": 55.6,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 57,
+        "highTemp": 70,
+        "lowTemp": 44,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 58.5,
+        "lowTemp": 33.3,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 39.2,
+        "highTemp": 49.5,
+        "lowTemp": 28.8,
+        "precip": 3.9
+      }
+    },
+    "annual": {
+      "avgTemp": 55.9,
+      "highTemp": 67.7,
+      "lowTemp": 44.1,
+      "totalPrecip": 48.2,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

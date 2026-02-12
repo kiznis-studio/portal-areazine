@@ -303,5 +303,54 @@
       5.8,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1FLPB0081",
+    "stationName": "PALM BEACH SHORES 1.4 N",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 4.3
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 5
+      },
+      "jun": {
+        "precip": 8.3
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 9
+      },
+      "sep": {
+        "precip": 7.7
+      },
+      "oct": {
+        "precip": 6.2
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 3
+      }
+    },
+    "annual": {
+      "totalPrecip": 61.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

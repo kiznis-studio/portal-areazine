@@ -263,5 +263,54 @@
       4.1,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1SCGV0013",
+    "stationName": "FIVE FORKS 1.0 W",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.5
+      },
+      "feb": {
+        "precip": 4.1
+      },
+      "mar": {
+        "precip": 4.7
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 5.1
+      },
+      "aug": {
+        "precip": 5.1
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

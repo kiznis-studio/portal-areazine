@@ -303,5 +303,54 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00048967",
+    "stationName": "TOPANGA PATROL FC-6",
+    "distanceMi": 11.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.6
+      },
+      "feb": {
+        "precip": 5.9
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 0.8
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 1
+      },
+      "dec": {
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 22.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

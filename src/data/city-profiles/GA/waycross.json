@@ -231,5 +231,93 @@
       4.3,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00099186",
+    "stationName": "WAYCROSS 4 NE HCN",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.3,
+        "highTemp": 63.9,
+        "lowTemp": 36.7,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 54.1,
+        "highTemp": 68,
+        "lowTemp": 40.1,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 59.9,
+        "highTemp": 74.5,
+        "lowTemp": 45.2,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 66.2,
+        "highTemp": 80.9,
+        "lowTemp": 51.5,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 74,
+        "highTemp": 87.7,
+        "lowTemp": 60.2,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 80.4,
+        "highTemp": 92,
+        "lowTemp": 68.8,
+        "precip": 6.8
+      },
+      "jul": {
+        "avgTemp": 82.7,
+        "highTemp": 94.1,
+        "lowTemp": 71.4,
+        "precip": 5.9
+      },
+      "aug": {
+        "avgTemp": 81.9,
+        "highTemp": 92.9,
+        "lowTemp": 70.8,
+        "precip": 6.8
+      },
+      "sep": {
+        "avgTemp": 77.4,
+        "highTemp": 88.9,
+        "lowTemp": 65.9,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 68.1,
+        "highTemp": 81,
+        "lowTemp": 55.2,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 59.4,
+        "highTemp": 73.9,
+        "lowTemp": 44.9,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 53,
+        "highTemp": 67.1,
+        "lowTemp": 39,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 67.3,
+      "highTemp": 80.4,
+      "lowTemp": 54.1,
+      "totalPrecip": 50.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

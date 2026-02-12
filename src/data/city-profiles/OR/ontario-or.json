@@ -231,5 +231,93 @@
       6.2,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00356294",
+    "stationName": "ONTARIO KSRV",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.2,
+        "highTemp": 35.8,
+        "lowTemp": 22.7,
+        "precip": 1.3
+      },
+      "feb": {
+        "avgTemp": 34.8,
+        "highTemp": 43.6,
+        "lowTemp": 25.9,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 43.9,
+        "highTemp": 55.7,
+        "lowTemp": 32,
+        "precip": 1
+      },
+      "apr": {
+        "avgTemp": 50.5,
+        "highTemp": 63.2,
+        "lowTemp": 37.8,
+        "precip": 0.9
+      },
+      "may": {
+        "avgTemp": 60.2,
+        "highTemp": 73.6,
+        "lowTemp": 46.7,
+        "precip": 1.4
+      },
+      "jun": {
+        "avgTemp": 68.2,
+        "highTemp": 82.3,
+        "lowTemp": 54.1,
+        "precip": 0.7
+      },
+      "jul": {
+        "avgTemp": 76.8,
+        "highTemp": 93.4,
+        "lowTemp": 60.1,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 74.2,
+        "highTemp": 91.4,
+        "lowTemp": 57,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 64.1,
+        "highTemp": 80.9,
+        "lowTemp": 47.3,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 50.3,
+        "highTemp": 64.6,
+        "lowTemp": 36,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 37.4,
+        "highTemp": 47.3,
+        "lowTemp": 27.6,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 29.3,
+        "highTemp": 36.3,
+        "lowTemp": 22.3,
+        "precip": 1.6
+      }
+    },
+    "annual": {
+      "avgTemp": 51.6,
+      "highTemp": 64,
+      "lowTemp": 39.1,
+      "totalPrecip": 10.1,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

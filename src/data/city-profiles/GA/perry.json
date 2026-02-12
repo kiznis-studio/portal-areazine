@@ -239,5 +239,54 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1GAHS0016",
+    "stationName": "KATHLEEN 2.5 NW",
+    "distanceMi": 7.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.5
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 3
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 2.8
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

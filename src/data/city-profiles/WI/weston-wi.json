@@ -239,5 +239,93 @@
       3.1,
       2.9
     ]
+  },
+  "climate": {
+    "station": "USW00014897",
+    "stationName": "WAUSAU DWTN AP 72646",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 14.8,
+        "highTemp": 22.8,
+        "lowTemp": 6.7,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 18.5,
+        "highTemp": 27.4,
+        "lowTemp": 9.5,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 30.1,
+        "highTemp": 39.6,
+        "lowTemp": 20.6,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 43.1,
+        "highTemp": 53.7,
+        "lowTemp": 32.4,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 55.8,
+        "highTemp": 67.1,
+        "lowTemp": 44.6,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 65.4,
+        "highTemp": 76.2,
+        "lowTemp": 54.5,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 69.5,
+        "highTemp": 80.3,
+        "lowTemp": 58.7,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 67.4,
+        "highTemp": 77.9,
+        "lowTemp": 56.9,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 59.2,
+        "highTemp": 69.8,
+        "lowTemp": 48.6,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 46.3,
+        "highTemp": 55.7,
+        "lowTemp": 37,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 32.8,
+        "highTemp": 40.4,
+        "lowTemp": 25.2,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 20.7,
+        "highTemp": 27.9,
+        "lowTemp": 13.5,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 43.6,
+      "highTemp": 53.2,
+      "lowTemp": 34,
+      "totalPrecip": 34,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

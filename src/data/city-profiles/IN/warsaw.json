@@ -231,5 +231,93 @@
       3.3,
       2.9
     ]
+  },
+  "climate": {
+    "station": "USC00129240",
+    "stationName": "WARSAW",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.8,
+        "highTemp": 33,
+        "lowTemp": 16.6,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 27.9,
+        "highTemp": 36.8,
+        "lowTemp": 18.9,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 37.7,
+        "highTemp": 47.9,
+        "lowTemp": 27.5,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 49.4,
+        "highTemp": 60.9,
+        "lowTemp": 37.9,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 60.2,
+        "highTemp": 71.7,
+        "lowTemp": 48.7,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 69.5,
+        "highTemp": 80.8,
+        "lowTemp": 58.2,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 72.8,
+        "highTemp": 83.8,
+        "lowTemp": 61.7,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 81.8,
+        "lowTemp": 59.8,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 64.3,
+        "highTemp": 76.2,
+        "lowTemp": 52.4,
+        "precip": 2.9
+      },
+      "oct": {
+        "avgTemp": 52.6,
+        "highTemp": 63.6,
+        "lowTemp": 41.6,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 40.6,
+        "highTemp": 49.8,
+        "lowTemp": 31.4,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 30,
+        "highTemp": 37.7,
+        "lowTemp": 22.3,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 50.1,
+      "highTemp": 60.3,
+      "lowTemp": 39.8,
+      "totalPrecip": 40.6,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

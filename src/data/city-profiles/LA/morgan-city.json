@@ -231,5 +231,93 @@
       5.9,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00166394",
+    "stationName": "MORGAN CITY",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.2,
+        "highTemp": 63,
+        "lowTemp": 45.4,
+        "precip": 5
+      },
+      "feb": {
+        "avgTemp": 57.7,
+        "highTemp": 66.5,
+        "lowTemp": 48.9,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 63.2,
+        "highTemp": 71.8,
+        "lowTemp": 54.6,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 69.5,
+        "highTemp": 78,
+        "lowTemp": 61,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 76.4,
+        "highTemp": 84.1,
+        "lowTemp": 68.7,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 81.7,
+        "highTemp": 88.9,
+        "lowTemp": 74.6,
+        "precip": 7
+      },
+      "jul": {
+        "avgTemp": 83.4,
+        "highTemp": 90.5,
+        "lowTemp": 76.3,
+        "precip": 6.2
+      },
+      "aug": {
+        "avgTemp": 83.3,
+        "highTemp": 90.4,
+        "lowTemp": 76.2,
+        "precip": 7.3
+      },
+      "sep": {
+        "avgTemp": 80.5,
+        "highTemp": 87.9,
+        "lowTemp": 73,
+        "precip": 5.4
+      },
+      "oct": {
+        "avgTemp": 72.4,
+        "highTemp": 81.1,
+        "lowTemp": 63.7,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 62.5,
+        "highTemp": 72,
+        "lowTemp": 53,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 56.6,
+        "highTemp": 65.6,
+        "lowTemp": 47.7,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 70.1,
+      "highTemp": 78.3,
+      "lowTemp": 61.9,
+      "totalPrecip": 58.6,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

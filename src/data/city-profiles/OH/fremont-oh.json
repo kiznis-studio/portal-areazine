@@ -239,5 +239,93 @@
       4.8,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00332974",
+    "stationName": "FREMONT",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.1,
+        "highTemp": 33.7,
+        "lowTemp": 18.5,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 28.3,
+        "highTemp": 36.6,
+        "lowTemp": 20,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 37.3,
+        "highTemp": 46.7,
+        "lowTemp": 27.8,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 48.9,
+        "highTemp": 59.9,
+        "lowTemp": 38,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 60.4,
+        "highTemp": 71.5,
+        "lowTemp": 49.4,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 70.4,
+        "highTemp": 81.1,
+        "lowTemp": 59.7,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 74,
+        "highTemp": 85,
+        "lowTemp": 63.1,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 72,
+        "highTemp": 82.9,
+        "lowTemp": 61,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 65.2,
+        "highTemp": 76.8,
+        "lowTemp": 53.6,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 53.2,
+        "highTemp": 64.1,
+        "lowTemp": 42.4,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 41.5,
+        "highTemp": 50.3,
+        "lowTemp": 32.8,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 31.6,
+        "highTemp": 38.8,
+        "lowTemp": 24.5,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 50.7,
+      "highTemp": 60.6,
+      "lowTemp": 40.9,
+      "totalPrecip": 38.1,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

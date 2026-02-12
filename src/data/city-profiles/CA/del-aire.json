@@ -303,5 +303,92 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00023174",
+    "stationName": "LOS ANGELES INTL AP 72295",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.9,
+        "highTemp": 66.3,
+        "lowTemp": 49.4,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 57.9,
+        "highTemp": 65.6,
+        "lowTemp": 50.1,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 59.1,
+        "highTemp": 66.1,
+        "lowTemp": 52.2,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 61.1,
+        "highTemp": 68.1,
+        "lowTemp": 54.2,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 63.6,
+        "highTemp": 69.5,
+        "lowTemp": 57.6,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 66.4,
+        "highTemp": 72,
+        "lowTemp": 60.9,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 69.6,
+        "highTemp": 75.1,
+        "lowTemp": 64,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 70.7,
+        "highTemp": 76.7,
+        "lowTemp": 64.8
+      },
+      "sep": {
+        "avgTemp": 70.1,
+        "highTemp": 76.5,
+        "lowTemp": 63.7,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 67.1,
+        "highTemp": 74.4,
+        "lowTemp": 59.8,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 62.3,
+        "highTemp": 70.9,
+        "lowTemp": 53.7,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 57.6,
+        "highTemp": 66.1,
+        "lowTemp": 49.1,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 63.6,
+      "highTemp": 70.6,
+      "lowTemp": 56.6,
+      "totalPrecip": 12.2,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

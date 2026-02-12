@@ -303,5 +303,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USW00012888",
+    "stationName": "MIAMI KENDALL TAMIAMI EXEC AP",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 66.9,
+        "highTemp": 76.9,
+        "lowTemp": 56.8,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 69.1,
+        "highTemp": 79.6,
+        "lowTemp": 58.6,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 71.5,
+        "highTemp": 81.9,
+        "lowTemp": 61.1,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 75,
+        "highTemp": 85.1,
+        "lowTemp": 64.9,
+        "precip": 2.9
+      },
+      "may": {
+        "avgTemp": 78.9,
+        "highTemp": 88.2,
+        "lowTemp": 69.5,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 82.1,
+        "highTemp": 90.3,
+        "lowTemp": 74,
+        "precip": 8.8
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 91.2,
+        "lowTemp": 74.9,
+        "precip": 7.2
+      },
+      "aug": {
+        "avgTemp": 83.6,
+        "highTemp": 91.7,
+        "lowTemp": 75.4,
+        "precip": 8.3
+      },
+      "sep": {
+        "avgTemp": 82.3,
+        "highTemp": 89.8,
+        "lowTemp": 74.7,
+        "precip": 8.4
+      },
+      "oct": {
+        "avgTemp": 79.2,
+        "highTemp": 87,
+        "lowTemp": 71.3,
+        "precip": 5.3
+      },
+      "nov": {
+        "avgTemp": 73.1,
+        "highTemp": 81.9,
+        "lowTemp": 64.3,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 69.4,
+        "highTemp": 78.8,
+        "lowTemp": 60,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 76.2,
+      "highTemp": 85.2,
+      "lowTemp": 67.1,
+      "totalPrecip": 56.2,
+      "hotMonths": 9,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       10.4,
       9
     ]
+  },
+  "climate": {
+    "station": "USC00229860",
+    "stationName": "YAZOO CITY 5 NNE HCN",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.5,
+        "highTemp": 58.4,
+        "lowTemp": 38.6,
+        "precip": 5.7
+      },
+      "feb": {
+        "avgTemp": 52,
+        "highTemp": 62.6,
+        "lowTemp": 41.4,
+        "precip": 5.6
+      },
+      "mar": {
+        "avgTemp": 59.4,
+        "highTemp": 70.8,
+        "lowTemp": 48,
+        "precip": 5.9
+      },
+      "apr": {
+        "avgTemp": 67.5,
+        "highTemp": 78.9,
+        "lowTemp": 56.1,
+        "precip": 6.6
+      },
+      "may": {
+        "avgTemp": 75.6,
+        "highTemp": 86,
+        "lowTemp": 65.1,
+        "precip": 5.7
+      },
+      "jun": {
+        "avgTemp": 82.1,
+        "highTemp": 92.1,
+        "lowTemp": 72.1,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 84.7,
+        "highTemp": 94.3,
+        "lowTemp": 75.1,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 84.6,
+        "highTemp": 94.9,
+        "lowTemp": 74.4,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 79.3,
+        "highTemp": 90.5,
+        "lowTemp": 68.2,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 68.7,
+        "highTemp": 80.5,
+        "lowTemp": 57,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 57.5,
+        "highTemp": 68.8,
+        "lowTemp": 46.1,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 51,
+        "highTemp": 60.7,
+        "lowTemp": 41.2,
+        "precip": 5.8
+      }
+    },
+    "annual": {
+      "avgTemp": 67.6,
+      "highTemp": 78.2,
+      "lowTemp": 56.9,
+      "totalPrecip": 60.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

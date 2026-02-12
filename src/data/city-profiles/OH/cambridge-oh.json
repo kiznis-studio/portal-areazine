@@ -231,5 +231,93 @@
       4.6,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00331197",
+    "stationName": "CAMBRIDGE",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.4,
+        "highTemp": 38.2,
+        "lowTemp": 20.7,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 32.4,
+        "highTemp": 42.3,
+        "lowTemp": 22.6,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 41.6,
+        "highTemp": 52.8,
+        "lowTemp": 30.3,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 53.2,
+        "highTemp": 66.2,
+        "lowTemp": 40.2,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 62.6,
+        "highTemp": 75,
+        "lowTemp": 50.2,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 70.3,
+        "highTemp": 82,
+        "lowTemp": 58.5,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 73.9,
+        "highTemp": 85.1,
+        "lowTemp": 62.7,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 72.5,
+        "highTemp": 84,
+        "lowTemp": 60.9,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 65.7,
+        "highTemp": 77.8,
+        "lowTemp": 53.7,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 54.1,
+        "highTemp": 66.1,
+        "lowTemp": 42.2,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 42.9,
+        "highTemp": 53.2,
+        "lowTemp": 32.6,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 34,
+        "highTemp": 42.4,
+        "lowTemp": 25.7,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 52.7,
+      "highTemp": 63.8,
+      "lowTemp": 41.7,
+      "totalPrecip": 41.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

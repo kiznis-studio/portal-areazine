@@ -295,5 +295,93 @@
       5.3,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USW00053908",
+    "stationName": "TULSA R L JONES JR AP",
+    "distanceMi": 6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.9,
+        "highTemp": 49.7,
+        "lowTemp": 28.1,
+        "precip": 1.6
+      },
+      "feb": {
+        "avgTemp": 43.3,
+        "highTemp": 54.7,
+        "lowTemp": 31.9,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 52.4,
+        "highTemp": 64,
+        "lowTemp": 40.8,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 61.3,
+        "highTemp": 73.1,
+        "lowTemp": 49.6,
+        "precip": 4.5
+      },
+      "may": {
+        "avgTemp": 69.9,
+        "highTemp": 80.2,
+        "lowTemp": 59.6,
+        "precip": 6.1
+      },
+      "jun": {
+        "avgTemp": 78.8,
+        "highTemp": 89,
+        "lowTemp": 68.7,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 83.3,
+        "highTemp": 94,
+        "lowTemp": 72.5,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 82.1,
+        "highTemp": 93.5,
+        "lowTemp": 70.7,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 74.1,
+        "highTemp": 85.3,
+        "lowTemp": 62.9,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 62.4,
+        "highTemp": 74.2,
+        "lowTemp": 50.6,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 50.7,
+        "highTemp": 62.1,
+        "lowTemp": 39.2,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 41.2,
+        "highTemp": 51.7,
+        "lowTemp": 30.8,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 61.5,
+      "highTemp": 72.6,
+      "lowTemp": 50.4,
+      "totalPrecip": 42,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

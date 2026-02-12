@@ -247,5 +247,54 @@
       5.3,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1COME0140",
+    "stationName": "FRUITA 1.1 NNW",
+    "distanceMi": 0.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 0.6
+      },
+      "mar": {
+        "precip": 0.9
+      },
+      "apr": {
+        "precip": 1.2
+      },
+      "may": {
+        "precip": 0.9
+      },
+      "jun": {
+        "precip": 1
+      },
+      "jul": {
+        "precip": 0.9
+      },
+      "aug": {
+        "precip": 1
+      },
+      "sep": {
+        "precip": 1.3
+      },
+      "oct": {
+        "precip": 1.4
+      },
+      "nov": {
+        "precip": 0.9
+      },
+      "dec": {
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 11.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

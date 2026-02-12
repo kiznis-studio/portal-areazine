@@ -177,5 +177,54 @@
       5.9,
       5.7
     ]
+  },
+  "climate": {
+    "station": "US1PALZ0024",
+    "stationName": "FORTY FORT 0.4 NNE",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 45.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       3.1,
       3.4
     ]
+  },
+  "climate": {
+    "station": "USC00232981",
+    "stationName": "FT LEONARD WOOD",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.8,
+        "highTemp": 42,
+        "lowTemp": 21.5,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 36.4,
+        "highTemp": 47.1,
+        "lowTemp": 25.7,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 44.9,
+        "highTemp": 56.6,
+        "lowTemp": 33.3,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 55.4,
+        "highTemp": 67.6,
+        "lowTemp": 43.2,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 64.3,
+        "highTemp": 75.3,
+        "lowTemp": 53.4,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 72.7,
+        "highTemp": 83.3,
+        "lowTemp": 62.2,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 77.1,
+        "highTemp": 88.4,
+        "lowTemp": 65.8,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 75.6,
+        "highTemp": 87.2,
+        "lowTemp": 64,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 68.2,
+        "highTemp": 80.2,
+        "lowTemp": 56.2,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 56.9,
+        "highTemp": 69,
+        "lowTemp": 44.8,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 45,
+        "highTemp": 56.3,
+        "lowTemp": 33.8,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 35.7,
+        "highTemp": 45.7,
+        "lowTemp": 25.7,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 55.3,
+      "highTemp": 66.6,
+      "lowTemp": 44.1,
+      "totalPrecip": 46.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

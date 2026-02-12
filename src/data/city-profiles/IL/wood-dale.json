@@ -216,5 +216,54 @@
       4.7,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ILCK0063",
+    "stationName": "ELK GROVE VILLAGE 0.6 ESE",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

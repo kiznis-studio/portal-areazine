@@ -216,5 +216,54 @@
       3.9,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1ALDK0009",
+    "stationName": "FORT PAYNE 1.4 WSW",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.5
+      },
+      "feb": {
+        "precip": 5.5
+      },
+      "mar": {
+        "precip": 5.8
+      },
+      "apr": {
+        "precip": 5.7
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 5
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4.7
+      },
+      "dec": {
+        "precip": 6.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 59.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

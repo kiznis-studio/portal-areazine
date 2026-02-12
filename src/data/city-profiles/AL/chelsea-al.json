@@ -231,5 +231,54 @@
       3.1,
       2.9
     ]
+  },
+  "climate": {
+    "station": "US1ALSH0011",
+    "stationName": "MEADOWBROOK 1.7 E",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.4
+      },
+      "feb": {
+        "precip": 5.7
+      },
+      "mar": {
+        "precip": 5.4
+      },
+      "apr": {
+        "precip": 5.2
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 5.5
+      },
+      "aug": {
+        "precip": 4.7
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 4.6
+      },
+      "dec": {
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 58.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       3.7,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00317994",
+    "stationName": "SMITHFIELD HCN",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.5,
+        "highTemp": 53.6,
+        "lowTemp": 31.4,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 45.2,
+        "highTemp": 57,
+        "lowTemp": 33.3,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 51.9,
+        "highTemp": 64.5,
+        "lowTemp": 39.3,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 60.8,
+        "highTemp": 74.1,
+        "lowTemp": 47.5,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 69.2,
+        "highTemp": 81,
+        "lowTemp": 57.4,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 77.1,
+        "highTemp": 88.3,
+        "lowTemp": 65.9,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 81.2,
+        "highTemp": 91.7,
+        "lowTemp": 70.8,
+        "precip": 5.5
+      },
+      "aug": {
+        "avgTemp": 78.9,
+        "highTemp": 89.3,
+        "lowTemp": 68.6,
+        "precip": 5.3
+      },
+      "sep": {
+        "avgTemp": 73.3,
+        "highTemp": 83.6,
+        "lowTemp": 62.9,
+        "precip": 5.5
+      },
+      "oct": {
+        "avgTemp": 62.2,
+        "highTemp": 74.3,
+        "lowTemp": 50.1,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 51.7,
+        "highTemp": 64.4,
+        "lowTemp": 39,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 45.2,
+        "highTemp": 56.7,
+        "lowTemp": 33.8,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 61.6,
+      "highTemp": 73.2,
+      "lowTemp": 50,
+      "totalPrecip": 49.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

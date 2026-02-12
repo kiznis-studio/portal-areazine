@@ -222,5 +222,93 @@
       2.9,
       2.5
     ]
+  },
+  "climate": {
+    "station": "USC00057936",
+    "stationName": "STEAMBOAT SPRINGS HCN",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 16.9,
+        "highTemp": 29.2,
+        "lowTemp": 4.6,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 21.1,
+        "highTemp": 34.3,
+        "lowTemp": 7.9,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 31.2,
+        "highTemp": 44.8,
+        "lowTemp": 17.6,
+        "precip": 1.6
+      },
+      "apr": {
+        "avgTemp": 40.5,
+        "highTemp": 54.4,
+        "lowTemp": 26.7,
+        "precip": 2.5
+      },
+      "may": {
+        "avgTemp": 49.6,
+        "highTemp": 65.2,
+        "lowTemp": 34,
+        "precip": 2.7
+      },
+      "jun": {
+        "avgTemp": 57.6,
+        "highTemp": 75.9,
+        "lowTemp": 39.2,
+        "precip": 1.6
+      },
+      "jul": {
+        "avgTemp": 64.5,
+        "highTemp": 83.1,
+        "lowTemp": 45.8,
+        "precip": 1.7
+      },
+      "aug": {
+        "avgTemp": 62.8,
+        "highTemp": 81.5,
+        "lowTemp": 44.2,
+        "precip": 1.8
+      },
+      "sep": {
+        "avgTemp": 54.6,
+        "highTemp": 73.5,
+        "lowTemp": 35.7,
+        "precip": 2.3
+      },
+      "oct": {
+        "avgTemp": 42.7,
+        "highTemp": 59.3,
+        "lowTemp": 26.1,
+        "precip": 2.2
+      },
+      "nov": {
+        "avgTemp": 29.7,
+        "highTemp": 42.9,
+        "lowTemp": 16.4,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 18.3,
+        "highTemp": 30.4,
+        "lowTemp": 6.3,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 40.8,
+      "highTemp": 56.2,
+      "lowTemp": 25.4,
+      "totalPrecip": 24.7,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

@@ -216,5 +216,93 @@
       2.8,
       2.9
     ]
+  },
+  "climate": {
+    "station": "USC00411430",
+    "stationName": "CANYON",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.4,
+        "highTemp": 52.3,
+        "lowTemp": 22.6,
+        "precip": 0.6
+      },
+      "feb": {
+        "avgTemp": 40.4,
+        "highTemp": 56,
+        "lowTemp": 24.7,
+        "precip": 0.4
+      },
+      "mar": {
+        "avgTemp": 48.8,
+        "highTemp": 64.6,
+        "lowTemp": 33,
+        "precip": 1.1
+      },
+      "apr": {
+        "avgTemp": 57.1,
+        "highTemp": 72.6,
+        "lowTemp": 41.6,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 67,
+        "highTemp": 81.5,
+        "lowTemp": 52.5,
+        "precip": 2.3
+      },
+      "jun": {
+        "avgTemp": 76.3,
+        "highTemp": 90.3,
+        "lowTemp": 62.3,
+        "precip": 2.7
+      },
+      "jul": {
+        "avgTemp": 79.7,
+        "highTemp": 92.7,
+        "lowTemp": 66.8,
+        "precip": 2.3
+      },
+      "aug": {
+        "avgTemp": 78.3,
+        "highTemp": 91.1,
+        "lowTemp": 65.4,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 70.7,
+        "highTemp": 84.3,
+        "lowTemp": 57.2,
+        "precip": 1.9
+      },
+      "oct": {
+        "avgTemp": 59.3,
+        "highTemp": 74.1,
+        "lowTemp": 44.4,
+        "precip": 2
+      },
+      "nov": {
+        "avgTemp": 46.9,
+        "highTemp": 61.5,
+        "lowTemp": 32.3,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 37.8,
+        "highTemp": 52,
+        "lowTemp": 23.7,
+        "precip": 0.6
+      }
+    },
+    "annual": {
+      "avgTemp": 58.3,
+      "highTemp": 72.8,
+      "lowTemp": 43.9,
+      "totalPrecip": 18.6,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

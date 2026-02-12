@@ -239,5 +239,93 @@
       6.4,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00020404",
+    "stationName": "ARIZONA CITY",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.2,
+        "highTemp": 64.4,
+        "lowTemp": 34.1,
+        "precip": 0.7
+      },
+      "feb": {
+        "avgTemp": 53.2,
+        "highTemp": 68.9,
+        "lowTemp": 37.5,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 59.6,
+        "highTemp": 76.3,
+        "lowTemp": 42.9,
+        "precip": 0.9
+      },
+      "apr": {
+        "avgTemp": 66.6,
+        "highTemp": 83.9,
+        "lowTemp": 49.3,
+        "precip": 0.1
+      },
+      "may": {
+        "avgTemp": 75.1,
+        "highTemp": 92.6,
+        "lowTemp": 57.6,
+        "precip": 0.2
+      },
+      "jun": {
+        "avgTemp": 84.9,
+        "highTemp": 102.8,
+        "lowTemp": 67.1,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 89.5,
+        "highTemp": 103.5,
+        "lowTemp": 75.5,
+        "precip": 1.2
+      },
+      "aug": {
+        "avgTemp": 88.6,
+        "highTemp": 102,
+        "lowTemp": 75.1,
+        "precip": 1.1
+      },
+      "sep": {
+        "avgTemp": 82.7,
+        "highTemp": 97.9,
+        "lowTemp": 67.5,
+        "precip": 1
+      },
+      "oct": {
+        "avgTemp": 70.7,
+        "highTemp": 88,
+        "lowTemp": 53.5,
+        "precip": 0.3
+      },
+      "nov": {
+        "avgTemp": 57.7,
+        "highTemp": 74.8,
+        "lowTemp": 40.7,
+        "precip": 0.4
+      },
+      "dec": {
+        "avgTemp": 48.6,
+        "highTemp": 63.7,
+        "lowTemp": 33.5,
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "avgTemp": 68.9,
+      "highTemp": 84.9,
+      "lowTemp": 52.9,
+      "totalPrecip": 7.9,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

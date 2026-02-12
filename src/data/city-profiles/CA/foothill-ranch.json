@@ -303,5 +303,93 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00044303",
+    "stationName": "IRVINE RCH",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 58.8,
+        "highTemp": 69,
+        "lowTemp": 48.6,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 59.2,
+        "highTemp": 70.5,
+        "lowTemp": 47.9,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 61.4,
+        "highTemp": 73.1,
+        "lowTemp": 49.7,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 64.1,
+        "highTemp": 76.4,
+        "lowTemp": 51.9,
+        "precip": 0.9
+      },
+      "may": {
+        "avgTemp": 67.4,
+        "highTemp": 79.4,
+        "lowTemp": 55.5,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 70.6,
+        "highTemp": 82.5,
+        "lowTemp": 58.7,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 75,
+        "highTemp": 88.1,
+        "lowTemp": 61.9,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 76.2,
+        "highTemp": 90.2,
+        "lowTemp": 62.2,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 75.3,
+        "highTemp": 88.8,
+        "lowTemp": 61.7,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 71.1,
+        "highTemp": 84.3,
+        "lowTemp": 57.8,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 64,
+        "highTemp": 75.6,
+        "lowTemp": 52.5,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 57.7,
+        "highTemp": 67.8,
+        "lowTemp": 47.6,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 66.7,
+      "highTemp": 78.8,
+      "lowTemp": 54.7,
+      "totalPrecip": 13,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

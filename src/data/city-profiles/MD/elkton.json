@@ -231,5 +231,54 @@
       4.9,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1DENC0002",
+    "stationName": "NEWARK 3.9 SSW",
+    "distanceMi": 2.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 4.9
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

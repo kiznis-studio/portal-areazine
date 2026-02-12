@@ -231,5 +231,93 @@
       3.9,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00413420",
+    "stationName": "GAINESVILLE 5 ENE HCN",
+    "distanceMi": 4.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.2,
+        "highTemp": 52.6,
+        "lowTemp": 31.7,
+        "precip": 2.2
+      },
+      "feb": {
+        "avgTemp": 46.5,
+        "highTemp": 57.6,
+        "lowTemp": 35.4,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 54.2,
+        "highTemp": 65.5,
+        "lowTemp": 42.8,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 62.2,
+        "highTemp": 73.5,
+        "lowTemp": 50.8,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 70,
+        "highTemp": 80,
+        "lowTemp": 60.1,
+        "precip": 5.6
+      },
+      "jun": {
+        "avgTemp": 78.6,
+        "highTemp": 88.5,
+        "lowTemp": 68.7,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 93.5,
+        "lowTemp": 72.8,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 83.3,
+        "highTemp": 94.3,
+        "lowTemp": 72.3,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 75.9,
+        "highTemp": 86.6,
+        "lowTemp": 65.1,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 64.9,
+        "highTemp": 76,
+        "lowTemp": 53.9,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 53.1,
+        "highTemp": 63.5,
+        "lowTemp": 42.7,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 44.3,
+        "highTemp": 54.5,
+        "lowTemp": 34.2,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 63.2,
+      "highTemp": 73.8,
+      "lowTemp": 52.5,
+      "totalPrecip": 42.7,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

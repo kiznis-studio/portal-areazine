@@ -279,5 +279,54 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "US1TXBXR300",
+    "stationName": "WINDCREST 1.7 E",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.9
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.6
+      },
+      "apr": {
+        "precip": 2.3
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 3.4
+      },
+      "jul": {
+        "precip": 2.3
+      },
+      "aug": {
+        "precip": 2.4
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 32.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

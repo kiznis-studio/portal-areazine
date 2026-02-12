@@ -263,5 +263,93 @@
       8.6,
       8.5
     ]
+  },
+  "climate": {
+    "station": "USC00043256",
+    "stationName": "FRESNO 5 NE",
+    "distanceMi": 14.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.6,
+        "highTemp": 61,
+        "lowTemp": 38.1,
+        "precip": 2.3
+      },
+      "feb": {
+        "avgTemp": 54.2,
+        "highTemp": 66.8,
+        "lowTemp": 41.6,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 59.1,
+        "highTemp": 73.1,
+        "lowTemp": 45.2,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 64.2,
+        "highTemp": 79.3,
+        "lowTemp": 49,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 71.6,
+        "highTemp": 87.5,
+        "lowTemp": 55.7,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 79.1,
+        "highTemp": 96.3,
+        "lowTemp": 61.9,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 84.7,
+        "highTemp": 101.9,
+        "lowTemp": 67.6,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 83.7,
+        "highTemp": 100.9,
+        "lowTemp": 66.5,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 79,
+        "highTemp": 96,
+        "lowTemp": 61.9,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 69,
+        "highTemp": 84.8,
+        "lowTemp": 53.2,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 57.2,
+        "highTemp": 70.6,
+        "lowTemp": 43.8,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 49.3,
+        "highTemp": 61.1,
+        "lowTemp": 37.5,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 66.7,
+      "highTemp": 81.6,
+      "lowTemp": 51.8,
+      "totalPrecip": 11.9,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,93 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00285728",
+    "stationName": "MOORESTOWN HCN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.3,
+        "highTemp": 42.6,
+        "lowTemp": 25.9,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 36.7,
+        "highTemp": 46.1,
+        "lowTemp": 27.3,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 43.9,
+        "highTemp": 54.1,
+        "lowTemp": 33.7,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 54.7,
+        "highTemp": 66.4,
+        "lowTemp": 42.9,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 63.4,
+        "highTemp": 75.3,
+        "lowTemp": 51.5,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 72.6,
+        "highTemp": 83.6,
+        "lowTemp": 61.5,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 77.4,
+        "highTemp": 88,
+        "lowTemp": 66.8,
+        "precip": 5.4
+      },
+      "aug": {
+        "avgTemp": 74.9,
+        "highTemp": 85.3,
+        "lowTemp": 64.4,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 69,
+        "highTemp": 79.5,
+        "lowTemp": 58.6,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 57.5,
+        "highTemp": 68,
+        "lowTemp": 46.9,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 46.9,
+        "highTemp": 56.5,
+        "lowTemp": 37.3,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 38.6,
+        "highTemp": 46.6,
+        "lowTemp": 30.7,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 55.8,
+      "highTemp": 66,
+      "lowTemp": 45.6,
+      "totalPrecip": 49.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

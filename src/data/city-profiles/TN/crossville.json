@@ -231,5 +231,93 @@
       5.7,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USW00003847",
+    "stationName": "CROSSVILLE MEM AP 72325",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 35.3,
+        "highTemp": 44.3,
+        "lowTemp": 26.4,
+        "precip": 5
+      },
+      "feb": {
+        "avgTemp": 38.8,
+        "highTemp": 48.1,
+        "lowTemp": 29.5,
+        "precip": 5.1
+      },
+      "mar": {
+        "avgTemp": 46,
+        "highTemp": 56.3,
+        "lowTemp": 35.7,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 55.4,
+        "highTemp": 66.4,
+        "lowTemp": 44.4,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 63.2,
+        "highTemp": 73.5,
+        "lowTemp": 52.9,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 70.2,
+        "highTemp": 80.1,
+        "lowTemp": 60.4,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 73.8,
+        "highTemp": 83.2,
+        "lowTemp": 64.4,
+        "precip": 5.5
+      },
+      "aug": {
+        "avgTemp": 72.9,
+        "highTemp": 82.7,
+        "lowTemp": 63.1,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 67,
+        "highTemp": 77.3,
+        "lowTemp": 56.6,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 56.4,
+        "highTemp": 67.5,
+        "lowTemp": 45.2,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 46,
+        "highTemp": 56.3,
+        "lowTemp": 35.6,
+        "precip": 4.7
+      },
+      "dec": {
+        "avgTemp": 38.8,
+        "highTemp": 47.4,
+        "lowTemp": 30.2,
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "avgTemp": 55.3,
+      "highTemp": 65.3,
+      "lowTemp": 45.4,
+      "totalPrecip": 57.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -222,5 +222,93 @@
       13.2,
       15.7
     ]
+  },
+  "climate": {
+    "station": "USC00033242",
+    "stationName": "HELENA",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40.7,
+        "highTemp": 49.3,
+        "lowTemp": 32.2,
+        "precip": 4.6
+      },
+      "feb": {
+        "avgTemp": 44.5,
+        "highTemp": 54.3,
+        "lowTemp": 34.7,
+        "precip": 4.2
+      },
+      "mar": {
+        "avgTemp": 53.1,
+        "highTemp": 63.1,
+        "lowTemp": 43.1,
+        "precip": 5
+      },
+      "apr": {
+        "avgTemp": 62.3,
+        "highTemp": 72.6,
+        "lowTemp": 52,
+        "precip": 5.7
+      },
+      "may": {
+        "avgTemp": 71.2,
+        "highTemp": 80.9,
+        "lowTemp": 61.5,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 78.9,
+        "highTemp": 88.1,
+        "lowTemp": 69.6,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 81.6,
+        "highTemp": 90.4,
+        "lowTemp": 72.7,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 80.9,
+        "highTemp": 90.1,
+        "lowTemp": 71.7,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 74.9,
+        "highTemp": 84.9,
+        "lowTemp": 64.9,
+        "precip": 2.6
+      },
+      "oct": {
+        "avgTemp": 63.5,
+        "highTemp": 74.4,
+        "lowTemp": 52.5,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 51.8,
+        "highTemp": 61.5,
+        "lowTemp": 42.1,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 43.5,
+        "highTemp": 52.3,
+        "lowTemp": 34.7,
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "avgTemp": 62.2,
+      "highTemp": 71.8,
+      "lowTemp": 52.6,
+      "totalPrecip": 49.7,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

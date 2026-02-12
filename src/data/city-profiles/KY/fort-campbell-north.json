@@ -153,5 +153,93 @@
       6,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USW00003894",
+    "stationName": "CLARKSVILLE OUTLAW AP 72328",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37,
+        "highTemp": 46.2,
+        "lowTemp": 27.7,
+        "precip": 3.3
+      },
+      "feb": {
+        "avgTemp": 40.7,
+        "highTemp": 50.8,
+        "lowTemp": 30.6,
+        "precip": 3.9
+      },
+      "mar": {
+        "avgTemp": 48.9,
+        "highTemp": 60,
+        "lowTemp": 37.9,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 58.4,
+        "highTemp": 70,
+        "lowTemp": 46.7,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 67.3,
+        "highTemp": 77.8,
+        "lowTemp": 56.7,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 75,
+        "highTemp": 85.6,
+        "lowTemp": 64.4,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 78.2,
+        "highTemp": 88.5,
+        "lowTemp": 67.9,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 77.4,
+        "highTemp": 88.7,
+        "lowTemp": 66.2,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 70.6,
+        "highTemp": 82.4,
+        "lowTemp": 58.7,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 59.3,
+        "highTemp": 71.5,
+        "lowTemp": 47.1,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 48.1,
+        "highTemp": 59,
+        "lowTemp": 37.2,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 39.9,
+        "highTemp": 48.9,
+        "lowTemp": 31,
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "avgTemp": 58.4,
+      "highTemp": 69.1,
+      "lowTemp": 47.7,
+      "totalPrecip": 47.3,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

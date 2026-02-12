@@ -239,5 +239,54 @@
       2.8,
       3.1
     ]
+  },
+  "climate": {
+    "station": "US1ARBT0012",
+    "stationName": "DECATUR 2.6 ESE",
+    "distanceMi": 12,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 5.2
+      },
+      "may": {
+        "precip": 6.6
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 4.5
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

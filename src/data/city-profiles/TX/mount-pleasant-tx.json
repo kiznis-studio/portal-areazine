@@ -231,5 +231,93 @@
       4,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00416108",
+    "stationName": "MT PLEASANT",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44,
+        "highTemp": 55.9,
+        "lowTemp": 32,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 47.7,
+        "highTemp": 59.7,
+        "lowTemp": 35.7,
+        "precip": 4.2
+      },
+      "mar": {
+        "avgTemp": 55.3,
+        "highTemp": 67.6,
+        "lowTemp": 42.9,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 62.5,
+        "highTemp": 75.2,
+        "lowTemp": 49.8,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 71.3,
+        "highTemp": 82.3,
+        "lowTemp": 60.2,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 78.8,
+        "highTemp": 89.6,
+        "lowTemp": 68.1,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 82.2,
+        "highTemp": 93.3,
+        "lowTemp": 71.1,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 82.3,
+        "highTemp": 94.1,
+        "lowTemp": 70.6,
+        "precip": 2.7
+      },
+      "sep": {
+        "avgTemp": 75.6,
+        "highTemp": 88.2,
+        "lowTemp": 63.1,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 64.5,
+        "highTemp": 77.9,
+        "lowTemp": 51.2,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 53.5,
+        "highTemp": 66.1,
+        "lowTemp": 40.9,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 45.9,
+        "highTemp": 57.7,
+        "lowTemp": 34.1,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 63.6,
+      "highTemp": 75.6,
+      "lowTemp": 51.6,
+      "totalPrecip": 48.7,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

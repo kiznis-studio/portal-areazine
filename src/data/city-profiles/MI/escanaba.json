@@ -231,5 +231,93 @@
       5.2,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USW00014824",
+    "stationName": "ESCANABA 72648",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 16.9,
+        "highTemp": 25.6,
+        "lowTemp": 8.1,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 18,
+        "highTemp": 27.8,
+        "lowTemp": 8.2,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 27.3,
+        "highTemp": 36.7,
+        "lowTemp": 17.9,
+        "precip": 1.6
+      },
+      "apr": {
+        "avgTemp": 38.4,
+        "highTemp": 47.3,
+        "lowTemp": 29.4,
+        "precip": 2.3
+      },
+      "may": {
+        "avgTemp": 50.4,
+        "highTemp": 60.3,
+        "lowTemp": 40.6,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 60.7,
+        "highTemp": 70.5,
+        "lowTemp": 50.9,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 66.5,
+        "highTemp": 76.6,
+        "lowTemp": 56.4,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 65.4,
+        "highTemp": 75.6,
+        "lowTemp": 55.2,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 58.2,
+        "highTemp": 67.6,
+        "lowTemp": 48.9,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 45.5,
+        "highTemp": 54.5,
+        "lowTemp": 36.5,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 34.8,
+        "highTemp": 42.2,
+        "lowTemp": 27.4,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 23.8,
+        "highTemp": 31.1,
+        "lowTemp": 16.4,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 42.2,
+      "highTemp": 51.3,
+      "lowTemp": 33,
+      "totalPrecip": 28.9,
+      "hotMonths": 0,
+      "coldMonths": 6
+    }
   }
 }

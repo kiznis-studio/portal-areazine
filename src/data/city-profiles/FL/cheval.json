@@ -295,5 +295,54 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1FLHB0048",
+    "stationName": "GREATER NORTHDALE 0.4 ENE",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 3.2
+      },
+      "jun": {
+        "precip": 9
+      },
+      "jul": {
+        "precip": 10.5
+      },
+      "aug": {
+        "precip": 11
+      },
+      "sep": {
+        "precip": 7.7
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 60.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

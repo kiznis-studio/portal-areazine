@@ -231,5 +231,93 @@
       3.1,
       2.6
     ]
+  },
+  "climate": {
+    "station": "USC00123547",
+    "stationName": "GREENSBURG",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.9,
+        "highTemp": 36.2,
+        "lowTemp": 21.6,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 32.4,
+        "highTemp": 40.6,
+        "lowTemp": 24.1,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 41.9,
+        "highTemp": 51,
+        "lowTemp": 32.7,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 53.7,
+        "highTemp": 63.7,
+        "lowTemp": 43.6,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 64.1,
+        "highTemp": 73.5,
+        "lowTemp": 54.7,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 72.4,
+        "highTemp": 81.6,
+        "lowTemp": 63.3,
+        "precip": 5.4
+      },
+      "jul": {
+        "avgTemp": 75.4,
+        "highTemp": 84.5,
+        "lowTemp": 66.3,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 73.9,
+        "highTemp": 83.4,
+        "lowTemp": 64.4,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 67.5,
+        "highTemp": 77.7,
+        "lowTemp": 57.3,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 55.7,
+        "highTemp": 65.8,
+        "lowTemp": 45.6,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 43.4,
+        "highTemp": 52,
+        "lowTemp": 34.8,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 33.6,
+        "highTemp": 40.7,
+        "lowTemp": 26.5,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 53.6,
+      "highTemp": 62.6,
+      "lowTemp": 44.6,
+      "totalPrecip": 47.1,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

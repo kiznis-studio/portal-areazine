@@ -247,5 +247,81 @@
       4.5,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00051547",
+    "stationName": "CHERRY CREEK DAM",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.1,
+        "highTemp": 47.3,
+        "lowTemp": 16.9
+      },
+      "feb": {
+        "avgTemp": 33.9,
+        "highTemp": 49.3,
+        "lowTemp": 18.6
+      },
+      "mar": {
+        "avgTemp": 41.1,
+        "highTemp": 56.8,
+        "lowTemp": 25.4
+      },
+      "apr": {
+        "avgTemp": 47.3,
+        "highTemp": 62.9,
+        "lowTemp": 31.7
+      },
+      "may": {
+        "avgTemp": 56.5,
+        "highTemp": 72.1,
+        "lowTemp": 40.8
+      },
+      "jun": {
+        "avgTemp": 67.3,
+        "highTemp": 84.6,
+        "lowTemp": 50.1
+      },
+      "jul": {
+        "avgTemp": 73.4,
+        "highTemp": 90.4,
+        "lowTemp": 56.4
+      },
+      "aug": {
+        "avgTemp": 71.2,
+        "highTemp": 87.7,
+        "lowTemp": 54.6
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 80.1,
+        "lowTemp": 47.1
+      },
+      "oct": {
+        "avgTemp": 50.8,
+        "highTemp": 67.8,
+        "lowTemp": 33.9
+      },
+      "nov": {
+        "avgTemp": 39.8,
+        "highTemp": 55.3,
+        "lowTemp": 24.3
+      },
+      "dec": {
+        "avgTemp": 32.1,
+        "highTemp": 47.4,
+        "lowTemp": 16.8
+      }
+    },
+    "annual": {
+      "avgTemp": 50.8,
+      "highTemp": 66.8,
+      "lowTemp": 34.7,
+      "totalPrecip": 0,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

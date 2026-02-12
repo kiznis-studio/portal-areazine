@@ -222,5 +222,93 @@
       3.9,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00423348",
+    "stationName": "GRANTSVILLE 2W",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.1,
+        "highTemp": 37.1,
+        "lowTemp": 19.2,
+        "precip": 0.8
+      },
+      "feb": {
+        "avgTemp": 33,
+        "highTemp": 43,
+        "lowTemp": 23.1,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 41.7,
+        "highTemp": 53.3,
+        "lowTemp": 30.2,
+        "precip": 1.1
+      },
+      "apr": {
+        "avgTemp": 48,
+        "highTemp": 60.5,
+        "lowTemp": 35.6,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 57.8,
+        "highTemp": 70.9,
+        "lowTemp": 44.7,
+        "precip": 1.5
+      },
+      "jun": {
+        "avgTemp": 68.3,
+        "highTemp": 82.2,
+        "lowTemp": 54.3,
+        "precip": 0.7
+      },
+      "jul": {
+        "avgTemp": 77.9,
+        "highTemp": 92.2,
+        "lowTemp": 63.7,
+        "precip": 0.7
+      },
+      "aug": {
+        "avgTemp": 76,
+        "highTemp": 90.3,
+        "lowTemp": 61.7,
+        "precip": 0.7
+      },
+      "sep": {
+        "avgTemp": 64.4,
+        "highTemp": 78.6,
+        "lowTemp": 50.1,
+        "precip": 0.9
+      },
+      "oct": {
+        "avgTemp": 51,
+        "highTemp": 64.1,
+        "lowTemp": 38,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 38.5,
+        "highTemp": 49.1,
+        "lowTemp": 27.8,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 29.1,
+        "highTemp": 38.2,
+        "lowTemp": 20,
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "avgTemp": 51.2,
+      "highTemp": 63.3,
+      "lowTemp": 39,
+      "totalPrecip": 11.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -255,5 +255,93 @@
       2.3,
       2.4
     ]
+  },
+  "climate": {
+    "station": "USC00478229",
+    "stationName": "STOUGHTON",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 18.5,
+        "highTemp": 27.2,
+        "lowTemp": 9.7,
+        "precip": 1.6
+      },
+      "feb": {
+        "avgTemp": 22,
+        "highTemp": 31.4,
+        "lowTemp": 12.5,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 33.5,
+        "highTemp": 43.5,
+        "lowTemp": 23.4,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 45.8,
+        "highTemp": 57.2,
+        "lowTemp": 34.4,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 57.7,
+        "highTemp": 69.4,
+        "lowTemp": 46,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 68,
+        "highTemp": 79.3,
+        "lowTemp": 56.8,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 71.9,
+        "highTemp": 82.9,
+        "lowTemp": 60.9,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 69.8,
+        "highTemp": 81,
+        "lowTemp": 58.7,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 62.1,
+        "highTemp": 74.2,
+        "lowTemp": 50,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 49.7,
+        "highTemp": 60.8,
+        "lowTemp": 38.6,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 36.2,
+        "highTemp": 45.6,
+        "lowTemp": 26.8,
+        "precip": 2.5
+      },
+      "dec": {
+        "avgTemp": 24.4,
+        "highTemp": 32.6,
+        "lowTemp": 16.2,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 46.6,
+      "highTemp": 57.1,
+      "lowTemp": 36.2,
+      "totalPrecip": 37.8,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

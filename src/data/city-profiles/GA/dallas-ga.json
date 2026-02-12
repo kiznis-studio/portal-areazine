@@ -231,5 +231,93 @@
       4.1,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00092485",
+    "stationName": "DALLAS 7 NE",
+    "distanceMi": 7.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.9,
+        "highTemp": 52.5,
+        "lowTemp": 31.2,
+        "precip": 4.9
+      },
+      "feb": {
+        "avgTemp": 45.4,
+        "highTemp": 56.8,
+        "lowTemp": 34.1,
+        "precip": 5.1
+      },
+      "mar": {
+        "avgTemp": 52.7,
+        "highTemp": 64.9,
+        "lowTemp": 40.4,
+        "precip": 5.1
+      },
+      "apr": {
+        "avgTemp": 60.7,
+        "highTemp": 73.5,
+        "lowTemp": 47.9,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 68.6,
+        "highTemp": 80.7,
+        "lowTemp": 56.5,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 75.9,
+        "highTemp": 87,
+        "lowTemp": 64.9,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 79.2,
+        "highTemp": 90,
+        "lowTemp": 68.4,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 78.5,
+        "highTemp": 89.2,
+        "lowTemp": 67.7,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 72.9,
+        "highTemp": 84.5,
+        "lowTemp": 61.4,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 62.1,
+        "highTemp": 74.5,
+        "lowTemp": 49.8,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 51.5,
+        "highTemp": 63.6,
+        "lowTemp": 39.3,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 44.4,
+        "highTemp": 54.9,
+        "lowTemp": 34,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 61.2,
+      "highTemp": 72.7,
+      "lowTemp": 49.6,
+      "totalPrecip": 54.3,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

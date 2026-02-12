@@ -231,5 +231,93 @@
       3.5,
       3.4
     ]
+  },
+  "climate": {
+    "station": "USC00408179",
+    "stationName": "SEVIERVILLE",
+    "distanceMi": 7.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.2,
+        "highTemp": 49,
+        "lowTemp": 27.4,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 42,
+        "highTemp": 53.8,
+        "lowTemp": 30.2,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 49.5,
+        "highTemp": 62.7,
+        "lowTemp": 36.3,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 58.5,
+        "highTemp": 72.2,
+        "lowTemp": 44.8,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 67.4,
+        "highTemp": 80.2,
+        "lowTemp": 54.7,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 75.1,
+        "highTemp": 87.1,
+        "lowTemp": 63.1,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 78.3,
+        "highTemp": 89.6,
+        "lowTemp": 67.1,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 77.5,
+        "highTemp": 89.4,
+        "lowTemp": 65.7,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 71.8,
+        "highTemp": 84,
+        "lowTemp": 59.5,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 60.2,
+        "highTemp": 73.8,
+        "lowTemp": 46.6,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 48.4,
+        "highTemp": 61.4,
+        "lowTemp": 35.4,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 41,
+        "highTemp": 52.1,
+        "lowTemp": 29.9,
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "avgTemp": 59,
+      "highTemp": 71.3,
+      "lowTemp": 46.7,
+      "totalPrecip": 49,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

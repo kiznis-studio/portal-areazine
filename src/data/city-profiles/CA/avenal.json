@@ -231,5 +231,93 @@
       8.4,
       8.9
     ]
+  },
+  "climate": {
+    "station": "USC00044534",
+    "stationName": "KETTLEMAN CITY",
+    "distanceMi": 9.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.3,
+        "highTemp": 56.6,
+        "lowTemp": 36,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 51.5,
+        "highTemp": 63.3,
+        "lowTemp": 39.6,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 56.4,
+        "highTemp": 69.5,
+        "lowTemp": 43.4,
+        "precip": 1.5
+      },
+      "apr": {
+        "avgTemp": 61.7,
+        "highTemp": 75.5,
+        "lowTemp": 48,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 69.9,
+        "highTemp": 84.4,
+        "lowTemp": 55.4,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 77.1,
+        "highTemp": 92.4,
+        "lowTemp": 61.7,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 98.7,
+        "lowTemp": 67.5,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 81.8,
+        "highTemp": 97.5,
+        "lowTemp": 66.2,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 76.4,
+        "highTemp": 92.2,
+        "lowTemp": 60.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 66.4,
+        "highTemp": 81.4,
+        "lowTemp": 51.4,
+        "precip": 0.2
+      },
+      "nov": {
+        "avgTemp": 54.2,
+        "highTemp": 67.3,
+        "lowTemp": 41.2,
+        "precip": 0.6
+      },
+      "dec": {
+        "avgTemp": 46.5,
+        "highTemp": 57.5,
+        "lowTemp": 35.6,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 64.3,
+      "highTemp": 78,
+      "lowTemp": 50.6,
+      "totalPrecip": 7.6,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

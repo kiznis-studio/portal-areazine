@@ -222,5 +222,93 @@
       4.6,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00415435",
+    "stationName": "LUMBERTON",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.5,
+        "highTemp": 61.6,
+        "lowTemp": 39.4,
+        "precip": 5.2
+      },
+      "feb": {
+        "avgTemp": 54.7,
+        "highTemp": 65.9,
+        "lowTemp": 43.5,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 61.9,
+        "highTemp": 72.9,
+        "lowTemp": 50.9,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 67.3,
+        "highTemp": 78.9,
+        "lowTemp": 55.7,
+        "precip": 4.5
+      },
+      "may": {
+        "avgTemp": 75.1,
+        "highTemp": 85.7,
+        "lowTemp": 64.5,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 80.8,
+        "highTemp": 90.4,
+        "lowTemp": 71.1,
+        "precip": 6.9
+      },
+      "jul": {
+        "avgTemp": 82.9,
+        "highTemp": 92.6,
+        "lowTemp": 73.1,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 83.1,
+        "highTemp": 93.4,
+        "lowTemp": 72.7,
+        "precip": 6
+      },
+      "sep": {
+        "avgTemp": 78.4,
+        "highTemp": 88.8,
+        "lowTemp": 68,
+        "precip": 5.6
+      },
+      "oct": {
+        "avgTemp": 68.9,
+        "highTemp": 80.5,
+        "lowTemp": 57.2,
+        "precip": 6.1
+      },
+      "nov": {
+        "avgTemp": 59.3,
+        "highTemp": 70.9,
+        "lowTemp": 47.7,
+        "precip": 5.4
+      },
+      "dec": {
+        "avgTemp": 51.8,
+        "highTemp": 62.7,
+        "lowTemp": 41,
+        "precip": 5.6
+      }
+    },
+    "annual": {
+      "avgTemp": 67.9,
+      "highTemp": 78.7,
+      "lowTemp": 57.1,
+      "totalPrecip": 63.3,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

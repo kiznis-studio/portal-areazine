@@ -231,5 +231,54 @@
       3.2,
       3.8
     ]
+  },
+  "climate": {
+    "station": "US1MDTB0005",
+    "stationName": "EASTON 2.4 SE",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 5.1
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       3.1,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USC00476646",
+    "stationName": "PLATTEVILLE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 17.8,
+        "highTemp": 25.7,
+        "lowTemp": 9.9,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 22.3,
+        "highTemp": 30.8,
+        "lowTemp": 13.7,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 34.1,
+        "highTemp": 43.3,
+        "lowTemp": 24.8,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 46.3,
+        "highTemp": 57.1,
+        "lowTemp": 35.4,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 57.9,
+        "highTemp": 68.7,
+        "lowTemp": 47.1,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 68.2,
+        "highTemp": 78.2,
+        "lowTemp": 58.3,
+        "precip": 6
+      },
+      "jul": {
+        "avgTemp": 71.8,
+        "highTemp": 81.8,
+        "lowTemp": 61.8,
+        "precip": 5.3
+      },
+      "aug": {
+        "avgTemp": 70,
+        "highTemp": 80.1,
+        "lowTemp": 59.8,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 62.2,
+        "highTemp": 73.2,
+        "lowTemp": 51.2,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 49.7,
+        "highTemp": 60.3,
+        "lowTemp": 39.1,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 36.3,
+        "highTemp": 44.6,
+        "lowTemp": 28,
+        "precip": 2.3
+      },
+      "dec": {
+        "avgTemp": 24.2,
+        "highTemp": 31.6,
+        "lowTemp": 16.7,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 46.7,
+      "highTemp": 56.3,
+      "lowTemp": 37.2,
+      "totalPrecip": 40.2,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

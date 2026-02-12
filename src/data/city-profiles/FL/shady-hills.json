@@ -271,5 +271,54 @@
       5.3,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1FLHN0014",
+    "stationName": "SPRING HILL 2.4 NW",
+    "distanceMi": 6.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.2
+      },
+      "apr": {
+        "precip": 2.7
+      },
+      "may": {
+        "precip": 3.1
+      },
+      "jun": {
+        "precip": 8.3
+      },
+      "jul": {
+        "precip": 9.6
+      },
+      "aug": {
+        "precip": 9.1
+      },
+      "sep": {
+        "precip": 7
+      },
+      "oct": {
+        "precip": 2.9
+      },
+      "nov": {
+        "precip": 2.1
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 56.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

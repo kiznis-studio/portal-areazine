@@ -303,5 +303,54 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1MAMD0011",
+    "stationName": "CAMBRIDGE 0.9 NNW",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 3.7
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 3.7
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 3.5
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

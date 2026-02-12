@@ -231,5 +231,93 @@
       5.3,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00212768",
+    "stationName": "FERGUS FALLS",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 9,
+        "highTemp": 18.4,
+        "lowTemp": -0.4,
+        "precip": 1.3
+      },
+      "feb": {
+        "avgTemp": 12.7,
+        "highTemp": 22.3,
+        "lowTemp": 3.2,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 26.9,
+        "highTemp": 35.6,
+        "lowTemp": 18.1,
+        "precip": 1.2
+      },
+      "apr": {
+        "avgTemp": 42.3,
+        "highTemp": 52.9,
+        "lowTemp": 31.8,
+        "precip": 2
+      },
+      "may": {
+        "avgTemp": 55.9,
+        "highTemp": 66.8,
+        "lowTemp": 45,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 66.3,
+        "highTemp": 76.3,
+        "lowTemp": 56.3,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 70.8,
+        "highTemp": 80.8,
+        "lowTemp": 60.7,
+        "precip": 3.3
+      },
+      "aug": {
+        "avgTemp": 68.2,
+        "highTemp": 79.4,
+        "lowTemp": 57.1,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 59.8,
+        "highTemp": 70.8,
+        "lowTemp": 48.9,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 45.4,
+        "highTemp": 55.7,
+        "lowTemp": 35.1,
+        "precip": 2.4
+      },
+      "nov": {
+        "avgTemp": 29.7,
+        "highTemp": 38,
+        "lowTemp": 21.4,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 16.1,
+        "highTemp": 24.4,
+        "lowTemp": 7.9,
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "avgTemp": 41.9,
+      "highTemp": 51.8,
+      "lowTemp": 32.1,
+      "totalPrecip": 27,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

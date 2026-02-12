@@ -231,5 +231,93 @@
       5,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00341750",
+    "stationName": "CHICKASHA EXP STATION",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40.2,
+        "highTemp": 53.5,
+        "lowTemp": 26.8,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 44.1,
+        "highTemp": 57.7,
+        "lowTemp": 30.4,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 52.9,
+        "highTemp": 66.6,
+        "lowTemp": 39.2,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 62.2,
+        "highTemp": 75.9,
+        "lowTemp": 48.4,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 71.2,
+        "highTemp": 83.5,
+        "lowTemp": 58.8,
+        "precip": 5
+      },
+      "jun": {
+        "avgTemp": 79.2,
+        "highTemp": 91.1,
+        "lowTemp": 67.3,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 83.9,
+        "highTemp": 96.7,
+        "lowTemp": 71,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 82.6,
+        "highTemp": 95.3,
+        "lowTemp": 69.9,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 75,
+        "highTemp": 88,
+        "lowTemp": 61.9,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 63.5,
+        "highTemp": 77.3,
+        "lowTemp": 49.7,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 51.4,
+        "highTemp": 64.5,
+        "lowTemp": 38.2,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 42,
+        "highTemp": 54.3,
+        "lowTemp": 29.7,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 62.4,
+      "highTemp": 75.4,
+      "lowTemp": 49.3,
+      "totalPrecip": 36.7,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

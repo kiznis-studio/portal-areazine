@@ -263,5 +263,54 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00414325",
+    "stationName": "HOUSTON-WESTBURY",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.4
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 5.7
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 5.2
+      },
+      "sep": {
+        "precip": 5.7
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4.7
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

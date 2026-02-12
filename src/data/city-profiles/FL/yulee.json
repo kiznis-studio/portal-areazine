@@ -231,5 +231,93 @@
       4,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00082944",
+    "stationName": "FERNANDINA BEACH HCN",
+    "distanceMi": 9.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.9,
+        "highTemp": 64.3,
+        "lowTemp": 45.4,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 57.6,
+        "highTemp": 66.6,
+        "lowTemp": 48.6,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 63.2,
+        "highTemp": 72.2,
+        "lowTemp": 54.1,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 68.6,
+        "highTemp": 77.4,
+        "lowTemp": 59.8,
+        "precip": 3
+      },
+      "may": {
+        "avgTemp": 75.8,
+        "highTemp": 83.9,
+        "lowTemp": 67.7,
+        "precip": 2.7
+      },
+      "jun": {
+        "avgTemp": 80.7,
+        "highTemp": 88.3,
+        "lowTemp": 73.1,
+        "precip": 6.1
+      },
+      "jul": {
+        "avgTemp": 82.8,
+        "highTemp": 90.7,
+        "lowTemp": 74.9,
+        "precip": 5
+      },
+      "aug": {
+        "avgTemp": 82.2,
+        "highTemp": 89.5,
+        "lowTemp": 74.9,
+        "precip": 6.4
+      },
+      "sep": {
+        "avgTemp": 79.6,
+        "highTemp": 86,
+        "lowTemp": 73.2,
+        "precip": 7.2
+      },
+      "oct": {
+        "avgTemp": 72.7,
+        "highTemp": 80.1,
+        "lowTemp": 65.3,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 64.3,
+        "highTemp": 72.4,
+        "lowTemp": 56.1,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 57.8,
+        "highTemp": 66.3,
+        "lowTemp": 49.4,
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "avgTemp": 70,
+      "highTemp": 78.1,
+      "lowTemp": 61.9,
+      "totalPrecip": 50,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

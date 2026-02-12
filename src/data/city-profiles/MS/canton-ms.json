@@ -231,5 +231,93 @@
       4.2,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00221389",
+    "stationName": "CANTON 4N HCN",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.8,
+        "highTemp": 56,
+        "lowTemp": 33.6,
+        "precip": 5.2
+      },
+      "feb": {
+        "avgTemp": 47.8,
+        "highTemp": 59.8,
+        "lowTemp": 35.9,
+        "precip": 4.9
+      },
+      "mar": {
+        "avgTemp": 55.8,
+        "highTemp": 68.2,
+        "lowTemp": 43.4,
+        "precip": 5.7
+      },
+      "apr": {
+        "avgTemp": 63,
+        "highTemp": 75.3,
+        "lowTemp": 50.7,
+        "precip": 6.1
+      },
+      "may": {
+        "avgTemp": 71.4,
+        "highTemp": 82.5,
+        "lowTemp": 60.3,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 77.7,
+        "highTemp": 88.8,
+        "lowTemp": 66.6,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 81,
+        "highTemp": 91.8,
+        "lowTemp": 70.2,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 80,
+        "highTemp": 91.1,
+        "lowTemp": 68.9,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 75.2,
+        "highTemp": 87.6,
+        "lowTemp": 62.8,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 64.4,
+        "highTemp": 77.9,
+        "lowTemp": 50.8,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 53.2,
+        "highTemp": 66,
+        "lowTemp": 40.4,
+        "precip": 4.6
+      },
+      "dec": {
+        "avgTemp": 46.7,
+        "highTemp": 58.1,
+        "lowTemp": 35.3,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 63.4,
+      "highTemp": 75.3,
+      "lowTemp": 51.6,
+      "totalPrecip": 57,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

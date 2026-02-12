@@ -222,5 +222,93 @@
       2.1,
       3.3
     ]
+  },
+  "climate": {
+    "station": "USC00414098",
+    "stationName": "HEREFORD",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.8,
+        "highTemp": 51.1,
+        "lowTemp": 22.5,
+        "precip": 0.6
+      },
+      "feb": {
+        "avgTemp": 40.4,
+        "highTemp": 55.5,
+        "lowTemp": 25.3,
+        "precip": 0.5
+      },
+      "mar": {
+        "avgTemp": 48.3,
+        "highTemp": 64.3,
+        "lowTemp": 32.4,
+        "precip": 1.2
+      },
+      "apr": {
+        "avgTemp": 56.1,
+        "highTemp": 72.4,
+        "lowTemp": 39.7,
+        "precip": 1.1
+      },
+      "may": {
+        "avgTemp": 65.7,
+        "highTemp": 81.1,
+        "lowTemp": 50.3,
+        "precip": 2.1
+      },
+      "jun": {
+        "avgTemp": 75.4,
+        "highTemp": 90.2,
+        "lowTemp": 60.6,
+        "precip": 3.3
+      },
+      "jul": {
+        "avgTemp": 78.6,
+        "highTemp": 92.4,
+        "lowTemp": 64.8,
+        "precip": 2.3
+      },
+      "aug": {
+        "avgTemp": 77.1,
+        "highTemp": 90.7,
+        "lowTemp": 63.5,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 69.7,
+        "highTemp": 83.5,
+        "lowTemp": 55.8,
+        "precip": 1.9
+      },
+      "oct": {
+        "avgTemp": 57.9,
+        "highTemp": 72.6,
+        "lowTemp": 43.3,
+        "precip": 1.9
+      },
+      "nov": {
+        "avgTemp": 45.8,
+        "highTemp": 60.3,
+        "lowTemp": 31.3,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 37.4,
+        "highTemp": 51.1,
+        "lowTemp": 23.8,
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "avgTemp": 57.4,
+      "highTemp": 72.1,
+      "lowTemp": 42.8,
+      "totalPrecip": 19.3,
+      "hotMonths": 3,
+      "coldMonths": 2
+    }
   }
 }

@@ -231,5 +231,93 @@
       4.2,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USW00093727",
+    "stationName": "NEW RIVER MCAF",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.6,
+        "highTemp": 56,
+        "lowTemp": 35.2,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 48.4,
+        "highTemp": 59.3,
+        "lowTemp": 37.5,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 54.5,
+        "highTemp": 65.8,
+        "lowTemp": 43.1,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 62.9,
+        "highTemp": 74,
+        "lowTemp": 51.8,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 70.4,
+        "highTemp": 80.4,
+        "lowTemp": 60.5,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 77.5,
+        "highTemp": 86.5,
+        "lowTemp": 68.5,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 80.9,
+        "highTemp": 89.3,
+        "lowTemp": 72.5,
+        "precip": 6.2
+      },
+      "aug": {
+        "avgTemp": 79.6,
+        "highTemp": 87.8,
+        "lowTemp": 71.4,
+        "precip": 7.5
+      },
+      "sep": {
+        "avgTemp": 74.9,
+        "highTemp": 83.3,
+        "lowTemp": 66.5,
+        "precip": 7.5
+      },
+      "oct": {
+        "avgTemp": 64.9,
+        "highTemp": 75,
+        "lowTemp": 54.8,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 55.1,
+        "highTemp": 66.2,
+        "lowTemp": 44,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 48.7,
+        "highTemp": 59,
+        "lowTemp": 38.4,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 63.6,
+      "highTemp": 73.6,
+      "lowTemp": 53.7,
+      "totalPrecip": 56.7,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,54 @@
       5.5,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1FLOR0035",
+    "stationName": "BAY LAKE 4.1 WSW",
+    "distanceMi": 5.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 2.4
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 8.8
+      },
+      "jul": {
+        "precip": 7.6
+      },
+      "aug": {
+        "precip": 7.1
+      },
+      "sep": {
+        "precip": 6.2
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 2
+      },
+      "dec": {
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

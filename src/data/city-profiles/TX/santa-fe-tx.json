@@ -231,5 +231,54 @@
       5.9,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1TXGV0009",
+    "stationName": "DICKINSON 1.4 W",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.6
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 5.2
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 5.6
+      },
+      "sep": {
+        "precip": 6.7
+      },
+      "oct": {
+        "precip": 5.5
+      },
+      "nov": {
+        "precip": 4.6
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 56.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

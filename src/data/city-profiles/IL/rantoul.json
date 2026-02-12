@@ -239,5 +239,93 @@
       4.8,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USW00014806",
+    "stationName": "RANTOUL",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.1,
+        "highTemp": 34.4,
+        "lowTemp": 15.8,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 29.6,
+        "highTemp": 39.6,
+        "lowTemp": 19.6,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 40.4,
+        "highTemp": 51.4,
+        "lowTemp": 29.3,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 51.9,
+        "highTemp": 64.3,
+        "lowTemp": 39.6,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 63.3,
+        "highTemp": 75.4,
+        "lowTemp": 51.3,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 73.3,
+        "highTemp": 84.9,
+        "lowTemp": 61.7,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 75.8,
+        "highTemp": 87.5,
+        "lowTemp": 64.1,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 73.7,
+        "highTemp": 85.9,
+        "lowTemp": 61.6,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 67.5,
+        "highTemp": 80.7,
+        "lowTemp": 54.3,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 54.7,
+        "highTemp": 67.3,
+        "lowTemp": 42.1,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 41.8,
+        "highTemp": 52.3,
+        "lowTemp": 31.4,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 30.9,
+        "highTemp": 39.8,
+        "lowTemp": 22.1,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 52.3,
+      "highTemp": 63.6,
+      "lowTemp": 41.1,
+      "totalPrecip": 40.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -239,5 +239,93 @@
       4,
       3.8
     ]
+  },
+  "climate": {
+    "station": "USW00093721",
+    "stationName": "BALTIMORE WASH INTL AP 72406",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.3,
+        "highTemp": 43.2,
+        "lowTemp": 25.4,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 36.6,
+        "highTemp": 46.4,
+        "lowTemp": 26.9,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 44.3,
+        "highTemp": 54.8,
+        "lowTemp": 33.9,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 55,
+        "highTemp": 66.5,
+        "lowTemp": 43.6,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 64.4,
+        "highTemp": 75.5,
+        "lowTemp": 53.3,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 73.5,
+        "highTemp": 84.4,
+        "lowTemp": 62.6,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 78.3,
+        "highTemp": 88.8,
+        "lowTemp": 67.7,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 76.2,
+        "highTemp": 86.5,
+        "lowTemp": 65.8,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 69.2,
+        "highTemp": 79.7,
+        "lowTemp": 58.8,
+        "precip": 4.4
+      },
+      "oct": {
+        "avgTemp": 57.4,
+        "highTemp": 68.3,
+        "lowTemp": 46.5,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 46.9,
+        "highTemp": 57.3,
+        "lowTemp": 36.5,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 38.6,
+        "highTemp": 47.5,
+        "lowTemp": 29.6,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 56.2,
+      "highTemp": 66.6,
+      "lowTemp": 45.9,
+      "totalPrecip": 45,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

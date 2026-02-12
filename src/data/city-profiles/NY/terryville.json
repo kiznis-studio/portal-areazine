@@ -303,5 +303,93 @@
       4.8,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USC00305606",
+    "stationName": "MT SINAI",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.7,
+        "highTemp": 41,
+        "lowTemp": 26.3,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 35.3,
+        "highTemp": 42.9,
+        "lowTemp": 27.8,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 41.4,
+        "highTemp": 50,
+        "lowTemp": 32.8,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 53.2,
+        "highTemp": 63.7,
+        "lowTemp": 42.8,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 71.7,
+        "lowTemp": 51.4,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 69.6,
+        "highTemp": 78.2,
+        "lowTemp": 61.1,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 75.3,
+        "highTemp": 83.1,
+        "lowTemp": 67.5,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 74.4,
+        "highTemp": 81.8,
+        "lowTemp": 67,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 68,
+        "highTemp": 74.7,
+        "lowTemp": 61.3,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 56.8,
+        "highTemp": 64.8,
+        "lowTemp": 48.8,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 48.2,
+        "highTemp": 56,
+        "lowTemp": 40.3,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 39.1,
+        "highTemp": 46.1,
+        "lowTemp": 32.1,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 54.7,
+      "highTemp": 62.8,
+      "lowTemp": 46.6,
+      "totalPrecip": 48.5,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

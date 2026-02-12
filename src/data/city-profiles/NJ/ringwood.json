@@ -239,5 +239,54 @@
       7.8,
       7.8
     ]
+  },
+  "climate": {
+    "station": "USC00287587",
+    "stationName": "RINGWOOD",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.6
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 5.4
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.2
+      },
+      "sep": {
+        "precip": 5
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 3.7
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

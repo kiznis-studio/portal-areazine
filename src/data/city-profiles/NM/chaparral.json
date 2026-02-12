@@ -216,5 +216,54 @@
       6.8,
       6.8
     ]
+  },
+  "climate": {
+    "station": "US1NMDA0265",
+    "stationName": "CHAPARRAL 0.4 SE",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.6
+      },
+      "mar": {
+        "precip": 0.5
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.5
+      },
+      "jun": {
+        "precip": 0.7
+      },
+      "jul": {
+        "precip": 1.7
+      },
+      "aug": {
+        "precip": 1.9
+      },
+      "sep": {
+        "precip": 1.8
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 11,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

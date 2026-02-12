@@ -239,5 +239,54 @@
       3.9,
       3.5
     ]
+  },
+  "climate": {
+    "station": "US1FLBY0016",
+    "stationName": "PANAMA CITY 6.9 ESE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.9
+      },
+      "feb": {
+        "precip": 4.9
+      },
+      "mar": {
+        "precip": 5.1
+      },
+      "apr": {
+        "precip": 4.6
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 7.1
+      },
+      "aug": {
+        "precip": 14.7
+      },
+      "sep": {
+        "precip": 5.3
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 69,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

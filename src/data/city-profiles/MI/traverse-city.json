@@ -231,5 +231,93 @@
       3.9,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00208249",
+    "stationName": "TRAVERSE CITY MUNSON",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.6,
+        "highTemp": 27.8,
+        "lowTemp": 15.3,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 21.9,
+        "highTemp": 29.7,
+        "lowTemp": 14.2,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 30,
+        "highTemp": 39.4,
+        "lowTemp": 20.7,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 41.3,
+        "highTemp": 51.9,
+        "lowTemp": 30.6,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 53.7,
+        "highTemp": 65.1,
+        "lowTemp": 42.3,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 63.9,
+        "highTemp": 75,
+        "lowTemp": 52.7,
+        "precip": 2.9
+      },
+      "jul": {
+        "avgTemp": 68.9,
+        "highTemp": 79.4,
+        "lowTemp": 58.4,
+        "precip": 2.8
+      },
+      "aug": {
+        "avgTemp": 67.5,
+        "highTemp": 77.7,
+        "lowTemp": 57.3,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 60.2,
+        "highTemp": 70.6,
+        "lowTemp": 49.7,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 48.2,
+        "highTemp": 57.3,
+        "lowTemp": 39.1,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 36.8,
+        "highTemp": 43.9,
+        "lowTemp": 29.7,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 27.4,
+        "highTemp": 33.3,
+        "lowTemp": 21.6,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 45.1,
+      "highTemp": 54.3,
+      "lowTemp": 36,
+      "totalPrecip": 36.2,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

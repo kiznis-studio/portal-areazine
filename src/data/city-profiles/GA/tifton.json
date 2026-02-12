@@ -231,5 +231,93 @@
       2.9,
       3.3
     ]
+  },
+  "climate": {
+    "station": "USC00098703",
+    "stationName": "TIFTON HCN",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.6,
+        "highTemp": 58.7,
+        "lowTemp": 36.6,
+        "precip": 4.1
+      },
+      "feb": {
+        "avgTemp": 52,
+        "highTemp": 63.8,
+        "lowTemp": 40.1,
+        "precip": 4.4
+      },
+      "mar": {
+        "avgTemp": 57.3,
+        "highTemp": 69,
+        "lowTemp": 45.6,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 63.7,
+        "highTemp": 75.4,
+        "lowTemp": 52,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 72.2,
+        "highTemp": 84,
+        "lowTemp": 60.3,
+        "precip": 2.7
+      },
+      "jun": {
+        "avgTemp": 77.6,
+        "highTemp": 87.9,
+        "lowTemp": 67.4,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 80.1,
+        "highTemp": 90,
+        "lowTemp": 70.2,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 79.6,
+        "highTemp": 89.4,
+        "lowTemp": 69.9,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 75.5,
+        "highTemp": 85.8,
+        "lowTemp": 65.2,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 66.1,
+        "highTemp": 77.1,
+        "lowTemp": 55.1,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 56.5,
+        "highTemp": 68.3,
+        "lowTemp": 44.6,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 51.1,
+        "highTemp": 62.6,
+        "lowTemp": 39.5,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 64.9,
+      "highTemp": 76,
+      "lowTemp": 53.9,
+      "totalPrecip": 48.5,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,54 @@
       5.7,
       5.6
     ]
+  },
+  "climate": {
+    "station": "US1MABR0009",
+    "stationName": "TAUNTON 2.6 NW",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.3
+      },
+      "feb": {
+        "precip": 3.6
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 4.8
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 3.3
+      },
+      "aug": {
+        "precip": 3.7
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

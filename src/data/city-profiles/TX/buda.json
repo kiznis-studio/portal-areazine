@@ -239,5 +239,54 @@
       5.1,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1TXHYS028",
+    "stationName": "MANCHACA 2.1 ENE",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.9
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 2.7
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 2.4
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 41,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -247,5 +247,54 @@
       6.5,
       6.6
     ]
+  },
+  "climate": {
+    "station": "USC00169631",
+    "stationName": "W MONROE",
+    "distanceMi": 4.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.3
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 5.5
+      },
+      "apr": {
+        "precip": 6.1
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,81 @@
       4,
       3.8
     ]
+  },
+  "climate": {
+    "station": "USC00180193",
+    "stationName": "ANNAPOLIS POLICE BRKS",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.8,
+        "highTemp": 44.3,
+        "lowTemp": 29.2
+      },
+      "feb": {
+        "avgTemp": 39.3,
+        "highTemp": 47.9,
+        "lowTemp": 30.8
+      },
+      "mar": {
+        "avgTemp": 46.7,
+        "highTemp": 55,
+        "lowTemp": 38.3
+      },
+      "apr": {
+        "avgTemp": 58,
+        "highTemp": 68.2,
+        "lowTemp": 47.9
+      },
+      "may": {
+        "avgTemp": 66.9,
+        "highTemp": 76.6,
+        "lowTemp": 57.1
+      },
+      "jun": {
+        "avgTemp": 75.9,
+        "highTemp": 85.3,
+        "lowTemp": 66.6
+      },
+      "jul": {
+        "avgTemp": 80.2,
+        "highTemp": 89.1,
+        "lowTemp": 71.3
+      },
+      "aug": {
+        "avgTemp": 78.4,
+        "highTemp": 86.4,
+        "lowTemp": 70.3
+      },
+      "sep": {
+        "avgTemp": 72.3,
+        "highTemp": 80.1,
+        "lowTemp": 64.5
+      },
+      "oct": {
+        "avgTemp": 60.3,
+        "highTemp": 68.5,
+        "lowTemp": 52.1
+      },
+      "nov": {
+        "avgTemp": 49.4,
+        "highTemp": 57.6,
+        "lowTemp": 41.3
+      },
+      "dec": {
+        "avgTemp": 41.1,
+        "highTemp": 48.3,
+        "lowTemp": 34
+      }
+    },
+    "annual": {
+      "avgTemp": 58.8,
+      "highTemp": 67.3,
+      "lowTemp": 50.3,
+      "totalPrecip": 0,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

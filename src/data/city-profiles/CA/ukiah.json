@@ -247,5 +247,92 @@
       9.1,
       9.3
     ]
+  },
+  "climate": {
+    "station": "USC00049122",
+    "stationName": "UKIAH HCN",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.1,
+        "highTemp": 56.9,
+        "lowTemp": 37.4,
+        "precip": 7.4
+      },
+      "feb": {
+        "avgTemp": 49.2,
+        "highTemp": 60.2,
+        "lowTemp": 38.3,
+        "precip": 7
+      },
+      "mar": {
+        "avgTemp": 52.3,
+        "highTemp": 64.8,
+        "lowTemp": 39.7,
+        "precip": 5.3
+      },
+      "apr": {
+        "avgTemp": 56,
+        "highTemp": 69.6,
+        "lowTemp": 42.4,
+        "precip": 2.8
+      },
+      "may": {
+        "avgTemp": 61.8,
+        "highTemp": 76.3,
+        "lowTemp": 47.3,
+        "precip": 1.7
+      },
+      "jun": {
+        "avgTemp": 67.3,
+        "highTemp": 82.8,
+        "lowTemp": 51.9,
+        "precip": 0.4
+      },
+      "jul": {
+        "avgTemp": 73.4,
+        "highTemp": 91.1,
+        "lowTemp": 55.6
+      },
+      "aug": {
+        "avgTemp": 72.4,
+        "highTemp": 90.6,
+        "lowTemp": 54.2,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 69.1,
+        "highTemp": 87,
+        "lowTemp": 51.3,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 61.1,
+        "highTemp": 76.7,
+        "lowTemp": 45.5,
+        "precip": 2
+      },
+      "nov": {
+        "avgTemp": 51.4,
+        "highTemp": 62.8,
+        "lowTemp": 40,
+        "precip": 4.1
+      },
+      "dec": {
+        "avgTemp": 45.9,
+        "highTemp": 55.6,
+        "lowTemp": 36.2,
+        "precip": 8
+      }
+    },
+    "annual": {
+      "avgTemp": 58.9,
+      "highTemp": 72.9,
+      "lowTemp": 45,
+      "totalPrecip": 39,
+      "hotMonths": 2,
+      "coldMonths": 0
+    }
   }
 }

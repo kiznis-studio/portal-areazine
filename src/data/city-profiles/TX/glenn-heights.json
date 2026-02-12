@@ -303,5 +303,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "US1TXEL0010",
+    "stationName": "OVILLA 2.6 S",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 2.4
+      },
+      "aug": {
+        "precip": 2.7
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 4.8
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

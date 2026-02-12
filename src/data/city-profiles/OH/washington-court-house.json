@@ -231,5 +231,93 @@
       4.3,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00338794",
+    "stationName": "WASHINGTON COURT HOUSE",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.8,
+        "highTemp": 36,
+        "lowTemp": 19.6,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 30.9,
+        "highTemp": 39.9,
+        "lowTemp": 21.9,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 39.9,
+        "highTemp": 50.2,
+        "lowTemp": 29.6,
+        "precip": 3.8
+      },
+      "apr": {
+        "avgTemp": 51.6,
+        "highTemp": 63.8,
+        "lowTemp": 39.5,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 61.8,
+        "highTemp": 73,
+        "lowTemp": 50.5,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 70.1,
+        "highTemp": 80.7,
+        "lowTemp": 59.6,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 73.2,
+        "highTemp": 83.5,
+        "lowTemp": 62.9,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 71.7,
+        "highTemp": 82.3,
+        "lowTemp": 61.1,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 65.5,
+        "highTemp": 77.2,
+        "lowTemp": 53.9,
+        "precip": 2.7
+      },
+      "oct": {
+        "avgTemp": 54,
+        "highTemp": 65.7,
+        "lowTemp": 42.3,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 41.9,
+        "highTemp": 51.8,
+        "lowTemp": 31.9,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 32.9,
+        "highTemp": 40.7,
+        "lowTemp": 25.1,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 51.8,
+      "highTemp": 62.1,
+      "lowTemp": 41.5,
+      "totalPrecip": 41,
+      "hotMonths": 3,
+      "coldMonths": 4
+    }
   }
 }

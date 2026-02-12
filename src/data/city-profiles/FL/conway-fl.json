@@ -255,5 +255,93 @@
       5.5,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USW00012841",
+    "stationName": "ORLANDO EXECUTIVE AP",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 61.5,
+        "highTemp": 71.2,
+        "lowTemp": 51.8,
+        "precip": 2.6
+      },
+      "feb": {
+        "avgTemp": 64.3,
+        "highTemp": 74.3,
+        "lowTemp": 54.3,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 68.3,
+        "highTemp": 78.4,
+        "lowTemp": 58.3,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 73,
+        "highTemp": 83.2,
+        "lowTemp": 62.8,
+        "precip": 2.7
+      },
+      "may": {
+        "avgTemp": 78.4,
+        "highTemp": 88.2,
+        "lowTemp": 68.7,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 82.1,
+        "highTemp": 90.7,
+        "lowTemp": 73.4,
+        "precip": 8.2
+      },
+      "jul": {
+        "avgTemp": 83.5,
+        "highTemp": 91.9,
+        "lowTemp": 75,
+        "precip": 8.1
+      },
+      "aug": {
+        "avgTemp": 83.6,
+        "highTemp": 91.8,
+        "lowTemp": 75.3,
+        "precip": 7.7
+      },
+      "sep": {
+        "avgTemp": 81.7,
+        "highTemp": 89.5,
+        "lowTemp": 73.9,
+        "precip": 6.6
+      },
+      "oct": {
+        "avgTemp": 76.4,
+        "highTemp": 84.4,
+        "lowTemp": 68.3,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 69,
+        "highTemp": 77.8,
+        "lowTemp": 60.1,
+        "precip": 1.7
+      },
+      "dec": {
+        "avgTemp": 63.8,
+        "highTemp": 73.1,
+        "lowTemp": 54.5,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 73.8,
+      "highTemp": 82.9,
+      "lowTemp": 64.7,
+      "totalPrecip": 51.6,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

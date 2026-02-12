@@ -231,5 +231,93 @@
       5.5,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00454769",
+    "stationName": "LONGVIEW HCN",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.4,
+        "highTemp": 47.7,
+        "lowTemp": 35.1,
+        "precip": 6.5
+      },
+      "feb": {
+        "avgTemp": 43.4,
+        "highTemp": 52,
+        "lowTemp": 34.7,
+        "precip": 4.8
+      },
+      "mar": {
+        "avgTemp": 47.2,
+        "highTemp": 56.9,
+        "lowTemp": 37.5,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 51.2,
+        "highTemp": 62.1,
+        "lowTemp": 40.4,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 57.1,
+        "highTemp": 68.8,
+        "lowTemp": 45.3,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 61.2,
+        "highTemp": 72.9,
+        "lowTemp": 49.5,
+        "precip": 2
+      },
+      "jul": {
+        "avgTemp": 66.4,
+        "highTemp": 79.3,
+        "lowTemp": 53.4,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 66.9,
+        "highTemp": 80.4,
+        "lowTemp": 53.3,
+        "precip": 1
+      },
+      "sep": {
+        "avgTemp": 62.6,
+        "highTemp": 75.7,
+        "lowTemp": 49.6,
+        "precip": 2.3
+      },
+      "oct": {
+        "avgTemp": 54,
+        "highTemp": 64,
+        "lowTemp": 44.1,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 45.8,
+        "highTemp": 53,
+        "lowTemp": 38.6,
+        "precip": 7.2
+      },
+      "dec": {
+        "avgTemp": 40.7,
+        "highTemp": 46.6,
+        "lowTemp": 34.8,
+        "precip": 7.1
+      }
+    },
+    "annual": {
+      "avgTemp": 53.2,
+      "highTemp": 63.3,
+      "lowTemp": 43,
+      "totalPrecip": 48,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

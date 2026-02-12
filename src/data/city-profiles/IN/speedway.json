@@ -287,5 +287,54 @@
       5.5,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1INMR0072",
+    "stationName": "INDIANAPOLIS 6.5 W",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 3
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

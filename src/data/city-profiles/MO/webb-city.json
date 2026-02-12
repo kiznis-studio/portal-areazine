@@ -239,5 +239,93 @@
       4.1,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USW00013987",
+    "stationName": "JOPLIN REGIONAL AIRPORT",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.9,
+        "highTemp": 44.8,
+        "lowTemp": 25,
+        "precip": 1.9
+      },
+      "feb": {
+        "avgTemp": 39.4,
+        "highTemp": 50,
+        "lowTemp": 28.7,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 48.6,
+        "highTemp": 59.8,
+        "lowTemp": 37.4,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 57.9,
+        "highTemp": 69.2,
+        "lowTemp": 46.6,
+        "precip": 5
+      },
+      "may": {
+        "avgTemp": 66.5,
+        "highTemp": 77,
+        "lowTemp": 56,
+        "precip": 6.6
+      },
+      "jun": {
+        "avgTemp": 75.6,
+        "highTemp": 85.9,
+        "lowTemp": 65.3,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 79.9,
+        "highTemp": 90.3,
+        "lowTemp": 69.5,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 79,
+        "highTemp": 90,
+        "lowTemp": 67.9,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 70.7,
+        "highTemp": 82,
+        "lowTemp": 59.4,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 59.3,
+        "highTemp": 70.7,
+        "lowTemp": 47.9,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 47.8,
+        "highTemp": 58.4,
+        "lowTemp": 37.1,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 38.1,
+        "highTemp": 47.8,
+        "lowTemp": 28.5,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 58.1,
+      "highTemp": 68.8,
+      "lowTemp": 47.4,
+      "totalPrecip": 45.7,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

@@ -222,5 +222,93 @@
       4.8,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00135992",
+    "stationName": "NEWTON",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.2,
+        "highTemp": 28,
+        "lowTemp": 10.4,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 23.7,
+        "highTemp": 33,
+        "lowTemp": 14.4,
+        "precip": 1.1
+      },
+      "mar": {
+        "avgTemp": 36.1,
+        "highTemp": 46.4,
+        "lowTemp": 25.8,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 48.8,
+        "highTemp": 60.4,
+        "lowTemp": 37.1,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 60.6,
+        "highTemp": 71.4,
+        "lowTemp": 49.8,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 70.6,
+        "highTemp": 81.2,
+        "lowTemp": 60,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 74.2,
+        "highTemp": 84.6,
+        "lowTemp": 63.8,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 72,
+        "highTemp": 82.5,
+        "lowTemp": 61.4,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 64.3,
+        "highTemp": 76.2,
+        "lowTemp": 52.4,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 51.5,
+        "highTemp": 62.5,
+        "lowTemp": 40.4,
+        "precip": 2.7
+      },
+      "nov": {
+        "avgTemp": 37,
+        "highTemp": 46.7,
+        "lowTemp": 27.3,
+        "precip": 2
+      },
+      "dec": {
+        "avgTemp": 25.2,
+        "highTemp": 33.6,
+        "lowTemp": 16.9,
+        "precip": 1.3
+      }
+    },
+    "annual": {
+      "avgTemp": 48.6,
+      "highTemp": 58.9,
+      "lowTemp": 38.3,
+      "totalPrecip": 35.1,
+      "hotMonths": 3,
+      "coldMonths": 5
+    }
   }
 }

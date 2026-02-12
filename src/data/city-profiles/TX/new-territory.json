@@ -263,5 +263,93 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00418728",
+    "stationName": "SUGAR LAND",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.5,
+        "highTemp": 64.1,
+        "lowTemp": 42.9,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 58.1,
+        "highTemp": 68.2,
+        "lowTemp": 48,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 64,
+        "highTemp": 74.1,
+        "lowTemp": 54,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 70.2,
+        "highTemp": 80.8,
+        "lowTemp": 59.7,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 77.4,
+        "highTemp": 86.9,
+        "lowTemp": 68,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 82.9,
+        "highTemp": 91.6,
+        "lowTemp": 74.2,
+        "precip": 5.7
+      },
+      "jul": {
+        "avgTemp": 85.1,
+        "highTemp": 94.2,
+        "lowTemp": 76,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 85.2,
+        "highTemp": 94.4,
+        "lowTemp": 76,
+        "precip": 5
+      },
+      "sep": {
+        "avgTemp": 80.5,
+        "highTemp": 89.9,
+        "lowTemp": 71.1,
+        "precip": 5.3
+      },
+      "oct": {
+        "avgTemp": 72.5,
+        "highTemp": 83.3,
+        "lowTemp": 61.8,
+        "precip": 5.2
+      },
+      "nov": {
+        "avgTemp": 62.6,
+        "highTemp": 72.6,
+        "lowTemp": 52.6,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 55.4,
+        "highTemp": 65.9,
+        "lowTemp": 45,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 70.6,
+      "highTemp": 80.5,
+      "lowTemp": 60.8,
+      "totalPrecip": 51.1,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

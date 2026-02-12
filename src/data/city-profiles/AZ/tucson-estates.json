@@ -295,5 +295,54 @@
       5.8,
       5.6
     ]
+  },
+  "climate": {
+    "station": "US1AZPM0315",
+    "stationName": "TUCSON 12.6 WSW",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.1
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 0.7
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0.3
+      },
+      "jul": {
+        "precip": 3.4
+      },
+      "aug": {
+        "precip": 2.2
+      },
+      "sep": {
+        "precip": 1.2
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 0.6
+      },
+      "dec": {
+        "precip": 1
+      }
+    },
+    "annual": {
+      "totalPrecip": 13,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -216,5 +216,54 @@
       3.2,
       3
     ]
+  },
+  "climate": {
+    "station": "US1IAWR0007",
+    "stationName": "INDIANOLA 0.8 SSW",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1
+      },
+      "feb": {
+        "precip": 1.4
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 5.5
+      },
+      "jun": {
+        "precip": 5.5
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 2
+      },
+      "dec": {
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

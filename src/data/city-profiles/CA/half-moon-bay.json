@@ -263,5 +263,54 @@
       4.5,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1CASM0007",
+    "stationName": "HALF MOON BAY 0.5 SSW",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.5
+      },
+      "feb": {
+        "precip": 4.1
+      },
+      "mar": {
+        "precip": 3.4
+      },
+      "apr": {
+        "precip": 1.9
+      },
+      "may": {
+        "precip": 1
+      },
+      "jun": {
+        "precip": 0.4
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0.4
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1.2
+      },
+      "nov": {
+        "precip": 2.6
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 24.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

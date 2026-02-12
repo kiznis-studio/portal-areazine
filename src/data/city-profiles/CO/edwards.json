@@ -231,5 +231,54 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USS0006K44S",
+    "stationName": "Mccoy Park",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.4
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 2.1
+      },
+      "jun": {
+        "precip": 1.1
+      },
+      "jul": {
+        "precip": 1.6
+      },
+      "aug": {
+        "precip": 2
+      },
+      "sep": {
+        "precip": 2.1
+      },
+      "oct": {
+        "precip": 2.3
+      },
+      "nov": {
+        "precip": 2.9
+      },
+      "dec": {
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 27.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

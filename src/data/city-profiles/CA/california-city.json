@@ -255,5 +255,93 @@
       8.3,
       8.3
     ]
+  },
+  "climate": {
+    "station": "USC00045756",
+    "stationName": "MOJAVE",
+    "distanceMi": 11.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.3,
+        "highTemp": 57.9,
+        "lowTemp": 32.8,
+        "precip": 1.1
+      },
+      "feb": {
+        "avgTemp": 47.6,
+        "highTemp": 60.4,
+        "lowTemp": 34.9,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 53.4,
+        "highTemp": 66.5,
+        "lowTemp": 40.3,
+        "precip": 0.8
+      },
+      "apr": {
+        "avgTemp": 58.4,
+        "highTemp": 71.6,
+        "lowTemp": 45.3,
+        "precip": 0.2
+      },
+      "may": {
+        "avgTemp": 67,
+        "highTemp": 80.8,
+        "lowTemp": 53.2,
+        "precip": 0.1
+      },
+      "jun": {
+        "avgTemp": 77.2,
+        "highTemp": 90.8,
+        "lowTemp": 63.6,
+        "precip": 0
+      },
+      "jul": {
+        "avgTemp": 83.1,
+        "highTemp": 97.2,
+        "lowTemp": 69.1,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 82.2,
+        "highTemp": 97.2,
+        "lowTemp": 67.2,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 75,
+        "highTemp": 89.5,
+        "lowTemp": 60.6,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 63.9,
+        "highTemp": 78.4,
+        "lowTemp": 49.4,
+        "precip": 0.4
+      },
+      "nov": {
+        "avgTemp": 52.4,
+        "highTemp": 66.2,
+        "lowTemp": 38.6,
+        "precip": 0.3
+      },
+      "dec": {
+        "avgTemp": 44.2,
+        "highTemp": 56.5,
+        "lowTemp": 31.8,
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "avgTemp": 62.5,
+      "highTemp": 76.1,
+      "lowTemp": 48.9,
+      "totalPrecip": 5.7,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -153,5 +153,54 @@
       10,
       10.5
     ]
+  },
+  "climate": {
+    "station": "USC00153006",
+    "stationName": "FOURMILE KY UTIL PARK",
+    "distanceMi": 12.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 4.1
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 5.3
+      },
+      "may": {
+        "precip": 5.1
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 2.6
+      },
+      "nov": {
+        "precip": 3.9
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 52.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

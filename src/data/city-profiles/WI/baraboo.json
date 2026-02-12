@@ -247,5 +247,93 @@
       2.8,
       2.6
     ]
+  },
+  "climate": {
+    "station": "USC00470516",
+    "stationName": "BARABOO",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 18.6,
+        "highTemp": 27.5,
+        "lowTemp": 9.6,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 22.4,
+        "highTemp": 32.2,
+        "lowTemp": 12.5,
+        "precip": 1.4
+      },
+      "mar": {
+        "avgTemp": 33.6,
+        "highTemp": 44.1,
+        "lowTemp": 23.1,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 45.6,
+        "highTemp": 57.2,
+        "lowTemp": 34.1,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 57.9,
+        "highTemp": 69.6,
+        "lowTemp": 46.2,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 67.6,
+        "highTemp": 79,
+        "lowTemp": 56.2,
+        "precip": 5.6
+      },
+      "jul": {
+        "avgTemp": 71.5,
+        "highTemp": 82.8,
+        "lowTemp": 60.1,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 69.3,
+        "highTemp": 80.9,
+        "lowTemp": 57.6,
+        "precip": 4.5
+      },
+      "sep": {
+        "avgTemp": 61.7,
+        "highTemp": 73.7,
+        "lowTemp": 49.7,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 49.5,
+        "highTemp": 60.5,
+        "lowTemp": 38.4,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 36.6,
+        "highTemp": 45.5,
+        "lowTemp": 27.6,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 24.9,
+        "highTemp": 33.2,
+        "lowTemp": 16.6,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 46.6,
+      "highTemp": 57.2,
+      "lowTemp": 36,
+      "totalPrecip": 39.1,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

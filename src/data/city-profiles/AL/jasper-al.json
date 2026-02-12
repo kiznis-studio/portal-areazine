@@ -231,5 +231,93 @@
       5.7,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00014226",
+    "stationName": "JASPER",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.3,
+        "highTemp": 52,
+        "lowTemp": 30.6,
+        "precip": 6.1
+      },
+      "feb": {
+        "avgTemp": 44.9,
+        "highTemp": 56.2,
+        "lowTemp": 33.5,
+        "precip": 6
+      },
+      "mar": {
+        "avgTemp": 52.7,
+        "highTemp": 65,
+        "lowTemp": 40.5,
+        "precip": 5.8
+      },
+      "apr": {
+        "avgTemp": 60.6,
+        "highTemp": 73.3,
+        "lowTemp": 48,
+        "precip": 6
+      },
+      "may": {
+        "avgTemp": 68.9,
+        "highTemp": 80.2,
+        "lowTemp": 57.6,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 76,
+        "highTemp": 86.3,
+        "lowTemp": 65.7,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 79.7,
+        "highTemp": 89.8,
+        "lowTemp": 69.6,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 79.1,
+        "highTemp": 89.7,
+        "lowTemp": 68.5,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 73.3,
+        "highTemp": 84.4,
+        "lowTemp": 62.2,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 61.9,
+        "highTemp": 74.4,
+        "lowTemp": 49.4,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 51.3,
+        "highTemp": 63.7,
+        "lowTemp": 39,
+        "precip": 5
+      },
+      "dec": {
+        "avgTemp": 44,
+        "highTemp": 54.7,
+        "lowTemp": 33.2,
+        "precip": 6
+      }
+    },
+    "annual": {
+      "avgTemp": 61.1,
+      "highTemp": 72.5,
+      "lowTemp": 49.8,
+      "totalPrecip": 61.8,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

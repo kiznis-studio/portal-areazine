@@ -247,5 +247,54 @@
       6.4,
       6.2
     ]
+  },
+  "climate": {
+    "station": "US1HIHI0065",
+    "stationName": "PAHOA 4.7 NE",
+    "distanceMi": 5.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7.9
+      },
+      "feb": {
+        "precip": 13.6
+      },
+      "mar": {
+        "precip": 8.7
+      },
+      "apr": {
+        "precip": 11.2
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 8.3
+      },
+      "jul": {
+        "precip": 9.3
+      },
+      "aug": {
+        "precip": 13.5
+      },
+      "sep": {
+        "precip": 8.2
+      },
+      "oct": {
+        "precip": 12.8
+      },
+      "nov": {
+        "precip": 15.1
+      },
+      "dec": {
+        "precip": 12.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 126.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

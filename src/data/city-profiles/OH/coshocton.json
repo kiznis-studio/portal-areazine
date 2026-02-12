@@ -222,5 +222,93 @@
       6.1,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00331890",
+    "stationName": "COSHOCTON WPC PLT HCN",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.3,
+        "highTemp": 36.6,
+        "lowTemp": 19.9,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 31.1,
+        "highTemp": 40.3,
+        "lowTemp": 22,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 39.8,
+        "highTemp": 50.2,
+        "lowTemp": 29.5,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 51.3,
+        "highTemp": 63.1,
+        "lowTemp": 39.4,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 61.1,
+        "highTemp": 72.6,
+        "lowTemp": 49.7,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 69.2,
+        "highTemp": 80,
+        "lowTemp": 58.3,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 72.9,
+        "highTemp": 83.4,
+        "lowTemp": 62.3,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 71.4,
+        "highTemp": 82.2,
+        "lowTemp": 60.7,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 64.6,
+        "highTemp": 75.9,
+        "lowTemp": 53.2,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 53,
+        "highTemp": 64.5,
+        "lowTemp": 41.6,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 41.8,
+        "highTemp": 51.8,
+        "lowTemp": 31.8,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 32.9,
+        "highTemp": 41,
+        "lowTemp": 24.9,
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "avgTemp": 51.5,
+      "highTemp": 61.8,
+      "lowTemp": 41.1,
+      "totalPrecip": 43.7,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

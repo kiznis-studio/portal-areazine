@@ -303,5 +303,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00190535",
+    "stationName": "BEDFORD HCN",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.8,
+        "highTemp": 35.8,
+        "lowTemp": 17.7,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 28.8,
+        "highTemp": 38.7,
+        "lowTemp": 18.9,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 36.6,
+        "highTemp": 46.6,
+        "lowTemp": 26.7,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 47.6,
+        "highTemp": 58.9,
+        "lowTemp": 36.3,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 57.8,
+        "highTemp": 69.8,
+        "lowTemp": 45.9,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 66.6,
+        "highTemp": 77.9,
+        "lowTemp": 55.4,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 72.6,
+        "highTemp": 83.8,
+        "lowTemp": 61.4,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 70.9,
+        "highTemp": 81.9,
+        "lowTemp": 60,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 63,
+        "highTemp": 74.1,
+        "lowTemp": 51.8,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 51.4,
+        "highTemp": 62.2,
+        "lowTemp": 40.5,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 41.4,
+        "highTemp": 51.3,
+        "lowTemp": 31.4,
+        "precip": 4.1
+      },
+      "dec": {
+        "avgTemp": 32,
+        "highTemp": 40.8,
+        "lowTemp": 23.3,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 49.6,
+      "highTemp": 60.2,
+      "lowTemp": 39.1,
+      "totalPrecip": 49,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

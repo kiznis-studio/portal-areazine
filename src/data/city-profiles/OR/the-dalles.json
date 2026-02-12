@@ -231,5 +231,93 @@
       7.1,
       7.7
     ]
+  },
+  "climate": {
+    "station": "USC00358407",
+    "stationName": "THE DALLES",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36,
+        "highTemp": 43,
+        "lowTemp": 29.1,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 39.5,
+        "highTemp": 49.1,
+        "lowTemp": 29.8,
+        "precip": 1.6
+      },
+      "mar": {
+        "avgTemp": 45.5,
+        "highTemp": 57.2,
+        "lowTemp": 33.8,
+        "precip": 1.3
+      },
+      "apr": {
+        "avgTemp": 51.9,
+        "highTemp": 64.7,
+        "lowTemp": 39.1,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 60.1,
+        "highTemp": 73.4,
+        "lowTemp": 46.9,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 66.2,
+        "highTemp": 79.4,
+        "lowTemp": 53,
+        "precip": 0.4
+      },
+      "jul": {
+        "avgTemp": 73.3,
+        "highTemp": 88.3,
+        "lowTemp": 58.2,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 73,
+        "highTemp": 88.6,
+        "lowTemp": 57.4,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 65,
+        "highTemp": 81,
+        "lowTemp": 49.1,
+        "precip": 0.3
+      },
+      "oct": {
+        "avgTemp": 53.4,
+        "highTemp": 67.2,
+        "lowTemp": 39.6,
+        "precip": 1.1
+      },
+      "nov": {
+        "avgTemp": 42.4,
+        "highTemp": 51.6,
+        "lowTemp": 33.3,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 36.1,
+        "highTemp": 42.8,
+        "lowTemp": 29.4,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 53.5,
+      "highTemp": 65.5,
+      "lowTemp": 41.6,
+      "totalPrecip": 14.2,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

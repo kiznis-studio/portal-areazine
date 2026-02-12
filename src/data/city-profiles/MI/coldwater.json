@@ -231,5 +231,93 @@
       4.9,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00201675",
+    "stationName": "COLDWATER ST SCHOOL HCN",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.4,
+        "highTemp": 30.9,
+        "lowTemp": 15.9,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 25.9,
+        "highTemp": 34.2,
+        "lowTemp": 17.6,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 35.3,
+        "highTemp": 44.9,
+        "lowTemp": 25.7,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 47,
+        "highTemp": 57.9,
+        "lowTemp": 36.1,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 58.2,
+        "highTemp": 69.4,
+        "lowTemp": 47.1,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 67.6,
+        "highTemp": 78.6,
+        "lowTemp": 56.6,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 70.9,
+        "highTemp": 81.9,
+        "lowTemp": 59.9,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 68.9,
+        "highTemp": 79.6,
+        "lowTemp": 58.2,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 62,
+        "highTemp": 73.2,
+        "lowTemp": 50.7,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 50.5,
+        "highTemp": 60.6,
+        "lowTemp": 40.3,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 38.5,
+        "highTemp": 46.6,
+        "lowTemp": 30.5,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 28.6,
+        "highTemp": 35.5,
+        "lowTemp": 21.7,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 48.1,
+      "highTemp": 57.8,
+      "lowTemp": 38.4,
+      "totalPrecip": 39.2,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

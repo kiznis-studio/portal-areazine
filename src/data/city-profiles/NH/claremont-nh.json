@@ -231,5 +231,54 @@
       2.9,
       2.3
     ]
+  },
+  "climate": {
+    "station": "US1NHSL0003",
+    "stationName": "WEST UNITY 0.7 WSW",
+    "distanceMi": 6.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.3
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 3.9
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

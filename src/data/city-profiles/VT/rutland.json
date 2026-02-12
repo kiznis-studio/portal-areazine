@@ -231,5 +231,93 @@
       4.3,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00436995",
+    "stationName": "RUTLAND",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 18.7,
+        "highTemp": 29.4,
+        "lowTemp": 8,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 20.5,
+        "highTemp": 32.1,
+        "lowTemp": 8.8,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 29.7,
+        "highTemp": 41.3,
+        "lowTemp": 18.1,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 42.9,
+        "highTemp": 55.2,
+        "lowTemp": 30.6,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 55.1,
+        "highTemp": 67.9,
+        "lowTemp": 42.2,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 63.7,
+        "highTemp": 75.9,
+        "lowTemp": 51.5,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 68.4,
+        "highTemp": 80.3,
+        "lowTemp": 56.4,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 66.3,
+        "highTemp": 78.1,
+        "lowTemp": 54.4,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 58.3,
+        "highTemp": 70.6,
+        "lowTemp": 46,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 46.8,
+        "highTemp": 58.3,
+        "lowTemp": 35.3,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 36.1,
+        "highTemp": 46.2,
+        "lowTemp": 26,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 25.7,
+        "highTemp": 35.1,
+        "lowTemp": 16.3,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 44.4,
+      "highTemp": 55.9,
+      "lowTemp": 32.8,
+      "totalPrecip": 40.4,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

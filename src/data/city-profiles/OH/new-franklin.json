@@ -255,5 +255,93 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USW00014895",
+    "stationName": "AKRON CANTON RGNL AP 72521",
+    "distanceMi": 5.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.9,
+        "highTemp": 35.5,
+        "lowTemp": 20.3,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 30.2,
+        "highTemp": 38.6,
+        "lowTemp": 21.9,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 38.9,
+        "highTemp": 48.4,
+        "lowTemp": 29.4,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 50.8,
+        "highTemp": 61.8,
+        "lowTemp": 39.8,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 61.3,
+        "highTemp": 72.3,
+        "lowTemp": 50.4,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 69.9,
+        "highTemp": 80.4,
+        "lowTemp": 59.4,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 73.9,
+        "highTemp": 84.3,
+        "lowTemp": 63.4,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 72.3,
+        "highTemp": 82.7,
+        "lowTemp": 61.9,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 65.4,
+        "highTemp": 75.9,
+        "lowTemp": 54.9,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 53.7,
+        "highTemp": 63.4,
+        "lowTemp": 44,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 42.5,
+        "highTemp": 50.7,
+        "lowTemp": 34.2,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 33,
+        "highTemp": 39.9,
+        "lowTemp": 26.1,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 51.7,
+      "highTemp": 61.2,
+      "lowTemp": 42.1,
+      "totalPrecip": 41.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

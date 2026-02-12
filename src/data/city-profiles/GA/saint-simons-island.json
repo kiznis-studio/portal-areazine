@@ -231,5 +231,93 @@
       4.3,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USW00013878",
+    "stationName": "BRUNSWICK MALCOLM MCKINNON AP",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53,
+        "highTemp": 61.8,
+        "lowTemp": 44.1,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 56.1,
+        "highTemp": 64.8,
+        "lowTemp": 47.3,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 61.7,
+        "highTemp": 70.4,
+        "lowTemp": 52.9,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 68,
+        "highTemp": 76.3,
+        "lowTemp": 59.7,
+        "precip": 2.8
+      },
+      "may": {
+        "avgTemp": 75.6,
+        "highTemp": 83.3,
+        "lowTemp": 68,
+        "precip": 2.3
+      },
+      "jun": {
+        "avgTemp": 81,
+        "highTemp": 88.2,
+        "lowTemp": 73.7,
+        "precip": 5.8
+      },
+      "jul": {
+        "avgTemp": 83.6,
+        "highTemp": 91,
+        "lowTemp": 76.1,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 82.8,
+        "highTemp": 89.6,
+        "lowTemp": 75.9,
+        "precip": 5.8
+      },
+      "sep": {
+        "avgTemp": 79.1,
+        "highTemp": 85.8,
+        "lowTemp": 72.5,
+        "precip": 6
+      },
+      "oct": {
+        "avgTemp": 71.3,
+        "highTemp": 79,
+        "lowTemp": 63.6,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 62,
+        "highTemp": 70.7,
+        "lowTemp": 53.3,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 55.7,
+        "highTemp": 64.3,
+        "lowTemp": 47.2,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 69.2,
+      "highTemp": 77.1,
+      "lowTemp": 61.2,
+      "totalPrecip": 45.6,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

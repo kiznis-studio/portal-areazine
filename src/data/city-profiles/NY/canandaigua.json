@@ -239,5 +239,93 @@
       4,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00301152",
+    "stationName": "CANANDAIGUA 3 S",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.4,
+        "highTemp": 33,
+        "lowTemp": 17.8,
+        "precip": 1.9
+      },
+      "feb": {
+        "avgTemp": 26.5,
+        "highTemp": 34.6,
+        "lowTemp": 18.4,
+        "precip": 1.8
+      },
+      "mar": {
+        "avgTemp": 33.5,
+        "highTemp": 42.2,
+        "lowTemp": 24.9,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 45.3,
+        "highTemp": 55.2,
+        "lowTemp": 35.3,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 57.5,
+        "highTemp": 68.2,
+        "lowTemp": 46.8,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 66.9,
+        "highTemp": 76.9,
+        "lowTemp": 56.9,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 71.7,
+        "highTemp": 81.4,
+        "lowTemp": 62,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 70.4,
+        "highTemp": 80.2,
+        "lowTemp": 60.6,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 73.5,
+        "lowTemp": 53.8,
+        "precip": 3.1
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 60.8,
+        "lowTemp": 43,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 41.1,
+        "highTemp": 48.7,
+        "lowTemp": 33.4,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 38.1,
+        "lowTemp": 24.6,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 48.8,
+      "highTemp": 57.7,
+      "lowTemp": 39.8,
+      "totalPrecip": 35.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

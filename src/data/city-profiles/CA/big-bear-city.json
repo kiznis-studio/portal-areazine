@@ -303,5 +303,93 @@
       7.1,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00040741",
+    "stationName": "BIG BEAR LAKE",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 34.8,
+        "highTemp": 46.1,
+        "lowTemp": 23.6,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 34.7,
+        "highTemp": 45.7,
+        "lowTemp": 23.7,
+        "precip": 4.4
+      },
+      "mar": {
+        "avgTemp": 39.1,
+        "highTemp": 51.2,
+        "lowTemp": 27,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 44.2,
+        "highTemp": 57.3,
+        "lowTemp": 31,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 51.5,
+        "highTemp": 65.8,
+        "lowTemp": 37.2,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 59.3,
+        "highTemp": 75.1,
+        "lowTemp": 43.5,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 65.1,
+        "highTemp": 79.7,
+        "lowTemp": 50.5,
+        "precip": 0.7
+      },
+      "aug": {
+        "avgTemp": 64.1,
+        "highTemp": 78.7,
+        "lowTemp": 49.5,
+        "precip": 0.8
+      },
+      "sep": {
+        "avgTemp": 58.5,
+        "highTemp": 73,
+        "lowTemp": 44,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 49.2,
+        "highTemp": 63.4,
+        "lowTemp": 35,
+        "precip": 0.8
+      },
+      "nov": {
+        "avgTemp": 40.6,
+        "highTemp": 53.5,
+        "lowTemp": 27.8,
+        "precip": 1.4
+      },
+      "dec": {
+        "avgTemp": 34.8,
+        "highTemp": 46.2,
+        "lowTemp": 23.5,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 48,
+      "highTemp": 61.3,
+      "lowTemp": 34.7,
+      "totalPrecip": 20.1,
+      "hotMonths": 0,
+      "coldMonths": 4
+    }
   }
 }

@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USC00068330",
+    "stationName": "THOMASTON DAM",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.2
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 4.3
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 4.4
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 5.4
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

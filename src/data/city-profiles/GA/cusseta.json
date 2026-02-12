@@ -222,5 +222,81 @@
       2.3,
       1.7
     ]
+  },
+  "climate": {
+    "station": "USW00013829",
+    "stationName": "FT BENNING LAWSON FLD 72225",
+    "distanceMi": 13.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.6,
+        "highTemp": 61,
+        "lowTemp": 32.2
+      },
+      "feb": {
+        "avgTemp": 50.1,
+        "highTemp": 65,
+        "lowTemp": 35.1
+      },
+      "mar": {
+        "avgTemp": 56.7,
+        "highTemp": 71.9,
+        "lowTemp": 41.5
+      },
+      "apr": {
+        "avgTemp": 63.6,
+        "highTemp": 79.3,
+        "lowTemp": 47.9
+      },
+      "may": {
+        "avgTemp": 71.7,
+        "highTemp": 86.1,
+        "lowTemp": 57.2
+      },
+      "jun": {
+        "avgTemp": 78.5,
+        "highTemp": 90.9,
+        "lowTemp": 66.1
+      },
+      "jul": {
+        "avgTemp": 81.5,
+        "highTemp": 93.4,
+        "lowTemp": 69.6
+      },
+      "aug": {
+        "avgTemp": 80.8,
+        "highTemp": 92.5,
+        "lowTemp": 69
+      },
+      "sep": {
+        "avgTemp": 76.2,
+        "highTemp": 88.7,
+        "lowTemp": 63.7
+      },
+      "oct": {
+        "avgTemp": 65.7,
+        "highTemp": 80.2,
+        "lowTemp": 51.2
+      },
+      "nov": {
+        "avgTemp": 54.9,
+        "highTemp": 70.6,
+        "lowTemp": 39.1
+      },
+      "dec": {
+        "avgTemp": 48.5,
+        "highTemp": 63.1,
+        "lowTemp": 33.9
+      }
+    },
+    "annual": {
+      "avgTemp": 64.6,
+      "highTemp": 78.6,
+      "lowTemp": 50.5,
+      "totalPrecip": 0,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

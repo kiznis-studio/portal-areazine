@@ -303,5 +303,54 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1TXTN0039",
+    "stationName": "FORT WORTH 5.4 SSW",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 4.6
+      },
+      "jun": {
+        "precip": 3.7
+      },
+      "jul": {
+        "precip": 2.3
+      },
+      "aug": {
+        "precip": 2.5
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 4.7
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

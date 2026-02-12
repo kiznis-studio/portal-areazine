@@ -303,5 +303,54 @@
       4.9,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1CAAL0001",
+    "stationName": "PIEDMONT 1.0 SE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.5
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 2
+      },
+      "may": {
+        "precip": 0.8
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 24.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

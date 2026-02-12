@@ -231,5 +231,93 @@
       4.4,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USC00049043",
+    "stationName": "TRUCKEE RS",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.9,
+        "highTemp": 41.8,
+        "lowTemp": 16.1,
+        "precip": 5.7
+      },
+      "feb": {
+        "avgTemp": 31.1,
+        "highTemp": 44.5,
+        "lowTemp": 17.6,
+        "precip": 5.1
+      },
+      "mar": {
+        "avgTemp": 35.4,
+        "highTemp": 49.6,
+        "lowTemp": 21.2,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 40,
+        "highTemp": 54.8,
+        "lowTemp": 25.2,
+        "precip": 2.1
+      },
+      "may": {
+        "avgTemp": 47.8,
+        "highTemp": 64.3,
+        "lowTemp": 31.4,
+        "precip": 1.5
+      },
+      "jun": {
+        "avgTemp": 55.3,
+        "highTemp": 74.8,
+        "lowTemp": 35.8,
+        "precip": 0.6
+      },
+      "jul": {
+        "avgTemp": 62.6,
+        "highTemp": 83.8,
+        "lowTemp": 41.4,
+        "precip": 0.3
+      },
+      "aug": {
+        "avgTemp": 62.1,
+        "highTemp": 83.8,
+        "lowTemp": 40.3,
+        "precip": 0.5
+      },
+      "sep": {
+        "avgTemp": 55.2,
+        "highTemp": 76.2,
+        "lowTemp": 34.1,
+        "precip": 0.6
+      },
+      "oct": {
+        "avgTemp": 46,
+        "highTemp": 64.6,
+        "lowTemp": 27.5,
+        "precip": 1.8
+      },
+      "nov": {
+        "avgTemp": 36,
+        "highTemp": 50.9,
+        "lowTemp": 21.2,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 27.8,
+        "highTemp": 40.5,
+        "lowTemp": 15,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 44,
+      "highTemp": 60.8,
+      "lowTemp": 27.2,
+      "totalPrecip": 30.7,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

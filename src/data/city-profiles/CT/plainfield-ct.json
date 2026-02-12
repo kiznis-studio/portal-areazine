@@ -136,5 +136,54 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USC00063857",
+    "stationName": "JEWETT CITY",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 3.4
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 3.4
+      },
+      "aug": {
+        "precip": 4.9
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 3.7
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

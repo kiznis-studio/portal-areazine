@@ -255,5 +255,93 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USW00004849",
+    "stationName": "ELYRIA LORAIN CO AP",
+    "distanceMi": 9.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.7,
+        "highTemp": 33.6,
+        "lowTemp": 19.8,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 28.8,
+        "highTemp": 36.3,
+        "lowTemp": 21.2,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 37,
+        "highTemp": 45.3,
+        "lowTemp": 28.8,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 48.6,
+        "highTemp": 58.8,
+        "lowTemp": 38.5,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 59.6,
+        "highTemp": 70,
+        "lowTemp": 49.2,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 68.9,
+        "highTemp": 79,
+        "lowTemp": 58.8,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 72.3,
+        "highTemp": 82.3,
+        "lowTemp": 62.2,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 70.1,
+        "highTemp": 79.9,
+        "lowTemp": 60.2,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 63.8,
+        "highTemp": 74.6,
+        "lowTemp": 53,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 52.9,
+        "highTemp": 62.6,
+        "lowTemp": 43.2,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 41.7,
+        "highTemp": 49.3,
+        "lowTemp": 34,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 32.3,
+        "highTemp": 38.5,
+        "lowTemp": 26,
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 59.2,
+      "lowTemp": 41.2,
+      "totalPrecip": 36.8,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

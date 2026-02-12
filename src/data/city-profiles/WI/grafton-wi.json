@@ -231,5 +231,93 @@
       2.6,
       2.5
     ]
+  },
+  "climate": {
+    "station": "USC00473198",
+    "stationName": "GRAFTON WWTP",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.5,
+        "highTemp": 30,
+        "lowTemp": 17,
+        "precip": 1.6
+      },
+      "feb": {
+        "avgTemp": 25.8,
+        "highTemp": 33.1,
+        "lowTemp": 18.5,
+        "precip": 1.7
+      },
+      "mar": {
+        "avgTemp": 34.5,
+        "highTemp": 42.7,
+        "lowTemp": 26.4,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 45.2,
+        "highTemp": 54.1,
+        "lowTemp": 36.2,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 55.9,
+        "highTemp": 65.7,
+        "lowTemp": 46.2,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 65.7,
+        "highTemp": 75.5,
+        "lowTemp": 56,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 71.5,
+        "highTemp": 81.1,
+        "lowTemp": 62,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 70.2,
+        "highTemp": 79.8,
+        "lowTemp": 60.7,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 63.2,
+        "highTemp": 72.5,
+        "lowTemp": 53.9,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 51.5,
+        "highTemp": 60.5,
+        "lowTemp": 42.6,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 38.8,
+        "highTemp": 46.4,
+        "lowTemp": 31.2,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 28.3,
+        "highTemp": 35.2,
+        "lowTemp": 21.4,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 47.8,
+      "highTemp": 56.4,
+      "lowTemp": 39.3,
+      "totalPrecip": 35.6,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

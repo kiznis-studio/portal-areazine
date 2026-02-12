@@ -231,5 +231,93 @@
       4.7,
       4.7
     ]
+  },
+  "climate": {
+    "station": "USW00013748",
+    "stationName": "WILMINGTON INTL AP 72302",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.8,
+        "highTemp": 57.2,
+        "lowTemp": 36.3,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 49.3,
+        "highTemp": 60.3,
+        "lowTemp": 38.4,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 55.3,
+        "highTemp": 66.5,
+        "lowTemp": 44.1,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 63.6,
+        "highTemp": 74.6,
+        "lowTemp": 52.6,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 71.1,
+        "highTemp": 81.1,
+        "lowTemp": 61.1,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 78.2,
+        "highTemp": 87,
+        "lowTemp": 69.3,
+        "precip": 5.7
+      },
+      "jul": {
+        "avgTemp": 81.5,
+        "highTemp": 90,
+        "lowTemp": 73,
+        "precip": 6.9
+      },
+      "aug": {
+        "avgTemp": 80,
+        "highTemp": 88.3,
+        "lowTemp": 71.7,
+        "precip": 8.2
+      },
+      "sep": {
+        "avgTemp": 75.3,
+        "highTemp": 83.9,
+        "lowTemp": 66.7,
+        "precip": 8.7
+      },
+      "oct": {
+        "avgTemp": 65.9,
+        "highTemp": 76.1,
+        "lowTemp": 55.6,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 56.1,
+        "highTemp": 67.4,
+        "lowTemp": 44.8,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 49.7,
+        "highTemp": 60.3,
+        "lowTemp": 39.1,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 64.4,
+      "highTemp": 74.4,
+      "lowTemp": 54.4,
+      "totalPrecip": 60.4,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

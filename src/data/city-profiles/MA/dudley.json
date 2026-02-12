@@ -279,5 +279,93 @@
       5.6,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00190998",
+    "stationName": "BUFFUMVILLE LAKE",
+    "distanceMi": 5.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.3,
+        "highTemp": 34.1,
+        "lowTemp": 14.6,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 25.6,
+        "highTemp": 36.5,
+        "lowTemp": 14.8,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 34.5,
+        "highTemp": 45.1,
+        "lowTemp": 23.9,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 45.7,
+        "highTemp": 57.4,
+        "lowTemp": 33.9,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 56.9,
+        "highTemp": 68.8,
+        "lowTemp": 45,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 65.9,
+        "highTemp": 77.2,
+        "lowTemp": 54.7,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 71.4,
+        "highTemp": 82.5,
+        "lowTemp": 60.3,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 69.7,
+        "highTemp": 80.8,
+        "lowTemp": 58.5,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 62.3,
+        "highTemp": 73.7,
+        "lowTemp": 50.9,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 50.1,
+        "highTemp": 61.4,
+        "lowTemp": 38.7,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 40,
+        "highTemp": 50.2,
+        "lowTemp": 29.9,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 30,
+        "highTemp": 39,
+        "lowTemp": 21.1,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 48,
+      "highTemp": 58.9,
+      "lowTemp": 37.2,
+      "totalPrecip": 48.9,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

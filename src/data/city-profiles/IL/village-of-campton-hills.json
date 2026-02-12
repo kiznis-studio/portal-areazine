@@ -263,5 +263,54 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "US1ILKN0067",
+    "stationName": "ST. CHARLES 6.0 NW",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.8
+      },
+      "feb": {
+        "precip": 1.8
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 38.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

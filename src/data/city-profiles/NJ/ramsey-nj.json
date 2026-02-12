@@ -263,5 +263,54 @@
       5.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00289832",
+    "stationName": "WOODCLIFF LAKE",
+    "distanceMi": 5.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.6
+      },
+      "mar": {
+        "precip": 3.9
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.9
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 4.5
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

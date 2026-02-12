@@ -231,5 +231,93 @@
       5.8,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00072730",
+    "stationName": "DOVER HCN",
+    "distanceMi": 11.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36,
+        "highTemp": 44.4,
+        "lowTemp": 27.6,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 38.2,
+        "highTemp": 47.4,
+        "lowTemp": 29,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 45,
+        "highTemp": 54.5,
+        "lowTemp": 35.4,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 55.5,
+        "highTemp": 66,
+        "lowTemp": 44.9,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 64.4,
+        "highTemp": 74.4,
+        "lowTemp": 54.4,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 73.2,
+        "highTemp": 82.7,
+        "lowTemp": 63.8,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 77.9,
+        "highTemp": 86.9,
+        "lowTemp": 69,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 76.2,
+        "highTemp": 85.1,
+        "lowTemp": 67.3,
+        "precip": 4.9
+      },
+      "sep": {
+        "avgTemp": 70.1,
+        "highTemp": 79.2,
+        "lowTemp": 61,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 59.2,
+        "highTemp": 68.9,
+        "lowTemp": 49.5,
+        "precip": 4.1
+      },
+      "nov": {
+        "avgTemp": 48.7,
+        "highTemp": 58,
+        "lowTemp": 39.3,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 40.3,
+        "highTemp": 48.6,
+        "lowTemp": 32.1,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 57.1,
+      "highTemp": 66.3,
+      "lowTemp": 47.8,
+      "totalPrecip": 47.7,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

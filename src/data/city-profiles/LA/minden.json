@@ -231,5 +231,93 @@
       5.2,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00166244",
+    "stationName": "MINDEN",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46,
+        "highTemp": 57.9,
+        "lowTemp": 34.2,
+        "precip": 5.3
+      },
+      "feb": {
+        "avgTemp": 49.5,
+        "highTemp": 61.9,
+        "lowTemp": 37.2,
+        "precip": 5
+      },
+      "mar": {
+        "avgTemp": 57.1,
+        "highTemp": 69.9,
+        "lowTemp": 44.3,
+        "precip": 5.7
+      },
+      "apr": {
+        "avgTemp": 64.5,
+        "highTemp": 77.4,
+        "lowTemp": 51.5,
+        "precip": 6.5
+      },
+      "may": {
+        "avgTemp": 73,
+        "highTemp": 84.3,
+        "lowTemp": 61.7,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 80.3,
+        "highTemp": 90.9,
+        "lowTemp": 69.7,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 83.5,
+        "highTemp": 94.2,
+        "lowTemp": 72.9,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 83.3,
+        "highTemp": 94.7,
+        "lowTemp": 71.9,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 77.3,
+        "highTemp": 89.3,
+        "lowTemp": 65.4,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 66,
+        "highTemp": 79.2,
+        "lowTemp": 52.9,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 55.4,
+        "highTemp": 68.1,
+        "lowTemp": 42.7,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 48.1,
+        "highTemp": 59.8,
+        "lowTemp": 36.3,
+        "precip": 5.7
+      }
+    },
+    "annual": {
+      "avgTemp": 65.3,
+      "highTemp": 77.3,
+      "lowTemp": 53.4,
+      "totalPrecip": 57.7,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

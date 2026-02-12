@@ -271,5 +271,54 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00113738",
+    "stationName": "GURNEE PUBLIC WORKS",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 1.9
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 3.4
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.1
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 36.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

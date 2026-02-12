@@ -153,5 +153,93 @@
       5.6,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USW00004843",
+    "stationName": "PORT MEADVILLE AP",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.4,
+        "highTemp": 32.5,
+        "lowTemp": 18.4,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 27.2,
+        "highTemp": 35.1,
+        "lowTemp": 19.3,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 35.2,
+        "highTemp": 43.8,
+        "lowTemp": 26.5,
+        "precip": 2.9
+      },
+      "apr": {
+        "avgTemp": 47.4,
+        "highTemp": 57.6,
+        "lowTemp": 37.2,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 58.2,
+        "highTemp": 68.6,
+        "lowTemp": 47.8,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 66.1,
+        "highTemp": 75.8,
+        "lowTemp": 56.4,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 70.5,
+        "highTemp": 80.4,
+        "lowTemp": 60.5,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 68.8,
+        "highTemp": 78.3,
+        "lowTemp": 59.3,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 62.2,
+        "highTemp": 71.5,
+        "lowTemp": 52.8,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 51.1,
+        "highTemp": 59.9,
+        "lowTemp": 42.3,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 40.3,
+        "highTemp": 47.5,
+        "lowTemp": 33.1,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 30.9,
+        "highTemp": 37,
+        "lowTemp": 24.8,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 48.6,
+      "highTemp": 57.3,
+      "lowTemp": 39.9,
+      "totalPrecip": 41.4,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

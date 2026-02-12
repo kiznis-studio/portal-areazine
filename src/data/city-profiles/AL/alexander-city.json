@@ -231,5 +231,93 @@
       10.4,
       7.5
     ]
+  },
+  "climate": {
+    "station": "USC00010160",
+    "stationName": "ALEXANDER CITY",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.1,
+        "highTemp": 56,
+        "lowTemp": 32.1,
+        "precip": 5.7
+      },
+      "feb": {
+        "avgTemp": 47.7,
+        "highTemp": 60.1,
+        "lowTemp": 35.2,
+        "precip": 5.5
+      },
+      "mar": {
+        "avgTemp": 54.8,
+        "highTemp": 68.1,
+        "lowTemp": 41.5,
+        "precip": 5.6
+      },
+      "apr": {
+        "avgTemp": 61.8,
+        "highTemp": 75.3,
+        "lowTemp": 48.4,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 70.1,
+        "highTemp": 82.3,
+        "lowTemp": 57.8,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 77.1,
+        "highTemp": 88.2,
+        "lowTemp": 66.1,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 80.5,
+        "highTemp": 91.2,
+        "lowTemp": 69.7,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 79.4,
+        "highTemp": 90.2,
+        "lowTemp": 68.6,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 74.2,
+        "highTemp": 85.7,
+        "lowTemp": 62.7,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 63.7,
+        "highTemp": 76.7,
+        "lowTemp": 50.8,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 53.4,
+        "highTemp": 66.4,
+        "lowTemp": 40.3,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 46.6,
+        "highTemp": 58.4,
+        "lowTemp": 34.9,
+        "precip": 5.5
+      }
+    },
+    "annual": {
+      "avgTemp": 62.8,
+      "highTemp": 74.9,
+      "lowTemp": 50.7,
+      "totalPrecip": 57,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

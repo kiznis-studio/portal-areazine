@@ -231,5 +231,54 @@
       5.1,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1IDBK0016",
+    "stationName": "POCATELLO 2.5 NE",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1
+      },
+      "feb": {
+        "precip": 1
+      },
+      "mar": {
+        "precip": 1.2
+      },
+      "apr": {
+        "precip": 1.5
+      },
+      "may": {
+        "precip": 1.6
+      },
+      "jun": {
+        "precip": 1.2
+      },
+      "jul": {
+        "precip": 0.6
+      },
+      "aug": {
+        "precip": 0.6
+      },
+      "sep": {
+        "precip": 1
+      },
+      "oct": {
+        "precip": 1.1
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 0.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 12.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

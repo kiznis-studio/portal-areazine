@@ -222,5 +222,93 @@
       2.9,
       3
     ]
+  },
+  "climate": {
+    "station": "USC00477226",
+    "stationName": "RIVER FALLS",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 13.2,
+        "highTemp": 22,
+        "lowTemp": 4.3,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 17.3,
+        "highTemp": 27.1,
+        "lowTemp": 7.6,
+        "precip": 0.9
+      },
+      "mar": {
+        "avgTemp": 29.9,
+        "highTemp": 40.1,
+        "lowTemp": 19.6,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 43.4,
+        "highTemp": 55.2,
+        "lowTemp": 31.6,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 55.5,
+        "highTemp": 67.6,
+        "lowTemp": 43.4,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 65.4,
+        "highTemp": 77.1,
+        "lowTemp": 53.8,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 69.9,
+        "highTemp": 81.5,
+        "lowTemp": 58.3,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 67.7,
+        "highTemp": 79.1,
+        "lowTemp": 56.3,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 60.2,
+        "highTemp": 71.4,
+        "lowTemp": 49,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 46.7,
+        "highTemp": 57.2,
+        "lowTemp": 36.2,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 32.3,
+        "highTemp": 40.8,
+        "lowTemp": 23.8,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 19.6,
+        "highTemp": 27.4,
+        "lowTemp": 11.9,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 43.4,
+      "highTemp": 53.9,
+      "lowTemp": 33,
+      "totalPrecip": 34.3,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

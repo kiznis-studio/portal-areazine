@@ -247,5 +247,93 @@
       4.9,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00049111",
+    "stationName": "TWITCHELL DAM",
+    "distanceMi": 9.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 51.9,
+        "highTemp": 62.5,
+        "lowTemp": 41.2,
+        "precip": 4
+      },
+      "feb": {
+        "avgTemp": 52.5,
+        "highTemp": 62.5,
+        "lowTemp": 42.5,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 54.6,
+        "highTemp": 64.8,
+        "lowTemp": 44.4,
+        "precip": 3.3
+      },
+      "apr": {
+        "avgTemp": 56.5,
+        "highTemp": 67.8,
+        "lowTemp": 45.2,
+        "precip": 1.5
+      },
+      "may": {
+        "avgTemp": 59,
+        "highTemp": 70.1,
+        "lowTemp": 47.9,
+        "precip": 0.6
+      },
+      "jun": {
+        "avgTemp": 62.3,
+        "highTemp": 74.7,
+        "lowTemp": 49.8,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 65,
+        "highTemp": 77,
+        "lowTemp": 52.9,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 65.7,
+        "highTemp": 77.6,
+        "lowTemp": 53.9,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 64.8,
+        "highTemp": 77.8,
+        "lowTemp": 51.7,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 62.3,
+        "highTemp": 75.2,
+        "lowTemp": 49.4,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 56.2,
+        "highTemp": 68.2,
+        "lowTemp": 44.2,
+        "precip": 1.4
+      },
+      "dec": {
+        "avgTemp": 50.3,
+        "highTemp": 61.4,
+        "lowTemp": 39.3,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 58.4,
+      "highTemp": 70,
+      "lowTemp": 46.9,
+      "totalPrecip": 18.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

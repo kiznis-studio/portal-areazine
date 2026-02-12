@@ -279,5 +279,54 @@
       5.6,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USC00195524",
+    "stationName": "NORTHBRIDGE 2",
+    "distanceMi": 2.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 3.4
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.9
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.8
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 48.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

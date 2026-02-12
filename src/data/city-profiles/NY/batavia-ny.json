@@ -231,5 +231,93 @@
       4.7,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00300443",
+    "stationName": "BATAVIA HCN",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 23.4,
+        "highTemp": 31,
+        "lowTemp": 15.8,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 24.9,
+        "highTemp": 33.1,
+        "lowTemp": 16.6,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 33.4,
+        "highTemp": 42.4,
+        "lowTemp": 24.3,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 45.3,
+        "highTemp": 55.7,
+        "lowTemp": 34.9,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 57.3,
+        "highTemp": 67.9,
+        "lowTemp": 46.7,
+        "precip": 3.2
+      },
+      "jun": {
+        "avgTemp": 66.3,
+        "highTemp": 76.4,
+        "lowTemp": 56.1,
+        "precip": 3.7
+      },
+      "jul": {
+        "avgTemp": 70.4,
+        "highTemp": 80,
+        "lowTemp": 60.7,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 68.9,
+        "highTemp": 78.5,
+        "lowTemp": 59.3,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 62.4,
+        "highTemp": 72.4,
+        "lowTemp": 52.4,
+        "precip": 3.6
+      },
+      "oct": {
+        "avgTemp": 50.9,
+        "highTemp": 60,
+        "lowTemp": 41.8,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 39.7,
+        "highTemp": 47.6,
+        "lowTemp": 31.8,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 29.3,
+        "highTemp": 36.2,
+        "lowTemp": 22.3,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 47.7,
+      "highTemp": 56.8,
+      "lowTemp": 38.6,
+      "totalPrecip": 36.6,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

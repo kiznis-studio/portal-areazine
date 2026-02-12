@@ -216,5 +216,93 @@
       4.3,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00445300",
+    "stationName": "MARTINSVILLE FLTR PLT",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.1,
+        "highTemp": 48.4,
+        "lowTemp": 23.8,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 38.9,
+        "highTemp": 52.2,
+        "lowTemp": 25.5,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 45.9,
+        "highTemp": 60.3,
+        "lowTemp": 31.6,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 55.6,
+        "highTemp": 70.8,
+        "lowTemp": 40.4,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 64,
+        "highTemp": 77.7,
+        "lowTemp": 50.3,
+        "precip": 4.5
+      },
+      "jun": {
+        "avgTemp": 72,
+        "highTemp": 84.7,
+        "lowTemp": 59.2,
+        "precip": 4.4
+      },
+      "jul": {
+        "avgTemp": 76,
+        "highTemp": 88,
+        "lowTemp": 64,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 74.2,
+        "highTemp": 85.9,
+        "lowTemp": 62.6,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 67.6,
+        "highTemp": 79.8,
+        "lowTemp": 55.5,
+        "precip": 5.1
+      },
+      "oct": {
+        "avgTemp": 56.7,
+        "highTemp": 70.7,
+        "lowTemp": 42.8,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 46,
+        "highTemp": 60.3,
+        "lowTemp": 31.7,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 38.7,
+        "highTemp": 51.1,
+        "lowTemp": 26.3,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 56,
+      "highTemp": 69.2,
+      "lowTemp": 42.8,
+      "totalPrecip": 47.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

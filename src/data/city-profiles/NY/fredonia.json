@@ -239,5 +239,93 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00303033",
+    "stationName": "FREDONIA HCN",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.8,
+        "highTemp": 34.4,
+        "lowTemp": 21.1,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 28.6,
+        "highTemp": 36.3,
+        "lowTemp": 20.9,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 36.3,
+        "highTemp": 44.9,
+        "lowTemp": 27.8,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 48.1,
+        "highTemp": 58.1,
+        "lowTemp": 38,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 59.1,
+        "highTemp": 68.9,
+        "lowTemp": 49.4,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 68.2,
+        "highTemp": 77.4,
+        "lowTemp": 59.1,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 72.2,
+        "highTemp": 80.8,
+        "lowTemp": 63.6,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 71,
+        "highTemp": 79.4,
+        "lowTemp": 62.6,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 65.2,
+        "highTemp": 73.9,
+        "lowTemp": 56.4,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 54.1,
+        "highTemp": 62.2,
+        "lowTemp": 46.1,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 43.5,
+        "highTemp": 50.4,
+        "lowTemp": 36.6,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 33.7,
+        "highTemp": 39.6,
+        "lowTemp": 27.8,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 50.7,
+      "highTemp": 58.9,
+      "lowTemp": 42.5,
+      "totalPrecip": 41.2,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

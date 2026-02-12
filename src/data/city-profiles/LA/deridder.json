@@ -231,5 +231,93 @@
       7.9,
       7.3
     ]
+  },
+  "climate": {
+    "station": "USC00162367",
+    "stationName": "DE RIDDER",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 49.8,
+        "highTemp": 60.9,
+        "lowTemp": 38.7,
+        "precip": 6.4
+      },
+      "feb": {
+        "avgTemp": 53.6,
+        "highTemp": 64.7,
+        "lowTemp": 42.5,
+        "precip": 4.6
+      },
+      "mar": {
+        "avgTemp": 60.6,
+        "highTemp": 72.1,
+        "lowTemp": 49,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 66.7,
+        "highTemp": 78.2,
+        "lowTemp": 55.3,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 74.3,
+        "highTemp": 84.7,
+        "lowTemp": 63.9,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 80.4,
+        "highTemp": 90.5,
+        "lowTemp": 70.3,
+        "precip": 5.8
+      },
+      "jul": {
+        "avgTemp": 82.1,
+        "highTemp": 91.7,
+        "lowTemp": 72.6,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 82.4,
+        "highTemp": 92.5,
+        "lowTemp": 72.3,
+        "precip": 5
+      },
+      "sep": {
+        "avgTemp": 78,
+        "highTemp": 88.7,
+        "lowTemp": 67.3,
+        "precip": 5.4
+      },
+      "oct": {
+        "avgTemp": 68.3,
+        "highTemp": 79.9,
+        "lowTemp": 56.8,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 58.4,
+        "highTemp": 70.1,
+        "lowTemp": 46.6,
+        "precip": 5.5
+      },
+      "dec": {
+        "avgTemp": 51.4,
+        "highTemp": 62.3,
+        "lowTemp": 40.4,
+        "precip": 6.4
+      }
+    },
+    "annual": {
+      "avgTemp": 67.2,
+      "highTemp": 78,
+      "lowTemp": 56.3,
+      "totalPrecip": 64.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

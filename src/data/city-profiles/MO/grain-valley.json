@@ -303,5 +303,54 @@
       4.8,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1MOFSA095",
+    "stationName": "BLUE SPRINGS 0.9 NW",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.6
+      },
+      "feb": {
+        "precip": 1.7
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 5.8
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 5.9
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 3.4
+      },
+      "nov": {
+        "precip": 2.5
+      },
+      "dec": {
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 43.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,54 @@
       5.7,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1NJOC0017",
+    "stationName": "LACEY TWP 6.3 E",
+    "distanceMi": 11.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.1
+      },
+      "feb": {
+        "precip": 3.4
+      },
+      "mar": {
+        "precip": 5
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4
+      },
+      "jul": {
+        "precip": 4.7
+      },
+      "aug": {
+        "precip": 5.3
+      },
+      "sep": {
+        "precip": 3.8
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       3.9,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00432843",
+    "stationName": "ESSEX JUNCTION 1 N",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.1,
+        "highTemp": 28.4,
+        "lowTemp": 9.9,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 21.4,
+        "highTemp": 31.4,
+        "lowTemp": 11.4,
+        "precip": 2.1
+      },
+      "mar": {
+        "avgTemp": 30.8,
+        "highTemp": 40.3,
+        "lowTemp": 21.4,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 44.6,
+        "highTemp": 54.4,
+        "lowTemp": 34.7,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 57.4,
+        "highTemp": 68.2,
+        "lowTemp": 46.7,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 66.5,
+        "highTemp": 76.9,
+        "lowTemp": 56.1,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 71,
+        "highTemp": 81.3,
+        "lowTemp": 60.8,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 69.6,
+        "highTemp": 79.9,
+        "lowTemp": 59.2,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 62,
+        "highTemp": 72.1,
+        "lowTemp": 51.8,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 49.2,
+        "highTemp": 58.2,
+        "lowTemp": 40.2,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 38.3,
+        "highTemp": 46.1,
+        "lowTemp": 30.6,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 26.9,
+        "highTemp": 34.6,
+        "lowTemp": 19.1,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 46.4,
+      "highTemp": 56,
+      "lowTemp": 36.8,
+      "totalPrecip": 42.3,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

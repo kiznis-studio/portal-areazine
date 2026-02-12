@@ -231,5 +231,93 @@
       10.8,
       10.1
     ]
+  },
+  "climate": {
+    "station": "USC00314860",
+    "stationName": "LAURINBURG",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.1,
+        "highTemp": 55,
+        "lowTemp": 33.2,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 47.5,
+        "highTemp": 59.4,
+        "lowTemp": 35.6,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 54.6,
+        "highTemp": 67.1,
+        "lowTemp": 42,
+        "precip": 3.4
+      },
+      "apr": {
+        "avgTemp": 63.4,
+        "highTemp": 76.7,
+        "lowTemp": 50.1,
+        "precip": 3
+      },
+      "may": {
+        "avgTemp": 72,
+        "highTemp": 83.8,
+        "lowTemp": 60.2,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 79.1,
+        "highTemp": 89.9,
+        "lowTemp": 68.2,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 82.4,
+        "highTemp": 93,
+        "lowTemp": 71.8,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 80.5,
+        "highTemp": 90.7,
+        "lowTemp": 70.3,
+        "precip": 5.1
+      },
+      "sep": {
+        "avgTemp": 75,
+        "highTemp": 85.5,
+        "lowTemp": 64.5,
+        "precip": 5.5
+      },
+      "oct": {
+        "avgTemp": 64.3,
+        "highTemp": 76.4,
+        "lowTemp": 52.2,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 53.9,
+        "highTemp": 66,
+        "lowTemp": 41.8,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 47.1,
+        "highTemp": 58.2,
+        "lowTemp": 36,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 63.7,
+      "highTemp": 75.1,
+      "lowTemp": 52.2,
+      "totalPrecip": 46.7,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

@@ -255,5 +255,93 @@
       6,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00165926",
+    "stationName": "MARRERO 9 SSW",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.5,
+        "highTemp": 61.9,
+        "lowTemp": 43,
+        "precip": 5.3
+      },
+      "feb": {
+        "avgTemp": 56.4,
+        "highTemp": 65.8,
+        "lowTemp": 47,
+        "precip": 4.2
+      },
+      "mar": {
+        "avgTemp": 62.4,
+        "highTemp": 72.2,
+        "lowTemp": 52.6,
+        "precip": 5.2
+      },
+      "apr": {
+        "avgTemp": 67.9,
+        "highTemp": 77.5,
+        "lowTemp": 58.4,
+        "precip": 5.3
+      },
+      "may": {
+        "avgTemp": 74.9,
+        "highTemp": 84.1,
+        "lowTemp": 65.7,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 80.1,
+        "highTemp": 88.5,
+        "lowTemp": 71.7,
+        "precip": 7.2
+      },
+      "jul": {
+        "avgTemp": 81.8,
+        "highTemp": 89.9,
+        "lowTemp": 73.8,
+        "precip": 7.5
+      },
+      "aug": {
+        "avgTemp": 81.6,
+        "highTemp": 89.7,
+        "lowTemp": 73.6,
+        "precip": 6.9
+      },
+      "sep": {
+        "avgTemp": 78.3,
+        "highTemp": 86.5,
+        "lowTemp": 70.2,
+        "precip": 6.3
+      },
+      "oct": {
+        "avgTemp": 69.8,
+        "highTemp": 79,
+        "lowTemp": 60.5,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 60.4,
+        "highTemp": 70,
+        "lowTemp": 50.8,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 54.7,
+        "highTemp": 63.8,
+        "lowTemp": 45.5,
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "avgTemp": 68.4,
+      "highTemp": 77.4,
+      "lowTemp": 59.4,
+      "totalPrecip": 66.1,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

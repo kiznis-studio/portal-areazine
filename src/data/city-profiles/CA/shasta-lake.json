@@ -239,5 +239,93 @@
       6.5,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USC00048135",
+    "stationName": "SHASTA DAM",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.8,
+        "highTemp": 55,
+        "lowTemp": 40.5,
+        "precip": 10.5
+      },
+      "feb": {
+        "avgTemp": 50.2,
+        "highTemp": 58.7,
+        "lowTemp": 41.7,
+        "precip": 11.4
+      },
+      "mar": {
+        "avgTemp": 53.6,
+        "highTemp": 63.4,
+        "lowTemp": 43.9,
+        "precip": 9.2
+      },
+      "apr": {
+        "avgTemp": 58.6,
+        "highTemp": 69.6,
+        "lowTemp": 47.6,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 67.1,
+        "highTemp": 78.9,
+        "lowTemp": 55.4,
+        "precip": 2.9
+      },
+      "jun": {
+        "avgTemp": 75.6,
+        "highTemp": 88.2,
+        "lowTemp": 63,
+        "precip": 1.5
+      },
+      "jul": {
+        "avgTemp": 83,
+        "highTemp": 97,
+        "lowTemp": 69,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 81.8,
+        "highTemp": 96,
+        "lowTemp": 67.7,
+        "precip": 0.2
+      },
+      "sep": {
+        "avgTemp": 76.6,
+        "highTemp": 90.3,
+        "lowTemp": 63,
+        "precip": 0.5
+      },
+      "oct": {
+        "avgTemp": 66.2,
+        "highTemp": 77.6,
+        "lowTemp": 54.8,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 54.2,
+        "highTemp": 62.4,
+        "lowTemp": 46,
+        "precip": 6.6
+      },
+      "dec": {
+        "avgTemp": 47.4,
+        "highTemp": 54.2,
+        "lowTemp": 40.6,
+        "precip": 12
+      }
+    },
+    "annual": {
+      "avgTemp": 63.5,
+      "highTemp": 74.3,
+      "lowTemp": 52.8,
+      "totalPrecip": 62.9,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

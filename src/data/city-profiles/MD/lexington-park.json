@@ -216,5 +216,93 @@
       3.5,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USW00013721",
+    "stationName": "PATUXENT RIVER NAS 72404",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.4,
+        "highTemp": 45.4,
+        "lowTemp": 29.5,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 39.1,
+        "highTemp": 47.5,
+        "lowTemp": 30.8,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 46.1,
+        "highTemp": 55,
+        "lowTemp": 37.2,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 56.6,
+        "highTemp": 66,
+        "lowTemp": 47.1,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 65.9,
+        "highTemp": 74.6,
+        "lowTemp": 57.3,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 74.7,
+        "highTemp": 83.2,
+        "lowTemp": 66.2,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 79.1,
+        "highTemp": 87.3,
+        "lowTemp": 70.9,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 77.3,
+        "highTemp": 85.3,
+        "lowTemp": 69.4,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 71.2,
+        "highTemp": 79.3,
+        "lowTemp": 63.2,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 60.3,
+        "highTemp": 69,
+        "lowTemp": 51.6,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 49.7,
+        "highTemp": 58.2,
+        "lowTemp": 41.2,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 41.6,
+        "highTemp": 49.6,
+        "lowTemp": 33.6,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 58.3,
+      "highTemp": 66.7,
+      "lowTemp": 49.8,
+      "totalPrecip": 45.4,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

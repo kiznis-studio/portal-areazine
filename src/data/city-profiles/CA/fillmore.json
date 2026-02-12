@@ -263,5 +263,52 @@
       5.3,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00046940",
+    "stationName": "PIRU 2 ESE",
+    "distanceMi": 9.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 4.7
+      },
+      "mar": {
+        "precip": 2.8
+      },
+      "apr": {
+        "precip": 1
+      },
+      "may": {
+        "precip": 0.4
+      },
+      "jun": {
+        "precip": 0
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {},
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 0.7
+      },
+      "nov": {
+        "precip": 1.1
+      },
+      "dec": {
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,54 @@
       3,
       3
     ]
+  },
+  "climate": {
+    "station": "USC00471578",
+    "stationName": "CHIPPEWA FALLS",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.1
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 4.1
+      },
+      "jun": {
+        "precip": 4.9
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

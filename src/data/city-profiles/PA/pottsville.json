@@ -169,5 +169,93 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00365344",
+    "stationName": "MAHANOY CITY 2 N",
+    "distanceMi": 10.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25,
+        "highTemp": 32.5,
+        "lowTemp": 17.6,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 26.3,
+        "highTemp": 34.8,
+        "lowTemp": 17.8,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 34.4,
+        "highTemp": 43.8,
+        "lowTemp": 24.9,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 47,
+        "highTemp": 57.4,
+        "lowTemp": 36.6,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 57,
+        "highTemp": 67.4,
+        "lowTemp": 46.5,
+        "precip": 4.7
+      },
+      "jun": {
+        "avgTemp": 65.9,
+        "highTemp": 75.9,
+        "lowTemp": 55.9,
+        "precip": 5.1
+      },
+      "jul": {
+        "avgTemp": 70.4,
+        "highTemp": 80.2,
+        "lowTemp": 60.6,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 68.1,
+        "highTemp": 77.9,
+        "lowTemp": 58.3,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 62,
+        "highTemp": 72.1,
+        "lowTemp": 52,
+        "precip": 5.2
+      },
+      "oct": {
+        "avgTemp": 50.8,
+        "highTemp": 60.3,
+        "lowTemp": 41.3,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 39.2,
+        "highTemp": 47.7,
+        "lowTemp": 30.6,
+        "precip": 4.1
+      },
+      "dec": {
+        "avgTemp": 29.9,
+        "highTemp": 37,
+        "lowTemp": 22.8,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 48,
+      "highTemp": 57.3,
+      "lowTemp": 38.7,
+      "totalPrecip": 53.7,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

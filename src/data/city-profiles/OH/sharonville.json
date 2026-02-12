@@ -287,5 +287,93 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "USW00053855",
+    "stationName": "HAMILTON BUTLER CO RGNL AP",
+    "distanceMi": 8.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.7,
+        "highTemp": 39.9,
+        "lowTemp": 21.5,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 33.6,
+        "highTemp": 43.7,
+        "lowTemp": 23.4,
+        "precip": 2.4
+      },
+      "mar": {
+        "avgTemp": 42.8,
+        "highTemp": 53.9,
+        "lowTemp": 31.8,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 54.1,
+        "highTemp": 66.6,
+        "lowTemp": 41.6,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 63.6,
+        "highTemp": 75.4,
+        "lowTemp": 51.8,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 71.9,
+        "highTemp": 83.2,
+        "lowTemp": 60.5,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 75.5,
+        "highTemp": 86.8,
+        "lowTemp": 64.3,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 74.1,
+        "highTemp": 85.9,
+        "lowTemp": 62.4,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 66.7,
+        "highTemp": 79.6,
+        "lowTemp": 53.8,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 54.8,
+        "highTemp": 67.7,
+        "lowTemp": 41.9,
+        "precip": 3.2
+      },
+      "nov": {
+        "avgTemp": 43.2,
+        "highTemp": 54.7,
+        "lowTemp": 31.7,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 34.6,
+        "highTemp": 43.6,
+        "lowTemp": 25.7,
+        "precip": 3.3
+      }
+    },
+    "annual": {
+      "avgTemp": 53.8,
+      "highTemp": 65.1,
+      "lowTemp": 42.5,
+      "totalPrecip": 41.5,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -247,5 +247,93 @@
       5.2,
       5
     ]
+  },
+  "climate": {
+    "station": "USW00053960",
+    "stationName": "LAFAYETTE 13 SE 74760",
+    "distanceMi": 7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.1,
+        "highTemp": 61.6,
+        "lowTemp": 42.5,
+        "precip": 5.6
+      },
+      "feb": {
+        "avgTemp": 56.1,
+        "highTemp": 65.4,
+        "lowTemp": 46.7,
+        "precip": 4.4
+      },
+      "mar": {
+        "avgTemp": 61.8,
+        "highTemp": 71.5,
+        "lowTemp": 52,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 67.3,
+        "highTemp": 77.3,
+        "lowTemp": 57.3,
+        "precip": 5.3
+      },
+      "may": {
+        "avgTemp": 74.6,
+        "highTemp": 84.1,
+        "lowTemp": 65.1,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 79.6,
+        "highTemp": 88.5,
+        "lowTemp": 70.8,
+        "precip": 8.1
+      },
+      "jul": {
+        "avgTemp": 81.2,
+        "highTemp": 89.7,
+        "lowTemp": 72.8,
+        "precip": 6.6
+      },
+      "aug": {
+        "avgTemp": 81.3,
+        "highTemp": 90.1,
+        "lowTemp": 72.6,
+        "precip": 6.9
+      },
+      "sep": {
+        "avgTemp": 77.5,
+        "highTemp": 86.8,
+        "lowTemp": 68.1,
+        "precip": 5.9
+      },
+      "oct": {
+        "avgTemp": 68.8,
+        "highTemp": 79.8,
+        "lowTemp": 57.9,
+        "precip": 5.1
+      },
+      "nov": {
+        "avgTemp": 59.4,
+        "highTemp": 70.4,
+        "lowTemp": 48.4,
+        "precip": 4.5
+      },
+      "dec": {
+        "avgTemp": 54,
+        "highTemp": 63.8,
+        "lowTemp": 44.2,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 67.8,
+      "highTemp": 77.4,
+      "lowTemp": 58.2,
+      "totalPrecip": 67,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

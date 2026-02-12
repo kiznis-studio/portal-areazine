@@ -239,5 +239,54 @@
       5.9,
       5.6
     ]
+  },
+  "climate": {
+    "station": "US1CASZ0028",
+    "stationName": "SOQUEL 0.8 NE",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.1
+      },
+      "feb": {
+        "precip": 5.3
+      },
+      "mar": {
+        "precip": 5.1
+      },
+      "apr": {
+        "precip": 2.3
+      },
+      "may": {
+        "precip": 0.7
+      },
+      "jun": {
+        "precip": 0.2
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.1
+      },
+      "oct": {
+        "precip": 1.1
+      },
+      "nov": {
+        "precip": 2.3
+      },
+      "dec": {
+        "precip": 6.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 29.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

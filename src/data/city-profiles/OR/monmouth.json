@@ -222,5 +222,54 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1ORPK0033",
+    "stationName": "MONMOUTH 0.9 SE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 2.8
+      },
+      "jun": {
+        "precip": 1.4
+      },
+      "jul": {
+        "precip": 0.3
+      },
+      "aug": {
+        "precip": 0.6
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 6.3
+      },
+      "dec": {
+        "precip": 6.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 42,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

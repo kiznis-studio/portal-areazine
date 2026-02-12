@@ -231,5 +231,93 @@
       8.2,
       8.7
     ]
+  },
+  "climate": {
+    "station": "USC00092266",
+    "stationName": "CORDELE",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.8,
+        "highTemp": 59.1,
+        "lowTemp": 36.5,
+        "precip": 4.7
+      },
+      "feb": {
+        "avgTemp": 51.4,
+        "highTemp": 63.3,
+        "lowTemp": 39.5,
+        "precip": 4.3
+      },
+      "mar": {
+        "avgTemp": 58.1,
+        "highTemp": 70.7,
+        "lowTemp": 45.6,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 65.7,
+        "highTemp": 78.4,
+        "lowTemp": 53,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 73.8,
+        "highTemp": 85.9,
+        "lowTemp": 61.7,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 80,
+        "highTemp": 90.8,
+        "lowTemp": 69.2,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 82.4,
+        "highTemp": 93,
+        "lowTemp": 71.7,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 81.3,
+        "highTemp": 91.6,
+        "lowTemp": 70.9,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 76.3,
+        "highTemp": 87,
+        "lowTemp": 65.6,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 66.6,
+        "highTemp": 78.6,
+        "lowTemp": 54.5,
+        "precip": 2.6
+      },
+      "nov": {
+        "avgTemp": 56.2,
+        "highTemp": 68.6,
+        "lowTemp": 43.8,
+        "precip": 3.2
+      },
+      "dec": {
+        "avgTemp": 49.7,
+        "highTemp": 60.7,
+        "lowTemp": 38.7,
+        "precip": 5
+      }
+    },
+    "annual": {
+      "avgTemp": 65.8,
+      "highTemp": 77.3,
+      "lowTemp": 54.2,
+      "totalPrecip": 50.1,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

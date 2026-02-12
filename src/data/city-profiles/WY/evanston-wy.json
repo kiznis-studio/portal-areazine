@@ -222,5 +222,93 @@
       3.4,
       3.5
     ]
+  },
+  "climate": {
+    "station": "USC00483100",
+    "stationName": "EVANSTON 1 E HCN",
+    "distanceMi": 0.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.8,
+        "highTemp": 32.6,
+        "lowTemp": 11.1,
+        "precip": 0.8
+      },
+      "feb": {
+        "avgTemp": 24,
+        "highTemp": 34.5,
+        "lowTemp": 13.4,
+        "precip": 0.6
+      },
+      "mar": {
+        "avgTemp": 32.6,
+        "highTemp": 44.1,
+        "lowTemp": 21.1,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 40.2,
+        "highTemp": 53.1,
+        "lowTemp": 27.2,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 48.9,
+        "highTemp": 63.1,
+        "lowTemp": 34.6,
+        "precip": 1.9
+      },
+      "jun": {
+        "avgTemp": 57.1,
+        "highTemp": 73.2,
+        "lowTemp": 40.9,
+        "precip": 1.1
+      },
+      "jul": {
+        "avgTemp": 64.4,
+        "highTemp": 81.2,
+        "lowTemp": 47.6,
+        "precip": 0.8
+      },
+      "aug": {
+        "avgTemp": 63.2,
+        "highTemp": 79.6,
+        "lowTemp": 46.7,
+        "precip": 1.1
+      },
+      "sep": {
+        "avgTemp": 54.7,
+        "highTemp": 70.7,
+        "lowTemp": 38.6,
+        "precip": 1.2
+      },
+      "oct": {
+        "avgTemp": 43.7,
+        "highTemp": 57.9,
+        "lowTemp": 29.5,
+        "precip": 1.2
+      },
+      "nov": {
+        "avgTemp": 31.2,
+        "highTemp": 43.3,
+        "lowTemp": 19.1,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 21.9,
+        "highTemp": 32.7,
+        "lowTemp": 11.1,
+        "precip": 0.7
+      }
+    },
+    "annual": {
+      "avgTemp": 42,
+      "highTemp": 55.5,
+      "lowTemp": 28.4,
+      "totalPrecip": 12.1,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

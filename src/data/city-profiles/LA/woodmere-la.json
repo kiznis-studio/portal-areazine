@@ -255,5 +255,54 @@
       6,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00163829",
+    "stationName": "GRETNA",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.4
+      },
+      "feb": {
+        "precip": 3.7
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 4.5
+      },
+      "may": {
+        "precip": 5.7
+      },
+      "jun": {
+        "precip": 8.8
+      },
+      "jul": {
+        "precip": 6.7
+      },
+      "aug": {
+        "precip": 6.3
+      },
+      "sep": {
+        "precip": 5.4
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 4.7
+      },
+      "dec": {
+        "precip": 4.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 63.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

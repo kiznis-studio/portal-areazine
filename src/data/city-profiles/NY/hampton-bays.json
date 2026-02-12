@@ -303,5 +303,93 @@
       4.8,
       4.6
     ]
+  },
+  "climate": {
+    "station": "USW00014719",
+    "stationName": "WESTHAMPTN GABRESKI AP",
+    "distanceMi": 6.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.4,
+        "highTemp": 38.7,
+        "lowTemp": 20,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 30.6,
+        "highTemp": 40.4,
+        "lowTemp": 20.9,
+        "precip": 2.7
+      },
+      "mar": {
+        "avgTemp": 37.2,
+        "highTemp": 46.8,
+        "lowTemp": 27.6,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 46.1,
+        "highTemp": 56.6,
+        "lowTemp": 35.6,
+        "precip": 3.8
+      },
+      "may": {
+        "avgTemp": 55.9,
+        "highTemp": 66.2,
+        "lowTemp": 45.6,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 65.6,
+        "highTemp": 75.4,
+        "lowTemp": 55.8,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 71.9,
+        "highTemp": 81.3,
+        "lowTemp": 62.5,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 80.3,
+        "lowTemp": 61.4,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 63.7,
+        "highTemp": 73.6,
+        "lowTemp": 53.9,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 52.9,
+        "highTemp": 63.4,
+        "lowTemp": 42.5,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 43.5,
+        "highTemp": 53.3,
+        "lowTemp": 33.7,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 35.2,
+        "highTemp": 44.5,
+        "lowTemp": 25.8,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 60,
+      "lowTemp": 40.4,
+      "totalPrecip": 43.6,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

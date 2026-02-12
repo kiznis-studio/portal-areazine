@@ -279,5 +279,54 @@
       4.2,
       4.3
     ]
+  },
+  "climate": {
+    "station": "US1TXTV0090",
+    "stationName": "WELLS BRANCH 0.5 NNW",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.6
+      },
+      "feb": {
+        "precip": 2.1
+      },
+      "mar": {
+        "precip": 3.1
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 3.9
+      },
+      "jul": {
+        "precip": 2.5
+      },
+      "aug": {
+        "precip": 2.8
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 37.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

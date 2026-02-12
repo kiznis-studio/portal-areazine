@@ -295,5 +295,54 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00308577",
+    "stationName": "SYOSSET",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.8
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 4.4
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 3.7
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3.7
+      },
+      "dec": {
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

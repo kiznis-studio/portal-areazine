@@ -222,5 +222,93 @@
       3.4,
       3.3
     ]
+  },
+  "climate": {
+    "station": "USC00472869",
+    "stationName": "FT ATKINSON",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 19.2,
+        "highTemp": 27.7,
+        "lowTemp": 10.7,
+        "precip": 1.5
+      },
+      "feb": {
+        "avgTemp": 22.7,
+        "highTemp": 31.6,
+        "lowTemp": 13.8,
+        "precip": 1.4
+      },
+      "mar": {
+        "avgTemp": 34.1,
+        "highTemp": 43.6,
+        "lowTemp": 24.7,
+        "precip": 2
+      },
+      "apr": {
+        "avgTemp": 46.6,
+        "highTemp": 56.9,
+        "lowTemp": 36.2,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 58.3,
+        "highTemp": 69.1,
+        "lowTemp": 47.5,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 68.3,
+        "highTemp": 79,
+        "lowTemp": 57.7,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 72.1,
+        "highTemp": 82.5,
+        "lowTemp": 61.7,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 70.1,
+        "highTemp": 80.6,
+        "lowTemp": 59.6,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 62.6,
+        "highTemp": 74,
+        "lowTemp": 51.2,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 50.3,
+        "highTemp": 60.9,
+        "lowTemp": 39.7,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 37.2,
+        "highTemp": 45.7,
+        "lowTemp": 28.6,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 25.5,
+        "highTemp": 33.2,
+        "lowTemp": 17.9,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 47.3,
+      "highTemp": 57.1,
+      "lowTemp": 37.4,
+      "totalPrecip": 35.5,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

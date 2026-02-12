@@ -231,5 +231,93 @@
       4.6,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00324418",
+    "stationName": "JAMESTOWN STATE HOSP HCN",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 9.4,
+        "highTemp": 18.4,
+        "lowTemp": 0.4,
+        "precip": 0.5
+      },
+      "feb": {
+        "avgTemp": 13.6,
+        "highTemp": 23,
+        "lowTemp": 4.2,
+        "precip": 0.5
+      },
+      "mar": {
+        "avgTemp": 26.3,
+        "highTemp": 35.9,
+        "lowTemp": 16.7,
+        "precip": 0.7
+      },
+      "apr": {
+        "avgTemp": 41,
+        "highTemp": 52.7,
+        "lowTemp": 29.4,
+        "precip": 1.2
+      },
+      "may": {
+        "avgTemp": 54.7,
+        "highTemp": 66.9,
+        "lowTemp": 42.5,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 65.2,
+        "highTemp": 76.5,
+        "lowTemp": 53.9,
+        "precip": 3.6
+      },
+      "jul": {
+        "avgTemp": 70.1,
+        "highTemp": 81.6,
+        "lowTemp": 58.5,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 68,
+        "highTemp": 80.3,
+        "lowTemp": 55.7,
+        "precip": 2.3
+      },
+      "sep": {
+        "avgTemp": 58.7,
+        "highTemp": 71.2,
+        "lowTemp": 46.2,
+        "precip": 2.2
+      },
+      "oct": {
+        "avgTemp": 44,
+        "highTemp": 54.8,
+        "lowTemp": 33.3,
+        "precip": 1.9
+      },
+      "nov": {
+        "avgTemp": 28.4,
+        "highTemp": 37.5,
+        "lowTemp": 19.3,
+        "precip": 0.5
+      },
+      "dec": {
+        "avgTemp": 15.6,
+        "highTemp": 23.6,
+        "lowTemp": 7.6,
+        "precip": 0.6
+      }
+    },
+    "annual": {
+      "avgTemp": 41.2,
+      "highTemp": 51.9,
+      "lowTemp": 30.6,
+      "totalPrecip": 21,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

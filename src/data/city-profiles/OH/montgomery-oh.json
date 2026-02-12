@@ -287,5 +287,81 @@
       5,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00335268",
+    "stationName": "MILFORD",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.4,
+        "highTemp": 39.3,
+        "lowTemp": 21.5
+      },
+      "feb": {
+        "avgTemp": 33.4,
+        "highTemp": 43.3,
+        "lowTemp": 23.5
+      },
+      "mar": {
+        "avgTemp": 42.3,
+        "highTemp": 53.7,
+        "lowTemp": 30.9
+      },
+      "apr": {
+        "avgTemp": 53.3,
+        "highTemp": 66,
+        "lowTemp": 40.7
+      },
+      "may": {
+        "avgTemp": 63.5,
+        "highTemp": 75.9,
+        "lowTemp": 51.2
+      },
+      "jun": {
+        "avgTemp": 72.3,
+        "highTemp": 83.8,
+        "lowTemp": 60.7
+      },
+      "jul": {
+        "avgTemp": 75.4,
+        "highTemp": 86.8,
+        "lowTemp": 64
+      },
+      "aug": {
+        "avgTemp": 74.5,
+        "highTemp": 86.1,
+        "lowTemp": 63
+      },
+      "sep": {
+        "avgTemp": 67,
+        "highTemp": 79.5,
+        "lowTemp": 54.4
+      },
+      "oct": {
+        "avgTemp": 54.8,
+        "highTemp": 67.8,
+        "lowTemp": 41.9
+      },
+      "nov": {
+        "avgTemp": 44.1,
+        "highTemp": 54.8,
+        "lowTemp": 33.3
+      },
+      "dec": {
+        "avgTemp": 34.5,
+        "highTemp": 43.2,
+        "lowTemp": 25.7
+      }
+    },
+    "annual": {
+      "avgTemp": 53.8,
+      "highTemp": 65,
+      "lowTemp": 42.6,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -216,5 +216,54 @@
       3,
       3.3
     ]
+  },
+  "climate": {
+    "station": "US1MNSH0010",
+    "stationName": "BIG LAKE 5.6 NNE",
+    "distanceMi": 6.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.7
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 4.3
+      },
+      "sep": {
+        "precip": 3.4
+      },
+      "oct": {
+        "precip": 2.6
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 31.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

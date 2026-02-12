@@ -247,5 +247,93 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00281582",
+    "stationName": "CHARLOTTEBURG RSVR HCN",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.2,
+        "highTemp": 35.8,
+        "lowTemp": 18.7,
+        "precip": 4.1
+      },
+      "feb": {
+        "avgTemp": 29,
+        "highTemp": 38.6,
+        "lowTemp": 19.4,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 36.9,
+        "highTemp": 46.6,
+        "lowTemp": 27.2,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 48.2,
+        "highTemp": 58.9,
+        "lowTemp": 37.5,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 58.6,
+        "highTemp": 69.8,
+        "lowTemp": 47.5,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 67.3,
+        "highTemp": 77.8,
+        "lowTemp": 56.7,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 72.1,
+        "highTemp": 82.9,
+        "lowTemp": 61.4,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 70.4,
+        "highTemp": 81.3,
+        "lowTemp": 59.5,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 63.6,
+        "highTemp": 74.8,
+        "lowTemp": 52.4,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 52.1,
+        "highTemp": 62.9,
+        "lowTemp": 41.4,
+        "precip": 5
+      },
+      "nov": {
+        "avgTemp": 41.6,
+        "highTemp": 51.1,
+        "lowTemp": 32.2,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 32.9,
+        "highTemp": 40.8,
+        "lowTemp": 25,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 50,
+      "highTemp": 60.1,
+      "lowTemp": 39.9,
+      "totalPrecip": 52.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

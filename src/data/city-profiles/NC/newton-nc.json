@@ -239,5 +239,93 @@
       5.1,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00311578",
+    "stationName": "CATAWBA 5 SW",
+    "distanceMi": 5.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40.8,
+        "highTemp": 50.3,
+        "lowTemp": 31.3,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 43.9,
+        "highTemp": 54.3,
+        "lowTemp": 33.5,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 51.3,
+        "highTemp": 62.1,
+        "lowTemp": 40.5,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 60.2,
+        "highTemp": 71.4,
+        "lowTemp": 49,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 68.1,
+        "highTemp": 78.7,
+        "lowTemp": 57.5,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 75.5,
+        "highTemp": 85.6,
+        "lowTemp": 65.4,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 78.7,
+        "highTemp": 88.7,
+        "lowTemp": 68.7,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 77.2,
+        "highTemp": 87.1,
+        "lowTemp": 67.3,
+        "precip": 4.8
+      },
+      "sep": {
+        "avgTemp": 71.2,
+        "highTemp": 81.1,
+        "lowTemp": 61.2,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 61,
+        "highTemp": 72,
+        "lowTemp": 49.9,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 50.5,
+        "highTemp": 61.2,
+        "lowTemp": 39.7,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 43.4,
+        "highTemp": 52.8,
+        "lowTemp": 34.1,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 60.2,
+      "highTemp": 70.4,
+      "lowTemp": 49.8,
+      "totalPrecip": 46.7,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,54 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "US1ORPK0021",
+    "stationName": "DALLAS 0.3 NE",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 7.7
+      },
+      "feb": {
+        "precip": 5.7
+      },
+      "mar": {
+        "precip": 5.7
+      },
+      "apr": {
+        "precip": 4.1
+      },
+      "may": {
+        "precip": 2.5
+      },
+      "jun": {
+        "precip": 1.6
+      },
+      "jul": {
+        "precip": 0.3
+      },
+      "aug": {
+        "precip": 0.4
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 6.5
+      },
+      "dec": {
+        "precip": 9.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

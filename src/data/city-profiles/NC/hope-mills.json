@@ -239,5 +239,54 @@
       6.4,
       6.2
     ]
+  },
+  "climate": {
+    "station": "US1NCCM0058",
+    "stationName": "HOPE MILLS 0.6 ESE",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 3.5
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 4.9
+      },
+      "sep": {
+        "precip": 5.1
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 3.1
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 46.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       3.5,
       3.7
     ]
+  },
+  "climate": {
+    "station": "USC00104670",
+    "stationName": "JEROME HCN",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.7,
+        "highTemp": 35.5,
+        "lowTemp": 21.8,
+        "precip": 1.4
+      },
+      "feb": {
+        "avgTemp": 33,
+        "highTemp": 41.3,
+        "lowTemp": 24.8,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 41.2,
+        "highTemp": 51.8,
+        "lowTemp": 30.6,
+        "precip": 1.1
+      },
+      "apr": {
+        "avgTemp": 47.8,
+        "highTemp": 59.8,
+        "lowTemp": 35.8,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 57,
+        "highTemp": 69.6,
+        "lowTemp": 44.4,
+        "precip": 1.3
+      },
+      "jun": {
+        "avgTemp": 65.6,
+        "highTemp": 79.2,
+        "lowTemp": 51.9,
+        "precip": 0.6
+      },
+      "jul": {
+        "avgTemp": 74.8,
+        "highTemp": 90.1,
+        "lowTemp": 59.4,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 72.8,
+        "highTemp": 88.6,
+        "lowTemp": 57.1,
+        "precip": 0.3
+      },
+      "sep": {
+        "avgTemp": 63.2,
+        "highTemp": 78,
+        "lowTemp": 48.4,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 50.5,
+        "highTemp": 63.2,
+        "lowTemp": 37.8,
+        "precip": 0.9
+      },
+      "nov": {
+        "avgTemp": 37.8,
+        "highTemp": 47.3,
+        "lowTemp": 28.3,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 28.9,
+        "highTemp": 35.5,
+        "lowTemp": 22.2,
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "avgTemp": 50.1,
+      "highTemp": 61.7,
+      "lowTemp": 38.5,
+      "totalPrecip": 10.4,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

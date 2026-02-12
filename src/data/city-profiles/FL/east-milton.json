@@ -239,5 +239,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00053847",
+    "stationName": "WHITING FIELD NAS SOUTH",
+    "distanceMi": 6.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.2,
+        "highTemp": 64.6,
+        "lowTemp": 41.9,
+        "precip": 5.5
+      },
+      "feb": {
+        "avgTemp": 56.8,
+        "highTemp": 68.4,
+        "lowTemp": 45.2,
+        "precip": 4.9
+      },
+      "mar": {
+        "avgTemp": 62.5,
+        "highTemp": 74.3,
+        "lowTemp": 50.6,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 68.1,
+        "highTemp": 79.9,
+        "lowTemp": 56.2,
+        "precip": 5.9
+      },
+      "may": {
+        "avgTemp": 74.9,
+        "highTemp": 85.9,
+        "lowTemp": 63.9,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 81.6,
+        "highTemp": 91.5,
+        "lowTemp": 71.7,
+        "precip": 6.8
+      },
+      "jul": {
+        "avgTemp": 83.7,
+        "highTemp": 92.7,
+        "lowTemp": 74.7,
+        "precip": 7.6
+      },
+      "aug": {
+        "avgTemp": 83.1,
+        "highTemp": 92.6,
+        "lowTemp": 73.6,
+        "precip": 6.4
+      },
+      "sep": {
+        "avgTemp": 79.8,
+        "highTemp": 89.7,
+        "lowTemp": 69.8,
+        "precip": 6.5
+      },
+      "oct": {
+        "avgTemp": 70.6,
+        "highTemp": 82.6,
+        "lowTemp": 58.6,
+        "precip": 3.9
+      },
+      "nov": {
+        "avgTemp": 61,
+        "highTemp": 73.4,
+        "lowTemp": 48.5,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 55.5,
+        "highTemp": 66.4,
+        "lowTemp": 44.5,
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "avgTemp": 69.2,
+      "highTemp": 80.2,
+      "lowTemp": 58.3,
+      "totalPrecip": 66.5,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

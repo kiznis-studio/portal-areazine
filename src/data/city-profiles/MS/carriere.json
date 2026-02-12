@@ -231,5 +231,54 @@
       5.6,
       5.7
     ]
+  },
+  "climate": {
+    "station": "US1MSPR0001",
+    "stationName": "CARRIERE 3.2 SSW",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6
+      },
+      "feb": {
+        "precip": 4.5
+      },
+      "mar": {
+        "precip": 5.5
+      },
+      "apr": {
+        "precip": 5.7
+      },
+      "may": {
+        "precip": 5.2
+      },
+      "jun": {
+        "precip": 6.7
+      },
+      "jul": {
+        "precip": 6.1
+      },
+      "aug": {
+        "precip": 6.6
+      },
+      "sep": {
+        "precip": 5
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 64.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

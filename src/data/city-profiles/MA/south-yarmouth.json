@@ -239,5 +239,54 @@
       4.4,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1MABA0001",
+    "stationName": "YARMOUTH 2.3 SSE",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.5
+      },
+      "feb": {
+        "precip": 3.9
+      },
+      "mar": {
+        "precip": 5.2
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 3.4
+      },
+      "jun": {
+        "precip": 3.4
+      },
+      "jul": {
+        "precip": 3.4
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4.6
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,81 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00046960",
+    "stationName": "PLACERVILLE",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 45.6,
+        "highTemp": 56.9,
+        "lowTemp": 34.3
+      },
+      "feb": {
+        "avgTemp": 48.2,
+        "highTemp": 59.6,
+        "lowTemp": 36.8
+      },
+      "mar": {
+        "avgTemp": 51.5,
+        "highTemp": 62.9,
+        "lowTemp": 40
+      },
+      "apr": {
+        "avgTemp": 54.7,
+        "highTemp": 67.4,
+        "lowTemp": 42
+      },
+      "may": {
+        "avgTemp": 62.2,
+        "highTemp": 76.1,
+        "lowTemp": 48.4
+      },
+      "jun": {
+        "avgTemp": 70.1,
+        "highTemp": 85.7,
+        "lowTemp": 54.6
+      },
+      "jul": {
+        "avgTemp": 77.4,
+        "highTemp": 94.1,
+        "lowTemp": 60.7
+      },
+      "aug": {
+        "avgTemp": 76.2,
+        "highTemp": 93,
+        "lowTemp": 59.4
+      },
+      "sep": {
+        "avgTemp": 71.9,
+        "highTemp": 87.8,
+        "lowTemp": 56.1
+      },
+      "oct": {
+        "avgTemp": 62.6,
+        "highTemp": 77.2,
+        "lowTemp": 47.9
+      },
+      "nov": {
+        "avgTemp": 52.1,
+        "highTemp": 64.5,
+        "lowTemp": 39.6
+      },
+      "dec": {
+        "avgTemp": 45,
+        "highTemp": 56,
+        "lowTemp": 34
+      }
+    },
+    "annual": {
+      "avgTemp": 59.8,
+      "highTemp": 73.4,
+      "lowTemp": 46.2,
+      "totalPrecip": 0,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

@@ -216,5 +216,54 @@
       4.5,
       4.1
     ]
+  },
+  "climate": {
+    "station": "USC00120132",
+    "stationName": "ALPINE 2 NE",
+    "distanceMi": 4.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 5.3
+      },
+      "jul": {
+        "precip": 4.3
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 3.2
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

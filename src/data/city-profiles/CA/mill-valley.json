@@ -247,5 +247,54 @@
       5.8,
       6.1
     ]
+  },
+  "climate": {
+    "station": "USC00046027",
+    "stationName": "MUIR WOODS",
+    "distanceMi": 1.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.6
+      },
+      "feb": {
+        "precip": 6.8
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 2.3
+      },
+      "may": {
+        "precip": 1.4
+      },
+      "jun": {
+        "precip": 0.5
+      },
+      "jul": {
+        "precip": 0
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 1.7
+      },
+      "nov": {
+        "precip": 4.2
+      },
+      "dec": {
+        "precip": 7.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 36.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

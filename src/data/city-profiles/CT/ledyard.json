@@ -136,5 +136,93 @@
     "burglaryRate": 132.2,
     "larcenyRate": 1185,
     "motorVehicleTheftRate": 198.5
+  },
+  "climate": {
+    "station": "USC00063207",
+    "stationName": "GROTON HCN",
+    "distanceMi": 6.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.3,
+        "highTemp": 38.8,
+        "lowTemp": 23.8,
+        "precip": 3.9
+      },
+      "feb": {
+        "avgTemp": 32.9,
+        "highTemp": 40.8,
+        "lowTemp": 24.9,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 39.5,
+        "highTemp": 47.3,
+        "lowTemp": 31.6,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 48.9,
+        "highTemp": 56.9,
+        "lowTemp": 40.9,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 58.1,
+        "highTemp": 66.4,
+        "lowTemp": 49.9,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 67.3,
+        "highTemp": 75.2,
+        "lowTemp": 59.3,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 73.4,
+        "highTemp": 80.8,
+        "lowTemp": 65.9,
+        "precip": 3.4
+      },
+      "aug": {
+        "avgTemp": 72.5,
+        "highTemp": 79.8,
+        "lowTemp": 65.1,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 65.8,
+        "highTemp": 73.6,
+        "lowTemp": 58,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 63.3,
+        "lowTemp": 47.1,
+        "precip": 4.4
+      },
+      "nov": {
+        "avgTemp": 45.5,
+        "highTemp": 53.2,
+        "lowTemp": 37.9,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 36.8,
+        "highTemp": 44.1,
+        "lowTemp": 29.5,
+        "precip": 4.6
+      }
+    },
+    "annual": {
+      "avgTemp": 52.3,
+      "highTemp": 60,
+      "lowTemp": 44.5,
+      "totalPrecip": 48.9,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

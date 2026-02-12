@@ -303,5 +303,54 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1ILCK0285",
+    "stationName": "HARWOOD HEIGHTS 0.4 NNE",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.3
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 4.9
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 5.1
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 41.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

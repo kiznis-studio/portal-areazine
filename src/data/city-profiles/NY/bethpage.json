@@ -295,5 +295,93 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USW00054787",
+    "stationName": "FARMINGDALE AP",
+    "distanceMi": 3.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32,
+        "highTemp": 38.9,
+        "lowTemp": 25.1,
+        "precip": 2.7
+      },
+      "feb": {
+        "avgTemp": 33.9,
+        "highTemp": 41.3,
+        "lowTemp": 26.4,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 40.4,
+        "highTemp": 48.1,
+        "lowTemp": 32.7,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 50.2,
+        "highTemp": 58.4,
+        "lowTemp": 41.9,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 59.7,
+        "highTemp": 68.1,
+        "lowTemp": 51.4,
+        "precip": 3.2
+      },
+      "jun": {
+        "avgTemp": 69.1,
+        "highTemp": 77.2,
+        "lowTemp": 61.1,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 75.3,
+        "highTemp": 82.8,
+        "lowTemp": 67.8,
+        "precip": 3.1
+      },
+      "aug": {
+        "avgTemp": 74.1,
+        "highTemp": 81.5,
+        "lowTemp": 66.7,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 67.2,
+        "highTemp": 74.8,
+        "lowTemp": 59.6,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 56.1,
+        "highTemp": 63.9,
+        "lowTemp": 48.3,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 53.4,
+        "lowTemp": 38.4,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 37.5,
+        "highTemp": 44.2,
+        "lowTemp": 30.8,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 53.4,
+      "highTemp": 61.1,
+      "lowTemp": 45.8,
+      "totalPrecip": 38.5,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

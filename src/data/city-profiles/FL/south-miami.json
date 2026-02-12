@@ -303,5 +303,54 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1FLMD0030",
+    "stationName": "SOUTH MIAMI 0.5 N",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 2.3
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 5.7
+      },
+      "jun": {
+        "precip": 9.3
+      },
+      "jul": {
+        "precip": 7.5
+      },
+      "aug": {
+        "precip": 9.6
+      },
+      "sep": {
+        "precip": 10.1
+      },
+      "oct": {
+        "precip": 7.6
+      },
+      "nov": {
+        "precip": 3.7
+      },
+      "dec": {
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 66.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

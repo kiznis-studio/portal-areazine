@@ -239,5 +239,93 @@
       6.8,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00080369",
+    "stationName": "AVON PARK 2 W",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 61.1,
+        "highTemp": 73,
+        "lowTemp": 49.2,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 64.2,
+        "highTemp": 76.4,
+        "lowTemp": 52,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 67.7,
+        "highTemp": 80,
+        "lowTemp": 55.4,
+        "precip": 2.6
+      },
+      "apr": {
+        "avgTemp": 72.6,
+        "highTemp": 84.7,
+        "lowTemp": 60.5,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 77.8,
+        "highTemp": 89.4,
+        "lowTemp": 66.1,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 81.3,
+        "highTemp": 91.4,
+        "lowTemp": 71.3,
+        "precip": 9.2
+      },
+      "jul": {
+        "avgTemp": 82.4,
+        "highTemp": 91.8,
+        "lowTemp": 73,
+        "precip": 7.4
+      },
+      "aug": {
+        "avgTemp": 82.8,
+        "highTemp": 92.3,
+        "lowTemp": 73.3,
+        "precip": 7.6
+      },
+      "sep": {
+        "avgTemp": 81.2,
+        "highTemp": 90.2,
+        "lowTemp": 72.3,
+        "precip": 7.5
+      },
+      "oct": {
+        "avgTemp": 76.1,
+        "highTemp": 86.1,
+        "lowTemp": 66.2,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 68.9,
+        "highTemp": 79.7,
+        "lowTemp": 58.1,
+        "precip": 2.2
+      },
+      "dec": {
+        "avgTemp": 64.2,
+        "highTemp": 75.4,
+        "lowTemp": 53,
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "avgTemp": 73.4,
+      "highTemp": 84.2,
+      "lowTemp": 62.5,
+      "totalPrecip": 52.8,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

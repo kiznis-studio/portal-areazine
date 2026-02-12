@@ -287,5 +287,93 @@
       5.4,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00010764",
+    "stationName": "BESSEMER 3 WSW",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.8,
+        "highTemp": 55.7,
+        "lowTemp": 33.8,
+        "precip": 5.4
+      },
+      "feb": {
+        "avgTemp": 48.8,
+        "highTemp": 60.6,
+        "lowTemp": 37,
+        "precip": 5.4
+      },
+      "mar": {
+        "avgTemp": 55.8,
+        "highTemp": 68.3,
+        "lowTemp": 43.3,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 63.1,
+        "highTemp": 76,
+        "lowTemp": 50.1,
+        "precip": 5.1
+      },
+      "may": {
+        "avgTemp": 71.2,
+        "highTemp": 83,
+        "lowTemp": 59.4,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 77.9,
+        "highTemp": 89.1,
+        "lowTemp": 66.7,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 81.2,
+        "highTemp": 91.8,
+        "lowTemp": 70.5,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 80.6,
+        "highTemp": 91.7,
+        "lowTemp": 69.6,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 75.4,
+        "highTemp": 87.1,
+        "lowTemp": 63.8,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 64.8,
+        "highTemp": 77.1,
+        "lowTemp": 52.6,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 53.8,
+        "highTemp": 66,
+        "lowTemp": 41.5,
+        "precip": 4.5
+      },
+      "dec": {
+        "avgTemp": 47.3,
+        "highTemp": 57.9,
+        "lowTemp": 36.7,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 63.7,
+      "highTemp": 75.4,
+      "lowTemp": 52.1,
+      "totalPrecip": 55.7,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

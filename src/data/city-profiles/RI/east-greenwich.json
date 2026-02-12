@@ -231,5 +231,54 @@
       4.6,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1RIKN0002",
+    "stationName": "EAST GREENWICH 2.3 ESE",
+    "distanceMi": 2.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 3.5
+      },
+      "mar": {
+        "precip": 5.3
+      },
+      "apr": {
+        "precip": 4.7
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.3
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.2
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 5
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

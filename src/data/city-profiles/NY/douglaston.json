@@ -271,5 +271,54 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "US1NYNS0042",
+    "stationName": "ALBERTSON 0.2 SSE",
+    "distanceMi": 5.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 3.2
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.7
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "totalPrecip": 49.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

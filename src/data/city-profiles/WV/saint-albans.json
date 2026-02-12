@@ -231,5 +231,81 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00467852",
+    "stationName": "SAINT ALBANS",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.4,
+        "highTemp": 41.7,
+        "lowTemp": 23
+      },
+      "feb": {
+        "avgTemp": 35.1,
+        "highTemp": 45.8,
+        "lowTemp": 24.4
+      },
+      "mar": {
+        "avgTemp": 43.5,
+        "highTemp": 55.7,
+        "lowTemp": 31.2
+      },
+      "apr": {
+        "avgTemp": 54.5,
+        "highTemp": 68,
+        "lowTemp": 41
+      },
+      "may": {
+        "avgTemp": 63.6,
+        "highTemp": 75.4,
+        "lowTemp": 51.7
+      },
+      "jun": {
+        "avgTemp": 71.2,
+        "highTemp": 82.1,
+        "lowTemp": 60.2
+      },
+      "jul": {
+        "avgTemp": 75.3,
+        "highTemp": 85.6,
+        "lowTemp": 65
+      },
+      "aug": {
+        "avgTemp": 74.1,
+        "highTemp": 85.1,
+        "lowTemp": 63
+      },
+      "sep": {
+        "avgTemp": 67.6,
+        "highTemp": 79.1,
+        "lowTemp": 56.1
+      },
+      "oct": {
+        "avgTemp": 54.9,
+        "highTemp": 67.2,
+        "lowTemp": 42.6
+      },
+      "nov": {
+        "avgTemp": 43.9,
+        "highTemp": 55.4,
+        "lowTemp": 32.3
+      },
+      "dec": {
+        "avgTemp": 36.3,
+        "highTemp": 45.1,
+        "lowTemp": 27.4
+      }
+    },
+    "annual": {
+      "avgTemp": 54.4,
+      "highTemp": 65.5,
+      "lowTemp": 43.2,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

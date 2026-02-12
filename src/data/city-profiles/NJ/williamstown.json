@@ -216,5 +216,54 @@
       5.2,
       5.1
     ]
+  },
+  "climate": {
+    "station": "US1NJCN0005",
+    "stationName": "WINSLOW TWP 3.5 W",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 3.6
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4.9
+      },
+      "sep": {
+        "precip": 4.3
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,54 @@
       2.2,
       2.1
     ]
+  },
+  "climate": {
+    "station": "US1MNWR0025",
+    "stationName": "SAINT MICHAEL 2.0 ENE",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.7
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 1.6
+      },
+      "apr": {
+        "precip": 3
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 3.2
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 31.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

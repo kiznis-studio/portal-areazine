@@ -239,5 +239,54 @@
       6.4,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USC00313168",
+    "stationName": "FT BRAGG WTP",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 2.9
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.2
+      },
+      "may": {
+        "precip": 3.1
+      },
+      "jun": {
+        "precip": 5.5
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 5
+      },
+      "sep": {
+        "precip": 5.3
+      },
+      "oct": {
+        "precip": 3
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

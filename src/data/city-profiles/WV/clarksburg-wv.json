@@ -239,5 +239,93 @@
       5.3,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00461677",
+    "stationName": "CLARKSBURG 1",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.7,
+        "highTemp": 39.7,
+        "lowTemp": 21.7,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 33.3,
+        "highTemp": 43.2,
+        "lowTemp": 23.4,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 41,
+        "highTemp": 52.2,
+        "lowTemp": 29.7,
+        "precip": 4.2
+      },
+      "apr": {
+        "avgTemp": 52.3,
+        "highTemp": 65.4,
+        "lowTemp": 39.1,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 62.2,
+        "highTemp": 74.7,
+        "lowTemp": 49.6,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 70.3,
+        "highTemp": 82.1,
+        "lowTemp": 58.5,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 74,
+        "highTemp": 85.1,
+        "lowTemp": 63,
+        "precip": 5.3
+      },
+      "aug": {
+        "avgTemp": 72.6,
+        "highTemp": 83.6,
+        "lowTemp": 61.7,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 65.9,
+        "highTemp": 77.4,
+        "lowTemp": 54.5,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 53.9,
+        "highTemp": 65.6,
+        "lowTemp": 42.1,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 42.6,
+        "highTemp": 53.4,
+        "lowTemp": 31.9,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 35.3,
+        "highTemp": 44,
+        "lowTemp": 26.6,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 52.8,
+      "highTemp": 63.9,
+      "lowTemp": 41.8,
+      "totalPrecip": 48.3,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

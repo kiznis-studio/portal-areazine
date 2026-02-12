@@ -231,5 +231,54 @@
       3.7,
       3.8
     ]
+  },
+  "climate": {
+    "station": "US1MDHR0004",
+    "stationName": "HAVRE DE GRACE 4.0 WNW",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 4.4
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 4.4
+      },
+      "aug": {
+        "precip": 4.5
+      },
+      "sep": {
+        "precip": 4.7
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 3.4
+      },
+      "dec": {
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       8.8,
       9.9
     ]
+  },
+  "climate": {
+    "station": "USC00160537",
+    "stationName": "BASTROP HCN",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 43.8,
+        "highTemp": 53.8,
+        "lowTemp": 33.9,
+        "precip": 5.7
+      },
+      "feb": {
+        "avgTemp": 47.5,
+        "highTemp": 58.2,
+        "lowTemp": 36.8,
+        "precip": 4.9
+      },
+      "mar": {
+        "avgTemp": 55.2,
+        "highTemp": 66.9,
+        "lowTemp": 43.6,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 62.9,
+        "highTemp": 74.3,
+        "lowTemp": 51.5,
+        "precip": 6.1
+      },
+      "may": {
+        "avgTemp": 71,
+        "highTemp": 81,
+        "lowTemp": 61,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 78.4,
+        "highTemp": 88,
+        "lowTemp": 68.7,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 81.1,
+        "highTemp": 90.6,
+        "lowTemp": 71.5,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 80.5,
+        "highTemp": 90.6,
+        "lowTemp": 70.3,
+        "precip": 4.7
+      },
+      "sep": {
+        "avgTemp": 75.2,
+        "highTemp": 86.3,
+        "lowTemp": 64.1,
+        "precip": 3.4
+      },
+      "oct": {
+        "avgTemp": 64.2,
+        "highTemp": 76.2,
+        "lowTemp": 52.3,
+        "precip": 5.1
+      },
+      "nov": {
+        "avgTemp": 53.3,
+        "highTemp": 64.4,
+        "lowTemp": 42.1,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 46.2,
+        "highTemp": 56.2,
+        "lowTemp": 36.3,
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "avgTemp": 63.3,
+      "highTemp": 73.9,
+      "lowTemp": 52.7,
+      "totalPrecip": 58.3,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

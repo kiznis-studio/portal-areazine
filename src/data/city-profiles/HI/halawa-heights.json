@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1HIHN0014",
+    "stationName": "AIEA 0.7 ENE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.8
+      },
+      "feb": {
+        "precip": 4.2
+      },
+      "mar": {
+        "precip": 6.1
+      },
+      "apr": {
+        "precip": 4.2
+      },
+      "may": {
+        "precip": 2.7
+      },
+      "jun": {
+        "precip": 2.8
+      },
+      "jul": {
+        "precip": 4.2
+      },
+      "aug": {
+        "precip": 3.2
+      },
+      "sep": {
+        "precip": 4.4
+      },
+      "oct": {
+        "precip": 5.2
+      },
+      "nov": {
+        "precip": 4.8
+      },
+      "dec": {
+        "precip": 6.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

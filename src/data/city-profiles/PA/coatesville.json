@@ -169,5 +169,93 @@
       4,
       3.8
     ]
+  },
+  "climate": {
+    "station": "USC00361591",
+    "stationName": "COATESVILLE 2 W",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.2,
+        "highTemp": 38.5,
+        "lowTemp": 21.9,
+        "precip": 4.1
+      },
+      "feb": {
+        "avgTemp": 32.4,
+        "highTemp": 41.5,
+        "lowTemp": 23.2,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 40.4,
+        "highTemp": 50.3,
+        "lowTemp": 30.5,
+        "precip": 4.8
+      },
+      "apr": {
+        "avgTemp": 51.4,
+        "highTemp": 62.7,
+        "lowTemp": 40.1,
+        "precip": 4.1
+      },
+      "may": {
+        "avgTemp": 61.5,
+        "highTemp": 72.8,
+        "lowTemp": 50.3,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 69.9,
+        "highTemp": 80.8,
+        "lowTemp": 59,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 75,
+        "highTemp": 85.4,
+        "lowTemp": 64.6,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 73.1,
+        "highTemp": 83.4,
+        "lowTemp": 62.8,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 66.1,
+        "highTemp": 76.5,
+        "lowTemp": 55.7,
+        "precip": 5.2
+      },
+      "oct": {
+        "avgTemp": 54.3,
+        "highTemp": 64.9,
+        "lowTemp": 43.6,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 43.8,
+        "highTemp": 53.6,
+        "lowTemp": 34,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 35,
+        "highTemp": 43.1,
+        "lowTemp": 26.9,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 52.8,
+      "highTemp": 62.8,
+      "lowTemp": 42.7,
+      "totalPrecip": 52.2,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

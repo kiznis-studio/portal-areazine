@@ -239,5 +239,93 @@
       7.2,
       7.1
     ]
+  },
+  "climate": {
+    "station": "USC00458207",
+    "stationName": "SUNNYSIDE HCN",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.3,
+        "highTemp": 37.6,
+        "lowTemp": 23,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 34.9,
+        "highTemp": 45.4,
+        "lowTemp": 24.3,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 42.5,
+        "highTemp": 55.4,
+        "lowTemp": 29.7,
+        "precip": 0.5
+      },
+      "apr": {
+        "avgTemp": 49.4,
+        "highTemp": 63.3,
+        "lowTemp": 35.6,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 58.2,
+        "highTemp": 72.8,
+        "lowTemp": 43.7,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 64.2,
+        "highTemp": 79.2,
+        "lowTemp": 49.1,
+        "precip": 0.6
+      },
+      "jul": {
+        "avgTemp": 71.3,
+        "highTemp": 88.2,
+        "lowTemp": 54.4,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 69.4,
+        "highTemp": 86.5,
+        "lowTemp": 52.2,
+        "precip": 0.3
+      },
+      "sep": {
+        "avgTemp": 61.1,
+        "highTemp": 77.7,
+        "lowTemp": 44.5,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 49.4,
+        "highTemp": 63.6,
+        "lowTemp": 35.2,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 37.8,
+        "highTemp": 48.3,
+        "lowTemp": 27.4,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 29.7,
+        "highTemp": 37.1,
+        "lowTemp": 22.4,
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "avgTemp": 49.9,
+      "highTemp": 62.9,
+      "lowTemp": 36.8,
+      "totalPrecip": 7.8,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

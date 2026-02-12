@@ -231,5 +231,93 @@
       7.9,
       7.6
     ]
+  },
+  "climate": {
+    "station": "USC00048702",
+    "stationName": "SUSANVILLE 2SW HCN",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.5,
+        "highTemp": 42.7,
+        "lowTemp": 22.3,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 36.6,
+        "highTemp": 47.6,
+        "lowTemp": 25.6,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 41.9,
+        "highTemp": 54.2,
+        "lowTemp": 29.6,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 47.1,
+        "highTemp": 60.5,
+        "lowTemp": 33.8,
+        "precip": 0.5
+      },
+      "may": {
+        "avgTemp": 54.8,
+        "highTemp": 69.3,
+        "lowTemp": 40.2,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 62.9,
+        "highTemp": 78.9,
+        "lowTemp": 47,
+        "precip": 0.4
+      },
+      "jul": {
+        "avgTemp": 70.6,
+        "highTemp": 88,
+        "lowTemp": 53.1,
+        "precip": 0.2
+      },
+      "aug": {
+        "avgTemp": 69.3,
+        "highTemp": 86.6,
+        "lowTemp": 52,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 62.7,
+        "highTemp": 80,
+        "lowTemp": 45.3,
+        "precip": 0.2
+      },
+      "oct": {
+        "avgTemp": 51.5,
+        "highTemp": 67,
+        "lowTemp": 35.9,
+        "precip": 1
+      },
+      "nov": {
+        "avgTemp": 40,
+        "highTemp": 51.9,
+        "lowTemp": 28.1,
+        "precip": 1.5
+      },
+      "dec": {
+        "avgTemp": 32.4,
+        "highTemp": 42.6,
+        "lowTemp": 22.3,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 50.2,
+      "highTemp": 64.1,
+      "lowTemp": 36.3,
+      "totalPrecip": 13,
+      "hotMonths": 1,
+      "coldMonths": 3
+    }
   }
 }

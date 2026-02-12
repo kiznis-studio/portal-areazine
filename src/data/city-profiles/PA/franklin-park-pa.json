@@ -225,5 +225,93 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00362574",
+    "stationName": "EMSWORTH L/D OHIO RVR",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 29.9,
+        "highTemp": 39.3,
+        "lowTemp": 20.5,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 31.7,
+        "highTemp": 41.7,
+        "lowTemp": 21.7,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 40.3,
+        "highTemp": 51.2,
+        "lowTemp": 29.3,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 51.5,
+        "highTemp": 64,
+        "lowTemp": 39.1,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 61.6,
+        "highTemp": 73.7,
+        "lowTemp": 49.5,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 70,
+        "highTemp": 81.2,
+        "lowTemp": 58.9,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 74.5,
+        "highTemp": 85.4,
+        "lowTemp": 63.6,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 72.9,
+        "highTemp": 84.1,
+        "lowTemp": 61.7,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 66.4,
+        "highTemp": 78,
+        "lowTemp": 54.7,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 54.7,
+        "highTemp": 65.8,
+        "lowTemp": 43.7,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 43.5,
+        "highTemp": 53.8,
+        "lowTemp": 33.1,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 34.5,
+        "highTemp": 43.1,
+        "lowTemp": 25.9,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 52.6,
+      "highTemp": 63.4,
+      "lowTemp": 41.8,
+      "totalPrecip": 38.3,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

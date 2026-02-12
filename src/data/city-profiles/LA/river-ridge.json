@@ -255,5 +255,93 @@
       6,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USW00012916",
+    "stationName": "NEW ORLEANS INTL AP GSN 72231",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.3,
+        "highTemp": 62.5,
+        "lowTemp": 46.1,
+        "precip": 5.2
+      },
+      "feb": {
+        "avgTemp": 58,
+        "highTemp": 66.4,
+        "lowTemp": 49.7,
+        "precip": 4.1
+      },
+      "mar": {
+        "avgTemp": 63.8,
+        "highTemp": 72.3,
+        "lowTemp": 55.3,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 70.1,
+        "highTemp": 78.5,
+        "lowTemp": 61.7,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 77.1,
+        "highTemp": 85.3,
+        "lowTemp": 69,
+        "precip": 5.6
+      },
+      "jun": {
+        "avgTemp": 82.4,
+        "highTemp": 90,
+        "lowTemp": 74.7,
+        "precip": 7.6
+      },
+      "jul": {
+        "avgTemp": 83.9,
+        "highTemp": 91.4,
+        "lowTemp": 76.5,
+        "precip": 6.8
+      },
+      "aug": {
+        "avgTemp": 84,
+        "highTemp": 91.3,
+        "lowTemp": 76.6,
+        "precip": 6.9
+      },
+      "sep": {
+        "avgTemp": 80.8,
+        "highTemp": 88.1,
+        "lowTemp": 73.5,
+        "precip": 5.1
+      },
+      "oct": {
+        "avgTemp": 72.5,
+        "highTemp": 80.6,
+        "lowTemp": 64.3,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 62.4,
+        "highTemp": 71.2,
+        "lowTemp": 53.7,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 56.6,
+        "highTemp": 64.8,
+        "lowTemp": 48.4,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 70.5,
+      "highTemp": 78.5,
+      "lowTemp": 62.5,
+      "totalPrecip": 63.3,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

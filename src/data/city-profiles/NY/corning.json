@@ -239,5 +239,93 @@
       6.3,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00301787",
+    "stationName": "CORNING",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 20.8,
+        "highTemp": 29.5,
+        "lowTemp": 12.2,
+        "precip": 2.3
+      },
+      "feb": {
+        "avgTemp": 22.7,
+        "highTemp": 32.6,
+        "lowTemp": 12.8,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 30.5,
+        "highTemp": 41.5,
+        "lowTemp": 19.6,
+        "precip": 3
+      },
+      "apr": {
+        "avgTemp": 42.9,
+        "highTemp": 55.2,
+        "lowTemp": 30.5,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 54.6,
+        "highTemp": 67.6,
+        "lowTemp": 41.6,
+        "precip": 3.1
+      },
+      "jun": {
+        "avgTemp": 62.8,
+        "highTemp": 74.9,
+        "lowTemp": 50.6,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 67.1,
+        "highTemp": 79.1,
+        "lowTemp": 55.1,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 65.6,
+        "highTemp": 77.2,
+        "lowTemp": 54,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 58.4,
+        "highTemp": 70.1,
+        "lowTemp": 46.7,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 46.9,
+        "highTemp": 57.7,
+        "lowTemp": 36.2,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 35.8,
+        "highTemp": 44.9,
+        "lowTemp": 26.6,
+        "precip": 2.9
+      },
+      "dec": {
+        "avgTemp": 26.7,
+        "highTemp": 34.2,
+        "lowTemp": 19.2,
+        "precip": 2.7
+      }
+    },
+    "annual": {
+      "avgTemp": 44.6,
+      "highTemp": 55.4,
+      "lowTemp": 33.8,
+      "totalPrecip": 38.9,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

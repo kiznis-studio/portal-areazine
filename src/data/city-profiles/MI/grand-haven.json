@@ -231,5 +231,93 @@
       3.8,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00203295",
+    "stationName": "GRAND HAVEN WWTP",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.5,
+        "highTemp": 31.7,
+        "lowTemp": 19.3,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 26.4,
+        "highTemp": 33.2,
+        "lowTemp": 19.5,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 34,
+        "highTemp": 42.4,
+        "lowTemp": 25.5,
+        "precip": 2.3
+      },
+      "apr": {
+        "avgTemp": 45.3,
+        "highTemp": 54.7,
+        "lowTemp": 35.8,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 57,
+        "highTemp": 67.1,
+        "lowTemp": 46.9,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 66.7,
+        "highTemp": 76.4,
+        "lowTemp": 56.9,
+        "precip": 3.5
+      },
+      "jul": {
+        "avgTemp": 71,
+        "highTemp": 80,
+        "lowTemp": 61.9,
+        "precip": 3.6
+      },
+      "aug": {
+        "avgTemp": 69.4,
+        "highTemp": 78.9,
+        "lowTemp": 59.8,
+        "precip": 3.1
+      },
+      "sep": {
+        "avgTemp": 62.7,
+        "highTemp": 72.9,
+        "lowTemp": 52.5,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 51.3,
+        "highTemp": 60,
+        "lowTemp": 42.5,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 39.8,
+        "highTemp": 46.7,
+        "lowTemp": 32.8,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 30.9,
+        "highTemp": 36.5,
+        "lowTemp": 25.2,
+        "precip": 2.4
+      }
+    },
+    "annual": {
+      "avgTemp": 48.3,
+      "highTemp": 56.7,
+      "lowTemp": 39.9,
+      "totalPrecip": 37.6,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

@@ -239,5 +239,93 @@
       5.6,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00417677",
+    "stationName": "ROBSTOWN",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.2,
+        "highTemp": 67.5,
+        "lowTemp": 46.9,
+        "precip": 1.5
+      },
+      "feb": {
+        "avgTemp": 61.4,
+        "highTemp": 72,
+        "lowTemp": 50.8,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 67.2,
+        "highTemp": 77.4,
+        "lowTemp": 57.1,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 73.3,
+        "highTemp": 83,
+        "lowTemp": 63.7,
+        "precip": 1.7
+      },
+      "may": {
+        "avgTemp": 79.2,
+        "highTemp": 88.3,
+        "lowTemp": 70.1,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 84,
+        "highTemp": 93.3,
+        "lowTemp": 74.6,
+        "precip": 3
+      },
+      "jul": {
+        "avgTemp": 85.3,
+        "highTemp": 94.8,
+        "lowTemp": 75.7,
+        "precip": 2.8
+      },
+      "aug": {
+        "avgTemp": 86.2,
+        "highTemp": 96.3,
+        "lowTemp": 76,
+        "precip": 3
+      },
+      "sep": {
+        "avgTemp": 82.1,
+        "highTemp": 91.9,
+        "lowTemp": 72.4,
+        "precip": 5
+      },
+      "oct": {
+        "avgTemp": 75.2,
+        "highTemp": 85.9,
+        "lowTemp": 64.5,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 66.3,
+        "highTemp": 76.7,
+        "lowTemp": 56,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 59.4,
+        "highTemp": 69.8,
+        "lowTemp": 48.9,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 73.1,
+      "highTemp": 83.1,
+      "lowTemp": 63.1,
+      "totalPrecip": 31.1,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

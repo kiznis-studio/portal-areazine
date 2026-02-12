@@ -303,5 +303,54 @@
       7.6,
       7.4
     ]
+  },
+  "climate": {
+    "station": "USC00261071",
+    "stationName": "BOULDER CITY HCN",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.6
+      },
+      "feb": {
+        "precip": 0.9
+      },
+      "mar": {
+        "precip": 0.6
+      },
+      "apr": {
+        "precip": 0.2
+      },
+      "may": {
+        "precip": 0.1
+      },
+      "jun": {
+        "precip": 0.1
+      },
+      "jul": {
+        "precip": 0.3
+      },
+      "aug": {
+        "precip": 0.6
+      },
+      "sep": {
+        "precip": 0.2
+      },
+      "oct": {
+        "precip": 0.4
+      },
+      "nov": {
+        "precip": 0.5
+      },
+      "dec": {
+        "precip": 0.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 4.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

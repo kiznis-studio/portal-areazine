@@ -239,5 +239,93 @@
       5.6,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00348677",
+    "stationName": "TAHLEQUAH HCN",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.4,
+        "highTemp": 51.4,
+        "lowTemp": 27.5,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 43.8,
+        "highTemp": 55.9,
+        "lowTemp": 31.6,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 52.5,
+        "highTemp": 65.4,
+        "lowTemp": 39.6,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 61.2,
+        "highTemp": 73.9,
+        "lowTemp": 48.4,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 68.6,
+        "highTemp": 80,
+        "lowTemp": 57.2,
+        "precip": 6.3
+      },
+      "jun": {
+        "avgTemp": 76.8,
+        "highTemp": 88.3,
+        "lowTemp": 65.3,
+        "precip": 5.5
+      },
+      "jul": {
+        "avgTemp": 81.1,
+        "highTemp": 93,
+        "lowTemp": 69.1,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 79.8,
+        "highTemp": 92,
+        "lowTemp": 67.6,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 73,
+        "highTemp": 85.2,
+        "lowTemp": 60.9,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 62.2,
+        "highTemp": 75.1,
+        "lowTemp": 49.4,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 50.9,
+        "highTemp": 62.9,
+        "lowTemp": 38.9,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 41.9,
+        "highTemp": 53.4,
+        "lowTemp": 30.5,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 60.9,
+      "highTemp": 73,
+      "lowTemp": 48.8,
+      "totalPrecip": 51,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

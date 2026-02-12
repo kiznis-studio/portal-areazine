@@ -247,5 +247,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00408445",
+    "stationName": "SODDY DAISY-MOWBRAY MTN",
+    "distanceMi": 4.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38,
+        "highTemp": 47.7,
+        "lowTemp": 28.4,
+        "precip": 6.3
+      },
+      "feb": {
+        "avgTemp": 41.4,
+        "highTemp": 51.4,
+        "lowTemp": 31.3,
+        "precip": 5
+      },
+      "mar": {
+        "avgTemp": 49.2,
+        "highTemp": 60.5,
+        "lowTemp": 37.8,
+        "precip": 5.8
+      },
+      "apr": {
+        "avgTemp": 58.6,
+        "highTemp": 70.6,
+        "lowTemp": 46.6,
+        "precip": 5.8
+      },
+      "may": {
+        "avgTemp": 66.2,
+        "highTemp": 77.8,
+        "lowTemp": 54.6,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 73,
+        "highTemp": 84.6,
+        "lowTemp": 61.5,
+        "precip": 5.3
+      },
+      "jul": {
+        "avgTemp": 76.7,
+        "highTemp": 87.9,
+        "lowTemp": 65.5,
+        "precip": 4.9
+      },
+      "aug": {
+        "avgTemp": 75.6,
+        "highTemp": 86.8,
+        "lowTemp": 64.4,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 69.3,
+        "highTemp": 81.3,
+        "lowTemp": 57.3,
+        "precip": 5
+      },
+      "oct": {
+        "avgTemp": 58.5,
+        "highTemp": 70.3,
+        "lowTemp": 46.8,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 48.5,
+        "highTemp": 58.9,
+        "lowTemp": 38,
+        "precip": 5.1
+      },
+      "dec": {
+        "avgTemp": 41.2,
+        "highTemp": 50.1,
+        "lowTemp": 32.2,
+        "precip": 6.8
+      }
+    },
+    "annual": {
+      "avgTemp": 58,
+      "highTemp": 69,
+      "lowTemp": 47,
+      "totalPrecip": 63.1,
+      "hotMonths": 3,
+      "coldMonths": 1
+    }
   }
 }

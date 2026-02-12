@@ -231,5 +231,54 @@
       2.4,
       2.4
     ]
+  },
+  "climate": {
+    "station": "US1UTCH0025",
+    "stationName": "HYDE PARK 1.0 SSW",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.7
+      },
+      "feb": {
+        "precip": 1.5
+      },
+      "mar": {
+        "precip": 1.8
+      },
+      "apr": {
+        "precip": 2.6
+      },
+      "may": {
+        "precip": 1.9
+      },
+      "jun": {
+        "precip": 1.3
+      },
+      "jul": {
+        "precip": 0.5
+      },
+      "aug": {
+        "precip": 0.7
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 1.8
+      },
+      "nov": {
+        "precip": 1.4
+      },
+      "dec": {
+        "precip": 1.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 18.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

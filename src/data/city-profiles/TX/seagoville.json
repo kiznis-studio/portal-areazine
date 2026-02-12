@@ -303,5 +303,93 @@
       4.9,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00413133",
+    "stationName": "FERRIS",
+    "distanceMi": 10.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 46.5,
+        "highTemp": 57.5,
+        "lowTemp": 35.6,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 50.3,
+        "highTemp": 61.7,
+        "lowTemp": 38.8,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 57.2,
+        "highTemp": 69,
+        "lowTemp": 45.4,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 65,
+        "highTemp": 76.6,
+        "lowTemp": 53.3,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 73.5,
+        "highTemp": 83.8,
+        "lowTemp": 63.2,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 81.1,
+        "highTemp": 91.5,
+        "lowTemp": 70.7,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 84.7,
+        "highTemp": 95.9,
+        "lowTemp": 73.5,
+        "precip": 2
+      },
+      "aug": {
+        "avgTemp": 84.9,
+        "highTemp": 96.5,
+        "lowTemp": 73.3,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 78.1,
+        "highTemp": 90,
+        "lowTemp": 66.2,
+        "precip": 2.7
+      },
+      "oct": {
+        "avgTemp": 67.2,
+        "highTemp": 79.5,
+        "lowTemp": 55,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 55.9,
+        "highTemp": 67.2,
+        "lowTemp": 44.6,
+        "precip": 2.8
+      },
+      "dec": {
+        "avgTemp": 47.8,
+        "highTemp": 58.7,
+        "lowTemp": 36.8,
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "avgTemp": 66,
+      "highTemp": 77.3,
+      "lowTemp": 54.7,
+      "totalPrecip": 41,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

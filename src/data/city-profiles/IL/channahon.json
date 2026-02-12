@@ -247,5 +247,54 @@
       5,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1ILGY0010",
+    "stationName": "MINOOKA 0.3 NE",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.2
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.5
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 4.7
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 3.5
+      },
+      "oct": {
+        "precip": 3.5
+      },
+      "nov": {
+        "precip": 2.8
+      },
+      "dec": {
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

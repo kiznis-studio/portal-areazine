@@ -239,5 +239,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00238746",
+    "stationName": "WASHINGTON",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.1,
+        "highTemp": 39.9,
+        "lowTemp": 20.2,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 34.4,
+        "highTemp": 45.4,
+        "lowTemp": 23.4,
+        "precip": 2.5
+      },
+      "mar": {
+        "avgTemp": 44,
+        "highTemp": 55.8,
+        "lowTemp": 32.1,
+        "precip": 3.7
+      },
+      "apr": {
+        "avgTemp": 55.1,
+        "highTemp": 67.3,
+        "lowTemp": 42.8,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 65,
+        "highTemp": 75.8,
+        "lowTemp": 54.2,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 73.7,
+        "highTemp": 83.8,
+        "lowTemp": 63.6,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 77.6,
+        "highTemp": 88.3,
+        "lowTemp": 67,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 75.9,
+        "highTemp": 86.9,
+        "lowTemp": 64.9,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 67.7,
+        "highTemp": 79.5,
+        "lowTemp": 55.9,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 56.3,
+        "highTemp": 68.9,
+        "lowTemp": 43.6,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 44,
+        "highTemp": 55.3,
+        "lowTemp": 32.8,
+        "precip": 3.7
+      },
+      "dec": {
+        "avgTemp": 34.4,
+        "highTemp": 44.5,
+        "lowTemp": 24.3,
+        "precip": 2.6
+      }
+    },
+    "annual": {
+      "avgTemp": 54.9,
+      "highTemp": 66,
+      "lowTemp": 43.7,
+      "totalPrecip": 44.2,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

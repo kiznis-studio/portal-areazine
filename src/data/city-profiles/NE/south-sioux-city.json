@@ -216,5 +216,54 @@
       3,
       4.3
     ]
+  },
+  "climate": {
+    "station": "USC00137713",
+    "stationName": "SIOUX CITY PERRY CREEK",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.8
+      },
+      "feb": {
+        "precip": 1
+      },
+      "mar": {
+        "precip": 1.9
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 3.8
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 2.4
+      },
+      "nov": {
+        "precip": 1.5
+      },
+      "dec": {
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 32.3,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

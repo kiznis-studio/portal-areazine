@@ -231,5 +231,93 @@
       2.8,
       2.1
     ]
+  },
+  "climate": {
+    "station": "USC00123513",
+    "stationName": "GREENCASTLE 1 W HCN",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.6,
+        "highTemp": 34.4,
+        "lowTemp": 16.9,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 29.5,
+        "highTemp": 39.2,
+        "lowTemp": 19.7,
+        "precip": 2.6
+      },
+      "mar": {
+        "avgTemp": 39.5,
+        "highTemp": 50.3,
+        "lowTemp": 28.6,
+        "precip": 3.5
+      },
+      "apr": {
+        "avgTemp": 50.4,
+        "highTemp": 62.2,
+        "lowTemp": 38.5,
+        "precip": 4.7
+      },
+      "may": {
+        "avgTemp": 60.6,
+        "highTemp": 72,
+        "lowTemp": 49.1,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 69.3,
+        "highTemp": 80.4,
+        "lowTemp": 58.2,
+        "precip": 5.4
+      },
+      "jul": {
+        "avgTemp": 72.2,
+        "highTemp": 83.2,
+        "lowTemp": 61.2,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 70.8,
+        "highTemp": 82.2,
+        "lowTemp": 59.4,
+        "precip": 3.4
+      },
+      "sep": {
+        "avgTemp": 64.4,
+        "highTemp": 76.9,
+        "lowTemp": 52,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 52.8,
+        "highTemp": 64.8,
+        "lowTemp": 40.8,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 40.6,
+        "highTemp": 51,
+        "lowTemp": 30.2,
+        "precip": 3.6
+      },
+      "dec": {
+        "avgTemp": 30.8,
+        "highTemp": 39.4,
+        "lowTemp": 22.2,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 50.5,
+      "highTemp": 61.3,
+      "lowTemp": 39.7,
+      "totalPrecip": 46.3,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

@@ -216,5 +216,93 @@
       3.8,
       3
     ]
+  },
+  "climate": {
+    "station": "USC00150254",
+    "stationName": "ASHLAND HCN",
+    "distanceMi": 6.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.2,
+        "highTemp": 39.8,
+        "lowTemp": 22.5,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 34.3,
+        "highTemp": 44.4,
+        "lowTemp": 24.3,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 42.7,
+        "highTemp": 53.9,
+        "lowTemp": 31.5,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 53.9,
+        "highTemp": 66.6,
+        "lowTemp": 41.1,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 62.9,
+        "highTemp": 74.7,
+        "lowTemp": 51.2,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 71.5,
+        "highTemp": 82.5,
+        "lowTemp": 60.6,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 75,
+        "highTemp": 85.4,
+        "lowTemp": 64.6,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 73.6,
+        "highTemp": 84.3,
+        "lowTemp": 62.8,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 66.9,
+        "highTemp": 78.2,
+        "lowTemp": 55.6,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 54.7,
+        "highTemp": 66.6,
+        "lowTemp": 42.7,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 43.2,
+        "highTemp": 54,
+        "lowTemp": 32.3,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 35.5,
+        "highTemp": 43.9,
+        "lowTemp": 27,
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "avgTemp": 53.8,
+      "highTemp": 64.5,
+      "lowTemp": 43,
+      "totalPrecip": 46.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

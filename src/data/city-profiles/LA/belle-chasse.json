@@ -216,5 +216,93 @@
       4.1,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USW00012958",
+    "stationName": "NEW ORLEANS ALVIN CALLENDER FL",
+    "distanceMi": 3.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.7,
+        "highTemp": 62.4,
+        "lowTemp": 43,
+        "precip": 5.1
+      },
+      "feb": {
+        "avgTemp": 56.2,
+        "highTemp": 66.3,
+        "lowTemp": 46.2,
+        "precip": 3.9
+      },
+      "mar": {
+        "avgTemp": 61.6,
+        "highTemp": 71.4,
+        "lowTemp": 51.8,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 67.5,
+        "highTemp": 77.3,
+        "lowTemp": 57.6,
+        "precip": 5.2
+      },
+      "may": {
+        "avgTemp": 74.5,
+        "highTemp": 83.8,
+        "lowTemp": 65.3,
+        "precip": 5.4
+      },
+      "jun": {
+        "avgTemp": 79.8,
+        "highTemp": 88.5,
+        "lowTemp": 71.2,
+        "precip": 6.9
+      },
+      "jul": {
+        "avgTemp": 81.2,
+        "highTemp": 89.9,
+        "lowTemp": 72.5,
+        "precip": 8.1
+      },
+      "aug": {
+        "avgTemp": 81.6,
+        "highTemp": 89.9,
+        "lowTemp": 73.3,
+        "precip": 6.1
+      },
+      "sep": {
+        "avgTemp": 78.5,
+        "highTemp": 86.8,
+        "lowTemp": 70.3,
+        "precip": 6.8
+      },
+      "oct": {
+        "avgTemp": 70.1,
+        "highTemp": 79.8,
+        "lowTemp": 60.4,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 60,
+        "highTemp": 70.6,
+        "lowTemp": 49.4,
+        "precip": 3.9
+      },
+      "dec": {
+        "avgTemp": 54.5,
+        "highTemp": 64.1,
+        "lowTemp": 44.9,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 68.2,
+      "highTemp": 77.6,
+      "lowTemp": 58.8,
+      "totalPrecip": 64.1,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

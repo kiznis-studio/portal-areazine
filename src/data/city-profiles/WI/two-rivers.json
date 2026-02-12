@@ -231,5 +231,54 @@
       2,
       2.1
     ]
+  },
+  "climate": {
+    "station": "US1WIMC0012",
+    "stationName": "TWO RIVERS 0.9 SE",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.7
+      },
+      "feb": {
+        "precip": 1.2
+      },
+      "mar": {
+        "precip": 1.8
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 3
+      },
+      "jun": {
+        "precip": 3.9
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 3.3
+      },
+      "sep": {
+        "precip": 2.6
+      },
+      "oct": {
+        "precip": 2.5
+      },
+      "nov": {
+        "precip": 2.4
+      },
+      "dec": {
+        "precip": 2.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 31.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -231,5 +231,93 @@
       6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00315838",
+    "stationName": "MORGANTON HCN",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 38.7,
+        "highTemp": 49.4,
+        "lowTemp": 27.9,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 41.8,
+        "highTemp": 53.4,
+        "lowTemp": 30.3,
+        "precip": 3.7
+      },
+      "mar": {
+        "avgTemp": 48.7,
+        "highTemp": 60.8,
+        "lowTemp": 36.6,
+        "precip": 4.4
+      },
+      "apr": {
+        "avgTemp": 57.7,
+        "highTemp": 70.6,
+        "lowTemp": 44.9,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 65.8,
+        "highTemp": 77.9,
+        "lowTemp": 53.7,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 73.3,
+        "highTemp": 84.5,
+        "lowTemp": 62.2,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 76.9,
+        "highTemp": 87.7,
+        "lowTemp": 66,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 75.4,
+        "highTemp": 85.9,
+        "lowTemp": 64.9,
+        "precip": 4.8
+      },
+      "sep": {
+        "avgTemp": 69.3,
+        "highTemp": 80,
+        "lowTemp": 58.5,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 58.5,
+        "highTemp": 70.9,
+        "lowTemp": 46.2,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 47.9,
+        "highTemp": 60.6,
+        "lowTemp": 35.2,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 41.1,
+        "highTemp": 51.8,
+        "lowTemp": 30.3,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 57.9,
+      "highTemp": 69.5,
+      "lowTemp": 46.4,
+      "totalPrecip": 51.7,
+      "hotMonths": 3,
+      "coldMonths": 1
+    }
   }
 }

@@ -231,5 +231,93 @@
       6.3,
       5.6
     ]
+  },
+  "climate": {
+    "station": "USC00354622",
+    "stationName": "LA GRANDE",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.9,
+        "highTemp": 39.3,
+        "lowTemp": 24.6,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 35.4,
+        "highTemp": 44,
+        "lowTemp": 26.8,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 41.1,
+        "highTemp": 51.6,
+        "lowTemp": 30.6,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 47,
+        "highTemp": 58.7,
+        "lowTemp": 35.2,
+        "precip": 1.8
+      },
+      "may": {
+        "avgTemp": 55.2,
+        "highTemp": 67.8,
+        "lowTemp": 42.5,
+        "precip": 2.2
+      },
+      "jun": {
+        "avgTemp": 61.8,
+        "highTemp": 74.9,
+        "lowTemp": 48.7,
+        "precip": 1.4
+      },
+      "jul": {
+        "avgTemp": 70.3,
+        "highTemp": 86.2,
+        "lowTemp": 54.5,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 69.9,
+        "highTemp": 87,
+        "lowTemp": 52.8,
+        "precip": 0.7
+      },
+      "sep": {
+        "avgTemp": 61,
+        "highTemp": 77.3,
+        "lowTemp": 44.8,
+        "precip": 0.7
+      },
+      "oct": {
+        "avgTemp": 49,
+        "highTemp": 62.4,
+        "lowTemp": 35.6,
+        "precip": 1.6
+      },
+      "nov": {
+        "avgTemp": 38.8,
+        "highTemp": 47.7,
+        "lowTemp": 30,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 31.5,
+        "highTemp": 38.7,
+        "lowTemp": 24.4,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 49.4,
+      "highTemp": 61.3,
+      "lowTemp": 37.5,
+      "totalPrecip": 17.4,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

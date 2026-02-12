@@ -222,5 +222,93 @@
       4.6,
       3.6
     ]
+  },
+  "climate": {
+    "station": "USC00034562",
+    "stationName": "MALVERN",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 40.6,
+        "highTemp": 51.8,
+        "lowTemp": 29.4,
+        "precip": 4.2
+      },
+      "feb": {
+        "avgTemp": 44.1,
+        "highTemp": 56.1,
+        "lowTemp": 32.2,
+        "precip": 4.6
+      },
+      "mar": {
+        "avgTemp": 52.5,
+        "highTemp": 65,
+        "lowTemp": 40,
+        "precip": 5.6
+      },
+      "apr": {
+        "avgTemp": 60.9,
+        "highTemp": 73.7,
+        "lowTemp": 48.1,
+        "precip": 6.1
+      },
+      "may": {
+        "avgTemp": 69.6,
+        "highTemp": 80.6,
+        "lowTemp": 58.6,
+        "precip": 5.5
+      },
+      "jun": {
+        "avgTemp": 77.3,
+        "highTemp": 88.1,
+        "lowTemp": 66.5,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 80.9,
+        "highTemp": 91.9,
+        "lowTemp": 70,
+        "precip": 4.2
+      },
+      "aug": {
+        "avgTemp": 80,
+        "highTemp": 91.6,
+        "lowTemp": 68.4,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 73.9,
+        "highTemp": 85.7,
+        "lowTemp": 62.1,
+        "precip": 4
+      },
+      "oct": {
+        "avgTemp": 62.5,
+        "highTemp": 74.8,
+        "lowTemp": 50.2,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 50.6,
+        "highTemp": 62.1,
+        "lowTemp": 39,
+        "precip": 5
+      },
+      "dec": {
+        "avgTemp": 42.9,
+        "highTemp": 53.7,
+        "lowTemp": 32.1,
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "avgTemp": 61.3,
+      "highTemp": 72.9,
+      "lowTemp": 49.7,
+      "totalPrecip": 57.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

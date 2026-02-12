@@ -222,5 +222,93 @@
       5.7,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00412786",
+    "stationName": "EL CAMPO",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 53.7,
+        "highTemp": 64.9,
+        "lowTemp": 42.4,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 57.3,
+        "highTemp": 68.3,
+        "lowTemp": 46.2,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 64.1,
+        "highTemp": 75.5,
+        "lowTemp": 52.6,
+        "precip": 2.8
+      },
+      "apr": {
+        "avgTemp": 70.2,
+        "highTemp": 81.5,
+        "lowTemp": 59,
+        "precip": 3.1
+      },
+      "may": {
+        "avgTemp": 77.2,
+        "highTemp": 87.6,
+        "lowTemp": 66.7,
+        "precip": 4.8
+      },
+      "jun": {
+        "avgTemp": 82.4,
+        "highTemp": 92.2,
+        "lowTemp": 72.6,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 84.9,
+        "highTemp": 95.3,
+        "lowTemp": 74.5,
+        "precip": 4.3
+      },
+      "aug": {
+        "avgTemp": 85.1,
+        "highTemp": 96.1,
+        "lowTemp": 74.1,
+        "precip": 3.9
+      },
+      "sep": {
+        "avgTemp": 81.3,
+        "highTemp": 92.6,
+        "lowTemp": 70,
+        "precip": 5.7
+      },
+      "oct": {
+        "avgTemp": 72.8,
+        "highTemp": 85.4,
+        "lowTemp": 60.3,
+        "precip": 5.6
+      },
+      "nov": {
+        "avgTemp": 63.2,
+        "highTemp": 75,
+        "lowTemp": 51.4,
+        "precip": 5.7
+      },
+      "dec": {
+        "avgTemp": 55.9,
+        "highTemp": 67,
+        "lowTemp": 44.7,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 70.7,
+      "highTemp": 81.8,
+      "lowTemp": 59.5,
+      "totalPrecip": 49.6,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

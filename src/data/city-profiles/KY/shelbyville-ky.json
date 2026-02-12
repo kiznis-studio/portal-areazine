@@ -144,5 +144,93 @@
       3.2,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USC00157324",
+    "stationName": "SHELBYVILLE 1 E HCN",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31,
+        "highTemp": 41.7,
+        "lowTemp": 20.3,
+        "precip": 4.2
+      },
+      "feb": {
+        "avgTemp": 34.2,
+        "highTemp": 47.1,
+        "lowTemp": 21.3,
+        "precip": 3.8
+      },
+      "mar": {
+        "avgTemp": 42.8,
+        "highTemp": 56.9,
+        "lowTemp": 28.7,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 52.7,
+        "highTemp": 67.8,
+        "lowTemp": 37.5,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 63.1,
+        "highTemp": 76.9,
+        "lowTemp": 49.3,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 71.8,
+        "highTemp": 85.3,
+        "lowTemp": 58.2,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 74.9,
+        "highTemp": 87.6,
+        "lowTemp": 62.3,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 72.7,
+        "highTemp": 87,
+        "lowTemp": 58.4,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 65.7,
+        "highTemp": 81,
+        "lowTemp": 50.3,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 54.9,
+        "highTemp": 69.3,
+        "lowTemp": 40.4,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 43.1,
+        "highTemp": 56.5,
+        "lowTemp": 29.6,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 34.9,
+        "highTemp": 45.7,
+        "lowTemp": 24.1,
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "avgTemp": 53.5,
+      "highTemp": 66.9,
+      "lowTemp": 40,
+      "totalPrecip": 49.9,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

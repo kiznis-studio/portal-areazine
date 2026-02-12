@@ -239,5 +239,54 @@
       4.9,
       4.7
     ]
+  },
+  "climate": {
+    "station": "US1COWE0203",
+    "stationName": "LONGMONT 8.2 ESE",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 0.4
+      },
+      "feb": {
+        "precip": 0.5
+      },
+      "mar": {
+        "precip": 1.2
+      },
+      "apr": {
+        "precip": 1.7
+      },
+      "may": {
+        "precip": 2.4
+      },
+      "jun": {
+        "precip": 1.4
+      },
+      "jul": {
+        "precip": 1.4
+      },
+      "aug": {
+        "precip": 1.2
+      },
+      "sep": {
+        "precip": 1.6
+      },
+      "oct": {
+        "precip": 1
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 0.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 14,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

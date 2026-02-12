@@ -247,5 +247,93 @@
       5.4,
       4.9
     ]
+  },
+  "climate": {
+    "station": "USC00076410",
+    "stationName": "NEWARK AG FARM HCN",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 33.8,
+        "highTemp": 42.5,
+        "lowTemp": 25.1,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 35.5,
+        "highTemp": 45.6,
+        "lowTemp": 25.4,
+        "precip": 2.9
+      },
+      "mar": {
+        "avgTemp": 43.5,
+        "highTemp": 54.2,
+        "lowTemp": 32.8,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 54.5,
+        "highTemp": 66.9,
+        "lowTemp": 42.1,
+        "precip": 3.7
+      },
+      "may": {
+        "avgTemp": 63.8,
+        "highTemp": 75.6,
+        "lowTemp": 51.9,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 72.6,
+        "highTemp": 83.8,
+        "lowTemp": 61.5,
+        "precip": 4
+      },
+      "jul": {
+        "avgTemp": 77.5,
+        "highTemp": 88.6,
+        "lowTemp": 66.4,
+        "precip": 4.8
+      },
+      "aug": {
+        "avgTemp": 75.7,
+        "highTemp": 86.8,
+        "lowTemp": 64.7,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 68.9,
+        "highTemp": 79.4,
+        "lowTemp": 58.4,
+        "precip": 4.9
+      },
+      "oct": {
+        "avgTemp": 57.7,
+        "highTemp": 69.1,
+        "lowTemp": 46.2,
+        "precip": 4
+      },
+      "nov": {
+        "avgTemp": 46.4,
+        "highTemp": 56.9,
+        "lowTemp": 35.9,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 38.4,
+        "highTemp": 47,
+        "lowTemp": 29.8,
+        "precip": 4
+      }
+    },
+    "annual": {
+      "avgTemp": 55.7,
+      "highTemp": 66.4,
+      "lowTemp": 45,
+      "totalPrecip": 47,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

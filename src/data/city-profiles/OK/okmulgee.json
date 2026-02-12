@@ -222,5 +222,81 @@
       7.2,
       7.2
     ]
+  },
+  "climate": {
+    "station": "USC00346670",
+    "stationName": "OKMULGEE WTR WKS HCN",
+    "distanceMi": 3.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 37.9,
+        "highTemp": 49.6,
+        "lowTemp": 26.3
+      },
+      "feb": {
+        "avgTemp": 41.7,
+        "highTemp": 54.8,
+        "lowTemp": 28.6
+      },
+      "mar": {
+        "avgTemp": 51,
+        "highTemp": 63.5,
+        "lowTemp": 38.5
+      },
+      "apr": {
+        "avgTemp": 59.6,
+        "highTemp": 72.3,
+        "lowTemp": 46.9
+      },
+      "may": {
+        "avgTemp": 68,
+        "highTemp": 78.7,
+        "lowTemp": 57.2
+      },
+      "jun": {
+        "avgTemp": 76.6,
+        "highTemp": 87.3,
+        "lowTemp": 65.9
+      },
+      "jul": {
+        "avgTemp": 81.6,
+        "highTemp": 92.9,
+        "lowTemp": 70.2
+      },
+      "aug": {
+        "avgTemp": 79.9,
+        "highTemp": 92.2,
+        "lowTemp": 67.7
+      },
+      "sep": {
+        "avgTemp": 72.2,
+        "highTemp": 84.4,
+        "lowTemp": 60
+      },
+      "oct": {
+        "avgTemp": 61.1,
+        "highTemp": 74.5,
+        "lowTemp": 47.7
+      },
+      "nov": {
+        "avgTemp": 49.6,
+        "highTemp": 62.1,
+        "lowTemp": 37.1
+      },
+      "dec": {
+        "avgTemp": 40.8,
+        "highTemp": 53.2,
+        "lowTemp": 28.5
+      }
+    },
+    "annual": {
+      "avgTemp": 60,
+      "highTemp": 72.1,
+      "lowTemp": 47.9,
+      "totalPrecip": 0,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

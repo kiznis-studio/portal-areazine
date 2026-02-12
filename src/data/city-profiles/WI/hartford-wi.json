@@ -239,5 +239,93 @@
       3.1,
       2.7
     ]
+  },
+  "climate": {
+    "station": "USC00473453",
+    "stationName": "HARTFORD WWTP",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 17.2,
+        "highTemp": 25.9,
+        "lowTemp": 8.5,
+        "precip": 1.5
+      },
+      "feb": {
+        "avgTemp": 20.7,
+        "highTemp": 29.9,
+        "lowTemp": 11.4,
+        "precip": 1.3
+      },
+      "mar": {
+        "avgTemp": 31.5,
+        "highTemp": 41.3,
+        "lowTemp": 21.7,
+        "precip": 1.8
+      },
+      "apr": {
+        "avgTemp": 43.7,
+        "highTemp": 54.3,
+        "lowTemp": 33.2,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 55.5,
+        "highTemp": 66.7,
+        "lowTemp": 44.3,
+        "precip": 3.8
+      },
+      "jun": {
+        "avgTemp": 65.5,
+        "highTemp": 76.6,
+        "lowTemp": 54.4,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 69.2,
+        "highTemp": 80.2,
+        "lowTemp": 58.2,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 67.4,
+        "highTemp": 78.6,
+        "lowTemp": 56.2,
+        "precip": 3.7
+      },
+      "sep": {
+        "avgTemp": 60.1,
+        "highTemp": 71.8,
+        "lowTemp": 48.4,
+        "precip": 3.2
+      },
+      "oct": {
+        "avgTemp": 47.9,
+        "highTemp": 58.7,
+        "lowTemp": 37.1,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 34.8,
+        "highTemp": 43.8,
+        "lowTemp": 25.9,
+        "precip": 2.1
+      },
+      "dec": {
+        "avgTemp": 23.3,
+        "highTemp": 31.3,
+        "lowTemp": 15.4,
+        "precip": 1.7
+      }
+    },
+    "annual": {
+      "avgTemp": 44.7,
+      "highTemp": 54.9,
+      "lowTemp": 34.6,
+      "totalPrecip": 34.1,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

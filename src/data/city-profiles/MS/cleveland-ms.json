@@ -231,5 +231,93 @@
       7.4,
       7.5
     ]
+  },
+  "climate": {
+    "station": "USC00221738",
+    "stationName": "CLEVELAND",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.3,
+        "highTemp": 51.3,
+        "lowTemp": 33.2,
+        "precip": 5.7
+      },
+      "feb": {
+        "avgTemp": 46.2,
+        "highTemp": 56.2,
+        "lowTemp": 36.3,
+        "precip": 5.4
+      },
+      "mar": {
+        "avgTemp": 54.6,
+        "highTemp": 65.5,
+        "lowTemp": 43.7,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 63.5,
+        "highTemp": 74.6,
+        "lowTemp": 52.4,
+        "precip": 6
+      },
+      "may": {
+        "avgTemp": 72.6,
+        "highTemp": 83.1,
+        "lowTemp": 62.1,
+        "precip": 5.7
+      },
+      "jun": {
+        "avgTemp": 79.5,
+        "highTemp": 89.6,
+        "lowTemp": 69.5,
+        "precip": 5.1
+      },
+      "jul": {
+        "avgTemp": 82.1,
+        "highTemp": 92,
+        "lowTemp": 72.3,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 82.3,
+        "highTemp": 93.1,
+        "lowTemp": 71.6,
+        "precip": 3.5
+      },
+      "sep": {
+        "avgTemp": 76.3,
+        "highTemp": 87.7,
+        "lowTemp": 64.9,
+        "precip": 3.9
+      },
+      "oct": {
+        "avgTemp": 65.2,
+        "highTemp": 77,
+        "lowTemp": 53.3,
+        "precip": 4.9
+      },
+      "nov": {
+        "avgTemp": 52.9,
+        "highTemp": 63.7,
+        "lowTemp": 42.1,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 45.2,
+        "highTemp": 54.1,
+        "lowTemp": 36.2,
+        "precip": 5.8
+      }
+    },
+    "annual": {
+      "avgTemp": 63.6,
+      "highTemp": 74,
+      "lowTemp": 53.1,
+      "totalPrecip": 59.3,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

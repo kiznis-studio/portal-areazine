@@ -271,5 +271,54 @@
       4.4,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00519231",
+    "stationName": "WAIANAE 798",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 0.9
+      },
+      "may": {
+        "precip": 1.1
+      },
+      "jun": {
+        "precip": 0.6
+      },
+      "jul": {
+        "precip": 0.4
+      },
+      "aug": {
+        "precip": 0.7
+      },
+      "sep": {
+        "precip": 1
+      },
+      "oct": {
+        "precip": 1.6
+      },
+      "nov": {
+        "precip": 2.7
+      },
+      "dec": {
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 17.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

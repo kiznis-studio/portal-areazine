@@ -216,5 +216,54 @@
       4.3,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1TXNU0015",
+    "stationName": "CORPUS CHRISTI 9.1 NW",
+    "distanceMi": 6.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2
+      },
+      "feb": {
+        "precip": 1.4
+      },
+      "mar": {
+        "precip": 2.4
+      },
+      "apr": {
+        "precip": 2.3
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 3.6
+      },
+      "jul": {
+        "precip": 2.8
+      },
+      "aug": {
+        "precip": 2.6
+      },
+      "sep": {
+        "precip": 6.4
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 2.2
+      },
+      "dec": {
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 34.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

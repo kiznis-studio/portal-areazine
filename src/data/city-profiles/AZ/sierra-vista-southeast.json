@@ -231,5 +231,54 @@
       6.3,
       6.7
     ]
+  },
+  "climate": {
+    "station": "USC00029562",
+    "stationName": "Y LIGHTNING RCH",
+    "distanceMi": 0.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1.3
+      },
+      "feb": {
+        "precip": 0.8
+      },
+      "mar": {
+        "precip": 0.5
+      },
+      "apr": {
+        "precip": 0.3
+      },
+      "may": {
+        "precip": 0.2
+      },
+      "jun": {
+        "precip": 0.9
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 0.9
+      },
+      "nov": {
+        "precip": 0.7
+      },
+      "dec": {
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 16.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

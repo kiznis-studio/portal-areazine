@@ -303,5 +303,93 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USC00081306",
+    "stationName": "CAPE FLORIDA",
+    "distanceMi": 1.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 70.1,
+        "highTemp": 77.5,
+        "lowTemp": 62.8,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 71.8,
+        "highTemp": 78.9,
+        "lowTemp": 64.8,
+        "precip": 2
+      },
+      "mar": {
+        "avgTemp": 74,
+        "highTemp": 80.9,
+        "lowTemp": 67.1,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 77.6,
+        "highTemp": 83.8,
+        "lowTemp": 71.5,
+        "precip": 3.2
+      },
+      "may": {
+        "avgTemp": 80.7,
+        "highTemp": 86.5,
+        "lowTemp": 74.9,
+        "precip": 5.7
+      },
+      "jun": {
+        "avgTemp": 83.8,
+        "highTemp": 89.6,
+        "lowTemp": 78,
+        "precip": 7.4
+      },
+      "jul": {
+        "avgTemp": 84.9,
+        "highTemp": 90.8,
+        "lowTemp": 79,
+        "precip": 5.6
+      },
+      "aug": {
+        "avgTemp": 85.4,
+        "highTemp": 91.4,
+        "lowTemp": 79.4,
+        "precip": 7.1
+      },
+      "sep": {
+        "avgTemp": 84.5,
+        "highTemp": 90.3,
+        "lowTemp": 78.7,
+        "precip": 7.5
+      },
+      "oct": {
+        "avgTemp": 81.6,
+        "highTemp": 87.2,
+        "lowTemp": 76.1,
+        "precip": 6.3
+      },
+      "nov": {
+        "avgTemp": 76.7,
+        "highTemp": 82.7,
+        "lowTemp": 70.7,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 72.9,
+        "highTemp": 79.7,
+        "lowTemp": 66,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 78.7,
+      "highTemp": 84.9,
+      "lowTemp": 72.4,
+      "totalPrecip": 55.3,
+      "hotMonths": 12,
+      "coldMonths": 0
+    }
   }
 }

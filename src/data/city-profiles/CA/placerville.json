@@ -239,5 +239,54 @@
       4.6,
       4.8
     ]
+  },
+  "climate": {
+    "station": "US1CAED0010",
+    "stationName": "PLACERVILLE 0.9 NE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 6.6
+      },
+      "feb": {
+        "precip": 7
+      },
+      "mar": {
+        "precip": 6.3
+      },
+      "apr": {
+        "precip": 3.4
+      },
+      "may": {
+        "precip": 2.5
+      },
+      "jun": {
+        "precip": 0.6
+      },
+      "jul": {
+        "precip": 0.1
+      },
+      "aug": {
+        "precip": 0.1
+      },
+      "sep": {
+        "precip": 0.4
+      },
+      "oct": {
+        "precip": 2.1
+      },
+      "nov": {
+        "precip": 4
+      },
+      "dec": {
+        "precip": 7.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 40.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

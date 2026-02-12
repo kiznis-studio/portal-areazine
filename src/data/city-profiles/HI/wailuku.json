@@ -231,5 +231,54 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00519275",
+    "stationName": "WAIEHU CAMP 484",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.7
+      },
+      "feb": {
+        "precip": 3.9
+      },
+      "mar": {
+        "precip": 4.6
+      },
+      "apr": {
+        "precip": 3.1
+      },
+      "may": {
+        "precip": 2.2
+      },
+      "jun": {
+        "precip": 0.7
+      },
+      "jul": {
+        "precip": 1.6
+      },
+      "aug": {
+        "precip": 1.4
+      },
+      "sep": {
+        "precip": 1.5
+      },
+      "oct": {
+        "precip": 2.2
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 4.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 33.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

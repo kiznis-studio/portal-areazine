@@ -231,5 +231,54 @@
       5.8,
       5.5
     ]
+  },
+  "climate": {
+    "station": "US1ORCS0007",
+    "stationName": "COOS BAY 1 NNW",
+    "distanceMi": 0.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 10.4
+      },
+      "feb": {
+        "precip": 8.3
+      },
+      "mar": {
+        "precip": 8.6
+      },
+      "apr": {
+        "precip": 5.5
+      },
+      "may": {
+        "precip": 3.1
+      },
+      "jun": {
+        "precip": 1.8
+      },
+      "jul": {
+        "precip": 0.4
+      },
+      "aug": {
+        "precip": 0.5
+      },
+      "sep": {
+        "precip": 1.7
+      },
+      "oct": {
+        "precip": 4.5
+      },
+      "nov": {
+        "precip": 9
+      },
+      "dec": {
+        "precip": 11.8
+      }
+    },
+    "annual": {
+      "totalPrecip": 65.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,93 @@
       6.1,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00100915",
+    "stationName": "BLACKFOOT FIRE DEPT",
+    "distanceMi": 0.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24,
+        "highTemp": 31.2,
+        "lowTemp": 16.8,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 28.8,
+        "highTemp": 37,
+        "lowTemp": 20.5,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 39,
+        "highTemp": 48.8,
+        "lowTemp": 29.1,
+        "precip": 1.1
+      },
+      "apr": {
+        "avgTemp": 46.1,
+        "highTemp": 57.4,
+        "lowTemp": 34.7,
+        "precip": 1.4
+      },
+      "may": {
+        "avgTemp": 55.2,
+        "highTemp": 67.6,
+        "lowTemp": 42.8,
+        "precip": 1.8
+      },
+      "jun": {
+        "avgTemp": 63.2,
+        "highTemp": 76.7,
+        "lowTemp": 49.8,
+        "precip": 1
+      },
+      "jul": {
+        "avgTemp": 71.4,
+        "highTemp": 86.9,
+        "lowTemp": 56,
+        "precip": 0.5
+      },
+      "aug": {
+        "avgTemp": 70.1,
+        "highTemp": 85.9,
+        "lowTemp": 54.2,
+        "precip": 0.6
+      },
+      "sep": {
+        "avgTemp": 60.6,
+        "highTemp": 75.1,
+        "lowTemp": 46,
+        "precip": 1
+      },
+      "oct": {
+        "avgTemp": 47.8,
+        "highTemp": 60.5,
+        "lowTemp": 35,
+        "precip": 1.1
+      },
+      "nov": {
+        "avgTemp": 35.1,
+        "highTemp": 44.8,
+        "lowTemp": 25.5,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 24.8,
+        "highTemp": 32.1,
+        "lowTemp": 17.5,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 47.2,
+      "highTemp": 58.7,
+      "lowTemp": 35.7,
+      "totalPrecip": 12.1,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

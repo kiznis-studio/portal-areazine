@@ -303,5 +303,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "US1TXHRR028",
+    "stationName": "WEBSTER 0.4 NW",
+    "distanceMi": 0.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.6
+      },
+      "feb": {
+        "precip": 3.1
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 5.5
+      },
+      "may": {
+        "precip": 5.4
+      },
+      "jun": {
+        "precip": 5.7
+      },
+      "jul": {
+        "precip": 4.9
+      },
+      "aug": {
+        "precip": 6.5
+      },
+      "sep": {
+        "precip": 6.4
+      },
+      "oct": {
+        "precip": 6.1
+      },
+      "nov": {
+        "precip": 4.6
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 60.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

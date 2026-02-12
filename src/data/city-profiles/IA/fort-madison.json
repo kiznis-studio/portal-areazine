@@ -216,5 +216,93 @@
       4.6,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00133007",
+    "stationName": "FT MADISON",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.8,
+        "highTemp": 32.8,
+        "lowTemp": 16.9,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 29.2,
+        "highTemp": 37.5,
+        "lowTemp": 20.9,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 40.8,
+        "highTemp": 49.9,
+        "lowTemp": 31.6,
+        "precip": 2.7
+      },
+      "apr": {
+        "avgTemp": 52.4,
+        "highTemp": 62.2,
+        "lowTemp": 42.5,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 63.1,
+        "highTemp": 72.3,
+        "lowTemp": 53.8,
+        "precip": 5.1
+      },
+      "jun": {
+        "avgTemp": 72.5,
+        "highTemp": 81.5,
+        "lowTemp": 63.4,
+        "precip": 5.2
+      },
+      "jul": {
+        "avgTemp": 76.3,
+        "highTemp": 85.1,
+        "lowTemp": 67.5,
+        "precip": 4.1
+      },
+      "aug": {
+        "avgTemp": 74.7,
+        "highTemp": 83.8,
+        "lowTemp": 65.6,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 67.1,
+        "highTemp": 77.1,
+        "lowTemp": 57.2,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 54.7,
+        "highTemp": 64.2,
+        "lowTemp": 45.2,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 41.3,
+        "highTemp": 49.7,
+        "lowTemp": 32.8,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 30.2,
+        "highTemp": 37.6,
+        "lowTemp": 22.7,
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "avgTemp": 52.3,
+      "highTemp": 61.1,
+      "lowTemp": 43.3,
+      "totalPrecip": 39.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

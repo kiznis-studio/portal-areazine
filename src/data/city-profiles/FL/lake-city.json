@@ -231,5 +231,93 @@
       6.9,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00084731",
+    "stationName": "LAKE CITY 2 E HCN",
+    "distanceMi": 2.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 52.1,
+        "highTemp": 63.2,
+        "lowTemp": 40.9,
+        "precip": 4.3
+      },
+      "feb": {
+        "avgTemp": 55.5,
+        "highTemp": 67,
+        "lowTemp": 44,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 60.8,
+        "highTemp": 73.1,
+        "lowTemp": 48.6,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 66.6,
+        "highTemp": 78.7,
+        "lowTemp": 54.5,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 73.4,
+        "highTemp": 85.2,
+        "lowTemp": 61.6,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 78.2,
+        "highTemp": 88.3,
+        "lowTemp": 68.1,
+        "precip": 7.6
+      },
+      "jul": {
+        "avgTemp": 80,
+        "highTemp": 89.7,
+        "lowTemp": 70.3,
+        "precip": 7.2
+      },
+      "aug": {
+        "avgTemp": 79.6,
+        "highTemp": 88.8,
+        "lowTemp": 70.4,
+        "precip": 7.3
+      },
+      "sep": {
+        "avgTemp": 76.6,
+        "highTemp": 86,
+        "lowTemp": 67.3,
+        "precip": 5.9
+      },
+      "oct": {
+        "avgTemp": 69,
+        "highTemp": 79.4,
+        "lowTemp": 58.6,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 60.2,
+        "highTemp": 71.3,
+        "lowTemp": 49.1,
+        "precip": 1.9
+      },
+      "dec": {
+        "avgTemp": 54.5,
+        "highTemp": 65.5,
+        "lowTemp": 43.5,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 67.2,
+      "highTemp": 78,
+      "lowTemp": 56.4,
+      "totalPrecip": 54.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

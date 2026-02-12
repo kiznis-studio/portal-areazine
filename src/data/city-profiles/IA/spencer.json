@@ -231,5 +231,93 @@
       4.1,
       4
     ]
+  },
+  "climate": {
+    "station": "USC00137844",
+    "stationName": "SPENCER 1 N 72650",
+    "distanceMi": 1.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 16.1,
+        "highTemp": 25.1,
+        "lowTemp": 7,
+        "precip": 0.7
+      },
+      "feb": {
+        "avgTemp": 20.6,
+        "highTemp": 29.8,
+        "lowTemp": 11.4,
+        "precip": 0.8
+      },
+      "mar": {
+        "avgTemp": 33.3,
+        "highTemp": 43,
+        "lowTemp": 23.7,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 46.3,
+        "highTemp": 57.7,
+        "lowTemp": 34.9,
+        "precip": 3.5
+      },
+      "may": {
+        "avgTemp": 58.6,
+        "highTemp": 69.9,
+        "lowTemp": 47.4,
+        "precip": 4.2
+      },
+      "jun": {
+        "avgTemp": 69.3,
+        "highTemp": 80.3,
+        "lowTemp": 58.3,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 72.7,
+        "highTemp": 83.7,
+        "lowTemp": 61.8,
+        "precip": 3.7
+      },
+      "aug": {
+        "avgTemp": 70,
+        "highTemp": 81,
+        "lowTemp": 59,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 62.4,
+        "highTemp": 74.6,
+        "lowTemp": 50.2,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 48.7,
+        "highTemp": 60.2,
+        "lowTemp": 37.3,
+        "precip": 2.4
+      },
+      "nov": {
+        "avgTemp": 33.8,
+        "highTemp": 43.6,
+        "lowTemp": 23.9,
+        "precip": 1.4
+      },
+      "dec": {
+        "avgTemp": 21.3,
+        "highTemp": 30,
+        "lowTemp": 12.7,
+        "precip": 1
+      }
+    },
+    "annual": {
+      "avgTemp": 46.1,
+      "highTemp": 56.6,
+      "lowTemp": 35.6,
+      "totalPrecip": 31.1,
+      "hotMonths": 1,
+      "coldMonths": 5
+    }
   }
 }

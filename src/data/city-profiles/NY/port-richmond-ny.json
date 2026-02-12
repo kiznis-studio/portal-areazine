@@ -239,5 +239,93 @@
       5.4,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USW00014734",
+    "stationName": "NEWARK INTL AP 72502",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.8,
+        "highTemp": 40,
+        "lowTemp": 25.5,
+        "precip": 3.4
+      },
+      "feb": {
+        "avgTemp": 35.1,
+        "highTemp": 43,
+        "lowTemp": 27.2,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 42.5,
+        "highTemp": 50.9,
+        "lowTemp": 34.2,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 53.3,
+        "highTemp": 62.6,
+        "lowTemp": 44.1,
+        "precip": 3.9
+      },
+      "may": {
+        "avgTemp": 63.3,
+        "highTemp": 72.6,
+        "lowTemp": 53.9,
+        "precip": 4
+      },
+      "jun": {
+        "avgTemp": 72.7,
+        "highTemp": 81.8,
+        "lowTemp": 63.6,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 78.2,
+        "highTemp": 86.9,
+        "lowTemp": 69.4,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 76.4,
+        "highTemp": 84.7,
+        "lowTemp": 68,
+        "precip": 4.2
+      },
+      "sep": {
+        "avgTemp": 69.2,
+        "highTemp": 77.7,
+        "lowTemp": 60.7,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 57.5,
+        "highTemp": 66,
+        "lowTemp": 49,
+        "precip": 3.8
+      },
+      "nov": {
+        "avgTemp": 47,
+        "highTemp": 54.9,
+        "lowTemp": 39,
+        "precip": 3.3
+      },
+      "dec": {
+        "avgTemp": 38,
+        "highTemp": 44.8,
+        "lowTemp": 31.2,
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "avgTemp": 55.5,
+      "highTemp": 63.8,
+      "lowTemp": 47.2,
+      "totalPrecip": 46.6,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

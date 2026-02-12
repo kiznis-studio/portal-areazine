@@ -222,5 +222,54 @@
       6.1,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00160007",
+    "stationName": "ABBEVILLE",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.8
+      },
+      "feb": {
+        "precip": 4.1
+      },
+      "mar": {
+        "precip": 4
+      },
+      "apr": {
+        "precip": 5.1
+      },
+      "may": {
+        "precip": 4.8
+      },
+      "jun": {
+        "precip": 7.4
+      },
+      "jul": {
+        "precip": 7.1
+      },
+      "aug": {
+        "precip": 7.2
+      },
+      "sep": {
+        "precip": 5.7
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 4.6
+      },
+      "dec": {
+        "precip": 4.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 65.4,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

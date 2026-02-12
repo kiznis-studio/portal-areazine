@@ -231,5 +231,93 @@
       3.8,
       3.9
     ]
+  },
+  "climate": {
+    "station": "USC00475091",
+    "stationName": "MARINETTE",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 17.8,
+        "highTemp": 26.1,
+        "lowTemp": 9.5,
+        "precip": 1.7
+      },
+      "feb": {
+        "avgTemp": 20.6,
+        "highTemp": 29.4,
+        "lowTemp": 11.9,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 30,
+        "highTemp": 39,
+        "lowTemp": 21,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 41.9,
+        "highTemp": 51,
+        "lowTemp": 32.8,
+        "precip": 3
+      },
+      "may": {
+        "avgTemp": 54.2,
+        "highTemp": 64.4,
+        "lowTemp": 43.9,
+        "precip": 3.5
+      },
+      "jun": {
+        "avgTemp": 64.6,
+        "highTemp": 73.9,
+        "lowTemp": 55.4,
+        "precip": 3.9
+      },
+      "jul": {
+        "avgTemp": 69.9,
+        "highTemp": 79.6,
+        "lowTemp": 60.2,
+        "precip": 3.9
+      },
+      "aug": {
+        "avgTemp": 68.6,
+        "highTemp": 78.2,
+        "lowTemp": 58.9,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 60.8,
+        "highTemp": 70.3,
+        "lowTemp": 51.2,
+        "precip": 3.3
+      },
+      "oct": {
+        "avgTemp": 48.2,
+        "highTemp": 57.1,
+        "lowTemp": 39.2,
+        "precip": 3.3
+      },
+      "nov": {
+        "avgTemp": 35.8,
+        "highTemp": 43.4,
+        "lowTemp": 28.1,
+        "precip": 2.4
+      },
+      "dec": {
+        "avgTemp": 24.3,
+        "highTemp": 31.7,
+        "lowTemp": 16.9,
+        "precip": 1.8
+      }
+    },
+    "annual": {
+      "avgTemp": 44.7,
+      "highTemp": 53.7,
+      "lowTemp": 35.7,
+      "totalPrecip": 33.2,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

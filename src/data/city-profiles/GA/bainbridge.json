@@ -222,5 +222,81 @@
       6.4,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00090586",
+    "stationName": "BAINBRIDGE INTL PAPER HCN",
+    "distanceMi": 6.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.6,
+        "highTemp": 63.5,
+        "lowTemp": 37.8
+      },
+      "feb": {
+        "avgTemp": 53.9,
+        "highTemp": 67.2,
+        "lowTemp": 40.6
+      },
+      "mar": {
+        "avgTemp": 60.3,
+        "highTemp": 74,
+        "lowTemp": 46.6
+      },
+      "apr": {
+        "avgTemp": 66.1,
+        "highTemp": 79.9,
+        "lowTemp": 52.3
+      },
+      "may": {
+        "avgTemp": 74.2,
+        "highTemp": 87.7,
+        "lowTemp": 60.6
+      },
+      "jun": {
+        "avgTemp": 80,
+        "highTemp": 91.5,
+        "lowTemp": 68.5
+      },
+      "jul": {
+        "avgTemp": 81.8,
+        "highTemp": 92.8,
+        "lowTemp": 70.8
+      },
+      "aug": {
+        "avgTemp": 81.2,
+        "highTemp": 92,
+        "lowTemp": 70.4
+      },
+      "sep": {
+        "avgTemp": 77.8,
+        "highTemp": 89.5,
+        "lowTemp": 66.2
+      },
+      "oct": {
+        "avgTemp": 68.9,
+        "highTemp": 82.3,
+        "lowTemp": 55.6
+      },
+      "nov": {
+        "avgTemp": 59.3,
+        "highTemp": 73.1,
+        "lowTemp": 45.5
+      },
+      "dec": {
+        "avgTemp": 52.8,
+        "highTemp": 65.5,
+        "lowTemp": 40.1
+      }
+    },
+    "annual": {
+      "avgTemp": 67.2,
+      "highTemp": 79.9,
+      "lowTemp": 54.6,
+      "totalPrecip": 0,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

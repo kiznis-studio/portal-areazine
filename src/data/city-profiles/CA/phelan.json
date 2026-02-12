@@ -303,5 +303,93 @@
       7.1,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00049822",
+    "stationName": "WRIGHTWOOD",
+    "distanceMi": 5.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.6,
+        "highTemp": 47.6,
+        "lowTemp": 25.6,
+        "precip": 4.4
+      },
+      "feb": {
+        "avgTemp": 36.4,
+        "highTemp": 47.6,
+        "lowTemp": 25.3,
+        "precip": 4.9
+      },
+      "mar": {
+        "avgTemp": 41.8,
+        "highTemp": 54.3,
+        "lowTemp": 29.3,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 46.1,
+        "highTemp": 60.3,
+        "lowTemp": 32,
+        "precip": 0.8
+      },
+      "may": {
+        "avgTemp": 54,
+        "highTemp": 69.1,
+        "lowTemp": 38.8,
+        "precip": 0.8
+      },
+      "jun": {
+        "avgTemp": 61.2,
+        "highTemp": 78,
+        "lowTemp": 44.3,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 67.9,
+        "highTemp": 83.3,
+        "lowTemp": 52.5,
+        "precip": 1.1
+      },
+      "aug": {
+        "avgTemp": 66.7,
+        "highTemp": 81.9,
+        "lowTemp": 51.4,
+        "precip": 0.3
+      },
+      "sep": {
+        "avgTemp": 60.6,
+        "highTemp": 75,
+        "lowTemp": 46.2,
+        "precip": 0.4
+      },
+      "oct": {
+        "avgTemp": 50.5,
+        "highTemp": 64.4,
+        "lowTemp": 36.7,
+        "precip": 1.2
+      },
+      "nov": {
+        "avgTemp": 41.8,
+        "highTemp": 54.8,
+        "lowTemp": 28.8,
+        "precip": 1.1
+      },
+      "dec": {
+        "avgTemp": 36,
+        "highTemp": 47.5,
+        "lowTemp": 24.6,
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "avgTemp": 50,
+      "highTemp": 63.7,
+      "lowTemp": 36.3,
+      "totalPrecip": 21.1,
+      "hotMonths": 0,
+      "coldMonths": 3
+    }
   }
 }

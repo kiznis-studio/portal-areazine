@@ -271,5 +271,54 @@
       7.3,
       7.1
     ]
+  },
+  "climate": {
+    "station": "US1TNSH0032",
+    "stationName": "BARTLETT 3.1 NNE",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.2
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 5.5
+      },
+      "apr": {
+        "precip": 5.8
+      },
+      "may": {
+        "precip": 5.6
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 3.1
+      },
+      "sep": {
+        "precip": 3.7
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 4.7
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 55.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

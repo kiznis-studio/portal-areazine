@@ -247,5 +247,54 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1TNHL0023",
+    "stationName": "OOLTEWAH 3.0 SW",
+    "distanceMi": 2.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.3
+      },
+      "feb": {
+        "precip": 5.4
+      },
+      "mar": {
+        "precip": 5.6
+      },
+      "apr": {
+        "precip": 5.3
+      },
+      "may": {
+        "precip": 4.5
+      },
+      "jun": {
+        "precip": 4.8
+      },
+      "jul": {
+        "precip": 5.6
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 4.6
+      },
+      "oct": {
+        "precip": 3.6
+      },
+      "nov": {
+        "precip": 4.9
+      },
+      "dec": {
+        "precip": 5.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 59.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -239,5 +239,93 @@
       6.5,
       6.2
     ]
+  },
+  "climate": {
+    "station": "USW00024257",
+    "stationName": "REDDING MUNI AP HCN 72592",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 47.5,
+        "highTemp": 57.2,
+        "lowTemp": 37.7,
+        "precip": 6
+      },
+      "feb": {
+        "avgTemp": 50.5,
+        "highTemp": 61,
+        "lowTemp": 40.1,
+        "precip": 5.5
+      },
+      "mar": {
+        "avgTemp": 54.4,
+        "highTemp": 65.7,
+        "lowTemp": 43.2,
+        "precip": 4.6
+      },
+      "apr": {
+        "avgTemp": 59.4,
+        "highTemp": 71.8,
+        "lowTemp": 47,
+        "precip": 2.4
+      },
+      "may": {
+        "avgTemp": 68.2,
+        "highTemp": 82,
+        "lowTemp": 54.3,
+        "precip": 1.8
+      },
+      "jun": {
+        "avgTemp": 77.1,
+        "highTemp": 91.9,
+        "lowTemp": 62.4,
+        "precip": 0.8
+      },
+      "jul": {
+        "avgTemp": 83.4,
+        "highTemp": 99.9,
+        "lowTemp": 67,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 81,
+        "highTemp": 98.1,
+        "lowTemp": 63.9,
+        "precip": 0.1
+      },
+      "sep": {
+        "avgTemp": 75.3,
+        "highTemp": 92.3,
+        "lowTemp": 58.2,
+        "precip": 0.5
+      },
+      "oct": {
+        "avgTemp": 64.8,
+        "highTemp": 79.4,
+        "lowTemp": 50.2,
+        "precip": 1.9
+      },
+      "nov": {
+        "avgTemp": 52.9,
+        "highTemp": 64.4,
+        "lowTemp": 41.5,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 46.6,
+        "highTemp": 56,
+        "lowTemp": 37.2,
+        "precip": 6.3
+      }
+    },
+    "annual": {
+      "avgTemp": 63.4,
+      "highTemp": 76.6,
+      "lowTemp": 50.2,
+      "totalPrecip": 33.5,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

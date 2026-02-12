@@ -279,5 +279,93 @@
       5.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00358634",
+    "stationName": "TROUTDALE",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.8,
+        "highTemp": 44.2,
+        "lowTemp": 35.4,
+        "precip": 6.3
+      },
+      "feb": {
+        "avgTemp": 42.5,
+        "highTemp": 48.5,
+        "lowTemp": 36.5,
+        "precip": 4.7
+      },
+      "mar": {
+        "avgTemp": 46.7,
+        "highTemp": 54.7,
+        "lowTemp": 38.8,
+        "precip": 5.1
+      },
+      "apr": {
+        "avgTemp": 51.2,
+        "highTemp": 60.5,
+        "lowTemp": 41.9,
+        "precip": 4.2
+      },
+      "may": {
+        "avgTemp": 57.8,
+        "highTemp": 67.7,
+        "lowTemp": 47.9,
+        "precip": 3.3
+      },
+      "jun": {
+        "avgTemp": 62.4,
+        "highTemp": 72.9,
+        "lowTemp": 52,
+        "precip": 2.4
+      },
+      "jul": {
+        "avgTemp": 68.2,
+        "highTemp": 80.8,
+        "lowTemp": 55.7,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 68.4,
+        "highTemp": 81.4,
+        "lowTemp": 55.5,
+        "precip": 0.7
+      },
+      "sep": {
+        "avgTemp": 63.2,
+        "highTemp": 75.2,
+        "lowTemp": 51.3,
+        "precip": 1.9
+      },
+      "oct": {
+        "avgTemp": 54.3,
+        "highTemp": 62.7,
+        "lowTemp": 45.8,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 45.9,
+        "highTemp": 51.3,
+        "lowTemp": 40.4,
+        "precip": 7.5
+      },
+      "dec": {
+        "avgTemp": 40.2,
+        "highTemp": 44.5,
+        "lowTemp": 35.8,
+        "precip": 7.1
+      }
+    },
+    "annual": {
+      "avgTemp": 53.4,
+      "highTemp": 62,
+      "lowTemp": 44.8,
+      "totalPrecip": 48.4,
+      "hotMonths": 0,
+      "coldMonths": 1
+    }
   }
 }

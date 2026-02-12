@@ -169,5 +169,54 @@
       4.6,
       4.4
     ]
+  },
+  "climate": {
+    "station": "US1PAYR0017",
+    "stationName": "YORK 2.5 NNW",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.1
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 3.8
+      },
+      "apr": {
+        "precip": 3.6
+      },
+      "may": {
+        "precip": 4
+      },
+      "jun": {
+        "precip": 4.1
+      },
+      "jul": {
+        "precip": 4.6
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 3.8
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 45,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

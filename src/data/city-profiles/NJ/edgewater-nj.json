@@ -263,5 +263,54 @@
       5.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "US1NJBG0018",
+    "stationName": "PALISADES PARK 0.2 WNW",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.5
+      },
+      "feb": {
+        "precip": 3
+      },
+      "mar": {
+        "precip": 4.5
+      },
+      "apr": {
+        "precip": 4.3
+      },
+      "may": {
+        "precip": 4.2
+      },
+      "jun": {
+        "precip": 4.5
+      },
+      "jul": {
+        "precip": 4.8
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 3.6
+      },
+      "dec": {
+        "precip": 4.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

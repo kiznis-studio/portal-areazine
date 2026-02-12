@@ -303,5 +303,93 @@
       7,
       7
     ]
+  },
+  "climate": {
+    "station": "USW00023152",
+    "stationName": "BURBANK GLENDALE PASADENA AP 72288",
+    "distanceMi": 5.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 56.1,
+        "highTemp": 67,
+        "lowTemp": 45.3,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 56.6,
+        "highTemp": 66.8,
+        "lowTemp": 46.4,
+        "precip": 4
+      },
+      "mar": {
+        "avgTemp": 59.3,
+        "highTemp": 69.5,
+        "lowTemp": 49,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 62.3,
+        "highTemp": 72.7,
+        "lowTemp": 51.9,
+        "precip": 0.7
+      },
+      "may": {
+        "avgTemp": 66.1,
+        "highTemp": 75.5,
+        "lowTemp": 56.6,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 70.1,
+        "highTemp": 80.3,
+        "lowTemp": 59.9,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 75.6,
+        "highTemp": 86.7,
+        "lowTemp": 64.5,
+        "precip": 0
+      },
+      "aug": {
+        "avgTemp": 76.9,
+        "highTemp": 88.9,
+        "lowTemp": 64.9,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 74.7,
+        "highTemp": 86.6,
+        "lowTemp": 62.9,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 68.4,
+        "highTemp": 79.4,
+        "lowTemp": 57.5,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 60.7,
+        "highTemp": 72.5,
+        "lowTemp": 49,
+        "precip": 0.7
+      },
+      "dec": {
+        "avgTemp": 55.1,
+        "highTemp": 66.1,
+        "lowTemp": 44.2,
+        "precip": 2
+      }
+    },
+    "annual": {
+      "avgTemp": 65.2,
+      "highTemp": 76,
+      "lowTemp": 54.3,
+      "totalPrecip": 13.9,
+      "hotMonths": 4,
+      "coldMonths": 0
+    }
   }
 }

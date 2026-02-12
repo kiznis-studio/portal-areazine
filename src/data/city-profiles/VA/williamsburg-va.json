@@ -216,5 +216,93 @@
       5.9,
       7
     ]
+  },
+  "climate": {
+    "station": "USC00449151",
+    "stationName": "WILLIAMSBURG 2 N HCN",
+    "distanceMi": 2.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.8,
+        "highTemp": 49.1,
+        "lowTemp": 30.6,
+        "precip": 3.8
+      },
+      "feb": {
+        "avgTemp": 42.2,
+        "highTemp": 52.3,
+        "lowTemp": 32,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 49.1,
+        "highTemp": 59.8,
+        "lowTemp": 38.5,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 58.9,
+        "highTemp": 70,
+        "lowTemp": 47.7,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 67.1,
+        "highTemp": 77.2,
+        "lowTemp": 57,
+        "precip": 3.9
+      },
+      "jun": {
+        "avgTemp": 74.9,
+        "highTemp": 84.4,
+        "lowTemp": 65.3,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 79.3,
+        "highTemp": 88.5,
+        "lowTemp": 70.2,
+        "precip": 5.9
+      },
+      "aug": {
+        "avgTemp": 77.6,
+        "highTemp": 86.5,
+        "lowTemp": 68.7,
+        "precip": 5.7
+      },
+      "sep": {
+        "avgTemp": 71.8,
+        "highTemp": 80.5,
+        "lowTemp": 63.1,
+        "precip": 5.4
+      },
+      "oct": {
+        "avgTemp": 61.1,
+        "highTemp": 71,
+        "lowTemp": 51.3,
+        "precip": 4.2
+      },
+      "nov": {
+        "avgTemp": 51,
+        "highTemp": 61.1,
+        "lowTemp": 40.9,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 43.4,
+        "highTemp": 52.6,
+        "lowTemp": 34.1,
+        "precip": 3.8
+      }
+    },
+    "annual": {
+      "avgTemp": 59.7,
+      "highTemp": 69.4,
+      "lowTemp": 49.9,
+      "totalPrecip": 51.4,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

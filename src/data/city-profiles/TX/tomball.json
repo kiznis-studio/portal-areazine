@@ -303,5 +303,54 @@
       6.4,
       6.4
     ]
+  },
+  "climate": {
+    "station": "USC00419076",
+    "stationName": "TOMBALL",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 5.3
+      },
+      "jun": {
+        "precip": 5
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 4.6
+      },
+      "sep": {
+        "precip": 4.5
+      },
+      "oct": {
+        "precip": 5
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 51,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

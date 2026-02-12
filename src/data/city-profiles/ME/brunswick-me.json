@@ -247,5 +247,93 @@
       3.2,
       3.2
     ]
+  },
+  "climate": {
+    "station": "USW00014611",
+    "stationName": "BRUNSWICK NAS 74392",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21,
+        "highTemp": 30.1,
+        "lowTemp": 11.9,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 23.2,
+        "highTemp": 32.8,
+        "lowTemp": 13.6,
+        "precip": 3.5
+      },
+      "mar": {
+        "avgTemp": 32.2,
+        "highTemp": 40.9,
+        "lowTemp": 23.5,
+        "precip": 4.1
+      },
+      "apr": {
+        "avgTemp": 42.6,
+        "highTemp": 52.8,
+        "lowTemp": 32.3,
+        "precip": 4.3
+      },
+      "may": {
+        "avgTemp": 53.9,
+        "highTemp": 64.2,
+        "lowTemp": 43.7,
+        "precip": 4.1
+      },
+      "jun": {
+        "avgTemp": 63.1,
+        "highTemp": 72.9,
+        "lowTemp": 53.3,
+        "precip": 4.2
+      },
+      "jul": {
+        "avgTemp": 69.3,
+        "highTemp": 79.4,
+        "lowTemp": 59.3,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 68,
+        "highTemp": 77.9,
+        "lowTemp": 58.2,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 60.3,
+        "highTemp": 70.3,
+        "lowTemp": 50.4,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 48.5,
+        "highTemp": 57.9,
+        "lowTemp": 39.2,
+        "precip": 6
+      },
+      "nov": {
+        "avgTemp": 38.1,
+        "highTemp": 46.7,
+        "lowTemp": 29.6,
+        "precip": 5.2
+      },
+      "dec": {
+        "avgTemp": 28.3,
+        "highTemp": 36.8,
+        "lowTemp": 19.7,
+        "precip": 4.3
+      }
+    },
+    "annual": {
+      "avgTemp": 45.7,
+      "highTemp": 55.2,
+      "lowTemp": 36.2,
+      "totalPrecip": 50.2,
+      "hotMonths": 0,
+      "coldMonths": 5
+    }
   }
 }

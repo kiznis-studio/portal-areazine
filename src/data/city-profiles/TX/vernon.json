@@ -222,5 +222,93 @@
       9.3,
       9.8
     ]
+  },
+  "climate": {
+    "station": "USC00419346",
+    "stationName": "VERNON",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 41.7,
+        "highTemp": 54.7,
+        "lowTemp": 28.7,
+        "precip": 1.2
+      },
+      "feb": {
+        "avgTemp": 44.9,
+        "highTemp": 58.5,
+        "lowTemp": 31.3,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 54.4,
+        "highTemp": 67.9,
+        "lowTemp": 40.9,
+        "precip": 2.1
+      },
+      "apr": {
+        "avgTemp": 62.3,
+        "highTemp": 76.2,
+        "lowTemp": 48.3,
+        "precip": 2.6
+      },
+      "may": {
+        "avgTemp": 72.1,
+        "highTemp": 84.5,
+        "lowTemp": 59.8,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 80.7,
+        "highTemp": 92.6,
+        "lowTemp": 68.9,
+        "precip": 4.1
+      },
+      "jul": {
+        "avgTemp": 84.9,
+        "highTemp": 97.2,
+        "lowTemp": 72.6,
+        "precip": 2.4
+      },
+      "aug": {
+        "avgTemp": 84.1,
+        "highTemp": 96.5,
+        "lowTemp": 71.7,
+        "precip": 2.8
+      },
+      "sep": {
+        "avgTemp": 75.9,
+        "highTemp": 88.1,
+        "lowTemp": 63.8,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 64.6,
+        "highTemp": 77.9,
+        "lowTemp": 51.4,
+        "precip": 2.5
+      },
+      "nov": {
+        "avgTemp": 52.3,
+        "highTemp": 65.1,
+        "lowTemp": 39.4,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 43.2,
+        "highTemp": 55.8,
+        "lowTemp": 30.6,
+        "precip": 1.3
+      }
+    },
+    "annual": {
+      "avgTemp": 63.4,
+      "highTemp": 76.3,
+      "lowTemp": 50.6,
+      "totalPrecip": 28.5,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

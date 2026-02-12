@@ -231,5 +231,54 @@
       5.2,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00300707",
+    "stationName": "BLACK RVR",
+    "distanceMi": 4.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.7
+      },
+      "feb": {
+        "precip": 2.8
+      },
+      "mar": {
+        "precip": 2.9
+      },
+      "apr": {
+        "precip": 3.7
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 3.4
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 3.9
+      },
+      "oct": {
+        "precip": 5.1
+      },
+      "nov": {
+        "precip": 4.1
+      },
+      "dec": {
+        "precip": 4.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 45.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

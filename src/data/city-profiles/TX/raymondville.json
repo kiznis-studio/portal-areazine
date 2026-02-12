@@ -216,5 +216,93 @@
       8.7,
       7.3
     ]
+  },
+  "climate": {
+    "station": "USC00417458",
+    "stationName": "RAYMONDVILLE",
+    "distanceMi": 1.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 59.7,
+        "highTemp": 71.3,
+        "lowTemp": 48.1,
+        "precip": 1
+      },
+      "feb": {
+        "avgTemp": 64,
+        "highTemp": 76,
+        "lowTemp": 51.9,
+        "precip": 1
+      },
+      "mar": {
+        "avgTemp": 69.3,
+        "highTemp": 80.9,
+        "lowTemp": 57.8,
+        "precip": 1.4
+      },
+      "apr": {
+        "avgTemp": 75.1,
+        "highTemp": 86.7,
+        "lowTemp": 63.4,
+        "precip": 1.4
+      },
+      "may": {
+        "avgTemp": 80.3,
+        "highTemp": 90.8,
+        "lowTemp": 69.8,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 84.6,
+        "highTemp": 95.3,
+        "lowTemp": 74,
+        "precip": 2.6
+      },
+      "jul": {
+        "avgTemp": 85.9,
+        "highTemp": 96.9,
+        "lowTemp": 74.9,
+        "precip": 2.5
+      },
+      "aug": {
+        "avgTemp": 86.6,
+        "highTemp": 98.3,
+        "lowTemp": 74.9,
+        "precip": 2.1
+      },
+      "sep": {
+        "avgTemp": 82.4,
+        "highTemp": 93.1,
+        "lowTemp": 71.6,
+        "precip": 5.6
+      },
+      "oct": {
+        "avgTemp": 76.3,
+        "highTemp": 88.2,
+        "lowTemp": 64.4,
+        "precip": 3
+      },
+      "nov": {
+        "avgTemp": 67.9,
+        "highTemp": 79.8,
+        "lowTemp": 56.1,
+        "precip": 0.9
+      },
+      "dec": {
+        "avgTemp": 61.2,
+        "highTemp": 72.8,
+        "lowTemp": 49.6,
+        "precip": 1.1
+      }
+    },
+    "annual": {
+      "avgTemp": 74.4,
+      "highTemp": 85.8,
+      "lowTemp": 63,
+      "totalPrecip": 25.6,
+      "hotMonths": 7,
+      "coldMonths": 0
+    }
   }
 }

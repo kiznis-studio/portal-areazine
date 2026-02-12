@@ -216,5 +216,81 @@
       6.6,
       6.3
     ]
+  },
+  "climate": {
+    "station": "USC00183675",
+    "stationName": "GLENN DALE BELL STN HCN",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.7,
+        "highTemp": 43.9,
+        "lowTemp": 21.6
+      },
+      "feb": {
+        "avgTemp": 35,
+        "highTemp": 46.7,
+        "lowTemp": 23.2
+      },
+      "mar": {
+        "avgTemp": 43,
+        "highTemp": 54.7,
+        "lowTemp": 31.3
+      },
+      "apr": {
+        "avgTemp": 53.5,
+        "highTemp": 66,
+        "lowTemp": 41
+      },
+      "may": {
+        "avgTemp": 63,
+        "highTemp": 74.6,
+        "lowTemp": 51.4
+      },
+      "jun": {
+        "avgTemp": 71.8,
+        "highTemp": 82.5,
+        "lowTemp": 61.2
+      },
+      "jul": {
+        "avgTemp": 77.3,
+        "highTemp": 88.5,
+        "lowTemp": 66.1
+      },
+      "aug": {
+        "avgTemp": 75.9,
+        "highTemp": 87,
+        "lowTemp": 64.8
+      },
+      "sep": {
+        "avgTemp": 68.4,
+        "highTemp": 79.4,
+        "lowTemp": 57.4
+      },
+      "oct": {
+        "avgTemp": 55.9,
+        "highTemp": 68,
+        "lowTemp": 43.8
+      },
+      "nov": {
+        "avgTemp": 45,
+        "highTemp": 56.8,
+        "lowTemp": 33.1
+      },
+      "dec": {
+        "avgTemp": 37.4,
+        "highTemp": 47.9,
+        "lowTemp": 26.8
+      }
+    },
+    "annual": {
+      "avgTemp": 54.9,
+      "highTemp": 66.3,
+      "lowTemp": 43.5,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

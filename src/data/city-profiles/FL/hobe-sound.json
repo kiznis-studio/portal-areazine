@@ -231,5 +231,93 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00087304",
+    "stationName": "PORT SALERNO 5W",
+    "distanceMi": 8.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 63.7,
+        "highTemp": 73.7,
+        "lowTemp": 53.6,
+        "precip": 3.2
+      },
+      "feb": {
+        "avgTemp": 65.5,
+        "highTemp": 76.2,
+        "lowTemp": 54.8,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 68.2,
+        "highTemp": 78.5,
+        "lowTemp": 57.8,
+        "precip": 4
+      },
+      "apr": {
+        "avgTemp": 72.3,
+        "highTemp": 83.1,
+        "lowTemp": 61.6,
+        "precip": 2.9
+      },
+      "may": {
+        "avgTemp": 76.5,
+        "highTemp": 85.9,
+        "lowTemp": 67.1,
+        "precip": 5.7
+      },
+      "jun": {
+        "avgTemp": 80.2,
+        "highTemp": 88.9,
+        "lowTemp": 71.5,
+        "precip": 9.6
+      },
+      "jul": {
+        "avgTemp": 81.6,
+        "highTemp": 90.3,
+        "lowTemp": 72.9,
+        "precip": 7
+      },
+      "aug": {
+        "avgTemp": 82.3,
+        "highTemp": 90.8,
+        "lowTemp": 73.9,
+        "precip": 9
+      },
+      "sep": {
+        "avgTemp": 80.5,
+        "highTemp": 88.5,
+        "lowTemp": 72.4,
+        "precip": 9.2
+      },
+      "oct": {
+        "avgTemp": 76.8,
+        "highTemp": 85.3,
+        "lowTemp": 68.3,
+        "precip": 5.1
+      },
+      "nov": {
+        "avgTemp": 70.6,
+        "highTemp": 79.2,
+        "lowTemp": 62,
+        "precip": 3.4
+      },
+      "dec": {
+        "avgTemp": 66.2,
+        "highTemp": 75.8,
+        "lowTemp": 56.7,
+        "precip": 2.9
+      }
+    },
+    "annual": {
+      "avgTemp": 73.7,
+      "highTemp": 83,
+      "lowTemp": 64.4,
+      "totalPrecip": 64.3,
+      "hotMonths": 8,
+      "coldMonths": 0
+    }
   }
 }

@@ -209,5 +209,81 @@
       4.5,
       4.4
     ]
+  },
+  "climate": {
+    "station": "USW00014793",
+    "stationName": "WILLOW GROVE NAS",
+    "distanceMi": 1.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 31.9,
+        "highTemp": 39.7,
+        "lowTemp": 24.2
+      },
+      "feb": {
+        "avgTemp": 34.6,
+        "highTemp": 42.9,
+        "lowTemp": 26.3
+      },
+      "mar": {
+        "avgTemp": 41.8,
+        "highTemp": 51.1,
+        "lowTemp": 32.4
+      },
+      "apr": {
+        "avgTemp": 52.4,
+        "highTemp": 62.7,
+        "lowTemp": 42.1
+      },
+      "may": {
+        "avgTemp": 62.2,
+        "highTemp": 72.4,
+        "lowTemp": 52
+      },
+      "jun": {
+        "avgTemp": 71.1,
+        "highTemp": 80.9,
+        "lowTemp": 61.2
+      },
+      "jul": {
+        "avgTemp": 76,
+        "highTemp": 85.2,
+        "lowTemp": 66.7
+      },
+      "aug": {
+        "avgTemp": 73.9,
+        "highTemp": 82.9,
+        "lowTemp": 64.9
+      },
+      "sep": {
+        "avgTemp": 66.8,
+        "highTemp": 76.1,
+        "lowTemp": 57.5
+      },
+      "oct": {
+        "avgTemp": 55.5,
+        "highTemp": 64.4,
+        "lowTemp": 46.6
+      },
+      "nov": {
+        "avgTemp": 45.2,
+        "highTemp": 53.9,
+        "lowTemp": 36.5
+      },
+      "dec": {
+        "avgTemp": 36.6,
+        "highTemp": 43.6,
+        "lowTemp": 29.5
+      }
+    },
+    "annual": {
+      "avgTemp": 54,
+      "highTemp": 63,
+      "lowTemp": 45,
+      "totalPrecip": 0,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

@@ -247,5 +247,93 @@
       2.9,
       2.8
     ]
+  },
+  "climate": {
+    "station": "USW00053853",
+    "stationName": "DESTIN FT WALTON AP",
+    "distanceMi": 1.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.2,
+        "highTemp": 63.1,
+        "lowTemp": 45.3,
+        "precip": 4.5
+      },
+      "feb": {
+        "avgTemp": 56.9,
+        "highTemp": 65.8,
+        "lowTemp": 47.9,
+        "precip": 5
+      },
+      "mar": {
+        "avgTemp": 62.2,
+        "highTemp": 70.7,
+        "lowTemp": 53.6,
+        "precip": 4.7
+      },
+      "apr": {
+        "avgTemp": 68.1,
+        "highTemp": 76.2,
+        "lowTemp": 60.1,
+        "precip": 4.6
+      },
+      "may": {
+        "avgTemp": 75.8,
+        "highTemp": 83.5,
+        "lowTemp": 68,
+        "precip": 3.2
+      },
+      "jun": {
+        "avgTemp": 81.5,
+        "highTemp": 88.9,
+        "lowTemp": 74.1,
+        "precip": 4.7
+      },
+      "jul": {
+        "avgTemp": 83.6,
+        "highTemp": 90.9,
+        "lowTemp": 76.2,
+        "precip": 5.8
+      },
+      "aug": {
+        "avgTemp": 83.2,
+        "highTemp": 90.6,
+        "lowTemp": 75.8,
+        "precip": 6.1
+      },
+      "sep": {
+        "avgTemp": 80.5,
+        "highTemp": 88.5,
+        "lowTemp": 72.4,
+        "precip": 5.2
+      },
+      "oct": {
+        "avgTemp": 72.1,
+        "highTemp": 80.9,
+        "lowTemp": 63.2,
+        "precip": 2.8
+      },
+      "nov": {
+        "avgTemp": 62.6,
+        "highTemp": 72.1,
+        "lowTemp": 53,
+        "precip": 4.1
+      },
+      "dec": {
+        "avgTemp": 56.6,
+        "highTemp": 65.6,
+        "lowTemp": 47.5,
+        "precip": 4.7
+      }
+    },
+    "annual": {
+      "avgTemp": 69.8,
+      "highTemp": 78.1,
+      "lowTemp": 61.4,
+      "totalPrecip": 55.4,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

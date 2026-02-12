@@ -177,5 +177,54 @@
       3.4,
       3.3
     ]
+  },
+  "climate": {
+    "station": "US1PALN0007",
+    "stationName": "LANCASTER 5.8 WNW",
+    "distanceMi": 5.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3
+      },
+      "feb": {
+        "precip": 2.5
+      },
+      "mar": {
+        "precip": 3.6
+      },
+      "apr": {
+        "precip": 3.3
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 4.5
+      },
+      "aug": {
+        "precip": 4.1
+      },
+      "sep": {
+        "precip": 4.9
+      },
+      "oct": {
+        "precip": 4.2
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 3.5
+      }
+    },
+    "annual": {
+      "totalPrecip": 44.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

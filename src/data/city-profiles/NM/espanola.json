@@ -222,5 +222,81 @@
       6,
       5.1
     ]
+  },
+  "climate": {
+    "station": "USC00293031",
+    "stationName": "ESPANOLA",
+    "distanceMi": 1.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.3,
+        "highTemp": 48.4,
+        "lowTemp": 16.3
+      },
+      "feb": {
+        "avgTemp": 37.9,
+        "highTemp": 54.7,
+        "lowTemp": 21
+      },
+      "mar": {
+        "avgTemp": 44.4,
+        "highTemp": 62.5,
+        "lowTemp": 26.3
+      },
+      "apr": {
+        "avgTemp": 51.2,
+        "highTemp": 69.7,
+        "lowTemp": 32.7
+      },
+      "may": {
+        "avgTemp": 59.3,
+        "highTemp": 78.3,
+        "lowTemp": 40.3
+      },
+      "jun": {
+        "avgTemp": 68.8,
+        "highTemp": 88.6,
+        "lowTemp": 49
+      },
+      "jul": {
+        "avgTemp": 74,
+        "highTemp": 91.3,
+        "lowTemp": 56.6
+      },
+      "aug": {
+        "avgTemp": 71.2,
+        "highTemp": 88.4,
+        "lowTemp": 54.1
+      },
+      "sep": {
+        "avgTemp": 64.1,
+        "highTemp": 81.9,
+        "lowTemp": 46.3
+      },
+      "oct": {
+        "avgTemp": 52.1,
+        "highTemp": 70.4,
+        "lowTemp": 33.8
+      },
+      "nov": {
+        "avgTemp": 41.1,
+        "highTemp": 58.8,
+        "lowTemp": 23.4
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 47.1,
+        "lowTemp": 15.7
+      }
+    },
+    "annual": {
+      "avgTemp": 52.3,
+      "highTemp": 70,
+      "lowTemp": 34.6,
+      "totalPrecip": 0,
+      "hotMonths": 2,
+      "coldMonths": 3
+    }
   }
 }

@@ -153,5 +153,93 @@
       6.5,
       6.6
     ]
+  },
+  "climate": {
+    "station": "USC00364214",
+    "stationName": "INDIANA 3 SE",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 26.7,
+        "highTemp": 35.8,
+        "lowTemp": 17.6,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 28.8,
+        "highTemp": 39.2,
+        "lowTemp": 18.4,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 37.1,
+        "highTemp": 48.8,
+        "lowTemp": 25.4,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 48.3,
+        "highTemp": 61.7,
+        "lowTemp": 34.9,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 58.7,
+        "highTemp": 71.5,
+        "lowTemp": 46,
+        "precip": 4.3
+      },
+      "jun": {
+        "avgTemp": 66.5,
+        "highTemp": 78.7,
+        "lowTemp": 54.4,
+        "precip": 4.8
+      },
+      "jul": {
+        "avgTemp": 70.7,
+        "highTemp": 82.5,
+        "lowTemp": 58.8,
+        "precip": 5.1
+      },
+      "aug": {
+        "avgTemp": 69.4,
+        "highTemp": 81.1,
+        "lowTemp": 57.7,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 63,
+        "highTemp": 74.8,
+        "lowTemp": 51.2,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 63.4,
+        "lowTemp": 40.3,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 40.5,
+        "highTemp": 51,
+        "lowTemp": 30,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 32.3,
+        "highTemp": 40.7,
+        "lowTemp": 23.9,
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 60.8,
+      "lowTemp": 38.2,
+      "totalPrecip": 47.8,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

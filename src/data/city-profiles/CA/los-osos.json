@@ -247,5 +247,93 @@
       4.9,
       5
     ]
+  },
+  "climate": {
+    "station": "USC00045866",
+    "stationName": "MORRO BAY FIRE DEPT",
+    "distanceMi": 3.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 55.7,
+        "highTemp": 65.1,
+        "lowTemp": 46.4,
+        "precip": 3.6
+      },
+      "feb": {
+        "avgTemp": 56.6,
+        "highTemp": 65.4,
+        "lowTemp": 47.8,
+        "precip": 3.6
+      },
+      "mar": {
+        "avgTemp": 57.3,
+        "highTemp": 66,
+        "lowTemp": 48.6,
+        "precip": 3.2
+      },
+      "apr": {
+        "avgTemp": 58.3,
+        "highTemp": 67.3,
+        "lowTemp": 49.2,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 59.3,
+        "highTemp": 66.9,
+        "lowTemp": 51.7,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 60,
+        "highTemp": 66.4,
+        "lowTemp": 53.6,
+        "precip": 0.2
+      },
+      "jul": {
+        "avgTemp": 61.8,
+        "highTemp": 67.2,
+        "lowTemp": 56.5,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 63.2,
+        "highTemp": 69.7,
+        "lowTemp": 56.8,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 63.7,
+        "highTemp": 71.5,
+        "lowTemp": 56,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 63.5,
+        "highTemp": 72.5,
+        "lowTemp": 54.4,
+        "precip": 0.7
+      },
+      "nov": {
+        "avgTemp": 59.7,
+        "highTemp": 69.1,
+        "lowTemp": 50.2,
+        "precip": 1.3
+      },
+      "dec": {
+        "avgTemp": 55.4,
+        "highTemp": 64.6,
+        "lowTemp": 46.2,
+        "precip": 2.8
+      }
+    },
+    "annual": {
+      "avgTemp": 59.5,
+      "highTemp": 67.6,
+      "lowTemp": 51.5,
+      "totalPrecip": 17,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

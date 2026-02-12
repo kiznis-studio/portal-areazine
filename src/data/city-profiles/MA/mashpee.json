@@ -239,5 +239,54 @@
       4.4,
       4.6
     ]
+  },
+  "climate": {
+    "station": "US1MABA0047",
+    "stationName": "MASHPEE 2.4 WSW",
+    "distanceMi": 2.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 4.4
+      },
+      "feb": {
+        "precip": 3.9
+      },
+      "mar": {
+        "precip": 5.2
+      },
+      "apr": {
+        "precip": 4
+      },
+      "may": {
+        "precip": 3.8
+      },
+      "jun": {
+        "precip": 3.6
+      },
+      "jul": {
+        "precip": 3
+      },
+      "aug": {
+        "precip": 3.8
+      },
+      "sep": {
+        "precip": 4
+      },
+      "oct": {
+        "precip": 4.9
+      },
+      "nov": {
+        "precip": 4.3
+      },
+      "dec": {
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "totalPrecip": 50.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,93 @@
       6.9,
       6.5
     ]
+  },
+  "climate": {
+    "station": "USW00093784",
+    "stationName": "MD SCI CTR BALTIMORE HCN",
+    "distanceMi": 2.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 36.9,
+        "highTemp": 43.7,
+        "lowTemp": 30,
+        "precip": 3.1
+      },
+      "feb": {
+        "avgTemp": 39.4,
+        "highTemp": 46.8,
+        "lowTemp": 31.9,
+        "precip": 2.8
+      },
+      "mar": {
+        "avgTemp": 46.9,
+        "highTemp": 55.2,
+        "lowTemp": 38.7,
+        "precip": 3.9
+      },
+      "apr": {
+        "avgTemp": 57.5,
+        "highTemp": 66.8,
+        "lowTemp": 48.2,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 67,
+        "highTemp": 75.9,
+        "lowTemp": 58,
+        "precip": 3.4
+      },
+      "jun": {
+        "avgTemp": 76.6,
+        "highTemp": 85.4,
+        "lowTemp": 67.7,
+        "precip": 3.4
+      },
+      "jul": {
+        "avgTemp": 81.5,
+        "highTemp": 90.1,
+        "lowTemp": 72.9,
+        "precip": 4.7
+      },
+      "aug": {
+        "avgTemp": 79.1,
+        "highTemp": 87.3,
+        "lowTemp": 71,
+        "precip": 4.4
+      },
+      "sep": {
+        "avgTemp": 72.5,
+        "highTemp": 80.4,
+        "lowTemp": 64.5,
+        "precip": 4.5
+      },
+      "oct": {
+        "avgTemp": 60.7,
+        "highTemp": 68.8,
+        "lowTemp": 52.6,
+        "precip": 3.5
+      },
+      "nov": {
+        "avgTemp": 50.1,
+        "highTemp": 57.6,
+        "lowTemp": 42.6,
+        "precip": 3
+      },
+      "dec": {
+        "avgTemp": 41.3,
+        "highTemp": 48,
+        "lowTemp": 34.6,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 59.1,
+      "highTemp": 67.2,
+      "lowTemp": 51.1,
+      "totalPrecip": 44,
+      "hotMonths": 4,
+      "coldMonths": 2
+    }
   }
 }

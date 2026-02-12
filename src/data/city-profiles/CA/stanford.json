@@ -287,5 +287,92 @@
       4.4,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00046646",
+    "stationName": "PALO ALTO",
+    "distanceMi": 2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 48.4,
+        "highTemp": 57.8,
+        "lowTemp": 39,
+        "precip": 3
+      },
+      "feb": {
+        "avgTemp": 51,
+        "highTemp": 60.7,
+        "lowTemp": 41.3,
+        "precip": 3.2
+      },
+      "mar": {
+        "avgTemp": 54.6,
+        "highTemp": 65.5,
+        "lowTemp": 43.6,
+        "precip": 2.2
+      },
+      "apr": {
+        "avgTemp": 57.4,
+        "highTemp": 69.6,
+        "lowTemp": 45.3,
+        "precip": 1
+      },
+      "may": {
+        "avgTemp": 61.4,
+        "highTemp": 73.3,
+        "lowTemp": 49.5,
+        "precip": 0.4
+      },
+      "jun": {
+        "avgTemp": 65.6,
+        "highTemp": 78.5,
+        "lowTemp": 52.7,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 67.6,
+        "highTemp": 79.4,
+        "lowTemp": 55.7
+      },
+      "aug": {
+        "avgTemp": 67,
+        "highTemp": 78.7,
+        "lowTemp": 55.3,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 66.3,
+        "highTemp": 79.6,
+        "lowTemp": 53,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 61.2,
+        "highTemp": 74,
+        "lowTemp": 48.4,
+        "precip": 0.6
+      },
+      "nov": {
+        "avgTemp": 53.1,
+        "highTemp": 63.7,
+        "lowTemp": 42.5,
+        "precip": 1.6
+      },
+      "dec": {
+        "avgTemp": 48.1,
+        "highTemp": 57.6,
+        "lowTemp": 38.6,
+        "precip": 3
+      }
+    },
+    "annual": {
+      "avgTemp": 58.5,
+      "highTemp": 69.9,
+      "lowTemp": 47.1,
+      "totalPrecip": 15.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -303,5 +303,93 @@
       7.1,
       6.9
     ]
+  },
+  "climate": {
+    "station": "USC00110442",
+    "stationName": "BARRINGTON 3SW",
+    "distanceMi": 3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 21.1,
+        "highTemp": 28.7,
+        "lowTemp": 13.4,
+        "precip": 2.1
+      },
+      "feb": {
+        "avgTemp": 24.6,
+        "highTemp": 32.8,
+        "lowTemp": 16.4,
+        "precip": 1.9
+      },
+      "mar": {
+        "avgTemp": 35.5,
+        "highTemp": 44.5,
+        "lowTemp": 26.5,
+        "precip": 2.4
+      },
+      "apr": {
+        "avgTemp": 47.3,
+        "highTemp": 57.5,
+        "lowTemp": 37.2,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 58.4,
+        "highTemp": 68.5,
+        "lowTemp": 48.3,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 67.8,
+        "highTemp": 77.5,
+        "lowTemp": 58.1,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 72,
+        "highTemp": 81.3,
+        "lowTemp": 62.6,
+        "precip": 4
+      },
+      "aug": {
+        "avgTemp": 70.2,
+        "highTemp": 79.2,
+        "lowTemp": 61.2,
+        "precip": 4.6
+      },
+      "sep": {
+        "avgTemp": 63,
+        "highTemp": 72.4,
+        "lowTemp": 53.6,
+        "precip": 3.7
+      },
+      "oct": {
+        "avgTemp": 50.8,
+        "highTemp": 60.1,
+        "lowTemp": 41.5,
+        "precip": 3.4
+      },
+      "nov": {
+        "avgTemp": 38.2,
+        "highTemp": 46.3,
+        "lowTemp": 30.2,
+        "precip": 2.6
+      },
+      "dec": {
+        "avgTemp": 27,
+        "highTemp": 34.2,
+        "lowTemp": 19.7,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 48,
+      "highTemp": 56.9,
+      "lowTemp": 39.1,
+      "totalPrecip": 40.7,
+      "hotMonths": 2,
+      "coldMonths": 5
+    }
   }
 }

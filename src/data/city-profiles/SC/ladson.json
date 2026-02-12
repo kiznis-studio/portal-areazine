@@ -216,5 +216,54 @@
       3.6,
       3.4
     ]
+  },
+  "climate": {
+    "station": "US1SCCR0034",
+    "stationName": "NORTH CHARLESTON 2.6 NW",
+    "distanceMi": 4.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.3
+      },
+      "feb": {
+        "precip": 3.3
+      },
+      "mar": {
+        "precip": 3.7
+      },
+      "apr": {
+        "precip": 3.5
+      },
+      "may": {
+        "precip": 3.5
+      },
+      "jun": {
+        "precip": 5.5
+      },
+      "jul": {
+        "precip": 6.8
+      },
+      "aug": {
+        "precip": 7.3
+      },
+      "sep": {
+        "precip": 6.1
+      },
+      "oct": {
+        "precip": 4
+      },
+      "nov": {
+        "precip": 3
+      },
+      "dec": {
+        "precip": 3.6
+      }
+    },
+    "annual": {
+      "totalPrecip": 53.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

@@ -222,5 +222,54 @@
       6.6,
       7.4
     ]
+  },
+  "climate": {
+    "station": "USC00034528",
+    "stationName": "MADISON 1 NW",
+    "distanceMi": 3.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.9
+      },
+      "feb": {
+        "precip": 4.2
+      },
+      "mar": {
+        "precip": 5.6
+      },
+      "apr": {
+        "precip": 5.6
+      },
+      "may": {
+        "precip": 5.4
+      },
+      "jun": {
+        "precip": 4.2
+      },
+      "jul": {
+        "precip": 3.6
+      },
+      "aug": {
+        "precip": 2.9
+      },
+      "sep": {
+        "precip": 2.9
+      },
+      "oct": {
+        "precip": 4.1
+      },
+      "nov": {
+        "precip": 4.4
+      },
+      "dec": {
+        "precip": 5.1
+      }
+    },
+    "annual": {
+      "totalPrecip": 51.9,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

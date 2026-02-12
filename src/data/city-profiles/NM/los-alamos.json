@@ -222,5 +222,93 @@
       1.9,
       2.1
     ]
+  },
+  "climate": {
+    "station": "USC00295084",
+    "stationName": "LOS ALAMOS",
+    "distanceMi": 1.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 30.4,
+        "highTemp": 40.3,
+        "lowTemp": 20.5,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 34.1,
+        "highTemp": 44.5,
+        "lowTemp": 23.6,
+        "precip": 0.7
+      },
+      "mar": {
+        "avgTemp": 41.5,
+        "highTemp": 53.4,
+        "lowTemp": 29.6,
+        "precip": 1
+      },
+      "apr": {
+        "avgTemp": 48.2,
+        "highTemp": 61,
+        "lowTemp": 35.4,
+        "precip": 0.9
+      },
+      "may": {
+        "avgTemp": 57.2,
+        "highTemp": 70.2,
+        "lowTemp": 44.2,
+        "precip": 1.2
+      },
+      "jun": {
+        "avgTemp": 67.2,
+        "highTemp": 80.9,
+        "lowTemp": 53.5,
+        "precip": 1.2
+      },
+      "jul": {
+        "avgTemp": 69.6,
+        "highTemp": 82.5,
+        "lowTemp": 56.7,
+        "precip": 2.9
+      },
+      "aug": {
+        "avgTemp": 67.3,
+        "highTemp": 79.5,
+        "lowTemp": 55.1,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 61.5,
+        "highTemp": 74,
+        "lowTemp": 49.1,
+        "precip": 2
+      },
+      "oct": {
+        "avgTemp": 50.6,
+        "highTemp": 62.7,
+        "lowTemp": 38.4,
+        "precip": 1.6
+      },
+      "nov": {
+        "avgTemp": 39.1,
+        "highTemp": 50.1,
+        "lowTemp": 28.2,
+        "precip": 1
+      },
+      "dec": {
+        "avgTemp": 30.5,
+        "highTemp": 40.3,
+        "lowTemp": 20.6,
+        "precip": 0.9
+      }
+    },
+    "annual": {
+      "avgTemp": 49.8,
+      "highTemp": 61.6,
+      "lowTemp": 37.9,
+      "totalPrecip": 17.5,
+      "hotMonths": 0,
+      "coldMonths": 4
+    }
   }
 }

@@ -263,5 +263,93 @@
       5.3,
       5.2
     ]
+  },
+  "climate": {
+    "station": "USC00143545",
+    "stationName": "HAYSVILLE 3SE",
+    "distanceMi": 3.8,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 32.2,
+        "highTemp": 43.8,
+        "lowTemp": 20.7,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 36.5,
+        "highTemp": 48.4,
+        "lowTemp": 24.6,
+        "precip": 1.5
+      },
+      "mar": {
+        "avgTemp": 46.3,
+        "highTemp": 58.6,
+        "lowTemp": 33.9,
+        "precip": 2.5
+      },
+      "apr": {
+        "avgTemp": 56,
+        "highTemp": 68.4,
+        "lowTemp": 43.7,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 66,
+        "highTemp": 76.8,
+        "lowTemp": 55.2,
+        "precip": 6
+      },
+      "jun": {
+        "avgTemp": 76.1,
+        "highTemp": 87.1,
+        "lowTemp": 65.2,
+        "precip": 6.3
+      },
+      "jul": {
+        "avgTemp": 80.3,
+        "highTemp": 91.7,
+        "lowTemp": 68.9,
+        "precip": 4.4
+      },
+      "aug": {
+        "avgTemp": 78.6,
+        "highTemp": 90.1,
+        "lowTemp": 67.1,
+        "precip": 4.3
+      },
+      "sep": {
+        "avgTemp": 70.5,
+        "highTemp": 83.2,
+        "lowTemp": 57.9,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 58.1,
+        "highTemp": 71.5,
+        "lowTemp": 44.8,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 45.3,
+        "highTemp": 57.4,
+        "lowTemp": 33.2,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 34.8,
+        "highTemp": 45.7,
+        "lowTemp": 24,
+        "precip": 1.3
+      }
+    },
+    "annual": {
+      "avgTemp": 56.7,
+      "highTemp": 68.6,
+      "lowTemp": 44.9,
+      "totalPrecip": 38.4,
+      "hotMonths": 4,
+      "coldMonths": 3
+    }
   }
 }

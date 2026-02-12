@@ -231,5 +231,54 @@
       6.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00167096",
+    "stationName": "PARADIS 7 S",
+    "distanceMi": 11.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5
+      },
+      "feb": {
+        "precip": 4.6
+      },
+      "mar": {
+        "precip": 4.8
+      },
+      "apr": {
+        "precip": 5
+      },
+      "may": {
+        "precip": 6.3
+      },
+      "jun": {
+        "precip": 7.7
+      },
+      "jul": {
+        "precip": 6.6
+      },
+      "aug": {
+        "precip": 7.2
+      },
+      "sep": {
+        "precip": 6
+      },
+      "oct": {
+        "precip": 4.4
+      },
+      "nov": {
+        "precip": 3.3
+      },
+      "dec": {
+        "precip": 5.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 66.1,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

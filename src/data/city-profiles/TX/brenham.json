@@ -222,5 +222,93 @@
       2.7,
       2.6
     ]
+  },
+  "climate": {
+    "station": "USC00411048",
+    "stationName": "BRENHAM HCN",
+    "distanceMi": 0.5,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 50.2,
+        "highTemp": 60.8,
+        "lowTemp": 39.6,
+        "precip": 3.7
+      },
+      "feb": {
+        "avgTemp": 53.7,
+        "highTemp": 64.4,
+        "lowTemp": 43,
+        "precip": 3.4
+      },
+      "mar": {
+        "avgTemp": 60.1,
+        "highTemp": 71,
+        "lowTemp": 49.2,
+        "precip": 3.6
+      },
+      "apr": {
+        "avgTemp": 67.4,
+        "highTemp": 78.1,
+        "lowTemp": 56.6,
+        "precip": 3.6
+      },
+      "may": {
+        "avgTemp": 74.9,
+        "highTemp": 84.8,
+        "lowTemp": 65,
+        "precip": 5.4
+      },
+      "jun": {
+        "avgTemp": 81.2,
+        "highTemp": 90.9,
+        "lowTemp": 71.6,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 83.8,
+        "highTemp": 93.7,
+        "lowTemp": 73.8,
+        "precip": 2.6
+      },
+      "aug": {
+        "avgTemp": 84.4,
+        "highTemp": 95,
+        "lowTemp": 73.7,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 79.1,
+        "highTemp": 89.8,
+        "lowTemp": 68.4,
+        "precip": 4.6
+      },
+      "oct": {
+        "avgTemp": 69.9,
+        "highTemp": 81.4,
+        "lowTemp": 58.5,
+        "precip": 5.1
+      },
+      "nov": {
+        "avgTemp": 59.1,
+        "highTemp": 70.1,
+        "lowTemp": 48.2,
+        "precip": 4.2
+      },
+      "dec": {
+        "avgTemp": 51.9,
+        "highTemp": 62.5,
+        "lowTemp": 41.3,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 68,
+      "highTemp": 78.5,
+      "lowTemp": 57.4,
+      "totalPrecip": 48.2,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }

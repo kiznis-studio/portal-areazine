@@ -231,5 +231,54 @@
       5,
       4.8
     ]
+  },
+  "climate": {
+    "station": "USC00280927",
+    "stationName": "BOUND BROOK 2W",
+    "distanceMi": 3.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.4
+      },
+      "feb": {
+        "precip": 2.7
+      },
+      "mar": {
+        "precip": 4.1
+      },
+      "apr": {
+        "precip": 3.8
+      },
+      "may": {
+        "precip": 3.9
+      },
+      "jun": {
+        "precip": 4.4
+      },
+      "jul": {
+        "precip": 5
+      },
+      "aug": {
+        "precip": 4.8
+      },
+      "sep": {
+        "precip": 4.1
+      },
+      "oct": {
+        "precip": 4.3
+      },
+      "nov": {
+        "precip": 3.2
+      },
+      "dec": {
+        "precip": 4
+      }
+    },
+    "annual": {
+      "totalPrecip": 47.7,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

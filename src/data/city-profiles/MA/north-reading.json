@@ -303,5 +303,93 @@
       4.4,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00194744",
+    "stationName": "MIDDLETON",
+    "distanceMi": 3.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 25.6,
+        "highTemp": 35,
+        "lowTemp": 16.1,
+        "precip": 3.5
+      },
+      "feb": {
+        "avgTemp": 27.6,
+        "highTemp": 37.8,
+        "lowTemp": 17.4,
+        "precip": 3.3
+      },
+      "mar": {
+        "avgTemp": 34.4,
+        "highTemp": 44.2,
+        "lowTemp": 24.6,
+        "precip": 4.5
+      },
+      "apr": {
+        "avgTemp": 45.5,
+        "highTemp": 56,
+        "lowTemp": 35,
+        "precip": 4.4
+      },
+      "may": {
+        "avgTemp": 56,
+        "highTemp": 66.7,
+        "lowTemp": 45.3,
+        "precip": 3.7
+      },
+      "jun": {
+        "avgTemp": 64.9,
+        "highTemp": 75.3,
+        "lowTemp": 54.6,
+        "precip": 4.3
+      },
+      "jul": {
+        "avgTemp": 70.6,
+        "highTemp": 80.7,
+        "lowTemp": 60.5,
+        "precip": 3.8
+      },
+      "aug": {
+        "avgTemp": 69.2,
+        "highTemp": 79.5,
+        "lowTemp": 59,
+        "precip": 3.3
+      },
+      "sep": {
+        "avgTemp": 62.3,
+        "highTemp": 72.8,
+        "lowTemp": 51.8,
+        "precip": 3.8
+      },
+      "oct": {
+        "avgTemp": 51.1,
+        "highTemp": 61.7,
+        "lowTemp": 40.5,
+        "precip": 4.8
+      },
+      "nov": {
+        "avgTemp": 40.8,
+        "highTemp": 50.2,
+        "lowTemp": 31.4,
+        "precip": 4
+      },
+      "dec": {
+        "avgTemp": 31.4,
+        "highTemp": 40.2,
+        "lowTemp": 22.6,
+        "precip": 4.8
+      }
+    },
+    "annual": {
+      "avgTemp": 48.3,
+      "highTemp": 58.3,
+      "lowTemp": 38.2,
+      "totalPrecip": 48.2,
+      "hotMonths": 1,
+      "coldMonths": 4
+    }
   }
 }

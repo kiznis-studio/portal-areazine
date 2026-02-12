@@ -239,5 +239,93 @@
       7.7,
       7.9
     ]
+  },
+  "climate": {
+    "station": "USW00024285",
+    "stationName": "NEWPORT HCN",
+    "distanceMi": 0.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 44.8,
+        "highTemp": 50.3,
+        "lowTemp": 39.3,
+        "precip": 10.3
+      },
+      "feb": {
+        "avgTemp": 45.4,
+        "highTemp": 51.6,
+        "lowTemp": 39.2,
+        "precip": 8.4
+      },
+      "mar": {
+        "avgTemp": 46,
+        "highTemp": 52.8,
+        "lowTemp": 39.2,
+        "precip": 6.8
+      },
+      "apr": {
+        "avgTemp": 47.7,
+        "highTemp": 54.3,
+        "lowTemp": 41.2,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 52,
+        "highTemp": 58.1,
+        "lowTemp": 45.9,
+        "precip": 3
+      },
+      "jun": {
+        "avgTemp": 55,
+        "highTemp": 61.2,
+        "lowTemp": 48.8,
+        "precip": 2.2
+      },
+      "jul": {
+        "avgTemp": 57.4,
+        "highTemp": 63.5,
+        "lowTemp": 51.2,
+        "precip": 0.6
+      },
+      "aug": {
+        "avgTemp": 58.1,
+        "highTemp": 64.1,
+        "lowTemp": 52.2,
+        "precip": 0.7
+      },
+      "sep": {
+        "avgTemp": 56.3,
+        "highTemp": 63.6,
+        "lowTemp": 48.9,
+        "precip": 2.3
+      },
+      "oct": {
+        "avgTemp": 52.3,
+        "highTemp": 59.6,
+        "lowTemp": 45.1,
+        "precip": 5.6
+      },
+      "nov": {
+        "avgTemp": 47.7,
+        "highTemp": 53.7,
+        "lowTemp": 41.7,
+        "precip": 10.2
+      },
+      "dec": {
+        "avgTemp": 44.7,
+        "highTemp": 50.3,
+        "lowTemp": 39.2,
+        "precip": 11.6
+      }
+    },
+    "annual": {
+      "avgTemp": 50.6,
+      "highTemp": 56.9,
+      "lowTemp": 44.3,
+      "totalPrecip": 67.2,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

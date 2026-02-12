@@ -222,5 +222,93 @@
       5.2,
       5.5
     ]
+  },
+  "climate": {
+    "station": "USC00233079",
+    "stationName": "FULTON",
+    "distanceMi": 0.3,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 28.2,
+        "highTemp": 36.8,
+        "lowTemp": 19.6,
+        "precip": 2.4
+      },
+      "feb": {
+        "avgTemp": 33,
+        "highTemp": 42.3,
+        "lowTemp": 23.7,
+        "precip": 2.2
+      },
+      "mar": {
+        "avgTemp": 42.9,
+        "highTemp": 53.1,
+        "lowTemp": 32.8,
+        "precip": 3.1
+      },
+      "apr": {
+        "avgTemp": 53.8,
+        "highTemp": 64.5,
+        "lowTemp": 43,
+        "precip": 4.8
+      },
+      "may": {
+        "avgTemp": 62.9,
+        "highTemp": 73.1,
+        "lowTemp": 52.7,
+        "precip": 5.2
+      },
+      "jun": {
+        "avgTemp": 71.5,
+        "highTemp": 81.6,
+        "lowTemp": 61.5,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 75.7,
+        "highTemp": 85.5,
+        "lowTemp": 65.8,
+        "precip": 4.5
+      },
+      "aug": {
+        "avgTemp": 74.6,
+        "highTemp": 85.1,
+        "lowTemp": 64.2,
+        "precip": 4
+      },
+      "sep": {
+        "avgTemp": 67,
+        "highTemp": 78,
+        "lowTemp": 56,
+        "precip": 4.2
+      },
+      "oct": {
+        "avgTemp": 55.2,
+        "highTemp": 66.3,
+        "lowTemp": 44.1,
+        "precip": 3.7
+      },
+      "nov": {
+        "avgTemp": 43,
+        "highTemp": 52.6,
+        "lowTemp": 33.4,
+        "precip": 3.1
+      },
+      "dec": {
+        "avgTemp": 32.9,
+        "highTemp": 41.3,
+        "lowTemp": 24.4,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 53.4,
+      "highTemp": 63.4,
+      "lowTemp": 43.4,
+      "totalPrecip": 44.2,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

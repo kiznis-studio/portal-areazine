@@ -255,5 +255,54 @@
       4.5,
       4.2
     ]
+  },
+  "climate": {
+    "station": "US1FLLE0022",
+    "stationName": "SAINT JAMES CITY 0.4 SSE",
+    "distanceMi": 7.2,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 2.7
+      },
+      "feb": {
+        "precip": 2
+      },
+      "mar": {
+        "precip": 2.1
+      },
+      "apr": {
+        "precip": 2.4
+      },
+      "may": {
+        "precip": 2.8
+      },
+      "jun": {
+        "precip": 8.5
+      },
+      "jul": {
+        "precip": 8
+      },
+      "aug": {
+        "precip": 9.4
+      },
+      "sep": {
+        "precip": 9.9
+      },
+      "oct": {
+        "precip": 3.3
+      },
+      "nov": {
+        "precip": 1.8
+      },
+      "dec": {
+        "precip": 1.9
+      }
+    },
+    "annual": {
+      "totalPrecip": 54.8,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

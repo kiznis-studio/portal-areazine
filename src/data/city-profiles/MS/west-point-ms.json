@@ -222,5 +222,54 @@
       8.8,
       6.7
     ]
+  },
+  "climate": {
+    "station": "USC00228792",
+    "stationName": "TIBBEE",
+    "distanceMi": 4.9,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 5.1
+      },
+      "feb": {
+        "precip": 5.8
+      },
+      "mar": {
+        "precip": 5.2
+      },
+      "apr": {
+        "precip": 5.7
+      },
+      "may": {
+        "precip": 4.7
+      },
+      "jun": {
+        "precip": 4.6
+      },
+      "jul": {
+        "precip": 5.2
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 3.9
+      },
+      "nov": {
+        "precip": 4.6
+      },
+      "dec": {
+        "precip": 5.4
+      }
+    },
+    "annual": {
+      "totalPrecip": 57.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

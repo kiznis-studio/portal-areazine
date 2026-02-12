@@ -303,5 +303,93 @@
       5.4,
       5.3
     ]
+  },
+  "climate": {
+    "station": "USW00023129",
+    "stationName": "LONG BEACH DAUGHERTY FLD 72297",
+    "distanceMi": 4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 57.1,
+        "highTemp": 67.4,
+        "lowTemp": 46.9,
+        "precip": 2.9
+      },
+      "feb": {
+        "avgTemp": 57.6,
+        "highTemp": 66.8,
+        "lowTemp": 48.4,
+        "precip": 3
+      },
+      "mar": {
+        "avgTemp": 59.9,
+        "highTemp": 68.6,
+        "lowTemp": 51.2,
+        "precip": 1.7
+      },
+      "apr": {
+        "avgTemp": 62.7,
+        "highTemp": 71.4,
+        "lowTemp": 53.9,
+        "precip": 0.6
+      },
+      "may": {
+        "avgTemp": 65.5,
+        "highTemp": 73.1,
+        "lowTemp": 57.9,
+        "precip": 0.3
+      },
+      "jun": {
+        "avgTemp": 68.7,
+        "highTemp": 76.1,
+        "lowTemp": 61.3,
+        "precip": 0.1
+      },
+      "jul": {
+        "avgTemp": 73.1,
+        "highTemp": 81.4,
+        "lowTemp": 64.9,
+        "precip": 0.1
+      },
+      "aug": {
+        "avgTemp": 74.3,
+        "highTemp": 83.2,
+        "lowTemp": 65.5,
+        "precip": 0
+      },
+      "sep": {
+        "avgTemp": 73.1,
+        "highTemp": 82.4,
+        "lowTemp": 63.9,
+        "precip": 0.1
+      },
+      "oct": {
+        "avgTemp": 68.4,
+        "highTemp": 77.7,
+        "lowTemp": 59.1,
+        "precip": 0.5
+      },
+      "nov": {
+        "avgTemp": 62,
+        "highTemp": 72.5,
+        "lowTemp": 51.6,
+        "precip": 0.8
+      },
+      "dec": {
+        "avgTemp": 56.7,
+        "highTemp": 66.7,
+        "lowTemp": 46.6,
+        "precip": 2.2
+      }
+    },
+    "annual": {
+      "avgTemp": 64.9,
+      "highTemp": 73.9,
+      "lowTemp": 55.9,
+      "totalPrecip": 12.3,
+      "hotMonths": 3,
+      "coldMonths": 0
+    }
   }
 }

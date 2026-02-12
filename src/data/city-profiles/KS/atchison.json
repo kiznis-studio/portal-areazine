@@ -222,5 +222,93 @@
       4.5,
       4.2
     ]
+  },
+  "climate": {
+    "station": "USC00140405",
+    "stationName": "ATCHISON HCN",
+    "distanceMi": 1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 27.3,
+        "highTemp": 36.2,
+        "lowTemp": 18.4,
+        "precip": 0.9
+      },
+      "feb": {
+        "avgTemp": 32.2,
+        "highTemp": 41.6,
+        "lowTemp": 22.8,
+        "precip": 1.2
+      },
+      "mar": {
+        "avgTemp": 43.2,
+        "highTemp": 54,
+        "lowTemp": 32.4,
+        "precip": 1.9
+      },
+      "apr": {
+        "avgTemp": 54,
+        "highTemp": 65,
+        "lowTemp": 42.9,
+        "precip": 3.4
+      },
+      "may": {
+        "avgTemp": 64.9,
+        "highTemp": 74.4,
+        "lowTemp": 55.4,
+        "precip": 5.3
+      },
+      "jun": {
+        "avgTemp": 74.4,
+        "highTemp": 83.7,
+        "lowTemp": 65.2,
+        "precip": 4.9
+      },
+      "jul": {
+        "avgTemp": 78.4,
+        "highTemp": 87.6,
+        "lowTemp": 69.3,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 76.5,
+        "highTemp": 86.4,
+        "lowTemp": 66.5,
+        "precip": 3.8
+      },
+      "sep": {
+        "avgTemp": 68.5,
+        "highTemp": 78.9,
+        "lowTemp": 58.1,
+        "precip": 3.5
+      },
+      "oct": {
+        "avgTemp": 56.4,
+        "highTemp": 66.6,
+        "lowTemp": 46.2,
+        "precip": 3.1
+      },
+      "nov": {
+        "avgTemp": 42.6,
+        "highTemp": 51.9,
+        "lowTemp": 33.3,
+        "precip": 1.8
+      },
+      "dec": {
+        "avgTemp": 31.8,
+        "highTemp": 40.1,
+        "lowTemp": 23.4,
+        "precip": 1.4
+      }
+    },
+    "annual": {
+      "avgTemp": 54.2,
+      "highTemp": 63.9,
+      "lowTemp": 44.5,
+      "totalPrecip": 36.4,
+      "hotMonths": 3,
+      "coldMonths": 3
+    }
   }
 }

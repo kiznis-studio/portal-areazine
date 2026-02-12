@@ -231,5 +231,93 @@
       6,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00017304",
+    "stationName": "SCOTTSBORO HCN",
+    "distanceMi": 1.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.8,
+        "highTemp": 50.4,
+        "lowTemp": 29.2,
+        "precip": 6.1
+      },
+      "feb": {
+        "avgTemp": 43.3,
+        "highTemp": 54.8,
+        "lowTemp": 31.9,
+        "precip": 5.7
+      },
+      "mar": {
+        "avgTemp": 51,
+        "highTemp": 63.3,
+        "lowTemp": 38.6,
+        "precip": 5.7
+      },
+      "apr": {
+        "avgTemp": 59.1,
+        "highTemp": 72.1,
+        "lowTemp": 46,
+        "precip": 5
+      },
+      "may": {
+        "avgTemp": 67.4,
+        "highTemp": 79.5,
+        "lowTemp": 55.4,
+        "precip": 4.6
+      },
+      "jun": {
+        "avgTemp": 75.2,
+        "highTemp": 86.4,
+        "lowTemp": 64,
+        "precip": 4.6
+      },
+      "jul": {
+        "avgTemp": 78.4,
+        "highTemp": 89.1,
+        "lowTemp": 67.7,
+        "precip": 5.2
+      },
+      "aug": {
+        "avgTemp": 77.8,
+        "highTemp": 89.1,
+        "lowTemp": 66.5,
+        "precip": 4.1
+      },
+      "sep": {
+        "avgTemp": 72.1,
+        "highTemp": 84.4,
+        "lowTemp": 59.8,
+        "precip": 4.3
+      },
+      "oct": {
+        "avgTemp": 60.9,
+        "highTemp": 74.3,
+        "lowTemp": 47.5,
+        "precip": 3.6
+      },
+      "nov": {
+        "avgTemp": 49.8,
+        "highTemp": 62.6,
+        "lowTemp": 37,
+        "precip": 4.8
+      },
+      "dec": {
+        "avgTemp": 42.8,
+        "highTemp": 53.5,
+        "lowTemp": 32,
+        "precip": 6.2
+      }
+    },
+    "annual": {
+      "avgTemp": 59.8,
+      "highTemp": 71.6,
+      "lowTemp": 48,
+      "totalPrecip": 59.9,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

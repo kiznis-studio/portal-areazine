@@ -231,5 +231,93 @@
       6.5,
       5.4
     ]
+  },
+  "climate": {
+    "station": "USC00169013",
+    "stationName": "THIBODAUX 4 SE HCN",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 54.2,
+        "highTemp": 63.8,
+        "lowTemp": 44.5,
+        "precip": 5.8
+      },
+      "feb": {
+        "avgTemp": 58.2,
+        "highTemp": 67.9,
+        "lowTemp": 48.5,
+        "precip": 4.4
+      },
+      "mar": {
+        "avgTemp": 63.9,
+        "highTemp": 73.9,
+        "lowTemp": 53.8,
+        "precip": 4.9
+      },
+      "apr": {
+        "avgTemp": 69.6,
+        "highTemp": 79.4,
+        "lowTemp": 59.7,
+        "precip": 4.9
+      },
+      "may": {
+        "avgTemp": 76.6,
+        "highTemp": 86,
+        "lowTemp": 67.3,
+        "precip": 5.9
+      },
+      "jun": {
+        "avgTemp": 81.9,
+        "highTemp": 90.5,
+        "lowTemp": 73.2,
+        "precip": 8.7
+      },
+      "jul": {
+        "avgTemp": 83.6,
+        "highTemp": 92,
+        "lowTemp": 75.2,
+        "precip": 8.4
+      },
+      "aug": {
+        "avgTemp": 83.5,
+        "highTemp": 92.1,
+        "lowTemp": 74.9,
+        "precip": 8.5
+      },
+      "sep": {
+        "avgTemp": 79.9,
+        "highTemp": 88.8,
+        "lowTemp": 71.1,
+        "precip": 6
+      },
+      "oct": {
+        "avgTemp": 71.4,
+        "highTemp": 81.8,
+        "lowTemp": 60.9,
+        "precip": 4.7
+      },
+      "nov": {
+        "avgTemp": 62.2,
+        "highTemp": 72.7,
+        "lowTemp": 51.8,
+        "precip": 3.8
+      },
+      "dec": {
+        "avgTemp": 56.4,
+        "highTemp": 66.3,
+        "lowTemp": 46.5,
+        "precip": 5.3
+      }
+    },
+    "annual": {
+      "avgTemp": 70.1,
+      "highTemp": 79.6,
+      "lowTemp": 60.6,
+      "totalPrecip": 71.3,
+      "hotMonths": 6,
+      "coldMonths": 0
+    }
   }
 }

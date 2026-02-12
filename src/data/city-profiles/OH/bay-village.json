@@ -303,5 +303,54 @@
       7.2,
       6.9
     ]
+  },
+  "climate": {
+    "station": "US1OHCY0039",
+    "stationName": "WESTLAKE 0.5 SSW",
+    "distanceMi": 2.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 3.2
+      },
+      "feb": {
+        "precip": 2.2
+      },
+      "mar": {
+        "precip": 3
+      },
+      "apr": {
+        "precip": 3.9
+      },
+      "may": {
+        "precip": 4.4
+      },
+      "jun": {
+        "precip": 3.8
+      },
+      "jul": {
+        "precip": 4.1
+      },
+      "aug": {
+        "precip": 4
+      },
+      "sep": {
+        "precip": 3.6
+      },
+      "oct": {
+        "precip": 3.7
+      },
+      "nov": {
+        "precip": 3.5
+      },
+      "dec": {
+        "precip": 3.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 42.6,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

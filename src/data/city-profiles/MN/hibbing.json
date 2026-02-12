@@ -255,5 +255,54 @@
       4.6,
       4.5
     ]
+  },
+  "climate": {
+    "station": "US1MNSL0015",
+    "stationName": "CHISHOLM 0.4 WSW",
+    "distanceMi": 4.7,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "precip": 1
+      },
+      "feb": {
+        "precip": 0.8
+      },
+      "mar": {
+        "precip": 1.2
+      },
+      "apr": {
+        "precip": 2
+      },
+      "may": {
+        "precip": 3
+      },
+      "jun": {
+        "precip": 4.3
+      },
+      "jul": {
+        "precip": 3.9
+      },
+      "aug": {
+        "precip": 3.5
+      },
+      "sep": {
+        "precip": 3.3
+      },
+      "oct": {
+        "precip": 2.7
+      },
+      "nov": {
+        "precip": 1.6
+      },
+      "dec": {
+        "precip": 1.2
+      }
+    },
+    "annual": {
+      "totalPrecip": 28.5,
+      "hotMonths": 0,
+      "coldMonths": 0
+    }
   }
 }

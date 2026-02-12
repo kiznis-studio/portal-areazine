@@ -231,5 +231,93 @@
       6.4,
       5.8
     ]
+  },
+  "climate": {
+    "station": "USC00221962",
+    "stationName": "CORINTH 7 SW HCN",
+    "distanceMi": 6.6,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 39.8,
+        "highTemp": 49.2,
+        "lowTemp": 30.4,
+        "precip": 4.9
+      },
+      "feb": {
+        "avgTemp": 43.7,
+        "highTemp": 54,
+        "lowTemp": 33.5,
+        "precip": 5
+      },
+      "mar": {
+        "avgTemp": 51.6,
+        "highTemp": 63,
+        "lowTemp": 40.1,
+        "precip": 5.4
+      },
+      "apr": {
+        "avgTemp": 60.5,
+        "highTemp": 72.6,
+        "lowTemp": 48.4,
+        "precip": 5.5
+      },
+      "may": {
+        "avgTemp": 69.2,
+        "highTemp": 80.2,
+        "lowTemp": 58.2,
+        "precip": 5.7
+      },
+      "jun": {
+        "avgTemp": 76.5,
+        "highTemp": 86.9,
+        "lowTemp": 66,
+        "precip": 5
+      },
+      "jul": {
+        "avgTemp": 79.9,
+        "highTemp": 90,
+        "lowTemp": 69.7,
+        "precip": 4.6
+      },
+      "aug": {
+        "avgTemp": 78.9,
+        "highTemp": 89.7,
+        "lowTemp": 68,
+        "precip": 3.6
+      },
+      "sep": {
+        "avgTemp": 72.5,
+        "highTemp": 84.5,
+        "lowTemp": 60.5,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 61,
+        "highTemp": 73.7,
+        "lowTemp": 48.2,
+        "precip": 4.3
+      },
+      "nov": {
+        "avgTemp": 49.6,
+        "highTemp": 61.4,
+        "lowTemp": 37.7,
+        "precip": 4.4
+      },
+      "dec": {
+        "avgTemp": 42.6,
+        "highTemp": 52.1,
+        "lowTemp": 33.2,
+        "precip": 6.3
+      }
+    },
+    "annual": {
+      "avgTemp": 60.5,
+      "highTemp": 71.4,
+      "lowTemp": 49.5,
+      "totalPrecip": 58.8,
+      "hotMonths": 4,
+      "coldMonths": 1
+    }
   }
 }

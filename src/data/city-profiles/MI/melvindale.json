@@ -303,5 +303,93 @@
       9,
       8.7
     ]
+  },
+  "climate": {
+    "station": "USC00202015",
+    "stationName": "DEARBORN",
+    "distanceMi": 4.1,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 24.8,
+        "highTemp": 32,
+        "lowTemp": 17.7,
+        "precip": 2.5
+      },
+      "feb": {
+        "avgTemp": 27,
+        "highTemp": 34.9,
+        "lowTemp": 19.1,
+        "precip": 2.3
+      },
+      "mar": {
+        "avgTemp": 35.8,
+        "highTemp": 45.2,
+        "lowTemp": 26.4,
+        "precip": 2.3
+      },
+      "apr": {
+        "avgTemp": 47.6,
+        "highTemp": 58.3,
+        "lowTemp": 36.9,
+        "precip": 3.3
+      },
+      "may": {
+        "avgTemp": 58.8,
+        "highTemp": 70,
+        "lowTemp": 47.5,
+        "precip": 3.6
+      },
+      "jun": {
+        "avgTemp": 68.5,
+        "highTemp": 79.2,
+        "lowTemp": 57.8,
+        "precip": 3.3
+      },
+      "jul": {
+        "avgTemp": 72.8,
+        "highTemp": 83.6,
+        "lowTemp": 62,
+        "precip": 3.5
+      },
+      "aug": {
+        "avgTemp": 71.3,
+        "highTemp": 81.8,
+        "lowTemp": 60.8,
+        "precip": 3.2
+      },
+      "sep": {
+        "avgTemp": 64.3,
+        "highTemp": 75.1,
+        "lowTemp": 53.4,
+        "precip": 3
+      },
+      "oct": {
+        "avgTemp": 51.9,
+        "highTemp": 62.1,
+        "lowTemp": 41.6,
+        "precip": 2.9
+      },
+      "nov": {
+        "avgTemp": 40.3,
+        "highTemp": 48.3,
+        "lowTemp": 32.3,
+        "precip": 2.7
+      },
+      "dec": {
+        "avgTemp": 30.5,
+        "highTemp": 36.9,
+        "lowTemp": 24,
+        "precip": 2.5
+      }
+    },
+    "annual": {
+      "avgTemp": 49.5,
+      "highTemp": 59,
+      "lowTemp": 40,
+      "totalPrecip": 35.1,
+      "hotMonths": 2,
+      "coldMonths": 4
+    }
   }
 }

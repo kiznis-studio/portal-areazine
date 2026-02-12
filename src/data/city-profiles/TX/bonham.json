@@ -222,5 +222,93 @@
       4.7,
       4.5
     ]
+  },
+  "climate": {
+    "station": "USC00410923",
+    "stationName": "BONHAM 3NNE",
+    "distanceMi": 4.4,
+    "source": "NOAA Climate Normals 1991-2020",
+    "monthly": {
+      "jan": {
+        "avgTemp": 42.8,
+        "highTemp": 52.9,
+        "lowTemp": 32.7,
+        "precip": 2.8
+      },
+      "feb": {
+        "avgTemp": 46.7,
+        "highTemp": 57.3,
+        "lowTemp": 36,
+        "precip": 3.1
+      },
+      "mar": {
+        "avgTemp": 54.4,
+        "highTemp": 65.2,
+        "lowTemp": 43.6,
+        "precip": 4.3
+      },
+      "apr": {
+        "avgTemp": 62.4,
+        "highTemp": 73.4,
+        "lowTemp": 51.4,
+        "precip": 4
+      },
+      "may": {
+        "avgTemp": 71,
+        "highTemp": 80.6,
+        "lowTemp": 61.4,
+        "precip": 4.9
+      },
+      "jun": {
+        "avgTemp": 79.3,
+        "highTemp": 88.9,
+        "lowTemp": 69.6,
+        "precip": 4.5
+      },
+      "jul": {
+        "avgTemp": 83.5,
+        "highTemp": 93.6,
+        "lowTemp": 73.4,
+        "precip": 3.2
+      },
+      "aug": {
+        "avgTemp": 83.1,
+        "highTemp": 93.8,
+        "lowTemp": 72.4,
+        "precip": 2.9
+      },
+      "sep": {
+        "avgTemp": 75.8,
+        "highTemp": 86.9,
+        "lowTemp": 64.8,
+        "precip": 4.1
+      },
+      "oct": {
+        "avgTemp": 64.8,
+        "highTemp": 76.5,
+        "lowTemp": 53.2,
+        "precip": 4.6
+      },
+      "nov": {
+        "avgTemp": 53.4,
+        "highTemp": 64.5,
+        "lowTemp": 42.3,
+        "precip": 3.5
+      },
+      "dec": {
+        "avgTemp": 44.8,
+        "highTemp": 54.9,
+        "lowTemp": 34.8,
+        "precip": 3.7
+      }
+    },
+    "annual": {
+      "avgTemp": 63.5,
+      "highTemp": 74,
+      "lowTemp": 53,
+      "totalPrecip": 45.6,
+      "hotMonths": 5,
+      "coldMonths": 0
+    }
   }
 }
