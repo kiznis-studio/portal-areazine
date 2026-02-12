@@ -404,5 +404,12 @@
     "nslpSchools": 624,
     "nslpPct": 88.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 111.491,
+    "year": "2023",
+    "msaName": "San Diego-Carlsbad, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.5% above national average"
   }
 }

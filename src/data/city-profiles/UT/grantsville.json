@@ -323,5 +323,12 @@
     "nslpSchools": 18,
     "nslpPct": 90,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.404,
+    "year": "2023",
+    "msaName": "Salt Lake City, UT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.6% below national average"
   }
 }

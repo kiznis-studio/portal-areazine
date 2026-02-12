@@ -319,5 +319,12 @@
       "hotMonths": 0,
       "coldMonths": 7
     }
+  },
+  "costOfLiving": {
+    "rpp": 104.547,
+    "year": "2023",
+    "msaName": "Anchorage, AK (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.5% above national average"
   }
 }

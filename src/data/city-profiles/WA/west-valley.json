@@ -340,5 +340,12 @@
     "nslpSchools": 48,
     "nslpPct": 69.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.008,
+    "year": "2023",
+    "msaName": "Yakima, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.0% below national average"
   }
 }

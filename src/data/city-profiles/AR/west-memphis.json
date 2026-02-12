@@ -323,5 +323,12 @@
     "nslpSchools": 15,
     "nslpPct": 93.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.427,
+    "year": "2023",
+    "msaName": "Memphis, TN-MS-AR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.6% below national average"
   }
 }

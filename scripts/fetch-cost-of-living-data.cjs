@@ -117,15 +117,30 @@ async function fetchCountyToMSAMapping() {
 
   // The Census Bureau delineation file maps counties to CBSAs (MSAs)
   // We'll use the NBER mirror which is a clean CSV
-  const url = 'https://data.nber.org/cbsa-csa-fips-county-crosswalk/cbsa2fipsxw.csv';
+  const url = 'https://data.nber.org/cbsa-csa-fips-county-crosswalk/2023/cbsa2fipsxw_2023.csv';
 
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const text = await res.text();
     const lines = text.trim().split('\n');
-    const header = lines[0].split(',').map(h => h.replace(/"/g, '').trim());
 
+    // Parse CSV with proper quote handling
+    function parseRow(line) {
+      const result = [];
+      let current = '';
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (ch === '"') { inQuotes = !inQuotes; }
+        else if (ch === ',' && !inQuotes) { result.push(current.trim()); current = ''; }
+        else { current += ch; }
+      }
+      result.push(current.trim());
+      return result;
+    }
+
+    const header = parseRow(lines[0]);
     const cbsaIdx = header.indexOf('cbsacode');
     const fipsStateIdx = header.indexOf('fipsstatecode');
     const fipsCountyIdx = header.indexOf('fipscountycode');
@@ -136,7 +151,7 @@ async function fetchCountyToMSAMapping() {
 
     const mapping = {}; // "stateFIPS-countyFIPS" → msaCode
     for (let i = 1; i < lines.length; i++) {
-      const cols = lines[i].split(',').map(c => c.replace(/"/g, '').trim());
+      const cols = parseRow(lines[i]);
       const cbsa = cols[cbsaIdx];
       const stateFips = cols[fipsStateIdx].padStart(2, '0');
       const countyFips = cols[fipsCountyIdx].padStart(3, '0');

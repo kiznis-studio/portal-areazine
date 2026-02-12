@@ -340,5 +340,12 @@
     "nslpSchools": 26,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.221,
+    "year": "2023",
+    "msaName": "Hickory-Lenoir-Morganton, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.8% below national average"
   }
 }

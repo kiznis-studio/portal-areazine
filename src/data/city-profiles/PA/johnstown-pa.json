@@ -215,5 +215,12 @@
     "nslpSchools": 14,
     "nslpPct": 93.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.064,
+    "year": "2023",
+    "msaName": "Johnstown, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.9% below national average"
   }
 }

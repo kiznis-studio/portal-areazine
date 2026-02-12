@@ -293,5 +293,12 @@
     "nslpSchools": 0,
     "nslpPct": 0,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.752,
+    "year": "2023",
+    "msaName": "Pocatello, ID (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.2% below national average"
   }
 }

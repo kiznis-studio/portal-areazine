@@ -309,5 +309,12 @@
     "nslpSchools": 68,
     "nslpPct": 94.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.22,
+    "year": "2023",
+    "msaName": "Houston-The Woodlands-Sugar Land, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.2% above national average"
   }
 }

@@ -364,5 +364,12 @@
     "nslpSchools": 105,
     "nslpPct": 76.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 110.084,
+    "year": "2023",
+    "msaName": "Santa Rosa, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.1% above national average"
   }
 }

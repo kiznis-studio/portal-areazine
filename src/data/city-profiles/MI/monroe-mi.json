@@ -320,5 +320,12 @@
     "nslpSchools": 15,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.214,
+    "year": "2023",
+    "msaName": "Monroe, MI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.8% below national average"
   }
 }

@@ -323,5 +323,12 @@
     "nslpSchools": 5,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.869,
+    "year": "2023",
+    "msaName": "Lubbock, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.1% below national average"
   }
 }

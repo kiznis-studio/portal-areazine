@@ -325,5 +325,12 @@
     "nslpSchools": 142,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.422,
+    "year": "2023",
+    "msaName": "Springfield, MA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.6% below national average"
   }
 }

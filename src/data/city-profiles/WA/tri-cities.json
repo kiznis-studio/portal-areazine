@@ -293,5 +293,12 @@
     "nslpSchools": 25,
     "nslpPct": 80.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.988,
+    "year": "2023",
+    "msaName": "Kennewick-Richland, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.0% below national average"
   }
 }

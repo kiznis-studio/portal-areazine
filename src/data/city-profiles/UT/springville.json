@@ -356,5 +356,12 @@
     "nslpSchools": 158,
     "nslpPct": 89.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.023,
+    "year": "2023",
+    "msaName": "Provo-Orem, UT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.0% below national average"
   }
 }

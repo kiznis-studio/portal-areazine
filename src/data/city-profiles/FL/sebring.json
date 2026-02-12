@@ -301,5 +301,12 @@
     "nslpSchools": 15,
     "nslpPct": 75,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.278,
+    "year": "2023",
+    "msaName": "Sebring, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.7% below national average"
   }
 }

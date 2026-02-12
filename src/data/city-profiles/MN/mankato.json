@@ -332,5 +332,12 @@
     "nslpSchools": 16,
     "nslpPct": 80,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.637,
+    "year": "2023",
+    "msaName": "Mankato-North Mankato, MN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.4% below national average"
   }
 }

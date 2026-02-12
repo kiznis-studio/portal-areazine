@@ -301,5 +301,12 @@
     "nslpSchools": 29,
     "nslpPct": 85.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.038,
+    "year": "2023",
+    "msaName": "Racine, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.0% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 17,
     "nslpPct": 89.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 80.325,
+    "year": "2023",
+    "msaName": "Pine Bluff, AR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "19.7% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 45,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.979,
+    "year": "2023",
+    "msaName": "Charlotte-Concord-Gastonia, NC-SC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.0% below national average"
   }
 }

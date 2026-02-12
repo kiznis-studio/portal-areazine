@@ -301,5 +301,12 @@
     "nslpSchools": 64,
     "nslpPct": 98.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.957,
+    "year": "2023",
+    "msaName": "Fayetteville-Springdale-Rogers, AR-MO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.0% below national average"
   }
 }

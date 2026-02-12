@@ -332,5 +332,12 @@
     "nslpSchools": 16,
     "nslpPct": 94.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.195,
+    "year": "2023",
+    "msaName": "Grand Forks, ND-MN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.8% below national average"
   }
 }

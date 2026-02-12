@@ -309,5 +309,12 @@
     "nslpSchools": 66,
     "nslpPct": 93,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.618,
+    "year": "2023",
+    "msaName": "Fort Collins, CO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.4% below national average"
   }
 }

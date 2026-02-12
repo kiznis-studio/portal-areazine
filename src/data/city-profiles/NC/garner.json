@@ -348,5 +348,12 @@
     "nslpSchools": 196,
     "nslpPct": 92,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.989,
+    "year": "2023",
+    "msaName": "Raleigh, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.0% below national average"
   }
 }

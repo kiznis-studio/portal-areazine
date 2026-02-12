@@ -293,5 +293,12 @@
     "nslpSchools": 23,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.945,
+    "year": "2023",
+    "msaName": "New Bern, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.1% below national average"
   }
 }

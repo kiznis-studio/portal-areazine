@@ -301,5 +301,12 @@
     "nslpSchools": 84,
     "nslpPct": 98.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.385,
+    "year": "2023",
+    "msaName": "Fayetteville, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.6% below national average"
   }
 }

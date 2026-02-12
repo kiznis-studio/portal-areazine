@@ -332,5 +332,12 @@
     "nslpSchools": 41,
     "nslpPct": 93.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.147,
+    "year": "2023",
+    "msaName": "Wilmington, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.9% below national average"
   }
 }

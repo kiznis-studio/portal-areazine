@@ -304,5 +304,12 @@
       "hotMonths": 3,
       "coldMonths": 3
     }
+  },
+  "costOfLiving": {
+    "rpp": 90.284,
+    "year": "2023",
+    "msaName": "Lynchburg, VA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.7% below national average"
   }
 }

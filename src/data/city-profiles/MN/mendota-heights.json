@@ -320,5 +320,12 @@
     "nslpSchools": 108,
     "nslpPct": 70.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 104.509,
+    "year": "2023",
+    "msaName": "Minneapolis-St. Paul-Bloomington, MN-WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.5% above national average"
   }
 }

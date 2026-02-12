@@ -293,5 +293,12 @@
     "nslpSchools": 28,
     "nslpPct": 66.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.745,
+    "year": "2023",
+    "msaName": "Vineland-Bridgeton, NJ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.3% below national average"
   }
 }

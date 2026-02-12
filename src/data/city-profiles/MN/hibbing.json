@@ -317,5 +317,12 @@
     "nslpSchools": 26,
     "nslpPct": 68.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.98,
+    "year": "2023",
+    "msaName": "Duluth, MN-WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.0% below national average"
   }
 }

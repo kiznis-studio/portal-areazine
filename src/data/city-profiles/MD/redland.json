@@ -372,5 +372,12 @@
     "nslpSchools": 190,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 108.641,
+    "year": "2023",
+    "msaName": "Washington-Arlington-Alexandria, DC-VA-MD-WV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.6% above national average"
   }
 }

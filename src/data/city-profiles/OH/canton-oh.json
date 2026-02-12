@@ -309,5 +309,12 @@
     "nslpSchools": 68,
     "nslpPct": 90.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.539,
+    "year": "2023",
+    "msaName": "Canton-Massillon, OH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.5% below national average"
   }
 }

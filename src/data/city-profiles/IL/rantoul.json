@@ -340,5 +340,12 @@
     "nslpSchools": 32,
     "nslpPct": 78,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.826,
+    "year": "2023",
+    "msaName": "Champaign-Urbana, IL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.2% below national average"
   }
 }

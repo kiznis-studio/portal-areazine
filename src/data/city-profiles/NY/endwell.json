@@ -328,5 +328,12 @@
     "nslpSchools": 36,
     "nslpPct": 90,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.63,
+    "year": "2023",
+    "msaName": "Binghamton, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.4% below national average"
   }
 }

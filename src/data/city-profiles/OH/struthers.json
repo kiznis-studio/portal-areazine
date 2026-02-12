@@ -309,5 +309,12 @@
     "nslpSchools": 38,
     "nslpPct": 90.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.008,
+    "year": "2023",
+    "msaName": "Youngstown-Warren-Boardman, OH-PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.0% below national average"
   }
 }

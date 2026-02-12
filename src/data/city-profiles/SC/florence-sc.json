@@ -340,5 +340,12 @@
     "nslpSchools": 22,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.997,
+    "year": "2023",
+    "msaName": "Florence, SC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.0% below national average"
   }
 }

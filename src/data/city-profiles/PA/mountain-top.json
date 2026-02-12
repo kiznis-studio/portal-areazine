@@ -278,5 +278,12 @@
     "nslpSchools": 15,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.968,
+    "year": "2023",
+    "msaName": "Scranton--Wilkes-Barre--Hazleton, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.0% below national average"
   }
 }

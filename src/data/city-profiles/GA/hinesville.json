@@ -323,5 +323,12 @@
     "nslpSchools": 10,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.888,
+    "year": "2023",
+    "msaName": "Hinesville, GA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.1% below national average"
   }
 }

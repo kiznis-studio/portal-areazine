@@ -309,5 +309,12 @@
     "nslpSchools": 52,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 83.601,
+    "year": "2023",
+    "msaName": "Monroe, LA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "16.4% below national average"
   }
 }

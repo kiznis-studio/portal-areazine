@@ -309,5 +309,12 @@
     "nslpSchools": 30,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.83,
+    "year": "2023",
+    "msaName": "Iowa City, IA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.2% below national average"
   }
 }

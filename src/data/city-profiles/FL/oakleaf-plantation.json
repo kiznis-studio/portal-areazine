@@ -301,5 +301,12 @@
     "nslpSchools": 12,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 99.216,
+    "year": "2023",
+    "msaName": "Jacksonville, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.8% below national average"
   }
 }

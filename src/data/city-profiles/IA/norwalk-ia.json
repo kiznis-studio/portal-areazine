@@ -317,5 +317,12 @@
     "nslpSchools": 11,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.659,
+    "year": "2023",
+    "msaName": "Des Moines-West Des Moines, IA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.3% below national average"
   }
 }

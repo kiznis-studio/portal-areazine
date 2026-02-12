@@ -340,5 +340,12 @@
     "nslpSchools": 105,
     "nslpPct": 96.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.68,
+    "year": "2023",
+    "msaName": "Greensboro-High Point, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.3% below national average"
   }
 }

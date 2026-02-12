@@ -301,5 +301,12 @@
     "nslpSchools": 39,
     "nslpPct": 92.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.039,
+    "year": "2023",
+    "msaName": "Macon, GA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.0% below national average"
   }
 }

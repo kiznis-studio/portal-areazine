@@ -332,5 +332,12 @@
     "nslpSchools": 0,
     "nslpPct": 0,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.883,
+    "year": "2023",
+    "msaName": "Coeur d'Alene, ID (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.1% below national average"
   }
 }

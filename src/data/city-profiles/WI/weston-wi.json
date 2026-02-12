@@ -340,5 +340,12 @@
     "nslpSchools": 26,
     "nslpPct": 92.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.133,
+    "year": "2023",
+    "msaName": "Wausau, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.9% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 31,
     "nslpPct": 96.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.097,
+    "year": "2023",
+    "msaName": "Gainesville, GA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.9% below national average"
   }
 }

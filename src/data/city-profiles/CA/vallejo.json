@@ -355,5 +355,12 @@
     "nslpSchools": 88,
     "nslpPct": 89.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 109.2,
+    "year": "2023",
+    "msaName": "Vallejo-Fairfield, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.2% above national average"
   }
 }

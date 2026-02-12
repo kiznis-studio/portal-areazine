@@ -348,5 +348,12 @@
     "nslpSchools": 124,
     "nslpPct": 81.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 112.991,
+    "year": "2023",
+    "msaName": "Seattle-Tacoma-Bellevue, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.0% above national average"
   }
 }

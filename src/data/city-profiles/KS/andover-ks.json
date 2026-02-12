@@ -301,5 +301,12 @@
     "nslpSchools": 13,
     "nslpPct": 86.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.481,
+    "year": "2023",
+    "msaName": "Wichita, KS (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.5% below national average"
   }
 }

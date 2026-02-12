@@ -328,5 +328,12 @@
     "nslpSchools": 30,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.654,
+    "year": "2023",
+    "msaName": "Hilton Head Island-Bluffton-Beaufort, SC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.3% below national average"
   }
 }

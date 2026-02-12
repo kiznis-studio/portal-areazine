@@ -301,5 +301,12 @@
     "nslpSchools": 49,
     "nslpPct": 92.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.597,
+    "year": "2023",
+    "msaName": "Appleton, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.4% below national average"
   }
 }

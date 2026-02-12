@@ -340,5 +340,12 @@
     "nslpSchools": 18,
     "nslpPct": 94.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.223,
+    "year": "2023",
+    "msaName": "Rome, GA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.8% below national average"
   }
 }

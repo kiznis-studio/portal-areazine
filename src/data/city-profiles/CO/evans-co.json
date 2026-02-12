@@ -340,5 +340,12 @@
     "nslpSchools": 60,
     "nslpPct": 93.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.987,
+    "year": "2023",
+    "msaName": "Greeley, CO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.0% below national average"
   }
 }

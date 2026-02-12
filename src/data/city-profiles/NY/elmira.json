@@ -293,5 +293,12 @@
     "nslpSchools": 10,
     "nslpPct": 83.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.201,
+    "year": "2023",
+    "msaName": "Elmira, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.8% below national average"
   }
 }

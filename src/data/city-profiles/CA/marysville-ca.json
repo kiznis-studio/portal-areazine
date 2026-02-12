@@ -320,5 +320,12 @@
     "nslpSchools": 20,
     "nslpPct": 76.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.638,
+    "year": "2023",
+    "msaName": "Yuba City, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.6% above national average"
   }
 }

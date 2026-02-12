@@ -332,5 +332,12 @@
     "nslpSchools": 36,
     "nslpPct": 94.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.748,
+    "year": "2023",
+    "msaName": "Burlington, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.3% below national average"
   }
 }

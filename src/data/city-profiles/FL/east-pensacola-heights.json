@@ -309,5 +309,12 @@
     "nslpSchools": 53,
     "nslpPct": 82.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.56,
+    "year": "2023",
+    "msaName": "Pensacola-Ferry Pass-Brent, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.4% below national average"
   }
 }

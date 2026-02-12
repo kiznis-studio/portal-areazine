@@ -301,5 +301,12 @@
     "nslpSchools": 48,
     "nslpPct": 80,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.28,
+    "year": "2023",
+    "msaName": "Tallahassee, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.7% below national average"
   }
 }

@@ -396,5 +396,12 @@
     "nslpSchools": 216,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.007,
+    "year": "2023",
+    "msaName": "Detroit-Warren-Dearborn, MI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.0% below national average"
   }
 }

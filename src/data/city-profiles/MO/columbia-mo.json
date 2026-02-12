@@ -309,5 +309,12 @@
     "nslpSchools": 35,
     "nslpPct": 92.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.28,
+    "year": "2023",
+    "msaName": "Columbia, MO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.7% below national average"
   }
 }

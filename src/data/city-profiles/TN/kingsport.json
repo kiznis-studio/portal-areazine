@@ -348,5 +348,12 @@
     "nslpSchools": 28,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.354,
+    "year": "2023",
+    "msaName": "Kingsport-Bristol-Bristol, TN-VA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.6% below national average"
   }
 }

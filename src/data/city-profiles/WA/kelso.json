@@ -332,5 +332,12 @@
     "nslpSchools": 24,
     "nslpPct": 77.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 99.411,
+    "year": "2023",
+    "msaName": "Longview, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.6% below national average"
   }
 }

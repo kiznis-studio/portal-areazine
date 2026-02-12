@@ -396,5 +396,12 @@
     "nslpSchools": 238,
     "nslpPct": 90.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.433,
+    "year": "2023",
+    "msaName": "Tampa-St. Petersburg-Clearwater, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.4% above national average"
   }
 }

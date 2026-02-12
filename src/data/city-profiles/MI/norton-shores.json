@@ -332,5 +332,12 @@
     "nslpSchools": 47,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.683,
+    "year": "2023",
+    "msaName": "Muskegon, MI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.3% below national average"
   }
 }

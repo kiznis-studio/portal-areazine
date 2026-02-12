@@ -332,5 +332,12 @@
     "nslpSchools": 22,
     "nslpPct": 95.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.778,
+    "year": "2023",
+    "msaName": "Greenville-Anderson-Mauldin, SC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.2% below national average"
   }
 }

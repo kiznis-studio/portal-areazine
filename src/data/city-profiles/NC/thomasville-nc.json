@@ -301,5 +301,12 @@
     "nslpSchools": 39,
     "nslpPct": 97.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.406,
+    "year": "2023",
+    "msaName": "Winston-Salem, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.6% below national average"
   }
 }

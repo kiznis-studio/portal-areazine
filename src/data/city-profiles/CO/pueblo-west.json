@@ -301,5 +301,12 @@
     "nslpSchools": 50,
     "nslpPct": 89.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.397,
+    "year": "2023",
+    "msaName": "Pueblo, CO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.6% below national average"
   }
 }

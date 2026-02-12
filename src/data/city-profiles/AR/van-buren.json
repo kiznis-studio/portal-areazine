@@ -284,5 +284,12 @@
     "nslpSchools": 11,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.062,
+    "year": "2023",
+    "msaName": "Fort Smith, AR-OK (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.9% below national average"
   }
 }

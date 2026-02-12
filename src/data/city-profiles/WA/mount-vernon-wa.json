@@ -309,5 +309,12 @@
     "nslpSchools": 26,
     "nslpPct": 72.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 106.018,
+    "year": "2023",
+    "msaName": "Mount Vernon-Anacortes, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.0% above national average"
   }
 }

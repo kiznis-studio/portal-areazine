@@ -340,5 +340,12 @@
     "nslpSchools": 24,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.17,
+    "year": "2023",
+    "msaName": "Atlantic City-Hammonton, NJ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.8% below national average"
   }
 }

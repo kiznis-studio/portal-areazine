@@ -332,5 +332,12 @@
     "nslpSchools": 27,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.652,
+    "year": "2023",
+    "msaName": "Dover, DE (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.3% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 20,
     "nslpPct": 51.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.27,
+    "year": "2023",
+    "msaName": "Flagstaff, AZ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.7% below national average"
   }
 }

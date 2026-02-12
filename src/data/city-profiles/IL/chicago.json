@@ -392,5 +392,12 @@
     "nslpSchools": 1130,
     "nslpPct": 85,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.557,
+    "year": "2023",
+    "msaName": "Chicago-Naperville-Elgin, IL-IN-WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.6% above national average"
   }
 }

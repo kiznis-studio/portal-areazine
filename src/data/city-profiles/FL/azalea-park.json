@@ -356,5 +356,12 @@
     "nslpSchools": 235,
     "nslpPct": 87,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 101.109,
+    "year": "2023",
+    "msaName": "Orlando-Kissimmee-Sanford, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.1% above national average"
   }
 }

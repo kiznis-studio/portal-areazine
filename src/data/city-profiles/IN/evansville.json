@@ -340,5 +340,12 @@
     "nslpSchools": 38,
     "nslpPct": 95,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.763,
+    "year": "2023",
+    "msaName": "Evansville, IN-KY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.2% below national average"
   }
 }

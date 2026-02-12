@@ -332,5 +332,12 @@
     "nslpSchools": 26,
     "nslpPct": 76.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.678,
+    "year": "2023",
+    "msaName": "Sierra Vista-Douglas, AZ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.3% below national average"
   }
 }

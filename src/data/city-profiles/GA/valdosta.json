@@ -320,5 +320,12 @@
     "nslpSchools": 17,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.712,
+    "year": "2023",
+    "msaName": "Valdosta, GA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.3% below national average"
   }
 }

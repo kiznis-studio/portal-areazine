@@ -332,5 +332,12 @@
     "nslpSchools": 25,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.278,
+    "year": "2023",
+    "msaName": "Jackson, TN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.7% below national average"
   }
 }

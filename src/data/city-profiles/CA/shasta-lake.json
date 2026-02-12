@@ -340,5 +340,12 @@
     "nslpSchools": 49,
     "nslpPct": 77.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.836,
+    "year": "2023",
+    "msaName": "Redding, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.8% above national average"
   }
 }

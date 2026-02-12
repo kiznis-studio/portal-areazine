@@ -357,5 +357,12 @@
     "nslpSchools": 237,
     "nslpPct": 68.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.346,
+    "year": "2023",
+    "msaName": "Tucson, AZ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.7% below national average"
   }
 }

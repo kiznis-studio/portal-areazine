@@ -332,5 +332,12 @@
     "nslpSchools": 12,
     "nslpPct": 80,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.824,
+    "year": "2023",
+    "msaName": "Danville, IL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.2% below national average"
   }
 }

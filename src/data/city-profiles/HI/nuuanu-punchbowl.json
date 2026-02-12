@@ -333,5 +333,12 @@
     "nslpSchools": 140,
     "nslpPct": 94.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 110.246,
+    "year": "2023",
+    "msaName": "Urban Honolulu, HI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.2% above national average"
   }
 }

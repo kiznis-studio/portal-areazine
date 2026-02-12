@@ -332,5 +332,12 @@
     "nslpSchools": 21,
     "nslpPct": 95.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.344,
+    "year": "2023",
+    "msaName": "Winchester, VA-WV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.7% below national average"
   }
 }

@@ -307,5 +307,12 @@
     "nslpSchools": 83,
     "nslpPct": 90.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 108.888,
+    "year": "2023",
+    "msaName": "Sacramento--Roseville--Arden-Arcade, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.9% above national average"
   }
 }

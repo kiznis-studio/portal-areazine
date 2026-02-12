@@ -332,5 +332,12 @@
     "nslpSchools": 21,
     "nslpPct": 87.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.315,
+    "year": "2023",
+    "msaName": "Rapid City, SD (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.7% below national average"
   }
 }

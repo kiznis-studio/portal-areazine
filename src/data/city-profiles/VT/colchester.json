@@ -332,5 +332,12 @@
     "nslpSchools": 29,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.04,
+    "year": "2023",
+    "msaName": "Burlington-South Burlington, VT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.0% above national average"
   }
 }

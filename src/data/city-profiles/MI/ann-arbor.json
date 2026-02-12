@@ -317,5 +317,12 @@
     "nslpSchools": 73,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.968,
+    "year": "2023",
+    "msaName": "Ann Arbor, MI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.0% below national average"
   }
 }

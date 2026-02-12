@@ -332,5 +332,12 @@
     "nslpSchools": 12,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.991,
+    "year": "2023",
+    "msaName": "Wheeling, WV-OH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.0% below national average"
   }
 }

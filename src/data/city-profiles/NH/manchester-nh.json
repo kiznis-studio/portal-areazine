@@ -364,5 +364,12 @@
     "nslpSchools": 54,
     "nslpPct": 80.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 105.074,
+    "year": "2023",
+    "msaName": "Manchester-Nashua, NH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.1% above national average"
   }
 }

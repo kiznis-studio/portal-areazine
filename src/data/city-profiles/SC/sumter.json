@@ -332,5 +332,12 @@
     "nslpSchools": 21,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.25,
+    "year": "2023",
+    "msaName": "Sumter, SC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.8% below national average"
   }
 }

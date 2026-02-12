@@ -332,5 +332,12 @@
     "nslpSchools": 15,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.12,
+    "year": "2023",
+    "msaName": "Salisbury, MD-DE (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.9% below national average"
   }
 }

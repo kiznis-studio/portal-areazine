@@ -356,5 +356,12 @@
     "nslpSchools": 31,
     "nslpPct": 67.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.895,
+    "year": "2023",
+    "msaName": "Lake Havasu City-Kingman, AZ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.1% below national average"
   }
 }

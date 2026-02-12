@@ -293,5 +293,12 @@
     "nslpSchools": 47,
     "nslpPct": 83.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 112.473,
+    "year": "2023",
+    "msaName": "New York-Newark-Jersey City, NY-NJ-PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.5% above national average"
   }
 }

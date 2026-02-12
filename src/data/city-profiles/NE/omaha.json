@@ -333,5 +333,12 @@
     "nslpSchools": 149,
     "nslpPct": 80.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.519,
+    "year": "2023",
+    "msaName": "Omaha-Council Bluffs, NE-IA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.5% below national average"
   }
 }

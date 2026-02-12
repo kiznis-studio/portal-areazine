@@ -320,5 +320,12 @@
     "nslpSchools": 48,
     "nslpPct": 80,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.415,
+    "year": "2023",
+    "msaName": "Hanford-Corcoran, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.6% below national average"
   }
 }

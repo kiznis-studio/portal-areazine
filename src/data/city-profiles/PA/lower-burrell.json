@@ -262,5 +262,12 @@
     "nslpSchools": 21,
     "nslpPct": 95.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.442,
+    "year": "2023",
+    "msaName": "Pittsburgh, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.6% below national average"
   }
 }

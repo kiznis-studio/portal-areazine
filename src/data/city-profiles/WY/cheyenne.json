@@ -301,5 +301,12 @@
     "nslpSchools": 37,
     "nslpPct": 94.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.93,
+    "year": "2023",
+    "msaName": "Cheyenne, WY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.1% below national average"
   }
 }

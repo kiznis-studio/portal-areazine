@@ -332,5 +332,12 @@
     "nslpSchools": 9,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.82,
+    "year": "2023",
+    "msaName": "Cumberland, MD-WV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.2% below national average"
   }
 }

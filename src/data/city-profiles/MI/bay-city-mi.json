@@ -332,5 +332,12 @@
     "nslpSchools": 19,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.565,
+    "year": "2023",
+    "msaName": "Bay City, MI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.4% below national average"
   }
 }

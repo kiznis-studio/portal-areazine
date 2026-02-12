@@ -332,5 +332,12 @@
     "nslpSchools": 9,
     "nslpPct": 75,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.018,
+    "year": "2023",
+    "msaName": "Louisville/Jefferson County, KY-IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.0% below national average"
   }
 }

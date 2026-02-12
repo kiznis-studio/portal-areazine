@@ -301,5 +301,12 @@
     "nslpSchools": 95,
     "nslpPct": 92.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.132,
+    "year": "2023",
+    "msaName": "Ogden-Clearfield, UT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.9% below national average"
   }
 }

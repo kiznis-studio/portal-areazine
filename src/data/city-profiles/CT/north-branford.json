@@ -237,5 +237,12 @@
     "nslpSchools": 137,
     "nslpPct": 95.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.502,
+    "year": "2023",
+    "msaName": "New Haven-Milford, CT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.5% above national average"
   }
 }

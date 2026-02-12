@@ -332,5 +332,12 @@
     "nslpSchools": 11,
     "nslpPct": 64.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.034,
+    "year": "2023",
+    "msaName": "Walla Walla, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.0% below national average"
   }
 }

@@ -340,5 +340,12 @@
     "nslpSchools": 19,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.02,
+    "year": "2023",
+    "msaName": "Gadsden, AL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.0% below national average"
   }
 }

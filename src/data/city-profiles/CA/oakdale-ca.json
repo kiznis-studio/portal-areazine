@@ -309,5 +309,12 @@
     "nslpSchools": 139,
     "nslpPct": 90.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 104.962,
+    "year": "2023",
+    "msaName": "Modesto, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.0% above national average"
   }
 }

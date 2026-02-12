@@ -215,5 +215,12 @@
     "nslpSchools": 27,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.386,
+    "year": "2023",
+    "msaName": "Elizabethtown-Fort Knox, KY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.6% below national average"
   }
 }

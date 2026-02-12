@@ -332,5 +332,12 @@
     "nslpSchools": 0,
     "nslpPct": 0,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.203,
+    "year": "2023",
+    "msaName": "Lewiston, ID-WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.8% below national average"
   }
 }

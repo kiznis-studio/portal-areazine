@@ -299,5 +299,12 @@
     "nslpSchools": 45,
     "nslpPct": 83.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.08,
+    "year": "2023",
+    "msaName": "El Centro, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.1% above national average"
   }
 }

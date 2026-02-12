@@ -356,5 +356,12 @@
     "nslpSchools": 42,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.672,
+    "year": "2023",
+    "msaName": "Baltimore-Columbia-Towson, MD (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.7% above national average"
   }
 }

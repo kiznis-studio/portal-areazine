@@ -293,5 +293,12 @@
     "nslpSchools": 12,
     "nslpPct": 85.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.218,
+    "year": "2023",
+    "msaName": "Harrisonburg, VA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.8% below national average"
   }
 }

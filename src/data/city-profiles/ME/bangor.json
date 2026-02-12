@@ -348,5 +348,12 @@
     "nslpSchools": 10,
     "nslpPct": 90.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.466,
+    "year": "2023",
+    "msaName": "Bangor, ME (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.5% below national average"
   }
 }

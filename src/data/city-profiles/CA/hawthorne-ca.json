@@ -402,5 +402,12 @@
     "nslpSchools": 1864,
     "nslpPct": 91.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 115.455,
+    "year": "2023",
+    "msaName": "Los Angeles-Long Beach-Anaheim, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "15.5% above national average"
   }
 }

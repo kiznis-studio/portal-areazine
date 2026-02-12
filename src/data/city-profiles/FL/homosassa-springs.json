@@ -288,5 +288,12 @@
       "hotMonths": 0,
       "coldMonths": 0
     }
+  },
+  "costOfLiving": {
+    "rpp": 95.433,
+    "year": "2023",
+    "msaName": "Homosassa Springs, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.6% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 24,
     "nslpPct": 88.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.827,
+    "year": "2023",
+    "msaName": "Akron, OH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.2% below national average"
   }
 }

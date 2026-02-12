@@ -223,5 +223,12 @@
     "nslpSchools": 35,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.019,
+    "year": "2023",
+    "msaName": "Reading, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.0% below national average"
   }
 }

@@ -293,5 +293,12 @@
     "nslpSchools": 23,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.612,
+    "year": "2023",
+    "msaName": "Greenville, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.4% below national average"
   }
 }

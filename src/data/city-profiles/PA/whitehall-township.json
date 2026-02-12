@@ -254,5 +254,12 @@
     "nslpSchools": 37,
     "nslpPct": 97.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.441,
+    "year": "2023",
+    "msaName": "Allentown-Bethlehem-Easton, PA-NJ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.6% below national average"
   }
 }

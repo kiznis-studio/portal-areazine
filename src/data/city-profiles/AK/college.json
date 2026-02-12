@@ -332,5 +332,12 @@
     "nslpSchools": 21,
     "nslpPct": 75,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 99.362,
+    "year": "2023",
+    "msaName": "Fairbanks, AK (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.6% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 32,
     "nslpPct": 88.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.914,
+    "year": "2023",
+    "msaName": "Wichita Falls, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.1% below national average"
   }
 }

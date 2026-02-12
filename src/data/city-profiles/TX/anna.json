@@ -357,5 +357,12 @@
     "nslpSchools": 245,
     "nslpPct": 91.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.293,
+    "year": "2023",
+    "msaName": "Dallas-Fort Worth-Arlington, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.3% above national average"
   }
 }

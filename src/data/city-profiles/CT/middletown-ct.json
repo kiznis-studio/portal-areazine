@@ -198,5 +198,12 @@
     "nslpSchools": 18,
     "nslpPct": 94.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.568,
+    "year": "2023",
+    "msaName": "Hartford-West Hartford-East Hartford, CT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.6% above national average"
   }
 }

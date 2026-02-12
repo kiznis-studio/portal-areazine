@@ -317,5 +317,12 @@
     "nslpSchools": 35,
     "nslpPct": 92.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.312,
+    "year": "2023",
+    "msaName": "St. Louis, MO-IL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.7% below national average"
   }
 }

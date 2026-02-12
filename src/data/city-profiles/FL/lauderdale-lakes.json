@@ -404,5 +404,12 @@
     "nslpSchools": 294,
     "nslpPct": 93.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 111.824,
+    "year": "2023",
+    "msaName": "Miami-Fort Lauderdale-West Palm Beach, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.8% above national average"
   }
 }

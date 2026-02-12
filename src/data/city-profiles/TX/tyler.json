@@ -356,5 +356,12 @@
     "nslpSchools": 37,
     "nslpPct": 92.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.386,
+    "year": "2023",
+    "msaName": "Tyler, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.6% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 40,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.967,
+    "year": "2023",
+    "msaName": "Tuscaloosa, AL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.0% below national average"
   }
 }

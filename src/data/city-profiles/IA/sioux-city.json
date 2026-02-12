@@ -301,5 +301,12 @@
     "nslpSchools": 21,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.148,
+    "year": "2023",
+    "msaName": "Sioux City, IA-NE-SD (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.9% below national average"
   }
 }

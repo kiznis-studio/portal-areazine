@@ -332,5 +332,12 @@
     "nslpSchools": 57,
     "nslpPct": 83.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 107.541,
+    "year": "2023",
+    "msaName": "Bremerton-Silverdale, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.5% above national average"
   }
 }

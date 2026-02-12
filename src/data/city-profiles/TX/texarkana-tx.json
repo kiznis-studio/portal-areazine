@@ -340,5 +340,12 @@
     "nslpSchools": 21,
     "nslpPct": 91.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.308,
+    "year": "2023",
+    "msaName": "Texarkana, TX-AR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.7% below national average"
   }
 }

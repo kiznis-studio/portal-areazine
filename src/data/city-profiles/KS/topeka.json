@@ -348,5 +348,12 @@
     "nslpSchools": 42,
     "nslpPct": 97.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.887,
+    "year": "2023",
+    "msaName": "Topeka, KS (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.1% below national average"
   }
 }

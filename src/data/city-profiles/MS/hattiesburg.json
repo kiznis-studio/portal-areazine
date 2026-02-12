@@ -293,5 +293,12 @@
     "nslpSchools": 9,
     "nslpPct": 36,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.303,
+    "year": "2023",
+    "msaName": "Hattiesburg, MS (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.7% below national average"
   }
 }

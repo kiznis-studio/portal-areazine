@@ -301,5 +301,12 @@
     "nslpSchools": 15,
     "nslpPct": 93.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.092,
+    "year": "2023",
+    "msaName": "Little Rock-North Little Rock-Conway, AR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.9% below national average"
   }
 }

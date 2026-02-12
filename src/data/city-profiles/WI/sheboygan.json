@@ -340,5 +340,12 @@
     "nslpSchools": 24,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.765,
+    "year": "2023",
+    "msaName": "Sheboygan, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.2% below national average"
   }
 }

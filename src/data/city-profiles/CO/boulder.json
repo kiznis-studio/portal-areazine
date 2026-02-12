@@ -325,5 +325,12 @@
     "nslpSchools": 80,
     "nslpPct": 94.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 99.851,
+    "year": "2023",
+    "msaName": "Boulder, CO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.1% below national average"
   }
 }

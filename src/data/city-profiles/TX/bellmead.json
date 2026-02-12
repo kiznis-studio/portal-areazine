@@ -278,5 +278,12 @@
     "nslpSchools": 63,
     "nslpPct": 95.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.786,
+    "year": "2023",
+    "msaName": "Waco, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.2% below national average"
   }
 }

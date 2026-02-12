@@ -293,5 +293,12 @@
     "nslpSchools": 16,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.583,
+    "year": "2023",
+    "msaName": "Houma-Thibodaux, LA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.4% below national average"
   }
 }

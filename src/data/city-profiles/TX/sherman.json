@@ -309,5 +309,12 @@
     "nslpSchools": 26,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.804,
+    "year": "2023",
+    "msaName": "Sherman-Denison, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.2% below national average"
   }
 }

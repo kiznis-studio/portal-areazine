@@ -301,5 +301,12 @@
     "nslpSchools": 24,
     "nslpPct": 88.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.919,
+    "year": "2023",
+    "msaName": "Sebastian-Vero Beach, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.1% below national average"
   }
 }

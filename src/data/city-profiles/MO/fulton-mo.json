@@ -323,5 +323,12 @@
     "nslpSchools": 10,
     "nslpPct": 83.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.681,
+    "year": "2023",
+    "msaName": "Jefferson City, MO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.3% below national average"
   }
 }

@@ -344,5 +344,12 @@
     "nslpSchools": 138,
     "nslpPct": 97.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.183,
+    "year": "2023",
+    "msaName": "Brownsville-Harlingen, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.8% below national average"
   }
 }

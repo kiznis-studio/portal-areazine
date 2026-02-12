@@ -293,5 +293,12 @@
     "nslpSchools": 16,
     "nslpPct": 84.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.583,
+    "year": "2023",
+    "msaName": "Albany-Schenectady-Troy, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.4% below national average"
   }
 }

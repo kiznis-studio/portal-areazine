@@ -262,5 +262,12 @@
     "nslpSchools": 10,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.525,
+    "year": "2023",
+    "msaName": "Harrisburg-Carlisle, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.5% below national average"
   }
 }

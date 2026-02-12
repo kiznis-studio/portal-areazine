@@ -301,5 +301,12 @@
     "nslpSchools": 11,
     "nslpPct": 73.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.944,
+    "year": "2023",
+    "msaName": "Roanoke, VA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.1% below national average"
   }
 }

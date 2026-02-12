@@ -332,5 +332,12 @@
     "nslpSchools": 39,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.43,
+    "year": "2023",
+    "msaName": "Nashville-Davidson--Murfreesboro--Franklin, TN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.6% below national average"
   }
 }

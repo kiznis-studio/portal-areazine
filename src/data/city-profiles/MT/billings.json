@@ -340,5 +340,12 @@
     "nslpSchools": 42,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.613,
+    "year": "2023",
+    "msaName": "Billings, MT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.4% below national average"
   }
 }

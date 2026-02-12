@@ -293,5 +293,12 @@
     "nslpSchools": 23,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.933,
+    "year": "2023",
+    "msaName": "Atlanta-Sandy Springs-Roswell, GA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.9% above national average"
   }
 }

@@ -340,5 +340,12 @@
     "nslpSchools": 13,
     "nslpPct": 92.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.129,
+    "year": "2023",
+    "msaName": "Asheville, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.9% below national average"
   }
 }

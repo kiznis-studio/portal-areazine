@@ -250,5 +250,12 @@
     "nslpSchools": 22,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.925,
+    "year": "2023",
+    "msaName": "Chambersburg-Waynesboro, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.1% below national average"
   }
 }

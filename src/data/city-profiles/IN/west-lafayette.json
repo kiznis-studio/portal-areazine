@@ -301,5 +301,12 @@
     "nslpSchools": 31,
     "nslpPct": 93.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.524,
+    "year": "2023",
+    "msaName": "Lafayette-West Lafayette, IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.5% below national average"
   }
 }

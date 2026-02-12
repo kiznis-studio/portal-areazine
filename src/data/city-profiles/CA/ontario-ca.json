@@ -404,5 +404,12 @@
     "nslpSchools": 463,
     "nslpPct": 91.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 107.929,
+    "year": "2023",
+    "msaName": "Riverside-San Bernardino-Ontario, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.9% above national average"
   }
 }

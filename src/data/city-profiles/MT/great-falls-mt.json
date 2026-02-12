@@ -340,5 +340,12 @@
     "nslpSchools": 20,
     "nslpPct": 95.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.596,
+    "year": "2023",
+    "msaName": "Great Falls, MT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.4% below national average"
   }
 }

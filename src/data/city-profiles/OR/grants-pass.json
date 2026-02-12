@@ -332,5 +332,12 @@
     "nslpSchools": 21,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.709,
+    "year": "2023",
+    "msaName": "Grants Pass, OR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.7% above national average"
   }
 }

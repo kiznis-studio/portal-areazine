@@ -356,5 +356,12 @@
     "nslpSchools": 65,
     "nslpPct": 91.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.064,
+    "year": "2023",
+    "msaName": "Green Bay, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.9% below national average"
   }
 }

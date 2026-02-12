@@ -340,5 +340,12 @@
     "nslpSchools": 15,
     "nslpPct": 88.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.109,
+    "year": "2023",
+    "msaName": "Lewiston-Auburn, ME (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.1% above national average"
   }
 }

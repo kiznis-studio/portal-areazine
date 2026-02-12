@@ -301,5 +301,12 @@
     "nslpSchools": 39,
     "nslpPct": 90.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.506,
+    "year": "2023",
+    "msaName": "Ocala, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.5% below national average"
   }
 }

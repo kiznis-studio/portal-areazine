@@ -340,5 +340,12 @@
     "nslpSchools": 30,
     "nslpPct": 96.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.393,
+    "year": "2023",
+    "msaName": "Buffalo-Cheektowaga-Niagara Falls, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.6% below national average"
   }
 }

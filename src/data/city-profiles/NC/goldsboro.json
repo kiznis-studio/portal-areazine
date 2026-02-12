@@ -332,5 +332,12 @@
     "nslpSchools": 23,
     "nslpPct": 95.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.731,
+    "year": "2023",
+    "msaName": "Goldsboro, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.3% below national average"
   }
 }

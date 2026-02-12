@@ -364,5 +364,12 @@
     "nslpSchools": 178,
     "nslpPct": 90.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.958,
+    "year": "2023",
+    "msaName": "Albuquerque, NM (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.0% below national average"
   }
 }

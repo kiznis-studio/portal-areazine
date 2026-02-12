@@ -317,5 +317,12 @@
     "nslpSchools": 96,
     "nslpPct": 89.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.565,
+    "year": "2023",
+    "msaName": "Cape Coral-Fort Myers, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.6% above national average"
   }
 }

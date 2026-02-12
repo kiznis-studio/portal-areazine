@@ -309,5 +309,12 @@
     "nslpSchools": 134,
     "nslpPct": 99.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 111.574,
+    "year": "2023",
+    "msaName": "Boston-Cambridge-Newton, MA-NH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.6% above national average"
   }
 }

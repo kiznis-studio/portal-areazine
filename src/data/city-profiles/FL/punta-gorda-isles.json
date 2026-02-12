@@ -309,5 +309,12 @@
     "nslpSchools": 16,
     "nslpPct": 80,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.437,
+    "year": "2023",
+    "msaName": "Punta Gorda, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.6% below national average"
   }
 }

@@ -301,5 +301,12 @@
     "nslpSchools": 16,
     "nslpPct": 94.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.801,
+    "year": "2023",
+    "msaName": "Hot Springs, AR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.2% below national average"
   }
 }

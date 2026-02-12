@@ -340,5 +340,12 @@
     "nslpSchools": 22,
     "nslpPct": 88,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.291,
+    "year": "2023",
+    "msaName": "La Crosse-Onalaska, WI-MN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.7% below national average"
   }
 }

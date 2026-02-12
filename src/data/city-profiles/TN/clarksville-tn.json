@@ -332,5 +332,12 @@
     "nslpSchools": 38,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.148,
+    "year": "2023",
+    "msaName": "Clarksville, TN-KY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.9% below national average"
   }
 }

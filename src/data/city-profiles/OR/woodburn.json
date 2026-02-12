@@ -340,5 +340,12 @@
     "nslpSchools": 75,
     "nslpPct": 94.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.41,
+    "year": "2023",
+    "msaName": "Salem, OR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.4% above national average"
   }
 }

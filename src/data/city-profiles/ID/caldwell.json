@@ -309,5 +309,12 @@
     "nslpSchools": 0,
     "nslpPct": 0,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.427,
+    "year": "2023",
+    "msaName": "Boise City, ID (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.6% below national average"
   }
 }

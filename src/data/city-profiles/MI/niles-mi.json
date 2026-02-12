@@ -332,5 +332,12 @@
     "nslpSchools": 16,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.677,
+    "year": "2023",
+    "msaName": "Niles-Benton Harbor, MI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.3% below national average"
   }
 }

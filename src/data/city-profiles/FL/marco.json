@@ -340,5 +340,12 @@
     "nslpSchools": 63,
     "nslpPct": 86.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 105.811,
+    "year": "2023",
+    "msaName": "Naples-Immokalee-Marco Island, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.8% above national average"
   }
 }

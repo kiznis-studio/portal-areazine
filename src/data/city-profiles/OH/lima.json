@@ -340,5 +340,12 @@
     "nslpSchools": 19,
     "nslpPct": 86.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.585,
+    "year": "2023",
+    "msaName": "Lima, OH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.4% below national average"
   }
 }

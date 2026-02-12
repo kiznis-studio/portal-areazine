@@ -340,5 +340,12 @@
     "nslpSchools": 24,
     "nslpPct": 92.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.686,
+    "year": "2023",
+    "msaName": "Jonesboro, AR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.3% below national average"
   }
 }

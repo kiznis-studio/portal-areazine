@@ -340,5 +340,12 @@
     "nslpSchools": 34,
     "nslpPct": 89.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.274,
+    "year": "2023",
+    "msaName": "Davenport-Moline-Rock Island, IA-IL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.7% below national average"
   }
 }

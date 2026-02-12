@@ -293,5 +293,12 @@
     "nslpSchools": 24,
     "nslpPct": 92.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.876,
+    "year": "2023",
+    "msaName": "Cleveland, TN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.1% below national average"
   }
 }

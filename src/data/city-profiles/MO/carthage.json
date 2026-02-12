@@ -328,5 +328,12 @@
     "nslpSchools": 37,
     "nslpPct": 94.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.648,
+    "year": "2023",
+    "msaName": "Joplin, MO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.4% below national average"
   }
 }

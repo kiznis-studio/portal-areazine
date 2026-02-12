@@ -198,5 +198,12 @@
     "nslpSchools": 82,
     "nslpPct": 98.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 106.486,
+    "year": "2023",
+    "msaName": "Bridgeport-Stamford-Norwalk, CT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.5% above national average"
   }
 }

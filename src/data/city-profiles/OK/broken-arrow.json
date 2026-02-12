@@ -357,5 +357,12 @@
     "nslpSchools": 177,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.475,
+    "year": "2023",
+    "msaName": "Tulsa, OK (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.5% below national average"
   }
 }

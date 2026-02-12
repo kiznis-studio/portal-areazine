@@ -340,5 +340,12 @@
     "nslpSchools": 52,
     "nslpPct": 98.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.701,
+    "year": "2023",
+    "msaName": "College Station-Bryan, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.3% below national average"
   }
 }

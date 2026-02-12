@@ -284,5 +284,12 @@
     "nslpSchools": 46,
     "nslpPct": 80.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.988,
+    "year": "2023",
+    "msaName": "Fresno, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.0% above national average"
   }
 }

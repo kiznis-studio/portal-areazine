@@ -341,5 +341,12 @@
     "nslpSchools": 89,
     "nslpPct": 95.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.838,
+    "year": "2023",
+    "msaName": "Palm Bay-Melbourne-Titusville, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.8% above national average"
   }
 }

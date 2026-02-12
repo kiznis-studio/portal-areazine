@@ -340,5 +340,12 @@
     "nslpSchools": 20,
     "nslpPct": 95.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.224,
+    "year": "2023",
+    "msaName": "Terre Haute, IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.8% below national average"
   }
 }

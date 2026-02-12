@@ -332,5 +332,12 @@
     "nslpSchools": 20,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.52,
+    "year": "2023",
+    "msaName": "Farmington, NM (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.5% below national average"
   }
 }

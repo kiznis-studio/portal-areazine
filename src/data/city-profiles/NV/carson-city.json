@@ -293,5 +293,12 @@
     "nslpSchools": 10,
     "nslpPct": 90.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.056,
+    "year": "2023",
+    "msaName": "Carson City, NV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.9% below national average"
   }
 }

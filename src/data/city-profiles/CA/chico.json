@@ -301,5 +301,12 @@
     "nslpSchools": 65,
     "nslpPct": 85.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 104.616,
+    "year": "2023",
+    "msaName": "Chico, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.6% above national average"
   }
 }

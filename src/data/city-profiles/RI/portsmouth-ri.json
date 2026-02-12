@@ -293,5 +293,12 @@
     "nslpSchools": 13,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.862,
+    "year": "2023",
+    "msaName": "Providence-Warwick, RI-MA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.9% above national average"
   }
 }

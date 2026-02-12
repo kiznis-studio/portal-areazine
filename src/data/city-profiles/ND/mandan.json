@@ -317,5 +317,12 @@
     "nslpSchools": 10,
     "nslpPct": 71.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.648,
+    "year": "2023",
+    "msaName": "Bismarck, ND (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.4% below national average"
   }
 }

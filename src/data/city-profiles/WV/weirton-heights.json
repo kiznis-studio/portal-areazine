@@ -332,5 +332,12 @@
     "nslpSchools": 4,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.764,
+    "year": "2023",
+    "msaName": "Weirton-Steubenville, WV-OH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.2% below national average"
   }
 }

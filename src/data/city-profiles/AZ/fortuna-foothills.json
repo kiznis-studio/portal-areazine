@@ -293,5 +293,12 @@
     "nslpSchools": 55,
     "nslpPct": 70.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.477,
+    "year": "2023",
+    "msaName": "Yuma, AZ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.5% below national average"
   }
 }

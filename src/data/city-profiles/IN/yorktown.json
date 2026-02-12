@@ -293,5 +293,12 @@
     "nslpSchools": 21,
     "nslpPct": 91.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.802,
+    "year": "2023",
+    "msaName": "Muncie, IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.2% below national average"
   }
 }

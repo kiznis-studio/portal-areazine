@@ -317,5 +317,12 @@
     "nslpSchools": 72,
     "nslpPct": 97.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 105.49,
+    "year": "2023",
+    "msaName": "Denver-Aurora-Lakewood, CO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.5% above national average"
   }
 }

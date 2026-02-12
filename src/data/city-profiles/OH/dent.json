@@ -349,5 +349,12 @@
     "nslpSchools": 167,
     "nslpPct": 89.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.102,
+    "year": "2023",
+    "msaName": "Cincinnati, OH-KY-IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.9% below national average"
   }
 }

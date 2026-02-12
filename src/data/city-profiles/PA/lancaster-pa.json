@@ -278,5 +278,12 @@
     "nslpSchools": 54,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.305,
+    "year": "2023",
+    "msaName": "Lancaster, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.7% below national average"
   }
 }

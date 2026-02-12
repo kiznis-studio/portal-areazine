@@ -317,5 +317,12 @@
     "nslpSchools": 3,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.749,
+    "year": "2023",
+    "msaName": "Lake Charles, LA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.3% below national average"
   }
 }

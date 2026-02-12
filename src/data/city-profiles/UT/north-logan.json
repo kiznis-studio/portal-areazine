@@ -293,5 +293,12 @@
     "nslpSchools": 19,
     "nslpPct": 73.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.912,
+    "year": "2023",
+    "msaName": "Logan, UT-ID (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.1% below national average"
   }
 }

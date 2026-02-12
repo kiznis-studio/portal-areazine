@@ -348,5 +348,12 @@
     "nslpSchools": 52,
     "nslpPct": 86.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 110.819,
+    "year": "2023",
+    "msaName": "San Luis Obispo-Paso Robles-Arroyo Grande, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.8% above national average"
   }
 }

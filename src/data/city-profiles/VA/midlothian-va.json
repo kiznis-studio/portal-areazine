@@ -293,5 +293,12 @@
     "nslpSchools": 33,
     "nslpPct": 86.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.988,
+    "year": "2023",
+    "msaName": "Richmond, VA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.0% below national average"
   }
 }

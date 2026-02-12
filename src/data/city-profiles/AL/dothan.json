@@ -301,5 +301,12 @@
     "nslpSchools": 22,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.318,
+    "year": "2023",
+    "msaName": "Dothan, AL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.7% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 14,
     "nslpPct": 87.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.837,
+    "year": "2023",
+    "msaName": "Fond du Lac, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.2% below national average"
   }
 }

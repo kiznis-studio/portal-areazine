@@ -278,5 +278,12 @@
     "nslpSchools": 52,
     "nslpPct": 96.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.348,
+    "year": "2023",
+    "msaName": "Las Cruces, NM (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.7% below national average"
   }
 }

@@ -356,5 +356,12 @@
     "nslpSchools": 217,
     "nslpPct": 93.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.247,
+    "year": "2023",
+    "msaName": "Bakersfield, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.2% above national average"
   }
 }

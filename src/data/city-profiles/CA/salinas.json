@@ -348,5 +348,12 @@
     "nslpSchools": 97,
     "nslpPct": 79.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 112.988,
+    "year": "2023",
+    "msaName": "Salinas, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.0% above national average"
   }
 }

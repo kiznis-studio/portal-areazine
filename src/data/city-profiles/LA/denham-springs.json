@@ -284,5 +284,12 @@
     "nslpSchools": 16,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.802,
+    "year": "2023",
+    "msaName": "Baton Rouge, LA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.2% below national average"
   }
 }

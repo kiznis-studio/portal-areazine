@@ -332,5 +332,12 @@
     "nslpSchools": 21,
     "nslpPct": 91.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.219,
+    "year": "2023",
+    "msaName": "Parkersburg-Vienna, WV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.8% below national average"
   }
 }

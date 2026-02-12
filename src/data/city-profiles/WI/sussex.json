@@ -317,5 +317,12 @@
     "nslpSchools": 61,
     "nslpPct": 83.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.536,
+    "year": "2023",
+    "msaName": "Milwaukee-Waukesha-West Allis, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.5% below national average"
   }
 }

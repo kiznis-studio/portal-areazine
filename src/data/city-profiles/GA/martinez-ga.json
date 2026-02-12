@@ -278,5 +278,12 @@
     "nslpSchools": 25,
     "nslpPct": 96.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.03,
+    "year": "2023",
+    "msaName": "Augusta-Richmond County, GA-SC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.0% below national average"
   }
 }

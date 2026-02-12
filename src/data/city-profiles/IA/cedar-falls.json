@@ -340,5 +340,12 @@
     "nslpSchools": 26,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.986,
+    "year": "2023",
+    "msaName": "Waterloo-Cedar Falls, IA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.0% below national average"
   }
 }

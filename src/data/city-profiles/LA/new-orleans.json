@@ -309,5 +309,12 @@
     "nslpSchools": 72,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.146,
+    "year": "2023",
+    "msaName": "New Orleans-Metairie, LA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.9% below national average"
   }
 }

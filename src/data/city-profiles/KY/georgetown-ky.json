@@ -215,5 +215,12 @@
     "nslpSchools": 16,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.11,
+    "year": "2023",
+    "msaName": "Lexington-Fayette, KY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.9% below national average"
   }
 }

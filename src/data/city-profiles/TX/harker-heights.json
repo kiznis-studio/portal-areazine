@@ -356,5 +356,12 @@
     "nslpSchools": 87,
     "nslpPct": 95.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.761,
+    "year": "2023",
+    "msaName": "Killeen-Temple, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.2% below national average"
   }
 }

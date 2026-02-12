@@ -301,5 +301,12 @@
     "nslpSchools": 40,
     "nslpPct": 85.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.98,
+    "year": "2023",
+    "msaName": "Panama City, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.0% below national average"
   }
 }

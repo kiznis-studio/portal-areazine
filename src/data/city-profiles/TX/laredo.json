@@ -340,5 +340,12 @@
     "nslpSchools": 82,
     "nslpPct": 97.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.786,
+    "year": "2023",
+    "msaName": "Laredo, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.2% below national average"
   }
 }

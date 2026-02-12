@@ -317,5 +317,12 @@
     "nslpSchools": 55,
     "nslpPct": 85.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.635,
+    "year": "2023",
+    "msaName": "North Port-Sarasota-Bradenton, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.6% above national average"
   }
 }

@@ -198,5 +198,12 @@
     "nslpSchools": 36,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.42,
+    "year": "2023",
+    "msaName": "Norwich-New London, CT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.4% above national average"
   }
 }

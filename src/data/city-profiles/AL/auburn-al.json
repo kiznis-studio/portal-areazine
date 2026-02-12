@@ -332,5 +332,12 @@
     "nslpSchools": 28,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.857,
+    "year": "2023",
+    "msaName": "Auburn-Opelika, AL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.1% below national average"
   }
 }

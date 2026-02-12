@@ -332,5 +332,12 @@
     "nslpSchools": 8,
     "nslpPct": 80,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.578,
+    "year": "2023",
+    "msaName": "Indianapolis-Carmel-Anderson, IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.4% below national average"
   }
 }

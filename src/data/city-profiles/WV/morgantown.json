@@ -340,5 +340,12 @@
     "nslpSchools": 15,
     "nslpPct": 88.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.275,
+    "year": "2023",
+    "msaName": "Morgantown, WV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.7% below national average"
   }
 }

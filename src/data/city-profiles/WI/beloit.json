@@ -348,5 +348,12 @@
     "nslpSchools": 39,
     "nslpPct": 92.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.393,
+    "year": "2023",
+    "msaName": "Janesville-Beloit, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.6% below national average"
   }
 }

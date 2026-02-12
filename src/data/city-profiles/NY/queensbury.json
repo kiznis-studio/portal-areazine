@@ -332,5 +332,12 @@
     "nslpSchools": 10,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.551,
+    "year": "2023",
+    "msaName": "Glens Falls, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.4% below national average"
   }
 }

@@ -270,5 +270,12 @@
     "nslpSchools": 31,
     "nslpPct": 91.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.547,
+    "year": "2023",
+    "msaName": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.5% above national average"
   }
 }

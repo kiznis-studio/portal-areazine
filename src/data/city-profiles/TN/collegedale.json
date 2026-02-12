@@ -309,5 +309,12 @@
     "nslpSchools": 49,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.794,
+    "year": "2023",
+    "msaName": "Chattanooga, TN-GA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.2% below national average"
   }
 }

@@ -301,5 +301,12 @@
     "nslpSchools": 38,
     "nslpPct": 92.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.37,
+    "year": "2023",
+    "msaName": "Santa Fe, NM (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.6% below national average"
   }
 }

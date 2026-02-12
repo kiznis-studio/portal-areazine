@@ -332,5 +332,12 @@
     "nslpSchools": 18,
     "nslpPct": 94.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 106.28,
+    "year": "2023",
+    "msaName": "Kahului-Wailuku-Lahaina, HI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.3% above national average"
   }
 }

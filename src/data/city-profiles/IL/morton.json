@@ -293,5 +293,12 @@
     "nslpSchools": 38,
     "nslpPct": 95,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.617,
+    "year": "2023",
+    "msaName": "Peoria, IL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.4% below national average"
   }
 }

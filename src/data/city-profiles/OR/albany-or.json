@@ -301,5 +301,12 @@
     "nslpSchools": 29,
     "nslpPct": 96.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 104.609,
+    "year": "2023",
+    "msaName": "Albany, OR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.6% above national average"
   }
 }

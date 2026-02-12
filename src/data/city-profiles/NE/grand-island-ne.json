@@ -299,5 +299,12 @@
     "nslpSchools": 21,
     "nslpPct": 80.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.262,
+    "year": "2023",
+    "msaName": "Grand Island, NE (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.7% below national average"
   }
 }

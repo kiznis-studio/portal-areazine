@@ -332,5 +332,12 @@
     "nslpSchools": 23,
     "nslpPct": 85.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.372,
+    "year": "2023",
+    "msaName": "Bloomington, IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.6% below national average"
   }
 }

@@ -332,5 +332,12 @@
     "nslpSchools": 41,
     "nslpPct": 97.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 105.81,
+    "year": "2023",
+    "msaName": "Bend-Redmond, OR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.8% above national average"
   }
 }

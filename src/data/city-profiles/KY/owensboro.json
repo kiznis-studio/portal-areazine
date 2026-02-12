@@ -215,5 +215,12 @@
     "nslpSchools": 35,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.034,
+    "year": "2023",
+    "msaName": "Owensboro, KY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.0% below national average"
   }
 }

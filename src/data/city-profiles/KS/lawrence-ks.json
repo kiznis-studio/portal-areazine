@@ -293,5 +293,12 @@
     "nslpSchools": 17,
     "nslpPct": 94.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.989,
+    "year": "2023",
+    "msaName": "Lawrence, KS (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.0% below national average"
   }
 }

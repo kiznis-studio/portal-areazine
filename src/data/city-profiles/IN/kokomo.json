@@ -340,5 +340,12 @@
     "nslpSchools": 19,
     "nslpPct": 86.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.666,
+    "year": "2023",
+    "msaName": "Kokomo, IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.3% below national average"
   }
 }

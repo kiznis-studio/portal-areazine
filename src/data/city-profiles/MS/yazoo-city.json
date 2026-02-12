@@ -323,5 +323,12 @@
     "nslpSchools": 2,
     "nslpPct": 28.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.671,
+    "year": "2023",
+    "msaName": "Jackson, MS (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.3% below national average"
   }
 }

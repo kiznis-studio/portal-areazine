@@ -278,5 +278,12 @@
     "nslpSchools": 25,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 100.639,
+    "year": "2023",
+    "msaName": "Charleston-North Charleston, SC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.6% above national average"
   }
 }

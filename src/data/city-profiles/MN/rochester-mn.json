@@ -301,5 +301,12 @@
     "nslpSchools": 29,
     "nslpPct": 59.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.114,
+    "year": "2023",
+    "msaName": "Rochester, MN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.9% below national average"
   }
 }

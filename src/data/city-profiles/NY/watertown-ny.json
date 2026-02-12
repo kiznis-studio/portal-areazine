@@ -332,5 +332,12 @@
     "nslpSchools": 8,
     "nslpPct": 88.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.518,
+    "year": "2023",
+    "msaName": "Watertown-Fort Drum, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.5% below national average"
   }
 }

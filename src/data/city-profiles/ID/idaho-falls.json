@@ -348,5 +348,12 @@
     "nslpSchools": 0,
     "nslpPct": 0,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.946,
+    "year": "2023",
+    "msaName": "Idaho Falls, ID (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.1% below national average"
   }
 }

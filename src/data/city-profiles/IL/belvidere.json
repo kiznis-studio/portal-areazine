@@ -278,5 +278,12 @@
     "nslpSchools": 10,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.067,
+    "year": "2023",
+    "msaName": "Rockford, IL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.9% below national average"
   }
 }

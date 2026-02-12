@@ -340,5 +340,12 @@
     "nslpSchools": 18,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.967,
+    "year": "2023",
+    "msaName": "Pittsfield, MA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.0% below national average"
   }
 }

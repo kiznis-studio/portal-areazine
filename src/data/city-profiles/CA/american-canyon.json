@@ -340,5 +340,12 @@
     "nslpSchools": 28,
     "nslpPct": 87.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 111.77,
+    "year": "2023",
+    "msaName": "Napa, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.8% above national average"
   }
 }

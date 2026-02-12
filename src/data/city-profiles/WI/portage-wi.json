@@ -332,5 +332,12 @@
     "nslpSchools": 5,
     "nslpPct": 62.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.786,
+    "year": "2023",
+    "msaName": "Madison, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.2% below national average"
   }
 }

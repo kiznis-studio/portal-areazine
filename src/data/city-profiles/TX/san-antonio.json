@@ -380,5 +380,12 @@
     "nslpSchools": 517,
     "nslpPct": 95.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.727,
+    "year": "2023",
+    "msaName": "San Antonio-New Braunfels, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.3% below national average"
   }
 }

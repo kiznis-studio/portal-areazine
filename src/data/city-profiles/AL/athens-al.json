@@ -293,5 +293,12 @@
     "nslpSchools": 14,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.397,
+    "year": "2023",
+    "msaName": "Huntsville, AL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.6% below national average"
   }
 }

@@ -365,5 +365,12 @@
     "nslpSchools": 861,
     "nslpPct": 72.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 105.524,
+    "year": "2023",
+    "msaName": "Phoenix-Mesa-Scottsdale, AZ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.5% above national average"
   }
 }

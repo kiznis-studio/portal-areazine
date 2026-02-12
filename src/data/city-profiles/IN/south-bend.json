@@ -340,5 +340,12 @@
     "nslpSchools": 56,
     "nslpPct": 91.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.415,
+    "year": "2023",
+    "msaName": "South Bend-Mishawaka, IN-MI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.6% below national average"
   }
 }

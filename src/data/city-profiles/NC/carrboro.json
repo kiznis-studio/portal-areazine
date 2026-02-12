@@ -332,5 +332,12 @@
     "nslpSchools": 23,
     "nslpPct": 95.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.638,
+    "year": "2023",
+    "msaName": "Durham-Chapel Hill, NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.4% below national average"
   }
 }

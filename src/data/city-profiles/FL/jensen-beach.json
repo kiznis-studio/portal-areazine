@@ -332,5 +332,12 @@
     "nslpSchools": 25,
     "nslpPct": 80.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 101.675,
+    "year": "2023",
+    "msaName": "Port St. Lucie, FL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.7% above national average"
   }
 }

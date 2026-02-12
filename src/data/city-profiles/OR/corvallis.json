@@ -293,5 +293,12 @@
     "nslpSchools": 12,
     "nslpPct": 92.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 106.358,
+    "year": "2023",
+    "msaName": "Corvallis, OR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.4% above national average"
   }
 }

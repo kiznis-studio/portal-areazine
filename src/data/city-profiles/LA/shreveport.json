@@ -325,5 +325,12 @@
     "nslpSchools": 53,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.128,
+    "year": "2023",
+    "msaName": "Shreveport-Bossier City, LA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.9% below national average"
   }
 }

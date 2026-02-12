@@ -380,5 +380,12 @@
     "nslpSchools": 132,
     "nslpPct": 99.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.015,
+    "year": "2023",
+    "msaName": "Worcester, MA-CT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.0% above national average"
   }
 }

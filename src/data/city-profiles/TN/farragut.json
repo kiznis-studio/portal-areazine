@@ -317,5 +317,12 @@
     "nslpSchools": 87,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.773,
+    "year": "2023",
+    "msaName": "Knoxville, TN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.2% below national average"
   }
 }

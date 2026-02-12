@@ -323,5 +323,12 @@
     "nslpSchools": 5,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.418,
+    "year": "2023",
+    "msaName": "Ames, IA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.6% below national average"
   }
 }

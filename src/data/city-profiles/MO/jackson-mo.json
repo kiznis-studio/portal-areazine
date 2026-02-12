@@ -340,5 +340,12 @@
     "nslpSchools": 19,
     "nslpPct": 95,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.324,
+    "year": "2023",
+    "msaName": "Cape Girardeau, MO-IL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.7% below national average"
   }
 }

@@ -293,5 +293,12 @@
     "nslpSchools": 14,
     "nslpPct": 87.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.597,
+    "year": "2023",
+    "msaName": "Portland-South Portland, ME (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.6% above national average"
   }
 }

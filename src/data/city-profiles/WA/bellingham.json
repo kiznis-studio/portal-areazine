@@ -293,5 +293,12 @@
     "nslpSchools": 39,
     "nslpPct": 72.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 104.139,
+    "year": "2023",
+    "msaName": "Bellingham, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.1% above national average"
   }
 }

@@ -301,5 +301,12 @@
     "nslpSchools": 33,
     "nslpPct": 89.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.349,
+    "year": "2023",
+    "msaName": "Medford, OR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.3% above national average"
   }
 }

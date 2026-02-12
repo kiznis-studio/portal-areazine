@@ -270,5 +270,12 @@
     "nslpSchools": 11,
     "nslpPct": 84.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.25,
+    "year": "2023",
+    "msaName": "Altoona, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.8% below national average"
   }
 }

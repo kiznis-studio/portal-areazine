@@ -317,5 +317,12 @@
     "nslpSchools": 5,
     "nslpPct": 71.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.435,
+    "year": "2023",
+    "msaName": "Huntington-Ashland, WV-KY-OH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.6% below national average"
   }
 }

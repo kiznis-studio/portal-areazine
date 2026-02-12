@@ -332,5 +332,12 @@
     "nslpSchools": 26,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.218,
+    "year": "2023",
+    "msaName": "Anniston-Oxford-Jacksonville, AL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.8% below national average"
   }
 }

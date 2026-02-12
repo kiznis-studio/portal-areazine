@@ -356,5 +356,12 @@
     "nslpSchools": 85,
     "nslpPct": 82.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 113.488,
+    "year": "2023",
+    "msaName": "Santa Maria-Santa Barbara, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.5% above national average"
   }
 }

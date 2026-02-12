@@ -341,5 +341,12 @@
     "nslpSchools": 265,
     "nslpPct": 91.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.62,
+    "year": "2023",
+    "msaName": "Austin-Round Rock, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.4% below national average"
   }
 }

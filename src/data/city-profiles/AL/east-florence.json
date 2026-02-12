@@ -332,5 +332,12 @@
     "nslpSchools": 15,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 85.618,
+    "year": "2023",
+    "msaName": "Florence-Muscle Shoals, AL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "14.4% below national average"
   }
 }

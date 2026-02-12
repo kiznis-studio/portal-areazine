@@ -348,5 +348,12 @@
     "nslpSchools": 162,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.189,
+    "year": "2023",
+    "msaName": "Grand Rapids-Wyoming, MI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.8% below national average"
   }
 }

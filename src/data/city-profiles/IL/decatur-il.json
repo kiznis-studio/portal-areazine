@@ -340,5 +340,12 @@
     "nslpSchools": 16,
     "nslpPct": 80,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.604,
+    "year": "2023",
+    "msaName": "Decatur, IL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.4% below national average"
   }
 }

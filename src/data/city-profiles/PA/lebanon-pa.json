@@ -262,5 +262,12 @@
     "nslpSchools": 13,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.33,
+    "year": "2023",
+    "msaName": "Lebanon, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.7% below national average"
   }
 }

@@ -284,5 +284,12 @@
     "nslpSchools": 6,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.448,
+    "year": "2023",
+    "msaName": "Reno, NV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.6% below national average"
   }
 }

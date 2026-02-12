@@ -365,5 +365,12 @@
     "nslpSchools": 348,
     "nslpPct": 90.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.401,
+    "year": "2023",
+    "msaName": "Las Vegas-Henderson-Paradise, NV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.6% below national average"
   }
 }

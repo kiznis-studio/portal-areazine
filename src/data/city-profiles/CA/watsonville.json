@@ -340,5 +340,12 @@
     "nslpSchools": 53,
     "nslpPct": 75.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 112.59,
+    "year": "2023",
+    "msaName": "Santa Cruz-Watsonville, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.6% above national average"
   }
 }

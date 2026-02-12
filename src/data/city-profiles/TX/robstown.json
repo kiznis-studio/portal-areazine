@@ -340,5 +340,12 @@
     "nslpSchools": 92,
     "nslpPct": 95.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.306,
+    "year": "2023",
+    "msaName": "Corpus Christi, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.7% below national average"
   }
 }

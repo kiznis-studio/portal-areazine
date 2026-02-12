@@ -278,5 +278,12 @@
     "nslpSchools": 7,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.569,
+    "year": "2023",
+    "msaName": "Savannah, GA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.4% below national average"
   }
 }

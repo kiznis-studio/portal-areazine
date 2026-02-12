@@ -348,5 +348,12 @@
     "nslpSchools": 54,
     "nslpPct": 85.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.281,
+    "year": "2023",
+    "msaName": "Sioux Falls, SD (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.7% below national average"
   }
 }

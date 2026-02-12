@@ -332,5 +332,12 @@
     "nslpSchools": 49,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.761,
+    "year": "2023",
+    "msaName": "Midland, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.2% below national average"
   }
 }

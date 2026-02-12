@@ -262,5 +262,12 @@
     "nslpSchools": 7,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.656,
+    "year": "2023",
+    "msaName": "East Stroudsburg, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.3% below national average"
   }
 }

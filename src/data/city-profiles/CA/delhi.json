@@ -331,5 +331,12 @@
     "nslpSchools": 70,
     "nslpPct": 81.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 99.517,
+    "year": "2023",
+    "msaName": "Merced, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "0.5% below national average"
   }
 }

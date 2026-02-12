@@ -340,5 +340,12 @@
     "nslpSchools": 84,
     "nslpPct": 94.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.36,
+    "year": "2023",
+    "msaName": "Virginia Beach-Norfolk-Newport News, VA-NC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.6% below national average"
   }
 }

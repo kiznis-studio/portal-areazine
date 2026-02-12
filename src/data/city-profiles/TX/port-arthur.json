@@ -309,5 +309,12 @@
     "nslpSchools": 71,
     "nslpPct": 94.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.238,
+    "year": "2023",
+    "msaName": "Beaumont-Port Arthur, TX (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.8% below national average"
   }
 }

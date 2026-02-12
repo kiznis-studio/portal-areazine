@@ -356,5 +356,12 @@
     "nslpSchools": 46,
     "nslpPct": 95.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 95.174,
+    "year": "2023",
+    "msaName": "Syracuse, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.8% below national average"
   }
 }

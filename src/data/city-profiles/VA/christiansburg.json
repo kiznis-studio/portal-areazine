@@ -340,5 +340,12 @@
     "nslpSchools": 13,
     "nslpPct": 81.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.657,
+    "year": "2023",
+    "msaName": "Blacksburg-Christiansburg-Radford, VA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.3% below national average"
   }
 }

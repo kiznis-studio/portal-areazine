@@ -231,5 +231,12 @@
     "nslpSchools": 50,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.642,
+    "year": "2023",
+    "msaName": "York-Hanover, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.4% below national average"
   }
 }

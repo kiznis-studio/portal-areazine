@@ -323,5 +323,12 @@
     "nslpSchools": 144,
     "nslpPct": 92.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 118.225,
+    "year": "2023",
+    "msaName": "San Francisco-Oakland-Hayward, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "18.2% above national average"
   }
 }

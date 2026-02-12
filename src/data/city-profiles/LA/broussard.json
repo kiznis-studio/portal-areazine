@@ -348,5 +348,12 @@
     "nslpSchools": 38,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 87.01,
+    "year": "2023",
+    "msaName": "Lafayette, LA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.0% below national average"
   }
 }

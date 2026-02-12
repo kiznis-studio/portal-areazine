@@ -284,5 +284,12 @@
     "nslpSchools": 7,
     "nslpPct": 70,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.405,
+    "year": "2023",
+    "msaName": "Eau Claire, WI (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.6% below national average"
   }
 }

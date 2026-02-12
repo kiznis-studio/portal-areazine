@@ -309,5 +309,12 @@
     "nslpSchools": 36,
     "nslpPct": 72,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 102.07,
+    "year": "2023",
+    "msaName": "Trenton, NJ (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.1% above national average"
   }
 }

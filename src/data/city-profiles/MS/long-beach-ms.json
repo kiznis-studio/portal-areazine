@@ -356,5 +356,12 @@
     "nslpSchools": 18,
     "nslpPct": 39.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.345,
+    "year": "2023",
+    "msaName": "Gulfport-Biloxi-Pascagoula, MS (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.7% below national average"
   }
 }

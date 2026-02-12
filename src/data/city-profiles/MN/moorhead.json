@@ -278,5 +278,12 @@
     "nslpSchools": 10,
     "nslpPct": 62.5,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.41,
+    "year": "2023",
+    "msaName": "Fargo, ND-MN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.6% below national average"
   }
 }

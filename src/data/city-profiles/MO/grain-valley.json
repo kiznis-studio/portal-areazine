@@ -365,5 +365,12 @@
     "nslpSchools": 261,
     "nslpPct": 93.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.266,
+    "year": "2023",
+    "msaName": "Kansas City, MO-KS (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.7% below national average"
   }
 }

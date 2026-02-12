@@ -293,5 +293,12 @@
     "nslpSchools": 24,
     "nslpPct": 82.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 96.063,
+    "year": "2023",
+    "msaName": "St. George, UT (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.9% below national average"
   }
 }

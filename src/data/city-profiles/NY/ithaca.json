@@ -332,5 +332,12 @@
     "nslpSchools": 12,
     "nslpPct": 92.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.924,
+    "year": "2023",
+    "msaName": "Ithaca, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.1% below national average"
   }
 }

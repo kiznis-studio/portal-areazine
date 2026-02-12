@@ -340,5 +340,12 @@
     "nslpSchools": 31,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 86.218,
+    "year": "2023",
+    "msaName": "Alexandria, LA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.8% below national average"
   }
 }

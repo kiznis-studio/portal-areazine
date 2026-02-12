@@ -293,5 +293,12 @@
     "nslpSchools": 22,
     "nslpPct": 73.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.333,
+    "year": "2023",
+    "msaName": "St. Cloud, MN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.7% below national average"
   }
 }

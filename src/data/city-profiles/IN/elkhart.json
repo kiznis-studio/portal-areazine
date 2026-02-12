@@ -301,5 +301,12 @@
     "nslpSchools": 42,
     "nslpPct": 97.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.573,
+    "year": "2023",
+    "msaName": "Elkhart-Goshen, IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.4% below national average"
   }
 }

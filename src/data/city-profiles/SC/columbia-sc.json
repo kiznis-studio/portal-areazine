@@ -356,5 +356,12 @@
     "nslpSchools": 77,
     "nslpPct": 98.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.925,
+    "year": "2023",
+    "msaName": "Columbia, SC (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.1% below national average"
   }
 }

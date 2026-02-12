@@ -301,5 +301,12 @@
     "nslpSchools": 20,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.726,
+    "year": "2023",
+    "msaName": "Daphne-Fairhope-Foley, AL (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.3% below national average"
   }
 }

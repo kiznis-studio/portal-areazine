@@ -325,5 +325,12 @@
     "nslpSchools": 120,
     "nslpPct": 83.3,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 101.031,
+    "year": "2023",
+    "msaName": "Spokane-Spokane Valley, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.0% above national average"
   }
 }

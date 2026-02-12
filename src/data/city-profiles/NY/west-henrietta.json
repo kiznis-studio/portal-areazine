@@ -356,5 +356,12 @@
     "nslpSchools": 102,
     "nslpPct": 96.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 97.667,
+    "year": "2023",
+    "msaName": "Rochester, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "2.3% below national average"
   }
 }

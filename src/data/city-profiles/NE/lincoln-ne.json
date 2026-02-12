@@ -309,5 +309,12 @@
     "nslpSchools": 64,
     "nslpPct": 77.1,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 91.95,
+    "year": "2023",
+    "msaName": "Lincoln, NE (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "8.0% below national average"
   }
 }

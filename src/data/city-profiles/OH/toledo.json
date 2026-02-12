@@ -317,5 +317,12 @@
     "nslpSchools": 103,
     "nslpPct": 84.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 90.354,
+    "year": "2023",
+    "msaName": "Toledo, OH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "9.6% below national average"
   }
 }

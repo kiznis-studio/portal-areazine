@@ -280,5 +280,12 @@
       "hotMonths": 0,
       "coldMonths": 0
     }
+  },
+  "costOfLiving": {
+    "rpp": 87.803,
+    "year": "2023",
+    "msaName": "St. Joseph, MO-KS (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.2% below national average"
   }
 }

@@ -301,5 +301,12 @@
     "nslpSchools": 24,
     "nslpPct": 96,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.26,
+    "year": "2023",
+    "msaName": "Utica-Rome, NY (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.7% below national average"
   }
 }

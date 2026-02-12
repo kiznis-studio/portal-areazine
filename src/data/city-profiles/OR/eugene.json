@@ -301,5 +301,12 @@
     "nslpSchools": 69,
     "nslpPct": 92,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 103.481,
+    "year": "2023",
+    "msaName": "Eugene, OR (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "3.5% above national average"
   }
 }

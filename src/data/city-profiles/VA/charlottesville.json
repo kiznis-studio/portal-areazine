@@ -332,5 +332,12 @@
     "nslpSchools": 25,
     "nslpPct": 80.6,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 98.593,
+    "year": "2023",
+    "msaName": "Charlottesville, VA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "1.4% below national average"
   }
 }

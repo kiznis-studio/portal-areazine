@@ -278,5 +278,12 @@
     "nslpSchools": 19,
     "nslpPct": 100,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 89.272,
+    "year": "2023",
+    "msaName": "Springfield, MO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "10.7% below national average"
   }
 }

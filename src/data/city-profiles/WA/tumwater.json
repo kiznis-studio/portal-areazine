@@ -301,5 +301,12 @@
     "nslpSchools": 52,
     "nslpPct": 85.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 106.477,
+    "year": "2023",
+    "msaName": "Olympia-Tumwater, WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.5% above national average"
   }
 }

@@ -379,5 +379,12 @@
     "nslpSchools": 196,
     "nslpPct": 88.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 107.42,
+    "year": "2023",
+    "msaName": "Stockton-Lodi, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.4% above national average"
   }
 }

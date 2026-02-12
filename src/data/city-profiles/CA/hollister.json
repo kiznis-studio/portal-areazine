@@ -316,5 +316,12 @@
     "nslpSchools": 14,
     "nslpPct": 70,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 112.867,
+    "year": "2023",
+    "msaName": "San Jose-Sunnyvale-Santa Clara, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "12.9% above national average"
   }
 }

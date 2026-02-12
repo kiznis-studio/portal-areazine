@@ -332,5 +332,12 @@
     "nslpSchools": 38,
     "nslpPct": 92.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 88.389,
+    "year": "2023",
+    "msaName": "Charleston, WV (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "11.6% below national average"
   }
 }

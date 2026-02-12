@@ -323,5 +323,12 @@
     "nslpSchools": 7,
     "nslpPct": 77.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 94.516,
+    "year": "2023",
+    "msaName": "Columbus, OH (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.5% below national average"
   }
 }

@@ -254,5 +254,12 @@
     "nslpSchools": 11,
     "nslpPct": 91.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 93.224,
+    "year": "2023",
+    "msaName": "State College, PA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.8% below national average"
   }
 }

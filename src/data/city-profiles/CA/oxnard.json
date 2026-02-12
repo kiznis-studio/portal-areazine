@@ -352,5 +352,12 @@
     "nslpSchools": 176,
     "nslpPct": 83.4,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 113.47,
+    "year": "2023",
+    "msaName": "Oxnard-Thousand Oaks-Ventura, CA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "13.5% above national average"
   }
 }

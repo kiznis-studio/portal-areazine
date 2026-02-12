@@ -348,5 +348,12 @@
     "nslpSchools": 72,
     "nslpPct": 80.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 104.547,
+    "year": "2023",
+    "msaName": "Anchorage, AK (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "4.5% above national average"
   }
 }

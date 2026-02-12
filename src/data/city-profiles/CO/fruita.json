@@ -309,5 +309,12 @@
     "nslpSchools": 40,
     "nslpPct": 90.9,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.131,
+    "year": "2023",
+    "msaName": "Grand Junction, CO (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.9% below national average"
   }
 }

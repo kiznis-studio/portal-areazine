@@ -301,5 +301,12 @@
     "nslpSchools": 112,
     "nslpPct": 86.2,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 106.615,
+    "year": "2023",
+    "msaName": "Portland-Vancouver-Hillsboro, OR-WA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "6.6% above national average"
   }
 }

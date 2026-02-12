@@ -340,5 +340,12 @@
     "nslpSchools": 15,
     "nslpPct": 93.8,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 105.815,
+    "year": "2023",
+    "msaName": "Barnstable Town, MA (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "5.8% above national average"
   }
 }

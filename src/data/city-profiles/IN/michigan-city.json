@@ -317,5 +317,12 @@
     "nslpSchools": 12,
     "nslpPct": 85.7,
     "virtualSchools": 0
+  },
+  "costOfLiving": {
+    "rpp": 92.071,
+    "year": "2023",
+    "msaName": "Michigan City-La Porte, IN (MSA)",
+    "source": "BEA Regional Price Parities via FRED",
+    "description": "7.9% below national average"
   }
 }
