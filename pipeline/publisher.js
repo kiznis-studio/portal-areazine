@@ -102,7 +102,18 @@ function buildAndDeploy(articleCount) {
   console.log('[publisher] Building site...');
   const buildStart = Date.now();
 
-  execFileSync('npm', ['run', 'build'], {
+  // Run prebuild (article-location-index for city pages)
+  execFileSync('node', ['scripts/prebuild-article-index.cjs'], {
+    cwd: REPO_DIR,
+    encoding: 'utf-8',
+    timeout: 60_000,
+  });
+
+  // Run astro build with explicit memory limit (NODE_OPTIONS doesn't propagate through npm)
+  execFileSync('node', [
+    '--max-old-space-size=2048',
+    'node_modules/.bin/astro', 'build',
+  ], {
     cwd: REPO_DIR,
     encoding: 'utf-8',
     timeout: 600_000,
@@ -110,7 +121,6 @@ function buildAndDeploy(articleCount) {
       ...process.env,
       SKIP_OG: 'true',
       NODE_ENV: 'production',
-      NODE_OPTIONS: '--max-old-space-size=2048',
       PATH: process.env.PATH,
     },
   });

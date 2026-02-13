@@ -74,9 +74,8 @@ function main() {
   for (const file of mdFiles) {
     const raw = fs.readFileSync(file, 'utf-8');
     const data = parseFrontmatter(raw);
-    // Article ID is the relative path from content/articles/ without extension
-    const relPath = path.relative(ARTICLES_DIR, file);
-    const id = relPath.replace(/\.md$/, '');
+    // Article ID must match Astro 5 content collection IDs (filename only, no path)
+    const id = path.basename(file, '.md');
 
     articles.push({
       id,
