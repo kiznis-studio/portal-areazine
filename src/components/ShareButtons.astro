@@ -1,0 +1,103 @@
+---
+interface Props {
+  title: string;
+  url: string;
+}
+
+const { title, url } = Astro.props;
+const encodedTitle = encodeURIComponent(title);
+const encodedUrl = encodeURIComponent(url);
+---
+
+<div class="share-buttons flex items-center gap-3 mt-6">
+  <span class="text-sm text-[var(--color-muted)] font-medium">Share:</span>
+
+  <a
+    href={`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="share-btn"
+    title="Share on X"
+  >
+    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+    </svg>
+  </a>
+
+  <a
+    href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="share-btn"
+    title="Share on Facebook"
+  >
+    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+    </svg>
+  </a>
+
+  <a
+    href={`https://www.reddit.com/submit?url=${encodedUrl}&title=${encodedTitle}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="share-btn"
+    title="Share on Reddit"
+  >
+    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 6.627 5.373 12 12 12s12-5.373 12-12c0-6.627-5.373-12-12-12zm6.066 13.27c.008.145.012.29.012.436 0 3.124-3.636 5.66-8.121 5.66-4.486 0-8.122-2.536-8.122-5.66 0-.148.004-.294.013-.44A2.227 2.227 0 011 11.045a2.228 2.228 0 013.806-1.574c1.47-.96 3.494-1.582 5.748-1.659l.97-4.562a.405.405 0 01.481-.307l3.219.677a1.592 1.592 0 013.04.569 1.592 1.592 0 01-1.591 1.592 1.593 1.593 0 01-1.557-1.903l-2.867-.602-.862 4.06c2.222.09 4.213.71 5.66 1.657a2.228 2.228 0 013.806 1.574 2.227 2.227 0 01-.787 2.203zM9.6 10.8a1.591 1.591 0 100 3.183 1.591 1.591 0 000-3.183zm4.8 0a1.591 1.591 0 100 3.183 1.591 1.591 0 000-3.183zm-5.1 5.037c-.106-.106-.106-.28 0-.386a.27.27 0 01.386 0c.692.692 1.99.744 2.322.744.331 0 1.63-.051 2.322-.744a.27.27 0 01.386 0 .27.27 0 010 .386c-.883.883-2.575.95-2.708.95-.132 0-1.825-.067-2.708-.95z"/>
+    </svg>
+  </a>
+
+  <button
+    class="share-btn copy-link-btn"
+    title="Copy link"
+    data-url={url}
+  >
+    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+    </svg>
+  </button>
+</div>
+
+<style>
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border);
+    color: var(--color-muted);
+    transition: all 0.15s;
+    cursor: pointer;
+    background: none;
+  }
+  .share-btn:hover {
+    color: var(--color-foreground);
+    border-color: var(--color-muted);
+  }
+</style>
+
+<script>
+  document.querySelectorAll('.copy-link-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const url = btn.getAttribute('data-url');
+      if (!url) return;
+      try {
+        await navigator.clipboard.writeText(url);
+        const svg = btn.querySelector('svg');
+        if (svg) {
+          const original = svg.outerHTML;
+          svg.outerHTML = '<svg class="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>';
+          setTimeout(() => {
+            const check = btn.querySelector('svg');
+            if (check) check.outerHTML = original;
+          }, 2000);
+        }
+      } catch {
+        // Fallback: select a hidden input
+      }
+    });
+  });
+</script>

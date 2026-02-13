@@ -1,7 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
+import ShareButtons from '../components/ShareButtons.astro';
 import { getCollection, render } from 'astro:content';
-import { getCategoryMeta, formatDate, SITE_NAME } from '../lib/config';
+import { getCategoryMeta, formatDate, SITE_NAME, SITE_URL } from '../lib/config';
 import type { CategoryKey } from '../lib/config';
 
 export async function getStaticPaths() {
@@ -75,10 +76,11 @@ const related = allArticles
         <Content />
       </div>
 
-      <div class="mt-8 pt-6 border-t border-[var(--color-border)]">
+      <div class="mt-8 pt-6 border-t border-[var(--color-border)] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <p class="text-sm text-[var(--color-muted)]">
           Source: <a href={article.data.sourceUrl} target="_blank" rel="noopener noreferrer" class="text-[var(--color-accent)] hover:underline">{article.data.sourceAgency} Official Notice</a>
         </p>
+        <ShareButtons title={article.data.title} url={`${SITE_URL}/${catMeta.slug}/${article.id}`} />
       </div>
 
       {related.length > 0 && (
