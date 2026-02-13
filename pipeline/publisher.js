@@ -111,7 +111,7 @@ function buildAndDeploy(articleCount) {
 
   // Run astro build with explicit memory limit (NODE_OPTIONS doesn't propagate through npm)
   execFileSync('node', [
-    '--max-old-space-size=2048',
+    '--max-old-space-size=2560',
     'node_modules/.bin/astro', 'build',
   ], {
     cwd: REPO_DIR,
