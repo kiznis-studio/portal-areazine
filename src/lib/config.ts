@@ -1,6 +1,7 @@
 export const SITE_NAME = 'Areazine';
 export const SITE_URL = 'https://areazine.com';
-export const SITE_DESCRIPTION = 'Public data transformed into readable news. Government recalls, safety alerts, and economic data — explained clearly.';
+export const SITE_DESCRIPTION = 'Product recalls, drug shortages, weather alerts, and city data from official U.S. government sources — updated daily.';
+export const SITE_TITLE = 'Areazine — Recalls, Safety Alerts & City Data';
 
 export const CATEGORIES = {
   'recalls-cpsc': { label: 'Product Recalls', slug: 'recalls/cpsc', color: 'recalls', icon: 'shield' },

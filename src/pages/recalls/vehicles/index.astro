@@ -7,8 +7,8 @@ import type { CategoryKey } from '../../../lib/config';
 
 const category: CategoryKey = 'recalls-vehicles';
 const meta = getCategoryMeta(category);
-const title = 'Vehicle Recalls';
-const description = 'Latest vehicle safety recalls from the National Highway Traffic Safety Administration (NHTSA).';
+const title = 'NHTSA Vehicle Recalls';
+const description = 'Latest vehicle safety recalls from NHTSA. Affected makes and models, defect descriptions, and repair instructions — updated daily.';
 
 const articles = (await getCollection('articles'))
   .filter((a) => a.data.category === category)

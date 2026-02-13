@@ -7,8 +7,8 @@ import type { CategoryKey } from '../../../lib/config';
 
 const category: CategoryKey = 'recalls-fda';
 const meta = getCategoryMeta(category);
-const title = 'FDA Recalls';
-const description = 'Latest drug and food recalls from the U.S. Food and Drug Administration (FDA).';
+const title = 'Latest FDA Food & Drug Recalls';
+const description = 'Current food and drug recalls from the FDA. Safety alerts, affected products, and consumer guidance — updated daily.';
 
 const articles = (await getCollection('articles'))
   .filter((a) => a.data.category === category)

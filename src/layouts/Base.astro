@@ -17,7 +17,7 @@ interface Props {
 }
 
 const props = Astro.props;
-const fullTitle = props.title === SITE_NAME ? props.title : `${props.title} | ${SITE_NAME}`;
+const fullTitle = props.title.includes(SITE_NAME) ? props.title : `${props.title} | ${SITE_NAME}`;
 ---
 
 <!DOCTYPE html>

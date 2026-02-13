@@ -7,8 +7,8 @@ import type { CategoryKey } from '../../lib/config';
 
 const category: CategoryKey = 'earthquakes';
 const meta = getCategoryMeta(category);
-const title = 'Earthquake Reports';
-const description = 'Recent earthquake activity and seismic events from the U.S. Geological Survey (USGS).';
+const title = 'Recent Earthquakes (USGS)';
+const description = 'Recent earthquake activity and seismic events reported by the USGS. Magnitude, location, depth, and impact for quakes M2.5+.';
 
 const articles = (await getCollection('articles'))
   .filter((a) => a.data.category === category)

@@ -5,8 +5,8 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import { getCategoryMeta } from '../../lib/config';
 import type { CategoryKey } from '../../lib/config';
 
-const title = 'Product & Safety Recalls';
-const description = 'Latest product recalls, safety alerts, and consumer warnings from CPSC, FDA, and NHTSA.';
+const title = 'Product & Safety Recalls (CPSC, FDA, NHTSA)';
+const description = 'Today\'s product recalls and safety alerts from CPSC, FDA, and NHTSA. Consumer products, food, drugs, and vehicles — updated daily.';
 
 const allRecalls = (await getCollection('articles'))
   .filter((article) => article.data.category.startsWith('recalls-'))

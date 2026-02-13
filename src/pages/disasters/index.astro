@@ -7,8 +7,8 @@ import type { CategoryKey } from '../../lib/config';
 
 const category: CategoryKey = 'disasters';
 const meta = getCategoryMeta(category);
-const title = 'Disaster Declarations';
-const description = 'FEMA disaster declarations including hurricanes, tornadoes, wildfires, and other major disasters across the United States.';
+const title = 'FEMA Disaster Declarations';
+const description = 'Active FEMA disaster declarations across the U.S. Federal aid eligibility, affected areas, and response updates for hurricanes, wildfires, and more.';
 
 const articles = (await getCollection('articles'))
   .filter((a) => a.data.category === category)

@@ -7,8 +7,8 @@ import type { CategoryKey } from '../../../lib/config';
 
 const category: CategoryKey = 'recalls-cpsc';
 const meta = getCategoryMeta(category);
-const title = 'CPSC Product Recalls';
-const description = 'Latest consumer product safety recalls from the U.S. Consumer Product Safety Commission (CPSC).';
+const title = 'Latest CPSC Product Recalls';
+const description = 'Today\'s consumer product safety recalls from the CPSC. Affected products, hazards, and what to do — updated daily.';
 
 const articles = (await getCollection('articles'))
   .filter((a) => a.data.category === category)

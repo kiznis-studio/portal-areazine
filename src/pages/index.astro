@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
-import { SITE_NAME, SITE_DESCRIPTION, getCategoryMeta, getCategoryBadgeClass } from '../lib/config';
+import { SITE_NAME, SITE_DESCRIPTION, SITE_TITLE, getCategoryMeta, getCategoryBadgeClass } from '../lib/config';
 import type { CategoryKey } from '../lib/config';
 import { CITIES, US_STATES } from '../data/cities';
 import { fmt, fmtMoney, fmtCompact } from '../lib/format';
@@ -51,7 +51,7 @@ const topCities = CITIES
 ---
 
 <Base
-  title={SITE_NAME}
+  title={SITE_TITLE}
   description={SITE_DESCRIPTION}
 >
   <div class="container py-8 md:py-12">
