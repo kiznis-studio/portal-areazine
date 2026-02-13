@@ -1,62 +1,82 @@
-# Old areazine.com was a city/country news aggregator.
-# Redirect old city paths to new city data pages.
+# Old areazine.com redirects → new Areazine structure.
+# Updated 2026-02-13. CF Pages free plan: 100 rule limit.
+# Bare slug rules only (no /* splats) to stay within limit.
 
-# US cities → City data pages
-/charlotte/* /cities/charlotte 301
-/charlotte /cities/charlotte 301
-/akron/* /cities/akron 301
-/akron /cities/akron 301
-/dallas/* /cities/dallas-tx 301
-/dallas /cities/dallas-tx 301
-/houston/* /cities/houston 301
-/houston /cities/houston 301
-/atlanta/* /cities/atlanta 301
-/atlanta /cities/atlanta 301
-/austin/* /cities/austin-tx 301
-/austin /cities/austin-tx 301
-/boston/* /cities/boston 301
-/boston /cities/boston 301
-/chicago/* /cities/chicago 301
-/chicago /cities/chicago 301
-/denver/* /cities/denver 301
-/denver /cities/denver 301
-/detroit/* /cities/detroit 301
-/detroit /cities/detroit 301
-/miami/* /cities/miami-fl 301
-/miami /cities/miami-fl 301
-/phoenix/* /cities/phoenix 301
-/phoenix /cities/phoenix 301
-/seattle/* /cities/seattle 301
-/seattle /cities/seattle 301
-/los-angeles/* /cities/los-angeles 301
-/los-angeles /cities/los-angeles 301
-/san-francisco/* /cities/san-francisco 301
-/san-francisco /cities/san-francisco 301
+# ─── US Cities → City profiles ────────────────────────────────────
 
-# Earthquake-prone international regions → Earthquakes
-/santiago/* /earthquakes 301
-/santiago /earthquakes 301
-/mexico/* /earthquakes 301
-/mexico /earthquakes 301
-/japan/* /earthquakes 301
-/japan /earthquakes 301
-/chile/* /earthquakes 301
-/chile /earthquakes 301
+/akron /cities/akron/ 301
+/amarillo /cities/amarillo/ 301
+/anaheim /cities/anaheim/ 301
+/atlanta /cities/atlanta/ 301
+/austin /cities/austin-tx/ 301
+/bakersfield /cities/bakersfield/ 301
+/baton-rouge /cities/baton-rouge/ 301
+/boston /cities/boston/ 301
+/buffalo /cities/buffalo-ny/ 301
+/charleston /cities/charleston-sc/ 301
+/charlotte /cities/charlotte/ 301
+/chicago /cities/chicago/ 301
+/dallas /cities/dallas-tx/ 301
+/denver /cities/denver/ 301
+/detroit /cities/detroit/ 301
+/durham /cities/durham-nc/ 301
+/houston /cities/houston/ 301
+/lancaster /cities/lancaster-ca/ 301
+/los-angeles /cities/los-angeles/ 301
+/madison /cities/madison-al/ 301
+/manhattan /cities/manhattan/ 301
+/miami /cities/miami-fl/ 301
+/new-york /cities/new-york-city/ 301
+/philadelphia /cities/philadelphia/ 301
+/phoenix /cities/phoenix/ 301
+/reno /cities/reno/ 301
+/san-francisco /cities/san-francisco/ 301
+/seattle /cities/seattle/ 301
+/sioux-falls /cities/sioux-falls/ 301
+/tampa /cities/tampa/ 301
+/wichita /cities/wichita/ 301
 
-# Country/international pages → All articles
-/iraq/* /articles 301
-/iraq /articles 301
-/ukraine/* /articles 301
-/ukraine /articles 301
-/china/* /articles 301
-/china /articles 301
-/india/* /articles 301
-/india /articles 301
+# ─── States ───────────────────────────────────────────────────────
 
-# Generic old paths → All articles
-/news/* /articles 301
-/news /articles 301
-/breaking/* /articles 301
-/breaking /articles 301
-/latest/* /articles 301
-/latest /articles 301
+/arizona /states/ 301
+/maryland /states/ 301
+
+# ─── Earthquake regions ───────────────────────────────────────────
+
+/santiago /earthquakes/ 301
+/mexico /earthquakes/ 301
+/japan /earthquakes/ 301
+/chile /earthquakes/ 301
+
+# ─── International cities/countries → Articles ────────────────────
+
+/australia /articles/ 301
+/belfast /articles/ 301
+/bergen /articles/ 301
+/bhutan /articles/ 301
+/brazil /articles/ 301
+/china /articles/ 301
+/dakar /articles/ 301
+/france /articles/ 301
+/india /articles/ 301
+/indonesia /articles/ 301
+/iraq /articles/ 301
+/italy /articles/ 301
+/manama /articles/ 301
+/maputo /articles/ 301
+/mauritania /articles/ 301
+/montreal /articles/ 301
+/moscow /articles/ 301
+/paris /articles/ 301
+/sarajevo /articles/ 301
+/solomon-islands /articles/ 301
+/toronto /articles/ 301
+/ukraine /articles/ 301
+/yerevan /articles/ 301
+
+# ─── Generic old paths ────────────────────────────────────────────
+
+/news /articles/ 301
+/breaking /articles/ 301
+/latest /articles/ 301
+/us /articles/ 301
